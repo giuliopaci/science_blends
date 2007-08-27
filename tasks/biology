@@ -1,0 +1,13 @@
+Task: Biology
+Description: Debian-Science Biology packages
+ This metapackage will install Debian-Science packages related to Biology.
+ You might be interested as well in field::biology debtag.
+Depends: axiom
+Why: Symbolic computations
+
+Depends: med-bio
+
+Recommends: med-bio-dev
+
+Suggests: biomode
+

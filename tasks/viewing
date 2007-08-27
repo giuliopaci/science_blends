@@ -1,0 +1,32 @@
+Task: Viewing
+Description: Debian-Science data visualisation packages
+ This metapackage will install Debian-Science packages related to data
+ visualization.
+ You might be interested as well in use::viewing debtag.
+
+Depends: pdl
+Why: IDL-like, gnudatalanguage should come here
+
+Depends: kst
+Why: displaying scientific data
+
+Depends: ifrit
+
+Depends: yorick
+
+Depends: python-scientific
+Why: Maybe should go in some other metapackage (mathematics?)
+
+Depends: fityk
+
+Depends: gnuplot, grace, gri, labplot, graphviz
+
+Depends: imview
+
+Depends: mayavi
+
+Recommends: med-imaging
+
+Suggests: pgplot5
+Why: non-free
+

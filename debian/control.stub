@@ -1,0 +1,11 @@
+Source: debian-science
+Section: misc
+Priority: extra
+Maintainer: Debian-Science mailing list <debian-science@lists.debian.org>
+Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>
+Build-Depends: debhelper (>= 5)
+Build-Depends-Indep: cdd-dev
+Standards-Version: 3.7.2
+
+Package: science
+Architecture: all

@@ -1,0 +1,37 @@
+Task: Statistics
+Description: Debian-Science Statistics packages
+ This metapackage will install Debian-Science packages related to Statistics.
+
+Depends: ess, littler, r-recommended, rkward
+Why: R utilities or frontends
+
+Recommends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
+            r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, \
+            r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, \
+            r-cran-dbi, r-cran-design, r-cran-e1071, r-cran-eco, \
+            r-cran-effects, r-cran-fbasics, r-cran-fcalendar, \
+            r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, \
+            r-cran-fmultivar, r-cran-foptions, r-cran-foreign, \
+            r-cran-fportfolio, r-cran-fseries, r-cran-gdata, r-cran-gmodels, \
+            r-cran-gplots, r-cran-gregmisc, r-cran-gtools, r-cran-hdf5, \
+            r-cran-hmisc, r-cran-its, r-cran-kernsmooth, r-cran-lattice, \
+            r-cran-latticeextra, r-cran-lme4, r-cran-lmtest, r-cran-mapdata, \
+            r-cran-maps, r-cran-matchit, r-cran-matrix, r-cran-mcmcpack, \
+            r-cran-mgcv, r-cran-misc3d, r-cran-mnp, r-cran-multcomp, \
+            r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, r-cran-psy, \
+            r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, r-cran-rcompgen, \
+            r-cran-relimp, r-cran-rggobi, r-cran-rgl, r-cran-rgtk2, \
+            r-cran-rmetrics, r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, \
+            r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, \
+            r-cran-rsprng, r-cran-sandwich, r-cran-sm, r-cran-snow, \
+            r-cran-strucchange, r-cran-survival, r-cran-tkrplot, \
+            r-cran-tseries, r-cran-vgam, r-cran-vr, r-cran-xml, \
+            r-cran-zelig, r-cran-zoo
+Why: R CRAN
+
+Recommends: r-other-gking-matchit
+ 
+Depends: psignifit, python-stats
+
+Suggests: science-mathematics
+

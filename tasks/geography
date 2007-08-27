@@ -1,0 +1,24 @@
+Task: Geography
+Description: Debian-Science Geography packages
+ This metapackage will install Debian-Science packages related to Geography.
+ You might be interested as well in field::geography debtag and, depending on 
+ your focus, in education-geography metapackage.
+
+# See with people from Debian-GIS (and depend from their packages)
+
+Depends: grass, qgis, gmt, gdal, proj
+Why: http://wiki.debian.org/DebianGis/PackageList
+
+Depends: qgis-plugin-grass
+
+Depends: thuban
+
+Depends: gpsbabel, gpx2shp
+Why: GPS
+
+Recommends: postgis
+
+Depends: r-cran-mapdata, r-cran-maps
+
+Suggests: openjump
+Why: Is currently in contrib but should work with free Java machines.

@@ -1,0 +1,25 @@
+Task: Chemistry
+Description: Debian-Science Chemistry packages
+ This metapackage will install Debian-Science packages related to Chemistry.
+ You might be interested as well in field::chemistry debtag and, depending on 
+ your focus, in education-chemistry metapackage.
+
+# See with people from debichem (and depend from their packages)
+
+Depends: openbabel, chemeq
+
+Depends: chemtool, easychem, garlic, gdis, gdpc, ghemical
+
+Depends: pymol, rasmol, viewmol, xbs, xdrawchem, xmakemol-gl | xmakemol
+
+Depends: gromacs | gromacs-lam | gromacs-mpich
+
+Depends: polyxmass
+
+Depends: gausssum
+
+Depends: mpqc, mpqc-support
+
+Recommends: bodr, chemical-mime-data
+
+Suggests: gdpc-examples

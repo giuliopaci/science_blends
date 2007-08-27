@@ -1,0 +1,34 @@
+Task: Electronics
+Description: Debian-Science Electronics packages
+ This metapackage will install Debian-Science packages related to Electronics.
+ You might be interested as well in field::electronics debtag and, depending
+ on your focus, in education-electronics metapackage.
+
+Depends: avrdude, electric, gcc-avr, gerbv, qucs, uisp
+
+Depends: geda
+Suggests: geda-examples, geda-doc
+
+Depends: kicad
+Suggests: kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, \
+          kicad-doc-it, kicad-doc-pt, kicad-doc-ru
+
+Depends: ghdl, vbpp, vbs, verilog
+Why: VHDL
+
+Depends: klogic, ksimus
+
+Depends: gputils, simulpic
+Why: PIC
+
+Depends: pcb
+Why: PCB
+
+Depends: oregano
+
+Recommends: circ-tex
+
+Recommends: linsmith, xsmc-calc, vipec
+Why: Smith charts
+
+Recommends: confluence

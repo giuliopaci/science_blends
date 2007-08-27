@@ -1,0 +1,32 @@
+Task: Mathematics
+Description: Debian-Science Mathematics packages
+ This metapackage will install Debian-Science packages related to Mathematics.
+ You might be interested as well in field::mathematics debtag and, depending
+ on your focus, in education-mathematics metapackage.
+
+Depends: axiom, ginac-tools, xmaxima, wxmaxima
+Why: Symbolic computations
+
+Depends: pari-gp, pari-extra
+
+Depends: gap, magnus
+Why: Group theory
+
+Depends: gerris
+Why: CFD
+
+Depends: coq, proofgeneral, proofgeneral-coq
+Why: Proof assistant
+
+Depends: octave | octave2.1
+
+Recommends: octaviz
+
+Depends: python-numpy
+
+Recommends: science-statistics
+
+Recommends: geomview
+
+Suggests: scilab
+Why: In non-free
