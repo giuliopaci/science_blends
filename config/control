@@ -1,0 +1,28 @@
+Package: science-config
+Architecture: all
+Depends: adduser, ${misc:Depends}, menu, cdd-common (>= 0.4)
+Description: Debian-Science Project config package
+ This package provides the basic infrastructure of all science-* packages and is
+ needed by them.
+ .
+ This are the science related meta packages in the Debian-Science project:
+ .
+  * science-astronomy   packages related to astronomy
+  * science-biology     packages related to biology
+  * science-chemistry   packages related to chemistry
+  * science-electronics packages related to electronics
+  * science-geography   packages related to geography
+  * science-mathematics packages related to mathematics
+  * science-physics     packages related to physics
+ .
+ This are meta packages for common utilities for all sciences:
+ .
+  * science-statistics  packages related to statistics
+  * science-typesetting packages related to typesetting
+  * science-viewing     packages related to viewing
+ .
+ Note: All these packages are so called metapackages. This means they are not
+ executable programs, but only links to other packages. This way you will
+ conveniently get all the non-commercial scientific software which is available
+ for Debian GNU/Linux.
+
