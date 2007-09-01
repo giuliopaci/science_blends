@@ -1,0 +1,137 @@
+Source: debian-science
+Section: misc
+Priority: extra
+Maintainer: Debian-Science mailing list <debian-science@lists.debian.org>
+Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper (>= 5)
+Build-Depends-Indep: cdd-dev (>= 0.4)
+Standards-Version: 3.7.2
+
+Package: science-tasks
+Architecture: all
+Depends: tasksel (>= 2.07)
+Description: Debian-Science tasks for tasksel
+ This package provides Debian-Science tasks in tasksel.
+
+Package: science-config
+Architecture: all
+Depends: adduser, ${misc:Depends}, menu, cdd-common (>= 0.4)
+Description: Debian-Science Project config package
+ This package provides the basic infrastructure of all science-* packages and is
+ needed by them.
+ .
+ This are the science related meta packages in the Debian-Science project:
+ .
+  * science-astronomy   packages related to astronomy
+  * science-biology     packages related to biology
+  * science-chemistry   packages related to chemistry
+  * science-electronics packages related to electronics
+  * science-geography   packages related to geography
+  * science-mathematics packages related to mathematics
+  * science-physics     packages related to physics
+ .
+ This are meta packages for common utilities for all sciences:
+ .
+  * science-statistics  packages related to statistics
+  * science-typesetting packages related to typesetting
+  * science-viewing     packages related to viewing
+ .
+ Note: All these packages are so called metapackages. This means they are not
+ executable programs, but only links to other packages. This way you will
+ conveniently get all the non-commercial scientific software which is available
+ for Debian GNU/Linux.
+
+Package: science-astronomy
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: fv, gcx, libcfitsio3, slang-cfitsio, xorsa
+Description: Debian-Science Astronomy packages
+ This metapackage will install Debian-Science packages related to Astronomy.
+ You might be interested as well in field::astronomy debtag and, depending on
+ your focus, in education-astronomy metapackage.
+
+Package: science-biology
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: axiom, med-bio, med-bio-dev
+Suggests: biomode
+Description: Debian-Science Biology packages
+ This metapackage will install Debian-Science packages related to Biology.
+ You might be interested as well in field::biology debtag.
+
+Package: science-chemistry
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: bodr, chemeq, chemical-mime-data, chemtool, easychem, garlic, gausssum, gdis, gdpc, ghemical, gromacs | gromacs-lam | gromacs-mpich, mpqc, mpqc-support, openbabel, polyxmass, pymol, rasmol, viewmol, xbs, xdrawchem, xmakemol-gl | xmakemol
+Suggests: gdpc-examples
+Description: Debian-Science Chemistry packages
+ This metapackage will install Debian-Science packages related to Chemistry.
+ You might be interested as well in field::chemistry debtag and, depending on 
+ your focus, in education-chemistry metapackage.
+
+Package: science-electronics
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: avrdude, confluence, electric, gcc-avr, geda, gerbv, ghdl, gputils, kicad, klogic, ksimus, linsmith, oregano, pcb, qucs, simulpic, texlive-latex-extra, uisp, vbpp, vbs, verilog, vipec, xsmc-calc
+Suggests: geda-doc, geda-examples, kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, kicad-doc-it, kicad-doc-pt, kicad-doc-ru
+Description: Debian-Science Electronics packages
+ This metapackage will install Debian-Science packages related to Electronics.
+ You might be interested as well in field::electronics debtag and, depending
+ on your focus, in education-electronics metapackage.
+
+Package: science-geography
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: gmt, gpsbabel, gpx2shp, grass, postgis, proj, qgis, qgis-plugin-grass, r-cran-mapdata, r-cran-maps, thuban
+Suggests: gdal, openjump
+Description: Debian-Science Geography packages
+ This metapackage will install Debian-Science packages related to Geography.
+ You might be interested as well in field::geography debtag and, depending on 
+ your focus, in education-geography metapackage.
+
+Package: science-mathematics
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: axiom, coq, gap, geomview, gerris, ginac-tools, magnus, octave | octave2.1, octaviz, pari-extra, pari-gp, proofgeneral, proofgeneral-coq, python-numpy, science-statistics, wxmaxima, xmaxima
+Suggests: scilab
+Description: Debian-Science Mathematics packages
+ This metapackage will install Debian-Science packages related to Mathematics.
+ You might be interested as well in field::mathematics debtag and, depending
+ on your focus, in education-mathematics metapackage.
+
+Package: science-physics
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: cernlib, feynmf, fityk, freefem, geant321, paw, paw++, science-electronics, tessa | tessa-mpi
+Suggests: horae, ifeffit, paw-demos, sixpack
+Description: Debian-Science Physics packages
+ This metapackage will install Debian-Science packages related to Physics.
+ You might be interested as well in field::physics debtag and, depending on 
+ your focus, in education-physics metapackage.
+
+Package: science-statistics
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: ess, littler, psignifit, python-stats, r-cran-abind, r-cran-acepack, r-cran-bayesm, r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, r-cran-dbi, r-cran-design, r-cran-e1071, r-cran-eco, r-cran-effects, r-cran-fbasics, r-cran-fcalendar, r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, r-cran-fmultivar, r-cran-foptions, r-cran-foreign, r-cran-fportfolio, r-cran-fseries, r-cran-gdata, r-cran-gmodels, r-cran-gplots, r-cran-gregmisc, r-cran-gtools, r-cran-hdf5, r-cran-hmisc, r-cran-its, r-cran-kernsmooth, r-cran-lattice, r-cran-latticeextra, r-cran-lme4, r-cran-lmtest, r-cran-mapdata, r-cran-maps, r-cran-matchit, r-cran-matrix, r-cran-mcmcpack, r-cran-mgcv, r-cran-misc3d, r-cran-mnp, r-cran-multcomp, r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, r-cran-psy, r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, r-cran-rcompgen, r-cran-relimp, r-cran-rggobi, r-cran-rgl, r-cran-rgtk2, r-cran-rmetrics, r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, r-cran-rsprng, r-cran-sandwich, r-cran-sm, r-cran-snow, r-cran-strucchange, r-cran-survival, r-cran-tkrplot, r-cran-tseries, r-cran-vgam, r-cran-vr, r-cran-xml, r-cran-zelig, r-cran-zoo, r-other-gking-matchit, r-recommended, rkward
+Suggests: r-cran-mapproj, science-mathematics
+Description: Debian-Science Statistics packages
+ This metapackage will install Debian-Science packages related to Statistics.
+
+Package: science-typesetting
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: dia, diploma, feynmf, impose+, kbibtex, lyx, lyx-qt | lyx-xforms, pybliographer, referencer, texlive, texlive-bibtex-extra, texlive-math-extra, texlive-publishers, texlive-science, texmacs, texmacs-extra-fonts, transfig, xfig
+Description: Debian-Science typesetting packages
+ This metapackage will install Debian-Science packages related to typesetting.
+ You might be interested as well in use::typesetting debtag.
+
+Package: science-viewing
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: fityk, gnuplot, grace, graphviz, gri, ifrit, imview, kst, labplot, mayavi, med-imaging, pdl, python-scientific, yorick
+Suggests: pgplot5
+Description: Debian-Science data visualisation packages
+ This metapackage will install Debian-Science packages related to data
+ visualization.
+ You might be interested as well in use::viewing debtag.
+
