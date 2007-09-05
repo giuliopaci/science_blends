@@ -6,7 +6,7 @@ Description: Debian-Science Physics packages
 
 # root-system to come
 
-Recommends: cernlib, geant321, paw++, paw
+Depends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
 Recommends: feynmf

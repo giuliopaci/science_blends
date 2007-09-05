@@ -4,7 +4,7 @@ Description: Debian-Science Mathematics packages
  You might be interested as well in field::mathematics debtag and, depending
  on your focus, in education-mathematics metapackage.
 
-Recommends: axiom, ginac-tools, xmaxima, wxmaxima
+Depends: axiom, ginac-tools, xmaxima, wxmaxima
 Why: Symbolic computations
 
 Recommends: pari-gp, pari-extra

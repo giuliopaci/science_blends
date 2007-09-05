@@ -6,7 +6,7 @@ Description: Debian-Science Geography packages
 
 # See with people from Debian-GIS (and depend from their packages)
 
-Recommends: grass, qgis, gmt, gdal, proj
+Depends: grass, qgis, gmt, gdal, proj
 Why: http://wiki.debian.org/DebianGis/PackageList
 
 Recommends: qgis-plugin-grass

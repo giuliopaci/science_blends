@@ -4,7 +4,7 @@ Description: Debian-Science Astronomy packages
  You might be interested as well in field::astronomy debtag and, depending on
  your focus, in education-astronomy metapackage.
 
-Recommends: libcfitsio3, fv, gcx, slang-cfitsio
+Depends: libcfitsio3, fv, gcx, slang-cfitsio
 Why: FITS format file
 
 Recommends: xorsa

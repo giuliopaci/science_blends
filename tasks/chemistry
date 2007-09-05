@@ -6,7 +6,7 @@ Description: Debian-Science Chemistry packages
 
 # See with people from debichem (and depend from their packages)
 
-Recommends: openbabel, chemeq
+Depends: openbabel, chemeq
 
 Recommends: chemtool, easychem, garlic, gdis, gdpc, ghemical
 

@@ -20,7 +20,7 @@ Description: Debian-Science Project config package
  This package provides the basic infrastructure of all science-* packages and is
  needed by them.
  .
- This are the science related meta packages in the Debian-Science project:
+ These are the science related metapackages in the Debian-Science project:
  .
   * science-astronomy   packages related to astronomy
   * science-biology     packages related to biology
@@ -38,9 +38,8 @@ Description: Debian-Science Project config package
  .
  Note: All these packages are so called metapackages. This means they are not
  executable programs, but only links to other packages. This way you will
- conveniently get all the non-commercial scientific software which is available
- for Debian GNU/Linux.
-
+ conveniently get most of scientific free software which is available in
+ Debian.
 Package: science-astronomy
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
@@ -53,7 +52,7 @@ Description: Debian-Science Astronomy packages
 Package: science-biology
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: axiom, med-bio, med-bio-dev
+Recommends: med-bio, med-bio-dev
 Suggests: biomode
 Description: Debian-Science Biology packages
  This metapackage will install Debian-Science packages related to Biology.
@@ -128,7 +127,6 @@ Description: Debian-Science typesetting packages
 Package: science-viewing
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: fityk, gnuplot, grace, graphviz, gri, ifrit, imview, kst, labplot, mayavi, med-imaging, pdl, python-scientific, yorick
 Suggests: pgplot5
 Description: Debian-Science data visualisation packages
  This metapackage will install Debian-Science packages related to data
