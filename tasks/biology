@@ -5,7 +5,5 @@ Description: Debian-Science Biology packages
 
 Depends: med-bio
 
-Recommends: med-bio-dev
-
-Suggests: biomode
+Suggests: biomode, med-bio-dev
 

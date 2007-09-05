@@ -13,7 +13,7 @@ Recommends: kicad
 Suggests: kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, \
           kicad-doc-it, kicad-doc-pt, kicad-doc-ru
 
-Recommends: ghdl, vbpp, vbs, verilog
+Recommends: freehdl, ghdl, vbpp, vbs, verilog
 Why: VHDL
 
 Recommends: klogic, ksimus

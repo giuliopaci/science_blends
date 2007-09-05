@@ -4,8 +4,6 @@ Description: Debian-Science Physics packages
  You might be interested as well in field::physics debtag and, depending on 
  your focus, in education-physics metapackage.
 
-# root-system to come
-
 Depends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
@@ -19,5 +17,10 @@ Recommends: horae, ifeffit, sixpack
 
 Recommends: tessa | tessa-mpi
 
+Recommends: root-system
+Why: suggested by Kevin B. McCarty, thanks to cdd-dev 0.4 will be turned into \
+     a suggests as long as not available in unstable.
+
 Recommends: science-electronics
 
+Suggests: science-statistics, science-mathematics

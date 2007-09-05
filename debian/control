@@ -43,7 +43,7 @@ Description: Debian-Science Project config package
 Package: science-astronomy
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: fv, gcx, libcfitsio3, slang-cfitsio, xorsa
+Recommends: fv, gcx, libcfitsio3, saods9, slang-cfitsio, xorsa
 Description: Debian-Science Astronomy packages
  This metapackage will install Debian-Science packages related to Astronomy.
  You might be interested as well in field::astronomy debtag and, depending on
@@ -52,8 +52,8 @@ Description: Debian-Science Astronomy packages
 Package: science-biology
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: med-bio, med-bio-dev
-Suggests: biomode
+Recommends: med-bio
+Suggests: biomode, med-bio-dev
 Description: Debian-Science Biology packages
  This metapackage will install Debian-Science packages related to Biology.
  You might be interested as well in field::biology debtag.
@@ -71,7 +71,7 @@ Description: Debian-Science Chemistry packages
 Package: science-electronics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: avrdude, confluence, electric, gcc-avr, geda, gerbv, ghdl, gputils, kicad, klogic, ksimus, linsmith, oregano, pcb, qucs, simulpic, texlive-latex-extra, uisp, vbpp, vbs, verilog, vipec, xsmc-calc
+Recommends: avrdude, confluence, electric, freehdl, gcc-avr, geda, gerbv, ghdl, gputils, kicad, klogic, ksimus, linsmith, oregano, pcb, qucs, simulpic, texlive-latex-extra, uisp, vbpp, vbs, verilog, vipec, xsmc-calc
 Suggests: geda-doc, geda-examples, kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, kicad-doc-it, kicad-doc-pt, kicad-doc-ru
 Description: Debian-Science Electronics packages
  This metapackage will install Debian-Science packages related to Electronics.
@@ -102,7 +102,7 @@ Package: science-physics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: cernlib, feynmf, fityk, freefem, geant321, paw, paw++, science-electronics, tessa | tessa-mpi
-Suggests: horae, ifeffit, paw-demos, sixpack
+Suggests: horae, ifeffit, paw-demos, root-system, science-mathematics, science-statistics, sixpack
 Description: Debian-Science Physics packages
  This metapackage will install Debian-Science packages related to Physics.
  You might be interested as well in field::physics debtag and, depending on 

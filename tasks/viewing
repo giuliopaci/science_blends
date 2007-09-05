@@ -25,6 +25,8 @@ Recommends: imview
 
 Recommends: mayavi
 
+Recommends: g3data
+
 Recommends: med-imaging
 
 Suggests: pgplot5
