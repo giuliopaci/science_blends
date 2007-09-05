@@ -6,19 +6,19 @@ Description: Debian-Science Geography packages
 
 # See with people from Debian-GIS (and depend from their packages)
 
-Depends: grass, qgis, gmt, gdal, proj
+Recommends: grass, qgis, gmt, gdal, proj
 Why: http://wiki.debian.org/DebianGis/PackageList
 
-Depends: qgis-plugin-grass
+Recommends: qgis-plugin-grass
 
-Depends: thuban
+Recommends: thuban
 
-Depends: gpsbabel, gpx2shp
+Recommends: gpsbabel, gpx2shp
 Why: GPS
 
 Recommends: postgis
 
-Depends: r-cran-mapdata, r-cran-maps
+Recommends: r-cran-mapdata, r-cran-maps
 
 Suggests: openjump
 Why: Is currently in contrib but should work with free Java machines.

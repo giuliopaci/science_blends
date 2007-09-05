@@ -5,7 +5,7 @@ Description: Debian-Science Project config package
  This package provides the basic infrastructure of all science-* packages and is
  needed by them.
  .
- This are the science related meta packages in the Debian-Science project:
+ These are the science related metapackages in the Debian-Science project:
  .
   * science-astronomy   packages related to astronomy
   * science-biology     packages related to biology
@@ -23,6 +23,5 @@ Description: Debian-Science Project config package
  .
  Note: All these packages are so called metapackages. This means they are not
  executable programs, but only links to other packages. This way you will
- conveniently get all the non-commercial scientific software which is available
- for Debian GNU/Linux.
-
+ conveniently get most of scientific free software which is available in
+ Debian.

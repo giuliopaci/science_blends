@@ -4,25 +4,25 @@ Description: Debian-Science Mathematics packages
  You might be interested as well in field::mathematics debtag and, depending
  on your focus, in education-mathematics metapackage.
 
-Depends: axiom, ginac-tools, xmaxima, wxmaxima
+Recommends: axiom, ginac-tools, xmaxima, wxmaxima
 Why: Symbolic computations
 
-Depends: pari-gp, pari-extra
+Recommends: pari-gp, pari-extra
 
-Depends: gap, magnus
+Recommends: gap, magnus
 Why: Group theory
 
-Depends: gerris
+Recommends: gerris
 Why: CFD
 
-Depends: coq, proofgeneral, proofgeneral-coq
+Recommends: coq, proofgeneral, proofgeneral-coq
 Why: Proof assistant
 
-Depends: octave | octave2.1
+Recommends: octave | octave2.1
 
 Recommends: octaviz
 
-Depends: python-numpy
+Recommends: python-numpy
 
 Recommends: science-statistics
 

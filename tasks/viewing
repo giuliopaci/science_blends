@@ -4,26 +4,26 @@ Description: Debian-Science data visualisation packages
  visualization.
  You might be interested as well in use::viewing debtag.
 
-Depends: pdl
+Recommends: pdl
 Why: IDL-like, gnudatalanguage should come here
 
-Depends: kst
+Recommends: kst
 Why: displaying scientific data
 
-Depends: ifrit
+Recommends: ifrit
 
-Depends: yorick
+Recommends: yorick
 
-Depends: python-scientific
+Recommends: python-scientific
 Why: Maybe should go in some other metapackage (mathematics?)
 
-Depends: fityk
+Recommends: fityk
 
-Depends: gnuplot, grace, gri, labplot, graphviz
+Recommends: gnuplot, grace, gri, labplot, graphviz
 
-Depends: imview
+Recommends: imview
 
-Depends: mayavi
+Recommends: mayavi
 
 Recommends: med-imaging
 

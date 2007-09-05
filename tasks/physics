@@ -6,18 +6,18 @@ Description: Debian-Science Physics packages
 
 # root-system to come
 
-Depends: cernlib, geant321, paw++, paw
+Recommends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
-Depends: feynmf
+Recommends: feynmf
 
-Depends: freefem
+Recommends: freefem
 
-Depends: fityk
+Recommends: fityk
 
-Depends: horae, ifeffit, sixpack
+Recommends: horae, ifeffit, sixpack
 
-Depends: tessa | tessa-mpi
+Recommends: tessa | tessa-mpi
 
 Recommends: science-electronics
 

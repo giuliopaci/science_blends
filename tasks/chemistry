@@ -6,19 +6,19 @@ Description: Debian-Science Chemistry packages
 
 # See with people from debichem (and depend from their packages)
 
-Depends: openbabel, chemeq
+Recommends: openbabel, chemeq
 
-Depends: chemtool, easychem, garlic, gdis, gdpc, ghemical
+Recommends: chemtool, easychem, garlic, gdis, gdpc, ghemical
 
-Depends: pymol, rasmol, viewmol, xbs, xdrawchem, xmakemol-gl | xmakemol
+Recommends: pymol, rasmol, viewmol, xbs, xdrawchem, xmakemol-gl | xmakemol
 
-Depends: gromacs | gromacs-lam | gromacs-mpich
+Recommends: gromacs | gromacs-lam | gromacs-mpich
 
-Depends: polyxmass
+Recommends: polyxmass
 
-Depends: gausssum
+Recommends: gausssum
 
-Depends: mpqc, mpqc-support
+Recommends: mpqc, mpqc-support
 
 Recommends: bodr, chemical-mime-data
 
