@@ -40,6 +40,7 @@ Description: Debian-Science Project config package
  executable programs, but only links to other packages. This way you will
  conveniently get most of scientific free software which is available in
  Debian.
+
 Package: science-astronomy
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
@@ -119,7 +120,8 @@ Description: Debian-Science Statistics packages
 Package: science-typesetting
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: dia, diploma, feynmf, impose+, kbibtex, lyx, lyx-qt | lyx-xforms, pybliographer, referencer, texlive, texlive-bibtex-extra, texlive-math-extra, texlive-publishers, texlive-science, texmacs, texmacs-extra-fonts, transfig, xfig
+Recommends: dia, diploma, feynmf, impose+, kbibtex, lyx, pybliographer, referencer, texlive, texlive-bibtex-extra, texlive-math-extra, texlive-publishers, texlive-science, texmacs, texmacs-extra-fonts, transfig, xfig
+Suggests: lyx-qt, lyx-xforms
 Description: Debian-Science typesetting packages
  This metapackage will install Debian-Science packages related to typesetting.
  You might be interested as well in use::typesetting debtag.

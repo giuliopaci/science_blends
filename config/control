@@ -25,3 +25,4 @@ Description: Debian-Science Project config package
  executable programs, but only links to other packages. This way you will
  conveniently get most of scientific free software which is available in
  Debian.
+
