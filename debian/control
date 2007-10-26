@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian-Science mailing list <debian-science@lists.debian.org>
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>, Andreas Tille <tille@debian.org>
 Build-Depends: debhelper (>= 5)
-Build-Depends-Indep: cdd-dev (>= 0.4)
+Build-Depends-Indep: cdd-dev (>= 0.4.3)
 Standards-Version: 3.7.2
 
 Package: science-tasks
@@ -40,6 +40,7 @@ Description: Debian-Science Project config package
  executable programs, but only links to other packages. This way you will
  conveniently get most of scientific free software which is available in
  Debian.
+
 
 Package: science-astronomy
 Architecture: all
@@ -92,17 +93,29 @@ Description: Debian-Science Geography packages
 Package: science-mathematics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: axiom, coq, gap, geomview, gerris, ginac-tools, magnus, octave | octave2.1, octaviz, pari-extra, pari-gp, proofgeneral, proofgeneral-coq, python-numpy, science-statistics, wxmaxima, xmaxima
-Suggests: scilab
+Recommends: axiom, coq, freefem, gap, geomview, gerris, ginac-tools, magnus, netgen, octave | octave2.1, octaviz, pari-extra, pari-gp, proofgeneral, proofgeneral-coq, science-statistics, wxmaxima, xmaxima
+Suggests: gmesh, netgen-doc, scilab
 Description: Debian-Science Mathematics packages
  This metapackage will install Debian-Science packages related to Mathematics.
  You might be interested as well in field::mathematics debtag and, depending
  on your focus, in education-mathematics metapackage.
 
+Package: science-mathematics-dev
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: libglpk0, libgsl0-dev, libmesh0.6.0, libnetgen-dev, libsuperlu3, python-numpy
+Suggests: libslepc2.3.2, libtet1.4.2-dev
+Description: Debian-Science Mathematics-dev packages
+ This metapackage will install Debian-Science packages  which might be helpful
+ for development of applications for Mathematics. Please note that there also
+ recommended and only suggested packages which are not installed in any
+ circumstances but only if the user asks for installing these.
+ You might be interested as well in the science-mathematics metapackage.
+
 Package: science-physics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: cernlib, feynmf, fityk, freefem, geant321, paw, paw++, science-electronics, tessa | tessa-mpi
+Recommends: cernlib, feynmf, fityk, geant321, paw, paw++, science-electronics, tessa | tessa-mpi
 Suggests: horae, ifeffit, paw-demos, root-system, science-mathematics, science-statistics, sixpack
 Description: Debian-Science Physics packages
  This metapackage will install Debian-Science packages related to Physics.

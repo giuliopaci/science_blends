@@ -9,8 +9,6 @@ Suggests: paw-demos
 
 Recommends: feynmf
 
-Recommends: freefem
-
 Recommends: fityk
 
 Recommends: horae, ifeffit, sixpack

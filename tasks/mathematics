@@ -15,14 +15,21 @@ Why: Group theory
 Recommends: gerris
 Why: CFD
 
+Recommends: freefem
+Suggests: netgen-doc
+Why: FEA
+Who: Dominique
+
+Recommends: netgen, gmesh
+Why: FEA, mesh generator
+Who: Dominique
+
 Recommends: coq, proofgeneral, proofgeneral-coq
 Why: Proof assistant
 
 Recommends: octave | octave2.1
 
 Recommends: octaviz
-
-Recommends: python-numpy
 
 Recommends: science-statistics
 

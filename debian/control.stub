@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian-Science mailing list <debian-science@lists.debian.org>
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>, Andreas Tille <tille@debian.org>
 Build-Depends: debhelper (>= 5)
-Build-Depends-Indep: cdd-dev (>= 0.4)
+Build-Depends-Indep: cdd-dev (>= 0.4.3)
 Standards-Version: 3.7.2
 
 Package: science-tasks
