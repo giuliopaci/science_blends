@@ -18,11 +18,10 @@ Why: CFD
 Recommends: freefem
 Suggests: netgen-doc
 Why: FEA
-Who: Dominique
 
-Recommends: netgen, gmesh
+Recommends: netgen, gmsh
 Why: FEA, mesh generator
-Who: Dominique
+
 
 Recommends: coq, proofgeneral, proofgeneral-coq
 Why: Proof assistant

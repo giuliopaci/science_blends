@@ -6,12 +6,10 @@ Description: Debian-Science Mathematics-dev packages
  circumstances but only if the user asks for installing these.
  You might be interested as well in the science-mathematics metapackage.
 
-Depends: libmesh0.6.0
+Depends: libmesh0.6.1
 Why: FEA
-Who: Dominique
 
 Recommends: libnetgen-dev
-Who: Dominique
 Why: FEA, mesh generator
 Suggests: libtet1.4.2-dev
 Why: non-free
@@ -28,3 +26,5 @@ Why: non-free
 Recommends: libglpk0
 Why: linear programming
 
+Recommends: libcgal-dev
+Why: computational geometry
