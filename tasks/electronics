@@ -26,7 +26,6 @@ Why: PCB
 
 Recommends: oregano
 
-# Recommends: circ-tex
 Recommends: texlive-latex-extra
 Why: contains circ-tex and circ-tex has a grave bug which makes \
      science-electronics uninstallable on several machines

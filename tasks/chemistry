@@ -4,7 +4,7 @@ Description: Debian-Science Chemistry packages
  You might be interested as well in field::chemistry debtag and, depending on 
  your focus, in education-chemistry metapackage.
 
-# See with people from debichem (and depend from their packages)
+Why: See with people from debichem (and depend from their packages)
 
 Depends: openbabel, chemeq
 
