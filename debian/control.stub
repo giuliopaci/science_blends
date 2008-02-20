@@ -8,8 +8,8 @@ Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
 Build-Depends: debhelper (>= 5)
 Build-Depends-Indep: cdd-dev (>= 0.4.7)
 Standards-Version: 3.7.3
-Vcs-Browser: http://svn.debian.org/wsvn/cdd/projects/med/trunk/debian-science/?rev=0&sc=0
-Vcs-Svn: svn://svn.debian.org/cdd/projects/med/trunk/debian-science/
+Vcs-Browser: http://svn.debian.org/wsvn/cdd/projects/science/trunk/debian-science/?rev=0&sc=0
+Vcs-Svn: svn://svn.debian.org/cdd/projects/science/trunk/debian-science/
 
 Package: science-tasks
 Architecture: all
