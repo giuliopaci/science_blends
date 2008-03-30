@@ -12,7 +12,7 @@ Recommends: saods9
 Recommends: xorsa
 Why: Celestial Mechanics computations
 
-Reommends: astronomical-almanac, lightspeed, openuniverse
+Recommends: astronomical-almanac, lightspeed, openuniverse
 
 Depends: gpredict, stellarium, ssystem, xplanet,
          xplanet-images, gstar, celestia, kstars, starplot
