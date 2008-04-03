@@ -4,8 +4,8 @@ Description: Debian Science data visualisation packages
  visualization.
  You might be interested as well in use::viewing debtag.
 
-Recommends: pdl
-Why: IDL-like, gnudatalanguage should come here
+Recommends: pdl, gnudatalanguage
+Why: IDL-like
 
 Recommends: kst
 Why: displaying scientific data

@@ -14,7 +14,73 @@ Why: Celestial Mechanics computations
 
 Recommends: astronomical-almanac, lightspeed, openuniverse
 
+Recommends: sextractor
+
 Depends: gpredict, stellarium, ssystem, xplanet,
          xplanet-images, gstar, celestia, kstars, starplot
+
 Suggests: spacechart, sunclock, xtide, xtide-data, xephem, stars
 Why: Took this over from education-astronomy
+
+Suggests: pdl, pgplot5, python-scientific, yorick
+Why: Already in science-viewing
+
+Depends: orbfit
+Homepage: http://newton.dm.unipi.it/orbfit/
+WNPP: 459154
+License: GPL
+Responsible: Steffen Moeller <steffen_moeller@gmx.de>
+Pkg-Description: computation of asteroidal orbits
+ OrbFit is a software system allowing one to compute the orbits
+ of asteroids (soon also comets) starting from the observations,
+ to propagate these orbits, and to compute predictions on the future
+ (and past) position on the celestial sphere. It is a tool to be used
+ to find a well known asteroid, to recover a lost one, to attribute a
+ small group of observations, to identify two orbits with each other,
+ to study the future (and/or past) close approaches to Earth, thus to
+ assess the risk of an impact, and more.
+ .
+ OrbFit has been developed by a team of professional scientists, working
+ in the field of asteroid and comet dynamics, orbit determination,
+ nonlinear and chaotic dynamics, and astrometry. The composition of the
+ OrbFit consortium, and the motivations for this work, are described
+ below.
+ .
+ Status of packaging:
+ .
+ A rudimentary package was prepared, upstream was contacted with a very
+ positive reply. The packaging bits will be injected to pkg-scicomp
+ in near future.
+
+Depends: linoccult
+Homepage: http://linoccult.sourceforge.net/
+WNPP: 459358
+License: GPL
+Responsible: Steffen Moeller <steffen_moeller@gmx.de>
+Pkg-Description: predicts occultations of stars by minor planets
+ LinOccult uses the DE405 precomputed major planets ephemeris (position
+ of astronomical object in the sky at a given time) that are provided by
+ the Jet Propulsion Laboratory (JPL) for a precise numerical integration
+ of asteroidal orbits. The user can select asteroids to process by
+ changing several parameters in a configuration file.
+ .
+ Some initial packaging has been performed and will be submitted to
+ pkg-scicomp.alioth.debian.org.
+
+Depends: midas
+Homepage: http://www.eso.org/sci/data-processing/software/esomidas/
+WNPP: 412488
+License: GPL
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Pkg-Description: the European Southern Observatory Munich Image Data Analysis System
+ The ESO-MIDAS system provides general tools for image processing and 
+ data reduction with emphasis on astronomical applications including 
+ imaging and special reduction packages for ESO instrumentation at La 
+ Silla and the VLT at Paranal. In addition it contains applications 
+ packages for stellar and surface photometry, image sharpening and 
+ decomposition, statistics and various others.
+ .
+ The official name, ESO-MIDAS, is a registered trademark. ESO-MIDAS is 
+ available under the GNU General Public License (GPL), and can be 
+ implemented on OpenVMS and UNIX (Linux) systems.
+
