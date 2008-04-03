@@ -1,19 +1,20 @@
 Source: debian-science
 Section: misc
 Priority: extra
-Maintainer: Debian-Science mailing list <debian-science@lists.debian.org>
+Maintainer: Debian Science mailing list <debian-science@lists.debian.org>
 XS-DM-Upload-Allowed: yes
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
  Andreas Tille <tille@debian.org>
 Build-Depends: debhelper (>= 5)
 Build-Depends-Indep: cdd-dev (>= 0.4.7)
 Standards-Version: 3.7.3
+Homepage: http://wiki.debian.org/DebianScience/
 Vcs-Browser: http://svn.debian.org/wsvn/cdd/projects/science/trunk/debian-science/?rev=0&sc=0
 Vcs-Svn: svn://svn.debian.org/cdd/projects/science/trunk/debian-science/
 
 Package: science-tasks
 Architecture: all
 Depends: tasksel (>= 2.07)
-Description: Debian-Science tasks for tasksel
- This package provides Debian-Science tasks in tasksel.
+Description: Debian Science tasks for tasksel
+ This package provides Debian Science tasks in tasksel.
 

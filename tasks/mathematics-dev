@@ -1,8 +1,8 @@
 Task: Mathematics-dev
-Description: Debian-Science Mathematics-dev packages
- This metapackage will install Debian-Science packages  which might be helpful
- for development of applications for Mathematics. Please note that there also
- recommended and only suggested packages which are not installed in any
+Description: Debian Science Mathematics-dev packages
+ This metapackage will install Debian Science packages which might be helpful
+ for development of applications for Mathematics. Please note that there are
+ also recommended and only suggested packages which are not installed in any
  circumstances but only if the user asks for installing these.
  You might be interested as well in the science-mathematics metapackage.
 

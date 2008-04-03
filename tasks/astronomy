@@ -1,6 +1,6 @@
 Task: Astronomy
-Description: Debian-Science Astronomy packages
- This metapackage will install Debian-Science packages related to Astronomy.
+Description: Debian Science Astronomy packages
+ This metapackage will install Debian Science packages related to Astronomy.
  You might be interested as well in field::astronomy debtag and, depending on
  your focus, in education-astronomy metapackage.
 

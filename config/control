@@ -1,11 +1,11 @@
 Package: science-config
 Architecture: all
 Depends: adduser, ${misc:Depends}, menu, cdd-common (>= 0.4)
-Description: Debian-Science Project config package
+Description: Debian Science Project config package
  This package provides the basic infrastructure of all science-* packages and is
  needed by them.
  .
- These are the science related metapackages in the Debian-Science project:
+ These are the science related metapackages in the Debian Science project:
  .
   * science-astronomy   packages related to astronomy
   * science-biology     packages related to biology

@@ -1,6 +1,6 @@
 Task: Viewing
-Description: Debian-Science data visualisation packages
- This metapackage will install Debian-Science packages related to data
+Description: Debian Science data visualisation packages
+ This metapackage will install Debian Science packages related to data
  visualization.
  You might be interested as well in use::viewing debtag.
 

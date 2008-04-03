@@ -1,6 +1,6 @@
 Task: Electronics
-Description: Debian-Science Electronics packages
- This metapackage will install Debian-Science packages related to Electronics.
+Description: Debian Science Electronics packages
+ This metapackage will install Debian Science packages related to Electronics.
  You might be interested as well in field::electronics debtag and, depending
  on your focus, in education-electronics metapackage.
 

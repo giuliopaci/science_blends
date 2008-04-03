@@ -1,4 +1,4 @@
-## This is a configuration file for Debian-med Custom Debian Distribution
+## This is a configuration file for Debian Science Custom Debian Distribution
 ## It is read after /etc/cdd/cdd.conf and can override or add variables
 
 ## This variable is replaced by a debconf question
@@ -6,4 +6,4 @@
 
 ## Some CDDs do not build their name generic like Debian-#CDD# so
 ## we need the correct name here
-CDDNAME=Debian-Science
+CDDNAME=Debian Science

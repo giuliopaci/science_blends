@@ -1,6 +1,6 @@
 Task: Physics
-Description: Debian-Science Physics packages
- This metapackage will install Debian-Science packages related to Physics.
+Description: Debian Science Physics packages
+ This metapackage will install Debian Science packages related to Physics.
  You might be interested as well in field::physics debtag and, depending on 
  your focus, in education-physics metapackage.
 

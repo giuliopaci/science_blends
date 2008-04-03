@@ -1,6 +1,6 @@
 Task: Chemistry
-Description: Debian-Science Chemistry packages
- This metapackage will install Debian-Science packages related to Chemistry.
+Description: Debian Science Chemistry packages
+ This metapackage will install Debian Science packages related to Chemistry.
  You might be interested as well in field::chemistry debtag and, depending on 
  your focus, in education-chemistry metapackage.
 

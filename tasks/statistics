@@ -1,6 +1,6 @@
 Task: Statistics
-Description: Debian-Science Statistics packages
- This metapackage will install Debian-Science packages related to Statistics.
+Description: Debian Science Statistics packages
+ This metapackage will install Debian Science packages related to Statistics.
 
 Depends: ess, littler, r-recommended, rkward
 Why: R utilities or frontends
