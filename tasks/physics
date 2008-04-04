@@ -7,6 +7,10 @@ Description: Debian Science Physics packages
 Depends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
+Recommends: abinit
+
+Recommends: gwyddion
+
 Recommends: feynmf
 
 Recommends: fityk
@@ -22,3 +26,110 @@ Why: suggested by Kevin B. McCarty, thanks to cdd-dev 0.4 will be turned into \
 Recommends: science-electronics
 
 Suggests: science-statistics, science-mathematics
+
+Depends: brlcad
+Homepage: http://my.brlcad.org/
+WNPP: 289632
+License: GPL
+Responsible: none
+Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling system
+ BRL-CAD is a powerful Combinatorial/Constructive Solid Geometry (CSG)
+ solid modeling system that includes an interactive geometry editor,
+ ray-tracing support for rendering and geometric analysis,
+ network-distributed framebuffer support, image and signal-processing
+ tools, and an embedded scripting language. It has been developed over
+ a 20 year period and is now a stable mature product. This is the 
+ first GPL'ed release of the package. It is being maintained by the
+ US Army Research laboratory (ARL).
+
+Depends: meshlab
+Homepage: http://meshlab.sourceforge.net/
+WNPP: 426581
+License: GPL
+Responsible: Teemu Ikonen <tpikonen@gmail.com>
+Pkg-URL: http://esko.osmas.info/~tmx/meshlab/
+Pkg-Description: System for processing and editing triangular meshes
+ MeshLab is an open source, portable, and extendible system for the
+ processing and editing of unstructured 3D triangular meshes.
+ The system is aimed to help the processing of the typical not-so-small
+ unstructured models arising in 3D scanning, providing a set of tools for
+ editing, cleaning, healing, inspecting, rendering and converting this kind
+ of meshes.
+ .
+ Meshlab can read files in these formats: PLY, STL, OFF, OBJ, 3DS, COLLADA
+ and PTX. It can write PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, and DXF.
+
+Depends: gate
+Homepage: http://opengatecollaboration.healthgrid.org/
+WNPP: 431425
+License: LGPL
+Responsible: Nicolas Spalinger <nicolas.spalinger@healthgrid.org>
+Pkg-Description: Geant4 Application for Emission Tomography
+ GATE incorporates the Geant4 libraries in a modular, versatile, and
+ scripted simulation toolkit which is adapted to the field of nuclear
+ medicine both in PET (Positron Emission Tomography) and SPECT (Single
+ Photon Emission Computer Tomography). It allows the accurate description
+ of time-dependent phenomena such as source or detector movement and
+ source decay kinetics. The ability to synchronize all time-dependent
+ components allows a coherent description of the acquisition process. It
+ makes it possible to perform realistic simulations of data acquisitions
+ in time.
+
+Depends: cadabra
+Homepage: http://www.aei.mpg.de/~peekas/cadabra/
+WNPP: 434489
+License: GNU GPL v2
+Responsible: Gürkan Sengün <gurkan@linuks.mine.nu>
+Pkg-Description: Field-theory motivated computer algebra system
+ Cadabra is a computer algebra system designed specifically for the
+ solution of problems encountered in field theory. It has extensive
+ functionality for tensor polynomial simplification including
+ multi-term symmetries, fermions and anti-commuting variables,
+ Clifford algebras and Fierz transformations, implicit coordinate
+ dependence, multiple index types and many more. The input format is
+ a subset of TeX.
+
+Depends: blzpack
+Homepage: http://crd.lbl.gov/~osni/#Software
+WNPP: 435394
+License: BSD
+Responsible: Ondrej Certik <ondrej@certik.cz>
+Pkg-Description: library for solving large sparse eigenproblems
+ BLZPACK (for Block LancZos PACKage, release 04/00) is a standard Fortran 77
+ implementation of the block Lanczos algorithm intended for the solution of the
+ standard eigenvalue problem Ax=µx or the generalized eigenvalue problem
+ Ax=µBx, where A and B are real, sparse symmetric matrices, µ an eigenvalue and
+ x an eigenvector.
+ .
+ The development of this eigensolver was motivated by the need to solve large,
+ sparse, generalized problems from free vibration analyses in structural
+ engineering. Several upgrades were performed afterwards aiming at the solution
+ of eigenvalues problems from a wider range of applications.
+ .
+ Documentation: user's guide, technical report and comprehensive bibliography.
+ .
+ Install this package if you need to compile or link against BLZPACK.
+
+Depends: drawxtl
+Homepage: http://home.att.net/~larry.finger/drawxtl/
+WNPP: 428750
+License: LGPL/Public Domain/GL2PS LICENSE
+Responsible: Daniel Leidert <daniel.leidert@wgdd.de>
+Pkg-Description: display crystal structures on ordinary computer hardware
+ DRAWxtl reads a basic description of the crystal structure, which includes
+ unit-cell parameters, space group, atomic coordinates, thermal parameters or
+ a Fourier map, and outputs a geometry object that contains polyhedra, planes,
+ lone-pair cones, spheres or ellipsoids, bonds, iso-surface Fourier contours
+ and the unit-cell boundary.
+ .
+ Four forms of graphics are produced:
+ .
+  (1) an openGL window for immediate viewing
+  (2) the Persistence of Vision Ray Tracer (POV-RAY) scene language for
+      publication-quality drawings
+  (3) the Virtual Reality Modeling Language (VRML) for dissemination
+      across the Internet
+  (4) a Postscript rendering of the OpenGL window for those that want
+      high-quality output but do not have
+      POV-RAY installed.
+
