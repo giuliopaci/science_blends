@@ -7,20 +7,101 @@ Description: Debian Science Chemistry packages
 Why: To be handled by debichem once they have metapackages (like \
      science-geography / Debian GIS and science-biology / Debian Med)
 
-Depends: openbabel, chemeq
+Depends: apbs, avogadro, bkchem, bodr, libcdk-java, chemeq, \
+         chemical-mime-data, chemtool, easychem, gabedit, galculator, \
+         garlic, gausssum, gchempaint, gdis, ghemical, gcrystal, gcu-bin, \
+         gcu-plugin, gperiodic, \
+         gromacs | gromacs-lam | gromacs-mpich | gromacs-openmpi, \
+         kalzium, katomic, mopac7-bin, mpqc, mpqc-support, \
+         openbabel, python-openbabel, polyxmass, psi3, pymol, rasmol, \
+         viewmol, xdrawchem, xmakemol-gl | xmakemol
+Why: from the DebianScience/Chemistry wiki page
 
-Recommends: chemtool, easychem, garlic, gdis, gdpc, ghemical
+Recommends: gdpc
 
-Recommends: pymol, rasmol, viewmol, xbs, xdrawchem, xmakemol-gl | xmakemol
-
-Recommends: gromacs | gromacs-lam | gromacs-mpich
-
-Recommends: polyxmass
-
-Recommends: gausssum
-
-Recommends: mpqc, mpqc-support
-
-Recommends: bodr, chemical-mime-data
+Recommends: xbs
 
 Suggests: gdpc-examples
+
+Depends: drawxtl
+Homepage: http://home.att.net/~larry.finger/drawxtl/
+WNPP: 428750
+License: LGPL/Public Domain/GL2PS LICENSE
+Responsible: Daniel Leidert <daniel.leidert@wgdd.de>
+Pkg-Description: display crystal structures on ordinary computer hardware
+ DRAWxtl reads a basic description of the crystal structure, which includes
+ unit-cell parameters, space group, atomic coordinates, thermal parameters or
+ a Fourier map, and outputs a geometry object that contains polyhedra, planes,
+ lone-pair cones, spheres or ellipsoids, bonds, iso-surface Fourier contours
+ and the unit-cell boundary.
+ .
+ Four forms of graphics are produced:
+ .
+  (1) an openGL window for immediate viewing
+  (2) the Persistence of Vision Ray Tracer (POV-RAY) scene language for
+      publication-quality drawings
+  (3) the Virtual Reality Modeling Language (VRML) for dissemination
+      across the Internet
+  (4) a Postscript rendering of the OpenGL window for those that want
+      high-quality output but do not have
+      POV-RAY installed.
+
+Depends: gamgi
+Homepage: http://www.gamgi.org/
+WNPP: 465994
+License: GPL
+Responsible: Steffen Moeller <steffen_moeller@gmx.de>
+Pkg-Description: general atomistic modelling graphic interface
+ Graphical interface to build or analyse atomic structures.
+
+Depends: gelemental
+Homepage: http://www.kdau.com/projects/gelemental/
+WNPP: 444861
+License: GPLv3
+Responsible: Cesare Tirabassi <norsetto@ubuntu.com>
+Pkg-Description: Periodic table viewer for the Gnome desktop
+ gElemental is a periodic table viewer that provides detailed information
+ on the chemical elements. It uses the GTK+ toolkit and is available for
+ Linux and other GTK+/GNOME platforms. It is free software released under
+ the GNU General Public License.
+
+Depends: libegad
+Homepage: http://egad.ucsd.edu/egad/
+WNPP: 429693
+License: LGPL
+Responsible: LI Daobing <lidaobing@gmail.com>
+Pkg-Description: rational protein design library
+ The EGAD Library is a modular, object oriented approach to rational protein
+ design. It is platform-independent, written in C++ and, most importantly,
+ free. Its raison d'etre is to serve as a tool for building protein design
+ applications. It can also be used as a test-bed for the comparison of
+ different energy functions and minimization algorithms under the same physical
+ model.
+ .
+ Citations of EGAD Library should reference the paper in the Journal of
+ Computational Chemistry. doi:10.1002/jcc.20727
+
+Depends: libint
+Homepage: http://www.chem.vt.edu/chem-dept/valeev/software/libint/libint.html
+WNPP: 425039
+License: GPL
+Responsible: Daniel Leidert <daniel.leidert@wgdd.de>
+Pkg-Description: Evaluate the integrals in modern atomic and molecular theory
+ Libint library is used to evaluate the traditional (electron repulsion)
+ and certain novel two-body matrix elements (integrals) over Cartesian
+ Gaussian functions used in modern atomic and molecular theory. The idea
+ of the library is to let computer write optimized code for computing
+ such integrals. There are two primary advantages to this: much less
+ human effort is required to write code for computing new integrals, and
+ code can be optimized specifically for a particular computer
+ architecture (e.g., vector processor).
+ .
+ Libint has been utilized to implement methods such as Hartree-Fock (HF)
+ and Kohn-Sham density functional theory (KS DFT), second-order
+ Moller-Plesset perturbation theory (MP2), coupled cluster singles and
+ doubles (CCSD) method, as well as explicitly correlated R12 methods.
+ The following software packages use Libint: 
+ .
+ .
+ Improves mpqc (#409025) and psi3.
+
