@@ -2,8 +2,8 @@ Task: Biology
 Description: Debian Science Biology packages
  This metapackage will install Debian Science packages related to Biology.
  You might be interested as well in field::biology debtag.
+Meta-Depends: http://debian-med.alioth.debian.org/tasks/bio.php
 
 Depends: med-bio
-Why: handled by Debian Med. The Depends: will be replaced by an other special \
-     tag (its name to be decided).
 
+Suggests: biomode, med-bio-dev
