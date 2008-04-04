@@ -4,21 +4,7 @@ Description: Debian-Science Geography packages
  You might be interested as well in field::geography debtag and, depending on 
  your focus, in education-geography metapackage.
 
-Why: See with people from Debian-GIS (and depend from their packages)
+Depends: gis-workstation
+Why: handled by Debian GIS. The Depends: will be replaced by an other special \
+     tag (its name to be decided).
 
-Depends: grass, qgis, gmt, gdal, proj
-Why: http://wiki.debian.org/DebianGis/PackageList
-
-Recommends: qgis-plugin-grass
-
-Recommends: thuban
-
-Recommends: gpsbabel, gpx2shp
-Why: GPS
-
-Recommends: postgis
-
-Recommends: r-cran-mapdata, r-cran-maps
-
-Suggests: openjump
-Why: Is currently in contrib but should work with free Java machines.

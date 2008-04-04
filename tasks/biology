@@ -4,6 +4,6 @@ Description: Debian Science Biology packages
  You might be interested as well in field::biology debtag.
 
 Depends: med-bio
-
-Suggests: biomode, med-bio-dev
+Why: handled by Debian Med. The Depends: will be replaced by an other special \
+     tag (its name to be decided).
 

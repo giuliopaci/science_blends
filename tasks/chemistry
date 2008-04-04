@@ -4,7 +4,8 @@ Description: Debian Science Chemistry packages
  You might be interested as well in field::chemistry debtag and, depending on 
  your focus, in education-chemistry metapackage.
 
-Why: See with people from debichem (and depend from their packages)
+Why: To be handled by debichem once they have metapackages (like \
+     science-geography / Debian GIS and science-biology / Debian Med)
 
 Depends: openbabel, chemeq
 
