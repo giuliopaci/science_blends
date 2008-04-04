@@ -3,7 +3,8 @@ Description: Debian Science typesetting packages
  This metapackage will install Debian Science packages related to typesetting.
  You might be interested as well in use::typesetting debtag.
 
-Depends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra
+Depends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra, \
+         jabref, bibutils
 Why: BibTeX and bibliography
 
 Recommends: feynmf, texlive, texlive-science, texlive-publishers, \
@@ -19,3 +20,33 @@ Why: TeXmacs
 Recommends: xfig, transfig
 
 Recommends: dia
+
+Depends: bibus
+Homepage: http://bibus-biblio.sourceforge.net/wiki/index.php/Main_Page
+WNPP: 470887
+License: GPL-2+
+Responsible: none
+Pkg-URL: http://bibus-biblio.sourceforge.net/wiki/index.php/Installation#Debian
+Pkg-Description: bibliographic and reference management software
+ Bibus is a bibliographic database entirely written in python
+ that uses the cross-platform wxWidget library.
+ Bibus has been developed with OpenOffice.org
+ (http://www.openoffice.org/) in mind and can directly
+ insert citations and format the bibliographic index in an
+ opened Openoffice.org writer document.
+
+Depends: quaneko
+Homepage: http://quaneko.sourceforge.net/
+WNPP: 324422
+License: GPL
+Responsible: LI Daobing <lidaobing@gmail.com>
+Pkg-Description: An index tool of TXT, PDF, DOC, HTML and others
+ Quaneko is a tool that allows you to quickly search for keywords in
+ the files and directories on the local hard disk. It creates indexes
+ over the words in those files. For you, this means that a typical
+ search query will only take seconds.
+ .
+ quaneko can not only search for words in plain text files but also in
+ various other file formats, depending on its configuration (e.g. Word
+ doc, pdf, html, xml,...)
+
