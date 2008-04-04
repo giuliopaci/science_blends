@@ -6,4 +6,4 @@
 
 ## Some CDDs do not build their name generic like Debian-#CDD# so
 ## we need the correct name here
-CDDNAME=Debian Science
+CDDNAME="Debian Science"

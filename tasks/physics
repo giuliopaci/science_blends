@@ -9,6 +9,8 @@ Suggests: paw-demos
 
 Recommends: abinit
 
+Recommends: gerris
+
 Recommends: gwyddion
 
 Recommends: feynmf
