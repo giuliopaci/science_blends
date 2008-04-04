@@ -21,7 +21,40 @@ Recommends: horae, ifeffit, sixpack
 
 Recommends: tessa | tessa-mpi
 
-Recommends: root-system
+Depends: root-system
+Homepage: http://root.cern.ch/
+WNPP: 325306
+License: LGPL
+Responsible: Christian Holm Christensen <cholm@nbi.dk>
+Pkg-URL: http://packages.debian.org/experimental/root-system
+Pkg-Description: Meta package to install all ROOT packages
+ This package is a meta package to ensure the installation of all
+ possible ROOT packages on this system. 
+ .
+ The ROOT system provides a set of OO frameworks with all the
+ functionality needed to handle and analyse large amounts of data in a
+ very efficient way. Having the data defined as a set of objects,
+ specialised storage methods are used to get direct access to the
+ separate attributes of the selected objects, without having to touch
+ the bulk of the data. Included are histograming methods in 1, 2 and 3
+ dimensions, curve fitting, function evaluation, minimisation,
+ graphics and visualisation classes to allow the easy setup of an
+ analysis system that can query and process the data interactively or
+ in batch mode.
+ .
+ Thanks to the built-in CINT C++ interpreter, the command language, the
+ scripting, or macro, language, and the programming language are all
+ C++. The interpreter allows for fast prototyping of the macros since
+ it removes the time consuming compile/link cycle. It also provides a
+ good environment to learn C++. If more performance is needed, the
+ interactively developed macros can be compiled using a C++ compiler.
+ .
+ The system has been designed in such a way that it can query its
+ databases in parallel on MPP machines or on clusters of workstations
+ or high-end PC's. ROOT is an open system that can be dynamically
+ extended by linking external libraries. This makes ROOT a premier
+ platform on which to build data acquisition, simulation and data
+ analysis systems.
 Why: suggested by Kevin B. McCarty, thanks to cdd-dev 0.4 will be turned into \
      a suggests as long as not available in unstable.
 
@@ -134,4 +167,34 @@ Pkg-Description: display crystal structures on ordinary computer hardware
   (4) a Postscript rendering of the OpenGL window for those that want
       high-quality output but do not have
       POV-RAY installed.
+
+Depends: geant4
+Homepage: http://geant4.cern.ch/
+WNPP: 325305
+License: non-DFSG
+Responsible: Kevin B. McCarty <kmccarty@princeton.edu>
+Pkg-URL: http://borex.princeton.edu/~kmccarty/dists/sid/
+Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
+ GEANT4 is a toolkit for the simulation of the passage of particles through
+ matter.   Its application areas include high energy physics and nuclear
+ experiments, medical, accelerator and space physics studies.  The GEANT4
+ software consists of an extensive set of libraries, fundamentally
+ object-oriented and based in modern C++.  It may be used to develop programs
+ with command-line, Xaw-based, or Motif-based interfaces.
+ .
+ This package is a metapackage that depends upon all components of a
+ GEANT4 environment.  Unless you know exactly what parts of GEANT4
+ you want, it is best to install this package.
+
+Depends: clhep2
+Homepage: http://wwwasd.web.cern.ch/wwwasd/lhc++/clhep/
+License: non-DFSG
+Responsible: Dr James Ferrando <ferrando@mail.desy.de>
+Pkg-URL: http://www-pnp.physics.ox.ac.uk/~ferrando/debian/pool/hep/clhep/
+Pkg-Description: CLHEP - A Class Library for High Energy Physics
+ The CLHEP project was proposed by Leif Lönnblad at CHEP 92. It is intended to
+ be a set of HEP-specific foundation and utility classes such as random
+ generators, physics vectors, geometry and linear algebra. CLHEP is structured
+ in a set of packages independent of any external package (interdependencies
+ within CLHEP are allowed under certain conditions).
 
