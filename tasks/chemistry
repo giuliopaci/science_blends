@@ -7,7 +7,7 @@ Description: Debian Science Chemistry packages
 Why: To be handled by debichem once they have metapackages (like \
      science-geography / Debian GIS and science-biology / Debian Med)
 
-Depends: apbs, avogadro, bkchem, bodr, libcdk-java, chemeq, \
+Depends: apbs, bkchem, bodr, libcdk-java, chemeq, \
          chemical-mime-data, chemtool, easychem, gabedit, galculator, \
          garlic, gausssum, gchempaint, gdis, ghemical, gcrystal, gcu-bin, \
          gcu-plugin, gperiodic, \
@@ -104,4 +104,16 @@ Pkg-Description: Evaluate the integrals in modern atomic and molecular theory
  .
  .
  Improves mpqc (#409025) and psi3.
+
+Depends: avogadro
+Homepage: http://avogadro.openmolecules.net/wiki/Main_Page
+WNPP: 450814
+License: GPL
+Responsible: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Pkg-URL: http://packages.debian.org/experimental/avogadro
+Pkg-Description: advanced molecular editor
+ Avogadro is an advanced molecular editor designed for cross-platform use in
+ computational chemistry, molecular modeling, bioinformatics, materials
+ science, and related areas. It offers flexible rendering and a powerful plugin 
+ architecture.
 
