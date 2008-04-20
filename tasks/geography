@@ -11,6 +11,7 @@ Why: handled by Debian GIS. The Depends: will be replaced by an other special \
 Depends:     grass, \
              qgis, \
              qgis-plugin-grass
+
 Depends:     mapserver-bin, \
              gmt, \
              gpsbabel, \
@@ -40,7 +41,9 @@ Depends:     mapserver-bin, \
              postgresql-8.2-postgis, \
              gdal-bin, \
              ogdi-bin
+
 Suggests:    googleearth-package
+
 Depends:     josm, \
              josm-plugins, \
              merkaartor, \
@@ -54,6 +57,7 @@ Depends:     josm, \
              iceweasel, \
              mozilla-plugin-gnash, \
              swfdec-mozilla
+
 Depends:     r-base, \
              r-cran-mapdata, \
              r-cran-mapproj, \
