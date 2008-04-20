@@ -8,3 +8,56 @@ Depends: gis-workstation
 Why: handled by Debian GIS. The Depends: will be replaced by an other special \
      tag (its name to be decided).
 
+Depends:     grass, \
+             qgis, \
+             qgis-plugin-grass
+Depends:     mapserver-bin, \
+             gmt, \
+             gpsbabel, \
+             gpx2shp, \
+             gpsd, \
+             gpsdrive, \
+             gpsman, \
+             openjump, \
+             earth3d, \
+             openscenegraph, \
+             thuban, \
+             drawmap, \
+             proj, \
+             postgis, \
+             kflog, \
+             grace6, \
+             gpstrans, \
+             geoip-bin, \
+             gpsd-clients, \
+             grass-doc, \
+             php5-mapscript, \
+             phppgadmin, \
+             gpsmanshp, \
+             viking, \
+             avce00, \
+             e00compr, \
+             postgresql-8.2-postgis, \
+             gdal-bin, \
+             ogdi-bin
+Suggests:    googleearth-package
+Depends:     josm, \
+             josm-plugins, \
+             merkaartor, \
+             osmarendrer, \
+             renderathome, \
+             gosmore, \
+             osm-tools, \
+             python-mapnik, \
+             mapnik-utils, \
+             mapnik-viewer, \
+             iceweasel, \
+             mozilla-plugin-gnash, \
+             swfdec-mozilla
+Depends:     r-base, \
+             r-cran-mapdata, \
+             r-cran-mapproj, \
+             r-cran-maps, \
+             pgadmin3
+Why: content of the workstation task as of 2008-04-20 as gis-workstation is \
+     not currently in sid.
