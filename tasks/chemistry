@@ -23,6 +23,18 @@ Recommends: xbs
 
 Suggests: gdpc-examples
 
+Depends: avogadro
+Homepage: http://avogadro.openmolecules.net/wiki/Main_Page
+WNPP: 450814
+License: GPL
+Responsible: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Pkg-URL: http://packages.debian.org/experimental/avogadro
+Pkg-Description: advanced molecular editor
+ Avogadro is an advanced molecular editor designed for cross-platform use in
+ computational chemistry, molecular modeling, bioinformatics, materials
+ science, and related areas. It offers flexible rendering and a powerful plugin 
+ architecture.
+
 Depends: drawxtl
 Homepage: http://home.att.net/~larry.finger/drawxtl/
 WNPP: 428750
@@ -105,15 +117,72 @@ Pkg-Description: Evaluate the integrals in modern atomic and molecular theory
  .
  Improves mpqc (#409025) and psi3.
 
-Depends: avogadro
-Homepage: http://avogadro.openmolecules.net/wiki/Main_Page
-WNPP: 450814
-License: GPL
+Depends: molden
+Homepage: http://www.cmbi.ru.nl/molden/
+License: non-free
 Responsible: Debichem Team <debichem-devel@lists.alioth.debian.org>
-Pkg-URL: http://packages.debian.org/experimental/avogadro
-Pkg-Description: advanced molecular editor
- Avogadro is an advanced molecular editor designed for cross-platform use in
- computational chemistry, molecular modeling, bioinformatics, materials
- science, and related areas. It offers flexible rendering and a powerful plugin 
- architecture.
+Pkg-URL: http://svn.debian.org/wsvn/debichem/wnpp/molden/?rev=0&sc=1
+Pkg-Description: processing program of molecular and electronic structure
+ MOLDEN is a package for displaying Molecular Density from the Ab
+ Initio packages GAMESS-UK , GAMESS-US and GAUSSIAN and the
+ Semi-Empirical packages Mopac/Ampac, it also supports a number of
+ other programs via the MOLDEN Format. MOLDEN reads all the required
+ information from the GAMESS / GAUSSIAN outputfile. MOLDEN is capable
+ of displaying Molecular Orbitals, the electron density and the
+ Molecular minus Atomic density. Either the spherically averaged
+ atomic density or the oriented ground state atomic density can be
+ subtracted for a number of standard basis sets. MOLDEN supports
+ contour plots, 3-d grid plots with hidden lines and a combination of
+ both. It can write a variety of graphics instructions; postscript, X,
+ VRML, povray, OpenGL, tekronix4014, hpgl, hp2392 and Figure. The X
+ version of MOLDEN is also capable of importing and displaying of
+ chemx, PDB, and a variety of mopac/ampac files and lots of other
+ formats. It also can animate reaction paths and molecular
+ vibrations. It can calculate and display the true or Multipole
+ Derived Electrostatic Potential and atomic charges can be fitted to
+ the Electrostatic Potential calculated on a Connolly surface. MOLDEN
+ has a powerful Z-matrix editor which give full control over the
+ geometry and allows you to build molecules from scratch, including
+ polypeptides. MOLDEN was also submitted to the QCPE (QCPE619),
+ allthough the X version is considerably running behind on the current
+ one.
 
+Depends: molekel
+Homepage: http://bioinformatics.org/molekel/
+License: GPL-2+
+Responsible: Michael Banck <mbanck@debian.org>
+Pkg-URL: http://svn.debian.org/wsvn/debichem/wnpp/molekel/?rev=0&sc=1
+Pkg-Description: Advanced Interactive 3D-Graphics for Molecular Sciences
+
+Depends: tinker
+Homepage: http://dasher.wustl.edu/tinker/
+License: non-free
+Responsible: LI Daobing <lidaobing@gmail.com>
+Pkg-URL: http://svn.debian.org/wsvn/debichem/wnpp/tinker/?rev=0&sc=1
+Pkg-Description: Software Tools for Molecular Design
+ The TINKER molecular modeling software is a complete and general
+ package for molecular mechanics and dynamics, with some special
+ features for biopolymers. TINKER has the ability to use any of
+ several common parameter sets, such as Amber (ff94, ff96, ff98 and
+ ff99), CHARMM (19 and 27), Allinger MM (MM2-1991 and MM3-2000), OPLS
+ (OPLS-UA, OPLS-AA and OPLS-AA/L), Liam Dang's polarizable potentials,
+ and our own AMOEBA polarizable atomic multipole force
+ field. Parameter sets for other standard force fields such as GROMOS,
+ UFF, ENCAD and MM4 are under consideration for future releases.
+ .
+ The TINKER package includes a variety of novel algorithms such as a
+ new distance geometry metrization method that has greater speed and
+ better sampling than standard methods, Elber's reaction path methods,
+ several of our Potential Smoothing and Search (PSS) methods for
+ global optimization, an efficient potential surface scanning
+ procedure, a flexible implementation of atomic multipole-based
+ electrostatics with explicit dipole polarizability, a selection of
+ continuum solvation treatments including several variants of the
+ generalized Born (GB/SA) model, an efficient truncated Newton (TNCG)
+ local optimizer, surface areas and volumes with derivatives, a simple
+ free energy perturbation facility, normal mode analysis, minimization
+ in Cartesian, torsional or rigid body space, velocity Verlet
+ stochastic dynamics, an improved spherical energy cutoff method,
+ Particle Mesh Ewald summation for partial charges and regular Ewald
+ for polarizable multipoles, a novel reaction field treatment of long
+ range electrostatics, and more....

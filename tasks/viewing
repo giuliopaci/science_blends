@@ -32,6 +32,29 @@ Recommends: med-imaging
 Suggests: pgplot5
 Why: non-free
 
+Depends: paraview
+Homepage: http://www.paraview.org/
+WNPP: 304334
+License: other-BSD
+Responsible: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Pkg-URL: http://svn.debian.org/wsvn/pkg-scicomp/paraview/
+Pkg-Description: Parallel Visualization Application
+ ParaView is an open-source, multi-platform application designed to
+ visualize data sets of size varying from small to very large. The
+ goals of the ParaView project include the following:
+ .
+     * Develop an open-source, multi-platform visualization application.
+     * Support distributed computation models to process large data sets.
+     * Create an open, flexible, and intuitive user interface.
+     * Develop an extensible architecture based on open standards.
+ .
+ ParaView runs on distributed and shared memory parallel as well as
+ single processor systems and has been successfully tested on Windows,
+ Mac OS X, Linux and various Unix workstations, clusters and
+ supercomputers. Under the hood, ParaView uses the Visualization
+ Toolkit as the data processing and rendering engine and has a user
+ interface written using Qt.
+
 Depends: teem
 Homepage: http://teem.sourceforge.net
 License: LGPL

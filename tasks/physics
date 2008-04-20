@@ -21,6 +21,160 @@ Recommends: horae, ifeffit, sixpack
 
 Recommends: tessa | tessa-mpi
 
+Recommends: science-electronics
+
+Suggests: science-statistics, science-mathematics
+
+Depends: blzpack
+Homepage: http://crd.lbl.gov/~osni/#Software
+WNPP: 435394
+License: BSD
+Responsible: Ondrej Certik <ondrej@certik.cz>
+Pkg-Description: library for solving large sparse eigenproblems
+ BLZPACK (for Block LancZos PACKage, release 04/00) is a standard Fortran 77
+ implementation of the block Lanczos algorithm intended for the solution of the
+ standard eigenvalue problem Ax=µx or the generalized eigenvalue problem
+ Ax=µBx, where A and B are real, sparse symmetric matrices, µ an eigenvalue and
+ x an eigenvector.
+ .
+ The development of this eigensolver was motivated by the need to solve large,
+ sparse, generalized problems from free vibration analyses in structural
+ engineering. Several upgrades were performed afterwards aiming at the solution
+ of eigenvalues problems from a wider range of applications.
+ .
+ Documentation: user's guide, technical report and comprehensive bibliography.
+ .
+ Install this package if you need to compile or link against BLZPACK.
+
+Depends: brlcad
+Homepage: http://my.brlcad.org/
+WNPP: 289632
+License: GPL
+Responsible: none
+Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling system
+ BRL-CAD is a powerful Combinatorial/Constructive Solid Geometry (CSG)
+ solid modeling system that includes an interactive geometry editor,
+ ray-tracing support for rendering and geometric analysis,
+ network-distributed framebuffer support, image and signal-processing
+ tools, and an embedded scripting language. It has been developed over
+ a 20 year period and is now a stable mature product. This is the 
+ first GPL'ed release of the package. It is being maintained by the
+ US Army Research laboratory (ARL).
+
+Depends: cadabra
+Homepage: http://www.aei.mpg.de/~peekas/cadabra/
+WNPP: 434489
+License: GNU GPL v2
+Responsible: Gürkan Sengün <gurkan@linuks.mine.nu>
+Pkg-Description: Field-theory motivated computer algebra system
+ Cadabra is a computer algebra system designed specifically for the
+ solution of problems encountered in field theory. It has extensive
+ functionality for tensor polynomial simplification including
+ multi-term symmetries, fermions and anti-commuting variables,
+ Clifford algebras and Fierz transformations, implicit coordinate
+ dependence, multiple index types and many more. The input format is
+ a subset of TeX.
+
+Depends: clhep2
+Homepage: http://wwwasd.web.cern.ch/wwwasd/lhc++/clhep/
+License: non-DFSG
+Responsible: Dr James Ferrando <ferrando@mail.desy.de>
+Pkg-URL: http://www-pnp.physics.ox.ac.uk/~ferrando/debian/pool/hep/clhep/
+Pkg-Description: CLHEP - A Class Library for High Energy Physics
+ The CLHEP project was proposed by Leif Lönnblad at CHEP 92. It is intended to
+ be a set of HEP-specific foundation and utility classes such as random
+ generators, physics vectors, geometry and linear algebra. CLHEP is structured
+ in a set of packages independent of any external package (interdependencies
+ within CLHEP are allowed under certain conditions).
+
+Depends: drawxtl
+Homepage: http://home.att.net/~larry.finger/drawxtl/
+WNPP: 428750
+License: LGPL/Public Domain/GL2PS LICENSE
+Responsible: Daniel Leidert <daniel.leidert@wgdd.de>
+Pkg-Description: display crystal structures on ordinary computer hardware
+ DRAWxtl reads a basic description of the crystal structure, which includes
+ unit-cell parameters, space group, atomic coordinates, thermal parameters or
+ a Fourier map, and outputs a geometry object that contains polyhedra, planes,
+ lone-pair cones, spheres or ellipsoids, bonds, iso-surface Fourier contours
+ and the unit-cell boundary.
+ .
+ Four forms of graphics are produced:
+ .
+  (1) an openGL window for immediate viewing
+  (2) the Persistence of Vision Ray Tracer (POV-RAY) scene language for
+      publication-quality drawings
+  (3) the Virtual Reality Modeling Language (VRML) for dissemination
+      across the Internet
+  (4) a Postscript rendering of the OpenGL window for those that want
+      high-quality output but do not have
+      POV-RAY installed.
+
+Depends: gate
+Homepage: http://opengatecollaboration.healthgrid.org/
+WNPP: 431425
+License: LGPL
+Responsible: Nicolas Spalinger <nicolas.spalinger@healthgrid.org>
+Pkg-Description: Geant4 Application for Emission Tomography
+ GATE incorporates the Geant4 libraries in a modular, versatile, and
+ scripted simulation toolkit which is adapted to the field of nuclear
+ medicine both in PET (Positron Emission Tomography) and SPECT (Single
+ Photon Emission Computer Tomography). It allows the accurate description
+ of time-dependent phenomena such as source or detector movement and
+ source decay kinetics. The ability to synchronize all time-dependent
+ components allows a coherent description of the acquisition process. It
+ makes it possible to perform realistic simulations of data acquisitions
+ in time.
+
+Depends: geant4
+Homepage: http://geant4.cern.ch/
+WNPP: 325305
+License: non-DFSG
+Responsible: Kevin B. McCarty <kmccarty@princeton.edu>
+Pkg-URL: http://borex.princeton.edu/~kmccarty/dists/sid/
+Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
+ GEANT4 is a toolkit for the simulation of the passage of particles through
+ matter.   Its application areas include high energy physics and nuclear
+ experiments, medical, accelerator and space physics studies.  The GEANT4
+ software consists of an extensive set of libraries, fundamentally
+ object-oriented and based in modern C++.  It may be used to develop programs
+ with command-line, Xaw-based, or Motif-based interfaces.
+ .
+ This package is a metapackage that depends upon all components of a
+ GEANT4 environment.  Unless you know exactly what parts of GEANT4
+ you want, it is best to install this package.
+
+Depends: meshlab
+Homepage: http://meshlab.sourceforge.net/
+WNPP: 426581
+License: GPL
+Responsible: Teemu Ikonen <tpikonen@gmail.com>
+Pkg-URL: http://esko.osmas.info/~tmx/meshlab/
+Pkg-Description: System for processing and editing triangular meshes
+ MeshLab is an open source, portable, and extendible system for the
+ processing and editing of unstructured 3D triangular meshes.
+ The system is aimed to help the processing of the typical not-so-small
+ unstructured models arising in 3D scanning, providing a set of tools for
+ editing, cleaning, healing, inspecting, rendering and converting this kind
+ of meshes.
+ .
+ Meshlab can read files in these formats: PLY, STL, OFF, OBJ, 3DS, COLLADA
+ and PTX. It can write PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, and DXF.
+
+Depends: opencascade-tools
+Homepage: http://www.opencascade.org/
+WNPP: 464400
+License: LGPL/non-free
+Responsible: Adam C. Powell, IV <hazelsct@debian.org>
+Pkg-URL: http://lyre.mit.edu/~powell/opencascade/
+Pkg-Description: OpenCASCADE CAE platform tools
+ OpenCASCADE is a suite for 3D surface and solid modeling, visualization, data
+ exchange and rapid application development.  It is an excellent platform for
+ development of numerical simulation software including CAD/CAM/CAE, AEC and
+ GIS, as well as PDM applications.
+ .
+ This package contains the command-line tools DRAWEXE, wokprocess, woksh.
+
 Depends: root-system
 Homepage: http://root.cern.ch/
 WNPP: 325306
@@ -55,146 +209,17 @@ Pkg-Description: Meta package to install all ROOT packages
  extended by linking external libraries. This makes ROOT a premier
  platform on which to build data acquisition, simulation and data
  analysis systems.
-Why: suggested by Kevin B. McCarty, thanks to cdd-dev 0.4 will be turned into \
-     a suggests as long as not available in unstable.
 
-Recommends: science-electronics
-
-Suggests: science-statistics, science-mathematics
-
-Depends: brlcad
-Homepage: http://my.brlcad.org/
-WNPP: 289632
-License: GPL
-Responsible: none
-Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling system
- BRL-CAD is a powerful Combinatorial/Constructive Solid Geometry (CSG)
- solid modeling system that includes an interactive geometry editor,
- ray-tracing support for rendering and geometric analysis,
- network-distributed framebuffer support, image and signal-processing
- tools, and an embedded scripting language. It has been developed over
- a 20 year period and is now a stable mature product. This is the 
- first GPL'ed release of the package. It is being maintained by the
- US Army Research laboratory (ARL).
-
-Depends: meshlab
-Homepage: http://meshlab.sourceforge.net/
-WNPP: 426581
-License: GPL
-Responsible: Teemu Ikonen <tpikonen@gmail.com>
-Pkg-URL: http://esko.osmas.info/~tmx/meshlab/
-Pkg-Description: System for processing and editing triangular meshes
- MeshLab is an open source, portable, and extendible system for the
- processing and editing of unstructured 3D triangular meshes.
- The system is aimed to help the processing of the typical not-so-small
- unstructured models arising in 3D scanning, providing a set of tools for
- editing, cleaning, healing, inspecting, rendering and converting this kind
- of meshes.
- .
- Meshlab can read files in these formats: PLY, STL, OFF, OBJ, 3DS, COLLADA
- and PTX. It can write PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, and DXF.
-
-Depends: gate
-Homepage: http://opengatecollaboration.healthgrid.org/
-WNPP: 431425
+Depends: salome
+Homepage: http://www.salome-platform.org/
+WNPP: 457075
 License: LGPL
-Responsible: Nicolas Spalinger <nicolas.spalinger@healthgrid.org>
-Pkg-Description: Geant4 Application for Emission Tomography
- GATE incorporates the Geant4 libraries in a modular, versatile, and
- scripted simulation toolkit which is adapted to the field of nuclear
- medicine both in PET (Positron Emission Tomography) and SPECT (Single
- Photon Emission Computer Tomography). It allows the accurate description
- of time-dependent phenomena such as source or detector movement and
- source decay kinetics. The ability to synchronize all time-dependent
- components allows a coherent description of the acquisition process. It
- makes it possible to perform realistic simulations of data acquisitions
- in time.
-
-Depends: cadabra
-Homepage: http://www.aei.mpg.de/~peekas/cadabra/
-WNPP: 434489
-License: GNU GPL v2
-Responsible: Gürkan Sengün <gurkan@linuks.mine.nu>
-Pkg-Description: Field-theory motivated computer algebra system
- Cadabra is a computer algebra system designed specifically for the
- solution of problems encountered in field theory. It has extensive
- functionality for tensor polynomial simplification including
- multi-term symmetries, fermions and anti-commuting variables,
- Clifford algebras and Fierz transformations, implicit coordinate
- dependence, multiple index types and many more. The input format is
- a subset of TeX.
-
-Depends: blzpack
-Homepage: http://crd.lbl.gov/~osni/#Software
-WNPP: 435394
-License: BSD
-Responsible: Ondrej Certik <ondrej@certik.cz>
-Pkg-Description: library for solving large sparse eigenproblems
- BLZPACK (for Block LancZos PACKage, release 04/00) is a standard Fortran 77
- implementation of the block Lanczos algorithm intended for the solution of the
- standard eigenvalue problem Ax=µx or the generalized eigenvalue problem
- Ax=µBx, where A and B are real, sparse symmetric matrices, µ an eigenvalue and
- x an eigenvector.
- .
- The development of this eigensolver was motivated by the need to solve large,
- sparse, generalized problems from free vibration analyses in structural
- engineering. Several upgrades were performed afterwards aiming at the solution
- of eigenvalues problems from a wider range of applications.
- .
- Documentation: user's guide, technical report and comprehensive bibliography.
- .
- Install this package if you need to compile or link against BLZPACK.
-
-Depends: drawxtl
-Homepage: http://home.att.net/~larry.finger/drawxtl/
-WNPP: 428750
-License: LGPL/Public Domain/GL2PS LICENSE
-Responsible: Daniel Leidert <daniel.leidert@wgdd.de>
-Pkg-Description: display crystal structures on ordinary computer hardware
- DRAWxtl reads a basic description of the crystal structure, which includes
- unit-cell parameters, space group, atomic coordinates, thermal parameters or
- a Fourier map, and outputs a geometry object that contains polyhedra, planes,
- lone-pair cones, spheres or ellipsoids, bonds, iso-surface Fourier contours
- and the unit-cell boundary.
- .
- Four forms of graphics are produced:
- .
-  (1) an openGL window for immediate viewing
-  (2) the Persistence of Vision Ray Tracer (POV-RAY) scene language for
-      publication-quality drawings
-  (3) the Virtual Reality Modeling Language (VRML) for dissemination
-      across the Internet
-  (4) a Postscript rendering of the OpenGL window for those that want
-      high-quality output but do not have
-      POV-RAY installed.
-
-Depends: geant4
-Homepage: http://geant4.cern.ch/
-WNPP: 325305
-License: non-DFSG
-Responsible: Kevin B. McCarty <kmccarty@princeton.edu>
-Pkg-URL: http://borex.princeton.edu/~kmccarty/dists/sid/
-Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
- GEANT4 is a toolkit for the simulation of the passage of particles through
- matter.   Its application areas include high energy physics and nuclear
- experiments, medical, accelerator and space physics studies.  The GEANT4
- software consists of an extensive set of libraries, fundamentally
- object-oriented and based in modern C++.  It may be used to develop programs
- with command-line, Xaw-based, or Motif-based interfaces.
- .
- This package is a metapackage that depends upon all components of a
- GEANT4 environment.  Unless you know exactly what parts of GEANT4
- you want, it is best to install this package.
-
-Depends: clhep2
-Homepage: http://wwwasd.web.cern.ch/wwwasd/lhc++/clhep/
-License: non-DFSG
-Responsible: Dr James Ferrando <ferrando@mail.desy.de>
-Pkg-URL: http://www-pnp.physics.ox.ac.uk/~ferrando/debian/pool/hep/clhep/
-Pkg-Description: CLHEP - A Class Library for High Energy Physics
- The CLHEP project was proposed by Leif Lönnblad at CHEP 92. It is intended to
- be a set of HEP-specific foundation and utility classes such as random
- generators, physics vectors, geometry and linear algebra. CLHEP is structured
- in a set of packages independent of any external package (interdependencies
- within CLHEP are allowed under certain conditions).
+Responsible: Adam C Powell IV <hazelsct@debian.org>
+Pkg-Description: Engineering simulation framework
+ Salomé is a powerful LGPL framework for engineering simulations.  It has
+ CAD capability within itself, can import and export CAD files in IGES
+ format, can mesh those files, and control an external parallel solver
+ such as Code Aster, then visualize the results.  Salomé is at the heart
+ of the new CAELinux (Computer-Aided Engineering Linux) live DVD
+ distribution.
 
