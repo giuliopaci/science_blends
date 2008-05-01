@@ -50,3 +50,8 @@ Pkg-Description: An index tool of TXT, PDF, DOC, HTML and others
  various other file formats, depending on its configuration (e.g. Word
  doc, pdf, html, xml,...)
 
+Depends: gpapers
+Homepage: http://gpapers.org/
+License: GPL
+Pkg-Description: bibliography management software
+ Digital library manager. Think of it as an iTunes for your PDFs.
