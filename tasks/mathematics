@@ -26,7 +26,7 @@ Why: FEA, mesh generator
 Recommends: coq, proofgeneral, proofgeneral-coq
 Why: Proof assistant
 
-Recommends: octave | octave2.1
+Recommends: octave3.0
 
 Recommends: octaviz
 
