@@ -32,6 +32,10 @@ Recommends: med-imaging
 Suggests: pgplot5
 Why: non-free
 
+Suggests: findimagedupes, libpuzzle
+Why: Those two packages are not necessarily needed for scientific work but a hint for
+     their existence might be very reasonable.
+
 Depends: paraview
 Homepage: http://www.paraview.org/
 WNPP: 304334
