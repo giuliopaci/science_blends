@@ -57,3 +57,13 @@ Homepage: http://gpapers.org/
 License: GPL
 Pkg-Description: bibliography management software
  Digital library manager. Think of it as an iTunes for your PDFs.
+
+Depends: latexdiff
+Homepage: http://www.ctan.org/tex-archive/support/latexdiff
+License: GPL
+Pkg-Description: Determine and mark up significant differences between latex files
+ This perl script compares two versions of a LaTeX document and generates
+ another LaTeX file which, when compiled, has the differences highlighted.
+ Although LaTeX sometimes complains a little when compiling the diff file, it
+ works reasonably well. It is useful for co-authors to visualize what changed
+ in a paper.
