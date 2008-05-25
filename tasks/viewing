@@ -36,6 +36,10 @@ Suggests: findimagedupes, libpuzzle
 Why: Those two packages are not necessarily needed for scientific work but a hint for
      their existence might be very reasonable.
 
+Suggests: libgtkdatabox | libgtkdatabox-0.8.2-2
+Comment: We have to find a way to make sure that version number changes in the
+         library will be regarded effectively in the meta packages.
+
 Depends: paraview
 Homepage: http://www.paraview.org/
 WNPP: 304334
