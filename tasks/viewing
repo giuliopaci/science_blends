@@ -42,7 +42,7 @@ Comment: We have to find a way to make sure that version number changes in the
 
 Depends: paraview
 Homepage: http://www.paraview.org/
-WNPP: 304334
+WNPP: 462631
 License: other-BSD
 Responsible: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
 Pkg-URL: http://svn.debian.org/wsvn/pkg-scicomp/paraview/
