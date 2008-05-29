@@ -28,3 +28,19 @@ Why: linear programming
 
 Recommends: libcgal-dev
 Why: computational geometry
+
+Recommends: python-openopt
+Homepage: http://scipy.org/scipy/scikits/wiki/OpenOpt
+License: BSD
+Responsible: Yaroslav Halchenko <debian@onerussian.com>
+Pkg-Description: numerical optimization framework
+ New numerical optimization framework developed by optimization department
+ of cybernetics institute (Ukrainian National Academy of Sciences) in
+ collaboration with SciPy developers team.  Primary goals:
+  * providing connections to lots of solvers (some are C- or Fortran-written)
+    with easy and unified OpenOpt syntax
+  * trying to enhance algorithms for numerical optimization invented by
+    ukrainian academicians Boris Pshenichniy and Naum Z. Shor
+ .
+ Free Python-based cross-platform alternative to commercial frameworks like
+ AMPL, GAMS, TomOpt's TOMLAB/TOMNET.
