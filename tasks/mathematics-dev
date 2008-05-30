@@ -29,18 +29,26 @@ Why: linear programming
 Recommends: libcgal-dev
 Why: computational geometry
 
-Recommends: python-openopt
+Recommends: python-scikits-openopt
 Homepage: http://scipy.org/scipy/scikits/wiki/OpenOpt
-License: BSD
+License: BSD-3
+WNPP: 483719
 Responsible: Yaroslav Halchenko <debian@onerussian.com>
-Pkg-Description: numerical optimization framework
- New numerical optimization framework developed by optimization department
- of cybernetics institute (Ukrainian National Academy of Sciences) in
- collaboration with SciPy developers team.  Primary goals:
-  * providing connections to lots of solvers (some are C- or Fortran-written)
-    with easy and unified OpenOpt syntax
-  * trying to enhance algorithms for numerical optimization invented by
-    ukrainian academicians Boris Pshenichniy and Naum Z. Shor
+Pkg-URL: http://itanix.rutgers.edu/rumba/dists/sid/perspect/binary-all/python/python-scikits-openopt_0.18~svn992-1~pre3_all.deb
+Pkg-Description: Python module for numerical optimization
+ Numerical optimization framework developed in Python which provides
+ connections to lots of solvers with easy and unified OpenOpt
+ syntax. Problems which can be tackled with OpenOpt
+  * Linear Problem (LP)
+  * Mixed-Integer Linear Problem (MILP)
+  * Quadratic Problem (QP)
+  * Non-Linear Problem (NLP)
+  * Non-Smooth Problem (NSP)
+  * Non-Linear Solve Problem (NLSP)
+  * Least Squares Problem (LSP)
+  * Linear Least Squares Problem (LLSP)
+  * Mini-Max Problem (MMP)
+  * Global Problem (GLP)
  .
- Free Python-based cross-platform alternative to commercial frameworks like
- AMPL, GAMS, TomOpt's TOMLAB/TOMNET.
+ A variety of solvers is available (e.g. IPOPT, ALGENCAN).
+
