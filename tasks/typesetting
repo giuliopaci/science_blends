@@ -23,6 +23,8 @@ Recommends: dia
 
 Suggests: tellico
 
+Suggests: texmaker
+
 Depends: bibus
 Homepage: http://bibus-biblio.sourceforge.net/wiki/index.php/Main_Page
 WNPP: 470887
