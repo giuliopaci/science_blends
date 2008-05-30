@@ -13,13 +13,15 @@ Recommends: octave | octave3.0, gnuplot
 
 Recommends: libcoin40-runtime, libvtk5, libboost-dev
 
-Recommends: opende
-Comment: Leopold Palomo Avellaneda <leo@alaxarxa.net> claimed that there is such a
- package in Debian but this seems to be wrong
+Recommends: ode
 
 Recommends: d-collide
-Comment: Leopold Palomo Avellaneda <leo@alaxarxa.net> claimed that there is such a
- package in Debian but this seems to be wrong
+Homepage: http://d-collide.ematia.de/
+License: BSD
+Pkg-Description: D-Collide is a real-time collision detection library aimed
+ at performance and accuracy, that supports rigid objects as well as
+ deformables - such as cloth - including self-collision detection.
+
 
 Recommends: rtnet
 Homepage: http://www.rtnet.org
@@ -75,7 +77,7 @@ Pkg-Description: Kinematics and Dynamics Library
  interpolation.
 
 Recommends: orocos-ocl
-Homepage: http://www.orocos.org/kdl
+Homepage: http://www.orocos.org/ocl
 License: GPL
 Pkg-URL: http://svn.fmtc.be/debian
 Pkg-Description: Orocos Component Library
