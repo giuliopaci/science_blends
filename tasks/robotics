@@ -1,17 +1,25 @@
-Task: Common
-Description: Debian Robotics common packages
- This metapackage will install Debian Robotics common packages which ... blabla
+Task: Robotics
+Description: Debian Robotics packages
+ This metapackage will install Debian Science packages related to Robotics.
 
-Recommends: rtai, xenomai
+Recommends: rtai, xenomai-runtime
 
-Recommends: opencv
+Recommends: libcv1
 
-Recommends: comedi
+Recommends: libcomedi0
 Comment: Debian version is quite old - needs update
 
-Recommends: octave, coin3d, vtk, gnuplot, boost, opende
+Recommends: octave | octave3.0, gnuplot
+
+Recommends: libcoin40-runtime, libvtk5, libboost-dev
+
+Recommends: opende
+Comment: Leopold Palomo Avellaneda <leo@alaxarxa.net> claimed that there is such a
+ package in Debian but this seems to be wrong
 
 Recommends: d-collide
+Comment: Leopold Palomo Avellaneda <leo@alaxarxa.net> claimed that there is such a
+ package in Debian but this seems to be wrong
 
 Recommends: rtnet
 Homepage: http://www.rtnet.org
