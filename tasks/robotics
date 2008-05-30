@@ -1,0 +1,91 @@
+Task: Common
+Description: Debian Robotics common packages
+ This metapackage will install Debian Robotics common packages which ... blabla
+
+Recommends: rtai, xenomai
+
+Recommends: opencv
+
+Recommends: comedi
+Comment: Debian version is quite old - needs update
+
+Recommends: octave, coin3d, vtk, gnuplot, boost, opende
+
+Recommends: d-collide
+
+Recommends: rtnet
+Homepage: http://www.rtnet.org
+License: GPL
+Pkg-Description: hard real-time network protocol stack
+ RTnet is an Open Soure hard real-time network protocol stack 
+ for Xenomai and RTAI (real-time Linux extensions). It makes use of standard 
+ Ethernet hardware and supports several popular NIC chip sets, including 
+ Gigabit Ethernet. Moreover, Ethernet-over-1394 support is available based on 
+ the RT-FireWire protocol stack.
+
+Recommends: orca
+Homepage: http://orca-robotics.sourceforge.net/orca/index.html
+License: LGPL and GPL
+Pkg-Description: developing component-based robotic systems
+ Orca is an open-source framework for developing 
+ component-based robotic systems. It provides the means for defining and 
+ developing the building-blocks which can be pieced together to form 
+ arbitrarily complex robotic systems, from single vehicles to distributed 
+ sensor networks.
+
+Recommends: roboop
+Homepage: http://www.cours.polymtl.ca/roboop/
+License: GPL
+Pkg-Description: synthesis, and simulation of robotic manipulator models
+ ROBOOP is a C++ robotics object oriented programming toolbox 
+ suitable for synthesis, and simulation of robotic manipulator models in an 
+ environment that provides ``MATLAB like'' features for the treatment of 
+ matrices. Its is a portable tool that does not require the use of commercial 
+ software.
+
+Recommends: orocos-rtt
+Homepage: http://www.orocos.org/rtt
+License: GPL
+Pkg-URL: http://svn.fmtc.be/debian
+Pkg-Description: Orocos Real-Time Toolkit
+ The Orocos Real-Time Toolkit (RTT) is not an application
+ in itself, but it provides the infrastructure and the
+ functionalities to build robotics applications in C++. The
+ emphasis is on real-time, online interactive and
+ component based applications.
+
+Recommends: orocos-kdl
+Homepage: http://www.orocos.org/kdl
+License: GPL
+Pkg-Description: Kinematics and Dynamics Library
+ The Kinematics and Dynamics Library (KDL) develops an 
+ application independent framework for modelling and computation of kinematic 
+ chains, such as robots, biomechanical human models, computer-animated 
+ figures, machine tools, etc. It provides class libraries for geometrical 
+ objects (point, frame, line,... ), kinematic chains of various families 
+ (serial, humanoid, parallel, mobile,... ), and their motion specification and 
+ interpolation.
+
+Recommends: orocos-ocl
+Homepage: http://www.orocos.org/kdl
+License: GPL
+Pkg-URL: http://svn.fmtc.be/debian
+Pkg-Description: Orocos Component Library
+ The Orocos Component Library uses the Real-Time Toolkit (RTT) 
+ for constructing all its components. Some components use the Kinematics and 
+ Dynamics Library (KDL), the Bayesian Filtering Library (BFL) or other 
+ libraries.
+
+Recommends: orocos-bdl
+Homepage: http://www.orocos.org/bfl
+License: GPL
+Pkg-URL: http://people.mech.kuleuven.be/~tdelaet/bfl
+Pkg-Description: framework for inference in Dynamic Bayesian Networks
+ The Bayesian Filtering Library (BFL) provides an application 
+ independent framework for inference in Dynamic Bayesian Networks, i.e., 
+ recursive information processing and estimation algorithms based on Bayes' 
+ rule, such as (Extended) Kalman Filters, Particle Filters (or Sequential 
+ Monte Carlo methods), etc. These algorithms can, for example, be run on top 
+ of the Realtime Services, or be used for estimation in Kinematics & Dynamics 
+ applications.
+
