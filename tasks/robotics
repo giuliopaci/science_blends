@@ -18,6 +18,7 @@ Recommends: ode
 Recommends: d-collide
 Homepage: http://d-collide.ematia.de/
 License: BSD
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: D-Collide is a real-time collision detection library aimed
  at performance and accuracy, that supports rigid objects as well as
  deformables - such as cloth - including self-collision detection.
@@ -26,6 +27,7 @@ Pkg-Description: D-Collide is a real-time collision detection library aimed
 Recommends: rtnet
 Homepage: http://www.rtnet.org
 License: GPL
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: hard real-time network protocol stack
  RTnet is an Open Soure hard real-time network protocol stack 
  for Xenomai and RTAI (real-time Linux extensions). It makes use of standard 
@@ -36,6 +38,7 @@ Pkg-Description: hard real-time network protocol stack
 Recommends: orca
 Homepage: http://orca-robotics.sourceforge.net/orca/index.html
 License: LGPL and GPL
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: developing component-based robotic systems
  Orca is an open-source framework for developing 
  component-based robotic systems. It provides the means for defining and 
@@ -46,6 +49,7 @@ Pkg-Description: developing component-based robotic systems
 Recommends: roboop
 Homepage: http://www.cours.polymtl.ca/roboop/
 License: GPL
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: synthesis, and simulation of robotic manipulator models
  ROBOOP is a C++ robotics object oriented programming toolbox 
  suitable for synthesis, and simulation of robotic manipulator models in an 
@@ -56,6 +60,7 @@ Pkg-Description: synthesis, and simulation of robotic manipulator models
 Recommends: orocos-rtt
 Homepage: http://www.orocos.org/rtt
 License: GPL
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-URL: http://svn.fmtc.be/debian
 Pkg-Description: Orocos Real-Time Toolkit
  The Orocos Real-Time Toolkit (RTT) is not an application
@@ -67,6 +72,7 @@ Pkg-Description: Orocos Real-Time Toolkit
 Recommends: orocos-kdl
 Homepage: http://www.orocos.org/kdl
 License: GPL
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: Kinematics and Dynamics Library
  The Kinematics and Dynamics Library (KDL) develops an 
  application independent framework for modelling and computation of kinematic 
@@ -79,6 +85,7 @@ Pkg-Description: Kinematics and Dynamics Library
 Recommends: orocos-ocl
 Homepage: http://www.orocos.org/ocl
 License: GPL
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-URL: http://svn.fmtc.be/debian
 Pkg-Description: Orocos Component Library
  The Orocos Component Library uses the Real-Time Toolkit (RTT) 
@@ -89,6 +96,7 @@ Pkg-Description: Orocos Component Library
 Recommends: orocos-bdl
 Homepage: http://www.orocos.org/bfl
 License: GPL
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-URL: http://people.mech.kuleuven.be/~tdelaet/bfl
 Pkg-Description: framework for inference in Dynamic Bayesian Networks
  The Bayesian Filtering Library (BFL) provides an application 
@@ -98,4 +106,3 @@ Pkg-Description: framework for inference in Dynamic Bayesian Networks
  Monte Carlo methods), etc. These algorithms can, for example, be run on top 
  of the Realtime Services, or be used for estimation in Kinematics & Dynamics 
  applications.
-
