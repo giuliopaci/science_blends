@@ -4,7 +4,10 @@ debian-science (0.1) unstable; urgency=low
   * Initial Release.
 
   [ Andreas Tille ]
-  * XS-DM-Upload-Allowed: yes
+  * DM-Upload-Allowed: yes
   * Vcs-Browser, Vcs-Svn
+  * debian-science-maintainers@lists.alioth.debian.org as maintainer
+  * cdd-dev >= 0.5.2
+  * Standards-Version: 3.8.0
 
- -- Andreas Tille <tille@debian.org>  Wed, 20 Feb 2008 22:34:46 +0100
+ -- Andreas Tille <tille@debian.org>  Sat, 07 Jun 2008 00:30:31 +0200

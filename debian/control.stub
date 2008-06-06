@@ -1,13 +1,13 @@
 Source: debian-science
 Section: misc
 Priority: extra
-Maintainer: Debian Science mailing list <debian-science@lists.debian.org>
-XS-DM-Upload-Allowed: yes
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+DM-Upload-Allowed: yes
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
  Andreas Tille <tille@debian.org>
-Build-Depends: debhelper (>= 5)
-Build-Depends-Indep: cdd-dev (>= 0.4.7)
-Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 6.0.7)
+Build-Depends-Indep: cdd-dev (>= 0.5.2)
+Standards-Version: 3.8.0
 Homepage: http://wiki.debian.org/DebianScience/
 Vcs-Browser: http://svn.debian.org/wsvn/cdd/projects/science/trunk/debian-science/?rev=0&sc=0
 Vcs-Svn: svn://svn.debian.org/cdd/projects/science/trunk/debian-science/
