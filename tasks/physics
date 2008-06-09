@@ -215,6 +215,7 @@ Homepage: http://www.salome-platform.org/
 WNPP: 457075
 License: LGPL
 Responsible: Adam C Powell IV <hazelsct@debian.org>
+Pkg-URL: http://lyre.mit.edu/~powell/salome/
 Pkg-Description: Engineering simulation framework
  Salomé is a powerful LGPL framework for engineering simulations.  It has
  CAD capability within itself, can import and export CAD files in IGES
