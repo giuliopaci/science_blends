@@ -1,3 +1,10 @@
+debian-science (0.2) UNRELEASED; urgency=low
+
+  * tasks/geography: removed hyphen from description
+    Closes: #486929
+
+ -- Andreas Tille <tille@debian.org>  Thu, 19 Jun 2008 07:05:09 +0200
+
 debian-science (0.1) unstable; urgency=low
 
   [ Frederic Daniel Luc Lehobey ]

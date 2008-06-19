@@ -1,6 +1,6 @@
 Task: Geography
-Description: Debian-Science Geography packages
- This metapackage will install Debian-Science packages related to Geography.
+Description: Debian Science Geography packages
+ This metapackage will install Debian Science packages related to Geography.
  You might be interested as well in field::geography debtag and, depending on 
  your focus, in education-geography metapackage.
 
