@@ -62,7 +62,7 @@ Ignore: gstar
 Homepage: http://www.ecn.wfu.edu/~cottrell/gstar/
 License: GPL
 Responsible: Maintainer: Muhammad Hussain Yusuf <muhammad_yusuf@lineone.net>
-Pkg_URL: http://snapshot.debian.net/archive/2005/03/13/debian/pool/main/g/gstar/
+Pkg-URL: http://snapshot.debian.net/archive/2005/03/13/debian/pool/main/g/gstar/
 Pkg-Description: a gtk front-end for the starchart program
  gstar is a gtk front-end for the "starchart" program (originally by Alan
  Paeth, updated in 1990 by Craig Counterman) which generates high-quality
