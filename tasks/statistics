@@ -2,7 +2,7 @@ Task: Statistics
 Description: Debian Science Statistics packages
  This metapackage will install Debian Science packages related to Statistics.
 
-Depends: ess, littler, r-recommended, rkward
+Recommends: ess, littler, r-recommended, rkward
 Why: R utilities or frontends
 
 Recommends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \

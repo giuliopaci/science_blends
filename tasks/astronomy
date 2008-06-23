@@ -4,7 +4,7 @@ Description: Debian Science Astronomy packages
  You might be interested as well in field::astronomy debtag and, depending on
  your focus, in education-astronomy metapackage.
 
-Depends: libcfitsio3, fv, gcx, slang-cfitsio
+Recommends: libcfitsio3, fv, gcx, slang-cfitsio
 Why: FITS format file
 
 Recommends: saods9
@@ -16,8 +16,11 @@ Recommends: astronomical-almanac, lightspeed, openuniverse
 
 Recommends: sextractor
 
-Depends: gpredict, stellarium, ssystem, xplanet,
-         xplanet-images, gstar, celestia, kstars, starplot
+Recommends: gpredict, stellarium, ssystem, xplanet,
+         xplanet-images, celestia, kstars, starplot
+
+Ignore: gstar
+Why: Not available any more
 
 Suggests: spacechart, sunclock, xtide, xtide-data, xephem, stars
 Why: Took this over from education-astronomy
@@ -25,7 +28,7 @@ Why: Took this over from education-astronomy
 Suggests: pdl, pgplot5, python-scientific, yorick
 Why: Already in science-viewing
 
-Depends: orbfit
+Recommends: orbfit
 Homepage: http://newton.dm.unipi.it/orbfit/
 WNPP: 459154
 License: GPL
@@ -52,7 +55,7 @@ Pkg-Description: computation of asteroidal orbits
  positive reply. The packaging bits will be injected to pkg-scicomp
  in near future.
 
-Depends: linoccult
+Recommends: linoccult
 Homepage: http://linoccult.sourceforge.net/
 WNPP: 459358
 License: GPL
@@ -67,7 +70,7 @@ Pkg-Description: predicts occultations of stars by minor planets
  Some initial packaging has been performed and will be submitted to
  pkg-scicomp.alioth.debian.org.
 
-Depends: midas
+Recommends: midas
 Homepage: http://www.eso.org/sci/data-processing/software/esomidas/
 WNPP: 412488
 License: GPL

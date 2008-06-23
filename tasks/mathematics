@@ -4,7 +4,7 @@ Description: Debian Science Mathematics packages
  You might be interested as well in field::mathematics debtag and, depending
  on your focus, in education-mathematics metapackage.
 
-Depends: axiom, ginac-tools, xmaxima, wxmaxima
+Recommends: axiom, ginac-tools, xmaxima, wxmaxima
 Why: Symbolic computations
 
 Recommends: pari-gp, pari-extra
@@ -37,7 +37,7 @@ Recommends: geomview
 Suggests: scilab
 Why: In non-free
 
-Depends: sagemath
+Recommends: sagemath
 Homepage: http://www.sagemath.org/
 WNPP: 455292
 License: GPL

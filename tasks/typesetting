@@ -3,7 +3,7 @@ Description: Debian Science typesetting packages
  This metapackage will install Debian Science packages related to typesetting.
  You might be interested as well in use::typesetting debtag.
 
-Depends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra, \
+Recommends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra, \
          jabref, bibutils
 Why: BibTeX and bibliography
 
@@ -25,7 +25,7 @@ Suggests: tellico
 
 Suggests: texmaker
 
-Depends: bibus
+Recommends: bibus
 Homepage: http://bibus-biblio.sourceforge.net/wiki/index.php/Main_Page
 WNPP: 470887
 License: GPL-2+
@@ -39,7 +39,7 @@ Pkg-Description: bibliographic and reference management software
  insert citations and format the bibliographic index in an
  opened Openoffice.org writer document.
 
-Depends: quaneko
+Recommends: quaneko
 Homepage: http://quaneko.sourceforge.net/
 WNPP: 324422
 License: GPL
@@ -54,13 +54,13 @@ Pkg-Description: An index tool of TXT, PDF, DOC, HTML and others
  various other file formats, depending on its configuration (e.g. Word
  doc, pdf, html, xml,...)
 
-Depends: gpapers
+Recommends: gpapers
 Homepage: http://gpapers.org/
 License: GPL
 Pkg-Description: bibliography management software
  Digital library manager. Think of it as an iTunes for your PDFs.
 
-Depends: latexdiff
+Recommends: latexdiff
 Homepage: http://www.ctan.org/tex-archive/support/latexdiff
 License: GPL
 Pkg-Description: Determine and mark up significant differences between latex files

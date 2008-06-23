@@ -4,6 +4,6 @@ Description: Debian Science Biology packages
  You might be interested as well in field::biology debtag.
 Meta-Depends: http://debian-med.alioth.debian.org/tasks/bio.php
 
-Depends: med-bio
+Recommends: med-bio
 
 Suggests: biomode, med-bio-dev

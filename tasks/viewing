@@ -40,7 +40,7 @@ Suggests: libgtkdatabox | libgtkdatabox-0.8.2-2
 Comment: We have to find a way to make sure that version number changes in the
          library will be regarded effectively in the meta packages.
 
-Depends: paraview
+Recommends: paraview
 Homepage: http://www.paraview.org/
 WNPP: 462631
 License: other-BSD
@@ -63,7 +63,7 @@ Pkg-Description: Parallel Visualization Application
  Toolkit as the data processing and rendering engine and has a user
  interface written using Qt.
 
-Depends: teem
+Recommends: teem
 Homepage: http://teem.sourceforge.net
 License: LGPL
 WNPP: 473044

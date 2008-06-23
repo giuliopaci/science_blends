@@ -6,7 +6,7 @@ Description: Debian Science Mathematics-dev packages
  circumstances but only if the user asks for installing these.
  You might be interested as well in the science-mathematics metapackage.
 
-Depends: libmesh0.6.1
+Recommends: libmesh0.6.1
 Why: FEA
 
 Recommends: libnetgen-dev

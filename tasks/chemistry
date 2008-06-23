@@ -7,7 +7,7 @@ Description: Debian Science Chemistry packages
 Why: To be handled by debichem once they have metapackages (like \
      science-geography / Debian GIS and science-biology / Debian Med)
 
-Depends: apbs, bkchem, bodr, libcdk-java, chemeq, \
+Recommends: apbs, bkchem, bodr, libcdk-java, chemeq, \
          chemical-mime-data, chemtool, easychem, gabedit, galculator, \
          garlic, gausssum, gchempaint, gdis, ghemical, gcrystal, gcu-bin, \
          gcu-plugin, gperiodic, \
@@ -23,7 +23,7 @@ Recommends: xbs
 
 Suggests: gdpc-examples
 
-Depends: avogadro
+Recommends: avogadro
 Homepage: http://avogadro.openmolecules.net/wiki/Main_Page
 WNPP: 450814
 License: GPL
@@ -35,7 +35,7 @@ Pkg-Description: advanced molecular editor
  science, and related areas. It offers flexible rendering and a powerful plugin 
  architecture.
 
-Depends: drawxtl
+Recommends: drawxtl
 Homepage: http://home.att.net/~larry.finger/drawxtl/
 WNPP: 428750
 License: LGPL/Public Domain/GL2PS LICENSE
@@ -58,7 +58,7 @@ Pkg-Description: display crystal structures on ordinary computer hardware
       high-quality output but do not have
       POV-RAY installed.
 
-Depends: gamgi
+Recommends: gamgi
 Homepage: http://www.gamgi.org/
 WNPP: 465994
 License: GPL
@@ -66,7 +66,7 @@ Responsible: Steffen Moeller <steffen_moeller@gmx.de>
 Pkg-Description: general atomistic modelling graphic interface
  Graphical interface to build or analyse atomic structures.
 
-Depends: gelemental
+Recommends: gelemental
 Homepage: http://www.kdau.com/projects/gelemental/
 WNPP: 444861
 License: GPLv3
@@ -77,7 +77,7 @@ Pkg-Description: Periodic table viewer for the Gnome desktop
  Linux and other GTK+/GNOME platforms. It is free software released under
  the GNU General Public License.
 
-Depends: libegad
+Recommends: libegad
 Homepage: http://egad.ucsd.edu/egad/
 WNPP: 429693
 License: LGPL
@@ -93,7 +93,7 @@ Pkg-Description: rational protein design library
  Citations of EGAD Library should reference the paper in the Journal of
  Computational Chemistry. doi:10.1002/jcc.20727
 
-Depends: libint
+Recommends: libint
 Homepage: http://www.chem.vt.edu/chem-dept/valeev/software/libint/libint.html
 WNPP: 425039
 License: GPL
@@ -117,7 +117,7 @@ Pkg-Description: Evaluate the integrals in modern atomic and molecular theory
  .
  Improves mpqc (#409025) and psi3.
 
-Depends: molden
+Recommends: molden
 Homepage: http://www.cmbi.ru.nl/molden/
 License: non-free
 Responsible: Debichem Team <debichem-devel@lists.alioth.debian.org>
@@ -147,14 +147,14 @@ Pkg-Description: processing program of molecular and electronic structure
  allthough the X version is considerably running behind on the current
  one.
 
-Depends: molekel
+Recommends: molekel
 Homepage: http://bioinformatics.org/molekel/
 License: GPL-2+
 Responsible: Michael Banck <mbanck@debian.org>
 Pkg-URL: http://svn.debian.org/wsvn/debichem/wnpp/molekel/?rev=0&sc=1
 Pkg-Description: Advanced Interactive 3D-Graphics for Molecular Sciences
 
-Depends: tinker
+Recommends: tinker
 Homepage: http://dasher.wustl.edu/tinker/
 License: non-free
 Responsible: LI Daobing <lidaobing@gmail.com>

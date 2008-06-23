@@ -4,7 +4,7 @@ Description: Debian Science Physics packages
  You might be interested as well in field::physics debtag and, depending on 
  your focus, in education-physics metapackage.
 
-Depends: cernlib, geant321, paw++, paw
+Recommends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
 Recommends: abinit
@@ -25,7 +25,7 @@ Recommends: science-electronics
 
 Suggests: science-statistics, science-mathematics
 
-Depends: blzpack
+Recommends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
 License: BSD
@@ -46,7 +46,7 @@ Pkg-Description: library for solving large sparse eigenproblems
  .
  Install this package if you need to compile or link against BLZPACK.
 
-Depends: brlcad
+Recommends: brlcad
 Homepage: http://my.brlcad.org/
 WNPP: 289632
 License: GPL
@@ -61,7 +61,7 @@ Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling sys
  first GPL'ed release of the package. It is being maintained by the
  US Army Research laboratory (ARL).
 
-Depends: cadabra
+Recommends: cadabra
 Homepage: http://www.aei.mpg.de/~peekas/cadabra/
 WNPP: 434489
 License: GNU GPL v2
@@ -75,7 +75,7 @@ Pkg-Description: Field-theory motivated computer algebra system
  dependence, multiple index types and many more. The input format is
  a subset of TeX.
 
-Depends: clhep2
+Recommends: clhep2
 Homepage: http://wwwasd.web.cern.ch/wwwasd/lhc++/clhep/
 License: non-DFSG
 Responsible: Dr James Ferrando <ferrando@mail.desy.de>
@@ -87,7 +87,7 @@ Pkg-Description: CLHEP - A Class Library for High Energy Physics
  in a set of packages independent of any external package (interdependencies
  within CLHEP are allowed under certain conditions).
 
-Depends: drawxtl
+Recommends: drawxtl
 Homepage: http://home.att.net/~larry.finger/drawxtl/
 WNPP: 428750
 License: LGPL/Public Domain/GL2PS LICENSE
@@ -110,7 +110,7 @@ Pkg-Description: display crystal structures on ordinary computer hardware
       high-quality output but do not have
       POV-RAY installed.
 
-Depends: gate
+Recommends: gate
 Homepage: http://opengatecollaboration.healthgrid.org/
 WNPP: 431425
 License: LGPL
@@ -126,7 +126,7 @@ Pkg-Description: Geant4 Application for Emission Tomography
  makes it possible to perform realistic simulations of data acquisitions
  in time.
 
-Depends: geant4
+Recommends: geant4
 Homepage: http://geant4.cern.ch/
 WNPP: 325305
 License: non-DFSG
@@ -144,7 +144,7 @@ Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
  GEANT4 environment.  Unless you know exactly what parts of GEANT4
  you want, it is best to install this package.
 
-Depends: meshlab
+Recommends: meshlab
 Homepage: http://meshlab.sourceforge.net/
 WNPP: 426581
 License: GPL
@@ -161,7 +161,7 @@ Pkg-Description: System for processing and editing triangular meshes
  Meshlab can read files in these formats: PLY, STL, OFF, OBJ, 3DS, COLLADA
  and PTX. It can write PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, and DXF.
 
-Depends: opencascade-tools
+Recommends: opencascade-tools
 Homepage: http://www.opencascade.org/
 WNPP: 464400
 License: LGPL/non-free
@@ -175,7 +175,7 @@ Pkg-Description: OpenCASCADE CAE platform tools
  .
  This package contains the command-line tools DRAWEXE, wokprocess, woksh.
 
-Depends: root-system
+Recommends: root-system
 Homepage: http://root.cern.ch/
 WNPP: 325306
 License: LGPL
@@ -210,7 +210,7 @@ Pkg-Description: Meta package to install all ROOT packages
  platform on which to build data acquisition, simulation and data
  analysis systems.
 
-Depends: salome
+Recommends: salome
 Homepage: http://www.salome-platform.org/
 WNPP: 457075
 License: LGPL
