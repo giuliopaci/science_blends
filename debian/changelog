@@ -2,9 +2,7 @@ debian-science (0.2) UNRELEASED; urgency=low
 
   * tasks/geography: removed hyphen from description
     Closes: #486929
-  * tasks/astronomy:
-    Moved gstar from Recommends to Ignore, because it seems to have
-    vanished from Debian
+  * tasks/astronomy: Added descriptions for packages that vanished from Debian
   * tasks/*: s/Depends/Recommens/ - this is done by current cdd-dev anyway
     The rationale for this behaviour is explained there.  It seems logical
     to state in the tasks files what finally is implemented.  We might think
