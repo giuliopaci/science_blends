@@ -8,9 +8,29 @@ Depends: gis-workstation
 Why: handled by Debian GIS. The Depends: will be replaced by an other special \
      tag (its name to be decided).
 
-Depends:     grass, \
-             qgis, \
-             qgis-plugin-grass
+Depends:     grass,
+
+Depends: qgis
+Homepage: http://www.qgis.org/
+License: GPL
+Responsible: Steve Halasz <debian@adkgis.org>
+Pkg-URL: http://packages.debian.org/etch/qgis
+Pkg-Description: Geographic Information System (GIS)
+ A Geographic Information System (GIS) manages, analyzes, and displays
+ databases of geographic information. Quantum GIS (QGIS) supports shapefile
+ viewing and editing, spatial data storage with PostgreSQL/PostGIS, projection
+ on-the-fly, map composition, and a number of other features via a plugin
+ interface. QGIS also supports display of various georeferenced raster and
+ Digital Elevation Model (DEM) formats including GeoTIFF, Arc/Info ASCII Grid,
+ and USGS ASCII DEM. 
+ .
+ This project used to be an official Debian in Etch but vanished later
+ from the Debian pool of packaged software because it had a lot of
+ bugs. The reaons are given here: http://bugs.debian.org/474604. Perhaps
+ later upstream version might qualify for inclusion again. The URL of the
+ "unofficial" package points to the location of the package in Etch.
+
+Depends: qgis-plugin-grass
 
 Depends:     mapserver-bin, \
              gmt, \
