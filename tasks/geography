@@ -26,7 +26,6 @@ Depends:     mapserver-bin, \
              drawmap, \
              proj, \
              postgis, \
-             kflog, \
              grace6, \
              gpstrans, \
              geoip-bin, \
@@ -41,6 +40,9 @@ Depends:     mapserver-bin, \
              postgresql-8.3-postgis, \
              gdal-bin, \
              ogdi-bin
+
+Comment:  kflog was removed from Debian in Lenny and is not really a good candidate
+ for Debian Science so it makes no sense to add it as prospective package here.
 
 Suggests:    googleearth-package
 
