@@ -6,30 +6,30 @@ Description: Debian Science Mathematics-dev packages
  circumstances but only if the user asks for installing these.
  You might be interested as well in the science-mathematics metapackage.
 
-Recommends: libmesh0.6.1
+Depends: libmesh0.6.1
 Why: FEA
 
-Recommends: libnetgen-dev
+Depends: libnetgen-dev
 Why: FEA, mesh generator
 Suggests: libtet1.4.2-dev
 Why: non-free
 
-Recommends: python-numpy
+Depends: python-numpy
 
-Recommends: libgsl0-dev
+Depends: libgsl0-dev
 
-Recommends: libsuperlu3
+Depends: libsuperlu3
 Why: solver
 Suggests: libslepc2.3.2
 Why: non-free
 
-Recommends: libglpk0
+Depends: libglpk0
 Why: linear programming
 
-Recommends: libcgal-dev
+Depends: libcgal-dev
 Why: computational geometry
 
-Recommends: python-scikits-openopt
+Depends: python-scikits-openopt
 Homepage: http://scipy.org/scipy/scikits/wiki/OpenOpt
 License: BSD-3
 WNPP: 483719

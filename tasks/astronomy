@@ -4,25 +4,25 @@ Description: Debian Science Astronomy packages
  You might be interested as well in field::astronomy debtag and, depending on
  your focus, in education-astronomy metapackage.
 
-Recommends: libcfitsio3, fv, gcx, slang-cfitsio
+Depends: libcfitsio3, fv, gcx, slang-cfitsio
 Why: FITS format file
 
-Recommends: saods9
+Depends: saods9
 
-Recommends: xorsa
+Depends: xorsa
 Why: Celestial Mechanics computations
 
-Recommends: astronomical-almanac, lightspeed, openuniverse
+Depends: astronomical-almanac, lightspeed, openuniverse
 
-Recommends: sextractor
+Depends: sextractor
 
-Recommends: gpredict, stellarium, ssystem, xplanet,
+Depends: gpredict, stellarium, ssystem, xplanet,
          xplanet-images, celestia, kstars, starplot
 
 Suggests: sunclock, xtide, xtide-data, stars
 Why: Took this over from education-astronomy
 
-Recommends: spacechart
+Depends: spacechart
 Homepage: http://www.gnu.org/software/spacechart/
 License: GPL
 Responsible: Francisco Garcia <franciscomanuel.garcia@hispalinux.es>
@@ -40,7 +40,7 @@ Pkg-Description: Star map viewer and navigator
  is stalled since the beginning of 2002. The URL of the "unofficial"
  package points to the location of the package in Etch.
 
-Recommends: xephem
+Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/
 License: Non-free
 Responsible: Javier Fernandez-Sanguino Pena <jfs@computer.org>
@@ -78,7 +78,7 @@ Pkg-Description: a gtk front-end for the starchart program
 Suggests: pdl, pgplot5, python-scientific, yorick
 Why: Already in science-viewing
 
-Recommends: orbfit
+Depends: orbfit
 Homepage: http://newton.dm.unipi.it/orbfit/
 WNPP: 459154
 License: GPL
@@ -105,7 +105,7 @@ Pkg-Description: computation of asteroidal orbits
  positive reply. The packaging bits will be injected to pkg-scicomp
  in near future.
 
-Recommends: linoccult
+Depends: linoccult
 Homepage: http://linoccult.sourceforge.net/
 WNPP: 459358
 License: GPL
@@ -120,7 +120,7 @@ Pkg-Description: predicts occultations of stars by minor planets
  Some initial packaging has been performed and will be submitted to
  pkg-scicomp.alioth.debian.org.
 
-Recommends: midas
+Depends: midas
 Homepage: http://www.eso.org/sci/data-processing/software/esomidas/
 WNPP: 412488
 License: GPL

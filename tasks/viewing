@@ -4,30 +4,30 @@ Description: Debian Science data visualisation packages
  visualization.
  You might be interested as well in use::viewing debtag.
 
-Recommends: pdl, gnudatalanguage
+Depends: pdl, gnudatalanguage
 Why: IDL-like
 
-Recommends: kst
+Depends: kst
 Why: displaying scientific data
 
-Recommends: ifrit
+Depends: ifrit
 
-Recommends: yorick
+Depends: yorick
 
-Recommends: python-scientific
+Depends: python-scientific
 Why: Maybe should go in some other metapackage (mathematics?)
 
-Recommends: fityk
+Depends: fityk
 
-Recommends: gnuplot, grace, gri, labplot, graphviz, pyxplot
+Depends: gnuplot, grace, gri, labplot, graphviz, pyxplot
 
-Recommends: imview
+Depends: imview
 
-Recommends: mayavi
+Depends: mayavi
 
-Recommends: g3data
+Depends: g3data
 
-Recommends: med-imaging
+Depends: med-imaging
 
 Suggests: pgplot5
 Why: non-free
@@ -40,7 +40,7 @@ Suggests: libgtkdatabox | libgtkdatabox-0.8.2-2
 Comment: We have to find a way to make sure that version number changes in the
          library will be regarded effectively in the meta packages.
 
-Recommends: paraview
+Depends: paraview
 Homepage: http://www.paraview.org/
 WNPP: 462631
 License: other-BSD
@@ -63,7 +63,7 @@ Pkg-Description: Parallel Visualization Application
  Toolkit as the data processing and rendering engine and has a user
  interface written using Qt.
 
-Recommends: teem
+Depends: teem
 Homepage: http://teem.sourceforge.net
 License: LGPL
 WNPP: 473044

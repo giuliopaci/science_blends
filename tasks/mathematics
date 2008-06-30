@@ -4,40 +4,40 @@ Description: Debian Science Mathematics packages
  You might be interested as well in field::mathematics debtag and, depending
  on your focus, in education-mathematics metapackage.
 
-Recommends: axiom, ginac-tools, xmaxima, wxmaxima
+Depends: axiom, ginac-tools, xmaxima, wxmaxima
 Why: Symbolic computations
 
-Recommends: pari-gp, pari-extra
+Depends: pari-gp, pari-extra
 
-Recommends: gap, magnus
+Depends: gap, magnus
 Why: Group theory
 
-Recommends: gerris
+Depends: gerris
 Why: CFD
 
-Recommends: freefem
+Depends: freefem
 Suggests: netgen-doc
 Why: FEA
 
-Recommends: netgen, gmsh
+Depends: netgen, gmsh
 Why: FEA, mesh generator
 
 
-Recommends: coq, proofgeneral, proofgeneral-coq
+Depends: coq, proofgeneral, proofgeneral-coq
 Why: Proof assistant
 
-Recommends: octave | octave3.0
+Depends: octave | octave3.0
 
-Recommends: octaviz
+Depends: octaviz
 
-Recommends: science-statistics
+Depends: science-statistics
 
-Recommends: geomview
+Depends: geomview
 
 Suggests: scilab
 Why: In non-free
 
-Recommends: sagemath
+Depends: sagemath
 Homepage: http://www.sagemath.org/
 WNPP: 455292
 License: GPL

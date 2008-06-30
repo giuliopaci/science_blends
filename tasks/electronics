@@ -4,33 +4,33 @@ Description: Debian Science Electronics packages
  You might be interested as well in field::electronics debtag and, depending
  on your focus, in education-electronics metapackage.
 
-Recommends: avrdude, electric, gcc-avr, gerbv, qucs, uisp
+Depends: avrdude, electric, gcc-avr, gerbv, qucs, uisp
 
-Recommends: geda
+Depends: geda
 Suggests: geda-examples, geda-doc
 
-Recommends: kicad
+Depends: kicad
 Suggests: kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, \
           kicad-doc-it, kicad-doc-pt, kicad-doc-ru
 
-Recommends: freehdl, ghdl, vbpp, vbs, verilog
+Depends: freehdl, ghdl, vbpp, vbs, verilog
 Why: VHDL
 
-Recommends: klogic, ksimus
+Depends: klogic, ksimus
 
-Recommends: gputils, simulpic
+Depends: gputils, simulpic
 Why: PIC
 
-Recommends: pcb
+Depends: pcb
 Why: PCB
 
-Recommends: oregano
+Depends: oregano
 
-Recommends: texlive-latex-extra
+Depends: texlive-latex-extra
 Why: contains circ-tex and circ-tex has a grave bug which makes \
      science-electronics uninstallable on several machines
 
-Recommends: linsmith, xsmc-calc, vipec
+Depends: linsmith, xsmc-calc, vipec
 Why: Smith charts
 
-Recommends: confluence
+Depends: confluence

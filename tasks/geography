@@ -4,15 +4,15 @@ Description: Debian Science Geography packages
  You might be interested as well in field::geography debtag and, depending on 
  your focus, in education-geography metapackage.
 
-Recommends: gis-workstation
+Depends: gis-workstation
 Why: handled by Debian GIS. The Depends: will be replaced by an other special \
      tag (its name to be decided).
 
-Recommends:     grass, \
+Depends:     grass, \
              qgis, \
              qgis-plugin-grass
 
-Recommends:     mapserver-bin, \
+Depends:     mapserver-bin, \
              gmt, \
              gpsbabel, \
              gpx2shp, \
@@ -44,7 +44,7 @@ Recommends:     mapserver-bin, \
 
 Suggests:    googleearth-package
 
-Recommends:     josm, \
+Depends:     josm, \
              josm-plugins, \
              merkaartor, \
              osmarendrer, \
@@ -58,7 +58,7 @@ Recommends:     josm, \
              mozilla-plugin-gnash, \
              swfdec-mozilla
 
-Recommends:     r-base, \
+Depends:     r-base, \
              r-cran-mapdata, \
              r-cran-mapproj, \
              r-cran-maps, \

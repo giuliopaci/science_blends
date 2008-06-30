@@ -2,10 +2,10 @@ Task: Statistics
 Description: Debian Science Statistics packages
  This metapackage will install Debian Science packages related to Statistics.
 
-Recommends: ess, littler, r-recommended, rkward
+Depends: ess, littler, r-recommended, rkward
 Why: R utilities or frontends
 
-Recommends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
+Depends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
             r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, \
             r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, \
             r-cran-dbi, r-cran-design, r-cran-e1071, r-cran-eco, \
@@ -29,9 +29,9 @@ Recommends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
             r-cran-zelig, r-cran-zoo
 Why: R CRAN
 
-Recommends: r-other-gking-matchit
+Depends: r-other-gking-matchit
  
-Recommends: psignifit, python-stats
+Depends: psignifit, python-stats
 
 Suggests: science-mathematics
 

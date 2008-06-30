@@ -2,4 +2,4 @@ Task: Linguistics
 Description: Debian Science Linguistics packages
  This metapackage will install Debian Science packages related to Linguistics.
 
-Recommends: wordnet
+Depends: wordnet

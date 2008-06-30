@@ -7,8 +7,10 @@ debian-science (0.2) UNRELEASED; urgency=low
     The rationale for this behaviour is explained there.  It seems logical
     to state in the tasks files what finally is implemented.  We might think
     about enabling real Depends later if there might be reasons for this.
+  * Current cdd-gen-control does not handle Recommends properly and thus
+    all Recommends in tasks files were turned to Depends.
 
- -- Andreas Tille <tille@debian.org>  Thu, 19 Jun 2008 07:05:09 +0200
+ -- Andreas Tille <tille@debian.org>  Mon, 30 Jun 2008 10:22:05 +0200
 
 debian-science (0.1) unstable; urgency=low
 

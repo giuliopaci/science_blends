@@ -3,29 +3,29 @@ Description: Debian Science typesetting packages
  This metapackage will install Debian Science packages related to typesetting.
  You might be interested as well in use::typesetting debtag.
 
-Recommends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra, \
+Depends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra, \
          jabref, bibutils
 Why: BibTeX and bibliography
 
-Recommends: feynmf, texlive, texlive-science, texlive-publishers, \
+Depends: feynmf, texlive, texlive-science, texlive-publishers, \
          texlive-math-extra, diploma
 Why: TeX
 
-Recommends: lyx, lyx-qt | lyx-xforms
+Depends: lyx, lyx-qt | lyx-xforms
 Why: LyX
 
-Recommends: texmacs, texmacs-extra-fonts
+Depends: texmacs, texmacs-extra-fonts
 Why: TeXmacs
 
-Recommends: xfig, transfig
+Depends: xfig, transfig
 
-Recommends: dia
+Depends: dia
 
 Suggests: tellico
 
 Suggests: texmaker
 
-Recommends: bibus
+Depends: bibus
 Homepage: http://bibus-biblio.sourceforge.net/wiki/index.php/Main_Page
 WNPP: 470887
 License: GPL-2+
@@ -39,7 +39,7 @@ Pkg-Description: bibliographic and reference management software
  insert citations and format the bibliographic index in an
  opened Openoffice.org writer document.
 
-Recommends: quaneko
+Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
 WNPP: 324422
 License: GPL
@@ -54,13 +54,13 @@ Pkg-Description: An index tool of TXT, PDF, DOC, HTML and others
  various other file formats, depending on its configuration (e.g. Word
  doc, pdf, html, xml,...)
 
-Recommends: gpapers
+Depends: gpapers
 Homepage: http://gpapers.org/
 License: GPL
 Pkg-Description: bibliography management software
  Digital library manager. Think of it as an iTunes for your PDFs.
 
-Recommends: latexdiff
+Depends: latexdiff
 Homepage: http://www.ctan.org/tex-archive/support/latexdiff
 License: GPL
 Pkg-Description: Determine and mark up significant differences between latex files
