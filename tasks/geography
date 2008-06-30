@@ -38,7 +38,7 @@ Depends:     mapserver-bin, \
              viking, \
              avce00, \
              e00compr, \
-             postgresql-8.2-postgis, \
+             postgresql-8.3-postgis, \
              gdal-bin, \
              ogdi-bin
 
