@@ -69,7 +69,6 @@ Suggests:    googleearth-package
 Depends:     josm, \
              josm-plugins, \
              merkaartor, \
-             osmarendrer, \
              renderathome, \
              gosmore, \
              osm-tools, \
@@ -79,6 +78,11 @@ Depends:     josm, \
              iceweasel, \
              mozilla-plugin-gnash, \
              swfdec-mozilla
+
+Depends: osmarender
+Why: Hmmm, was there any package?  I just can find
+  http://wiki.openstreetmap.org/index.php/Osmarender
+  but no download information etc.
 
 Depends:     r-base, \
              r-cran-mapdata, \
