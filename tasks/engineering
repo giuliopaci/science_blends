@@ -10,3 +10,5 @@ Depends: opencascade-tools
 Depends: gerris
 
 Depends: gmsh
+
+Depends: libmesh0.6.2
