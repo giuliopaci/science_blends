@@ -6,3 +6,7 @@ Description: Debian Science Engineering packages
 Depends: qcad
 
 Depends: opencascade-tools
+
+Depends: gerris
+
+Depends: gmsh
