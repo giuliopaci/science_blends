@@ -11,7 +11,7 @@ Depends: gerris
 
 Depends: gmsh
 
-Depends: libmesh0.6.2
+Depends: libmesh0.6.2-dev | libmesh-dev
 
 Depends: tochnog
 
