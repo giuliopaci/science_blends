@@ -29,6 +29,8 @@ Depends: g3data
 
 Depends: med-imaging
 
+Depends: gwyddion
+
 Suggests: pgplot5
 Why: non-free
 

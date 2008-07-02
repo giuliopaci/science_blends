@@ -11,8 +11,6 @@ Depends: abinit
 
 Depends: gerris
 
-Depends: gwyddion
-
 Depends: feynmf
 
 Depends: fityk
