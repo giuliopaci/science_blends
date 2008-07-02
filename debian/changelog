@@ -9,6 +9,9 @@ debian-science (0.2) UNRELEASED; urgency=low
     about enabling real Depends later if there might be reasons for this.
   * Current cdd-gen-control does not handle Recommends properly and thus
     all Recommends in tasks files were turned to Depends.
+  * tasks/engineering: New task with some new dependencies and some
+    moved from tasks/physics to this place
+    Closes: #488962
 
  -- Andreas Tille <tille@debian.org>  Mon, 30 Jun 2008 10:22:05 +0200
 
