@@ -1,0 +1,8 @@
+Task: Engineering
+Description: Debian Science Engineering packages
+ This metapackage will install Debian Science packages related to Engineering.
+ You might be interested as well in field::engineering debtag.
+
+Depends: qcad
+
+Depends: opencascade-tools
