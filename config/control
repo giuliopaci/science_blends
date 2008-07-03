@@ -11,6 +11,7 @@ Description: Debian Science Project config package
   * science-biology     packages related to biology
   * science-chemistry   packages related to chemistry
   * science-electronics packages related to electronics
+  * science-engineering packages related to engineering
   * science-geography   packages related to geography
   * science-linguistics packages related to linguistics
   * science-mathematics packages related to mathematics
