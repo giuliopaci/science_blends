@@ -1,4 +1,4 @@
-debian-science (0.2) UNRELEASED; urgency=low
+debian-science (0.2) unstable; urgency=low
 
   * tasks/geography: removed hyphen from description
     Closes: #486929
@@ -13,7 +13,7 @@ debian-science (0.2) UNRELEASED; urgency=low
     moved from tasks/physics to this place
     Closes: #488962
 
- -- Andreas Tille <tille@debian.org>  Mon, 30 Jun 2008 10:22:05 +0200
+ -- Andreas Tille <tille@debian.org>  Thu, 03 Jul 2008 08:28:52 +0200
 
 debian-science (0.1) unstable; urgency=low
 
