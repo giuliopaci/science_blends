@@ -1,7 +1,6 @@
 Task: Engineering
 Description: Debian Science Engineering packages
  This metapackage will install Debian Science packages related to Engineering.
- You might be interested as well in field::engineering debtag.
 
 Depends: qcad
 
@@ -49,4 +48,27 @@ Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling sys
  a 20 year period and is now a stable mature product. This is the
  first GPL'ed release of the package. It is being maintained by the
  US Army Research laboratory (ARL).
+
+Depends: openturns
+Homepage: http://trac.openturns.org/
+Licence: LGPL
+Responsible: Christophe Prud'homme <prudhomm@debian.org>
+Pkg-URL: http://svn.debian.org/wsvn/pkg-scicomp/openturns/trunk/?rev=0&sc=0
+Pkg-Description: uncertainty treatment and reliability analyses
+ OpenTURNS is an Open source initiative to Treat Uncertainties, Risks'N
+ Statistics in a structured industrial approach.
+
+Depends: aster
+Homepage: http://www.code-aster.org/
+WNPP: 458812
+Licence: GPL
+Responsible: Adam C Powell IV <hazelsct@debian.org>
+Pkg-URL: http://lyre.mit.edu/~powell/aster/
+Pkg-Description: Thermal and mechanical finite element simulation software
+ Code_Aster (file/package name aster) is a mature finite element code for
+ structural and thermal analysis.  Its development has been guided by the
+ needs of the nuclear engineering industry, and it enjoys wide use and
+ distribution.  It is also a major component of the recently-released
+ CAELinux live DVD distribution, and links well with Salomé for
+ high-quality pre- and post-processing.
 
