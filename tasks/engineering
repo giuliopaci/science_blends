@@ -51,7 +51,7 @@ Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling sys
 
 Depends: openturns
 Homepage: http://trac.openturns.org/
-Licence: LGPL
+License: LGPL
 Responsible: Christophe Prud'homme <prudhomm@debian.org>
 Pkg-URL: http://svn.debian.org/wsvn/pkg-scicomp/openturns/trunk/?rev=0&sc=0
 Pkg-Description: uncertainty treatment and reliability analyses
@@ -61,7 +61,7 @@ Pkg-Description: uncertainty treatment and reliability analyses
 Depends: aster
 Homepage: http://www.code-aster.org/
 WNPP: 458812
-Licence: GPL
+License: GPL
 Responsible: Adam C Powell IV <hazelsct@debian.org>
 Pkg-URL: http://lyre.mit.edu/~powell/aster/
 Pkg-Description: Thermal and mechanical finite element simulation software
