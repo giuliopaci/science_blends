@@ -52,3 +52,4 @@ Pkg-Description: Python module for numerical optimization
  .
  A variety of solvers is available (e.g. IPOPT, ALGENCAN).
 
+Depends: libmatio-dev

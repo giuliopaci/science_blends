@@ -16,6 +16,8 @@ Depends: astronomical-almanac, lightspeed, openuniverse
 
 Depends: sextractor
 
+Depends: worldwind
+
 Depends: gpredict, stellarium, ssystem, xplanet,
          xplanet-images, celestia, kstars, starplot
 

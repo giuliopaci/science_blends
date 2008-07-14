@@ -206,3 +206,4 @@ Pkg-Description: Meta package to install all ROOT packages
  platform on which to build data acquisition, simulation and data
  analysis systems.
 
+Depends: v-sim

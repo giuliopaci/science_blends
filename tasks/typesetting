@@ -69,3 +69,16 @@ Pkg-Description: Determine and mark up significant differences between latex fil
  Although LaTeX sometimes complains a little when compiling the diff file, it
  works reasonably well. It is useful for co-authors to visualize what changed
  in a paper.
+
+Depends: jeuclid
+Homepage: http://jeuclid.sourceforge.net/
+WNPP: 490749
+License: Apache 2
+Responsible: Sylvestre Ledru <sylvestre.ledru@inria.fr>
+Pkg-Description: A complete MathML rendering solution
+ JEuclid is a complete MathML rendering solution, consisting of:
+  * A MathViewer application
+  * Command line converters from MathML to other formats
+  * An ant task for automated conversion
+  * Display components for AWT and Swing
+  * A component for Apache Cocoon
