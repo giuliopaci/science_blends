@@ -49,3 +49,15 @@ Pkg-Description: SAGE is a computer algebra system written in python.
  mathematics software. Also it includes interfaces for applications like 
  maxima, octave and many others.
 
+
+Depends: geogebra
+Homepage: http://www.geogebra.org/
+WNPP: 447584
+License: GPL (sources) and Creative Commons (documentation)
+Responsible: none
+Pkg-Description: dynamic mathematics software for schools
+ GeoGebra is a dynamic geometry system. You can do constructions with points,
+ vectors, segments, lines, conic sections as well as functions and change
+ them dynamically afterwards. On the other hand, equations and coordinates
+ can be entered directly.
+
