@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 DM-Upload-Allowed: yes
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
- Andreas Tille <tille@debian.org>
+ Andreas Tille <tille@debian.org>, Sylvestre Ledru <sylvestre.ledru@inria.fr> 
 Build-Depends: debhelper (>= 6.0.7)
 Build-Depends-Indep: cdd-dev (>= 0.5.2)
 Standards-Version: 3.8.0

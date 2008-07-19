@@ -1,3 +1,10 @@
+debian-science (0.3) unstable; urgency=low
+
+  * Some applications / libraires added (Closes: #491474)
+  * Add myself add uploader
+
+ -- Sylvestre Ledru <sylvestre.ledru@inria.fr>  Sat, 19 Jul 2008 20:06:41 +0200
+
 debian-science (0.2) unstable; urgency=low
 
   * tasks/geography: removed hyphen from description
