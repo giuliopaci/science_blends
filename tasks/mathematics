@@ -26,13 +26,15 @@ Why: FEA, mesh generator
 Depends: coq, proofgeneral, proofgeneral-coq
 Why: Proof assistant
 
+Depends: science-statistics
+
+Depends: geomview
+
 Depends: octave | octave3.0
 
 Depends: octaviz
 
-Depends: science-statistics
-
-Depends: geomview
+Depends: freemat
 
 Suggests: scilab
 Why: In non-free
