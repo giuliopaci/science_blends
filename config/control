@@ -18,7 +18,7 @@ Description: Debian Science Project config package
   * science-physics     packages related to physics
   * science-robotics    packages related to robotics
  .
- This are meta packages for common utilities for all sciences:
+ This are metapackages for common utilities for all sciences:
  .
   * science-statistics  packages related to statistics
   * science-typesetting packages related to typesetting
