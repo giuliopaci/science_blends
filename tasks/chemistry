@@ -21,6 +21,8 @@ Depends: gdpc
 
 Depends: xbs
 
+Depends: gelemental
+
 Suggests: gdpc-examples
 
 Depends: avogadro
@@ -65,17 +67,6 @@ License: GPL
 Responsible: Steffen Moeller <steffen_moeller@gmx.de>
 Pkg-Description: general atomistic modelling graphic interface
  Graphical interface to build or analyse atomic structures.
-
-Depends: gelemental
-Homepage: http://www.kdau.com/projects/gelemental/
-WNPP: 444861
-License: GPLv3
-Responsible: Cesare Tirabassi <norsetto@ubuntu.com>
-Pkg-Description: Periodic table viewer for the Gnome desktop
- gElemental is a periodic table viewer that provides detailed information
- on the chemical elements. It uses the GTK+ toolkit and is available for
- Linux and other GTK+/GNOME platforms. It is free software released under
- the GNU General Public License.
 
 Depends: libegad
 Homepage: http://egad.ucsd.edu/egad/
