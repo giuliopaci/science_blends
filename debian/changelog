@@ -1,3 +1,9 @@
+debian-science (0.4) unstable; urgency=low
+
+  * vipec & electric packages moved to Suggest (Closes: #494264)
+
+ -- Sylvestre Ledru <sylvestre.ledru@inria.fr>  Mon, 11 Aug 2008 15:02:11 +0200
+
 debian-science (0.3) unstable; urgency=low
 
   * Some applications / libraires added (Closes: #491474)

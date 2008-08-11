@@ -4,7 +4,8 @@ Description: Debian Science Electronics packages
  You might be interested as well in field::electronics debtag and, depending
  on your focus, in education-electronics metapackage.
 
-Depends: avrdude, electric, gcc-avr, gerbv, qucs, uisp
+Depends: avrdude, gcc-avr, gerbv, qucs, uisp
+Suggests: electric
 
 Depends: geda
 Suggests: geda-examples, geda-doc
@@ -30,8 +31,10 @@ Depends: texlive-latex-extra
 Why: contains circ-tex and circ-tex has a grave bug which makes \
      science-electronics uninstallable on several machines
 
-Depends: linsmith, xsmc-calc, vipec
+Depends: linsmith, xsmc-calc
 Why: Smith charts
+
+Suggests: vipec
 
 Depends: confluence
 
