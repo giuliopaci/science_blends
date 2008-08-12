@@ -77,7 +77,7 @@ Pkg-Description: Generic theorem proving environment
  Features a choice of several ready-to-use logics (Higher Order Logic,
  Higher Order Logic augmented with Scott's Logic for Computable
  Functions, First Order Logic, Zermello-Frankel, an extensional
- version of Martin-Löf Type Theory, Barendregt's Lambda Cube, a few
+ version of Martin-Lof Type Theory, Barendregt's Lambda Cube, a few
  sequent calculi (including modal and linear logics), ...) or
  defining your own logic / deductive system, a procedural and a
  declarative proof style, rich automation for classical reasoning,
