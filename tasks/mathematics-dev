@@ -29,6 +29,8 @@ Why: linear programming
 Depends: libcgal-dev
 Why: computational geometry
 
+Depends: libmatheval1-dev
+
 Depends: python-scikits-openopt
 Homepage: http://scipy.org/scipy/scikits/wiki/OpenOpt
 License: BSD-3

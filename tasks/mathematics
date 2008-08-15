@@ -45,6 +45,8 @@ Why: Requested by Ben Burton
 Depends: lp-solve, libranlip, liblip, libjama, libtnt
 Why: Requested by Aníbal Monsalve Salazar
 
+Depends: libmatheval1
+
 Depends: sagemath
 Homepage: http://www.sagemath.org/
 WNPP: 455292
