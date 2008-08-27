@@ -26,16 +26,6 @@ Depends: gelemental
 Suggests: gdpc-examples
 
 Depends: avogadro
-Homepage: http://avogadro.openmolecules.net/wiki/Main_Page
-WNPP: 450814
-License: GPL
-Responsible: Debichem Team <debichem-devel@lists.alioth.debian.org>
-Pkg-URL: http://packages.debian.org/experimental/avogadro
-Pkg-Description: advanced molecular editor
- Avogadro is an advanced molecular editor designed for cross-platform use in
- computational chemistry, molecular modeling, bioinformatics, materials
- science, and related areas. It offers flexible rendering and a powerful plugin 
- architecture.
 
 Depends: drawxtl
 Homepage: http://home.att.net/~larry.finger/drawxtl/
