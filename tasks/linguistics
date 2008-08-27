@@ -4,4 +4,4 @@ Description: Debian Science Linguistics packages
 
 Depends: wordnet
 
-Depends: apertium link-grammar
+Depends: apertium, link-grammar
