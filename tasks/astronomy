@@ -24,6 +24,8 @@ Depends: gpredict, stellarium, ssystem, xplanet,
 Suggests: sunclock, xtide, xtide-data, stars
 Why: Took this over from education-astronomy
 
+Depends: libnova-dev
+
 Depends: spacechart
 Homepage: http://www.gnu.org/software/spacechart/
 License: GPL

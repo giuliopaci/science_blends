@@ -38,6 +38,8 @@ Depends: root-system
 
 Depends: v-sim
 
+Depends: gpiv, gpivtools
+
 Suggests: science-statistics, science-mathematics
 
 Suggests: scilab
@@ -162,4 +164,13 @@ Pkg-Description: System for processing and editing triangular meshes
  .
  Meshlab can read files in these formats: PLY, STL, OFF, OBJ, 3DS, COLLADA
  and PTX. It can write PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, and DXF.
+
+Depends: openfoam
+License: GPL
+Homepage: http://www.opencfd.co.uk/openfoam/
+Pkg-Description: Computational fluid dynamics application
+ The OpenFOAM (Open Field Operation and Manipulation) CFD Toolbox can 
+ simulate anything from complex fluid flows involving chemical 
+ reactions, turbulence and heat transfer, to solid dynamics, 
+ electromagnetics and the pricing of financial options.
 

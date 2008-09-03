@@ -18,6 +18,8 @@ Depends: python-numpy
 
 Depends: libgsl0-dev
 
+Depends: liblapack-dev, libatlas-base-dev, libblas-dev
+
 Depends: libsuperlu3
 Why: solver
 Suggests: libslepc2.3.2
