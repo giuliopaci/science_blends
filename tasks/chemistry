@@ -167,3 +167,25 @@ Pkg-Description: Software Tools for Molecular Design
  Particle Mesh Ewald summation for partial charges and regular Ewald
  for polarizable multipoles, a novel reaction field treatment of long
  range electrostatics, and more....
+
+Depends: jmol
+Homepage: http://jmol.sourceforge.net/index.en.html
+Responsible: Daniel Leidert <daniel.leidert.spam@gmx.net>
+License: LGPL
+Pkg-URL: http://debian.wgdd.de/temp/jmol/
+Pkg-Description: viewer for chemical structures in 3D
+ Jmol is a Java molecular viewer for three-dimensional chemical structures.
+ Features include reading a variety of file types and output from quantum
+ chemistry programs, and animation of multi-frame files and computed normal
+ modes from quantum programs.  It includes with features for chemicals,
+ crystals, materials and biomolecules.
+ .
+  * The JmolApplet is a web browser applet that can be integrated into
+    web pages.
+  * The Jmol application is a standalone Java application that runs on
+    the desktop.
+  * The JmolViewer is a development tool kit that can be integrated into
+    other Java applications.
+ .
+ For more detailed information about packaging status please see
+ http://lists.debian.org/debian-med/2008/03/msg00097.html
