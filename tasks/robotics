@@ -17,6 +17,10 @@ Depends: ode
 
 Depends: solid
 
+Depends: robot-player
+
+Depends: mrtp
+
 Depends: d-collide
 Homepage: http://d-collide.ematia.de/
 License: BSD
