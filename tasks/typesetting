@@ -84,3 +84,43 @@ Pkg-Description: A complete MathML rendering solution
   * An ant task for automated conversion
   * Display components for AWT and Swing
   * A component for Apache Cocoon
+
+Depends: zotero
+Homepage: http://www.zotero.org/
+License: BSD
+Pkg-Description: reference manager software
+ Zotero is an easy-to-use yet powerful research tool that helps you
+ gather, organize, and analyze sources (citations, full texts, web
+ pages, images, and other objects), and lets you share the results of
+ your research in a variety of ways. An extension to the popular
+ open-source web browser Firefox, Zotero includes the best parts of
+ older reference manager software (like EndNote)—the ability to store
+ author, title, and publication fields and to export that information
+ as formatted references—and the best parts of modern software and web
+ applications (like iTunes and del.icio.us), such as the ability to
+ interact, tag, and search in advanced ways. Zotero integrates tightly
+ with online resources; it can sense when users are viewing a book,
+ article, or other object on the web, and—on many major research and
+ library sites—find and automatically save the full reference
+ information for the item in the correct fields. Since it lives in the
+ web browser, it can effortlessly transmit information to, and receive
+ information from, other web services and applications; since it runs
+ on one’s personal computer, it can also communicate with software
+ running there (such as Microsoft Word). And it can be used offline as
+ well (e.g., on a plane, in an archive without WiFi).
+ .
+  * Automatic capture of citation information from web pages
+  * Storage of PDFs, files, images, links, and whole web pages
+  * Flexible notetaking with autosave
+  * Fast, as-you-type search through your materials
+  * Playlist-like library organization, including saved searches
+    (smart collections) and tags
+  * Platform for new forms of digital research that can be extended
+    with other web tools and services
+  * Formatted citation export (over 1100 styles and growing)
+  * Integration with Microsoft Word and OpenOffice
+  * Saves records and notes in several languages
+  * Integration with WordPress and other blogging software
+  * Remote library backup
+  * Advanced search and data mining tools
+  * Wide variety of import/export options
