@@ -30,6 +30,9 @@ Why: numerical programming environment similar to Matlab
 Depends: pdl
 Why: numerical programming environment similar to Matlab
 
+Depends: gnudatalanguage
+Why: numerical programming environment compatible with IDL
+
 Depends: opencascade-tools
 
 Depends: science-electronics
