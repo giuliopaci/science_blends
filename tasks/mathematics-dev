@@ -1,10 +1,12 @@
 Task: Mathematics-dev
 Description: Debian Science Mathematics-dev packages
- This metapackage will install Debian Science packages which might be helpful
- for development of applications for Mathematics. Please note that there are
- also recommended and only suggested packages which are not installed in any
- circumstances but only if the user asks for installing these.
- You might be interested as well in the science-mathematics metapackage.
+ This metapackage will install Debian Science packages which might be
+ helpful for development of applications for Mathematics. Please note
+ that packages listed as "recommended" may not be installed by
+ default, and that packages listed as "suggested" will not be
+ installed unless the user asks for them to be installed.
+ .
+ You might also be interested in the science-mathematics metapackage.
 
 Depends: libmesh0.6.1
 Why: FEA
