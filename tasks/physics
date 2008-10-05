@@ -43,6 +43,12 @@ Depends: v-sim
 
 Depends: gpiv, gpivtools
 
+Depends: maxima
+Why: Symbolic maths                                                                      
+
+Depends: python-sympy
+Why: Symbolic maths
+
 Suggests: science-statistics, science-mathematics
 
 Suggests: scilab
