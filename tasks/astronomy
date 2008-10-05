@@ -1,8 +1,8 @@
 Task: Astronomy
 Description: Debian Science Astronomy packages
- This metapackage will install Debian Science packages related to Astronomy.
- You might be interested as well in field::astronomy debtag and, depending on
- your focus, in education-astronomy metapackage.
+ This metapackage will install Debian Science packages related to
+ Astronomy.  You might also be interested in field::astronomy debtag
+ and, depending on your focus, in the education-astronomy metapackage.
 
 Depends: libcfitsio3, fv, gcx, slang-cfitsio
 Why: FITS format file

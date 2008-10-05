@@ -1,7 +1,8 @@
 Task: typesetting
 Description: Debian Science typesetting packages
- This metapackage will install Debian Science packages related to typesetting.
- You might be interested as well in use::typesetting debtag.
+ This metapackage will install Debian Science packages related to
+ typesetting.  You might also be interested in the use::typesetting
+ debtag.
 
 Depends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra, \
          jabref, bibutils

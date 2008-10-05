@@ -1,8 +1,8 @@
 Task: Viewing
 Description: Debian Science data visualisation packages
  This metapackage will install Debian Science packages related to data
- visualization.
- You might be interested as well in use::viewing debtag.
+ visualization. You might also be interested in the use::viewing
+ debtag.
 
 Depends: pdl, gnudatalanguage
 Why: IDL-like

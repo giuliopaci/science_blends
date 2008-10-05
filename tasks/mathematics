@@ -1,8 +1,9 @@
 Task: Mathematics
 Description: Debian Science Mathematics packages
- This metapackage will install Debian Science packages related to Mathematics.
- You might be interested as well in field::mathematics debtag and, depending
- on your focus, in education-mathematics metapackage.
+ This metapackage will install Debian Science packages related to
+ Mathematics.  You might also be interested in the field::mathematics
+ debtag and, depending on your focus, in the education-mathematics
+ metapackage.
 
 Depends: axiom, ginac-tools, xmaxima, wxmaxima
 Why: Symbolic computations
