@@ -44,9 +44,12 @@ Depends: v-sim
 Depends: gpiv, gpivtools
 
 Depends: maxima
-Why: Symbolic maths                                                                      
+Why: Symbolic maths 
 
 Depends: python-sympy
+Why: Symbolic maths
+
+Depends: Axiom
 Why: Symbolic maths
 
 Suggests: science-statistics, science-mathematics
