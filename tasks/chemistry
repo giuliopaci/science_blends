@@ -16,7 +16,7 @@ Depends: apbs, bkchem, bodr, libcdk-java, chemeq, \
          gromacs | gromacs-lam | gromacs-mpich | gromacs-openmpi, \
          kalzium, katomic, mopac7-bin, mpqc, mpqc-support, \
          openbabel, python-openbabel, polyxmass, psi3, pymol, rasmol, \
-         viewmol, xdrawchem, xmakemol-gl | xmakemol
+         viewmol, xdrawchem, xmakemol-gl | xmakemol, v-sim
 Why: from the DebianScience/Chemistry wiki page
 
 Depends: gdpc
