@@ -18,6 +18,9 @@ Why: LyX
 Depends: texmacs, texmacs-extra-fonts
 Why: TeXmacs
 
+Depends: auctex
+Why: Emacs editing mode for latex 
+
 Depends: xfig, transfig
 
 Depends: dia
