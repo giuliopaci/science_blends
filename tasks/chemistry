@@ -19,6 +19,9 @@ Depends: apbs, bkchem, bodr, libcdk-java, chemeq, \
          viewmol, xdrawchem, xmakemol-gl | xmakemol, v-sim
 Why: from the DebianScience/Chemistry wiki page
 
+Depends: adun.app
+Why: 3D viewer and calculation output visualisation
+
 Depends: gdpc
 
 Depends: xbs
