@@ -4,6 +4,9 @@ Description: Debian Science Engineering packages
 
 Depends: qcad
 
+Depends: sailcut
+Why: CAD software for design of sails
+
 Depends: opencascade-tools
 
 Depends: gerris
