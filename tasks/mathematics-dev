@@ -36,26 +36,5 @@ Why: computational geometry
 Depends: libmatheval1-dev
 
 Depends: python-scikits-openopt
-Homepage: http://scipy.org/scipy/scikits/wiki/OpenOpt
-License: BSD-3
-WNPP: 483719
-Responsible: Yaroslav Halchenko <debian@onerussian.com>
-Pkg-URL: http://itanix.rutgers.edu/rumba/dists/sid/perspect/binary-all/python/python-scikits-openopt_0.18~svn992-1~pre3_all.deb
-Pkg-Description: Python module for numerical optimization
- Numerical optimization framework developed in Python which provides
- connections to lots of solvers with easy and unified OpenOpt
- syntax. Problems which can be tackled with OpenOpt
-  * Linear Problem (LP)
-  * Mixed-Integer Linear Problem (MILP)
-  * Quadratic Problem (QP)
-  * Non-Linear Problem (NLP)
-  * Non-Smooth Problem (NSP)
-  * Non-Linear Solve Problem (NLSP)
-  * Least Squares Problem (LSP)
-  * Linear Least Squares Problem (LLSP)
-  * Mini-Max Problem (MMP)
-  * Global Problem (GLP)
- .
- A variety of solvers is available (e.g. IPOPT, ALGENCAN).
 
 Depends: libmatio-dev
