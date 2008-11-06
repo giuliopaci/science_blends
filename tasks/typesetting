@@ -12,7 +12,7 @@ Depends: feynmf, texlive, texlive-science, texlive-publishers, \
          texlive-math-extra, diploma
 Why: TeX
 
-Depends: lyx, lyx-qt | lyx-xforms
+Depends: lyx
 Why: LyX
 
 Depends: texmacs, texmacs-extra-fonts
