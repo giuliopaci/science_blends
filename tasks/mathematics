@@ -43,7 +43,7 @@ Why: In non-free
 Depends: regina-normal, snappea
 Why: Requested by Ben Burton
 
-Depends: lp-solve, libranlip, liblip, libjama
+Depends: lp-solve, libranlip, liblip
 Why: Requested by Aníbal Monsalve Salazar
 
 Depends: libmatheval1
