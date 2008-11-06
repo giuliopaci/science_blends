@@ -36,7 +36,7 @@ Depends: paraview
 Suggests: pgplot5
 Why: non-free
 
-Suggests: findimagedupes, libpuzzle
+Suggests: findimagedupes, libpuzzle-bin
 Why: Those two packages are not necessarily needed for scientific work but a hint for
      their existence might be very reasonable.
 
