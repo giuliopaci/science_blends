@@ -19,7 +19,7 @@ Why: Maybe should go in some other metapackage (mathematics?)
 
 Depends: fityk
 
-Depends: gnuplot, grace, gri, labplot, graphviz, pyxplot
+Depends: gnuplot, grace, gri, labplot, graphviz, pyxplot, plotdrop
 
 Depends: imview
 
@@ -40,7 +40,7 @@ Suggests: findimagedupes, libpuzzle
 Why: Those two packages are not necessarily needed for scientific work but a hint for
      their existence might be very reasonable.
 
-Suggests: libgtkdatabox | libgtkdatabox-0.8.2-2 | libgtkdatabox-0.9.0-0
+Suggests: libgtkdatabox | libgtkdatabox-0.9.0-1 | libgtkdatabox-0.9.0-0
 Comment: We have to find a way to make sure that version number changes in the
          library will be regarded effectively in the metapackages.
 

@@ -38,3 +38,5 @@ Depends: libmatheval1-dev
 Depends: python-scikits-openopt
 
 Depends: libmatio-dev
+
+Depends: libblitz0-dev
