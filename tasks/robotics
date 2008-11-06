@@ -112,4 +112,3 @@ Pkg-Description: framework for inference in Dynamic Bayesian Networks
  Monte Carlo methods), etc. These algorithms can, for example, be run on top 
  of the Realtime Services, or be used for estimation in Kinematics & Dynamics 
  applications.
-
