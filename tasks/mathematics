@@ -37,7 +37,7 @@ Depends: octaviz
 
 Depends: freemat
 
-Suggests: scilab
+Suggests: scilab, sivp
 Why: In non-free
 
 Depends: regina-normal, snappea

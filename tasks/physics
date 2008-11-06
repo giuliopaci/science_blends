@@ -54,7 +54,7 @@ Why: Symbolic maths
 
 Suggests: science-statistics, science-mathematics
 
-Suggests: scilab
+Suggests: scilab, sivp
 
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
