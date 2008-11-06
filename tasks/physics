@@ -49,7 +49,7 @@ Why: Symbolic maths
 Depends: python-sympy
 Why: Symbolic maths
 
-Depends: Axiom
+Depends: axiom
 Why: Symbolic maths
 
 Suggests: science-statistics, science-mathematics
