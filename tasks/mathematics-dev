@@ -41,5 +41,5 @@ Depends: libmatio-dev
 
 Depends: libblitz0-dev
 
-Depends: libjama-dev, libtnt-dev
+Depends: libjama-dev, libtnt-dev, liblip-dev, libranlip-dev
 Why: Requested by Aníbal Monsalve Salazar
