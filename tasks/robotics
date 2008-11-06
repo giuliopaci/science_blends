@@ -9,7 +9,7 @@ Depends: libcv1
 Depends: libcomedi0
 Comment: Debian version is quite old - needs update
 
-Depends: octave | octave3.0, gnuplot
+Depends: octave | octave3.0 | octave3.1, gnuplot
 
 Depends: libcoin40-runtime, libvtk5, libboost-dev
 

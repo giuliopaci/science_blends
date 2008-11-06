@@ -19,7 +19,7 @@ Depends: horae, ifeffit, sixpack
 
 Depends: tessa | tessa-mpi
 
-Depends: octave | octave3.0
+Depends: octave | octave3.0 | octave3.1
 Why: numerical programming environment similar to Matlab
 
 Depends: octaviz
