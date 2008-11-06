@@ -8,7 +8,7 @@ Why: R utilities or frontends
 Depends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
             r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, \
             r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, \
-            r-cran-dbi, r-cran-design, r-cran-e1071, r-cran-eco, \
+            r-cran-dbi, r-cran-design, r-cran-eco, \
             r-cran-effects, r-cran-fbasics, r-cran-fcalendar, \
             r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, \
             r-cran-fmultivar, r-cran-foptions, r-cran-foreign, \
@@ -19,7 +19,7 @@ Depends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
             r-cran-maps, r-cran-matchit, r-cran-matrix, r-cran-mcmcpack, \
             r-cran-mgcv, r-cran-misc3d, r-cran-mnp, r-cran-multcomp, \
             r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, r-cran-psy, \
-            r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, r-cran-rcompgen, \
+            r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, \
             r-cran-relimp, r-cran-rggobi, r-cran-rgl, r-cran-rgtk2, \
             r-cran-rmetrics, r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, \
             r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, \
@@ -28,6 +28,9 @@ Depends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
             r-cran-tseries, r-cran-vgam, r-cran-vr, r-cran-xml, \
             r-cran-zelig, r-cran-zoo
 Why: R CRAN
+
+Comment: r-cran-rcompgen, r-cran-e1071
+         These packages formerly mentioned above do not seem to exist.
 
 Depends: r-other-gking-matchit
  
