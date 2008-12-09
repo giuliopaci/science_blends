@@ -31,8 +31,7 @@ Pkg-Description: control measurement devices and test equipment via GPIB, RS232,
     use of python and pyvisa for experimental control. Agile computer
     control of a complex experiment. Computing in Science and
     Engineering 10(2), 55 (2008).
-  * 
-    Writing a graphical application for scientific programming using
+  * Writing a graphical application for scientific programming using
     TraitsUI
 
 Depends: tango
@@ -81,4 +80,3 @@ Pkg-Description: Experimental Physics and Industrial Control System
  developed collaboratively and used worldwide to create distributed soft
  real-time control systems for scientific instruments such as a particle
  accelerators, telescopes and other large scientific experiments.
-
