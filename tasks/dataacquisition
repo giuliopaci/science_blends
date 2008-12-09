@@ -1,0 +1,84 @@
+Task: Data acquisition
+Description: Debian Science data acquisition packages
+ This metapackage will install Debian Science packages related to data
+ acquisition.  This might be used in several sciences (as for instance
+ science-viewing and science-typesetting).
+
+Depends: engauge-digitizer
+
+Suggests: gnudatalanguage
+
+Depends: qtdmm
+
+Depends: g3data
+
+Suggests: libgpib-bin
+
+Depends: ktimetrace
+
+Suggests: gpivtools, gpiv
+
+Depends: python-visa
+Homepage: http://pyvisa.sourceforge.net/
+License: MIT
+Pkg-Description: control measurement devices and test equipment via GPIB, RS232, or USB
+ A Python package with bindings to the "Virtual Instrument Softwares
+ Architecture" VISA library, in order to control measurement devices
+ and test equipment via GPIB, RS232, or USB.
+ .
+ Articles about pyvisa:
+  * G. Varoquaux has written an interesting article describing the
+    use of python and pyvisa for experimental control. Agile computer
+    control of a complex experiment. Computing in Science and
+    Engineering 10(2), 55 (2008).
+  * 
+    Writing a graphical application for scientific programming using
+    TraitsUI
+
+Depends: tango
+Homepage: http://www.tango-controls.org/
+License: GPL
+WNPP: 400201
+Responsible: Frederic-Emmanuel PICCA <picca@synchrotron-soleil.fr>
+Pkg-URL: http://mentors.debian.net/cgi-bin/sponsor-pkglist?action=details;package=tango
+Pkg-Description: TANGO is an object oriented distributed control system using CORBA
+ TANGO is an object oriented distributed control system using CORBA.
+ .
+ In TANGO all objects are representations of devices.  The devices can
+ be on the same computer or distributed over a number of computers
+ interconnected by a network. Communication inter devices is done using
+ CORBA and can be synchronous, asynchronous or event driven.
+ .
+ The object model in TANGO supports methods, attributes and properties.
+ TANGO provides an API which hides all the details of network access and
+ provides object browsing, discovery and security features.
+ .
+ Permanent data is stored in a Mysql database.
+ .
+ TANGO is being actively developed as a collaborative effort between the
+ ESRF (www.esrf.eu), Soleil (synchrotron-soleil.fr), Alba (www.cells.es)
+ and Elettra institutes (www.elettra.trieste.it).
+
+Depends: mx-dataacquisition
+Homepage: http://mx.iit.edu/
+License: MIT
+Pkg-Description: data acquisition and control system
+ MX is a data acquisition and control system that is designed to serve
+ several functions:
+  * As a portable toolkit for writing data acquisition and control
+    programs.
+  * As a standalone system capable of controlling entire experiments.
+  * As a platform for building device control servers to be used by
+    other applications.
+  * As a way of extending other control systems and of glueing disparate
+    control systems together. 
+
+Depends: epics
+Homepage: http://www.aps.anl.gov/epics/
+License: EPICS base license (BSD like)
+Pkg-Description: Experimental Physics and Industrial Control System
+ EPICS is a set of Open Source software tools, libraries and applications
+ developed collaboratively and used worldwide to create distributed soft
+ real-time control systems for scientific instruments such as a particle
+ accelerators, telescopes and other large scientific experiments.
+
