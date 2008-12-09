@@ -18,6 +18,10 @@ Depends: ktimetrace
 
 Suggests: gpivtools, gpiv
 
+Suggests: comedi-source
+
+Suggests: rtai
+
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
 License: MIT
