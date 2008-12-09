@@ -75,6 +75,7 @@ Pkg-Description: data acquisition and control system
 Depends: epics
 Homepage: http://www.aps.anl.gov/epics/
 License: EPICS base license (BSD like)
+Pkg-URL: http://debian-xray.iit.edu/pool/main/e/epics/
 Pkg-Description: Experimental Physics and Industrial Control System
  EPICS is a set of Open Source software tools, libraries and applications
  developed collaboratively and used worldwide to create distributed soft
