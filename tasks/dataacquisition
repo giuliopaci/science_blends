@@ -62,6 +62,7 @@ Depends: mx-dataacquisition
 Homepage: http://mx.iit.edu/
 License: MIT
 Pkg-URL: http://debian-xray.iit.edu/pool/main/m/mx1.4/
+Responsible: Carlo Segre <segre@debian.org>
 Pkg-Description: data acquisition and control system
  MX is a data acquisition and control system that is designed to serve
  several functions:
@@ -77,6 +78,7 @@ Depends: epics
 Homepage: http://www.aps.anl.gov/epics/
 License: EPICS base license (BSD like)
 Pkg-URL: http://debian-xray.iit.edu/pool/main/e/epics/
+Responsible: Carlo Segre <segre@debian.org>
 Pkg-Description: Experimental Physics and Industrial Control System
  EPICS is a set of Open Source software tools, libraries and applications
  developed collaboratively and used worldwide to create distributed soft
