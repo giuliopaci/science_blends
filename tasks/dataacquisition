@@ -22,6 +22,8 @@ Suggests: comedi-source
 
 Suggests: rtai
 
+Suggests: gpsd
+
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
 License: MIT
@@ -88,3 +90,13 @@ Pkg-Description: Experimental Physics and Industrial Control System
  developed collaboratively and used worldwide to create distributed soft
  real-time control systems for scientific instruments such as a particle
  accelerators, telescopes and other large scientific experiments.
+
+Depends: plot-digitizer
+Homepage: http://plotdigitizer.sourceforge.net/
+License: GPL
+Responsible: Stuart Prescott <debian-expires2008@nanonanonano.net>
+Pkg-Description: digitize scanned plots of functional data
+ An easy to use Java program that allows you to digitize data points off
+ of scanned plots, scaled drawings, or orthographic photographs. Includes
+ an automatic digitization feature that can automatically digitize many
+ types of functional data.
