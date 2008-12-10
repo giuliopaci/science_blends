@@ -186,3 +186,17 @@ Pkg-Description: Computational fluid dynamics application
  reactions, turbulence and heat transfer, to solid dynamics, 
  electromagnetics and the pricing of financial options.
 
+    
+Depends: jfreemesh
+Homepage: http://dev.artenum.com/projects/JFreeMesh
+License: QPL
+Pkg-Description: 3D mesh library in Java
+ JFreeMesh is a 3D mesh library written in Java and providing a high level API
+ for mesh manipulation. JFreeMesh is based on a descending mesh data structure
+ but simulate a full connectivity mesh by providing optimized method to access
+ to any upper mesh element by using the global mesh methods. Therefore,
+  JFreeMesh allows to load a large amount of mesh elements for a small memory
+ foot print. JFreeMesh comes with a default mesh loader based on the GMSH file
+ format and provides, through the JFreeMesh-VTK package, an exporter to VTK.
+ .
+
