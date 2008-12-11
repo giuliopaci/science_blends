@@ -1,0 +1,15 @@
+Task: Image analysis
+Description: Debian Science image analysis packages
+ This metapackage will install Debian Science packages related to
+ scientific image acquisition.  This might be used in several
+ sciences (as for instance science-dataacquisition, science-viewing
+ and science-typesetting).
+
+Depends: gpivtools, gpiv
+Why: Particle image velocitometry
+
+Depends: libcv1
+Why: Computer vision library
+
+Depends: gwyddion
+Why: Scanning Probe Microscopy (SPM) data visualization and analysis
