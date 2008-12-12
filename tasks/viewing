@@ -66,3 +66,19 @@ Pkg-Description: Tools to process and visualize scientific data and images
     based on any quantity Gage can measure
   * Ten: for estimating, processing, and visualizing diffusion tensor fields,
     including fiber tractography methods. 
+
+
+Depends: cassandra
+Homepage: http://dev.artenum.com/projects/cassandra
+License: QPL
+Pkg-Description: VTK/Java based 3D Scientific Data Viewer
+ Cassandra is a open source scientific data viewer based on VTK. Cassandra
+ provides a dynamic interaction with the VTK pipeline and enables to load
+ plugins dynamically in order to perform specific tasks in data manipulation 
+ and visualisation.
+
+ Cassandra is developed by Artenum in the frame of its internal Research and
+ Development program and illustrates its skills in scientific visualisation 
+ and VTK technology. Cassandra has already been used for many applications in
+ scientific computing and space environment analysis.
+

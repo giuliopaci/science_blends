@@ -200,3 +200,9 @@ Pkg-Description: 3D mesh library in Java
  format and provides, through the JFreeMesh-VTK package, an exporter to VTK.
  .
 
+Depends: spis
+Homepage: http://dev.spis.org/projects/spine/home/spis
+License: GPL
+Pkg-Description: Software toolkit for spacecraft-plasma interactions modelling
+ JSPIS stands for Spacecraft Plasma Interaction System. SPIS project aims at 
+ developing a software toolkit for spacecraft-plasma interactions modelling. 
