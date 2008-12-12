@@ -89,7 +89,7 @@ Pkg-Description: uncertainty treatment and reliability analyses
  developments within the field of uncertainty and sensitivity analysis. The 
  targeted users are here research centres and the academic community.
 
-Depends: aster
+Depends: code_aster
 Homepage: http://www.code-aster.org/
 WNPP: 458812
 License: GPL
@@ -103,3 +103,15 @@ Pkg-Description: Thermal and mechanical finite element simulation software
  CAELinux live DVD distribution, and links well with Salomé for
  high-quality pre- and post-processing.
 
+Depends: code_saturne
+Homepage: http://www.code-saturne.org/
+License: GPL
+Responsible: Sylvestre Ledru <sylvestre.ledru@inria.fr>
+Pkg-URL: http://svn.debian.org/viewsvn/debian-science/packages/ecs/
+Pkg-Description: Computational fluid dynamics software
+ The basic capabilities of Code_Saturne enable the handling of either 
+ incompressible or expandable flows with or without heat transfer and
+ turbulence. Dedicated modules are available for specific physics such as
+ radiative heat transfer, combustion (gas, coal, heavy fuel oil, ...), 
+ magneto-hydrodynamics, compressible flows, two-phase flows (Euler-Lagrange 
+ approach with two-way coupling), or atmospheric flows.
