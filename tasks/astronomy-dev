@@ -10,3 +10,5 @@ Description: Debian Science Astronomy-dev packages
 
 Depends: libnova-dev
 
+Depends: libworldwind-java
+
