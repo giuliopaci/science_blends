@@ -13,11 +13,11 @@ Why: numerical programming environment similar to Matlab
 Suggests: octaviz
 Why: 3D visualisaion system for Octave
 
-Depends: python-matplotlib, python-scipy, ipython, numpy
-Why: numerical programming environment similar to Matlab
+Depends: python-matplotlib, python-scipy, ipython, python-numpy
+Why: Python based numerical programming environment similar to Matlab
 
 Depends: pdl
-Why: numerical programming environment similar to Matlab
+Why: Perl based numerical programming environment similar to Matlab
 
 Depends: gnudatalanguage
 Why: numerical programming environment compatible with IDL
@@ -26,4 +26,4 @@ Depends: scilab
 
 Depends: freemat
 
-Depends: yoric
+Depends: yorick
