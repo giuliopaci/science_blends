@@ -1,0 +1,29 @@
+Task: Numerical Computation
+Description: Debian Science Numerical Computation packages
+ This metapackage will install Debian Science packages useful for
+ numerical computation. The packages provide an array oriented
+ calculation and visualisation system for scientific computing and
+ data analysis. These packages are similar to commercial systems such
+ as Matlab and IDL.
+
+
+Depends: octave | octave3.0 | octave3.1
+Why: numerical programming environment similar to Matlab
+
+Suggests: octaviz
+Why: 3D visualisaion system for Octave
+
+Depends: python-matplotlib, python-scipy, ipython, numpy
+Why: numerical programming environment similar to Matlab
+
+Depends: pdl
+Why: numerical programming environment similar to Matlab
+
+Depends: gnudatalanguage
+Why: numerical programming environment compatible with IDL
+
+Depends: scilab
+
+Depends: freemat
+
+Depends: yoric
