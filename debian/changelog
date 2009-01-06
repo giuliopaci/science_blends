@@ -1,9 +1,8 @@
-debian-science (0.4) unstable; urgency=low
+debian-science (0.4) experimental; urgency=low
 
-  * vipec & electric packages moved to Suggest (Closes: #494264)
-  * Some applications / libraires added
+  * Use blends-dev instead of cdd-dev
 
- -- Sylvestre Ledru <sylvestre.ledru@inria.fr>  Mon, 11 Aug 2008 15:02:11 +0200
+ -- Andreas Tille <tille@debian.org>  Tue, 06 Jan 2009 09:34:13 +0100
 
 debian-science (0.3) unstable; urgency=low
 
