@@ -1,12 +1,14 @@
 debian-science (0.4) experimental; urgency=low
 
   * Use blends-dev instead of cdd-dev
+  * New metapackages: astronomy-dev, dataacquisition, engineering-dev,
+    imageanalysis, numericalcomputation
 
  -- Andreas Tille <tille@debian.org>  Tue, 06 Jan 2009 09:34:13 +0100
 
 debian-science (0.3) unstable; urgency=low
 
-  * Some applications / libraires added (Closes: #491474)
+  * Some applications / libraries added (Closes: #491474)
   * Add myself as uploader
 
  -- Sylvestre Ledru <sylvestre.ledru@inria.fr>  Sat, 19 Jul 2008 20:06:41 +0200
