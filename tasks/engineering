@@ -59,34 +59,34 @@ License: LGPL
 Responsible: Christophe Prud'homme <prudhomm@debian.org>
 Pkg-URL: http://svn.debian.org/wsvn/pkg-scicomp/openturns/trunk/?rev=0&sc=0
 Pkg-Description: uncertainty treatment and reliability analyses
- OpenTURNS is an Open source initiative to Treat Uncertainties, Risks'N 
- Statistics in a structured industrial approach. 
+ OpenTURNS is an Open source initiative to Treat Uncertainties, Risks'N
+ Statistics in a structured industrial approach.
  Since the beginning of 2005, a partnership of three companies has been working
- on building together a tool designed to perform uncertainty treatment and 
+ on building together a tool designed to perform uncertainty treatment and
  reliability analyses.
  .
- OpenTURNS is a Unix/Linux software with three main components : 
+ OpenTURNS is a Unix/Linux software with three main components :
  .
- - a scientific C++ library including an internal data model and algorithms 
+ - a scientific C++ library including an internal data model and algorithms
  dedicated to the treatment of uncertainties. The main function of that library
- is giving to specific applications all the functionalities needed to treat 
- uncertainties in studies. Targeted users are all engineers who want to 
- introduce the probabilistic dimension in their so far deterministic studies. 
+ is giving to specific applications all the functionalities needed to treat
+ uncertainties in studies. Targeted users are all engineers who want to
+ introduce the probabilistic dimension in their so far deterministic studies.
  .
  - an independent application with a graphical user interface. This application
- was built to become the work environment for the specialist of the treatment 
- of uncertainties. Targeted users are once again industrial practitioners: 
+ was built to become the work environment for the specialist of the treatment
+ of uncertainties. Targeted users are once again industrial practitioners:
  those who identify the treatment of uncertainties as a full task, which can be
- spread to multiple engineering domains. 
+ spread to multiple engineering domains.
  .
  - a python module with high level operators in the probabilistic and statistical
- field. The interest of this language is to be both a powerful scientific 
- language (capable of using C++ libraries), and a user friendly interpreted 
- language like Matlab(tm) one. This python module was designed to make the 
- development of prototypes easier (in order to test new algorithms and methods 
- for example), to become an easy-to-use support for educational works. This 
- module intends to become a natural environment capable of integrating new 
- developments within the field of uncertainty and sensitivity analysis. The 
+ field. The interest of this language is to be both a powerful scientific
+ language (capable of using C++ libraries), and a user friendly interpreted
+ language like Matlab(tm) one. This python module was designed to make the
+ development of prototypes easier (in order to test new algorithms and methods
+ for example), to become an easy-to-use support for educational works. This
+ module intends to become a natural environment capable of integrating new
+ developments within the field of uncertainty and sensitivity analysis. The
  targeted users are here research centres and the academic community.
 
 Depends: code-aster
@@ -109,9 +109,9 @@ License: GPL
 Responsible: Sylvestre Ledru <sylvestre.ledru@inria.fr>
 Pkg-URL: http://svn.debian.org/viewsvn/debian-science/packages/ecs/
 Pkg-Description: Computational fluid dynamics software
- The basic capabilities of Code_Saturne enable the handling of either 
+ The basic capabilities of Code_Saturne enable the handling of either
  incompressible or expandable flows with or without heat transfer and
  turbulence. Dedicated modules are available for specific physics such as
- radiative heat transfer, combustion (gas, coal, heavy fuel oil, ...), 
- magneto-hydrodynamics, compressible flows, two-phase flows (Euler-Lagrange 
+ radiative heat transfer, combustion (gas, coal, heavy fuel oil, ...),
+ magneto-hydrodynamics, compressible flows, two-phase flows (Euler-Lagrange
  approach with two-way coupling), or atmospheric flows.

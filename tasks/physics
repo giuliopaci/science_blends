@@ -1,7 +1,7 @@
 Task: Physics
 Description: Debian Science Physics packages
  This metapackage will install Debian Science packages related to Physics.
- You might also be interested in the debtag field::physics and, depending on 
+ You might also be interested in the debtag field::physics and, depending on
  your focus, in education-physics metapackage.
 
 Depends: cernlib, geant321, paw++, paw
@@ -44,7 +44,7 @@ Depends: v-sim
 Depends: gpiv, gpivtools
 
 Depends: maxima
-Why: Symbolic maths 
+Why: Symbolic maths
 
 Depends: python-sympy
 Why: Symbolic maths
@@ -181,12 +181,12 @@ Depends: openfoam
 License: GPL
 Homepage: http://www.opencfd.co.uk/openfoam/
 Pkg-Description: Computational fluid dynamics application
- The OpenFOAM (Open Field Operation and Manipulation) CFD Toolbox can 
- simulate anything from complex fluid flows involving chemical 
- reactions, turbulence and heat transfer, to solid dynamics, 
+ The OpenFOAM (Open Field Operation and Manipulation) CFD Toolbox can
+ simulate anything from complex fluid flows involving chemical
+ reactions, turbulence and heat transfer, to solid dynamics,
  electromagnetics and the pricing of financial options.
 
-    
+
 Depends: jfreemesh
 Homepage: http://dev.artenum.com/projects/JFreeMesh
 License: QPL
@@ -204,5 +204,5 @@ Depends: spis
 Homepage: http://dev.spis.org/projects/spine/home/spis
 License: GPL
 Pkg-Description: Software toolkit for spacecraft-plasma interactions modelling
- JSPIS stands for Spacecraft Plasma Interaction System. SPIS project aims at 
- developing a software toolkit for spacecraft-plasma interactions modelling. 
+ JSPIS stands for Spacecraft Plasma Interaction System. SPIS project aims at
+ developing a software toolkit for spacecraft-plasma interactions modelling.

@@ -50,10 +50,10 @@ License: LGPL
 WNPP: 473044
 Responsible: Dominique Belhachemi <domibel@cs.tu-berlin.de>
 Pkg-Description: Tools to process and visualize scientific data and images
- Teem is a coordinated group of libraries for representing, processing, 
- and visualizing scientific raster data. Teem includes command-line tools 
- that permit the library functions to be quickly applied to files and 
- streams, without having to write any code. The most important and useful 
+ Teem is a coordinated group of libraries for representing, processing,
+ and visualizing scientific raster data. Teem includes command-line tools
+ that permit the library functions to be quickly applied to files and
+ streams, without having to write any code. The most important and useful
  libraries in Teem are:
  .
   * Nrrd (and the unu command-line tool on top of it) supports a range of
@@ -65,7 +65,7 @@ Pkg-Description: Tools to process and visualize scientific data and images
   * Mite: a multi-threaded ray-casting volume render with transfer functions
     based on any quantity Gage can measure
   * Ten: for estimating, processing, and visualizing diffusion tensor fields,
-    including fiber tractography methods. 
+    including fiber tractography methods.
 
 
 Depends: cassandra
@@ -74,11 +74,11 @@ License: QPL
 Pkg-Description: VTK/Java based 3D Scientific Data Viewer
  Cassandra is a open source scientific data viewer based on VTK. Cassandra
  provides a dynamic interaction with the VTK pipeline and enables to load
- plugins dynamically in order to perform specific tasks in data manipulation 
+ plugins dynamically in order to perform specific tasks in data manipulation
  and visualisation.
 
  Cassandra is developed by Artenum in the frame of its internal Research and
- Development program and illustrates its skills in scientific visualisation 
+ Development program and illustrates its skills in scientific visualisation
  and VTK technology. Cassandra has already been used for many applications in
  scientific computing and space environment analysis.
 

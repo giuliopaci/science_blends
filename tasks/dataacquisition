@@ -76,7 +76,7 @@ Pkg-Description: data acquisition and control system
   * As a platform for building device control servers to be used by
     other applications.
   * As a way of extending other control systems and of glueing disparate
-    control systems together. 
+    control systems together.
 
 Depends: epics
 Homepage: http://www.aps.anl.gov/epics/

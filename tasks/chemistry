@@ -98,8 +98,7 @@ Pkg-Description: Evaluate the integrals in modern atomic and molecular theory
  and Kohn-Sham density functional theory (KS DFT), second-order
  Moller-Plesset perturbation theory (MP2), coupled cluster singles and
  doubles (CCSD) method, as well as explicitly correlated R12 methods.
- The following software packages use Libint: 
- .
+ The following software packages use Libint:
  .
  Improves mpqc (#409025) and psi3.
 

@@ -35,10 +35,10 @@ Homepage: http://www.rtnet.org
 License: GPL
 Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: hard real-time network protocol stack
- RTnet is an Open Soure hard real-time network protocol stack 
- for Xenomai and RTAI (real-time Linux extensions). It makes use of standard 
- Ethernet hardware and supports several popular NIC chip sets, including 
- Gigabit Ethernet. Moreover, Ethernet-over-1394 support is available based on 
+ RTnet is an Open Soure hard real-time network protocol stack
+ for Xenomai and RTAI (real-time Linux extensions). It makes use of standard
+ Ethernet hardware and supports several popular NIC chip sets, including
+ Gigabit Ethernet. Moreover, Ethernet-over-1394 support is available based on
  the RT-FireWire protocol stack.
 
 Depends: orca
@@ -46,10 +46,10 @@ Homepage: http://orca-robotics.sourceforge.net/orca/index.html
 License: LGPL and GPL
 Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: developing component-based robotic systems
- Orca is an open-source framework for developing 
- component-based robotic systems. It provides the means for defining and 
- developing the building-blocks which can be pieced together to form 
- arbitrarily complex robotic systems, from single vehicles to distributed 
+ Orca is an open-source framework for developing
+ component-based robotic systems. It provides the means for defining and
+ developing the building-blocks which can be pieced together to form
+ arbitrarily complex robotic systems, from single vehicles to distributed
  sensor networks.
 
 Depends: roboop
@@ -57,10 +57,10 @@ Homepage: http://www.cours.polymtl.ca/roboop/
 License: GPL
 Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: synthesis, and simulation of robotic manipulator models
- ROBOOP is a C++ robotics object oriented programming toolbox 
- suitable for synthesis, and simulation of robotic manipulator models in an 
- environment that provides ``MATLAB like'' features for the treatment of 
- matrices. Its is a portable tool that does not require the use of commercial 
+ ROBOOP is a C++ robotics object oriented programming toolbox
+ suitable for synthesis, and simulation of robotic manipulator models in an
+ environment that provides ``MATLAB like'' features for the treatment of
+ matrices. Its is a portable tool that does not require the use of commercial
  software.
 
 Depends: orocos-rtt
@@ -80,12 +80,12 @@ Homepage: http://www.orocos.org/kdl
 License: LGPL
 Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-Description: Kinematics and Dynamics Library
- The Kinematics and Dynamics Library (KDL) develops an 
- application independent framework for modelling and computation of kinematic 
- chains, such as robots, biomechanical human models, computer-animated 
- figures, machine tools, etc. It provides class libraries for geometrical 
- objects (point, frame, line,... ), kinematic chains of various families 
- (serial, humanoid, parallel, mobile,... ), and their motion specification and 
+ The Kinematics and Dynamics Library (KDL) develops an
+ application independent framework for modelling and computation of kinematic
+ chains, such as robots, biomechanical human models, computer-animated
+ figures, machine tools, etc. It provides class libraries for geometrical
+ objects (point, frame, line,... ), kinematic chains of various families
+ (serial, humanoid, parallel, mobile,... ), and their motion specification and
  interpolation.
 
 Depends: orocos-ocl
@@ -94,9 +94,9 @@ License: LGPL
 Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-URL: http://svn.fmtc.be/debian
 Pkg-Description: Orocos Component Library
- The Orocos Component Library uses the Real-Time Toolkit (RTT) 
- for constructing all its components. Some components use the Kinematics and 
- Dynamics Library (KDL), the Bayesian Filtering Library (BFL) or other 
+ The Orocos Component Library uses the Real-Time Toolkit (RTT)
+ for constructing all its components. Some components use the Kinematics and
+ Dynamics Library (KDL), the Bayesian Filtering Library (BFL) or other
  libraries.
 
 Depends: orocos-bfl
@@ -105,10 +105,10 @@ License: GPL + runtime exception
 Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
 Pkg-URL: http://people.mech.kuleuven.be/~tdelaet/bfl
 Pkg-Description: framework for inference in Dynamic Bayesian Networks
- The Bayesian Filtering Library (BFL) provides an application 
- independent framework for inference in Dynamic Bayesian Networks, i.e., 
- recursive information processing and estimation algorithms based on Bayes' 
- rule, such as (Extended) Kalman Filters, Particle Filters (or Sequential 
- Monte Carlo methods), etc. These algorithms can, for example, be run on top 
- of the Realtime Services, or be used for estimation in Kinematics & Dynamics 
+ The Bayesian Filtering Library (BFL) provides an application
+ independent framework for inference in Dynamic Bayesian Networks, i.e.,
+ recursive information processing and estimation algorithms based on Bayes'
+ rule, such as (Extended) Kalman Filters, Particle Filters (or Sequential
+ Monte Carlo methods), etc. These algorithms can, for example, be run on top
+ of the Realtime Services, or be used for estimation in Kinematics & Dynamics
  applications.

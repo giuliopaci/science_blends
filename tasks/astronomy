@@ -34,7 +34,7 @@ Pkg-Description: Star map viewer and navigator
  around it. It is capable of showing only a subset of the stars in a
  given data file, and only those within a given distance of the center
  of the display. Also, it shows lines between stars that are closer than
- a given distance. 
+ a given distance.
  .
  This project used to be an official Debian in Etch but vanished later
  from the Debian pool of packaged software - for reasons that should be
@@ -128,15 +128,15 @@ WNPP: 412488
 License: GPL
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Pkg-Description: the European Southern Observatory Munich Image Data Analysis System
- The ESO-MIDAS system provides general tools for image processing and 
- data reduction with emphasis on astronomical applications including 
- imaging and special reduction packages for ESO instrumentation at La 
- Silla and the VLT at Paranal. In addition it contains applications 
- packages for stellar and surface photometry, image sharpening and 
+ The ESO-MIDAS system provides general tools for image processing and
+ data reduction with emphasis on astronomical applications including
+ imaging and special reduction packages for ESO instrumentation at La
+ Silla and the VLT at Paranal. In addition it contains applications
+ packages for stellar and surface photometry, image sharpening and
  decomposition, statistics and various others.
  .
- The official name, ESO-MIDAS, is a registered trademark. ESO-MIDAS is 
- available under the GNU General Public License (GPL), and can be 
+ The official name, ESO-MIDAS, is a registered trademark. ESO-MIDAS is
+ available under the GNU General Public License (GPL), and can be
  implemented on OpenVMS and UNIX (Linux) systems.
 
 Depends: boinc-app-milkyway
@@ -145,17 +145,17 @@ License: GPLv3
 WNPP: 512705
 Responsible: Thibaut VARENE <varenet@debian.org>
 Pkg-Description: Help discover structures in the MilkyWay Galaxy
- The goal of Milkyway@Home is to use the BOINC platform to harness 
- volunteered computing resources in creating a highly accurate three 
- dimensional model of the Milky Way galaxy using data gathered by the 
- Sloan Digital Sky Survey. This project enables research in both 
+ The goal of Milkyway@Home is to use the BOINC platform to harness
+ volunteered computing resources in creating a highly accurate three
+ dimensional model of the Milky Way galaxy using data gathered by the
+ Sloan Digital Sky Survey. This project enables research in both
  astroinformatics and computer science.
  .
- In computer science, the project is investigating different optimization 
- methods which are resilient to the fault-prone, heterogeneous and 
- asynchronous nature of Internet computing; such as evolutionary and 
- genetic algorithms, as well as asynchronous newton methods. While in 
- astroinformatics, Milkyway@Home is generating highly accurate three 
- dimensional models of the Sagittarius stream, which provides knowledge 
- about how the Milky Way galaxy was formed and how tidal tails are 
+ In computer science, the project is investigating different optimization
+ methods which are resilient to the fault-prone, heterogeneous and
+ asynchronous nature of Internet computing; such as evolutionary and
+ genetic algorithms, as well as asynchronous newton methods. While in
+ astroinformatics, Milkyway@Home is generating highly accurate three
+ dimensional models of the Sagittarius stream, which provides knowledge
+ about how the Milky Way galaxy was formed and how tidal tails are
  created when galaxies merge.

@@ -23,7 +23,7 @@ Pkg-Description: Geographic Information System (GIS)
  on-the-fly, map composition, and a number of other features via a plugin
  interface. QGIS also supports display of various georeferenced raster and
  Digital Elevation Model (DEM) formats including GeoTIFF, Arc/Info ASCII Grid,
- and USGS ASCII DEM. 
+ and USGS ASCII DEM.
  .
  This project used to be an official Debian in Etch but vanished later
  from the Debian pool of packaged software because it had a lot of
