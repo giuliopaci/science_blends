@@ -115,3 +115,16 @@ Pkg-Description: Computational fluid dynamics software
  radiative heat transfer, combustion (gas, coal, heavy fuel oil, ...),
  magneto-hydrodynamics, compressible flows, two-phase flows (Euler-Lagrange
  approach with two-way coupling), or atmospheric flows.
+
+Depends: avl
+Homepage: http://web.mit.edu/drela/Public/web/avl/
+WNPP: 513608
+License: GPL
+Responsible: "Lo?c Fejoz" <loic@fejoz.net>
+Pkg-Description: AVL is a program for the aerodynamic and
+ flight-dynamic analysis of rigid aircraft of arbitrary
+ configuration. It employs an extended vortex lattice model for the
+ lifting surfaces, together with a slender-body model for fuselages and
+ nacelles. General nonlinear flight states can be specified. The flight
+ dynamic analysis combines a full linearization of the aerodynamic
+ model about any flight state, together with specified mass properties.
