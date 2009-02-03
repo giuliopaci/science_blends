@@ -7,22 +7,32 @@ Description: Debian Science Project config package
  .
  These are the science related metapackages in the Debian Science project:
  .
-  * science-astronomy   packages related to astronomy
-  * science-biology     packages related to biology
-  * science-chemistry   packages related to chemistry
-  * science-electronics packages related to electronics
-  * science-engineering packages related to engineering
-  * science-geography   packages related to geography
-  * science-linguistics packages related to linguistics
-  * science-mathematics packages related to mathematics
-  * science-physics     packages related to physics
-  * science-robotics    packages related to robotics
+  * science-astronomy       packages related to astronomy
+  * science-astronomy-dev   packages related to development of
+                            astronomical applications
+  * science-biology         packages related to biology
+  * science-chemistry       packages related to chemistry
+  * science-dataacquisition packages related to data acquisition
+  * science-electronics     packages related to electronics
+  * science-engineering     packages related to engineering
+  * science-engineering-dev packages related to development of
+                            engineering applications
+  * science-geography       packages related to geography
+  * science-linguistics     packages related to linguistics
+  * science-mathematics     packages related to mathematics
+  * science-mathematics-dev packages related to development of
+                            mathematical applications
+  * science-physics         packages related to physics
+  * science-robotics        packages related to robotics
  .
  This are metapackages for common utilities for all sciences:
  .
-  * science-statistics  packages related to statistics
-  * science-typesetting packages related to typesetting
-  * science-viewing     packages related to viewing
+  * science-imageanalysis   packages related to image analysis
+  * science-numericalcomputation   packages related to numerical
+                            computation
+  * science-statistics      packages related to statistics
+  * science-typesetting     packages related to typesetting
+  * science-viewing         packages related to viewing
  .
  Note: All these packages are so called metapackages. This means they are not
  executable programs, but only links to other packages. This way you will
