@@ -19,19 +19,11 @@ Depends: horae, ifeffit, sixpack
 
 Depends: tessa | tessa-mpi
 
-Depends: octave | octave3.0 | octave3.1
-Why: numerical programming environment similar to Matlab
-
 Depends: octaviz
 
-Depends: python-matplotlib, python-scipy, ipython
-Why: numerical programming environment similar to Matlab
+Depends: numericalcomputation
+Why: numerical programming environments similar to Matlab/IDL 
 
-Depends: pdl
-Why: numerical programming environment similar to Matlab
-
-Depends: gnudatalanguage
-Why: numerical programming environment compatible with IDL
 
 Depends: opencascade-tools
 
@@ -54,7 +46,7 @@ Why: Symbolic maths
 
 Suggests: science-statistics, science-mathematics
 
-Suggests: scilab, sivp
+Suggests: sivp
 
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
