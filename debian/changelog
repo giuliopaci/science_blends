@@ -1,6 +1,7 @@
 debian-science (0.4) experimental; urgency=low
 
   * Use blends-dev instead of cdd-dev
+  * Adapted Vcs fields to new location (cdd -> blends)
   * New metapackages: astronomy-dev, dataacquisition, engineering-dev,
     imageanalysis, numericalcomputation
 
