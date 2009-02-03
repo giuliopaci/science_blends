@@ -7,7 +7,8 @@ Description: Debian Science Physics packages
 Depends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
-Depends: abinit
+Depends: abinit | mpqc | openmx | psi3
+Why: Abinitio Quantum mechanics (As psi3 doesn't do DFT, maybe it should be excluded)
 
 Depends: gerris
 
