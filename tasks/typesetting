@@ -134,6 +134,7 @@ Homepage:  http://mlpost.lri.fr/
 WNPP: 513972
 License: LGPL + OCaml linking exception
 Responsible: Stephane Glondu <steph@glondu.net>
+Vcs-Browser: http://git.debian.org/?p=pkg-ocaml-maint/packages/mlpost.git
 Pkg-Description: Objective Caml interface to Metapost
  Mlpost is an OCaml library for scientific drawing. It relies on
  Metapost, giving the possibility to include (La)TeX fragments.
