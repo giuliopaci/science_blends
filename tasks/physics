@@ -199,3 +199,39 @@ License: GPL
 Pkg-Description: Software toolkit for spacecraft-plasma interactions modelling
  JSPIS stands for Spacecraft Plasma Interaction System. SPIS project aims at
  developing a software toolkit for spacecraft-plasma interactions modelling.
+
+
+Depends: ESPResSo++
+Homepage: http://espresso.scai.fraunhofer.de/
+License: Not yet known (hopefully free)
+Pkg-Description: Extensible Simulation Package for Research on Soft matter
+ ESPResSo is a highly versatile software package for the scientific
+ simulation and analysis of coarse-grained atomistic or bead-spring
+ models as they are used in soft matter research, with emphasis on
+ charged systems.
+
+Depends: quantumespresso
+Homepage:  http://www.quantum-espresso.org/
+License: GPL 
+Pkg-Description: Electronic structure calculations 
+ Integrated suite of computer codes for electronic-structure calculations and
+ materials modeling at the nanoscale. It is based on density-functional theory,
+ plane waves, and pseudopotentials (both norm-conserving and ultrasoft).
+
+Depends: PWscf
+Homepage: http://www.pwscf.org/
+License: GPL 
+Pkg-Description: Electronic structure calculations 
+ Computer code for electronic-structure calculations within Density-Functional
+ Theory and Density-Functional Perturbation Theory, using pseudopotentials and a
+ plane-wave basis set.
+
+Depends: cp2k
+Homepage: http://cp2k.berlios.de/
+License: GPL 
+Pkg-Description: Electronic structure calculations 
+ Perform atomistic and molecular simulations of solid state, liquid, molecular
+ and biological systems. It provides a general framework for different methods
+ such as e.g. density functional theory (DFT) using a mixed Gaussian and plane
+ waves approach (GPW), and classical pair and many-body potentials.
+
