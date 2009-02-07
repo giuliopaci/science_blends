@@ -35,7 +35,7 @@ Depends: octavede
 Homepage: http://octavede.sf.net/
 WNPP: 514399
 License: GPL
-Responsible: "Jordi Guti?rrez Hermoso" <jordigh@gmail.com>
+Responsible: "Jordi Gutiérrez Hermoso" <jordigh@gmail.com>
 Pkg-Description:  A Gtk+ IDE for GNU Octave
  The OctaveDE is a development environment for the Octave mathematical
  software package. Octave normally is run in a terminal. Octavede
