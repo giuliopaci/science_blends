@@ -134,7 +134,7 @@ Depends: freecad
 Homepage:  http://juergen-riegel.net/FreeCAD/Docu/index.php?title=Main_Page
 WNPP: 505224
 License: LGPLv2.1+
-Responsible: Robert Millan <rmh@aybabtu.com>
+Responsible: debian-science-maintainers@lists.alioth.debian.org
 Pkg-URL:  http://people.debian.org/~rmh/freecad/
 Pkg-Description: An extensible CAx program (alpha)
  FreeCAD is a CAx RAD based on OpenCasCade, Qt and Python.
