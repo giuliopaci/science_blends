@@ -22,7 +22,7 @@ Depends: tessa | tessa-mpi
 
 Depends: octaviz
 
-Depends: numericalcomputation
+Depends: science-numericalcomputation
 Why: numerical programming environments similar to Matlab/IDL 
 
 
