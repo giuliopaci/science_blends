@@ -235,3 +235,14 @@ Pkg-Description: Electronic structure calculations
  such as e.g. density functional theory (DFT) using a mixed Gaussian and plane
  waves approach (GPW), and classical pair and many-body potentials.
 
+Depends: pymca
+Homepage: http://pymca.sourceforge.net/
+Licence: GPL-2+
+WNPP:  514903
+Responsible: Teemu Ikonen <tpikonen@gmail.com>
+Pkg-Description:  Python toolkit and application for X-ray fluorescence analy\
+sis
+ PyMCA is an application and Python toolkit for analysis of X-ray
+ fluorescence spectra.
+ .
+ It can read data files in the SPEC and ESRF data file (EDF) formats.
