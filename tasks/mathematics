@@ -49,16 +49,6 @@ Why: Requested by Aníbal Monsalve Salazar
 Depends: libmatheval1
 
 Depends: sagemath
-Homepage: http://www.sagemath.org/
-WNPP: 455292
-License: GPL
-Responsible: none
-Pkg-URL: http://wiki.sagemath.org/DebianSAGE
-Pkg-Description: SAGE is a computer algebra system written in python.
- SAGE is Software for Algebra and Geometry Experimentation.
- Is a computer algebra system written in Python, with uses free open source
- mathematics software. Also it includes interfaces for applications like
- maxima, octave and many others.
 
 Depends: geogebra
 Homepage: http://www.geogebra.org/

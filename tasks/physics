@@ -240,8 +240,7 @@ Homepage: http://pymca.sourceforge.net/
 Licence: GPL-2+
 WNPP:  514903
 Responsible: Teemu Ikonen <tpikonen@gmail.com>
-Pkg-Description:  Python toolkit and application for X-ray fluorescence analy\
-sis
+Pkg-Description:  Python toolkit and application for X-ray fluorescence analysis
  PyMCA is an application and Python toolkit for analysis of X-ray
  fluorescence spectra.
  .
