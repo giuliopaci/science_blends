@@ -34,6 +34,7 @@ Suggests: openoffice.org-dmaths
 Depends: bibus
 Homepage: http://bibus-biblio.sourceforge.net/wiki/index.php/Main_Page
 WNPP: 470887
+Responsible: Jan Beyer <jan@beathovn.de>
 License: GPL-2+
 Responsible: none
 Pkg-URL: http://bibus-biblio.sourceforge.net/wiki/index.php/Installation#Debian
