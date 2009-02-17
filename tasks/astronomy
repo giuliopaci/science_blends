@@ -24,6 +24,8 @@ Depends: gpredict, stellarium, ssystem, xplanet,
 Suggests: sunclock, xtide, xtide-data, stars
 Why: Took this over from education-astronomy
 
+Depends: stardata-common, gliese, yale
+
 Depends: spacechart
 Homepage: http://www.gnu.org/software/spacechart/
 License: GPL
@@ -41,6 +43,7 @@ Pkg-Description: Star map viewer and navigator
  clarified.  One reason might be that the development of this softare
  is stalled since the beginning of 2002. The URL of the "unofficial"
  package points to the location of the package in Etch.
+X-Comment: Was removed from Debian.
 
 Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/
