@@ -27,11 +27,13 @@ Depends: mayavi
 
 Depends: g3data
 
-Depends: med-imaging
+Suggests: med-imaging
 
 Depends: gwyddion
 
 Depends: paraview
+
+Suggests: texlive-pictures
 
 Suggests: pgplot5
 Why: non-free
