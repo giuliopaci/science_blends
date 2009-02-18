@@ -8,7 +8,7 @@ Description: Debian Science Mathematics-dev packages
  .
  You might also be interested in the science-mathematics metapackage.
 
-Depends: libmesh0.6.1
+Depends: libmesh0.6.2-dev
 Why: FEA
 
 Depends: libnetgen-dev
@@ -22,12 +22,13 @@ Depends: libgsl0-dev
 
 Depends: liblapack-dev, libatlas-base-dev, libblas-dev
 
-Depends: libsuperlu3
+Depends: libsuperlu3-dev
 Why: solver
-Suggests: libslepc2.3.2
+
+Suggests: libslepc2.3.2-dev
 Why: non-free
 
-Depends: libglpk0
+Depends: libglpk-dev
 Why: linear programming
 
 Depends: libcgal-dev
