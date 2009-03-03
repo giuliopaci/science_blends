@@ -5,7 +5,9 @@ debian-science (0.5)  UNRELEASED; urgency=low
   * Vcs fields were fixed in previous version but closing the
     bug here which was reported later while the package was
     sitting in new
-    Closes: ##515943
+    Closes: #515943
+  * science-mathematics: s/Depends: Isabelle/Depends: isabelle/
+    Closes: #518048
 
  -- Andreas Tille <tille@debian.org>  Wed, 18 Feb 2009 14:31:18 +0100
 

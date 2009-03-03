@@ -61,7 +61,7 @@ Pkg-Description: dynamic mathematics software for schools
  them dynamically afterwards. On the other hand, equations and coordinates
  can be entered directly.
 
-Depends: Isabelle
+Depends: isabelle
 Homepage: http://isabelle.in.tum.de/
 WNPP: 494491
 License: BSD-like and non-free documentation
