@@ -11,6 +11,8 @@ Why: handled by Debian GIS. The Depends: will be replaced by an other special \
 
 Depends:     grass,
 
+Suggests: r-cran-sp
+
 Depends: qgis
 Homepage: http://www.qgis.org/
 License: GPL

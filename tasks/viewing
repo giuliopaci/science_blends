@@ -38,7 +38,7 @@ Suggests: texlive-pictures
 Suggests: pgplot5
 Why: non-free
 
-Suggests: r-cran-plotrix
+Suggests: r-cran-plotrix, r-cran-colorspace
 
 Suggests: findimagedupes, libpuzzle-bin
 Why: Those two packages are not necessarily needed for scientific work but a hint for
