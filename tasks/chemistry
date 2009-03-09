@@ -217,3 +217,16 @@ Pkg-Description: Interactive and Innovative Molecular Graphics
     program for nano-composites
  This program needs the VCG library http://vcg.sourceforge.net which has
  to be packaged first.
+
+Depends: cp2k
+Homepage: http://cp2k.berlios.de/
+WNPP: 518984
+License: GPL
+Responsible: Debichem Project <debichem-devel@lists.alioth.debian.org>
+Pkg-Description: CP2K is a program to perform atomistic and molecular
+ simulations of solid state, liquid, molecular and biological
+ systems. It provides a general framework for different methods such as
+ e.g. density functional theory (DFT) using a mixed Gaussian and plane
+ waves approach (GPW), and classical pair and many-body potentials.
+
+

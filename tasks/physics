@@ -228,17 +228,19 @@ Pkg-Description: Electronic structure calculations
 
 Depends: cp2k
 Homepage: http://cp2k.berlios.de/
-License: GPL 
-Pkg-Description: Electronic structure calculations 
- Perform atomistic and molecular simulations of solid state, liquid, molecular
- and biological systems. It provides a general framework for different methods
- such as e.g. density functional theory (DFT) using a mixed Gaussian and plane
+License: GPL
+WNPP: 518984 
+Pkg-Description: CP2K is a program to perform atomistic and molecular
+ simulations of solid state, liquid, molecular and biological
+ systems. It provides a general framework for different methods such as
+ e.g. density functional theory (DFT) using a mixed Gaussian and plane
  waves approach (GPW), and classical pair and many-body potentials.
 
 Depends: pymca
 Homepage: http://pymca.sourceforge.net/
 License: GPL-2+
 WNPP:  514903
+Vcs-Git: git://git.debian.org/?p=debian-science/packages/pymca.git 
 Responsible: Teemu Ikonen <tpikonen@gmail.com>
 Pkg-Description:  Python toolkit and application for X-ray fluorescence analysis
  PyMCA is an application and Python toolkit for analysis of X-ray
