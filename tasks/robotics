@@ -13,7 +13,7 @@ Depends: octave | octave3.0 | octave3.1, gnuplot
 
 Depends: libcoin40-runtime, libvtk5, libboost-dev
 
-Depends: libopenigtlink1
+Depends: openigtlink
 
 Depends: ode
 
