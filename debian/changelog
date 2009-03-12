@@ -1,4 +1,4 @@
-debian-science (0.5)  UNRELEASED; urgency=low
+debian-science (0.5) UNRELEASED; urgency=low
 
   * tasks/mathematics-dev: replace libs by lib-devels
     Closes: #515947
@@ -8,8 +8,11 @@ debian-science (0.5)  UNRELEASED; urgency=low
     Closes: #515943
   * science-mathematics: s/Depends: Isabelle/Depends: isabelle/
     Closes: #518048
+  * Bumped policy to 3.8.1 and make use of the new feature that
+    debian/control allows comment lines starting with # with no
+    preceding whitespace. [Policy paragraph 5.2]
 
- -- Andreas Tille <tille@debian.org>  Wed, 18 Feb 2009 14:31:18 +0100
+ -- Andreas Tille <tille@debian.org>  Thu, 12 Mar 2009 08:59:22 +0100
 
 debian-science (0.4) experimental; urgency=low
 
