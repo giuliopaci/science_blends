@@ -1,5 +1,6 @@
 debian-science (0.5) UNRELEASED; urgency=low
 
+  [ Andreas Tille ]
   * tasks/mathematics-dev: replace libs by lib-devels
     Closes: #515947
   * Vcs fields were fixed in previous version but closing the
@@ -12,7 +13,10 @@ debian-science (0.5) UNRELEASED; urgency=low
     debian/control allows comment lines starting with # with no
     preceding whitespace. [Policy paragraph 5.2]
 
- -- Andreas Tille <tille@debian.org>  Thu, 12 Mar 2009 08:59:22 +0100
+  [ Michael Hanke ]
+  * Added preliminary task for cognitive neuroscience.
+
+ -- Michael Hanke <michael.hanke@gmail.com>  Sun, 15 Mar 2009 10:41:21 +0100
 
 debian-science (0.4) experimental; urgency=low
 

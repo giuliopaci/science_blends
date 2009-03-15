@@ -1,0 +1,235 @@
+Task: Cognitive Neuroscience
+Description: Debian Science packages for Cognitive Neuroscience
+ This metapackage will install Debian packages which might be useful for
+ scientists doing cognitive neuroscience research. This comprises the full
+ research process from conducting psychophysical experiments, over data
+ acquisition and analysis, to visualization and typesetting of scientific
+ results.
+ .
+ The selection of packages is targeting the application of analysis
+ techniques. Methods developers are refered to the science-statistics,
+ science-imageanalysis, science-numericalcomputation, med-imaging, and
+ med-imaging-dev metapackages for a variety of additional software that
+ might be useful in the context of cognitive neuroscience.
+
+
+Suggests: science-typesetting
+Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/typesetting
+
+
+Depends: amide
+Why: Flexible volume slicing and rendering.
+
+
+Depends: dicomnifti
+Why: Fully automated DICOM-to-NIfTI converter.
+
+
+Depends: minc-tools, medcon, xmedcon, nifti-bin
+Why: Misc. image handling tools
+
+
+Depends: python-nifti
+Why: Python IO library for the NIfTI format.
+
+
+Depends: fslview, fsl
+Why: Comprehensive MRI analysis suite.
+
+
+Depends: python-mvpa
+Why: Framework for multivariate pattern analysis of neuroimaging datasets.
+
+
+Depends: caret
+Why: Cortical reconstruction and volume-to-surface mapping.
+
+
+Depends: pyepl
+Why: Library to write and run psychological experiments.
+
+
+Depends: praat
+Why: Speech synthesis and analysis -- standard tool for auditory stimulus
+     generation.
+
+
+Depends: dicom3tools
+Why: Supports conversion from proprietary formats, such as GE into DICOM.
+Homepage: http://www.dclunie.com/dicom3tools/workinprogress/
+License: BSD
+WNPP: 508901
+Responsible: Mathieu Malaterre <mathieu.malaterre@gmail.com>
+Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/dicom3tools/trunk
+Pkg-Description: DICOM medical image files manipulation and conversion tools
+ Command line utilities for creating, modifying, dumping and validating
+ files of DICOM attributes. Support conversion of some proprietary medical
+ image formats to DICOM. Can handle older ACR/NEMA format data, and some
+ proprietary versions of that such as SPI.
+
+
+Depends: python-psychopy
+Homepage: http://www.psychopy.org
+License: BSD
+Pkg-Description: generate psychophysical stimuli
+ Pygame/pyglet-based Python library to conduct psychophysical experiments.
+ PsychoPy is primarily focusing on the visual domain, but additionally
+ supports handling pre-generated stimuli, such as movies.
+
+
+Depends: bioimagesuite
+Homepage: http://www.bioimagesuite.org/
+License: GPL
+Pkg-Description: integrated image analysis software suite
+ BioImage Suite has extensive capabilities for both neuro/cardiac
+ and abdominal image analysis and state of the art visualization.
+ Many packages are available that are highly extensible, and provide
+ functionality for image visualization and registration, surface
+ editing, cardiac 4D multi-slice editing, diffusion tensor image
+ processing, mouse segmentation and registration, and much more. It
+ can be intergrated with other biomedical image processing software,
+ such as FSL and SPM. This site provides information, downloads,
+ documentation, and other resources for users of the software.
+ .
+ BioImage Suite was developed at Yale University and has been
+ extensively used at different labs at Yale since 2004.
+ .
+ There is a forum at BioImage Suite site for discussion of
+ compiling it from source and packaging issues at
+ http://research.yale.edu/bioimagesuite/forum/index.php?board=12.0
+
+
+Depends: slicer
+Homepage: http://www.slicer.org/
+License: BSD like
+WNPP: 500841
+Responsible: Dominique Belhachemi <domibel@cs.tu-berlin.de>
+Pkg-Description: visualization, registration, segmentation, and quantification of medical data
+ The 3D Slicer is freely available, open-source software for visualization,
+ registration, segmentation, and quantification of medical data. The slicer
+ source seems to be available via CVS only.
+ .
+ The license statement can be seen at
+ http://www.slicer.org/cgi-bin/License/SlicerLicenseForm.pl
+
+
+Depends: afni
+Homepage: http://afni.nimh.nih.gov/
+WNPP: 409849
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+License: GPL
+Pkg-URL: http://sourceforge.net/project/showfiles.php?group_id=61662&package_id=60298
+Pkg-Description: environment for processing and displaying functional MRI data
+ AFNI is an environment for processing and displaying functional
+ MRI data. It provides a complete analysis toolchain, including
+ 3D cortical surface models, and mapping of volumetric data (SUMA).
+ In addition to its own format AFNI understands the NIfTI format and is
+ therefore easily usable in combination with FSL and Freesurfer.
+
+
+Depends: mni-autoreg
+Homepage: http://www.bic.mni.mcgill.ca/software/mni_autoreg/
+License: no-free, but GPLed parts
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-URL: http://apsy.gse.uni-magdeburg.de/debian/pool/contrib/m/mni-autoreg-model/
+Pkg-Description: MNI average brain (305 MRI) stereotaxic registration model
+ This package provides a version of the MNI Average Brain (an average of 305
+ T1-weighted MRI scans, linearly transformed to Talairach space) specially
+ adapted for use with the MNI Linear Registration Package.
+ .
+  * average_305.mnc - a version of the average MRI that covers the whole brain
+    (unlike the original Talairach atlas), sampled with 1mm cubic voxels
+  * average_305_mask.mnc - a mask of the brain in average_305.mnc
+  * average_305_headmask.mnc - another mask, required for nonlinear mode
+ .
+ Remark: Michael Hanke agreed to take over his stuff from mentors
+ http://mentors.debian.net/cgi-bin/sponsor-pkglist?action=details;package=mni-autoreg
+ and
+ http://mentors.debian.net/cgi-bin/sponsor-pkglist?action=details;package=mni-autoreg-model
+ to Debian Med svn and start group maintenance.
+
+
+Depends: mni-n3
+Homepage: http://www.bic.mni.mcgill.ca/software/N3/
+License: BSDish
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-URL: http://mentors.debian.net/debian/pool/main/m/mni-n3/
+Pkg-Description: MNI Non-parametric Non-uniformity Normalization
+ MNI Non-parametric Non-uniformity Normalization (N3). This package provides
+ the 'nu_correct' tool for unsupervised correction of radio frequency (RF)
+ field inhomogenities in MR volumes. Two packages are provided:
+  * mni-n3 - provides 'nu_correct'
+  * libebtks-dev - MNI support library with numerical types and algorithms
+ .
+ Remark: Michael Hanke agreed to take over his stuff from mentors
+ http://mentors.debian.net/cgi-bin/sponsor-pkglist?action=details;package=mni-n3
+ to Debian Med svn and start group maintenance.
+
+
+Depends: brainvisa
+Homepage: http://brainvisa.info/
+License: Free? (CeCill License)
+Pkg-Description: image processing factory for MR images
+ BrainVISA is a software, which embodies an image processing
+ factory. A simple control panel allows the user to trigger some
+ sequences of treatments on series of images. These treatments are
+ performed by calls to command lines provided by different
+ laboratories. These command lines, hence, are the building blocks on
+ which are built the assembly lines of the factory. BrainVISA is
+ distributed with a toolbox of building blocks dedicated to the
+ segmentation of T1-weighted MR images. The product of the main
+ assembly line made up from this toolbox is the following: grey/white
+ classification for Voxel Based Morphometry, Meshes of each hemisphere
+ surface for visualization purpose, Spherical meshes of each
+ hemisphere white matter surface, a graph of the cortical folds, a
+ labeling of the cortical folds according to a nomenclature of the
+ main sulci.
+
+
+Depends: lipsia
+Homepage: http://www.cbs.mpg.de/institute/software/lipsia
+License: GPL
+Responsible: Felix Botner <botner@cbs.mpg.de>
+Pkg-URL: ftp://lipsia.cbs.mpg.de/lipsia
+Pkg-Description: Analysis of MRI and fMRI data - binary
+ Leipzig Image Processing and Statistical Inference Algorithms
+ (LIPSIA)
+ .
+ The software package LIPSIA was developed by the Max Planck Institute
+ of Cognitive Neuroscience, Leipzig, for the data processing and
+ evaluation of functional magnetic resonance images. The analysis of
+ fMRI data comprises various aspects including filtering, spatial
+ transformation, statistical evaluation as well as segmentation and
+ visualization. All these aspects are covered by LIPSIA. For the
+ statistical evaluation, a number of well established and
+ peer-reviewed algorithms were implemented in LIPSIA that allow an
+ effcient and user-friendly processing of fMRI data sets. As the
+ amount of data that must be handled is enormous, an important aspect
+ in the development LIPSIA was the efficiency of the software
+ implementation. In LIPSIA, particular emphasis was placed on the
+ development of new visualization and segmentation techniques that
+ support visualizations of individual brain anatomy so that experts
+ can assess the exact location of activation patterns in individual
+ brains. LIPSIA is non- commercial. LIPSIA is freely available upon
+ request. However, as we don't have suffcient manpower, we can't
+ support an unlimited number of LIPSIA users.  Therefore, we plan to
+ offer LIPSIA initially on lytoa limited number of cooperation
+ partners. Please contact us, if you are interested in becoming a
+ LIPSIA cooperation partner.
+
+
+Depends: openmeeg
+Homepage: http://www-sop.inria.fr/odyssee/software/OpenMEEG
+License: CeCILL-B
+WNPP: 517346
+Responsible: Yaroslav Halchenko <debian@onerussian.com>
+Pkg-Description: library and tools for solving EEG and MEG forward and inverse problems
+ Provides state-of-the art tools for processing EEG and MEG data.
+ .
+ The forward problem is implemented using the symmetric Boundary
+ Element method [Kybic et al, 2005], providing excellent accuracy,
+ particularly for superficial cortical sources.  The source
+ localization procedures implemented in OpenMEEG are based on a
+ distributed source model, with three different types of
+ regularization: the Minimum Norm, and the L2 and L1
+ norms of the surface gradient of the sources [Adde et al, 2005].
