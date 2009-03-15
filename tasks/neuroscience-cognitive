@@ -45,7 +45,7 @@ Depends: caret
 Why: Cortical reconstruction and volume-to-surface mapping.
 
 
-Depends: pyepl
+Depends: python-pyepl
 Why: Library to write and run psychological experiments.
 
 
