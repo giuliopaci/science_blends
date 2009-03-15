@@ -22,6 +22,8 @@ Description: Debian Science Project config package
   * science-mathematics     packages related to mathematics
   * science-mathematics-dev packages related to development of
                             mathematical applications
+  * science-neuroscience-cognitive   packages related to cognitive
+                            neuroscience
   * science-physics         packages related to physics
   * science-robotics        packages related to robotics
  .
