@@ -35,6 +35,8 @@ Pkg-Description: Geographic Information System (GIS)
 
 Depends: qgis-plugin-grass
 
+Depends: proj-bin
+
 Depends:     mapserver-bin, \
              gmt, \
              gpsbabel, \
@@ -47,7 +49,6 @@ Depends:     mapserver-bin, \
              openscenegraph, \
              thuban, \
              drawmap, \
-             proj, \
              postgis, \
              grace6, \
              gpstrans, \
