@@ -1,6 +1,6 @@
 Task: Statistics
 Description: Debian Science Statistics packages
- This metapackage is part od the Debian Pure Blend "Debian Science"
+ This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to statistics.  This task is a general
  task which might be useful for any scientific work.  It depends from
  a lot of R packages as well as from other tools which are useful to

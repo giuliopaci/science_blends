@@ -15,7 +15,6 @@ Package: science-tasks
 Architecture: all
 Depends: tasksel
 Description: Debian Science tasks for tasksel
- This package is part of the Debian Pure Blend "Debian Science" and provides additional
- tasks for tasksel.  If this package will be installed all tasks which are provided by
- Debian Science will be added to the tasksel menu.
-
+ This package is part of the Debian Pure Blend "Debian Science" and provides
+ additional tasks for tasksel.  If this package will be installed all tasks
+ which are provided by Debian Science will be added to the tasksel menu.

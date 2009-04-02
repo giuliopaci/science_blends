@@ -1,6 +1,6 @@
 Task: Linguistics
 Description: Debian Science Linguistics packages
- This metapackage is part od the Debian Pure Blend "Debian Science"
+ This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Linguistics.
 
 Depends: wordnet

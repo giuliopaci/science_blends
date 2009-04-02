@@ -1,6 +1,6 @@
 Task: Robotics
 Description: Debian Robotics packages
- This metapackage is part od the Debian Pure Blend "Debian Science"
+ This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Robotics.
  .
  You might also be interested in the science-engineering metapackage.
