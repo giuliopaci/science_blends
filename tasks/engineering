@@ -2,6 +2,10 @@ Task: Engineering
 Description: Debian Science Engineering packages
  This metapackage is part od the Debian Pure Blend "Debian Science"
  and installs packages related to Engineering.
+ .
+ Please not that there is an additional package engineering-dev
+ which depends from packages which are useful to develop engineering
+ related software.
 
 Depends: qcad
 

@@ -1,6 +1,9 @@
 Task: Robotics
 Description: Debian Robotics packages
- This metapackage will install Debian Science packages related to Robotics.
+ This metapackage is part od the Debian Pure Blend "Debian Science"
+ and installs packages related to Robotics.
+ .
+ You might also be interested in the science-engineering metapackage.
 
 Depends: rtai, xenomai-runtime
 

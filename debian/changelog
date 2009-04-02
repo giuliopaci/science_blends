@@ -15,6 +15,8 @@ debian-science (0.5) unstable; urgency=low
   * tasks/geography: Depend from proj-bin instead of proj
     Closes: #521819
   * Machine readable copyright file
+  * Enhanced long desriptions for those tasks where lintian claimed
+    about extended-description-is-probably-too-short
 
   [ Michael Hanke ]
   * Added preliminary task for cognitive neuroscience.

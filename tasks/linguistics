@@ -1,7 +1,10 @@
 Task: Linguistics
 Description: Debian Science Linguistics packages
- This metapackage will install Debian Science packages related to Linguistics.
+ This metapackage is part od the Debian Pure Blend "Debian Science"
+ and installs packages related to Linguistics.
 
 Depends: wordnet
 
 Depends: apertium, link-grammar
+
+Depends: artha

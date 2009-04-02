@@ -1,6 +1,11 @@
 Task: Statistics
 Description: Debian Science Statistics packages
- This metapackage will install Debian Science packages related to Statistics.
+ This metapackage is part od the Debian Pure Blend "Debian Science"
+ and installs packages related to statistics.  This task is a general
+ task which might be useful for any scientific work.  It depends from
+ a lot of R packages as well as from other tools which are useful to
+ do statistics.  Moreover the Science Mathematics task is suggested
+ to optionally install all mathematics related software.
 
 Depends: ess, littler, r-recommended, rkward
 Why: R utilities or frontends
