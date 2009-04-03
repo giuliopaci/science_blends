@@ -7,7 +7,7 @@ Description: Debian Science Electronics packages
 
 Depends: avrdude, gcc-avr, gerbv, qucs, uisp
 
-Suggests: electric
+Depends: electric
 
 Depends: geda
 
@@ -37,8 +37,6 @@ Why: contains circ-tex and circ-tex has a grave bug which makes \
 
 Depends: linsmith, xsmc-calc
 Why: Smith charts
-
-Suggests: vipec
 
 Depends: confluence
 
