@@ -1,11 +1,19 @@
 debian-science (0.6) UNRELEASED; urgency=low
 
+  [ Andreas Tille ]
   * tasks/electronics:
     - removed vipec which is not in Debian any more
     - Increased dependency from Suggests to Depends for electric
       because it is not orphaned any more
+  
+  [ Alastair McKinstry ]
+  * Added science-meteorology and science-meteorology-dev metapackages.
+  * tasks/meteorology:
+   - Added. Depend on cdo and DB-All.e
+  * tasks/meteorology-dev:
+   - Added. Depend on libemos-dev.
 
- -- Andreas Tille <tille@debian.org>  Fri, 03 Apr 2009 07:18:59 +0200
+ -- Alastair McKinstry <mckinstry@debian.org>  Tue, 07 Apr 2009 18:18:59 +0100
 
 debian-science (0.5) unstable; urgency=low
 

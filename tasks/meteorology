@@ -1,0 +1,8 @@
+Task: Meteorology
+Description: Debian Science Meteorology packages
+ This metapackage is part of the Debian Pure Blend "Debian Science"
+ and installs packages related to Meteorology and Climate.
+
+Depends: cdo
+
+Depends: DB-All.e

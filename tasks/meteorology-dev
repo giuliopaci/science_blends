@@ -1,0 +1,12 @@
+Task: Meteorology-dev
+Description: Debian Science Meteorology-dev packages
+ This metapackage will install Debian Science packages which might be
+ helpful for development of applications for Meteorology and Climate.
+ Please note that packages listed as "recommended" may not be installed by
+ default, and that packages listed as "suggested" will not be
+ installed unless the user asks for them to be installed.
+ .
+ You might also be interested in the science-meteorology metapackage.
+
+Depends: libemos-dev
+
