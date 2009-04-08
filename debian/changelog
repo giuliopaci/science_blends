@@ -5,7 +5,10 @@ debian-science (0.6) UNRELEASED; urgency=low
     - removed vipec which is not in Debian any more
     - Increased dependency from Suggests to Depends for electric
       because it is not orphaned any more
-  
+  * tasks/physics:
+    - lowercase prospective packages ESPResSo++ and PWscf
+      Closes: #523077
+
   [ Alastair McKinstry ]
   * Added science-meteorology and science-meteorology-dev metapackages.
   * tasks/meteorology:

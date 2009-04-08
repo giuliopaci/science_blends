@@ -201,7 +201,7 @@ Pkg-Description: Software toolkit for spacecraft-plasma interactions modelling
  developing a software toolkit for spacecraft-plasma interactions modelling.
 
 
-Depends: ESPResSo++
+Depends: espresso++
 Homepage: http://espresso.scai.fraunhofer.de/
 License: Not yet known (hopefully free)
 Pkg-Description: Extensible Simulation Package for Research on Soft matter
@@ -218,7 +218,7 @@ Pkg-Description: Electronic structure calculations
  materials modeling at the nanoscale. It is based on density-functional theory,
  plane waves, and pseudopotentials (both norm-conserving and ultrasoft).
 
-Depends: PWscf
+Depends: pwscf
 Homepage: http://www.pwscf.org/
 License: GPL 
 Pkg-Description: Electronic structure calculations 
