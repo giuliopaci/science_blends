@@ -1,4 +1,4 @@
-debian-science (0.6) UNRELEASED; urgency=low
+debian-science (0.6) unstable; urgency=low
 
   [ Andreas Tille ]
   * tasks/electronics:
@@ -8,6 +8,8 @@ debian-science (0.6) UNRELEASED; urgency=low
   * tasks/physics:
     - lowercase prospective packages ESPResSo++ and PWscf
       Closes: #523077
+  * debian/control.stub: increased version of blends-dev dependency
+    to 0.6.3 to make sure all package names will be lower cased
 
   [ Alastair McKinstry ]
   * Added science-meteorology and science-meteorology-dev metapackages.
@@ -16,7 +18,7 @@ debian-science (0.6) UNRELEASED; urgency=low
   * tasks/meteorology-dev:
    - Added. Depend on libemos-dev.
 
- -- Alastair McKinstry <mckinstry@debian.org>  Tue, 07 Apr 2009 18:18:59 +0100
+ -- Andreas Tille <tille@debian.org>  Tue, 14 Apr 2009 10:51:31 +0200
 
 debian-science (0.5) unstable; urgency=low
 
