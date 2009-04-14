@@ -1,5 +1,5 @@
 Source: debian-science
-Section: misc
+Section: science
 Priority: extra
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 DM-Upload-Allowed: yes
