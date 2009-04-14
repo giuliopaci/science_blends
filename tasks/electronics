@@ -54,3 +54,22 @@ Pkg-Description: A Spice circuit simulator
  .
  Ngspice is part of gEDA project, a full GPL'd suite of
  Electronic Design Automation tools.
+
+Depends: herb
+WNPP: 516928
+Homepage: http://www.banu.com/herb
+License: GNU GPLv3
+Responsible: Ahmed El-Mahmoudy <aelmahmoudy@users.sourceforge.net>
+Pkg-Description: complete set of CAD programs for design of VLSI circuits
+ Herb is a complete set of CAD programs and libraries for the specification,
+ design and validation of VLSI circuits. It includes a VHDL simulator, logic
+ synthesis tools, automatic place and route tools, layout editors, portable
+ CMOS standard cell libraries and custom block generators for creating custom
+ high performance circuits.
+ .
+ Herb supports the following file formats:
+  * Behavioural: VHDL, VHDL FSM (input-only)
+  * Netlists: Alliance, SPICE, EDIF 2.0, VHDL, COMPASS, HILO (output-only) and
+    Verilog (output-only)
+  * Symbolic layout: Alliance, COMPASS
+  * Physical layout: CIF (output-only) and GDSII (output-only)
