@@ -44,10 +44,6 @@ Suggests: findimagedupes, libpuzzle-bin
 Why: Those two packages are not necessarily needed for scientific work but a hint for
      their existence might be very reasonable.
 
-Suggests: libgtkdatabox | libgtkdatabox-0.9.0-1 | libgtkdatabox-0.9.0-0
-Comment: We have to find a way to make sure that version number changes in the
-         library will be regarded effectively in the metapackages.
-
 Depends: teem
 Homepage: http://teem.sourceforge.net
 License: LGPL
