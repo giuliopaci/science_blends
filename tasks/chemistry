@@ -32,6 +32,8 @@ Suggests: gdpc-examples
 
 Depends: avogadro
 
+Depends: gamgi
+
 Depends: drawxtl
 Homepage: http://home.att.net/~larry.finger/drawxtl/
 WNPP: 428750
@@ -54,14 +56,6 @@ Pkg-Description: display crystal structures on ordinary computer hardware
   (4) a Postscript rendering of the OpenGL window for those that want
       high-quality output but do not have
       POV-RAY installed.
-
-Depends: gamgi
-Homepage: http://www.gamgi.org/
-WNPP: 465994
-License: GPL
-Responsible: Steffen Moeller <steffen_moeller@gmx.de>
-Pkg-Description: general atomistic modelling graphic interface
- Graphical interface to build or analyse atomic structures.
 
 Depends: libegad
 Homepage: http://egad.ucsd.edu/egad/

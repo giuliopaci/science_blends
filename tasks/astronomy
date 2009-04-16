@@ -26,6 +26,8 @@ Why: Took this over from education-astronomy
 
 Depends: stardata-common, gliese, yale
 
+Depends: boinc-app-milkyway
+
 Depends: spacechart
 Homepage: http://www.gnu.org/software/spacechart/
 License: GPL
@@ -142,23 +144,3 @@ Pkg-Description: the European Southern Observatory Munich Image Data Analysis Sy
  available under the GNU General Public License (GPL), and can be
  implemented on OpenVMS and UNIX (Linux) systems.
 
-Depends: boinc-app-milkyway
-Homepage: http://milkyway.cs.rpi.edu/milkyway/
-License: GPLv3
-WNPP: 512705
-Responsible: Thibaut VARENE <varenet@debian.org>
-Pkg-Description: Help discover structures in the MilkyWay Galaxy
- The goal of Milkyway@Home is to use the BOINC platform to harness
- volunteered computing resources in creating a highly accurate three
- dimensional model of the Milky Way galaxy using data gathered by the
- Sloan Digital Sky Survey. This project enables research in both
- astroinformatics and computer science.
- .
- In computer science, the project is investigating different optimization
- methods which are resilient to the fault-prone, heterogeneous and
- asynchronous nature of Internet computing; such as evolutionary and
- genetic algorithms, as well as asynchronous newton methods. While in
- astroinformatics, Milkyway@Home is generating highly accurate three
- dimensional models of the Sagittarius stream, which provides knowledge
- about how the Milky Way galaxy was formed and how tidal tails are
- created when galaxies merge.

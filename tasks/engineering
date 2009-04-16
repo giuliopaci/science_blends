@@ -28,6 +28,8 @@ Depends: varkon
 
 Depends: pythoncad
 
+Depends: z88
+
 Depends: salome
 Homepage: http://www.salome-platform.org/
 WNPP: 457075
@@ -151,16 +153,3 @@ Pkg-Description: An extensible CAx program (alpha)
  BRep formats and meshes in STL, BMS, AST and Wavefront OBJ formats.
  Editing and modeling features are currently somewhat limited.
 
-Depends: z88
-Homepage: http://z88.uni-bayreuth.de/
-WNPP: 516333
-License: GPL-2+
-Responsible: Dominique Belhachemi <domibel@cs.tu-berlin.de>
-Pkg-URL: http://svn.debian.org/viewsvn/debian-science/packages/z88/trunk/debian/
-Pkg-Description: Finite Element Analysis Program
- Z88 features 20 finite element types covering plane stress, plate bending,
- axial symmetric structures and spacial structures up to 20-node Serendipity
- hexahedrons. Z88 comes with a user-friendly interface, a powerful mesh
- generator, a DXF-converter, two plot programs and, of course, two powerful
- solvers. Import of COSMOS files from Pro/ENGINEER and Pro/MECHANICA is
- supported.

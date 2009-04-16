@@ -36,18 +36,8 @@ Suggests: r-cran-xtable
 Suggests: csv2latex
 
 Depends: bibus
-Homepage: http://bibus-biblio.sourceforge.net/wiki/index.php/Main_Page
-WNPP: 470887
-Responsible: Jan Beyer <jan@beathovn.de>
-License: GPL-2+
-Pkg-URL: http://bibus-biblio.sourceforge.net/wiki/index.php/Installation#Debian
-Pkg-Description: bibliographic and reference management software
- Bibus is a bibliographic database entirely written in python
- that uses the cross-platform wxWidget library.
- Bibus has been developed with OpenOffice.org
- (http://www.openoffice.org/) in mind and can directly
- insert citations and format the bibliographic index in an
- opened Openoffice.org writer document.
+
+Depends: mlpost
 
 Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
@@ -132,18 +122,4 @@ Pkg-Description: reference manager software
   * Remote library backup
   * Advanced search and data mining tools
   * Wide variety of import/export options
-
-Depends: mlpost
-Homepage:  http://mlpost.lri.fr/
-WNPP: 513972
-License: LGPL + OCaml linking exception
-Responsible: Stephane Glondu <steph@glondu.net>
-Vcs-Browser: http://git.debian.org/?p=pkg-ocaml-maint/packages/mlpost.git
-Pkg-Description: Objective Caml interface to Metapost
- Mlpost is an OCaml library for scientific drawing. It relies on
- Metapost, giving the possibility to include (La)TeX fragments.
- Mlpost users can use the full power of OCaml to generate their
- diagrams, including static typing and the possibility to use any
- OCaml library. Moreover, Mlpost promotes a declarative style quite
- different from existing tools.
 
