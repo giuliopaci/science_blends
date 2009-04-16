@@ -68,6 +68,8 @@ Depends:     mapserver-bin, \
 Comment:  kflog was removed from Debian in Lenny and is not really a good candidate
  for Debian Science so it makes no sense to add it as prospective package here.
 
+Depends:     osm2pgsql
+
 Suggests:    googleearth-package
 
 Depends:     josm, \
@@ -78,7 +80,6 @@ Depends:     josm, \
              osm-tools, \
              python-mapnik, \
              mapnik-utils, \
-             mapnik-viewer, \
              iceweasel, \
              mozilla-plugin-gnash, \
              swfdec-mozilla

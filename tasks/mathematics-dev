@@ -8,7 +8,7 @@ Description: Debian Science Mathematics-dev packages
  .
  You might also be interested in the science-mathematics metapackage.
 
-Depends: libmesh0.6.2-dev
+Depends: libmesh-dev
 Why: FEA
 
 Depends: libnetgen-dev
