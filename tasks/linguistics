@@ -8,3 +8,30 @@ Depends: wordnet
 Depends: apertium, link-grammar
 
 Depends: artha
+
+Suggests: wnsqlbuilder
+Homepage: http://wnsqlbuilder.sf.net
+License: GPL
+Pkg-Description: SQL version of WordNet 3.0
+ WordNet SQL Builder is a Java utility to generate SQL database from
+ WordNet standard database as released by the WordNet Project (Princeton
+ University)
+ .
+ Features
+  * Support for MySql and PostGreSQL.
+  * Complete port (however, orphaned morphological forms are dropped, and
+    so are VerbNet/XWordNet data that cannot be linked to WordNet entries).
+  * Incremental build support.
+  * Retains synset index as primary key allowing easy reference to wordnet
+    original database
+  * Includes support for WordNet 3.0
+  * Includes support for WordNet 2.0 to 2.1, 2.1 to 3.0, 2.0 to 3.0 sense maps
+  * Includes support for VerbNet 2.3
+  * Includes support for XWordNet 2.0-1.1
+  * Ready-to-use database (see wnsqldatabase package in download section) including
+    - WordNet 3.0
+    - WordNet 2.0 to 2.1, 2.1 to 3.0, 2.0 to 3.0 sense maps
+    - VerbNet 2.3
+    - XWordNet 2.0-1.1
+    - British National Corpus statistical data (for commonly used-words)
+
