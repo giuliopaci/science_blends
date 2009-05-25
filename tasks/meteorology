@@ -5,4 +5,4 @@ Description: Debian Science Meteorology packages
 
 Depends: cdo
 
-Depends: DB-All.e
+Depends: db-all.e
