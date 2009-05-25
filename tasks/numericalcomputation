@@ -32,13 +32,3 @@ Depends: r-base
 Why: S is the statistician's Matlab and R is to S what Octave is to Matlab.
 
 Depends: octavede
-Homepage: http://octavede.sf.net/
-WNPP: 514399
-License: GPL
-Responsible: "Jordi Gutiérrez Hermoso" <jordigh@gmail.com>
-Pkg-Description:  A Gtk+ IDE for GNU Octave
- The OctaveDE is a development environment for the Octave mathematical
- software package. Octave normally is run in a terminal. Octavede
- provides an GTK/X11 application that provides functionality similar to
- other mathematical software packages. It offers quick access to files
- and workspace variables, as well as a simple integrated editor.

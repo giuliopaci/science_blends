@@ -42,18 +42,7 @@ Why: Smith charts
 
 Depends: confluence
 
-Depends: ngspice
-Homepage: http://ngspice.sourceforge.net/
-WNPP: 489768
-License: "old" BSD
-Responsible: Gudjon I. Gudjonsson <gudjon@gudjon.org>
-Pkg-Description: A Spice circuit simulator
- Ngspice is a mixed-level/mixed-signal circuit simulator.
- Its code is based on three open source software packages:
- Spice3f5, Cider1b1 and Xspice.
- .
- Ngspice is part of gEDA project, a full GPL'd suite of
- Electronic Design Automation tools.
+Depends: ngspice, gspiceui, easyspice
 
 Depends: herb
 WNPP: 516928

@@ -17,23 +17,3 @@ Suggests: med-bio-dev
 Meta-Suggests: svn://svn.debian.org/cdd/projects/med/trunk/debian-med/tasks/bio-dev
 
 Depends: bauble
-Homepage: http://bauble.belizebotanic.org
-License: GPL v2
-Responsible: Giacomo Catenazzi <cate@debian.org>
-WNPP: 507529
-Pkg-Description: manage a collection of botanical specimens
- Bauble is a software application to help you manage a collection of
- botanical specimens. It is intended to be used by botanic gardens, herbaria,
- arboreta, etc. to manage their collection information. It is a open, free,
- cross-platform alternative to BG-Base and similiar software.
- .
- Features:
-  * Bauble is designed to be simple, elegant and intuitive.
-  * Bauble can use different database backends and is tested against SQLite and PostgreSQL.
-  * Bauble can generate reports through an XSL formatter backend.
-  * Bauble is transaction safe.
-  * Bauble can export data in CSV or Access to Biological Collection Data (ABCD)
-    format. In the future we hope to support other standard formats such as
-    DarwinCore, ITF2, BioCASE, TAPIR, etc.
-  * Bauble supports tagging. You can tag any arbitrary data stored in a Bauble
-    managed database with arbitrary names.
