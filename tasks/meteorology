@@ -4,5 +4,6 @@ Description: Debian Science Meteorology packages
  and installs packages related to Meteorology and Climate.
 
 Depends: cdo
+Why: Widely-used File format manipulation utility
 
 Depends: db-all.e
