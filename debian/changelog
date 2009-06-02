@@ -1,6 +1,10 @@
 debian-science (0.7) UNRELEASED; urgency=low
 
+  [ Andreas Tille ]
   * Change section of metapackages from misc to science
+
+  [ Alastair McKinstry ]
+  * Added files to tasks/meteorology and tasks/meteorology-dev.
 
  -- Andreas Tille <tille@debian.org>  Tue, 14 Apr 2009 13:18:50 +0200
 
