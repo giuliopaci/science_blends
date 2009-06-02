@@ -67,7 +67,7 @@ Pkg-Description: Executables for the magics++ library
 
 Recommends: hdf-eos4
 Homepage: http://hdfeos.net/software.php#HDF-EOS2
-WNPP: 530247
+WNPP: 531558
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
  HDF-EOS is a software library that is an extension of National Center 
@@ -94,3 +94,15 @@ Why: Used for data manipiulation
 
 Suggests: octave-octcdf
 Why: Used for data manipiulation 
+
+Suggests: gerris
+Homepage: http://gfs.sourceforge.net/wiki/index.php/Main_Page
+Pkg-Description: Gerris is a system for the solution of the partial differential equations describing fluid flow
+Why: Includes code for shallow-water solutions to tides, etc.
+
+Recommends: visit
+Homepage: http://www.llnl.gov/visit/
+WNPP: 395573
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Pkg-Description: Interactive parallel visualization and graphical analysis tool
+Why: Used for 3-D visualisation of netCDF datasets.
