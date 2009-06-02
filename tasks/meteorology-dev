@@ -10,3 +10,13 @@ Description: Debian Science Meteorology-dev packages
 
 Depends: libemos-dev
 
+Depends: libgrib-api-dev, libgrib-api-tools
+Why: grib-api is the standard library for GRIB2 file management.
+
+Depends: libhe5-hdfeos-dev
+Why: EOS extensions to the HDF library, for Earth Observation datatypes.
+
+Depends: libnetcdf-dev, netcdf-bin
+
+Depends: gfortran
+Why: Much meteorological code is developed in Fortran.
