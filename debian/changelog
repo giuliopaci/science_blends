@@ -2,11 +2,13 @@ debian-science (0.7) UNRELEASED; urgency=low
 
   [ Andreas Tille ]
   * Change section of metapackages from misc to science
+  * debian/control.stub:
+    - Fixed Vcs-Svn (missing svn/)
 
   [ Alastair McKinstry ]
   * Added files to tasks/meteorology and tasks/meteorology-dev.
 
- -- Andreas Tille <tille@debian.org>  Tue, 14 Apr 2009 13:18:50 +0200
+ -- Andreas Tille <tille@debian.org>  Thu, 04 Jun 2009 09:56:20 +0200
 
 debian-science (0.6) unstable; urgency=low
 
