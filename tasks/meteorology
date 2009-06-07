@@ -83,13 +83,18 @@ Pkg-Description: Extension to HDF5 to support Earth Observing System datatypes
  for Supercomputing Applications (NCSA) HDF. The library supports the
  construction of new data structures: Grid, Point and Swath.
 
-Recommends: GeoNetwork
+Recommends: geonetwork
 Homepage: http://geonetwork-opensource.org
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 529453
 Pkg-Description: Catalog application to manage spatially referenced resources through the web
+ Network opensource is a standards based, Free and Open Source catalog
+ application to manage spatially referenced resources through the web.
+ It provides powerful metadata editing and search functions as well as
+ an embedded interactive web map viewer. This website contains information
+ related to the use of the software.
 
-Suggests: gnudatalanguage, R
+Suggests: gnudatalanguage, r-base
 Why: Used for data manipiulation 
 
 Suggests: octave-octcdf
