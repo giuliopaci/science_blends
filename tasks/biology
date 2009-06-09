@@ -11,9 +11,9 @@ Description: Debian Science Biology packages
  general Debian Science.
 
 Depends: med-bio
-Meta-Depends: svn://svn.debian.org/cdd/projects/med/trunk/debian-med/tasks/bio
+Meta-Depends: svn://svn.debian.org/blends/projects/med/trunk/debian-med/tasks/bio
 
 Suggests: med-bio-dev
-Meta-Suggests: svn://svn.debian.org/cdd/projects/med/trunk/debian-med/tasks/bio-dev
+Meta-Suggests: svn://svn.debian.org/blends/projects/med/trunk/debian-med/tasks/bio-dev
 
 Depends: bauble
