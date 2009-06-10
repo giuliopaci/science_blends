@@ -68,13 +68,32 @@ Pkg-Description: DICOM medical image files manipulation and conversion tools
  proprietary versions of that such as SPI.
 
 
-Depends: python-psychopy
-Homepage: http://www.psychopy.org
+Depends: psychopy
+Homepage: http://www.psychopy.org/
 License: BSD
-Pkg-Description: generate psychophysical stimuli
- Pygame/pyglet-based Python library to conduct psychophysical experiments.
- PsychoPy is primarily focusing on the visual domain, but additionally
- supports handling pre-generated stimuli, such as movies.
+WNPP: 532111
+Responsible: Yaroslav Halchenko <debian@onerussian.com>
+Pkg-Description: module for creating psychology stimuli in Python
+ PsychoPy combines the graphical strengths of OpenGL with the easy
+ Python syntax to give psychophysics a free and simple stimulus presentation
+ and control package.
+ .
+ The goal is to provide, for the busy scientist, tools to control
+ timing and windowing and a simple set of pre-packaged stimuli and methods.
+ .
+ Features
+  * Simple, clean syntax (see the demo code)
+  * Simple (or complex) GUIs via wxPython
+  * Easy interfaces to joysticks, mice, keyboards
+  * Easy interface to parallel and serial ports
+  * Unicode text rendering in any TrueType font
+  * Multi-monitor support (and multiple windows)
+  * Plays movies (mpg, DivX, avi, QuickTime...) as stimuli
+  * All stimuli rendered in realtime (so can be modified in realtime too)
+  * Simple routines for staircase and constant stimuli experimental
+    methods as well as curve-fitting and bootstrapping
+  * Integration with CRS Bits++(for 14bit luminance resolution)
+  * Integration with Spectrascan PR650 for easy monitor calibration
 
 
 Depends: bioimagesuite
@@ -189,33 +208,26 @@ Pkg-Description: image processing factory for MR images
 Depends: lipsia
 Homepage: http://www.cbs.mpg.de/institute/software/lipsia
 License: GPL
-Responsible: Felix Botner <botner@cbs.mpg.de>
-Pkg-URL: ftp://lipsia.cbs.mpg.de/lipsia
-Pkg-Description: Analysis of MRI and fMRI data - binary
- Leipzig Image Processing and Statistical Inference Algorithms
- (LIPSIA)
+WNPP: 521412
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/lipsia.git
+Pkg-URL: http://apsy.gse.uni-magdeburg.de/debian/html/pkgs/lipsia
+Pkg-Description: analysis suite for MRI and fMRI data
+ Leipzig Image Processing and Statistical Inference Algorithms (LIPSIA)
  .
- The software package LIPSIA was developed by the Max Planck Institute
- of Cognitive Neuroscience, Leipzig, for the data processing and
- evaluation of functional magnetic resonance images. The analysis of
- fMRI data comprises various aspects including filtering, spatial
- transformation, statistical evaluation as well as segmentation and
- visualization. All these aspects are covered by LIPSIA. For the
- statistical evaluation, a number of well established and
- peer-reviewed algorithms were implemented in LIPSIA that allow an
- effcient and user-friendly processing of fMRI data sets. As the
- amount of data that must be handled is enormous, an important aspect
- in the development LIPSIA was the efficiency of the software
- implementation. In LIPSIA, particular emphasis was placed on the
- development of new visualization and segmentation techniques that
- support visualizations of individual brain anatomy so that experts
- can assess the exact location of activation patterns in individual
- brains. LIPSIA is non- commercial. LIPSIA is freely available upon
- request. However, as we don't have suffcient manpower, we can't
- support an unlimited number of LIPSIA users.  Therefore, we plan to
- offer LIPSIA initially on lytoa limited number of cooperation
- partners. Please contact us, if you are interested in becoming a
- LIPSIA cooperation partner.
+ This is a software package for the data processing and evaluation of
+ functional magnetic resonance images. The analysis of fMRI data comprises
+ various aspects including filtering, spatial transformation, statistical
+ evaluation as well as segmentation and visualization. All these aspects are
+ covered by LIPSIA. For the statistical evaluation, a number of well established
+ and peer-reviewed algorithms were implemented in LIPSIA that allow an effcient
+ and user-friendly processing of fMRI data sets. As the amount of data that must
+ be handled is enormous, an important aspect in the development LIPSIA was the
+ efficiency of the software implementation.
+ .
+ LIPSIA operates exclusively on data in the VISTA data format. However, the
+ package contains converters for medical image data in iBruker, ANALYZE  and
+ NIfTI format -- converting VISTA images into NIfTI files is also supported.
 
 
 Depends: openmeeg
@@ -233,3 +245,13 @@ Pkg-Description: library and tools for solving EEG and MEG forward and inverse p
  distributed source model, with three different types of
  regularization: the Minimum Norm, and the L2 and L1
  norms of the surface gradient of the sources [Adde et al, 2005].
+
+
+Depends: visionegg
+Homepage: http://www.visionegg.org
+License: LGPL
+WNPP: 365856
+Pkg-Description: Python library for 2D/3D visual stimulus generation
+ The Vision Egg is a programming library that uses standard, inexpensive
+ computer graphics cards to produce visual stimuli for vision research
+ experiments.
