@@ -50,6 +50,8 @@ Depends: libmatheval1
 
 Depends: sagemath
 
+Depends: mumps-test
+
 Depends: geogebra
 Homepage: http://www.geogebra.org/
 WNPP: 447584
