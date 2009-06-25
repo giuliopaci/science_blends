@@ -79,8 +79,9 @@ Depends:     josm, \
              gosmore, \
              osm-tools, \
              python-mapnik, \
-             mapnik-utils, \
-             iceweasel, \
+             mapnik-utils
+             
+Suggests:    iceweasel, \
              mozilla-plugin-gnash, \
              swfdec-mozilla
 
