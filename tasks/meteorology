@@ -9,15 +9,6 @@ Homepage: http://www.mpimet.mpg.de/fileadmin/software/cdo/
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 
 Depends: dballe
-Homepage: http://www.arpa.emr.it/dettaglio_documento.asp?id=514&idlivello=64
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: Database for punctual meteorological data (Command line tools)
- DB-All.e is a fast on-disk database where meteorological observed and
- forecast data can be stored, searched, retrieved and updated.
- .
- This framework allows to manage large amounts of data using its simple
- Application Program Interface, and provides tools to visualise, import
- and export in the standard formats BUFR, AOF and CREX.
 
 Depends: zygrib
 Homepage: http://www.zygrib.org/index.php?page=abstract_en
@@ -33,25 +24,13 @@ Pkg-Description: Weather data visualization: GRIB file viewer
 Depends: libemos0d
 Why: Library used by many programs for BUFR and GRIB file manipulation.
 Responsible: Alastair McKinstry <mckinstry@debian.org>
-Homepage: http://www.ecmwf.int/products/data/software/interpolation.html
-Pkg-Description: ECMWF Interpolation Library
- The Interpolation library (EMOSLIB) includes Interpolation software and GRIB,
- BUFR, CREX encoding/decoding routines. It is used by the ECMWF meteorological
- archival and retrieval system (MARS) and also by the ECMWF graphics
- package MetView.
+Remark: Metapackages should not depend from libraries but rather
+ from tools using these libraries.  If the metapackage is a -dev
+ package targeting at development it should depend from the
+ library development package.
 
 Depends: libgrib-api-tools
 Responsible: Enrico Zini <enrico@debian.org>
-Homepage: http://www.ecmwf.int/products/data/software/grib_api.html
-Pkg-Description: GRIB decoding/encoding software (utilities)
- The ECMWF GRIB API is an application program interface accessible from C and
- FORTRAN programs developed for encoding and decoding WMO FM-92 GRIB edition 1
- and edition 2 messages.
- .
- This is a useful set of command line tools to give quick access to grib
- messages.
- .
- ECMWF is the European Centre for Medium-Range Weather Forecasts.
 
 Depends: magics++
 Homepage: http://www.ecmwf.int/products/data/software/msgics++.html
@@ -101,9 +80,6 @@ Suggests: octave-octcdf
 Why: Used for data manipiulation 
 
 Suggests: gerris
-Homepage: http://gfs.sourceforge.net/wiki/index.php/Main_Page
-Pkg-Description: Gerris is a system for the solution of the partial differential equations describing fluid flow
-Why: Includes code for shallow-water solutions to tides, etc.
 
 Recommends: visit
 Homepage: http://www.llnl.gov/visit/
