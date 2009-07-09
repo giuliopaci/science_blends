@@ -34,6 +34,8 @@ Depends: avogadro
 
 Depends: gamgi
 
+Depends: massxpert
+
 Depends: drawxtl
 Homepage: http://home.att.net/~larry.finger/drawxtl/
 WNPP: 428750
