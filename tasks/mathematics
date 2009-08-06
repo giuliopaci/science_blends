@@ -82,3 +82,21 @@ Pkg-Description: Generic theorem proving environment
  .
  Isabelle can also be used as a generic framework for rapid
  prototyping of deductive systems.
+
+Depends: bliss
+Homepage: http://www.tcs.hut.fi/Software/bliss/index.shtml
+License: GPL2
+WNPP: 528925
+Responsible: David Bremner <bremner@unb.ca>
+Pkg-Description: tool for computing automorphism groups and canonical labelings of graphs
+ Bliss is a backtracking algorithm based on individualization and
+ refinement for labeling a graph.  Data structures, subroutines, and
+ pruning heuristics especially for fast handling of large and sparse
+ graphs are provided. This package provides the command line tool 
+ bliss; a C++ and C API is also available.
+ .
+ There is also a libbliss-dev which changes the last line of the long
+ description.  At the moment I propose not to create a shared library
+ package since upstream doesn't make one, and in the short term there
+ won't be any rdepends in debian. I could be convinced otherwise of
+ course.
