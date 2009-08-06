@@ -29,11 +29,11 @@ Depends: stardata-common, gliese, yale
 Depends: boinc-app-milkyway
 
 Depends: spacechart
-Homepage: http://www.gnu.org/software/spacechart/
-License: GPL
-Responsible: Francisco Garcia <franciscomanuel.garcia@hispalinux.es>
-Pkg-URL: http://packages.debian.org/en/etch/spacechart
-Pkg-Description: Star map viewer and navigator
+X-Homepage: http://www.gnu.org/software/spacechart/
+X-License: GPL
+X-Responsible: Francisco Garcia <franciscomanuel.garcia@hispalinux.es>
+X-Pkg-URL: http://packages.debian.org/en/etch/spacechart
+X-Pkg-Description: Star map viewer and navigator
  SpaceChart is a program to display 3d maps of stars and move freely
  around it. It is capable of showing only a subset of the stars in a
  given data file, and only those within a given distance of the center
@@ -45,7 +45,7 @@ Pkg-Description: Star map viewer and navigator
  clarified.  One reason might be that the development of this softare
  is stalled since the beginning of 2002. The URL of the "unofficial"
  package points to the location of the package in Etch.
-X-Comment: Was removed from Debian.
+X-Comment: Use information for tasks pages out of Etch but keep it here as well.
 
 Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/

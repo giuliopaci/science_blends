@@ -49,6 +49,8 @@ Suggests: science-statistics, science-mathematics
 
 Suggests: sivp
 
+Depends: meshlab
+
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
@@ -152,23 +154,6 @@ Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
  This package is a metapackage that depends upon all components of a
  GEANT4 environment.  Unless you know exactly what parts of GEANT4
  you want, it is best to install this package.
-
-Depends: meshlab
-Homepage: http://meshlab.sourceforge.net/
-WNPP: 426581
-License: GPL
-Responsible: Teemu Ikonen <tpikonen@gmail.com>
-Pkg-URL: http://esko.osmas.info/~tmx/meshlab/
-Pkg-Description: System for processing and editing triangular meshes
- MeshLab is an open source, portable, and extendible system for the
- processing and editing of unstructured 3D triangular meshes.
- The system is aimed to help the processing of the typical not-so-small
- unstructured models arising in 3D scanning, providing a set of tools for
- editing, cleaning, healing, inspecting, rendering and converting this kind
- of meshes.
- .
- Meshlab can read files in these formats: PLY, STL, OFF, OBJ, 3DS, COLLADA
- and PTX. It can write PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, and DXF.
 
 Depends: openfoam
 License: GPL

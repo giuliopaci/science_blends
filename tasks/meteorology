@@ -5,8 +5,6 @@ Description: Debian Science Meteorology packages
 
 Depends: cdo
 Why: Widely-used File format manipulation utility
-Homepage: http://www.mpimet.mpg.de/fileadmin/software/cdo/
-Responsible: Alastair McKinstry <mckinstry@debian.org>
 
 Depends: dballe
 

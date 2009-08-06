@@ -14,11 +14,11 @@ Depends:     grass,
 Suggests: r-cran-sp
 
 Depends: qgis
-Homepage: http://www.qgis.org/
-License: GPL
-Responsible: Steve Halasz <debian@adkgis.org>
-Pkg-URL: http://packages.debian.org/etch/qgis
-Pkg-Description: Geographic Information System (GIS)
+X-Homepage: http://www.qgis.org/
+X-License: GPL
+X-Responsible: Steve Halasz <debian@adkgis.org>
+X-Pkg-URL: http://packages.debian.org/etch/qgis
+X-Pkg-Description: Geographic Information System (GIS)
  A Geographic Information System (GIS) manages, analyzes, and displays
  databases of geographic information. Quantum GIS (QGIS) supports shapefile
  viewing and editing, spatial data storage with PostgreSQL/PostGIS, projection
@@ -26,8 +26,7 @@ Pkg-Description: Geographic Information System (GIS)
  interface. QGIS also supports display of various georeferenced raster and
  Digital Elevation Model (DEM) formats including GeoTIFF, Arc/Info ASCII Grid,
  and USGS ASCII DEM.
- .
- This project used to be an official Debian in Etch but vanished later
+X-Comment: This project used to be an official Debian in Etch but vanished later
  from the Debian pool of packaged software because it had a lot of
  bugs. The reaons are given here: http://bugs.debian.org/474604. Perhaps
  later upstream version might qualify for inclusion again. The URL of the
