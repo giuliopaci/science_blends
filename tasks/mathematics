@@ -52,6 +52,8 @@ Depends: sagemath
 
 Depends: mumps-test
 
+Depends: nauty
+
 Depends: geogebra
 Homepage: http://www.geogebra.org/
 WNPP: 447584

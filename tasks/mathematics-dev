@@ -50,3 +50,5 @@ Comment: Formerly in main this package has to be moved to non-free but will
          be available there soon (hopefully)
 
 Suggests: libitpp-dev
+
+Suggests: libnauty-dev
