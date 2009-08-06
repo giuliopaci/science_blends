@@ -48,7 +48,7 @@ Depends: herb
 WNPP: 516928
 Homepage: http://www.banu.com/herb
 License: GNU GPLv3
-Responsible: Ahmed El-Mahmoudy <aelmahmoudy@users.sourceforge.net>
+Responsible: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
 Pkg-Description: complete set of CAD programs for design of VLSI circuits
  Herb is a complete set of CAD programs and libraries for the specification,
  design and validation of VLSI circuits. It includes a VHDL simulator, logic
@@ -62,3 +62,17 @@ Pkg-Description: complete set of CAD programs for design of VLSI circuits
     Verilog (output-only)
   * Symbolic layout: Alliance, COMPASS
   * Physical layout: CIF (output-only) and GDSII (output-only)
+
+Depends: covered
+WNPP: 539883
+Homepage: http://covered.sourceforge.net
+License: GNU GPLv2
+Responsible: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Pkg-Description: Verilog code coverage analysis tool
+ Covered is a Verilog code coverage utility that reads in a Verilog design and
+ a generated VCD/LXT dumpfile from that design and generates a coverage file
+ that can be merged with other coverage files or used to create a coverage
+ report. Covered also contains the GUI coverage report utility that reads in a
+ coverage file to allow interactive coverage discovery. Areas of coverage
+ measured by Covered are: line, toggle, memory, combinational logic, FSM
+ state/state-transition and assertion coverage.
