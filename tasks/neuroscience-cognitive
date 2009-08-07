@@ -53,6 +53,7 @@ Depends: praat
 Why: Speech synthesis and analysis -- standard tool for auditory stimulus
      generation.
 
+Depends: slicer
 
 Depends: dicom3tools
 Why: Supports conversion from proprietary formats, such as GE into DICOM.
@@ -116,21 +117,6 @@ Pkg-Description: integrated image analysis software suite
  There is a forum at BioImage Suite site for discussion of
  compiling it from source and packaging issues at
  http://research.yale.edu/bioimagesuite/forum/index.php?board=12.0
-
-
-Depends: slicer
-Homepage: http://www.slicer.org/
-License: BSD like
-WNPP: 500841
-Responsible: Dominique Belhachemi <domibel@cs.tu-berlin.de>
-Pkg-Description: visualization, registration, segmentation, and quantification of medical data
- The 3D Slicer is freely available, open-source software for visualization,
- registration, segmentation, and quantification of medical data. The slicer
- source seems to be available via CVS only.
- .
- The license statement can be seen at
- http://www.slicer.org/cgi-bin/License/SlicerLicenseForm.pl
-
 
 Depends: afni
 Homepage: http://afni.nimh.nih.gov/
