@@ -9,14 +9,47 @@ Description: Debian Science Meteorology-dev packages
  You might also be interested in the science-meteorology metapackage.
 
 Depends: libemos-dev
+Pkg-Description: Interpolation library, for reading BUFR, GRIB and CREX files.
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Homepage: http://www.ecmwf.int/products/data/software/interpolation.html
 
 Depends: libgrib-api-dev, libgrib-api-tools
 Why: grib-api is the standard library for GRIB2 file management.
 
+Depends: libgrib2c-dev
+Why: API for reading GRIB2 files
+
 Depends: libhe5-hdfeos-dev
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+WNPP: 530247
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 
 Depends: libnetcdf-dev, netcdf-bin
 
 Depends: gfortran
 Why: Much meteorological code is developed in Fortran.
+
+Depends: ksh
+Why: Many Meteorology codes use ksh as their scripting shells.
+
+Depends: liblapack-dev, libblas-dev, libfftw3-dev
+Why: Most forecasting codes use BLAS and LAPACK
+
+Recommends: libblas-doc, liblapack-doc, libfftw3-doc
+
+Depends: pkg-config
+Why: Simplifies the scripting of builds. 
+
+Depends: libudunits-dev
+WNPP: 532430
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Homepage: http://www.unidata.ucar.edu/software/udunits/
+Why: widely used in climate models.
+
+Recommends: liboasis3-dev
+WNPP: 531673
+Homepage: http://www.prism.enes.org/PAEs/coupling_IO/software_OASIS3.php
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Why: Coupler used in many forecasting projects
+ Many models link against OASIS even if they don't use it in a 
+ given configuration, eg. the Harmonie model.

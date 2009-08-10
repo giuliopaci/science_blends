@@ -4,6 +4,7 @@ Description: Debian Science Meteorology packages
  and installs packages related to Meteorology and Climate.
 
 Depends: cdo
+Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: Widely-used File format manipulation utility
 
 Depends: dballe
