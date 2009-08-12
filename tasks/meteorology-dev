@@ -24,6 +24,26 @@ Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 530247
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 
+Depends: libhe4-hdfeos-dev
+WNPP: 531558
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Why: EOS extensions to the HDF library, for Earth Observation datatypes.
+
+
+Depends: libproj-dev
+Why: Needed for many cartographic tasks (eg coastlines on maps)
+
+Depends: libgctp-dev
+Homepage: http://gcmd.nasa.gov/records/USGS-GCTP.html
+WNPP: 540182
+Responsible: Alastait McKinstry <mckinstry@debian.org>
+Pkg- Description     : General Cartographic Transformation Package Library
+ The General Cartographic Transformation Package (GCTP) is a system of
+ software routines designed to permit the transformation of coordinate
+ pairs from one map projection to another. The GCTP is the standard
+ computer software used by the National Mapping Division for map
+ projection computations.
+
 Depends: libnetcdf-dev, netcdf-bin
 
 Depends: gfortran
@@ -53,3 +73,33 @@ Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: Coupler used in many forecasting projects
  Many models link against OASIS even if they don't use it in a 
  given configuration, eg. the Harmonie model.
+
+Depends: libdap-dev
+WNPP: 541074
+Homepage: http://www.opendap.org
+License: GPL, W3C
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
+
+Depends: liblas-dev
+WNPP: 532415
+Homepage: http://liblas.org/
+License: BSD
+Responsible: Francesco Paolo Lovergiine <rankie@debian.org>
+Pkg-escription     : ASPRS LiDAR data translation toolset
+ libLAS is a C/C++ library and toolset for reading and writing ASPRS
+ LAS versions 1.0, 1.1 and 1.2 data. The LAS format is a sequential
+ binary format used to store data from sensors and as intermediate
+ processing storage by some LiDAR-related applications.
+ libLAS has C, C++, .NET, and Python APIs.
+
+Depends: libnc-dap-dev
+WNPP: 537111
+Homepage:  http://opendap.org/download/nc-dods.html
+Responsible: Youhei SASAKI <uwabami@gfd-dennou.org>
+Pkg-Description: The netCDF Client Library is an alternative implementation of Unidata's netCDF 3.6 API.
+ The netCDF Client Library is an alternative implementation of Unidata's   netCDF 3.6 API.
+ Our version adds the capability to dereference OPeNDAP URLs. You can substitute our version 
+ of the library when linking your application and then simply pass an OPeNDAP URL 
+ in where you would normally use a file name.
+

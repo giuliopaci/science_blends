@@ -19,19 +19,21 @@ Pkg-Description: Weather data visualization: GRIB file viewer
   * Visualisation of meteo data from files in GRIB Format 1
   * Automatic GRIB data download
   * Automatic Download from IAC (fleetcode) Data
+Why: Used as default tool for viewing GRIB files.
 
-Depends: libemos0d
-Why: Library used by many programs for BUFR and GRIB file manipulation.
+Recommends: visit
+Homepage: http://www.llnl.gov/visit/
+WNPP: 395573
 Responsible: Alastair McKinstry <mckinstry@debian.org>
-Remark: Metapackages should not depend from libraries but rather
- from tools using these libraries.  If the metapackage is a -dev
- package targeting at development it should depend from the
- library development package.
+Pkg-Description: Interactive parallel visualization and graphical analysis tool
+Why: Used for 3-D visualisation of netCDF datasets.
 
 Depends: libgrib-api-tools
 Responsible: Enrico Zini <enrico@debian.org>
 
 Depends: magics++
+WNPP: 522984
+License: Apache
 Homepage: http://www.ecmwf.int/products/data/software/msgics++.html
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Pkg-Description: Executables for the magics++ library
@@ -46,6 +48,7 @@ Pkg-Description: Executables for the magics++ library
 Recommends: hdf-eos4
 Homepage: http://hdfeos.net/software.php#HDF-EOS2
 WNPP: 531558
+License: BSD
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
  HDF-EOS is a software library that is an extension of National Center 
@@ -56,6 +59,7 @@ Recommends: hdf-eos5
 Homepage: http://hdfeos.net/software.php#HDF-EO5
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 530247
+License: BSD
 Pkg-Description: Extension to HDF5 to support Earth Observing System datatypes
  HDF-EOS is a software library that is an extension of National Center
  for Supercomputing Applications (NCSA) HDF. The library supports the
@@ -65,12 +69,54 @@ Recommends: geonetwork
 Homepage: http://geonetwork-opensource.org
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 529453
+License: GPL
 Pkg-Description: Catalog application to manage spatially referenced resources through the web
  Network opensource is a standards based, Free and Open Source catalog
  application to manage spatially referenced resources through the web.
  It provides powerful metadata editing and search functions as well as
  an embedded interactive web map viewer. This website contains information
  related to the use of the software.
+
+Recommends: vis5d+
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+WNPP: 532858
+License: GPL
+Homepage: http://vis5d.sourceforge.net
+Pkg-Description: Vis5d, a free OpenGL-based volumetric visualization program for scientific datasets in 3+ dimensions
+Why: vis5d is used by other tools such as NCL, so many have experience in using it.
+
+Recommends: ncview
+WNPP: 536882
+Responsible: Francesco Paolo Lovergine <frankie@debian.org>
+License: GPL
+Pkg-Description: A X11 visual browser for NetCDF format files
+ You would use ncview to get a quick and easy, push-button look at
+ your NetCDF files. You can view simple movies of the data, view along various
+ dimensions, take a look at the actual data values, change color maps, invert
+ the data and other simple visual operations.
+
+Depends: grads
+WNPP: 540545
+License: GPL
+Responsible:  Alastair McKinstry <mckinstry@debian.org>
+Pkg-Description: Grid Analysis and Display System for earth science data
+ The Grid Analysis and Display System (GrADS) is an interactive desktop tool that is used for easy access, manipulation, and visualization of earth 
+ science data. The format of the data may be either binary, GRIB, NetCDF, or HDF-SDS (Scientific Data Sets). GrADS has been implemented worldwide on a 
+ variety of commonly used operating systems and is freely distributed over the Internet.
+Why: Used as default tool for viewing BUFR files.
+
+Recommends: ncl
+WNPP: 531982
+License: BSD
+Responsible:  Alastair McKinstry <mckinstry@debian.org>
+Homepage:  http://www.ncl.ucar.edu/overview.shtml
+Pkg-Description: NCAR Command Language and NCAR Graphics package
+ The NCAR Command Language (NCL) is a free interpreted language designed
+ specifically for scientific data processing and visualization. NCL has robust
+ file input and output. It can read and write netCDF-3, netCDF-4 classic (as
+ of version 4.3.1), HDF4, binary, and ASCII data, and read HDF-EOS2, GRIB1 and
+ GRIB2 (as of version 4.3.0). The graphics are world class and highly
+ customizable.
 
 Suggests: gnudatalanguage, r-base
 Why: Used for data manipiulation 
@@ -79,10 +125,3 @@ Suggests: octave-octcdf
 Why: Used for data manipiulation 
 
 Suggests: gerris
-
-Recommends: visit
-Homepage: http://www.llnl.gov/visit/
-WNPP: 395573
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: Interactive parallel visualization and graphical analysis tool
-Why: Used for 3-D visualisation of netCDF datasets.
