@@ -123,3 +123,23 @@ Pkg-Description: reference manager software
   * Advanced search and data mining tools
   * Wide variety of import/export options
 
+Depends: latexdiff
+WNPP: 504411
+License: GPL-2
+Responsible: David Bremner <bremner@unb.ca>
+Vcs-Git: git://git.debian.org/git/pkg-perl/apps/latexdiff.git
+Vcs-Browser: http://git.debian.org/?p=pkg-perl/apps/latexdiff.git
+Homepage: http://bullard.esc.cam.ac.uk/~tilmann/soft.html
+Pkg-Description: utility to mark up significant differences between LaTeX files
+ latexdiff compares two LaTeX files and marks up significant differences
+ between them (i.e. a diff for LaTeX files). It generates a new LaTeX file
+ containing the annotated differences.
+ .
+ Various options are available for visual markup using standard LaTeX packages
+ such as 'color.sty'. Changes not directly affecting visible text, for example
+ in formatting commands, are still marked in the LaTeX source. 
+ .
+ A rudimentary revision facilility is provided by another Perl script,
+ 'latexrevise', which accepts or rejects all changes. Manual editing of the
+ difference file can be used to override this default behaviour and accept or
+ reject selected changes only.
