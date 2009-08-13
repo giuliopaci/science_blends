@@ -36,8 +36,8 @@ Why: Needed for many cartographic tasks (eg coastlines on maps)
 Depends: libgctp-dev
 Homepage: http://gcmd.nasa.gov/records/USGS-GCTP.html
 WNPP: 540182
-Responsible: Alastait McKinstry <mckinstry@debian.org>
-Pkg- Description     : General Cartographic Transformation Package Library
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Pkg-Description: General Cartographic Transformation Package Library
  The General Cartographic Transformation Package (GCTP) is a system of
  software routines designed to permit the transformation of coordinate
  pairs from one map projection to another. The GCTP is the standard
@@ -86,7 +86,7 @@ WNPP: 532415
 Homepage: http://liblas.org/
 License: BSD
 Responsible: Francesco Paolo Lovergiine <rankie@debian.org>
-Pkg-escription     : ASPRS LiDAR data translation toolset
+Pkg-escription: ASPRS LiDAR data translation toolset
  libLAS is a C/C++ library and toolset for reading and writing ASPRS
  LAS versions 1.0, 1.1 and 1.2 data. The LAS format is a sequential
  binary format used to store data from sensors and as intermediate
