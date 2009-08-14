@@ -9,15 +9,19 @@ Description: Debian Science Meteorology-dev packages
  You might also be interested in the science-meteorology metapackage.
 
 Depends: libemos-dev
-Pkg-Description: Interpolation library, for reading BUFR, GRIB and CREX files.
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Homepage: http://www.ecmwf.int/products/data/software/interpolation.html
+Why: standard library for BUFR formats
 
 Depends: libgrib-api-dev, libgrib-api-tools
 Why: grib-api is the standard library for GRIB2 file management.
 
 Depends: libgrib2c-dev
 Why: API for reading GRIB2 files
+WNPP: 531959
+Homepage: http://www.nco.ncep.noaa.gov/pmb/codes/GRIB2/
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Pkg-Description: GRIB2 encoder/decoder library from NCEP
+License: Public Domain
+
 
 Depends: libhe5-hdfeos-dev
 Responsible: Alastair McKinstry <mckinstry@debian.org>
@@ -28,7 +32,6 @@ Depends: libhe4-hdfeos-dev
 WNPP: 531558
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
-
 
 Depends: libproj-dev
 Why: Needed for many cartographic tasks (eg coastlines on maps)
@@ -86,7 +89,7 @@ WNPP: 532415
 Homepage: http://liblas.org/
 License: BSD
 Responsible: Francesco Paolo Lovergiine <rankie@debian.org>
-Pkg-escription: ASPRS LiDAR data translation toolset
+Pkg-Description: ASPRS LiDAR data translation toolset
  libLAS is a C/C++ library and toolset for reading and writing ASPRS
  LAS versions 1.0, 1.1 and 1.2 data. The LAS format is a sequential
  binary format used to store data from sensors and as intermediate
