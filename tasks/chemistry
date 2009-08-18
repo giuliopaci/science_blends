@@ -225,4 +225,22 @@ Pkg-Description: CP2K is a program to perform atomistic and molecular
  e.g. density functional theory (DFT) using a mixed Gaussian and plane
  waves approach (GPW), and classical pair and many-body potentials.
 
+Recommends: pdb2pqr
+Homepage: http://pdb2pqr.sourceforge.net/
+Responsible: Manuel Prinz <debian@pinguinkiste.de>
+License: GPL
+WNPP: 416269
+Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/pdb2pqr/trunk/
+Pkg-Description: Converts Protein Data Bank (PDB) files to PQR
+ From the PDB2PQR hompage: "PDB2PQR is a Python software package that
+ automates many of the common tasks of preparing structures for
+ continuum electrostatics calculations. This includes adding a limited
+ number of missing heavy atoms to biomolecular structures, optimizing
+ the protein for favorable hydrogen bonding, determining side-chain
+ pKas, and assigning charge and radius parameters from a variety of
+ force fields, ultimately yielding a final PQR file."
+ .
+ PDB2PQR is a tool often used in conjunction with APBS, which is in
+ Debian already. I have had good contact with both upstream authors in
+ the past.
 
