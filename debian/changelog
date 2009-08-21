@@ -1,14 +1,19 @@
-debian-science (0.7) UNRELEASED; urgency=low
+debian-science (0.7) unstable; urgency=low
 
   [ Andreas Tille ]
   * Change section of metapackages from misc to science
   * debian/control.stub:
     - Fixed Vcs-Svn (missing svn/)
+    - Build-Depends: blends-dev (>= 0.6.6)
+  * config/control: Depends: blends-common (>= 0.6.6)
+    Closes: #542658
+  * Debhelper 7
+  * Standards-Version: 3.8.3 (no changes needed)
 
   [ Alastair McKinstry ]
   * Added files to tasks/meteorology and tasks/meteorology-dev.
 
- -- Andreas Tille <tille@debian.org>  Thu, 04 Jun 2009 09:56:20 +0200
+ -- Andreas Tille <tille@debian.org>  Fri, 21 Aug 2009 14:20:43 +0200
 
 debian-science (0.6) unstable; urgency=low
 

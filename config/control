@@ -1,6 +1,6 @@
 Package: science-config
 Architecture: all
-Depends: adduser, ${misc:Depends}, menu, blends-common
+Depends: adduser, ${misc:Depends}, menu, blends-common (>= 0.6.6)
 Description: Debian Science Project config package
  This package provides the basic infrastructure of all science-* packages and is
  needed by them.
