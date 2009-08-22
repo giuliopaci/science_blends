@@ -225,7 +225,7 @@ Pkg-Description: CP2K is a program to perform atomistic and molecular
  e.g. density functional theory (DFT) using a mixed Gaussian and plane
  waves approach (GPW), and classical pair and many-body potentials.
 
-Recommends: pdb2pqr
+Depends: pdb2pqr
 Homepage: http://pdb2pqr.sourceforge.net/
 Responsible: Manuel Prinz <debian@pinguinkiste.de>
 License: GPL

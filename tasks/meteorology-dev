@@ -58,7 +58,7 @@ Why: Many Meteorology codes use ksh as their scripting shells.
 Depends: liblapack-dev, libblas-dev, libfftw3-dev
 Why: Most forecasting codes use BLAS and LAPACK
 
-Recommends: libblas-doc, liblapack-doc, libfftw3-doc
+Depends: libblas-doc, liblapack-doc, libfftw3-doc
 
 Depends: pkg-config
 Why: Simplifies the scripting of builds. 
@@ -69,7 +69,7 @@ Responsible: Alastair McKinstry <mckinstry@debian.org>
 Homepage: http://www.unidata.ucar.edu/software/udunits/
 Why: widely used in climate models.
 
-Recommends: liboasis3-dev
+Depends: liboasis3-dev
 WNPP: 531673
 Homepage: http://www.prism.enes.org/PAEs/coupling_IO/software_OASIS3.php
 Responsible: Alastair McKinstry <mckinstry@debian.org>

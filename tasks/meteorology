@@ -21,7 +21,7 @@ Pkg-Description: Weather data visualization: GRIB file viewer
   * Automatic Download from IAC (fleetcode) Data
 Why: Used as default tool for viewing GRIB files.
 
-Recommends: visit
+Depends: visit
 Homepage: http://www.llnl.gov/visit/
 WNPP: 395573
 Responsible: Alastair McKinstry <mckinstry@debian.org>
@@ -45,7 +45,7 @@ Pkg-Description: Executables for the magics++ library
  .
  This package contains the MagcML binary that may be used with magics++.
 
-Recommends: hdf-eos4
+Depends: hdf-eos4
 Homepage: http://hdfeos.net/software.php#HDF-EOS2
 WNPP: 531558
 License: BSD
@@ -55,7 +55,7 @@ Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
  for Supercomputing Applications (NCSA) HDF. The library supports the 
  construction of new data structures: Grid, Point and Swath.
 
-Recommends: hdf-eos5
+Depends: hdf-eos5
 Homepage: http://hdfeos.net/software.php#HDF-EO5
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 530247
@@ -65,7 +65,7 @@ Pkg-Description: Extension to HDF5 to support Earth Observing System datatypes
  for Supercomputing Applications (NCSA) HDF. The library supports the
  construction of new data structures: Grid, Point and Swath.
 
-Recommends: geonetwork
+Depends: geonetwork
 Homepage: http://geonetwork-opensource.org
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 529453
@@ -77,7 +77,7 @@ Pkg-Description: Catalog application to manage spatially referenced resources th
  an embedded interactive web map viewer. This website contains information
  related to the use of the software.
 
-Recommends: vis5d+
+Depends: vis5d+
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 532858
 License: GPL
@@ -85,7 +85,7 @@ Homepage: http://vis5d.sourceforge.net
 Pkg-Description: Vis5d, a free OpenGL-based volumetric visualization program for scientific datasets in 3+ dimensions
 Why: vis5d is used by other tools such as NCL, so many have experience in using it.
 
-Recommends: ncview
+Depends: ncview
 WNPP: 536882
 Responsible: Francesco Paolo Lovergine <frankie@debian.org>
 License: GPL
@@ -105,7 +105,7 @@ Pkg-Description: Grid Analysis and Display System for earth science data
  variety of commonly used operating systems and is freely distributed over the Internet.
 Why: Used as default tool for viewing BUFR files.
 
-Recommends: ncl
+Depends: ncl
 WNPP: 531982
 License: BSD
 Responsible:  Alastair McKinstry <mckinstry@debian.org>
