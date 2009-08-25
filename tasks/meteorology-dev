@@ -27,11 +27,21 @@ Depends: libhe5-hdfeos-dev
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 WNPP: 530247
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
+Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
+ HDF-EOS is a software library that is an extension of National Center 
+ for Supercomputing Applications (NCSA) HDF. The library supports the 
+ construction of new data structures: Grid, Point and Swath.
 
 Depends: libhe4-hdfeos-dev
 WNPP: 531558
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
+Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
+ HDF-EOS is a software library that is an extension of National Center 
+ for Supercomputing Applications (NCSA) HDF. The library supports the 
+ construction of new data structures: Grid, Point and Swath.
+ .
+ This version is built against the HDF4
 
 Depends: libproj-dev
 Why: Needed for many cartographic tasks (eg coastlines on maps)
@@ -67,7 +77,13 @@ Depends: libudunits-dev
 WNPP: 532430
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Homepage: http://www.unidata.ucar.edu/software/udunits/
+Language: C
 Why: widely used in climate models.
+Pkg-Description: Library for the programatic handling of units of physical quantities
+ The UDUNITS package supports units of physical quantities (e.g., meters, seconds).
+ Specifically, it supports conversion between string and binary representations 
+ of units, arithmetic manipulation of units, and conversion of numeric values between
+ compatible units.
 
 Depends: liboasis3-dev
 WNPP: 531673
@@ -76,6 +92,25 @@ Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: Coupler used in many forecasting projects
  Many models link against OASIS even if they don't use it in a 
  given configuration, eg. the Harmonie model.
+Pkg-Description: Coupler for exchanging fields between components of Earth system models
+ OASIS3 is the direct evolution of the OASIS coupler developed since
+ more than 10 years at CERFACS (Toulouse, France). Portability and
+ flexibility are OASIS3 key design concepts. At run-time, OASIS3 acts as
+ a separate mono process executable, which main function is to
+ interpolate the coupling fields exchanged between the component models,
+ and as a library linked to the component models, the OASIS3 PRISM Model
+ Interface Library (OASIS3 PSMILe).
+ .
+ OASIS3 supports 2D coupling fields only. To communicate with OASIS3,
+ directly with another model, or to perform I/O actions, a component
+ model needs to include few specific PSMILe calls. OASIS3 PSMILe supports
+ in particular parallel communication between a parallel component model
+ and OASIS3 main process based on Message Passing Interface (MPI) and
+ file I/O using the GFDL mpp_io library. 
+ .
+ OASIS3 has been extensively used in the PRISM demonstration runs and is
+ currently used by approximately 15 climate modelling groups in Europe,
+ USA, Canada, Australia, India and Brazil.
 
 Depends: libdap-dev
 WNPP: 541074
@@ -83,6 +118,21 @@ Homepage: http://www.opendap.org
 License: GPL, W3C
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
+Pkg-Description: Scientific  Network Data Access Protocol library
+ OPeNDAP provides software that allows you to access data over the internet,
+ from programs that weren't originally designed for that purpose, as well
+ as some that were. While OPeNDAP is the original developer of the Data Access
+ protocol which its software uses, many other groups have adopted DAP
+ and provide compatible clients, servers and software development kits.
+ .
+ The DAP is a NASA community standard; here is the offical link to the
+ specification.
+ .
+ With OPeNDAP software, you access data using a URL, just like a URL you
+ would use to access a web page. However, before you request any data,
+ you need to know how to request it in a form your browser can handle.
+ OPeNDAP data is stored in binary form, and by default, it is
+ transmitted that way, too.
 
 Depends: liblas-dev
 WNPP: 532415
