@@ -101,7 +101,7 @@ Pkg-Description: tool for computing automorphism groups and canonical labelings 
  won't be any rdepends in debian. I could be convinced otherwise of
  course.
 
-Package: lrslib
+Depends: lrslib
 Homepage: http://cgm.cs.mcgill.ca/~avis/C/lrs.html
 License: GPL2+
 Responsible: David Bremner <bremner@unb.ca>
@@ -110,8 +110,7 @@ Published-In: Polytopes - Combinatorics and Computation (Oberwolfach Seminars)
 Published-Title: A revised implementation of the reverse search vertex enumeration algorithm
 Published-Year: 2000
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: package to enumerate vertices and extreme rays of a convex polyhedron
+Pkg-Description: package to enumerate vertices and extreme rays of a convex polyhedron
  A convex polyhedron is the set of points satisfying a finite family
  of linear inequalities.  The study of the vertices and extreme rays
  of such systems is important and useful in e.g. mathematics and
