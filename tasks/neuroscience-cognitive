@@ -19,6 +19,12 @@ Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science
 
 Depends: amide
 Why: Flexible volume slicing and rendering.
+Published-Title: AMIDE: A Free Software Tool for Multimodality Medical Image Analysis
+Published-Authors: A. M. Loening, S. S. Gambhir
+Published-In: Molecular Imaging, 2: 131-137
+Published-Year: 2003
+Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/14649056
+Published-DOI:
 
 
 Depends: dicomnifti
@@ -33,20 +39,51 @@ Depends: python-nifti
 Why: Python IO library for the NIfTI format.
 
 
-Depends: fslview, fsl
+Depends: fsl
 Why: Comprehensive MRI analysis suite.
+Published-Title: Advances in functional and structural MR image analysis and implementation as FSL
+Published-Authors: S.M. Smith, M. Jenkinson, M.W. Woolrich, C.F. Beckmann, T.E.J. Behrens, H. Johansen-Berg, P.R. Bannister, M. De Luca, I. Drobnjak, D.E. Flitney, R. Niazy, J. Saunders, J. Vickers, Y. Zhang, N. De Stefano, J.M. Brady, P.M. Matthews
+Published-In: NeuroImage, 23:208-219
+Published-Year: 2004
+Published-URL: http://dx.doi.org/10.1016/j.neuroimage.2004.07.051
+Published-DOI: 10.1016/j.neuroimage.2004.07.051
+
+
+Depends: fslview
+Published-Title: Advances in functional and structural MR image analysis and implementation as FSL
+Published-Authors: S.M. Smith, M. Jenkinson, M.W. Woolrich, C.F. Beckmann, T.E.J. Behrens, H. Johansen-Berg, P.R. Bannister, M. De Luca, I. Drobnjak, D.E. Flitney, R. Niazy, J. Saunders, J. Vickers, Y. Zhang, N. De Stefano, J.M. Brady, P.M. Matthews
+Published-In: NeuroImage, 23:208-219
+Published-Year: 2004
+Published-URL: http://dx.doi.org/10.1016/j.neuroimage.2004.07.051
+Published-DOI: 10.1016/j.neuroimage.2004.07.051
 
 
 Depends: python-mvpa
 Why: Framework for multivariate pattern analysis of neuroimaging datasets.
+Published-Title: PyMVPA: a unifying approach to the analysis of neuroscientific data
+Published-Authors: Michael Hanke, Yaroslav O. Halchenko, Per B. Sederberg, Emanuele Olivetti, Ingo Fründ, Jochem W. Rieger, Christoph S. Herrmann, James V. Haxby, Stephen José Hanson, Stefan Pollmann
+Published-In: Frontiers in Neuroinformatics, 3:3
+Published-Year: 2009
+Published-URL: http://www.frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/003.2009/
+Published-DOI: 10.3389/neuro.11.003.2009
 
 
 Depends: caret
 Why: Cortical reconstruction and volume-to-surface mapping.
+Published-Title: An Integrated Software Suite for Surface-based Analyses of Cerebral Cortex
+Published-Authors: David C. Van Essen, Heather A. Drury, James Dickson, John Harwell, Donna Hanlon, Charles H. Anderson
+Published-In: Journal of American Medical Informatics Association, 8(5): 443-459
+Published-Year: 2001
+Published-URL: http://www.pubmedcentral.nih.gov/articlerender.fcgi?pubmedid=11522765
 
 
 Depends: python-pyepl
 Why: Library to write and run psychological experiments.
+Published-Title: PyEPL: A cross-platform experiment-programming library
+Published-Authors: Aaron S. Geller, Ian K. Schleifer, Per B. Sederberg, Joshua Jacobs, Michael J. Kahana
+Published-In: Behavioral Research Methods, 39: 950-958
+Published-Year: 2007
+Published-URL: http://prdownloads.sourceforge.net/pyepl/pyepl_brmic.pdf?download
 
 
 Depends: praat
@@ -95,6 +132,11 @@ Pkg-Description: module for creating psychology stimuli in Python
     methods as well as curve-fitting and bootstrapping
   * Integration with CRS Bits++(for 14bit luminance resolution)
   * Integration with Spectrascan PR650 for easy monitor calibration
+Published-Title: PsychoPy - Psychophysics software in Python
+Published-Authors: J. W. Peirce
+Published-In: Journal of Neuroscience Methods, 162:8-13
+Published-Year: 2007
+Published-DOI: 10.1016/j.jneumeth.2006.11.017
 
 
 Depends: bioimagesuite
@@ -130,6 +172,11 @@ Pkg-Description: environment for processing and displaying functional MRI data
  3D cortical surface models, and mapping of volumetric data (SUMA).
  In addition to its own format AFNI understands the NIfTI format and is
  therefore easily usable in combination with FSL and Freesurfer.
+Published-Title: AFNI: Software for analysis and visualization of functional magnetic resonance neuroimages
+Published-Authors: Robert W. Cox
+Published-In: Computers and Biomedical Research, 29:162-173
+Published-Year: 1996
+Published-URL: http://afni.nimh.nih.gov/pub/dist/doc/papers/afni_paper1.pdf
 
 
 Depends: mni-autoreg
@@ -214,6 +261,12 @@ Pkg-Description: analysis suite for MRI and fMRI data
  LIPSIA operates exclusively on data in the VISTA data format. However, the
  package contains converters for medical image data in iBruker, ANALYZE  and
  NIfTI format -- converting VISTA images into NIfTI files is also supported.
+Published-Title: Lipsia—a new software system for the evaluation of functional magnetic resonance images of the human brain
+Published-Authors: Gabriele Lohmann, Karsten Müller, Volker Bosch, Heiko Mentzel, Sven Hessler, Lin Chen, S. Zysset, D. Yves von Cramon
+Published-In: Computerized Medical Imaging and Graphics, 25: 449-457
+Published-Year: 2001
+Published-URL: http://www.medicalimagingandgraphics.com/article/S0895-6111(01)00008-8
+Published-DOI: 10.1016/S0895-6111(01)00008-8
 
 
 Depends: openmeeg
@@ -241,3 +294,9 @@ Pkg-Description: Python library for 2D/3D visual stimulus generation
  The Vision Egg is a programming library that uses standard, inexpensive
  computer graphics cards to produce visual stimuli for vision research
  experiments.
+Published-Title: Vision Egg: An Open-Source Library for Realtime Visual Stimulus Generation
+Published-Authors: Andrew Straw
+Published-In: Frontiers in Neuroinformatics
+Published-Year: 2008
+Published-URL: http://frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/004.2008/
+Published-DOI: 10.3389/neuro.11.004.2008
