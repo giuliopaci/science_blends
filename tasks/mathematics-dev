@@ -52,3 +52,5 @@ Comment: Formerly in main this package has to be moved to non-free but will
 Suggests: libitpp-dev
 
 Suggests: libnauty-dev
+
+Suggests: liblrs-dev

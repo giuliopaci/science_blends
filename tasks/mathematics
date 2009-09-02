@@ -100,3 +100,24 @@ Pkg-Description: tool for computing automorphism groups and canonical labelings 
  package since upstream doesn't make one, and in the short term there
  won't be any rdepends in debian. I could be convinced otherwise of
  course.
+
+Package: lrslib
+Homepage: http://cgm.cs.mcgill.ca/~avis/C/lrs.html
+License: GPL2+
+Responsible: David Bremner <bremner@unb.ca>
+WNPP: 454469
+Published-In: Discrete and  Computational Geometry, 8:295–313
+Published-Year: 1992
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: package to enumerate vertices and extreme rays of a convex polyhedron
+ A convex polyhedron is the set of points satisfying a finite family
+ of linear inequalities.  The study of the vertices and extreme rays
+ of such systems is important and useful in e.g. mathematics and
+ optimization.  In a dual interpretation, finding the vertices of a
+ (bounded) polyhedron is equivalent to finding the convex hull
+ (bounding inequalities) of an (arbitrary dimensional) set of points.
+ Lrs (lexicographic reverse search) has two important features that
+ can be very important for certain applications: it works in exact
+ arithmetic, and it consumes memory proportional to the input, no
+ matter how large the output is.
