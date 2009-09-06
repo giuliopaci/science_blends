@@ -19,7 +19,7 @@ Why: Maybe should go in some other metapackage (mathematics?)
 
 Depends: fityk
 
-Depends: gnuplot, grace, gri, labplot, graphviz, pyxplot, plotdrop
+Depends: gnuplot, grace, gri, labplot, graphviz, pyxplot, plotdrop, qtiplot
 
 Depends: imview
 
