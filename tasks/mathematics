@@ -37,6 +37,8 @@ Depends: octaviz
 
 Depends: freemat
 
+Depends: mathomatic
+
 Suggests: scilab, sivp
 Why: In non-free
 
