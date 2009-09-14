@@ -39,6 +39,8 @@ Depends: bibus
 
 Depends: mlpost
 
+Depends: latexdiff
+
 Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
 WNPP: 324422
@@ -59,22 +61,6 @@ Homepage: http://gpapers.org/
 License: GPL
 Pkg-Description: bibliography management software
  Digital library manager. Think of it as an iTunes for your PDFs.
-
-options
-
-Depends: latexdiff
-Homepage: http://www.ctan.org/tex-archive/support/latexdiff
-WNPP: 504411
-License: GPL-2
-Responsible: David Bremner <bremner@unb.ca>
-Vcs-Git: git://git.debian.org/git/pkg-perl/apps/latexdiff.git
-Vcs-Browser: http://git.debian.org/?p=pkg-perl/apps/latexdiff.git
-Pkg-Description:  utility to mark up significant differences between LaTeX files
- This perl script compares two versions of a LaTeX document and generates
- another LaTeX file which, when compiled, has the differences highlighted.
- Although LaTeX sometimes complains a little when compiling the diff file, it
- works reasonably well. It is useful for co-authors to visualize what changed
- in a paper.
 
 Depends: jeuclid
 Homepage: http://jeuclid.sourceforge.net/

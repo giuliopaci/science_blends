@@ -94,50 +94,13 @@ Depends: slicer
 
 Depends: dicom3tools
 Why: Supports conversion from proprietary formats, such as GE into DICOM.
-Homepage: http://www.dclunie.com/dicom3tools/workinprogress/
-License: BSD
-WNPP: 508901
-Responsible: Mathieu Malaterre <mathieu.malaterre@gmail.com>
-Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/dicom3tools/trunk
-Pkg-Description: DICOM medical image files manipulation and conversion tools
- Command line utilities for creating, modifying, dumping and validating
- files of DICOM attributes. Support conversion of some proprietary medical
- image formats to DICOM. Can handle older ACR/NEMA format data, and some
- proprietary versions of that such as SPI.
-
 
 Depends: psychopy
-Homepage: http://www.psychopy.org/
-License: BSD
-WNPP: 532111
-Responsible: Yaroslav Halchenko <debian@onerussian.com>
-Pkg-Description: module for creating psychology stimuli in Python
- PsychoPy combines the graphical strengths of OpenGL with the easy
- Python syntax to give psychophysics a free and simple stimulus presentation
- and control package.
- .
- The goal is to provide, for the busy scientist, tools to control
- timing and windowing and a simple set of pre-packaged stimuli and methods.
- .
- Features
-  * Simple, clean syntax (see the demo code)
-  * Simple (or complex) GUIs via wxPython
-  * Easy interfaces to joysticks, mice, keyboards
-  * Easy interface to parallel and serial ports
-  * Unicode text rendering in any TrueType font
-  * Multi-monitor support (and multiple windows)
-  * Plays movies (mpg, DivX, avi, QuickTime...) as stimuli
-  * All stimuli rendered in realtime (so can be modified in realtime too)
-  * Simple routines for staircase and constant stimuli experimental
-    methods as well as curve-fitting and bootstrapping
-  * Integration with CRS Bits++(for 14bit luminance resolution)
-  * Integration with Spectrascan PR650 for easy monitor calibration
 Published-Title: PsychoPy - Psychophysics software in Python
 Published-Authors: J. W. Peirce
 Published-In: Journal of Neuroscience Methods, 162:8-13
 Published-Year: 2007
 Published-DOI: 10.1016/j.jneumeth.2006.11.017
-
 
 Depends: bioimagesuite
 Homepage: http://www.bioimagesuite.org/
@@ -237,37 +200,13 @@ Pkg-Description: image processing factory for MR images
  labeling of the cortical folds according to a nomenclature of the
  main sulci.
 
-
 Depends: lipsia
-Homepage: http://www.cbs.mpg.de/institute/software/lipsia
-License: GPL
-WNPP: 521412
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/lipsia.git
-Pkg-URL: http://apsy.gse.uni-magdeburg.de/debian/html/pkgs/lipsia
-Pkg-Description: analysis suite for MRI and fMRI data
- Leipzig Image Processing and Statistical Inference Algorithms (LIPSIA)
- .
- This is a software package for the data processing and evaluation of
- functional magnetic resonance images. The analysis of fMRI data comprises
- various aspects including filtering, spatial transformation, statistical
- evaluation as well as segmentation and visualization. All these aspects are
- covered by LIPSIA. For the statistical evaluation, a number of well established
- and peer-reviewed algorithms were implemented in LIPSIA that allow an effcient
- and user-friendly processing of fMRI data sets. As the amount of data that must
- be handled is enormous, an important aspect in the development LIPSIA was the
- efficiency of the software implementation.
- .
- LIPSIA operates exclusively on data in the VISTA data format. However, the
- package contains converters for medical image data in iBruker, ANALYZE  and
- NIfTI format -- converting VISTA images into NIfTI files is also supported.
 Published-Title: Lipsia—a new software system for the evaluation of functional magnetic resonance images of the human brain
 Published-Authors: Gabriele Lohmann, Karsten Müller, Volker Bosch, Heiko Mentzel, Sven Hessler, Lin Chen, S. Zysset, D. Yves von Cramon
 Published-In: Computerized Medical Imaging and Graphics, 25: 449-457
 Published-Year: 2001
 Published-URL: http://www.medicalimagingandgraphics.com/article/S0895-6111(01)00008-8
 Published-DOI: 10.1016/S0895-6111(01)00008-8
-
 
 Depends: openmeeg
 Homepage: http://www-sop.inria.fr/odyssee/software/OpenMEEG
@@ -284,7 +223,6 @@ Pkg-Description: library and tools for solving EEG and MEG forward and inverse p
  distributed source model, with three different types of
  regularization: the Minimum Norm, and the L2 and L1
  norms of the surface gradient of the sources [Adde et al, 2005].
-
 
 Depends: visionegg
 Homepage: http://www.visionegg.org

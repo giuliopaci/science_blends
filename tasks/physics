@@ -51,6 +51,8 @@ Suggests: sivp
 
 Depends: meshlab
 
+Depends: cadabra
+
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
@@ -71,20 +73,6 @@ Pkg-Description: library for solving large sparse eigenproblems
  Documentation: user's guide, technical report and comprehensive bibliography.
  .
  Install this package if you need to compile or link against BLZPACK.
-
-Depends: cadabra
-Homepage: http://www.aei.mpg.de/~peekas/cadabra/
-WNPP: 434489
-License: GNU GPL v2
-Responsible: Gürkan Sengün <gurkan@linuks.mine.nu>
-Pkg-Description: Field-theory motivated computer algebra system
- Cadabra is a computer algebra system designed specifically for the
- solution of problems encountered in field theory. It has extensive
- functionality for tensor polynomial simplification including
- multi-term symmetries, fermions and anti-commuting variables,
- Clifford algebras and Fierz transformations, implicit coordinate
- dependence, multiple index types and many more. The input format is
- a subset of TeX.
 
 Depends: clhep2
 Homepage: http://wwwasd.web.cern.ch/wwwasd/lhc++/clhep/

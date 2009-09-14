@@ -16,21 +16,9 @@ Why: grib-api is the standard library for GRIB2 file management.
 
 Depends: libgrib2c-dev
 Why: API for reading GRIB2 files
-WNPP: 531959
-Homepage: http://www.nco.ncep.noaa.gov/pmb/codes/GRIB2/
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: GRIB2 encoder/decoder library from NCEP
-License: Public Domain
-
 
 Depends: libhe5-hdfeos-dev
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-WNPP: 530247
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
-Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
- HDF-EOS is a software library that is an extension of National Center 
- for Supercomputing Applications (NCSA) HDF. The library supports the 
- construction of new data structures: Grid, Point and Swath.
 
 Depends: libhe4-hdfeos-dev
 WNPP: 531558
@@ -47,15 +35,6 @@ Depends: libproj-dev
 Why: Needed for many cartographic tasks (eg coastlines on maps)
 
 Depends: libgctp-dev
-Homepage: http://gcmd.nasa.gov/records/USGS-GCTP.html
-WNPP: 540182
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: General Cartographic Transformation Package Library
- The General Cartographic Transformation Package (GCTP) is a system of
- software routines designed to permit the transformation of coordinate
- pairs from one map projection to another. The GCTP is the standard
- computer software used by the National Mapping Division for map
- projection computations.
 
 Depends: libnetcdf-dev, netcdf-bin
 
@@ -113,26 +92,7 @@ Pkg-Description: Coupler for exchanging fields between components of Earth syste
  USA, Canada, Australia, India and Brazil.
 
 Depends: libdap-dev
-WNPP: 541074
-Homepage: http://www.opendap.org
-License: GPL, W3C
-Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
-Pkg-Description: Scientific  Network Data Access Protocol library
- OPeNDAP provides software that allows you to access data over the internet,
- from programs that weren't originally designed for that purpose, as well
- as some that were. While OPeNDAP is the original developer of the Data Access
- protocol which its software uses, many other groups have adopted DAP
- and provide compatible clients, servers and software development kits.
- .
- The DAP is a NASA community standard; here is the offical link to the
- specification.
- .
- With OPeNDAP software, you access data using a URL, just like a URL you
- would use to access a web page. However, before you request any data,
- you need to know how to request it in a form your browser can handle.
- OPeNDAP data is stored in binary form, and by default, it is
- transmitted that way, too.
 
 Depends: liblas-dev
 WNPP: 532415

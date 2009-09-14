@@ -4,22 +4,14 @@ Description: Debian Science Meteorology packages
  and installs packages related to Meteorology and Climate.
 
 Depends: cdo
-Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: Widely-used File format manipulation utility
 
 Depends: dballe
 
 Depends: zygrib
-Homepage: http://www.zygrib.org/index.php?page=abstract_en
-WNPP: 531032
-License: GPL-3
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: Weather data visualization: GRIB file viewer
- This package is a program,  written with the QT toolki, to enable:
-  * Visualisation of meteo data from files in GRIB Format 1
-  * Automatic GRIB data download
-  * Automatic Download from IAC (fleetcode) Data
 Why: Used as default tool for viewing GRIB files.
+
+Depends: ncview
 
 Depends: visit
 Homepage: http://www.llnl.gov/visit/
@@ -84,16 +76,6 @@ License: GPL
 Homepage: http://vis5d.sourceforge.net
 Pkg-Description: Vis5d, a free OpenGL-based volumetric visualization program for scientific datasets in 3+ dimensions
 Why: vis5d is used by other tools such as NCL, so many have experience in using it.
-
-Depends: ncview
-WNPP: 536882
-Responsible: Francesco Paolo Lovergine <frankie@debian.org>
-License: GPL
-Pkg-Description: A X11 visual browser for NetCDF format files
- You would use ncview to get a quick and easy, push-button look at
- your NetCDF files. You can view simple movies of the data, view along various
- dimensions, take a look at the actual data values, change color maps, invert
- the data and other simple visual operations.
 
 Depends: grads
 WNPP: 540545
