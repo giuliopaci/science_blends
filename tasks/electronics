@@ -44,6 +44,8 @@ Depends: confluence
 
 Depends: ngspice, gspiceui, easyspice
 
+Depends: qelectrotech
+
 Depends: herb
 WNPP: 516928
 Homepage: http://www.banu.com/herb

@@ -44,6 +44,8 @@ Suggests: findimagedupes, libpuzzle-bin
 Why: Those two packages are not necessarily needed for scientific work but a hint for
      their existence might be very reasonable.
 
+Depends: lybniz
+
 Depends: teem
 Homepage: http://teem.sourceforge.net
 License: LGPL
