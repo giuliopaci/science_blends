@@ -63,17 +63,6 @@ Pkg-Description: bibliography management software
  Digital library manager. Think of it as an iTunes for your PDFs.
 
 Depends: jeuclid
-Homepage: http://jeuclid.sourceforge.net/
-WNPP: 490749
-License: Apache 2
-Responsible: Sylvestre Ledru <sylvestre.ledru@inria.fr>
-Pkg-Description: A complete MathML rendering solution
- JEuclid is a complete MathML rendering solution, consisting of:
-  * A MathViewer application
-  * Command line converters from MathML to other formats
-  * An ant task for automated conversion
-  * Display components for AWT and Swing
-  * A component for Apache Cocoon
 
 Depends: zotero
 Homepage: http://www.zotero.org/

@@ -39,8 +39,7 @@ Depends: freemat
 
 Depends: mathomatic
 
-Suggests: scilab, sivp
-Why: In non-free
+Depends: scilab, scilab-sivp, scilab-scimax
 
 Depends: regina-normal, snappea
 Why: Requested by Ben Burton
