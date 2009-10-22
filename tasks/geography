@@ -11,8 +11,6 @@ Why: handled by Debian GIS. The Depends: will be replaced by an other special \
 
 Depends:     grass,
 
-Suggests: r-cran-sp
-
 Depends: qgis
 X-Homepage: http://www.qgis.org/
 X-License: GPL
@@ -79,20 +77,12 @@ Depends:     josm, \
              osm-tools, \
              python-mapnik, \
              mapnik-utils
-             
-Suggests:    iceweasel, \
-             mozilla-plugin-gnash, \
-             swfdec-mozilla
 
 Depends: osmarender
 Why: Hmmm, was there any package?  I just can find
   http://wiki.openstreetmap.org/index.php/Osmarender
   but no download information etc.
 
-Depends:     r-base, \
-             r-cran-mapdata, \
-             r-cran-mapproj, \
-             r-cran-maps, \
-             pgadmin3
-Why: content of the workstation task as of 2008-04-20 as gis-workstation is \
-     not currently in sid.
+Depends: r-cran-sp, r-cran-maptools, r-cran-mapdata, r-cran-mapproj, r-cran-maps
+
+Depends: pgadmin3
