@@ -37,27 +37,6 @@ Depends: gamgi
 Depends: massxpert
 
 Depends: drawxtl
-Homepage: http://home.att.net/~larry.finger/drawxtl/
-WNPP: 428750
-License: LGPL/Public Domain/GL2PS LICENSE
-Responsible: Daniel Leidert <daniel.leidert@wgdd.de>
-Pkg-Description: display crystal structures on ordinary computer hardware
- DRAWxtl reads a basic description of the crystal structure, which includes
- unit-cell parameters, space group, atomic coordinates, thermal parameters or
- a Fourier map, and outputs a geometry object that contains polyhedra, planes,
- lone-pair cones, spheres or ellipsoids, bonds, iso-surface Fourier contours
- and the unit-cell boundary.
- .
- Four forms of graphics are produced:
- .
-  (1) an openGL window for immediate viewing
-  (2) the Persistence of Vision Ray Tracer (POV-RAY) scene language for
-      publication-quality drawings
-  (3) the Virtual Reality Modeling Language (VRML) for dissemination
-      across the Internet
-  (4) a Postscript rendering of the OpenGL window for those that want
-      high-quality output but do not have
-      POV-RAY installed.
 
 Depends: libegad
 Homepage: http://egad.ucsd.edu/egad/

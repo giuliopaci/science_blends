@@ -13,6 +13,9 @@ Why: Used as default tool for viewing GRIB files.
 
 Depends: ncview
 
+Depends: grads
+Why: Used as default tool for viewing BUFR files.
+
 Depends: visit
 Homepage: http://www.llnl.gov/visit/
 WNPP: 395573
@@ -76,16 +79,6 @@ License: GPL
 Homepage: http://vis5d.sourceforge.net
 Pkg-Description: Vis5d, a free OpenGL-based volumetric visualization program for scientific datasets in 3+ dimensions
 Why: vis5d is used by other tools such as NCL, so many have experience in using it.
-
-Depends: grads
-WNPP: 540545
-License: GPL
-Responsible:  Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: Grid Analysis and Display System for earth science data
- The Grid Analysis and Display System (GrADS) is an interactive desktop tool that is used for easy access, manipulation, and visualization of earth 
- science data. The format of the data may be either binary, GRIB, NetCDF, or HDF-SDS (Scientific Data Sets). GrADS has been implemented worldwide on a 
- variety of commonly used operating systems and is freely distributed over the Internet.
-Why: Used as default tool for viewing BUFR files.
 
 Depends: ncl
 WNPP: 531982

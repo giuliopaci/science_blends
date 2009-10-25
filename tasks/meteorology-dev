@@ -38,18 +38,20 @@ Depends: libgctp-dev
 
 Depends: libnetcdf-dev, netcdf-bin
 
-Depends: gfortran
-Why: Much meteorological code is developed in Fortran.
-
-Depends: ksh
-Why: Many Meteorology codes use ksh as their scripting shells.
-
 Depends: liblapack-dev, libblas-dev, libfftw3-dev
 Why: Most forecasting codes use BLAS and LAPACK
 
 Depends: libblas-doc, liblapack-doc, libfftw3-doc
 
-Depends: pkg-config
+Depends: liblas-dev
+
+Suggests: gfortran
+Why: Much meteorological code is developed in Fortran.
+
+Suggests: ksh
+Why: Many Meteorology codes use ksh as their scripting shells.
+
+Suggests: pkg-config
 Why: Simplifies the scripting of builds. 
 
 Depends: libudunits-dev
@@ -93,18 +95,6 @@ Pkg-Description: Coupler for exchanging fields between components of Earth syste
 
 Depends: libdap-dev
 Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
-
-Depends: liblas-dev
-WNPP: 532415
-Homepage: http://liblas.org/
-License: BSD
-Responsible: Francesco Paolo Lovergiine <rankie@debian.org>
-Pkg-Description: ASPRS LiDAR data translation toolset
- libLAS is a C/C++ library and toolset for reading and writing ASPRS
- LAS versions 1.0, 1.1 and 1.2 data. The LAS format is a sequential
- binary format used to store data from sensors and as intermediate
- processing storage by some LiDAR-related applications.
- libLAS has C, C++, .NET, and Python APIs.
 
 Depends: libnc-dap-dev
 WNPP: 537111

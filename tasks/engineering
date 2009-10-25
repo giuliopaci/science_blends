@@ -30,6 +30,8 @@ Depends: pythoncad
 
 Depends: z88
 
+Depends: freecad
+
 Depends: salome
 Homepage: http://www.salome-platform.org/
 WNPP: 457075
@@ -136,20 +138,4 @@ Pkg-Description: Analyser for the aerodynamic and flight-dynamic of rigid aircra
  nacelles. General nonlinear flight states can be specified. The flight
  dynamic analysis combines a full linearization of the aerodynamic
  model about any flight state, together with specified mass properties.
-
-Depends: freecad
-Homepage:  http://juergen-riegel.net/FreeCAD/Docu/index.php?title=Main_Page
-WNPP: 505224
-License: LGPLv2.1+
-Responsible: debian-science-maintainers@lists.alioth.debian.org
-Pkg-URL:  http://people.debian.org/~rmh/freecad/
-Pkg-Description: An extensible CAx program (alpha)
- FreeCAD is a CAx RAD based on OpenCasCade, Qt and Python.
- It features some key concepts like macro recording, workbenches, ability
- to run as a server and dynamically loadable application extensions and
- it is designed to be platform independent.
- .
- Currently, FreeCAD can import and display CAD models in IGES, STEP, and
- BRep formats and meshes in STL, BMS, AST and Wavefront OBJ formats.
- Editing and modeling features are currently somewhat limited.
 
