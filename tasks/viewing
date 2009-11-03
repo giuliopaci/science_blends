@@ -46,30 +46,6 @@ Why: Those two packages are not necessarily needed for scientific work but a hin
 
 Depends: lybniz
 
-Depends: teem
-Homepage: http://teem.sourceforge.net
-License: LGPL
-WNPP: 473044
-Responsible: Dominique Belhachemi <domibel@cs.tu-berlin.de>
-Pkg-Description: Tools to process and visualize scientific data and images
- Teem is a coordinated group of libraries for representing, processing,
- and visualizing scientific raster data. Teem includes command-line tools
- that permit the library functions to be quickly applied to files and
- streams, without having to write any code. The most important and useful
- libraries in Teem are:
- .
-  * Nrrd (and the unu command-line tool on top of it) supports a range of
-    operations for transforming N-dimensional raster data (resample, crop,
-    slice, project, histogram, etc.), as well as the NRRD file format for
-    storing arrays and their meta-information.
-  * Gage: fast convolution-based measurements at arbitrary point locations
-    in volume datasets (scalar, vector, tensor, etc.)
-  * Mite: a multi-threaded ray-casting volume render with transfer functions
-    based on any quantity Gage can measure
-  * Ten: for estimating, processing, and visualizing diffusion tensor fields,
-    including fiber tractography methods.
-
-
 Depends: cassandra
 Homepage: http://dev.artenum.com/projects/cassandra
 License: QPL
