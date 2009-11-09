@@ -22,6 +22,8 @@ Suggests: rtai
 
 Suggests: gpsd
 
+Depends: jaaa
+
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
 License: MIT
