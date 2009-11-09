@@ -57,4 +57,4 @@ Suggests: libnauty-dev
 
 Suggests: liblrs-dev
 
-
+Depends: libnewmat10-dev
