@@ -39,7 +39,7 @@ Comment: r-cran-rcompgen, r-cran-e1071
 
 Depends: r-other-gking-matchit
 
-Depends: r-cran-msm
+Depends: r-cran-msm, r-cran-amore, r-cran-teachingdemos
 
 Depends: psignifit, python-stats
 
