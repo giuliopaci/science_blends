@@ -14,6 +14,6 @@ Why: Computer vision library
 Depends: gwyddion
 Why: Scanning Probe Microscopy (SPM) data visualization and analysis
 
-Suggests: sivp
+Suggests: scilab-sivp
 
 Depends: libteem1

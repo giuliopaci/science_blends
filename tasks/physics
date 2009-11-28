@@ -47,7 +47,7 @@ Why: Symbolic maths
 
 Suggests: science-statistics, science-mathematics
 
-Suggests: sivp
+Suggests: scilab-sivp
 
 Depends: meshlab
 

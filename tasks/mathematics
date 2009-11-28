@@ -39,7 +39,8 @@ Depends: freemat
 
 Depends: mathomatic
 
-Depends: scilab, scilab-sivp, scilab-scimax
+Depends: scilab, scilab-sivp, scilab-scimax, scilab-swt, scilab-ann, 
+ scilab-plotlib
 
 Depends: regina-normal, snappea
 Why: Requested by Ben Burton

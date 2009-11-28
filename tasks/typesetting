@@ -103,3 +103,7 @@ Pkg-Description: reference manager software
   * Remote library backup
   * Advanced search and data mining tools
   * Wide variety of import/export 
+
+Depends: libjlatexmath-java
+
+

@@ -20,4 +20,10 @@ Suggests: libgtkdatabox-0.9.0-1-dev
 Comment: We have to find a way to make sure that version number changes in the
          library will be regarded effectively in the metapackages.
 
+Depends: libgetfem++-dev
+
+Depends: libhdf5-serial-dev, libjhdf5-java, libjhdf4-java
+
+Depends: pycgns
+
 Suggests: libqwt-dev | libqwt5-qt4-dev | libqwt5-qt3-dev

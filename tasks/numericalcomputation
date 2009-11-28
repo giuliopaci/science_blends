@@ -22,7 +22,8 @@ Why: Perl based numerical programming environment similar to Matlab
 Depends: gnudatalanguage
 Why: numerical programming environment compatible with IDL
 
-Depends: scilab
+Depends: scilab, scilab-sivp, scilab-scimax, scilab-swt, scilab-ann, 
+ scilab-plotlib
 
 Depends: freemat
 
