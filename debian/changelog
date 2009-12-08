@@ -1,10 +1,16 @@
 debian-science (0.8) UNRELEASED; urgency=low
 
+  [ Sylvestre Ledru ]
   * Many packages updates
   * Some cleanup
   * Change of my email address
 
- -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 24 Sep 2009 11:32:52 +0200
+  [ Andreas Tille ]
+  * config/control: Depends: blends-common (>= 0.6.8), which really
+    Closes: #542658
+  * science-{config,tasks}: Arch: any
+
+ -- Andreas Tille <tille@debian.org>  Tue, 08 Dec 2009 23:58:09 +0100
 
 debian-science (0.7) unstable; urgency=low
 

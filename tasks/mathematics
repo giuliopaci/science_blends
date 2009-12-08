@@ -111,7 +111,6 @@ WNPP: 454469
 Published-In: Polytopes - Combinatorics and Computation (Oberwolfach Seminars) 
 Published-Title: A revised implementation of the reverse search vertex enumeration algorithm
 Published-Year: 2000
-Architecture: any
 Pkg-Description: package to enumerate vertices and extreme rays of a convex polyhedron
  A convex polyhedron is the set of points satisfying a finite family
  of linear inequalities.  The study of the vertices and extreme rays
