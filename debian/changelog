@@ -1,4 +1,4 @@
-debian-science (0.8) UNRELEASED; urgency=low
+debian-science (0.8) unstable; urgency=low
 
   [ Sylvestre Ledru ]
   * Many packages updates
@@ -8,9 +8,10 @@ debian-science (0.8) UNRELEASED; urgency=low
   [ Andreas Tille ]
   * config/control: Depends: blends-common (>= 0.6.8), which really
     Closes: #542658
-  * science-{config,tasks}: Arch: any
+  * tasks/geography: s/postgresql-8.3-postgis/postgresql-8.4-postgis/
+    Closes: #559601
 
- -- Andreas Tille <tille@debian.org>  Tue, 08 Dec 2009 23:58:09 +0100
+ -- Andreas Tille <tille@debian.org>  Wed, 09 Dec 2009 20:12:09 +0100
 
 debian-science (0.7) unstable; urgency=low
 
