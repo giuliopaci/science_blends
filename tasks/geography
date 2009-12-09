@@ -46,7 +46,6 @@ Depends:     mapserver-bin, \
              openscenegraph, \
              thuban, \
              drawmap, \
-             postgis, \
              grace6, \
              gpstrans, \
              geoip-bin, \
@@ -58,12 +57,13 @@ Depends:     mapserver-bin, \
              viking, \
              avce00, \
              e00compr, \
-             postgresql-8.4-postgis, \
              gdal-bin, \
              ogdi-bin
 
 Comment:  kflog was removed from Debian in Lenny and is not really a good candidate
  for Debian Science so it makes no sense to add it as prospective package here.
+
+Depends:     postgis, postgresql-8.4-postgis
 
 Depends:     osm2pgsql
 
