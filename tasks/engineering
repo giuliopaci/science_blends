@@ -102,3 +102,4 @@ Pkg-Description: Package is a Python binding to the CGNS library
 The package contains a wrapper on top of the ADF and MLL APIs, some tools,
 demos, tests, and examples taken from the CGNS tutorial. 
 
+Depends: syfi-bin
