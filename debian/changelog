@@ -1,3 +1,9 @@
+debian-science (0.10) UNRELEASED; urgency=low
+
+  * Really fix the dependenc relation as claimed below
+
+ -- Andreas Tille <tille@debian.org>  Sun, 24 Jan 2010 14:08:06 +0100
+
 debian-science (0.9) unstable; urgency=low
 
   * Depend from blends-common >= 0.6.9 and explain in
