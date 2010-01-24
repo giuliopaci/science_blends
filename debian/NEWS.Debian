@@ -1,0 +1,11 @@
+debian-science (0.9) unstable; urgency=low
+
+ In former Debian releases todays Debian Pure Blends were called
+ Custom Debian Distributions.  The related tools might have dropped
+ some configuration files in /etc/cdd.  The only use were to control
+ user menus stuff which was rarely used.  If you never changed any
+ file in /etc/cdd/med you can ignore this.  If not please take over
+ the changes to /etc/blends/med.
+
+ -- Andreas Tille <tille@debian.org>  Sun, 24 Jan 2010 13:39:58 +0100
+

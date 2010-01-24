@@ -1,3 +1,12 @@
+debian-science (0.9) unstable; urgency=low
+
+  * Depend from blends-common >= 0.6.9 and explain in
+    NEWS.Debian that no attempt to take over any CDD
+    related configuration
+    Closes: #562554
+
+ -- Andreas Tille <tille@debian.org>  Sun, 24 Jan 2010 13:39:58 +0100
+
 debian-science (0.8) unstable; urgency=low
 
   [ Sylvestre Ledru ]
