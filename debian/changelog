@@ -1,8 +1,11 @@
-debian-science (0.10) UNRELEASED; urgency=low
+debian-science (0.10) unstable; urgency=low
 
-  * Really fix the dependenc relation as claimed below
+  * Rebuild against blends-dev >= 0.6.12.  This results in
+    using a prerm script instead of postrm which ensures that
+    blends-common is installed while this script is running
+  * Standards-Version: 3.8.4 (no changes needed)
 
- -- Andreas Tille <tille@debian.org>  Sun, 24 Jan 2010 14:08:06 +0100
+ -- Andreas Tille <tille@debian.org>  Thu, 18 Mar 2010 09:26:14 +0100
 
 debian-science (0.9) unstable; urgency=low
 
