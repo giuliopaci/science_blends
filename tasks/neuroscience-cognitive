@@ -41,6 +41,7 @@ Why: Python IO library for the NIfTI format.
 
 Depends: fsl
 Why: Comprehensive MRI analysis suite.
+Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
 Published-Title: Advances in functional and structural MR image analysis and implementation as FSL
 Published-Authors: S.M. Smith, M. Jenkinson, M.W. Woolrich, C.F. Beckmann, T.E.J. Behrens, H. Johansen-Berg, P.R. Bannister, M. De Luca, I. Drobnjak, D.E. Flitney, R. Niazy, J. Saunders, J. Vickers, Y. Zhang, N. De Stefano, J.M. Brady, P.M. Matthews
 Published-In: NeuroImage, 23:208-219
@@ -50,6 +51,7 @@ Published-DOI: 10.1016/j.neuroimage.2004.07.051
 
 
 Depends: fslview
+Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
 Published-Title: Advances in functional and structural MR image analysis and implementation as FSL
 Published-Authors: S.M. Smith, M. Jenkinson, M.W. Woolrich, C.F. Beckmann, T.E.J. Behrens, H. Johansen-Berg, P.R. Bannister, M. De Luca, I. Drobnjak, D.E. Flitney, R. Niazy, J. Saunders, J. Vickers, Y. Zhang, N. De Stefano, J.M. Brady, P.M. Matthews
 Published-In: NeuroImage, 23:208-219
@@ -95,12 +97,14 @@ Depends: slicer
 Depends: dicom3tools
 Why: Supports conversion from proprietary formats, such as GE into DICOM.
 
+
 Depends: psychopy
 Published-Title: PsychoPy - Psychophysics software in Python
 Published-Authors: J. W. Peirce
 Published-In: Journal of Neuroscience Methods, 162:8-13
 Published-Year: 2007
 Published-DOI: 10.1016/j.jneumeth.2006.11.017
+
 
 Depends: bioimagesuite
 Homepage: http://www.bioimagesuite.org/
@@ -123,12 +127,13 @@ Pkg-Description: integrated image analysis software suite
  compiling it from source and packaging issues at
  http://research.yale.edu/bioimagesuite/forum/index.php?board=12.0
 
+
 Depends: afni
 Homepage: http://afni.nimh.nih.gov/
 WNPP: 409849
 Responsible: Michael Hanke <michael.hanke@gmail.com>
 License: GPL
-Pkg-URL: http://sourceforge.net/project/showfiles.php?group_id=61662&package_id=60298
+Pkg-URL: http://neuro.debian.net/pkgs/afni.html
 Pkg-Description: environment for processing and displaying functional MRI data
  AFNI is an environment for processing and displaying functional
  MRI data. It provides a complete analysis toolchain, including
@@ -200,6 +205,7 @@ Pkg-Description: image processing factory for MR images
  labeling of the cortical folds according to a nomenclature of the
  main sulci.
 
+
 Depends: lipsia
 Published-Title: Lipsia—a new software system for the evaluation of functional magnetic resonance images of the human brain
 Published-Authors: Gabriele Lohmann, Karsten Müller, Volker Bosch, Heiko Mentzel, Sven Hessler, Lin Chen, S. Zysset, D. Yves von Cramon
@@ -207,6 +213,7 @@ Published-In: Computerized Medical Imaging and Graphics, 25: 449-457
 Published-Year: 2001
 Published-URL: http://www.medicalimagingandgraphics.com/article/S0895-6111(01)00008-8
 Published-DOI: 10.1016/S0895-6111(01)00008-8
+
 
 Depends: openmeeg
 Homepage: http://www-sop.inria.fr/odyssee/software/OpenMEEG
@@ -223,6 +230,7 @@ Pkg-Description: library and tools for solving EEG and MEG forward and inverse p
  distributed source model, with three different types of
  regularization: the Minimum Norm, and the L2 and L1
  norms of the surface gradient of the sources [Adde et al, 2005].
+
 
 Depends: visionegg
 Homepage: http://www.visionegg.org
@@ -254,3 +262,35 @@ Pkg-Description: data analysis framework for intra- and extra-cellular recording
  data. The data handling and storage uses a MySQL-server. The package is written
  in pure Python.
 
+
+Depends: mricron
+Homepage: http://www.cabiatl.com/mricro/mricron/index.html
+License: BSD
+Language: Pascal
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+WNPP: 579231
+Pkg-URL: http://neuro.debian.net/pkgs/mricron.html
+Pkg-Description: magnetic resonance image conversion, viewing and analysis
+ GUI-based visualization and analysis tool for (functional) magnetic reasonance
+ imaging. MRIcron can be used to create 2D or 3D renderings of statistical
+ overlay maps on brain anatomy images. Moreover, it aids drawing anatomical
+ regions-of-interest (ROI), or lesion mapping, as well as basic analysis
+ of functional timeseries (e.g. creating plots of peristimulus signal-change).
+ .
+ This package also provides 'dcm2nii' that supports converting DICOM and PAR/REC
+ images into the NIfTI format.
+
+
+Depends: voxbo
+Homepage: http://www.voxbo.org
+License: GPL-3
+Language: C++
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+WNPP: 579284
+Pkg-Description: processing, statistical analysis, and display of brain imaging data
+ This is a toolkit for analysis of functional neuroimaging (chiefly
+ fMRI) experiments and voxel-based lesion-behavior mapping. VoxBo
+ supports the modified GLM (for autocorrelated data), as well as the
+ standard GLM for non-autocorrelated data. The toolkit is designed to be
+ interoperable with AFNI, FSL, SPM and others.
+Registration: http://voxbo.org/usage.html
