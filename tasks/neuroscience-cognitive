@@ -279,6 +279,11 @@ Pkg-Description: magnetic resonance image conversion, viewing and analysis
  .
  This package also provides 'dcm2nii' that supports converting DICOM and PAR/REC
  images into the NIfTI format.
+Published-Title: Improving lesion-symptom mapping
+Published-Authors: Chris Rorden, Hans-Otto Karnath, Leonardo Bonilha
+Published-In: Journal of Cognitive Neuroscience, 19: 1081-1088
+Published-Year: 2007
+Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/17583985
 
 
 Depends: voxbo
