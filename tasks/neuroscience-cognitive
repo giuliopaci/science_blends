@@ -307,6 +307,7 @@ License: GPL-3
 Language: C++
 Responsible: Michael Hanke <michael.hanke@gmail.com>
 WNPP: 579588
+Pkg-URL: http://neuro.debian.net/pkgs/itksnap.html
 Pkg-Description: semi-automatic segmentation of structures in 3D images
  SNAP provides semi-automatic segmentation of structures in medical
  images (e.g.  magnetic resonance images of the brain) using active
