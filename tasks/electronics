@@ -18,7 +18,7 @@ Depends: kicad
 Suggests: kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, \
           kicad-doc-it, kicad-doc-pt, kicad-doc-ru
 
-Depends: freehdl, ghdl, vbpp, vbs, verilog
+Depends: freehdl, ghdl, vbpp, vbs, iverilog
 Why: VHDL
 
 Depends: klogic, ksimus
