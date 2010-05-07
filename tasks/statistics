@@ -43,4 +43,24 @@ Depends: r-cran-msm, r-cran-amore, r-cran-teachingdemos
 
 Depends: psignifit, python-stats
 
+Depends: python-scipy
+Why: Provides scipy.stats module
+
+Depends: python-scikits-statsmodels
+Homepage: http://statsmodels.sourceforge.net/
+Language: Python
+License: BSD
+Responsible: Yaroslav Halchenko <debian@onerussian.com>
+Pkg-URL: http://neuro.debian.net/pkgs/python-scikits-statsmodels.html
+WNPP: 570604
+Description: classes and functions for the estimation of statistical models
+ scikits.statsmodels is a pure Python package that provides classes
+ and functions for the estimation of several categories of statistical
+ models. These currently include linear regression models, OLS, GLS,
+ WLS and GLS with AR(p) errors, generalized linear models for six
+ distribution families and M-estimators for robust linear models. An
+ extensive list of result statistics are avalable for each estimation
+ problem.
+
+
 Suggests: science-mathematics
