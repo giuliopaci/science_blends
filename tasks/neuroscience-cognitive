@@ -345,3 +345,11 @@ Pkg-Description: fitting and testing hypotheses about psychometric functions
  This is the successor of 'psignifit' a commandline-based toolbox. The new
  version is primarily a python module, but other bindings will be added
  eventually.
+
+
+Depends: pyoptical
+Homepage: http://github.com/esc/pyoptical
+License: MIT
+Language: Python
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-Description: python interface to the CRS 'OptiCAL' photometer
