@@ -24,6 +24,8 @@ Suggests: gpsd
 
 Depends: jaaa
 
+Depends: hkl
+
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
 License: MIT
@@ -100,3 +102,4 @@ Pkg-Description: digitize scanned plots of functional data
  of scanned plots, scaled drawings, or orthographic photographs. Includes
  an automatic digitization feature that can automatically digitize many
  types of functional data.
+
