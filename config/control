@@ -19,11 +19,12 @@ Description: Debian Science Project config package
                             engineering applications
   * science-geography       packages related to geography
   * science-linguistics     packages related to linguistics
+  * science-machine-learning  packages related to machine learning
   * science-mathematics     packages related to mathematics
   * science-mathematics-dev packages related to development of
                             mathematical applications
   * science-meteorology     packages related to meteorology and climate
-  * science-meteorology-dev packages related to the development of 
+  * science-meteorology-dev packages related to the development of
                             meteorology and climate applications
   * science-neuroscience-cognitive   packages related to cognitive
                             neuroscience
