@@ -33,18 +33,6 @@ Depends: z88
 Depends: freecad
 
 Depends: salome
-Homepage: http://www.salome-platform.org/
-WNPP: 457075
-License: LGPL
-Responsible: Adam C Powell IV <hazelsct@debian.org>
-Pkg-URL: http://lyre.mit.edu/~powell/salome/
-Pkg-Description: Engineering simulation framework
- Salomé is a powerful LGPL framework for engineering simulations.  It has
- CAD capability within itself, can import and export CAD files in IGES
- format, can mesh those files, and control an external parallel solver
- such as Code Aster, then visualize the results.  Salomé is at the heart
- of the new CAELinux (Computer-Aided Engineering Linux) live DVD
- distribution.
 
 Depends: brlcad
 Homepage: http://my.brlcad.org/
