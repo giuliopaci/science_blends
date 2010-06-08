@@ -7,7 +7,7 @@ Description: Debian Science packages for Cognitive Neuroscience
  results.
  .
  The selection of packages is targeting the application of analysis
- techniques. Methods developers are refered to the science-statistics,
+ techniques. Methods developers are referred to the science-statistics,
  science-imageanalysis, science-numericalcomputation, med-imaging, and
  med-imaging-dev metapackages for a variety of additional software that
  might be useful in the context of cognitive neuroscience.
@@ -18,7 +18,7 @@ Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science
 
 
 Depends: psignifit
-Why: Psychometric funtion fitting.
+Why: Psychometric function fitting.
 
 
 Depends: amide
@@ -120,7 +120,7 @@ Pkg-Description: integrated image analysis software suite
  functionality for image visualization and registration, surface
  editing, cardiac 4D multi-slice editing, diffusion tensor image
  processing, mouse segmentation and registration, and much more. It
- can be intergrated with other biomedical image processing software,
+ can be integrated with other biomedical image processing software,
  such as FSL and SPM. This site provides information, downloads,
  documentation, and other resources for users of the software.
  .
@@ -377,5 +377,5 @@ Description: classes and functions for the estimation of statistical models
  models. These currently include linear regression models, OLS, GLS,
  WLS and GLS with AR(p) errors, generalized linear models for six
  distribution families and M-estimators for robust linear models. An
- extensive list of result statistics are avalable for each estimation
+ extensive list of result statistics are available for each estimation
  problem.
