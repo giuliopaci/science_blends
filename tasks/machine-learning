@@ -52,7 +52,7 @@ Description: classes and functions for the estimation of statistical models
  extensive list of result statistics are available for each estimation
  problem.
 
-Suggests: science-statistics
+Suggests: science-statistics, science-numericalcomputation
 
 Suggests: science-typesetting
 Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/typesetting
