@@ -107,3 +107,12 @@ Pkg-Description: reference manager software
 Depends: libjlatexmath-java
 
 
+Suggests: pymarc
+WNPP: 585583
+Homepage: http://github.com/edsu/pymarc                                                                                                                              
+License: BSD
+Responsible: Edward Betts <edward@debian.org>
+Pkg-URL: http://edwardbetts.com/debian
+Pkg-Description: read, write and modify MARC bibliographic data                                                                                                             
+ pymarc is a Python library for working with MARC21 bibliographic data
+ loosely based on the MARC/Perl suite of modules (http://marcpm.sf.net).
