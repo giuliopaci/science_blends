@@ -93,6 +93,15 @@ Language: C, Lua
 WNPP: 490204
 License: BSD
 
+Depends: lush
+Why: LUSH is a generic Lisp environment for numeric computation, but
+ because ML is of primary interest of the authors, thus lush contains
+ quite a few ML libraries (ANN, SVM, etc).
+
+Depends: libcv-dev, python-opencv
+Why: OpenCV provides a set of ML methods for pattern recognition
+ within the context of computer vision
+
 Suggests: science-statistics, science-numericalcomputation
 
 Suggests: libacovea-dev

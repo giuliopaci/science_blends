@@ -33,3 +33,6 @@ Depends: r-base
 Why: S is the statistician's Matlab and R is to S what Octave is to Matlab.
 
 Depends: octavede
+
+Depends: lush
+Why: environment for prototyping large numeric computations in Lisp

@@ -7,7 +7,7 @@ Description: Debian Robotics packages
 
 Depends: rtai, xenomai-runtime
 
-Depends: libcv1
+Depends: libcv-dev
 
 Depends: libcomedi0
 Comment: Debian version is quite old - needs update
