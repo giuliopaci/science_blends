@@ -10,7 +10,7 @@ Comments: Prolog (and alike) systems for inductive reasoning
 
 Depends: libtorch3-dev
 
-Depends: libshogun-dev, libfann-dev, libsvm-dev, libcomplearn-dev
+Depends: libshogun-dev, libfann-dev, libsvm-dev, libcomplearn-dev, libqsearch-dev
 Comment: above libraries have also variety of interfaces to high-level
  scripting languages (e.g. Python) and even possibly some interactive GUI
 
@@ -22,7 +22,7 @@ Depends: weka
 Depends: vowpal-wabbit
 
 Depends: r-cran-mass, r-cran-bayesm, r-cran-class, r-cran-cluster,
- r-cran-msm
+ r-cran-msm, r-cran-mcmcpack, r-cran-mnp, r-cran-amore
 Comment: R packages
 
 Depends: python-mvpa
@@ -52,7 +52,50 @@ Description: classes and functions for the estimation of statistical models
  extensive list of result statistics are available for each estimation
  problem.
 
+Depends: libroot-tmva-dev, libroot-montecarlo-vmc-dev, libroot-math-mlp-dev
+Comment: ROOT libraries
+
+Depends: autoclass, mcl
+Comment: Applications
+
+Depends: scilab-ann
+
+Depends: libga-dev, libevocosm-dev, pgapack, python-genetic, octave-ga
+Comment: Evolutionary algorithm libraries in various languages
+
+Depends: liblinear-dev
+Homepage: http://www.csie.ntu.edu.tw/~cjlin/liblinear/
+Language: C/C++
+WNPP: 585788
+License: BSD
+
+Depends: libocas-dev
+Homepage: http://cmp.felk.cvut.cz/~xfrancv/ocas/html/
+Language: C
+WNPP: 585789
+License: GPL-3
+
+Depends: python-pyevolve
+Homepage: http://pyevolve.sourceforge.net
+Language: Python
+WNPP: 580924
+License: PSF derivate
+
+Depends: flann
+Homepage: http://www.cs.ubc.ca/~mariusm/index.php/FLANN/FLANN
+Language: C++
+WNPP: 581903
+License: BSD
+
+Depends: lua-torch5
+Homepage: http://torch5.sourceforge.net
+Language: C, Lua
+WNPP: 490204
+License: BSD
+
 Suggests: science-statistics, science-numericalcomputation
+
+Suggests: libacovea-dev
 
 Suggests: science-typesetting
 Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/typesetting
