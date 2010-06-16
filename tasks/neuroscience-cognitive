@@ -97,6 +97,12 @@ Why: Speech synthesis and analysis -- standard tool for auditory stimulus
      generation.
 
 Depends: slicer
+Published-Title: 3D SLICER
+Published-Authors: Steven Pieper, Michael Halle, Ron Kikinis
+Published-In: Proceedings of the 1st IEEE International Symposium on Biomedical Imaging: From Nano to Macro, 1:632-635
+Published-Year: 2004
+Published-URL: http://www.slicer.org/publications/item/view/91
+
 
 Depends: dicom3tools
 Why: Supports conversion from proprietary formats, such as GE into DICOM.
@@ -306,24 +312,6 @@ Registration: http://voxbo.org/usage.html
 
 
 Depends: itksnap
-Homepage: http://www.itksnap.org
-License: GPL-3
-Language: C++
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-WNPP: 579588
-Pkg-URL: http://neuro.debian.net/pkgs/itksnap.html
-Pkg-Description: semi-automatic segmentation of structures in 3D images
- SNAP provides semi-automatic segmentation of structures in medical
- images (e.g.  magnetic resonance images of the brain) using active
- contour methods, as well as manual delineation and image navigation.
- Noteworthy features are:
- .
-  * Linked cursor for seamless 3D navigation
-  * Manual segmentation in three orthogonal planes at once
-  * Support for many different 3D image formats, including NIfTI
-  * Support for concurrent, linked viewing and segmentation of multiple images
-  * Limited support for color images (e.g., diffusion tensor maps)
-  * 3D cut-plane tool for fast post-processing of segmentation results
 Published-Title: User-guided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability
 Published-Authors: Paul A. Yushkevich, Joseph Piven, Heather Cody Hazlett, Rachel Gimpel Smith, Sean Ho, James C. Gee, and Guido Gerig
 Published-In: Neuroimage, 31: 1116-1128
