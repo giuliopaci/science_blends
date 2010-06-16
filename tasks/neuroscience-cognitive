@@ -379,3 +379,24 @@ Description: classes and functions for the estimation of statistical models
  distribution families and M-estimators for robust linear models. An
  extensive list of result statistics are available for each estimation
  problem.
+
+
+Depends: mni-icbm152-nlin-2009
+Homepage: http://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009
+License: custom, DFSG-compliant
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-Description: MNI stereotaxic space human brain template
+ This is an unbiased standard magnetic resonance imaging template volume for
+ the normal human population. It has been created by the Montreal Neurological
+ Institute (MNI) using anatomical data from the International Consortium for
+ Brain Mapping (ICBM).
+ .
+ The package provides a 1x1x1 mm and 0.5x0.5x0.5 mm resolution templates
+ (hemissphere-symetric and asymetric non-linearily co-registered versions),
+ some including T1w, T2w, PDw modalities, T2 relaxometry, and tissue probability
+ maps. In addition, it contains a lobe atlas, and masks for brain, eyes and
+ face.
+Published-Authors: V.S. Fonov, A.C. Evans, R.C. McKinstry, C.R. Almli and D.L. Collins
+Published-Title: Unbiased nonlinear average age-appropriate brain templates from birth to adulthood.
+Published-In: NeuroImage, 47, Supplement 1: 102
+Published-Year: 2009
