@@ -388,3 +388,20 @@ Published-Authors: V.S. Fonov, A.C. Evans, R.C. McKinstry, C.R. Almli and D.L. C
 Published-Title: Unbiased nonlinear average age-appropriate brain templates from birth to adulthood.
 Published-In: NeuroImage, 47, Supplement 1: 102
 Published-Year: 2009
+
+
+Depends: mni-colin27-nifti
+Homepage: http://packages.bic.mni.mcgill.ca/tgz/
+License: custom, DFSG-compliant
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-Description: Talairach stereotaxic space template
+ This template MRI volume was created from 27 T1-weighted MRI scans of a
+ single individual that have been transformed into the Talairach stereotaxic
+ space. The anatomical image is complemented by a brain and a head mask.
+ All images are in 1x1x1 mm resolution.
+ .
+ This package provides the template in NIfTI format.
+Published-Authors: C.J. Holmes, R. Hoge, L. Collins, R. Woods, A.W. Toga, A.C. Evans
+Published-Title: Enhancement of MR images using registration for signal averaging.
+Published-In: J Comput Assist Tomogr, 22: 324-333
+Published-Year: 1998
