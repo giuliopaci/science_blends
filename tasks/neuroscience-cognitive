@@ -388,6 +388,7 @@ Published-Authors: V.S. Fonov, A.C. Evans, R.C. McKinstry, C.R. Almli and D.L. C
 Published-Title: Unbiased nonlinear average age-appropriate brain templates from birth to adulthood.
 Published-In: NeuroImage, 47, Supplement 1: 102
 Published-Year: 2009
+Remark: This package is waiting for the Debian data package archive to become available.
 
 
 Depends: mni-colin27-nifti
@@ -406,3 +407,4 @@ Published-Authors: C.J. Holmes, R. Hoge, L. Collins, R. Woods, A.W. Toga, A.C. E
 Published-Title: Enhancement of MR images using registration for signal averaging.
 Published-In: J Comput Assist Tomogr, 22: 324-333
 Published-Year: 1998
+Remark: This package is waiting for the Debian data package archive to become available.
