@@ -394,6 +394,7 @@ Depends: mni-colin27-nifti
 Homepage: http://packages.bic.mni.mcgill.ca/tgz/
 License: custom, DFSG-compliant
 Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-URL: http://neuro.debian.net/pkgs/mni-colin27-nifti.html
 Pkg-Description: Talairach stereotaxic space template
  This template MRI volume was created from 27 T1-weighted MRI scans of a
  single individual that have been transformed into the Talairach stereotaxic
