@@ -168,6 +168,19 @@ Depends: libcv-dev, python-opencv
 Why: OpenCV provides a set of ML methods for pattern recognition
  within the context of computer vision
 
+Depends: pybrain
+Homepage: http://www.pybrain.org
+Lanuage: Python
+WNPP: 587069
+License: BSD
+Pkg-Description:  Modular machine Learning Library
+ PyBrain is a modular machine learning library for Python. Its goal is to offer
+ flexible, easy-to-use yet still powerful algorithms for Machine Learning Tasks
+ and a variety of predefined environments to test and compare your algorithms. 
+ .
+ PyBrain currently features algorithms for Supervised Learning, Unsupervised
+ Learning, Reinforcment Learning and Black-box Optimization.
+
 Suggests: science-statistics, science-numericalcomputation
 
 Suggests: libacovea-dev
