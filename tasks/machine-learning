@@ -10,7 +10,8 @@ Comments: Prolog (and alike) systems for inductive reasoning
 
 Depends: libtorch3-dev
 
-Depends: libshogun-dev, libfann-dev, libsvm-dev, libcomplearn-dev, libqsearch-dev
+Depends: libshogun-dev, libfann-dev, libsvm-dev, libcomplearn-dev, libqsearch-dev,
+ liblinear-dev, libocas-dev
 Comment: above libraries have also variety of interfaces to high-level
  scripting languages (e.g. Python) and even possibly some interactive GUI
 
@@ -60,82 +61,9 @@ Comment: Applications
 
 Depends: scilab-ann
 
-Depends: libga-dev, libevocosm-dev, pgapack, python-genetic, octave-ga
+Depends: libga-dev, libevocosm-dev, pgapack, python-genetic, octave-ga,
+ python-pyevolve
 Comment: Evolutionary algorithm libraries in various languages
-
-Depends: liblinear-dev
-Homepage: http://www.csie.ntu.edu.tw/~cjlin/liblinear/
-Language: C/C++
-WNPP: 585788
-License: BSD
-Pkg-Description: Library for Large Linear Classification
- LIBLINEAR  is a linear classifier for data with millions of instances and 
- features. It supports
- .
-  * L2-regularized classifiers
-    L2-loss linear SVM, L1-loss linear SVM, and logistic regression (LR)
-  * L1-regularized classifiers (after version 1.4)
-    L2-loss linear SVM and logistic regression (LR)
- .
- Main features of LIBLINEAR include
- .
-   * Same data format as LIBSVM
-   * similar usage to LIBSVM
-   * Multi-class classification: 1) one-vs-the rest, 2) Crammer & Singer
-   * Cross validation for model selection
-   * Probability estimates (logistic regression only)
-   * Weights for unbalanced data
-   * MATLAB/Octave interface
-
-Depends: libocas-dev
-Homepage: http://cmp.felk.cvut.cz/~xfrancv/ocas/html/
-Language: C
-WNPP: 585789
-License: GPL-3
-Pkg-Description: OCAS solver for training linear SVM classifiers
- This library implements Optimized Cutting Plane Algorithm (OCAS) for training
- linear SVM classifiers from large-scale data. The computational effort of OCAS
- scales with O(m log m) where m is the sample size. In an extensive empirical
- evaluation OCAS significantly outperforms current state of the art SVM solvers,
- like SVM^light, SVM^perf and BMRM, achieving speedups of over 1,000 on some
- datasets over SVM^light and 20 over SVM^perf, while obtaining the same precise
- Support Vector solution.
- .
-  * SVM solvers for training linear classifiers from large scale-data
-  * Binary (two-class) and genuine multi-class SVM formulations
-  * Optimized code written in C
-  * Reads examples from SVM^light format
-  * Optimized for both sparse and dense features
-  * Parallelized version of the binary solver
-  * binary solver)
-  * Tools for classification
-  * Training translation invariant image classifiers from virtual examples
-  * Functions for computing image features based on Local Binary Patterns
-  * (LBP)
-
-Depends: python-pyevolve
-Homepage: http://pyevolve.sourceforge.net
-Language: Python
-WNPP: 580924
-License: PSF derivate
-Pkg-Description: Complete genetic algorithm framework written in pure python
- Pyevolve was developed to be a complete genetic algorithm framework written in
- pure python. The main objectives of Pyevolve are:
- .
-  * written in pure python  - to maximize the cross-platform aspect
-  * easy to use API         - the API must be easy to the end-user
-  * see the evolution       - the user can and must see and interact with the
-                              evolution statistics, graphs, etc.
-  * extensible              - the API must be extensible, the user can create
-                              new representations, genetic operators such as
-                              crossover, mutation, etc.
-  * fast                    - the design must be optimized for performance
-  * common features         - the framework must implement the most common
-                              features: selectors like roulette wheel,
-                              tournament, ranking, uniform. Scaling schemes
-                              such as linear scaling, etc.
-  * default parameters      - we must have default operators, settings, etc
-                              in all options
 
 Depends: flann
 Homepage: http://www.cs.ubc.ca/~mariusm/index.php/FLANN/FLANN
