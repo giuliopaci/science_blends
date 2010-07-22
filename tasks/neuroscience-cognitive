@@ -225,21 +225,12 @@ Published-URL: http://www.medicalimagingandgraphics.com/article/S0895-6111(01)00
 Published-DOI: 10.1016/S0895-6111(01)00008-8
 
 
-Depends: openmeeg
-Homepage: http://www-sop.inria.fr/odyssee/software/OpenMEEG
+Depends: openmeeg-tools
 License: CeCILL-B
-WNPP: 517346
-Responsible: Yaroslav Halchenko <debian@onerussian.com>
-Pkg-Description: library and tools for solving EEG and MEG forward and inverse problems
- Provides state-of-the art tools for processing EEG and MEG data.
- .
- The forward problem is implemented using the symmetric Boundary
- Element method [Kybic et al, 2005], providing excellent accuracy,
- particularly for superficial cortical sources.  The source
- localization procedures implemented in OpenMEEG are based on a
- distributed source model, with three different types of
- regularization: the Minimum Norm, and the L2 and L1
- norms of the surface gradient of the sources [Adde et al, 2005].
+Published-Title: OpenMEEG: opensource software for quasistatic bioelectromagnetics
+Published-Authors: Alexandre Gramfort, Théodore Papadopoulo, Emmanuel Olivi, Maureen Clerc
+Published-In: Preprint
+Published-URL: http://hal.archives-ouvertes.fr/inria-00467061/en/
 
 
 Depends: visionegg
