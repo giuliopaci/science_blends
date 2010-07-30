@@ -55,6 +55,8 @@ Depends: cadabra
 
 Depends: drawxtl
 
+Depends: opticalraytracer
+
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
@@ -202,15 +204,3 @@ Pkg-Description:  Python toolkit and application for X-ray fluorescence analysis
  .
  It can read data files in the SPEC and ESRF data file (EDF) formats.
 
-Depends: opticalraytracer
-Homepage: http://www.arachnoid.com/OpticalRayTracer/index.html
-License: GPL-2+
-WNPP: 519583
-Responsible: D Haley 
-Pkg-Description: A virtual lens design workshop
- OpticalRayTracer is an application that analyzes systems of
- lenses. It uses optical principles and a virtual optical bench
- to predict the behavior of many kinds of ordinary and exotic lens
- types. OpticalRayTracer includes an advanced, easy-to-use interface
- that allows the user to rearrange the optical configuration by simply
- dragging lenses around using the mouse.

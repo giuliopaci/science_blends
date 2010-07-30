@@ -16,6 +16,8 @@ Depends: ncview
 Depends: grads
 Why: Used as default tool for viewing BUFR files.
 
+Depends: magics++
+
 Depends: visit
 Homepage: http://www.llnl.gov/visit/
 WNPP: 395573
@@ -25,20 +27,6 @@ Why: Used for 3-D visualisation of netCDF datasets.
 
 Depends: libgrib-api-tools
 Responsible: Enrico Zini <enrico@debian.org>
-
-Depends: magics++
-WNPP: 522984
-License: Apache
-Homepage: http://www.ecmwf.int/products/data/software/msgics++.html
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: Executables for the magics++ library
- Magics++ is the latest generation of the ECMWF's Meteorological plotting
- software MAGICS. Although completely redesigned in C++, it is intended to be
- as backwards-compatible as possible with the Fortran interface.
- Besides its programming interfaces (Fortran and C), Magics++ offers MagML,
- a plot description language based on XML aimed at automatic web production.
- .
- This package contains the MagcML binary that may be used with magics++.
 
 Depends: hdf-eos4
 Homepage: http://hdfeos.net/software.php#HDF-EOS2

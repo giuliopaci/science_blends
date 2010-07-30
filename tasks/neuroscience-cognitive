@@ -116,6 +116,10 @@ Published-Year: 2007
 Published-DOI: 10.1016/j.jneumeth.2006.11.017
 
 
+Depends: voxbo
+Registration: http://voxbo.org/usage.html
+
+
 Depends: bioimagesuite
 Homepage: http://www.bioimagesuite.org/
 License: GPL
@@ -286,20 +290,6 @@ Published-In: Journal of Cognitive Neuroscience, 19: 1081-1088
 Published-Year: 2007
 Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/17583985
 
-
-Depends: voxbo
-Homepage: http://www.voxbo.org
-License: GPL-3
-Language: C++
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-WNPP: 579284
-Pkg-Description: processing, statistical analysis, and display of brain imaging data
- This is a toolkit for analysis of functional neuroimaging (chiefly
- fMRI) experiments and voxel-based lesion-behavior mapping. VoxBo
- supports the modified GLM (for autocorrelated data), as well as the
- standard GLM for non-autocorrelated data. The toolkit is designed to be
- interoperable with AFNI, FSL, SPM and others.
-Registration: http://voxbo.org/usage.html
 
 
 Depends: itksnap

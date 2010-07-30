@@ -6,7 +6,7 @@ Description: Debian Science Machine Learning packages
  implementing dominant nowadays statistical methods.
 
 Depends: python-pyke, gprolog, yap
-Comments: Prolog (and alike) systems for inductive reasoning
+Comment: Prolog (and alike) systems for inductive reasoning
 
 Depends: libtorch3-dev
 
@@ -102,7 +102,7 @@ and datastructures, allowing for easy adaptation in applications.
 
 Depends: pybrain
 Homepage: http://www.pybrain.org
-Lanuage: Python
+Language: Python
 WNPP: 587069
 License: BSD
 Pkg-Description:  Modular machine Learning Library
