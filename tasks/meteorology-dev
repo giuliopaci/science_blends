@@ -54,6 +54,8 @@ Why: Many Meteorology codes use ksh as their scripting shells.
 Suggests: pkg-config
 Why: Simplifies the scripting of builds. 
 
+Depends: liboasis3-dev
+
 Depends: libudunits-dev
 WNPP: 532430
 Responsible: Alastair McKinstry <mckinstry@debian.org>
@@ -65,33 +67,6 @@ Pkg-Description: Library for the programatic handling of units of physical quant
  Specifically, it supports conversion between string and binary representations 
  of units, arithmetic manipulation of units, and conversion of numeric values between
  compatible units.
-
-Depends: liboasis3-dev
-WNPP: 531673
-Homepage: http://www.prism.enes.org/PAEs/coupling_IO/software_OASIS3.php
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Why: Coupler used in many forecasting projects
- Many models link against OASIS even if they don't use it in a 
- given configuration, eg. the Harmonie model.
-Pkg-Description: Coupler for exchanging fields between components of Earth system models
- OASIS3 is the direct evolution of the OASIS coupler developed since
- more than 10 years at CERFACS (Toulouse, France). Portability and
- flexibility are OASIS3 key design concepts. At run-time, OASIS3 acts as
- a separate mono process executable, which main function is to
- interpolate the coupling fields exchanged between the component models,
- and as a library linked to the component models, the OASIS3 PRISM Model
- Interface Library (OASIS3 PSMILe).
- .
- OASIS3 supports 2D coupling fields only. To communicate with OASIS3,
- directly with another model, or to perform I/O actions, a component
- model needs to include few specific PSMILe calls. OASIS3 PSMILe supports
- in particular parallel communication between a parallel component model
- and OASIS3 main process based on Message Passing Interface (MPI) and
- file I/O using the GFDL mpp_io library. 
- .
- OASIS3 has been extensively used in the PRISM demonstration runs and is
- currently used by approximately 15 climate modelling groups in Europe,
- USA, Canada, Australia, India and Brazil.
 
 Depends: libdap-dev
 Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
