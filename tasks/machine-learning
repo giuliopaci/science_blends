@@ -98,7 +98,7 @@ Why: OpenCV provides a set of ML methods for pattern recognition
 
 Depends: libvigraimpex-dev, python-vigra
 Why: VIGRA is a computer vision library that provides customizable algorithms
-and datastructures, allowing for easy adaptation in applications.
+ and datastructures, allowing for easy adaptation in applications.
 
 Depends: pybrain
 Homepage: http://www.pybrain.org
