@@ -6,7 +6,7 @@ Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.
 DM-Upload-Allowed: yes
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
  Andreas Tille <tille@debian.org>, Sylvestre Ledru <sylvestre@debian.org> 
-Build-Depends-Indep: blends-dev (>= 0.6.12), debhelper (>= 7)
+Build-Depends-Indep: blends-dev (>= 0.6.14), debhelper (>= 7)
 Standards-Version: 3.9.1
 Homepage: http://wiki.debian.org/DebianScience/
 Vcs-Browser: http://svn.debian.org/wsvn/blends/projects/science/trunk/debian-science/?rev=0&sc=0

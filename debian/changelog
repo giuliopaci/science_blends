@@ -5,11 +5,13 @@ debian-science (0.11) unstable; urgency=low
   * salome is now in debian. Removing description
 
   [ Andreas Tille ]
+  * New task: machine-learning
   * tasks/robotics: libvtk5 -> libvtk5.4
     Closes: #591444
   * Several prospective packages are now official Debian packages
     and this included automatically via blends-dev build mechanism
   * Standards-Version: 3.9.1 (no changes needed)
+  * Build-Depends: blends-dev (>= 0.6.14)
 
  -- Andreas Tille <tille@debian.org>  Tue, 03 Aug 2010 09:46:09 +0200
 
