@@ -31,7 +31,7 @@ Depends: science-statistics
 
 Depends: geomview
 
-Depends: octave | octave3.0
+Depends: octave | octave3.2
 
 Depends: octaviz
 

@@ -7,7 +7,7 @@ Description: Debian Science Numerical Computation packages
  as Matlab and IDL.
 
 
-Depends: octave | octave3.0 | octave3.1
+Depends: octave | octave3.0 | octave3.2
 Why: numerical programming environment similar to Matlab
 
 Suggests: octaviz
