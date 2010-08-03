@@ -1,9 +1,16 @@
-debian-science (0.11) UNRELEASED; urgency=low
+debian-science (0.11) unstable; urgency=low
 
+  [ Sylvestre Ledru ]
   * hkl package added
   * salome is now in debian. Removing description
 
- -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 08 Jun 2010 11:45:12 +0200
+  [ Andreas Tille ]
+  * tasks/robotics: libvtk5 -> libvtk5.4
+    Closes: #591444
+  * Several prospective packages are now official Debian packages
+    and this included automatically via blends-dev build mechanism
+
+ -- Andreas Tille <tille@debian.org>  Tue, 03 Aug 2010 09:46:09 +0200
 
 debian-science (0.10) unstable; urgency=low
 
