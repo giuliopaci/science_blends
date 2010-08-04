@@ -212,8 +212,8 @@ Description: Debian Science Machine Learning packages
 Package: science-mathematics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: axiom, coq, freefem, freemat, gap, geogebra, geomview, gerris, ginac-tools, gmsh, libmatheval1, lp-solve, lrslib, magnus, mathomatic, mumps-test, netgen, pari-extra, pari-gp, proofgeneral, proofgeneral-coq, regina-normal, science-statistics, scilab, scilab-ann, scilab-scimax, snappea, wxmaxima, xmaxima
-Suggests: bliss, isabelle, nauty, netgen-doc, octave, octave3.0, octaviz, sagemath, scilab-sivp, scilab-swt
+Recommends: axiom, coq, freefem, freemat, gap, geogebra, geomview, gerris, ginac-tools, gmsh, libmatheval1, lp-solve, lrslib, magnus, mathomatic, mumps-test, netgen, octave3.2, pari-extra, pari-gp, proofgeneral, proofgeneral-coq, regina-normal, science-statistics, scilab, scilab-ann, scilab-scimax, snappea, wxmaxima, xmaxima
+Suggests: bliss, isabelle, nauty, netgen-doc, octave, octaviz, sagemath, scilab-sivp, scilab-swt
 Description: Debian Science Mathematics packages
  This metapackage will install Debian Science packages related to
  Mathematics.  You might also be interested in the field::mathematics
@@ -274,8 +274,8 @@ Description: classes and functions for the estimation of statistical models
 Package: science-numericalcomputation
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: freemat, gnudatalanguage, ipython, lush, pdl, python-matplotlib, python-numpy, python-scipy, r-base, scilab, scilab-ann, scilab-scimax, yorick
-Suggests: octave, octave3.0, octave3.1, octavede, octaviz, scilab-sivp, scilab-swt
+Recommends: freemat, gnudatalanguage, ipython, lush, octave3.2, pdl, python-matplotlib, python-numpy, python-scipy, r-base, scilab, scilab-ann, scilab-scimax, yorick
+Suggests: octave, octave3.0, octavede, octaviz, scilab-sivp, scilab-swt
 Description: Debian Science Numerical Computation packages
  This metapackage will install Debian Science packages useful for
  numerical computation. The packages provide an array oriented
@@ -296,8 +296,8 @@ Description: Debian Science Physics packages
 Package: science-robotics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: gnuplot, libboost-dev, libcomedi0, libcv-dev, libopenigtlink1, libvtk5.4, rtai, xenomai-runtime
-Suggests: d-collide, libcoin40-runtime, mrtp, octave, octave3.0, octave3.1, ode, orca, orocos-bfl, orocos-kdl, orocos-ocl, orocos-rtt, roboop, robot-player, rtnet, solid
+Recommends: gnuplot, libboost-dev, libcomedi0, libcv-dev, libopenigtlink1, libvtk5.4, octave3.2, rtai, xenomai-runtime
+Suggests: d-collide, libcoin40-runtime, mrtp, octave, octave3.0, ode, orca, orocos-bfl, orocos-kdl, orocos-ocl, orocos-rtt, roboop, robot-player, rtnet, solid
 Description: Debian Robotics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Robotics.
