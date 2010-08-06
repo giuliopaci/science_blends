@@ -389,3 +389,21 @@ Published-Title: Enhancement of MR images using registration for signal averagin
 Published-In: J Comput Assist Tomogr, 22: 324-333
 Published-Year: 1998
 Remark: This package is waiting for the Debian data package archive to become available.
+
+
+Depends: spm8
+Homepage: http://www.fil.ion.ucl.ac.uk/spm/software/spm8/
+License: GPL-2+
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-Description: analysis of brain imaging data sequences
+ Statistical Parametric Mapping (SPM) refers to the construction and assessment
+ of spatially extended statistical processes used to test hypotheses about
+ functional imaging data. These ideas have been instantiated in software that is
+ called SPM. It is designed for the analysis of fMRI, PET, SPECT, EEG and MEG.
+Published-Authors: K. J. Friston, A. P. Holmes, K. J. Worsley, J.-B. Poline, C. D. Frith, and R. S. J. Frackowiak
+Published-Title: Statistical parametric maps in functional imaging: A general linear approach.
+Published-In: Human Brain Mapping, 2: 189-210
+Published-Year: 1995
+Remark: This software is written for matlab, but initial tests indicate that
+ some (significant) portion of it might also work with octave. More tests are
+ pending...
