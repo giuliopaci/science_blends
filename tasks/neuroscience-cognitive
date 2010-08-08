@@ -270,20 +270,6 @@ Pkg-Description: data analysis framework for intra- and extra-cellular recording
 
 Depends: mricron
 Homepage: http://www.cabiatl.com/mricro/mricron/index.html
-License: BSD
-Language: Pascal
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-WNPP: 579231
-Pkg-URL: http://neuro.debian.net/pkgs/mricron.html
-Pkg-Description: magnetic resonance image conversion, viewing and analysis
- GUI-based visualization and analysis tool for (functional) magnetic reasonance
- imaging. MRIcron can be used to create 2D or 3D renderings of statistical
- overlay maps on brain anatomy images. Moreover, it aids drawing anatomical
- regions-of-interest (ROI), or lesion mapping, as well as basic analysis
- of functional timeseries (e.g. creating plots of peristimulus signal-change).
- .
- This package also provides 'dcm2nii' that supports converting DICOM and PAR/REC
- images into the NIfTI format.
 Published-Title: Improving lesion-symptom mapping
 Published-Authors: Chris Rorden, Hans-Otto Karnath, Leonardo Bonilha
 Published-In: Journal of Cognitive Neuroscience, 19: 1081-1088
