@@ -380,7 +380,8 @@ Remark: This package is waiting for the Debian data package archive to become av
 Depends: spm8
 Homepage: http://www.fil.ion.ucl.ac.uk/spm/software/spm8/
 License: GPL-2+
-Responsible: Michael Hanke <michael.hanke@gmail.com>
+Responsible: NeuroDebian team <team@neuro.debian.net>
+WNPP: 592390
 Pkg-Description: analysis of brain imaging data sequences
  Statistical Parametric Mapping (SPM) refers to the construction and assessment
  of spatially extended statistical processes used to test hypotheses about
