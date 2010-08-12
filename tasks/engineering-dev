@@ -27,3 +27,5 @@ Depends: libhdf5-serial-dev, libjhdf5-java, libjhdf4-java
 Depends: pycgns
 
 Suggests: libqwt-dev | libqwt5-qt4-dev | libqwt5-qt3-dev
+
+Depends: libdeal.ii-dev
