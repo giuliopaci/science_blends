@@ -34,6 +34,8 @@ Depends: freecad
 
 Depends: salome
 
+Depends: life-apps
+
 Depends: brlcad
 Homepage: http://my.brlcad.org/
 WNPP: 289632

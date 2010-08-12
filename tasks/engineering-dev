@@ -29,3 +29,5 @@ Depends: pycgns
 Suggests: libqwt-dev | libqwt5-qt4-dev | libqwt5-qt3-dev
 
 Depends: libdeal.ii-dev
+
+Depends: liblife-dev
