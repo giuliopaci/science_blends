@@ -57,6 +57,8 @@ Depends: drawxtl
 
 Depends: opticalraytracer
 
+Depends: ghkl
+
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
