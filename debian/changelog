@@ -1,3 +1,10 @@
+debian-science (0.12) UNRELEASED; urgency=low
+
+  * tasks/statistics: Fix typo in package description
+    Closes: #592701
+
+ -- Andreas Tille <tille@debian.org>  Thu, 12 Aug 2010 10:32:27 +0200
+
 debian-science (0.11) unstable; urgency=low
 
   [ Sylvestre Ledru ]
