@@ -50,6 +50,9 @@ Why: Those two packages are not necessarily needed for scientific work but a hin
 
 Depends: lybniz
 
+Depends: 3depict
+WNPP: 592460
+
 Depends: cassandra
 Homepage: http://dev.artenum.com/projects/cassandra
 License: QPL
