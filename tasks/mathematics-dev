@@ -66,3 +66,5 @@ Depends: libmadlib-dev
 Depends: dolfin-dev
 
 Depends: libslepc3.0.0-dev
+
+Depends:  petsc-dev, libtrilinos-dev
