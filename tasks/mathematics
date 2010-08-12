@@ -60,6 +60,8 @@ Depends: geogebra
 
 Depends: lrslib
 
+Suggests: r-cran-evd
+
 Depends: isabelle
 Homepage: http://isabelle.in.tum.de/
 WNPP: 494491
