@@ -46,8 +46,6 @@ Depends: psignifit, python-stats
 Depends: python-scipy
 Why: Provides scipy.stats module
 
-Depends: ghkl
-
 Depends: python-scikits-statsmodels
 Homepage: http://statsmodels.sourceforge.net/
 Language: Python

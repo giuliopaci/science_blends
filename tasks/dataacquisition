@@ -24,7 +24,7 @@ Suggests: gpsd
 
 Depends: jaaa
 
-Depends: hkl
+Depends: ghkl
 
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
