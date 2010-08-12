@@ -60,3 +60,5 @@ Suggests: liblrs-dev
 Depends: libstxxl-dev
 
 Depends: libnewmat10-dev
+
+Depends: libmadlib-dev
