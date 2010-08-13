@@ -75,3 +75,6 @@ Why: Partial differential equations library, FEA, CFD
 
 Suggests: python-openturns, libopenturns-dev, openturns-wrapper
 Why: Uncertainty quantification in numerical simulation
+
+Depends: libqd-dev
+Why: double-double and quad-double precision C++ datatypes
