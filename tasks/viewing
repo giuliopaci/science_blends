@@ -35,6 +35,8 @@ Depends: paraview
 
 Depends: gle-graphics
 
+Depends: gmsh
+
 Suggests: texlive-pictures
 
 Suggests: pgplot5
@@ -73,7 +75,7 @@ Depends: pgfplots
 Homepage:  http://pgfplots.sourceforge.net/
 License: GPLv3
 WNPP: 514751
-Responsible: OHURA Makoto <ohura@debian.org> 
+Responsible: OHURA Makoto <ohura@debian.org>
 Pkg-Description: TeX package to draw normal and/or logarithmic plots directly in TeX
  This package provides tools to generate plots and labeled axes
  easily. It draws normal plots, logplots and semi-logplots. Axis
