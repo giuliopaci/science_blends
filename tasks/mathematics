@@ -35,6 +35,8 @@ Depends: octave | octave3.2
 
 Depends: octaviz
 
+Depends: xmds
+
 Depends: freemat
 
 Depends: mathomatic
