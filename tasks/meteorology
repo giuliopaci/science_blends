@@ -34,8 +34,8 @@ WNPP: 531558
 License: BSD
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
- HDF-EOS is a software library that is an extension of National Center 
- for Supercomputing Applications (NCSA) HDF. The library supports the 
+ HDF-EOS is a software library that is an extension of National Center
+ for Supercomputing Applications (NCSA) HDF. The library supports the
  construction of new data structures: Grid, Point and Swath.
 
 Depends: hdf-eos5
@@ -82,9 +82,13 @@ Pkg-Description: NCAR Command Language and NCAR Graphics package
  customizable.
 
 Suggests: gnudatalanguage, r-base
-Why: Used for data manipiulation 
+Why: Used for data manipiulation
 
 Suggests: octave-octcdf
-Why: Used for data manipiulation 
+Why: Used for data manipiulation
 
 Suggests: gerris
+
+Suggests: python-openturns
+Why: Uncertainty quantification in numerical simulation
+

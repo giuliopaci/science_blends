@@ -31,5 +31,9 @@ Suggests: libqwt-dev | libqwt5-qt4-dev | libqwt5-qt3-dev
 Depends: libdeal.ii-dev
 
 Depends: liblife-dev
+Why: Partial differential equations library, FEA, CFD
 
 Depends: libluminate-dev
+
+Depends: libmadlib-dev
+Why: Mesh adaptation

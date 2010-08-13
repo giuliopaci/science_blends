@@ -39,7 +39,7 @@ Depends: freemat
 
 Depends: mathomatic
 
-Depends: scilab, scilab-sivp, scilab-scimax, scilab-swt, scilab-ann, 
+Depends: scilab, scilab-sivp, scilab-scimax, scilab-swt, scilab-ann,
  scilab-plotlib
 
 Depends: regina-normal, snappea
@@ -93,7 +93,7 @@ Pkg-Description: tool for computing automorphism groups and canonical labelings 
  Bliss is a backtracking algorithm based on individualization and
  refinement for labeling a graph.  Data structures, subroutines, and
  pruning heuristics especially for fast handling of large and sparse
- graphs are provided. This package provides the command line tool 
+ graphs are provided. This package provides the command line tool
  bliss; a C++ and C API is also available.
  .
  There is also a libbliss-dev which changes the last line of the long
@@ -102,3 +102,8 @@ Pkg-Description: tool for computing automorphism groups and canonical labelings 
  won't be any rdepends in debian. I could be convinced otherwise of
  course.
 
+Depends: life-apps
+Why: Partial differential equation library, FEA, CFD
+
+Depends: python-openturns
+Why: Uncertainty quantification in numerical simulation

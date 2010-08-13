@@ -67,3 +67,5 @@ Pkg-Description: complete set of CAD programs for design of VLSI circuits
   * Symbolic layout: Alliance, COMPASS
   * Physical layout: CIF (output-only) and GDSII (output-only)
 
+Suggests: liblife-dev
+Why: Partial differential equations library, FEA, CFD

@@ -62,6 +62,7 @@ Depends: libstxxl-dev
 Depends: libnewmat10-dev
 
 Depends: libmadlib-dev
+Why: Mesh adaptation
 
 Depends: dolfin-dev
 
@@ -70,3 +71,9 @@ Depends: libslepc3.0.0-dev
 Depends:  petsc-dev, libtrilinos-dev
 
 Suggests: libqrupdate-dev
+
+Depends: liblife-dev
+Why: Partial differential equations library, FEA, CFD
+
+Suggests: python-openturns, libopenturns-dev, openturns-wrapper
+Why: Uncertainty quantification in numerical simulation

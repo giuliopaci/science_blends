@@ -64,3 +64,6 @@ Pkg-Description: classes and functions for the estimation of statistical models
 
 
 Suggests: science-mathematics
+
+Depends: python-openturns
+Why: Uncertainty quantification in numerical simulation

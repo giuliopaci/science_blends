@@ -23,7 +23,7 @@ Depends: tessa | tessa-mpi
 Depends: octaviz
 
 Depends: science-numericalcomputation
-Why: numerical programming environments similar to Matlab/IDL 
+Why: numerical programming environments similar to Matlab/IDL
 
 
 Depends: opencascade-tools
@@ -58,6 +58,9 @@ Depends: drawxtl
 Depends: opticalraytracer
 
 Depends: ghkl
+
+Suggests: life-apps, liblife-dev
+Why: Partial differential equation library, FEA, CFD
 
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
@@ -170,16 +173,16 @@ Pkg-Description: Extensible Simulation Package for Research on Soft matter
 
 Depends: quantumespresso
 Homepage:  http://www.quantum-espresso.org/
-License: GPL 
-Pkg-Description: Electronic structure calculations 
+License: GPL
+Pkg-Description: Electronic structure calculations
  Integrated suite of computer codes for electronic-structure calculations and
  materials modeling at the nanoscale. It is based on density-functional theory,
  plane waves, and pseudopotentials (both norm-conserving and ultrasoft).
 
 Depends: pwscf
 Homepage: http://www.pwscf.org/
-License: GPL 
-Pkg-Description: Electronic structure calculations 
+License: GPL
+Pkg-Description: Electronic structure calculations
  Computer code for electronic-structure calculations within Density-Functional
  Theory and Density-Functional Perturbation Theory, using pseudopotentials and a
  plane-wave basis set.
@@ -187,7 +190,7 @@ Pkg-Description: Electronic structure calculations
 Depends: cp2k
 Homepage: http://cp2k.berlios.de/
 License: GPL
-WNPP: 518984 
+WNPP: 518984
 Pkg-Description: CP2K is a program to perform atomistic and molecular
  simulations of solid state, liquid, molecular and biological
  systems. It provides a general framework for different methods such as
@@ -198,7 +201,7 @@ Depends: pymca
 Homepage: http://pymca.sourceforge.net/
 License: GPL-2+
 WNPP:  514903
-Vcs-Git: git://git.debian.org/?p=debian-science/packages/pymca.git 
+Vcs-Git: git://git.debian.org/?p=debian-science/packages/pymca.git
 Responsible: Teemu Ikonen <tpikonen@gmail.com>
 Pkg-Description:  Python toolkit and application for X-ray fluorescence analysis
  PyMCA is an application and Python toolkit for analysis of X-ray

@@ -25,8 +25,8 @@ WNPP: 531558
 Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
- HDF-EOS is a software library that is an extension of National Center 
- for Supercomputing Applications (NCSA) HDF. The library supports the 
+ HDF-EOS is a software library that is an extension of National Center
+ for Supercomputing Applications (NCSA) HDF. The library supports the
  construction of new data structures: Grid, Point and Swath.
  .
  This version is built against the HDF4
@@ -81,3 +81,8 @@ Pkg-Description: The netCDF Client Library is an alternative implementation of U
  of the library when linking your application and then simply pass an OPeNDAP URL 
  in where you would normally use a file name.
 
+Depends: python-openturns, libopenturns-dev, openturns-wrapper
+Why: Uncertainty quantification in numerical simulation
+
+Suggests: liblife-dev
+Why: Partial differential equations library, FEA, CFD
