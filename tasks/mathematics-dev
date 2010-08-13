@@ -25,9 +25,6 @@ Depends: liblapack-dev, libatlas-base-dev, libblas-dev
 Depends: libsuperlu3-dev
 Why: solver
 
-Suggests: libslepc2.3.2-dev
-Why: non-free
-
 Depends: libglpk-dev
 Why: linear programming
 
@@ -67,6 +64,7 @@ Why: Mesh adaptation
 Depends: dolfin-dev
 
 Depends: libslepc3.0.0-dev
+Why: Generalized and standard eigenvalue solver framework
 
 Depends:  petsc-dev, libtrilinos-dev
 
