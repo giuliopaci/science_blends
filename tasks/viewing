@@ -33,6 +33,8 @@ Depends: gwyddion
 
 Depends: paraview
 
+Depends: gle-graphics
+
 Suggests: texlive-pictures
 
 Suggests: pgplot5
