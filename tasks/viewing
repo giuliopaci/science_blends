@@ -23,7 +23,7 @@ Depends: gnuplot, grace, gri, labplot, graphviz, pyxplot, plotdrop, qtiplot
 
 Depends: imview
 
-Depends: mayavi
+Depends: mayavi2
 
 Depends: g3data
 
