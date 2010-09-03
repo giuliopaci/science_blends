@@ -11,7 +11,7 @@ Comment: Prolog (and alike) systems for inductive reasoning
 Depends: libtorch3-dev
 
 Depends: libshogun-dev, libfann-dev, libsvm-dev, libcomplearn-dev, \
-    libqsearch-dev, liblinear-dev, libocas-dev
+            libqsearch-dev, liblinear-dev, libocas-dev
 Comment: above libraries have also variety of interfaces to high-level
  scripting languages (e.g. Python) and even possibly some interactive GUI
 
@@ -23,7 +23,7 @@ Depends: weka
 Depends: vowpal-wabbit
 
 Depends: r-cran-mass, r-cran-bayesm, r-cran-class, r-cran-cluster, \
-    r-cran-msm, r-cran-mcmcpack, r-cran-mnp, r-cran-amore
+            r-cran-msm, r-cran-mcmcpack, r-cran-mnp, r-cran-amore
 Comment: R packages
 
 Depends: python-mvpa
@@ -62,7 +62,7 @@ Comment: Applications
 Depends: scilab-ann
 
 Depends: libga-dev, libevocosm-dev, pgapack, python-genetic, octave-ga, \
- python-pyevolve
+            python-pyevolve
 Comment: Evolutionary algorithm libraries in various languages
 
 Depends: flann
