@@ -394,3 +394,21 @@ Published-Year: 1995
 Remark: This software is written for matlab, but initial tests indicate that
  some (significant) portion of it might also work with octave. More tests are
  pending...
+
+
+Depends: iqr
+Homepage: http://iqr.sourceforge.net
+License: GPL-3+
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Pkg-Description: large-scale multi-level neuronal systems simulator
+ This graphical environment allows for designing large-scale multi-level
+ neuronal systems that can control real-world devices, such as cameras and
+ mobile robots, in real-time. iqr is an extensible framework with the ability
+ to handle new, user-provided, neuron and synapse types, as well as custom
+ interfaces to other hardware systems. iqr employes an XML-based format for
+ system descriptions.
+Published-Authors: Ulysses Bernardet, Paul F.M.J. Verschure
+Published-Title: iqr: A tool for the construction of multi-level simulations of brain and behaviour.
+Published-In: Neuroinformatics, 8: 113-134
+Published-Year: 2010
+Published-DOI: 10.1007/s12021-010-9069-7
