@@ -53,19 +53,7 @@ Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling sys
 
 Depends: openturns
 
-Depends: code-aster
-Homepage: http://www.code-aster.org/
-WNPP: 458812
-License: GPL
-Responsible: Adam C Powell IV <hazelsct@debian.org>
-Pkg-URL: http://lyre.mit.edu/~powell/aster/
-Pkg-Description: Thermal and mechanical finite element simulation software
- Code_Aster (file/package name aster) is a mature finite element code for
- structural and thermal analysis.  Its development has been guided by the
- needs of the nuclear engineering industry, and it enjoys wide use and
- distribution.  It is also a major component of the recently-released
- CAELinux live DVD distribution, and links well with Salomé for
- high-quality pre- and post-processing.
+Depends: code-aster-gui
 
 Depends: code-saturne
 
