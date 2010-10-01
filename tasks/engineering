@@ -40,7 +40,7 @@ Depends: openturns
 
 Depends: code-aster-gui
 
-Depends: code-saturne
+Depends: code-saturne, ecs
 
 Depends: hdfview
 

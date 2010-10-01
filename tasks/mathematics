@@ -68,6 +68,10 @@ Depends: dolfin-bin
 
 Depends: fenics
 
+Depends: eprover
+
+Depends: python-ffc
+
 Depends: isabelle
 Homepage: http://isabelle.in.tum.de/
 WNPP: 494491

@@ -82,3 +82,5 @@ Why: double-double and quad-double precision C++ datatypes
 Depends: libcqrlib2-dev
 
 Suggests: cfortran
+
+Depends: libcvector2-dev

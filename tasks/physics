@@ -62,6 +62,10 @@ Depends: ghkl
 Suggests: life-apps, liblife-dev
 Why: Partial differential equation library, FEA, CFD
 
+Depends: drawxtl
+
+Depends: etsf-io
+
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
@@ -94,8 +98,6 @@ Pkg-Description: CLHEP - A Class Library for High Energy Physics
  generators, physics vectors, geometry and linear algebra. CLHEP is structured
  in a set of packages independent of any external package (interdependencies
  within CLHEP are allowed under certain conditions).
-
-Depends: drawxtl
 
 Depends: gate
 Homepage: http://opengatecollaboration.healthgrid.org/
