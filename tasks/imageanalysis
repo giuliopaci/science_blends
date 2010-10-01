@@ -17,3 +17,5 @@ Why: Scanning Probe Microscopy (SPM) data visualization and analysis
 Suggests: scilab-sivp
 
 Depends: libteem1
+
+Suggests: cimg

@@ -41,6 +41,16 @@ Depends: mlpost
 
 Depends: latexdiff
 
+Depends: jeuclid
+
+Depends: libjlatexmath-java
+
+Depends: cb2bib
+
+Suggests: libgtkmathview-bin
+
+Suggests: jeuclid-mathviewer
+
 Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
 WNPP: 324422
@@ -61,8 +71,6 @@ Homepage: http://gpapers.org/
 License: GPL
 Pkg-Description: bibliography management software
  Digital library manager. Think of it as an iTunes for your PDFs.
-
-Depends: jeuclid
 
 Depends: zotero
 Homepage: http://www.zotero.org/
@@ -103,10 +111,6 @@ Pkg-Description: reference manager software
   * Remote library backup
   * Advanced search and data mining tools
   * Wide variety of import/export 
-
-Depends: libjlatexmath-java
-
-Depends: cb2bib
 
 Suggests: pymarc
 WNPP: 585583

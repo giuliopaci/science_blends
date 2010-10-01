@@ -48,6 +48,8 @@ Depends: syfi-bin
 
 Depends: cba
 
+Depends: python-fiat
+
 Depends: brlcad
 Homepage: http://my.brlcad.org/
 WNPP: 289632

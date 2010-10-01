@@ -37,6 +37,10 @@ Depends: gle-graphics
 
 Depends: gmsh
 
+Suggests: libgtkmathview-bin
+
+Suggests: jeuclid-mathviewer
+
 Suggests: texlive-pictures
 
 Suggests: pgplot5

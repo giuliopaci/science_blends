@@ -84,3 +84,7 @@ Depends: libcqrlib2-dev
 Suggests: cfortran
 
 Depends: libcvector2-dev
+
+Depends: libhypre-dev
+
+Depends: libitsol-dev

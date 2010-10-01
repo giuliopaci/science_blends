@@ -36,3 +36,5 @@ Depends: octavede
 
 Depends: lush
 Why: environment for prototyping large numeric computations in Lisp
+
+Suggests: hpcc
