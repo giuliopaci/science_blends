@@ -19,3 +19,5 @@ Suggests: scilab-sivp
 Depends: libteem1
 
 Suggests: cimg
+
+Suggests: libsimage-dev

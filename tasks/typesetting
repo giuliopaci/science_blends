@@ -51,6 +51,8 @@ Suggests: libgtkmathview-bin
 
 Suggests: jeuclid-mathviewer
 
+Depends: sketch
+
 Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
 WNPP: 324422

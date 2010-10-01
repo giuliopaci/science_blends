@@ -88,3 +88,17 @@ Depends: libcvector2-dev
 Depends: libhypre-dev
 
 Depends: libitsol-dev
+
+Depends: libmuparser-dev
+
+Depends: libcneartree3-dev
+
+Depends: libsparskit-dev
+
+Depends: libspooles-dev
+
+Depends: libsuitesparse-dev
+
+Depends: ufc, python-ufc, python-ffc
+
+Depends: python-ufl

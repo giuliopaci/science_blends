@@ -50,6 +50,10 @@ Depends: cba
 
 Depends: python-fiat
 
+Suggests: r-cran-spc
+
+Depends: syrthes
+
 Depends: brlcad
 Homepage: http://my.brlcad.org/
 WNPP: 289632

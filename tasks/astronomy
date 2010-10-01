@@ -28,6 +28,10 @@ Depends: stardata-common, gliese, yale
 
 Depends: boinc-app-milkyway
 
+Suggests: scilab-celestlab, scilab-overload, scilab-scimysql
+X-Comment: It is not really astronomy, do we need another category or
+           should we put space flight related packages into this task?
+
 Depends: spacechart
 X-Homepage: http://www.gnu.org/software/spacechart/
 X-License: GPL

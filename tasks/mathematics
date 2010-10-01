@@ -72,6 +72,14 @@ Depends: eprover
 
 Depends: python-ffc
 
+Depends: kseg
+
+Depends: polylib-utils
+
+Depends: rheolef-runtime
+
+Depends: scotch
+
 Depends: isabelle
 Homepage: http://isabelle.in.tum.de/
 WNPP: 494491

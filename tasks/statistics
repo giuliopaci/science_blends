@@ -46,6 +46,10 @@ Depends: psignifit, python-stats
 Depends: python-scipy
 Why: Provides scipy.stats module
 
+Suggests: r-cran-spc
+
+Depends: r-cran-vcd
+
 Depends: python-scikits-statsmodels
 Homepage: http://statsmodels.sourceforge.net/
 Language: Python

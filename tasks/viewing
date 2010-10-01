@@ -61,6 +61,12 @@ Depends: lybniz
 Depends: 3depict
 WNPP: 592460
 
+Depends: mathgl
+
+Depends: udav
+
+Depends: python-viper
+
 Depends: cassandra
 Homepage: http://dev.artenum.com/projects/cassandra
 License: QPL
