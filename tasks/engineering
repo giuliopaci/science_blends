@@ -36,6 +36,18 @@ Depends: salome
 
 Depends: life-apps
 
+Depends: openturns
+
+Depends: code-aster-gui
+
+Depends: code-saturne
+
+Depends: hdfview
+
+Depends: syfi-bin
+
+Depends: cba
+
 Depends: brlcad
 Homepage: http://my.brlcad.org/
 WNPP: 289632
@@ -51,12 +63,6 @@ Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling sys
  first GPL'ed release of the package. It is being maintained by the
  US Army Research laboratory (ARL).
 
-Depends: openturns
-
-Depends: code-aster-gui
-
-Depends: code-saturne
-
 Depends: avl
 Homepage: http://web.mit.edu/drela/Public/web/avl/
 WNPP: 513608
@@ -71,8 +77,6 @@ Pkg-Description: Analyser for the aerodynamic and flight-dynamic of rigid aircra
  dynamic analysis combines a full linearization of the aerodynamic
  model about any flight state, together with specified mass properties.
 
-Depends: hdfview
-
 Depends: pycgns
 Homepage: http://elsa.onera.fr/CGNS/releases/
 License: GPL-2
@@ -80,4 +84,3 @@ Pkg-Description: Package is a Python binding to the CGNS library
  The package contains a wrapper on top of the ADF and MLL APIs, some tools,
  demos, tests, and examples taken from the CGNS tutorial. 
 
-Depends: syfi-bin

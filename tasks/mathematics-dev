@@ -78,3 +78,7 @@ Why: Uncertainty quantification in numerical simulation
 
 Depends: libqd-dev
 Why: double-double and quad-double precision C++ datatypes
+
+Depends: libcqrlib2-dev
+
+Suggests: cfortran

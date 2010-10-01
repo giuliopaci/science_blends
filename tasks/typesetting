@@ -106,6 +106,7 @@ Pkg-Description: reference manager software
 
 Depends: libjlatexmath-java
 
+Depends: cb2bib
 
 Suggests: pymarc
 WNPP: 585583

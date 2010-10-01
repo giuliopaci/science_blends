@@ -19,3 +19,5 @@ Meta-Suggests: svn://svn.debian.org/blends/projects/med/trunk/debian-med/tasks/b
 Depends: bauble
 
 Depends: genesis, avida-base
+
+Depends: critterding
