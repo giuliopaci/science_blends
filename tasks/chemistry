@@ -244,3 +244,13 @@ Pkg-Description: process chromatographic and mass spectrometric data
  shall be an efficiently system to process chromatographic and mass
  spectrometric data using an extensible and flexible plugin approach.
 
+Depends: chemical-structures
+Homepage: http://sourceforge.net/projects/chem-file/
+License: DFSG-free: share alike, no endorsement
+WNPP: 593126
+Responsible: Georges Khaznadar <georgesk@ofset.org>
+Pkg-Description: A set of molecular structures in open formats
+ hundreds of molecular structures, in the following classes: alcohols,
+ aldehydes, alkanes, alkenes, amides, amines, amino_acids, aromatics,
+ carboxylic_acids, esters, ethers, fatty_acids, haloalkanes, ketones,
+ nitriles,nucleobases, water.
