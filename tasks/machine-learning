@@ -105,13 +105,27 @@ Homepage: http://www.pybrain.org
 Language: Python
 WNPP: 587069
 License: BSD
-Pkg-Description:  Modular machine Learning Library
+Pkg-Description:  Modular Machine Learning Library
  PyBrain is a modular machine learning library for Python. Its goal is to offer
  flexible, easy-to-use yet still powerful algorithms for Machine Learning Tasks
  and a variety of predefined environments to test and compare your algorithms. 
  .
  PyBrain currently features algorithms for Supervised Learning, Unsupervised
  Learning, Reinforcment Learning and Black-box Optimization.
+
+Depends: libshark-dev
+Homepage: http://shark-project.sourceforge.net
+Language: C++
+WNPP: 595485
+License: GPL-2+
+Pkg-Description: Library for Designing and Optimizing Adaptive Systems
+ SHARK is a modular C++ library for the design and optimization of adaptive
+ systems. It provides methods for linear and nonlinear optimization, in
+ particular evolutionary and gradient-based algorithms, kernel-based learning
+ algorithms and neural networks, and various other machine learning techniques.
+ SHARK serves as a toolbox to support real world applications as well as
+ research in different domains of computational intelligence and machine
+ learning.
 
 Suggests: science-statistics, science-numericalcomputation
 
