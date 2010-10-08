@@ -1,0 +1,70 @@
+Task: Neuroscience Datasets
+Description: Debian Science packages for Neuroscience Datasets
+ This metapackage will install Debian packages that provide neuroscientific
+ datasets. These datasets can be useful as common data files for applications
+ (e.g. stereotaxic atlases), as example data for online tutorials or teaching,
+ and as input data for analysis algorithms in demonstrations or test suites.
+
+
+Depends: mni-icbm152-nlin-2009
+Homepage: http://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009
+License: custom, DFSG-compliant
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-URL: http://neuro.debian.net/pkgs/mni-icbm152-nlin-2009a.html
+Pkg-Description: MNI stereotaxic space human brain template
+ This is an unbiased standard magnetic resonance imaging template volume for
+ the normal human population. It has been created by the Montreal Neurological
+ Institute (MNI) using anatomical data from the International Consortium for
+ Brain Mapping (ICBM).
+ .
+ The package provides a 1x1x1 mm and 0.5x0.5x0.5 mm resolution templates
+ (hemissphere-symetric and asymetric non-linearily co-registered versions),
+ some including T1w, T2w, PDw modalities, T2 relaxometry, and tissue probability
+ maps. In addition, it contains a lobe atlas, and masks for brain, eyes and
+ face.
+Published-Authors: V.S. Fonov, A.C. Evans, R.C. McKinstry, C.R. Almli and D.L. Collins
+Published-Title: Unbiased nonlinear average age-appropriate brain templates from birth to adulthood.
+Published-In: NeuroImage, 47, Supplement 1: 102
+Published-Year: 2009
+Remark: This package is waiting for the Debian data package archive to become available.
+
+
+Depends: mni-colin27-nifti
+Homepage: http://packages.bic.mni.mcgill.ca/tgz/
+License: custom, DFSG-compliant
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-URL: http://neuro.debian.net/pkgs/mni-colin27-nifti.html
+Pkg-Description: Talairach stereotaxic space template
+ This template MRI volume was created from 27 T1-weighted MRI scans of a
+ single individual that have been transformed into the Talairach stereotaxic
+ space. The anatomical image is complemented by a brain and a head mask.
+ All images are in 1x1x1 mm resolution.
+ .
+ This package provides the template in NIfTI format.
+Published-Authors: C.J. Holmes, R. Hoge, L. Collins, R. Woods, A.W. Toga, A.C. Evans
+Published-Title: Enhancement of MR images using registration for signal averaging.
+Published-In: J Comput Assist Tomogr, 22: 324-333
+Published-Year: 1998
+Remark: This package is waiting for the Debian data package archive to become available.
+
+
+Depends: haxby2001-faceobject
+Homepage: http://data.pymvpa.org/datasets/haxby2001
+License: CC-BY-SA
+Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-URL: http://neuro.debian.net/pkgs/haxby2001-faceobject.html
+Pkg-Description: face and object processing in ventral temporal cortex (fMRI)
+ This is data from a block-design fMRI study on face and object representation
+ in human ventral temporal cortex.  The full datasets consists of 6 subjects
+ with 12 runs per subject. In each run, the subjects passively viewed grey scale
+ images of eight object categories, grouped in 24s blocks separated by rest
+ periods. Each image was shown for 500ms and was followed by a 1500ms
+ inter-stimulus interval.  Full-brain fMRI data were recorded with a volume
+ repetition time of 2.5s.
+Published-Authors: James V. Haxby, M. I. Gobbini, M. L. Furey, A. Ishai, J. L. Schouten, P. Pietrini
+Published-Title: Distributed and overlapping representations of faces and objects in ventral temporal cortex.
+Published-In: Science, 293: 2425-2430
+Published-Year: 2001
+Published-DOI: 10.1126/science.1063736
+Remark: This package is waiting for the Debian data package archive to become
+ available.
