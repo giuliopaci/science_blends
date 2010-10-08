@@ -338,6 +338,7 @@ Depends: mni-icbm152-nlin-2009
 Homepage: http://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009
 License: custom, DFSG-compliant
 Responsible: Michael Hanke <michael.hanke@gmail.com>
+Pkg-URL: http://neuro.debian.net/pkgs/mni-icbm152-nlin-2009a.html
 Pkg-Description: MNI stereotaxic space human brain template
  This is an unbiased standard magnetic resonance imaging template volume for
  the normal human population. It has been created by the Montreal Neurological
