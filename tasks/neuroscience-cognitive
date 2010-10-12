@@ -369,3 +369,14 @@ Published-Title: iqr: A tool for the construction of multi-level simulations of 
 Published-In: Neuroinformatics, 8: 113-134
 Published-Year: 2010
 Published-DOI: 10.1007/s12021-010-9069-7
+
+
+Depends: mriconvert
+Homepage: http://lcni.uoregon.edu/~jolinda/MRIConvert/
+License: GPL
+Responsible: Steve M. Robbins <smr@debian.org>
+WNPP: 599880
+Pkg-Description: converts DICOM files to other formats
+ MRIConvert is a medical image file conversion utility that converts
+ DICOM files to NIfTI 1.1, Analyze 7.5 , SPM99/Analyze, BrainVoyager,
+ and MetaImage volume formats.
