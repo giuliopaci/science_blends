@@ -376,6 +376,8 @@ Homepage: http://lcni.uoregon.edu/~jolinda/MRIConvert/
 License: GPL
 Responsible: Steve M. Robbins <smr@debian.org>
 WNPP: 599880
+Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/mriconvert/trunk/?rev=0&sc=0
+Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/mriconvert/trunk/
 Pkg-Description: converts DICOM files to other formats
  MRIConvert is a medical image file conversion utility that converts
  DICOM files to NIfTI 1.1, Analyze 7.5 , SPM99/Analyze, BrainVoyager,
