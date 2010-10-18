@@ -35,6 +35,8 @@ Why: Partial differential equations library, FEA, CFD
 
 Depends: libluminate-dev
 
+Depends: libopenturns-dev
+
 Depends: libmadlib-dev
 Why: Mesh adaptation
 

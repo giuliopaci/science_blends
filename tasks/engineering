@@ -36,7 +36,7 @@ Depends: salome
 
 Depends: life-apps
 
-Depends: openturns
+Depends: python-openturns
 
 Depends: code-aster-gui
 
