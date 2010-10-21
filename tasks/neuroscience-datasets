@@ -68,3 +68,171 @@ Published-Year: 2001
 Published-DOI: 10.1126/science.1063736
 Remark: This package is waiting for the Debian data package archive to become
  available.
+
+
+Depends: fsl-harvard-oxford-atlases
+License: custom, non-commerical
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Remark: This package is waiting for the Debian data package archive to become available.
+Pkg-URL: http://neuro.debian.net/pkgs/fsl-harvard-oxford-atlases.html
+Pkg-Description: probabilistic atlas of human cortical and subcortical brain areas
+ Probabilistic atlases covering 48 cortical and 21 subcortical structural areas,
+ derived from structural data and segmentations kindly provided by the Harvard
+ Center for Morphometric Analysis.
+ .
+ T1-weighted images of 21 healthy male and 16 healthy female subjects
+ (ages 18-50) were individually segmented using semi-automated tools developed
+ in-house. The T1-weighted images were affine-registered to MNI152 space using
+ FLIRT (FSL), and the transforms then applied to the individual labels. Finally,
+ these were combined across subjects to form population probability maps for
+ each label.
+ .
+ This package is part of FSL.
+Published-Authors: Rahul S Desikan and Florent Segonne and Bruce Fischl and Brian T Quinn and Bradford C Dickerson and Deborah Blacker and Randy L Buckner and Anders M Dale and R Paul Maguire and Bradley T Hyman and Marilyn S Albert and Ronald J Killiany
+Published-Title: An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest.
+Published-In: Neuroimage, 31: 968–980
+Published-Year: 2006
+Published-DOI: 10.1016/j.neuroimage.2006.01.021
+
+
+Depends: fsl-juelich-histological-atlas
+License: custom, non-commerical
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Remark: This package is waiting for the Debian data package archive to become available.
+Pkg-URL: http://neuro.debian.net/pkgs/fsl-juelich-histological-atlas.html
+Pkg-Description: brain atlas based on cyto- and myelo-architectonic segmentations
+ A probabilistic atlas created by averaging multi-subject post-mortem cyto- and
+ myelo-architectonic segmentations, performed by the team of Profs Zilles and
+ Amunts at the Research Center Jülich and kindly provided by Simon Eickhoff.
+ .
+ The atlas contains 32 grey matter structures and 10 white matter structures.
+ This is the same data as used in Eickhoff's Anatomy Toolbox v1.5. The atlas is
+ based on the microscopic and quantitative histological examination of ten human
+ post-mortem brains. The histological volumes of these brains were 3D
+ reconstructed and spatially normalised into the space of the MNI single
+ subject template to create a probabilistic map of each area. For the FSL
+ version of this atlas, these probabilistic maps were then linearly transformed
+ into MNI152 space.
+ .
+ This package is part of FSL.
+Published-Authors: Simon B Eickhoff, Klaas E Stephan, Hartmut Mohlberg, Christian Grefkes, Gereon R Fink, Katrin Amunts, Karl Zilles
+Published-Title: A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data.
+Published-In: Neuroimage, 25: 1325–1335
+Published-Year: 2005
+Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/15850749
+
+
+Depends: fsl-jhu-dti-whitematter-atlas
+License: custom, non-commerical
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Remark: This package is waiting for the Debian data package archive to become available.
+Pkg-URL: http://neuro.debian.net/pkgs/fsl-jhu-dti-whitematter-atlas.html
+Pkg-Description: human brain white-matter atlas
+ There are two white-matter atlases, both kindly provided by Dr. Susumu Mori,
+ Laboratory of Brain Anatomical MRI, Johns Hopkins University.
+ .
+ In the ICBM-DTI-81 white-matter labels atlas, 50 white matter tract labels
+ were created by hand segmentation of a standard-space average of diffusion MRI
+ tensor maps from 81 subjects; mean age 39 (18:59), M:42, F: 39. The diffusion
+ data was kindly provided by the ICBM DTI workgroup.
+ .
+ In the JHU white-matter tractography atlas, 20 structures were identified
+ probabilistically by averaging the results of running deterministic
+ tractography on 28 normal subjects (mean age 29, M:17, F:11).
+ .
+ This package is part of FSL.
+Published-Authors: Kegang Hua, Jiangyang Zhang, Setsu Wakana, Hangyi Jiang, Xin Li, Daniel S Reich, Peter A Calabresi, James J Pekar, Peter C M van Zijl, Susumu Mori
+Published-Title: Tract probability maps in stereotaxic spaces: analyses of white matter anatomy and tract-specific quantification.
+Published-In: Neuroimage, 39: 336–347
+Published-Year: 2008
+Published-DOI: 10.1016/j.neuroimage.2007.07.053
+
+
+Depends: fsl-mni-structural-atlas
+License: custom, non-commerical
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Remark: This package is waiting for the Debian data package archive to become available.
+Pkg-URL: http://neuro.debian.net/pkgs/fsl-mni-structural-atlas.html
+Pkg-Description: hand-segmented single-subject human brain atlas
+ 9 anatomical structural regions, kindly provided by Jack Lancaster at the
+ Research Imaging Center, UTHSCSA, Texas (originally from the McConnell Brain
+ Imaging Centre, MNI).
+ .
+ A single subject's structural image was hand segmented, and the labels were
+ then propagated to more than 50 subjects' structural images using nonlinear
+ registration. Each resulting labelled brain was then transformed into MNI152
+ space using affine registration, before averaging segmentations across
+ subjects to produce the final probability images.
+ .
+ This package is part of FSL.
+Published-Authors: J. Mazziotta, A. Toga, A. Evans, P. Fox, J. Lancaster, K. Zilles, R. Woods, T. Paus, G. Simpson, B. Pike and others
+Published-Title: A probabilistic atlas and reference system for the human brain: International Consortium for Brain Mapping (ICBM)
+Published-In: The Royal Society Philosophical Transactions B, 356: 1293–1322
+Published-Year: 2001
+
+
+Depends: fsl-talairach-daemon-atlas
+License: custom, non-commerical
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Remark: This package is waiting for the Debian data package archive to become available.
+Pkg-URL: http://neuro.debian.net/pkgs/fsl-talairach-daemon-atlas.html
+Pkg-Description: structural anatomy labels of the Talairach atlas
+ A conversion of the original Talairach structural labellings, kindly provided
+ by Jack Lancaster and Diana Tordesillas Gutiérrez at the Research Imaging
+ Center, UTHSCSA, Texas.
+ .
+ This is a digitised version of the original (coarsely sliced) Talairach atlas
+ (Lancaster 2000) after the application of a correcting affine transform
+ (Lancaster 2007) to register it into MNI152 space.
+ .
+ This package is part of FSL.
+Published-Authors: J L Lancaster, M G Woldorff, L M Parsons, M Liotti, C S Freitas, L Rainey, P V Kochunov, D Nickerson, S A Mikiten, P T Fox
+Published-Title: Automated Talairach atlas labels for functional brain mapping.
+Published-In: Human Brain Mapping, 10: 120–131
+Published-Year: 2000
+Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/10912591
+
+
+Depends: fsl-oxford-thalamic-connectivity-atlas
+License: custom, non-commerical
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Remark: This package is waiting for the Debian data package archive to become available.
+Pkg-URL: http://neuro.debian.net/pkgs/fsl-oxford-thalamic-connectivity-atlas.html
+Pkg-Description: probabilistic brain atlas of thalamic white-matter connectivity
+ A probabilistic atlas of 7 sub-thalamic regions, segmented according to their
+ white-matter connectivity to cortical areas, kindly provided by Heidi
+ Johansen-Berg and Timothy Behrens, FMRIB.
+ .
+ This connectivity atlas reports probability of anatomical connection from
+ points in the thalamus to each of 7 cortical zones. These probabilities are
+ calculated using probabilistic diffusion tractography in multiple subjects.
+ .
+ This package is part of FSL.
+Published-Authors: TEJ Behrens, H. Johansen-Berg, MW Woolrich, SM Smith, CAM Wheeler-Kingshott, PA Boulby, GJ Barker, EL Sillery, K. Sheehan, O. Ciccarelli and others
+Published-Title: Non-invasive mapping of connections between human thalamus and cortex using diffusion imaging.
+Published-In: Nature Neuroscience, 6: 750–757
+Published-Year: 2003
+
+
+Depends: fsl-bangor-cerebellar-atlas
+License: custom, non-commerical
+Responsible: NeuroDebian team <team@neuro.debian.net>
+Remark: This package is waiting for the Debian data package archive to become available.
+Pkg-URL: http://neuro.debian.net/pkgs/fsl-bangor-cerebellar-atlas.html
+Pkg-Description: probabilistic atlas of the human cerebellum
+ This is a probabilistic atlas of the cerebellar lobules in the anatomical
+ space defined by the MNI152 template. Lobules were masked separately on
+ T1-weighted MRI scans (1 mm isotropic resolution) of 20 healthy young
+ participants (10 male, 10 female, average age 23.7 yrs). These cerebella were
+ then aligned to the standard or non-linear version of the whole-brain MNI152
+ template using a number of commonly used normalization algorithms, or to a
+ previously published cerebellum-only template (Diedrichsen, J., 2006. A
+ spatially unbiased atlas template of the human cerebellum. NeuroImage 33,
+ 127-138).
+ .
+ This package is part of FSL.
+Published-Authors: Jörn Diedrichsen, Joshua H Balsters, Jonathan Flavell, Emma Cussans, Narender Ramnani
+Published-Title: A probabilistic MR atlas of the human cerebellum.
+Published-In: Neuroimage, 46: 39–46
+Published-Year: 2009
+Published-DOI: 10.1016/j.neuroimage.2009.01.045
