@@ -9,7 +9,7 @@ Description: Debian Science packages for Neuroscience Datasets
 Depends: mni-icbm152-nlin-2009
 Homepage: http://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009
 License: custom, DFSG-compliant
-Responsible: Michael Hanke <michael.hanke@gmail.com>
+Responsible: NeuroDebian team <team@neuro.debian.net>
 Pkg-URL: http://neuro.debian.net/pkgs/mni-icbm152-nlin-2009a.html
 Pkg-Description: MNI stereotaxic space human brain template
  This is an unbiased standard magnetic resonance imaging template volume for
@@ -32,7 +32,7 @@ Remark: This package is waiting for the Debian data package archive to become av
 Depends: mni-colin27-nifti
 Homepage: http://packages.bic.mni.mcgill.ca/tgz/
 License: custom, DFSG-compliant
-Responsible: Michael Hanke <michael.hanke@gmail.com>
+Responsible: NeuroDebian team <team@neuro.debian.net>
 Pkg-URL: http://neuro.debian.net/pkgs/mni-colin27-nifti.html
 Pkg-Description: Talairach stereotaxic space template
  This template MRI volume was created from 27 T1-weighted MRI scans of a
@@ -51,7 +51,7 @@ Remark: This package is waiting for the Debian data package archive to become av
 Depends: haxby2001-faceobject
 Homepage: http://data.pymvpa.org/datasets/haxby2001
 License: CC-BY-SA
-Responsible: Michael Hanke <michael.hanke@gmail.com>
+Responsible: NeuroDebian team <team@neuro.debian.net>
 Pkg-URL: http://neuro.debian.net/pkgs/haxby2001-faceobject.html
 Pkg-Description: face and object processing in ventral temporal cortex (fMRI)
  This is data from a block-design fMRI study on face and object representation
