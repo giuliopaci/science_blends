@@ -344,10 +344,11 @@ Pkg-Description: analysis of brain imaging data sequences
  of spatially extended statistical processes used to test hypotheses about
  functional imaging data. These ideas have been instantiated in software that is
  called SPM. It is designed for the analysis of fMRI, PET, SPECT, EEG and MEG.
-Published-Authors: K. J. Friston, A. P. Holmes, K. J. Worsley, J.-B. Poline, C. D. Frith, and R. S. J. Frackowiak
-Published-Title: Statistical parametric maps in functional imaging: A general linear approach.
-Published-In: Human Brain Mapping, 2: 189-210
-Published-Year: 1995
+Published-Authors: Karl J. Friston, John T. Ashburner, Stephen Kiebel, Thomas E. Nichols and William D. Penny
+Published-Title: Statistical Parametric Mapping: The Analysis of Functional Brain Images.
+Published-In: Elsevier/Academic Press: Amsterdam
+Published-Year: 2007
+Published-URL: http://www.elsevierdirect.com/product.jsp?isbn=9780123725608
 Remark: This software is written for matlab, but initial tests indicate that
  some (significant) portion of it might also work with octave. More tests are
  pending...
