@@ -1,0 +1,266 @@
+Task: Nanoscale Physics
+Description: Debian Science Nanoscale Physics packages
+ This metapackage will install Debian Science packages related to
+ Nanoscale Physics, which corresponds to the study of physical systems
+ typically ranging from 1 to 100 nm in size. The properties of such
+ systems usually depend on the number of atoms they are made of, while
+ this number is still relatively large for an accurate description.
+ .
+ The nanoscale is the meeting point of classical and quantum physics.
+ Previous research efforts were considering either smaller systems, for
+ which everybody could develop their own methods and software
+ independently, or much bigger systems, for which it was clearly
+ impossible to provide a fine-grained description. Addressing the issues
+ raised by the nanoscale requires however cooperative and coordinated
+ efforts in a multidisciplinary context. This metapackage is part of
+ such an endeavor.
+ .
+ Please note that packages listed as "recommended" may not be installed 
+ by default, and that packages listed as "suggested" will not be
+ installed unless the user asks for them to be installed.
+ .
+ You might also be interested in the debtag field::physics and, depending on
+ your focus, in the physics and education-physics metapackages.
+
+Depends: abinit, mpqc, openmx, psi3
+
+Depends: drawxtl
+
+Depends: etsf-io
+
+Depends: feynmf
+
+Depends: fityk
+
+Depends: gnuplot, grace
+
+Depends: horae, ifeffit, sixpack
+
+Depends: libblas3gf, liblapack3gf
+
+Depends: libfftw3-3
+
+Depends: libgsl0ldbl, gsl-bin
+
+Depends: libnetcdf4, netcdf-bin, netcdf-doc, nco, ncview
+
+Depends: (libopenmpi1.3|libmpich2-1.2|libmpich1.0gf)
+
+Depends: octaviz
+
+Depends: (openmpi-bin|mpich2|mpich-bin)
+
+Depends: (openmpi-doc|mpich2-doc|mpi-doc)
+
+Depends: science-numericalcomputation
+Why: numerical programming environments similar to Matlab/IDL
+
+Depends: v-sim
+
+Recommends: axiom, maxima
+Why: Symbolic maths
+
+Recommends: cadabra
+
+Recommends: libblacs-mpi1
+
+Recommends: libscalapack-mpi1
+
+Recommends: python-scipy, python-scitools, python-sympy
+Why: ODE solvers, optimization algorithms, symbolic maths
+
+Suggests: gpiv, gpivtools
+
+Suggests: life-apps
+Why: Partial differential equation library, FEA, CFD
+
+Suggests: science-statistics, science-mathematics
+
+Suggests: scilab-sivp
+
+Depends: ape
+Homepage: http://www.tddft.org/programs/APE/
+Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
+License: GPL
+WNPP: 602092
+Vcs-Svn: http://www.tddft.org/svn/APE/trunk
+Published-Title: Generating relativistic pseudo-potentials with explicit incorporation of semi-core states using APE, the Atomic Pseudo-potentials Engine
+Published-Authors: M. J. T. Oliveira, F. Nogueira
+Published-Year: 2008
+Published-In: Computer Physics Communications, 178:524-534
+Published-URL: http://dx.doi.org/10.1016/j.cpc.2007.11.003
+Published-DOI: 10.1016/j.cpc.2007.11.003
+Pkg-Description: Atomic pseudopotential generator
+ APE (Atomic Pseudopotential Engine) is a tool for generating atomic
+ pseudopotentials within the Density-Functional Theory framework. It
+ produces pseudopotential files suitable for use with SIESTA, OCTOPUS
+ and ABINIT.
+
+Depends: atompaw
+Homepage: http://www.wfu.edu/~natalie/papers/pwpaw/man.html
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: GPL
+WNPP: 602093
+Published-Title: A Projector Augmented Wave (PAW) code for electronic structure calculations, Part I: atompaw for generating atom-centered functions
+Published-Authors: N. A. W. Holzwarth, A. R. Tackett, G. E. Matthews
+Published-Year: 2001
+Published-In: Computer Physics Communications, 178:524-534
+Published-URL: http://dx.doi.org/10.1016/S0010-4655(00)00244-7
+Published-DOI: 10.1016/S0010-4655(00)00244-7
+Pkg-Description: PAW atomic dataset generator
+ The computer program atompaw generates projector and basis functions
+ which are needed for performing electronic structure calculations based
+ on the Projector-Augmented Wave (PAW) method. The program is applicable
+ to materials throughout the periodic table. It produces an output file
+ containing the projector and basis functions and the corresponding
+ matrix elements in a form which can be read be the PWPAW and ABINIT
+ codes. Additional data files are also produced which can be used to
+ help evaluate the accuracy and efficiency of the generated functions.
+
+Depends: bigdft
+Homepage: http://inac.cea.fr/L_Sim/BigDFT/
+Responsible: Damien Caliste <damien.caliste@cea.fr>
+License: GPL
+WNPP: 602096
+Published-Title: Daubechies wavelets as a basis set for density functional pseudopotential calculations
+Published-Authors: L. Genovese, A. Neelov, S. Goedecker, T. Deutsch, S. A. Ghasemi, A. Willand, D. Caliste, O. Zilberberg, M. Rayson, A. Bergman, R. Schneider
+Published-Year: 2008
+Published-In: Journal of Chemical Physics, 129:014109
+Published-URL: http://link.aip.org/link/?JCP/129/014109
+Published-DOI: 10.1063/1.2949547
+Pkg-Description: Wavelet-based electronic-structure calculations
+ BigDFT is a DFT-based massively parallel electronic structure code using
+ a wavelet basis set. Wavelets constitute a real space basis set
+ distributed on an adaptive mesh (two levels of resolution in our
+ implementation).
+ .
+ Thanks to our Poisson solver based on a Green function formalism,
+ periodic systems, surfaces and isolated systems can be simulated with
+ the proper boundary conditions. GTH or HGH pseudopotentials are used to
+ remove the core electrons.
+ .
+ The Poisson solver is also integrated in ABINIT, OCTOPUS and CP2K.
+
+Depends: cp2k
+Homepage: http://cp2k.berlios.de/
+License: GPL
+WNPP: 518984
+Pkg-Description: CP2K is a program to perform atomistic and molecular
+ simulations of solid state, liquid, molecular and biological
+ systems. It provides a general framework for different methods such as
+ e.g. density functional theory (DFT) using a mixed Gaussian and plane
+ waves approach (GPW), and classical pair and many-body potentials.
+
+Depends: espresso++
+Homepage: http://espresso.scai.fraunhofer.de/
+License: Not yet known (hopefully free)
+Pkg-Description: Extensible Simulation Package for Research on Soft matter
+ ESPResSo is a highly versatile software package for the scientific
+ simulation and analysis of coarse-grained atomistic or bead-spring
+ models as they are used in soft matter research, with emphasis on
+ charged systems.
+
+Depends: exciting
+Homepage: http://exciting-code.org/
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: GPL
+WNPP: 602097
+Pkg-Description: All-electron full-potential electronic-structure code
+ exciting is a full-potential all-electron Density-Functional-Theory
+ (DFT) package based on the Linearized Augmented Plane-Wave (LAPW)
+ method.
+ .
+ It can be applied to all kinds of materials, irrespective of the atomic
+ species involved, and also allows for the investigation of the
+ atomic-core region.
+ .
+ We particularly focus on excited state properties, within the framework
+ of time-dependent DFT (TDDFT) as well as within many-body perturbation
+ theory (MBPT).
+
+Depends: octopus
+Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Main_Page
+Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
+License: LGPL
+WNPP: 602111
+Vcs-Svn: http://www.tddft.org/svn/octopus/trunk
+Published-Title: octopus: a tool for the application of time-dependent density functional theory
+Published-Authors: A. Castro, H. Appel, M. Oliveira, C.A. Rozzi, X. Andrade, F. Lorenzen, M. A. L. Marques, E. K. U. Gross, A. Rubio
+Published-Year: 2006
+Published-In: Physica Status Solidi B, 243:2465-2488
+Published-URL: http://hdl.handle.net/10.1002/pssb.200642067
+Published-DOI: 10.1002/pssb.200642067
+Pkg-Description: Real-space TDDFT-based electronic-structure code
+ Octopus is a scientific program aimed at the ab initio virtual
+ experimentation on a hopefully ever-increasing range of system types.
+ Electrons are described quantum-mechanically within Density-Functional
+ Theory (DFT), in its Time-Dependent form (TDDFT) when doing simulations
+ in time. Nuclei are described classically as point particles.
+ Electron-nucleus interaction is described within the pseudopotential
+ approximation.
+
+Depends: pwscf
+Homepage: http://www.pwscf.org/
+License: GPL
+Pkg-Description: Electronic structure calculations
+ Computer code for electronic-structure calculations within Density-Functional
+ Theory and Density-Functional Perturbation Theory, using pseudopotentials and a
+ plane-wave basis set.
+
+Depends: pymca
+Homepage: http://pymca.sourceforge.net/
+Responsible: Teemu Ikonen <tpikonen@gmail.com>
+License: GPL-2+
+WNPP: 514903
+Vcs-Git: git://git.debian.org/?p=debian-science/packages/pymca.git
+Pkg-Description:  Python toolkit and application for X-ray fluorescence analysis
+ PyMCA is an application and Python toolkit for analysis of X-ray
+ fluorescence spectra.
+ .
+ It can read data files in the SPEC and ESRF data file (EDF) formats.
+
+Depends: python-ase
+Homepage: https://wiki.fysik.dtu.dk/ase/
+Responsible: Ask Hjorth Larsen <askl@fysik.dtu.dk>
+License: GPL, LGPL
+WNPP: 602126
+Vcs-Svn: https://svn.fysik.dtu.dk/projects/ase/trunk
+Published-Title: An object-oriented scripting interface to a legacy electronic structure code
+Published-Author: S. R. Bahn and K. W. Jacobsen
+Published-Year: 2002
+Published-In: Computing in Science and Engineering, 4:56-66
+Published-URL: http://dx.doi.org/10.1109/5992.998641
+Published-DOI: 10.1109/5992.998641
+Pkg-Description: Atomic Simulation Environment
+ The Atomic Simulation Environment (ASE) is the common part of the
+ simulation tools developed at CAMd. ASE provides Python modules for
+ manipulating atoms, analyzing simulations, visualization, and wrapping
+ electronic-structure codes.
+ .
+ It currently supports ABINIT, ASAP, DFTB, ELK, EXCITING, EMT, FHI-AIMS,
+ FLEUR, GPAW, HOTBIT, JACAPO, SIESTA, and TURBOMOLE.
+
+Depends: quantumespresso
+Homepage:  http://www.quantum-espresso.org/
+License: GPL
+Pkg-Description: Electronic structure calculations
+ Integrated suite of computer codes for electronic-structure calculations and
+ materials modeling at the nanoscale. It is based on density-functional theory,
+ plane waves, and pseudopotentials (both norm-conserving and ultrasoft).
+
+Depends: wannier90
+Homepage: http://www.wannier.org/
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: GPL
+WNPP: 578829
+Published-Title: A Tool for Obtaining Maximally-Localised Wannier Functions
+Published-Authors: A. A. Mostofi, J. R. Yates, Y.-S. Lee, I. Souza, D. Vanderbilt, N. Marzari
+Published-Year: 2008
+Published-In: Computer Physics Communications, 178:685-699
+Published-URL: http://dx.doi.org/10.1016/j.cpc.2007.11.016
+Published-DOI: 10.1016/j.cpc.2007.11.016
+Pkg-Description: Maximally Localized Wannier Functions
+ Wannier90 is an electronic-structure software computing
+ maximally-localized Wannier functions (MLWF). It works on top of other
+ electronic-structure software, such as Abinit, FLEUR, and PwSCF.
+

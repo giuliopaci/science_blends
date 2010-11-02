@@ -1,0 +1,117 @@
+Task: Nanoscale Physics Development
+Description: Debian Science Nanoscale Physics development packages
+ This metapackage will install Debian Science packages which might be
+ helpful for the development of applications for Nanoscale Physics.
+ .
+ Please note that packages listed as "recommended" may not be installed
+ by default, and that packages listed as "suggested" will not be
+ installed unless the user asks for them to be installed.
+ .
+ You might also be interested in the debtag field::physics and, depending
+ on your focus, in the nanoscale-physics, physics and education-physics
+ metapackages.
+
+Depends: abinit-dev, abinit-doc
+Why: Abinit input parser and symmetry finder
+
+Depends: liblas-dev, libblas-doc, liblapack-dev, liblapack-doc
+
+Depends: libetsf-io-dev, etsf-io-doc
+
+Depends: libfftw3-dev, libfftw3-doc
+
+Depends: libgsl0-dev, gsl-bin, gsl-doc-info, (gsl-ref-html|gsl-ref-psdoc)
+
+Depends: libnetcdf-dev, netcdf-doc
+
+Depends: libtrilinos-dev, libtrilinos-doc
+Why: High-performance computing
+
+Depends: libxc-dev
+
+Depends: wannier90-dev
+
+Recommends: gsl-doc-pdf
+
+Recommends: libblacs-mpi-dev, blacs-doc
+
+Recommends: libscalapack-mpi-dev, scalapack-doc
+
+Recommends: science-mathematics-dev
+
+Suggests: liblife-dev
+Why: Partial differential equation library, FEA, CFD
+
+Suggests: opencascade-tools
+
+Suggests: python-netcdf
+
+Suggests: root-system, root-plugin-fftw3, libroot-mathmore5.18
+
+Depends: libfox95
+Homepage: http://www1.gly.bris.ac.uk/~walker/FoX/
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: BSD-like
+WNPP: 602100
+Pkg-Description: A Fortran library for XML
+ FoX is an XML library written in Fortran 95. It allows software
+ developers to read, write and modify XML documents from Fortran
+ applications without the complications of dealing with multi-language
+ development.
+ .
+ The developer is offered three principle APIs which are accessed as
+ Fortran modules. FoX_wxml is an XML writer used to sequentially create
+ arbitrary XML documents quickly with minimal memory requirements.
+ FoX_sax is a streaming, validating parser based on java's Simple API
+ for XML. The third module, FoX_dom, offers a full implementation of the
+ W3C Document Object Model (DOM).
+
+Depends: libnbc
+Homepage: http://www.unixer.de/research/nbcoll/libnbc/
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: BSD
+WNPP: 602104
+Published-Title: Implementation and Performance Analysis of Non-Blocking Collective Operations for MPI
+Published-Authors: T. Hoefler, A. Lumsdaine, W. Rehm
+Published-Year: 2007
+Published-In: Proceedings of the 2007 International Conference on High Performance Computing, Networking, Storage and Analysis, SC07
+Published-URL: http://www.unixer.de/publications/?pub=46
+Published-DOI: 10.1145/1362622.1362692
+Pkg-Description: Non-Blocking MPI Collective Operations
+ LibNBC is a prototypic implementation of a nonblocking interface for MPI
+ collective operations. Based on ANSI C and MPI-1, it supports all MPI-1
+ collective operations in a nonblocking manner. 
+
+Depends: libxc
+Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
+Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
+License: LGPL
+WNPP: 602110
+Vcs-Svn: http://www.tddft.org/svn/octopus/trunk/libxc/
+Pkg-Description: Library of DFT exchange-correlation functionals
+ Libxc is a library of exchange-correlation functionals. The aim is to
+ provide a portable, well tested and reliable set of exchange and
+ correlation functionals that can be used by all the ETSF codes and also
+ other codes.
+ .
+ In libxc you can find different types of functionals: LDA, GGA,
+ hybrids, mGGA (experimental) and LCA (not working). This functionals
+ depend on local information, in the sense that the value of the
+ potential at a given point depends only on the values of the density -
+ and the gradient of the density and the kinetic energy density, for the
+ GGA and mGGA cases, or the vorticity for LCA - at a given point.
+ .
+ As of today, more than 100 functionals are available for various kinds
+ of electronic-structure calculations.
+
+Depends: spglib
+Homepage: http://sourceforge.net/projects/spglib/
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: BSD
+WNPP: 602113
+Vcs-Svn: https://spglib.svn.sourceforge.net/svnroot/spglib
+Pkg-Description: Crystal symmetry finder library
+ Spglib is a C-library written for finding crystal symmetry. Symmetry
+ operations, space groups, ..., can be obtained using this symmetry
+ finder.
+
