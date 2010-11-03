@@ -83,7 +83,6 @@ Homepage: http://www.tddft.org/programs/APE/
 Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
 License: GPL
 WNPP: 602092
-Vcs-Svn: http://www.tddft.org/svn/APE/trunk
 Published-Title: Generating relativistic pseudo-potentials with explicit incorporation of semi-core states using APE, the Atomic Pseudo-potentials Engine
 Published-Authors: M. J. T. Oliveira, F. Nogueira
 Published-Year: 2008
@@ -183,7 +182,6 @@ Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Main_Page
 Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
 License: LGPL
 WNPP: 602111
-Vcs-Svn: http://www.tddft.org/svn/octopus/trunk
 Published-Title: octopus: a tool for the application of time-dependent density functional theory
 Published-Authors: A. Castro, H. Appel, M. Oliveira, C.A. Rozzi, X. Andrade, F. Lorenzen, M. A. L. Marques, E. K. U. Gross, A. Rubio
 Published-Year: 2006
@@ -224,7 +222,6 @@ Homepage: https://wiki.fysik.dtu.dk/ase/
 Responsible: Ask Hjorth Larsen <askl@fysik.dtu.dk>
 License: GPL, LGPL
 WNPP: 602126
-Vcs-Svn: https://svn.fysik.dtu.dk/projects/ase/trunk
 Published-Title: An object-oriented scripting interface to a legacy electronic structure code
 Published-Author: S. R. Bahn and K. W. Jacobsen
 Published-Year: 2002

@@ -87,7 +87,6 @@ Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
 Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
 License: LGPL
 WNPP: 602110
-Vcs-Svn: http://www.tddft.org/svn/octopus/trunk/libxc/
 Pkg-Description: Library of DFT exchange-correlation functionals
  Libxc is a library of exchange-correlation functionals. The aim is to
  provide a portable, well tested and reliable set of exchange and
@@ -109,7 +108,6 @@ Homepage: http://sourceforge.net/projects/spglib/
 Responsible: Yann Pouillon <yann.pouillon@gmail.com>
 License: BSD
 WNPP: 602113
-Vcs-Svn: https://spglib.svn.sourceforge.net/svnroot/spglib
 Pkg-Description: Crystal symmetry finder library
  Spglib is a C-library written for finding crystal symmetry. Symmetry
  operations, space groups, ..., can be obtained using this symmetry
