@@ -197,14 +197,6 @@ Pkg-Description: Real-space TDDFT-based electronic-structure code
  Electron-nucleus interaction is described within the pseudopotential
  approximation.
 
-Depends: pwscf
-Homepage: http://www.pwscf.org/
-License: GPL
-Pkg-Description: Electronic structure calculations
- Computer code for electronic-structure calculations within Density-Functional
- Theory and Density-Functional Perturbation Theory, using pseudopotentials and a
- plane-wave basis set.
-
 Depends: pymca
 Homepage: http://pymca.sourceforge.net/
 Responsible: Teemu Ikonen <tpikonen@gmail.com>
