@@ -211,7 +211,7 @@ Pkg-Description:  Python toolkit and application for X-ray fluorescence analysis
 
 Depends: python-ase
 Homepage: https://wiki.fysik.dtu.dk/ase/
-Responsible: Ask Hjorth Larsen <askl@fysik.dtu.dk>
+Responsible: Ask Hjorth Larsen <askhl@fysik.dtu.dk>
 License: GPL, LGPL
 WNPP: 602126
 Published-Title: An object-oriented scripting interface to a legacy electronic structure code
