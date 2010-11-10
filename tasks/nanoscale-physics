@@ -44,13 +44,13 @@ Depends: libgsl0ldbl, gsl-bin
 
 Depends: libnetcdf4, netcdf-bin, netcdf-doc, nco, ncview
 
-Depends: (libopenmpi1.3|libmpich2-1.2|libmpich1.0gf)
+Depends: libopenmpi1.3|libmpich2-1.2|libmpich1.0gf
 
 Depends: octaviz
 
-Depends: (openmpi-bin|mpich2|mpich-bin)
+Depends: openmpi-bin|mpich2|mpich-bin
 
-Depends: (openmpi-doc|mpich2-doc|mpi-doc)
+Depends: openmpi-doc|mpich2-doc|mpi-doc
 
 Depends: science-numericalcomputation
 Why: numerical programming environments similar to Matlab/IDL

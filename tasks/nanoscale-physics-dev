@@ -20,7 +20,7 @@ Depends: libetsf-io-dev, etsf-io-doc
 
 Depends: libfftw3-dev, libfftw3-doc
 
-Depends: libgsl0-dev, gsl-bin, gsl-doc-info, (gsl-ref-html|gsl-ref-psdoc)
+Depends: libgsl0-dev, gsl-bin, gsl-doc-info, gsl-ref-html|gsl-ref-psdoc
 
 Depends: libnetcdf-dev, netcdf-doc
 
