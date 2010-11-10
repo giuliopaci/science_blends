@@ -1,9 +1,12 @@
-debian-science (0.12) UNRELEASED; urgency=low
+debian-science (0.12) unstable; urgency=low
 
   * tasks/statistics: Fix typo in package description
     Closes: #592701
+  * config/control: Depends: blends-common (>= 0.6.15)
+  * debian/control.stub: Build-Depends-Indep: blends-dev (>= 0.6.15)
+    Closes: #601959
 
- -- Andreas Tille <tille@debian.org>  Thu, 12 Aug 2010 10:32:27 +0200
+ -- Andreas Tille <tille@debian.org>  Mon, 08 Nov 2010 16:14:37 +0100
 
 debian-science (0.11) unstable; urgency=low
 
