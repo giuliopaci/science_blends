@@ -44,6 +44,8 @@ Depends: confluence
 
 Depends: ngspice, gspiceui, easyspice
 
+Depends: gnucap
+
 Depends: qelectrotech
 
 Depends: covered
