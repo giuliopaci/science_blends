@@ -48,6 +48,8 @@ Depends: qelectrotech
 
 Depends: covered
 
+Depends: arduino, arduino-core
+
 Depends: herb
 WNPP: 516928
 Homepage: http://www.banu.com/herb
