@@ -6,7 +6,7 @@ Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.
 DM-Upload-Allowed: yes
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
  Andreas Tille <tille@debian.org>, Sylvestre Ledru <sylvestre@debian.org> 
-Build-Depends-Indep: blends-dev (>= 0.6.14), debhelper (>= 7)
+Build-Depends-Indep: blends-dev (>= 0.6.15), debhelper (>= 7)
 Standards-Version: 3.9.1
 Homepage: http://wiki.debian.org/DebianScience/
 Vcs-Browser: http://svn.debian.org/wsvn/blends/projects/science/trunk/debian-science/?rev=0&sc=0
@@ -22,7 +22,7 @@ Description: Debian Science tasks for tasksel
 
 Package: science-config
 Architecture: all
-Depends: adduser, ${misc:Depends}, menu, blends-common (>= 0.6.12)
+Depends: adduser, ${misc:Depends}, menu, blends-common (>= 0.6.15)
 Description: Debian Science Project config package
  This package provides the basic infrastructure of all science-* packages and is
  needed by them.
@@ -72,7 +72,7 @@ Package: science-astronomy
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: astronomical-almanac, boinc-app-milkyway, gcx, gpredict, libcfitsio3, lightspeed, openuniverse, sextractor, slang-cfitsio, stardata-common, stellarium, xorsa, xplanet
-Suggests: fv, gliese, linoccult, midas, orbfit, pdl, pgplot5, python-scientific, saods9, spacechart, ssystem, stars, sunclock, worldwind, xephem, xtide, xtide-data, yale, yorick
+Suggests: fv, gliese, linoccult, midas, orbfit, pdl, pgplot5, python-scientific, saods9, scilab-celestlab, scilab-overload, scilab-scimysql, spacechart, ssystem, stars, sunclock, worldwind, xephem, xtide, xtide-data, yale, yorick
 Description: Debian Science Astronomy packages
  This metapackage will install Debian Science packages related to
  Astronomy.  You might also be interested in field::astronomy debtag
@@ -95,8 +95,8 @@ Description: Debian Science Astronomy-dev packages
 Package: science-biology
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: bauble, med-bio
-Suggests: med-bio-dev
+Recommends: avida-base, bauble, critterding, med-bio
+Suggests: genesis, med-bio-dev
 Description: Debian Science Biology packages
  This metapackage will install Debian Science packages related to
  Biology.  You might also be interested in the field::biology debtag.
@@ -112,7 +112,7 @@ Package: science-chemistry
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: adun.app, apbs, avogadro, bkchem, bodr, chemeq, chemical-mime-data, chemtool, drawxtl, easychem, gabedit, galculator, gamgi, garlic, gausssum, gchempaint, gcrystal, gcu-bin, gcu-plugin, gdis, gdpc, gelemental, ghemical, gperiodic, gromacs | gromacs-lam | gromacs-mpich | gromacs-openmpi, kalzium, katomic, libcdk-java, massxpert, mopac7-bin, mpqc, mpqc-support, openbabel, psi3, pymol, python-openbabel, rasmol, v-sim, viewmol, xbs, xdrawchem, xmakemol-gl | xmakemol
-Suggests: cp2k, gdpc-examples, jmol, libegad, libint, molden, molekel, pdb2pqr, polyxmass, qutemol, tinker
+Suggests: chemical-structures, cp2k, gdpc-examples, jmol, libegad, libint, molden, molekel, openchrom, pdb2pqr, polyxmass, qutemol, tinker
 Description: Debian Science Chemistry packages
  This metapackage will install Debian Science packages related to
  Chemistry.  You might also be interested in the field::chemistry
@@ -122,8 +122,8 @@ Description: Debian Science Chemistry packages
 Package: science-dataacquisition
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: engauge-digitizer, g3data, jaaa, ktimetrace, qtdmm
-Suggests: comedi-source, epics, gnudatalanguage, gpsd, hkl, libgpib-bin, mx-dataacquisition, plot-digitizer, python-visa, rtai, tango
+Recommends: engauge-digitizer, g3data, ghkl, jaaa, ktimetrace, qtdmm
+Suggests: comedi-source, epics, gnudatalanguage, gpsd, libgpib-bin, mx-dataacquisition, plot-digitizer, python-visa, rtai, tango
 Description: Debian Science data acquisition packages
  This metapackage will install Debian Science packages related to data
  acquisition.  This might be used in several sciences (as for instance
@@ -132,8 +132,8 @@ Description: Debian Science data acquisition packages
 Package: science-electronics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: avrdude, confluence, covered, electric, freehdl, gcc-avr, geda, gerbv, ghdl, gplcver, gputils, gspiceui, iverilog, kicad, klogic, linsmith, oregano, pcb, qelectrotech, qucs, simulpic, texlive-latex-extra, tkgate, uisp, verilator, xsmc-calc
-Suggests: easyspice, geda-doc, geda-examples, herb, kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, kicad-doc-it, kicad-doc-pt, kicad-doc-ru, ksimus, ngspice, vbpp, vbs
+Recommends: arduino, arduino-core, avrdude, confluence, covered, electric, freehdl, gcc-avr, geda, gerbv, ghdl, gnucap, gplcver, gputils, gspiceui, iverilog, kicad, klogic, linsmith, oregano, pcb, qelectrotech, qucs, simulpic, texlive-latex-extra, tkgate, uisp, verilator, xsmc-calc
+Suggests: easyspice, fritzing, geda-doc, geda-examples, herb, kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, kicad-doc-it, kicad-doc-pt, kicad-doc-ru, ksimus, liblife-dev, ngspice, vbpp, vbs, visolate
 Description: Debian Science Electronics packages
  This metapackage will install Debian Science packages related to
  Electronics.  You might also be interested in the field::electronics
@@ -143,8 +143,8 @@ Description: Debian Science Electronics packages
 Package: science-engineering
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: code-saturne, freecad, gerris, gmsh, hdfview, netgen, pythoncad, qcad, sailcut, syfi-bin, varkon, z88
-Suggests: avl, brlcad, code-aster, libmesh-dev, libmesh0.6.2-dev, opencascade-tools, openturns, pycgns, salome, tochnog
+Recommends: cba, code-saturne, ecs, freecad, gerris, gmsh, hdfview, life-apps, netgen, python-fiat, python-openturns, pythoncad, qcad, sailcut, syfi-bin, syrthes, z88
+Suggests: avl, brlcad, code-aster-gui, libmesh-dev, libmesh0.6.2-dev, opencascade-tools, pycgns, r-cran-spc, salome, tochnog, varkon
 Description: Debian Science Engineering packages
  This metapackage is part od the Debian Pure Blend "Debian Science"
  and installs packages related to Engineering.
@@ -156,8 +156,8 @@ Description: Debian Science Engineering packages
 Package: science-engineering-dev
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: libalberta2-dev, libcgns-dev, libfvm-dev, libgetfem++-dev, libhdf5-serial-dev, libitpp-dev, libjhdf4-java, libjhdf5-java
-Suggests: libgtkdatabox-0.9.0-1-dev, libqwt-dev | libqwt5-qt4-dev | libqwt5-qt3-dev, pycgns
+Recommends: libalberta2-dev, libbft-dev, libcgns-dev, libdeal.ii-dev, libelmer-dev, libfvm-dev, libgetfem++-dev, libhdf5-serial-dev, libitpp-dev, libjhdf4-java, libjhdf5-java, liblife-dev, libluminate-dev, libmadlib-dev, libmed-dev, libmedc-dev, libmedimport-dev, libopenturns-dev, libslepc3.0.0-dev
+Suggests: libgtkdatabox-0.9.1-1-dev, libqwt-dev | libqwt5-qt4-dev | libqwt5-qt3-dev, pycgns
 Description: Debian Science Engineering-dev packages
  This metapackage will install Debian Science packages which might be
  helpful for development of applications for Engineering. Please note
@@ -182,7 +182,7 @@ Package: science-imageanalysis
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: gpiv, gpivtools, gwyddion, libcv-dev, libteem1
-Suggests: scilab-sivp
+Suggests: cimg-dev, libsimage-dev, scilab-sivp
 Description: Debian Science image analysis packages
  This metapackage will install Debian Science packages related to
  scientific image acquisition.  This might be used in several
@@ -201,8 +201,8 @@ Description: Debian Science Linguistics packages
 Package: science-machine-learning
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: autoclass, gprolog, libcomplearn-dev, libcv-dev, libevocosm-dev, libfann-dev, libga-dev, libqsearch-dev, libshogun-dev, libsvm-dev, libtorch3-dev, libvigraimpex-dev, lush, mcl, octave-ga, pgapack, python-genetic, python-mdp, python-mlpy, python-mvpa, python-opencv, python-pyke, python-scikits-learn, python-vigra, r-cran-bayesm, r-cran-class, r-cran-cluster, r-cran-mass, scilab-ann, vowpal-wabbit, weka, yap
-Suggests: flann, libacovea-dev, libroot-math-mlp-dev, libroot-montecarlo-vmc-dev, libroot-tmva-dev, lua-torch5, pybrain, python-scikits-statsmodels, science-numericalcomputation, science-statistics, science-typesetting
+Recommends: autoclass, gprolog, libcomplearn-dev, libcv-dev, libevocosm-dev, libfann-dev, libga-dev, liblinear-dev, libocas-dev, libqsearch-dev, libshogun-dev, libsvm-dev, libtorch3-dev, libvigraimpex-dev, lush, mcl, octave-ga, pgapack, python-genetic, python-mdp, python-mlpy, python-mvpa, python-opencv, python-pyevolve, python-pyke, python-scikits-learn, python-vigra, r-cran-amore, r-cran-bayesm, r-cran-class, r-cran-cluster, r-cran-mass, r-cran-mcmcpack, r-cran-mnp, r-cran-msm, scilab-ann, vowpal-wabbit, weka, yap
+Suggests: flann, libacovea-dev, libroot-math-mlp-dev, libroot-montecarlo-vmc-dev, libroot-tmva-dev, libshark-dev, lua-torch5, pybrain, python-scikits-statsmodels, science-numericalcomputation, science-statistics, science-typesetting
 Description: Debian Science Machine Learning packages
  This metapackage will install Debian packages which might be useful for
  scientists interested in machine learning.  Included packages range
@@ -212,8 +212,8 @@ Description: Debian Science Machine Learning packages
 Package: science-mathematics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: axiom, coq, freefem, freemat, gap, geogebra, geomview, gerris, ginac-tools, gmsh, libmatheval1, lp-solve, lrslib, magnus, mathomatic, mumps-test, netgen, octave3.2, pari-extra, pari-gp, proofgeneral, proofgeneral-coq, regina-normal, science-statistics, scilab, scilab-ann, scilab-scimax, snappea, wxmaxima, xmaxima
-Suggests: bliss, isabelle, nauty, netgen-doc, octave, octaviz, sagemath, scilab-sivp, scilab-swt
+Recommends: axiom, coq, dolfin-bin, freefem, freemat, gap, geogebra, geomview, gerris, ginac-tools, gmsh, kseg, libmatheval1, life-apps, lp-solve, lrslib, magnus, mathomatic, mumps-test, netgen, octave3.2, pari-extra, pari-gp, polylib-utils, proofgeneral, proofgeneral-coq, python-ffc, python-openturns, regina-normal, science-statistics, scilab, scilab-ann, scilab-scimax, scotch, snappea, wxmaxima, xmaxima, xmds
+Suggests: bliss, eprover, fenics, isabelle, nauty, netgen-doc, octave, octaviz, r-cran-evd, rheolef-runtime, sagemath, scilab-sivp, scilab-swt
 Description: Debian Science Mathematics packages
  This metapackage will install Debian Science packages related to
  Mathematics.  You might also be interested in the field::mathematics
@@ -223,8 +223,8 @@ Description: Debian Science Mathematics packages
 Package: science-mathematics-dev
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: libarmadillo-dev, libarpack2-dev, libatlas-base-dev, libblas-dev, libblitz0-dev, libglpk-dev, libgsl0-dev, libjama-dev, liblapack-dev, liblip-dev, libmatheval1-dev, libmatio-dev, libmei-dev, libnewmat10-dev, libranlip-dev, libstxxl-dev, libsuperlu3-dev, libtnt-dev, python-numpy
-Suggests: libcgal-dev, libitpp-dev, liblrs-dev, libmesh-dev, libnauty-dev, libnetgen-dev, libslepc2.3.2-dev, libtet1.4.2-dev, python-scikits-openopt
+Recommends: dolfin-dev, libarmadillo-dev, libarpack2-dev, libatlas-base-dev, libblas-dev, libblitz0-dev, libcneartree3-dev, libcqrlib2-dev, libcvector2-dev, libglpk-dev, libgsl0-dev, libhypre-dev, libitsol-dev, libjama-dev, liblapack-dev, liblife-dev, liblip-dev, libmadlib-dev, libmatheval1-dev, libmatio-dev, libmei-dev, libmuparser-dev, libnewmat10-dev, libqd-dev, libranlip-dev, libslepc3.0.0-dev, libsparskit-dev, libspooles-dev, libstxxl-dev, libsuitesparse-dev, libsuperlu3-dev, libtnt-dev, libtrilinos-dev, petsc-dev, python-ffc, python-numpy, python-ufc, python-ufl, ufc
+Suggests: cfortran, libcgal-dev, libitpp-dev, liblrs-dev, libmesh-dev, libnauty-dev, libnetgen-dev, libopenturns-dev, libqrupdate-dev, libtet1.4.2-dev, openturns-wrapper, python-openturns, python-scikits-openopt
 Description: Debian Science Mathematics-dev packages
  This metapackage will install Debian Science packages which might be
  helpful for development of applications for Mathematics. Please note
@@ -238,7 +238,7 @@ Package: science-meteorology
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: cdo, dballe, grads, libgrib-api-tools, magics++, ncview, zygrib
-Suggests: geonetwork, gerris, gnudatalanguage, hdf-eos4, hdf-eos5, ncl, octave-octcdf, r-base, vis5d+, visit
+Suggests: geonetwork, gerris, gnudatalanguage, hdf-eos4, hdf-eos5, ncl, octave-octcdf, python-openturns, r-base, vis5d+, visit
 Description: Debian Science Meteorology packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Meteorology and Climate.
@@ -246,8 +246,8 @@ Description: Debian Science Meteorology packages
 Package: science-meteorology-dev
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: libblas-dev, libblas-doc, libdap-dev, libemos-dev, libfftw3-dev, libfftw3-doc, libgctp-dev, libgrib-api-dev, libgrib-api-tools, libgrib2c-dev, libhe5-hdfeos-dev, liblapack-dev, liblapack-doc, liblas-dev, libnetcdf-dev, liboasis3-dev, libproj-dev, netcdf-bin
-Suggests: gfortran, ksh, libhe4-hdfeos-dev, libnc-dap-dev, libudunits-dev, pkg-config
+Recommends: libblas-dev, libblas-doc, libdap-dev, libemos-dev, libfftw3-dev, libfftw3-doc, libgctp-dev, libgrib-api-dev, libgrib-api-tools, libgrib2c-dev, libhe5-hdfeos-dev, liblapack-dev, liblapack-doc, liblas-dev, libnetcdf-dev, liboasis3-dev, libopenturns-dev, libproj-dev, netcdf-bin, openturns-wrapper, python-openturns
+Suggests: gfortran, ksh, libhe4-hdfeos-dev, liblife-dev, libnc-dap-dev, libudunits-dev, pkg-config
 Description: Debian Science Meteorology-dev packages
  This metapackage will install Debian Science packages which might be
  helpful for development of applications for Meteorology and Climate.
@@ -257,25 +257,74 @@ Description: Debian Science Meteorology-dev packages
  .
  You might also be interested in the science-meteorology metapackage.
 
+Package: science-nanoscale-physics
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: abinit, axiom, cadabra, drawxtl, etsf-io, feynmf, fityk, gnuplot, grace, gsl-bin, libblacs-mpi1, libblas3gf, libfftw3-3, libgsl0ldbl, liblapack3gf, libopenmpi1.3 | libmpich2-1.2 | libmpich1.0gf, libscalapack-mpi1, maxima, mpqc, nco, ncview, netcdf-bin, netcdf-doc, openmpi-bin | mpich2 | mpich-bin, openmpi-doc | mpich2-doc | mpi-doc, openmx, psi3, python-scipy, python-scitools, python-sympy, science-numericalcomputation, v-sim
+Suggests: ape, atompaw, bigdft, cp2k, espresso++, exciting, gpiv, gpivtools, horae, ifeffit, libnetcdf4, life-apps, octaviz, octopus, pymca, python-ase, quantumespresso, science-mathematics, science-statistics, scilab-sivp, sixpack, wannier90
+Description: Debian Science Nanoscale Physics packages
+ This metapackage will install Debian Science packages related to
+ Nanoscale Physics, which corresponds to the study of physical systems
+ typically ranging from 1 to 100 nm in size. The properties of such
+ systems usually depend on the number of atoms they are made of, while
+ this number is still relatively large for an accurate description.
+ .
+ The nanoscale is the meeting point of classical and quantum physics.
+ Previous research efforts were considering either smaller systems, for
+ which everybody could develop their own methods and software
+ independently, or much bigger systems, for which it was clearly
+ impossible to provide a fine-grained description. Addressing the issues
+ raised by the nanoscale requires however cooperative and coordinated
+ efforts in a multidisciplinary context. This metapackage is part of
+ such an endeavor.
+ .
+ Please note that packages listed as "recommended" may not be installed 
+ by default, and that packages listed as "suggested" will not be
+ installed unless the user asks for them to be installed.
+ .
+ You might also be interested in the debtag field::physics and, depending on
+ your focus, in the physics and education-physics metapackages.
+
+Package: science-nanoscale-physics-dev
+Architecture: all
+Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
+Recommends: abinit-doc, gsl-bin, libblacs-mpi-dev, libblas-doc, libetsf-io-dev, libfftw3-dev, libfftw3-doc, libgsl0-dev, liblapack-dev, liblapack-doc, liblas-dev, libnetcdf-dev, libscalapack-mpi-dev, libtrilinos-dev, libtrilinos-doc, netcdf-doc, scalapack-doc, science-mathematics-dev
+Suggests: abinit-dev, blacs-doc, etsf-io-doc, gsl-doc-info, gsl-doc-pdf, gsl-ref-html, gsl-ref-psdoc, libfox95, liblife-dev, libnbc, libroot-mathmore5.18, libxc, libxc-dev, opencascade-tools, python-netcdf, root-plugin-fftw3, root-system, spglib, wannier90-dev
+Description: Debian Science Nanoscale Physics development packages
+ This metapackage will install Debian Science packages which might be
+ helpful for the development of applications for Nanoscale Physics.
+ .
+ Please note that packages listed as "recommended" may not be installed
+ by default, and that packages listed as "suggested" will not be
+ installed unless the user asks for them to be installed.
+ .
+ You might also be interested in the debtag field::physics and, depending
+ on your focus, in the nanoscale-physics, physics and education-physics
+ metapackages.
+
 Package: science-neuroscience-cognitive
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: amide, caret, dicom3tools, dicomnifti, fslview, itksnap, lipsia, medcon, minc-tools, nifti-bin, openmeeg-tools, praat, psignifit, psychopy, python-mvpa, python-nifti, python-pyepl, slicer, voxbo, xmedcon
-Suggests: afni, bioimagesuite, brainvisa, fsl, mni-autoreg, mni-colin27-nifti, mni-icbm152-nlin-2009, mni-n3, mricron, openelectrophy, psignifit3, python-pyoptical, python-scikits-statsmodels, science-typesetting, visionegg
-Description: classes and functions for the estimation of statistical models
- scikits.statsmodels is a pure Python package that provides classes
- and functions for the estimation of several categories of statistical
- models. These currently include linear regression models, OLS, GLS,
- WLS and GLS with AR(p) errors, generalized linear models for six
- distribution families and M-estimators for robust linear models. An
- extensive list of result statistics are available for each estimation
- problem.
+Suggests: afni, bioimagesuite, brainvisa, fsl, iqr, mni-autoreg, mni-n3, mriconvert, mricron, openelectrophy, psignifit3, python-pyoptical, python-scikits-statsmodels, science-typesetting, spm8, visionegg
+Description: Debian Science packages for Cognitive Neuroscience
+ This metapackage will install Debian packages which might be useful for
+ scientists doing cognitive neuroscience research. This comprises the full
+ research process from conducting psychophysical experiments, over data
+ acquisition and analysis, to visualization and typesetting of scientific
+ results.
+ .
+ The selection of packages is targeting the application of analysis
+ techniques. Methods developers are referred to the science-statistics,
+ science-imageanalysis, science-numericalcomputation, med-imaging, and
+ med-imaging-dev metapackages for a variety of additional software that
+ might be useful in the context of cognitive neuroscience.
 
 Package: science-numericalcomputation
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: freemat, gnudatalanguage, ipython, lush, octave3.2, pdl, python-matplotlib, python-numpy, python-scipy, r-base, scilab, scilab-ann, scilab-scimax, yorick
-Suggests: octave, octave3.0, octavede, octaviz, scilab-sivp, scilab-swt
+Suggests: hpcc, octave, octave3.0, octavede, octaviz, scilab-sivp, scilab-swt
 Description: Debian Science Numerical Computation packages
  This metapackage will install Debian Science packages useful for
  numerical computation. The packages provide an array oriented
@@ -286,8 +335,8 @@ Description: Debian Science Numerical Computation packages
 Package: science-physics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: abinit | mpqc | openmx | psi3, axiom, cadabra, cernlib, drawxtl, feynmf, fityk, geant321, gerris, gpiv, gpivtools, maxima, meshlab, opticalraytracer, paw, paw++, python-sympy, science-electronics, science-numericalcomputation, tessa | tessa-mpi, v-sim
-Suggests: blzpack, clhep2, cp2k, espresso++, gate, geant4, horae, ifeffit, jfreemesh, octaviz, opencascade-tools, openfoam, paw-demos, pwscf, pymca, quantumespresso, root-system, science-mathematics, science-statistics, scilab-sivp, sixpack, spis
+Recommends: abinit | mpqc | openmx | psi3, axiom, cadabra, drawxtl, etsf-io, feynmf, fityk, gerris, ghkl, gpiv, gpivtools, maxima, meshlab, opticalraytracer, python-sympy, science-electronics, science-numericalcomputation, tessa | tessa-mpi, v-sim
+Suggests: blzpack, cernlib, clhep2, cp2k, espresso++, gate, geant321, geant4, horae, ifeffit, jfreemesh, liblife-dev, life-apps, octaviz, opencascade-tools, openfoam, paw, paw++, paw-demos, pymca, quantumespresso, root-system, science-mathematics, science-statistics, scilab-sivp, sixpack, spis
 Description: Debian Science Physics packages
  This metapackage will install Debian Science packages related to Physics.
  You might also be interested in the debtag field::physics and, depending on
@@ -307,22 +356,21 @@ Description: Debian Robotics packages
 Package: science-statistics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: ess, littler, psignifit, python-scipy, python-stats, r-cran-abind, r-cran-amore, r-cran-bayesm, r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, r-cran-dbi, r-cran-design, r-cran-eco, r-cran-effects, r-cran-fbasics, r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, r-cran-fmultivar, r-cran-foptions, r-cran-foreign, r-cran-fportfolio, r-cran-gdata, r-cran-gmodels, r-cran-gplots, r-cran-gregmisc, r-cran-gtools, r-cran-hdf5, r-cran-hmisc, r-cran-its, r-cran-kernsmooth, r-cran-lattice, r-cran-latticeextra, r-cran-lme4, r-cran-lmtest, r-cran-mapdata, r-cran-mapproj, r-cran-maps, r-cran-matchit, r-cran-matrix, r-cran-mcmcpack, r-cran-mgcv, r-cran-misc3d, r-cran-mnp, r-cran-msm, r-cran-multcomp, r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, r-cran-psy, r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, r-cran-relimp, r-cran-rggobi, r-cran-rgl, r-cran-rgtk2, r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, r-cran-rsprng, r-cran-sandwich, r-cran-sm, r-cran-snow, r-cran-strucchange, r-cran-survival, r-cran-teachingdemos, r-cran-tkrplot, r-cran-tseries, r-cran-vgam, r-cran-vr, r-cran-xml, r-cran-zelig, r-cran-zoo, r-recommended, rkward
-Suggests: python-scikits-statsmodels, r-cran-acepack, r-cran-fcalendar, r-cran-fseries, r-cran-rmetrics, r-other-gking-matchit, science-mathematics
-Description: classes and functions for the estimation of statistical models
- scikits.statsmodels is a pure Python package that provides classes
- and functions for the estimation of several categories of statistical
- models. These currently include linear regression models, OLS, GLS,
- WLS and GLS with AR(p) errors, generalized linear models for six
- distribution families and M-estimators for robust linear models. An
- extensive list of result statistics are avalable for each estimation
- problem.
+Recommends: ess, littler, psignifit, python-openturns, python-scipy, python-stats, r-cran-abind, r-cran-amore, r-cran-bayesm, r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, r-cran-dbi, r-cran-design, r-cran-eco, r-cran-effects, r-cran-fbasics, r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, r-cran-fmultivar, r-cran-foptions, r-cran-foreign, r-cran-fportfolio, r-cran-gdata, r-cran-gmodels, r-cran-gplots, r-cran-gregmisc, r-cran-gtools, r-cran-hdf5, r-cran-hmisc, r-cran-its, r-cran-kernsmooth, r-cran-lattice, r-cran-latticeextra, r-cran-lme4, r-cran-lmtest, r-cran-mapdata, r-cran-mapproj, r-cran-maps, r-cran-matchit, r-cran-matrix, r-cran-mcmcpack, r-cran-mgcv, r-cran-misc3d, r-cran-mnp, r-cran-msm, r-cran-multcomp, r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, r-cran-psy, r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, r-cran-relimp, r-cran-rggobi, r-cran-rgl, r-cran-rgtk2, r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, r-cran-rsprng, r-cran-sandwich, r-cran-sm, r-cran-snow, r-cran-strucchange, r-cran-survival, r-cran-teachingdemos, r-cran-tkrplot, r-cran-tseries, r-cran-vcd, r-cran-vgam, r-cran-vr, r-cran-xml, r-cran-zelig, r-cran-zoo, r-recommended, rkward
+Suggests: python-scikits-statsmodels, r-cran-acepack, r-cran-fcalendar, r-cran-fseries, r-cran-rmetrics, r-cran-spc, r-other-gking-matchit, science-mathematics
+Description: Debian Science Statistics packages
+ This metapackage is part of the Debian Pure Blend "Debian Science"
+ and installs packages related to statistics.  This task is a general
+ task which might be useful for any scientific work.  It depends from
+ a lot of R packages as well as from other tools which are useful to
+ do statistics.  Moreover the Science Mathematics task is suggested
+ to optionally install all mathematics related software.
 
 Package: science-typesetting
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: auctex, bibus, bibutils, dia, diploma, feynmf, impose+, jabref, kbibtex, latexdiff, libjlatexmath-java, lyx, mlpost, pybliographer, referencer, texlive, texlive-bibtex-extra, texlive-math-extra, texlive-publishers, texlive-science, texmacs, texmacs-extra-fonts, transfig, xfig
-Suggests: csv2latex, gpapers, jeuclid, openoffice.org-dmaths, pymarc, quaneko, r-cran-xtable, tellico, texmaker, zotero
+Recommends: auctex, bibus, bibutils, cb2bib, dia, diploma, feynmf, impose+, jabref, kbibtex, latexdiff, libjlatexmath-java, lyx, mlpost, pybliographer, referencer, sketch, texlive, texlive-bibtex-extra, texlive-math-extra, texlive-publishers, texlive-science, texmacs, texmacs-extra-fonts, transfig, xfig
+Suggests: csv2latex, gpapers, jeuclid, jeuclid-mathviewer, libgtkmathview-bin, openoffice.org-dmaths, pymarc, quaneko, r-cran-xtable, tellico, texmaker, zotero
 Description: Debian Science typesetting packages
  This metapackage will install Debian Science packages related to
  typesetting.  You might also be interested in the use::typesetting
@@ -331,8 +379,8 @@ Description: Debian Science typesetting packages
 Package: science-viewing
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: fityk, g3data, gnudatalanguage, gnuplot, grace, graphviz, gri, gwyddion, ifrit, imview, kst, labplot, lybniz, paraview, pdl, plotdrop, python-scientific, pyxplot, qtiplot, yorick
-Suggests: cassandra, findimagedupes, libpuzzle-bin, mayavi, med-imaging, pgfplots, pgplot5, r-cran-aplpack, r-cran-colorspace, r-cran-plotrix, texlive-pictures
+Recommends: fityk, g3data, gle-graphics, gmsh, gnudatalanguage, gnuplot, grace, graphviz, gri, gwyddion, ifrit, imview, kst, labplot, lybniz, mathgl, mayavi2, paraview, pdl, plotdrop, python-scientific, python-viper, pyxplot, qtiplot, udav, yorick
+Suggests: 3depict, cassandra, findimagedupes, jeuclid-mathviewer, libgtkmathview-bin, libpuzzle-bin, med-imaging, pgfplots, pgplot5, r-cran-aplpack, r-cran-colorspace, r-cran-plotrix, texlive-pictures
 Description: Debian Science data visualisation packages
  This metapackage will install Debian Science packages related to data
  visualization. You might also be interested in the use::viewing

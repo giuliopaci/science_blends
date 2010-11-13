@@ -5,6 +5,8 @@ debian-science (0.12) unstable; urgency=low
   * config/control: Depends: blends-common (>= 0.6.15)
   * debian/control.stub: Build-Depends-Indep: blends-dev (>= 0.6.15)
     Closes: #601959
+  * New tasks: science-nanoscale-physics and
+    science-nanoscale-physics-dev
 
  -- Andreas Tille <tille@debian.org>  Mon, 08 Nov 2010 16:14:37 +0100
 
