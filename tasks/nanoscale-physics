@@ -74,6 +74,9 @@ Suggests: gpiv, gpivtools
 Suggests: life-apps
 Why: Partial differential equation library, FEA, CFD
 
+Suggests: qtiplot
+Why: Handles file formats used by experimentalists
+
 Suggests: science-statistics, science-mathematics
 
 Suggests: scilab-sivp
