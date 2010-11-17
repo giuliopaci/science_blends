@@ -253,21 +253,6 @@ Published-URL: http://frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/00
 Published-DOI: 10.3389/neuro.11.004.2008
 
 
-Depends: openelectrophy
-Homepage: http://neuralensemble.org/trac/OpenElectrophy
-License: Cecill v2 (GPL-compatible)
-Language: Python
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-WNPP: 556552
-Published-In: Frontiers in Neuroinformatics, 3:14
-Published-Year: 2009
-Published-DOI: 10.3389/neuro.11.014.2009
-Pkg-Description: data analysis framework for intra- and extra-cellular recordings
- This package provide a library und GUI for analyzing electrophysiological
- data. The data handling and storage uses a MySQL-server. The package is written
- in pure Python.
-
-
 Depends: mricron
 Published-Title: Improving lesion-symptom mapping
 Published-Authors: Chris Rorden, Hans-Otto Karnath, Leonardo Bonilha

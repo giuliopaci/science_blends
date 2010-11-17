@@ -1,0 +1,55 @@
+Task: Electrophysiology
+Description: Debian Science packages for Electrophysiology
+ This metapackage will install Debian packages which might be useful for
+ scientists doing electrophysiology-based neuroscience research.
+ .
+ The selection of packages is targeting the application of analysis
+ and simulation techniques. Methods developers are referred to the
+ science-statistics, science-imageanalysis, science-numericalcomputation,
+ med-imaging, and med-imaging-dev metapackages for a variety of additional
+ software that might be useful for electrophysiology research.
+
+
+Depends: openelectrophy
+Homepage: http://packages.python.org/OpenElectrophy
+License: Cecill v2 (GPL-compatible)
+Language: Python
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+WNPP: 556552
+Published-Title: OpenElectrophy: an electrophysiological data- and analysis-sharing framework
+Published-Authors: Samuel Garcia* and Nicolas Fourcaud-Trocmé
+Published-In: Frontiers in Neuroinformatics, 3:14
+Published-Year: 2009
+Published-DOI: 10.3389/neuro.11.014.2009
+Pkg-Description: data analysis framework for intra- and extra-cellular recordings
+ This package provide a library und GUI for analyzing electrophysiological
+ data. The data handling and storage uses a MySQL-server. The package is written
+ in pure Python.
+
+
+Depends: spike
+Language: C++, Octave/Matlab
+License: Academic Free License
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+Homepage: http://neuroanalysis.org
+Published-Title: Spike Train Analysis Toolkit: Enabling Wider Application of Information-Theoretic Techniques to Neurophysiology
+Published-Authors: David H. Goldberg, Jonathan D. Victor, Esther P. Gardner, and Daniel Gardner
+Published-In: Neuroinformatics, 7, 165–178
+Published-Year: 2009
+Published-DOI: 10.1007/s12021-009-9049-y
+Pkg-Description: spike train analysis toolbox
+ This toolbox implements several information-theoretic spike train analysis
+ techniques. This implementation behaves like a typical MATLAB toolbox, but
+ the underlying computations are coded in C and optimized for efficiency.
+
+
+Depends: klustakwik
+Homepage: http://klustakwik.sourceforge.net
+Published-Title: Accuracy of Tetrode Spike Separation as Determined by Simultaneous Intracellular and Extracellular Measurements
+Published-Authors: Kenneth D. Harris, Darrell A. Henze, Jozsef Csicsvari, Hajime Hirase, and György Buzsáki
+Published-In: Journal of Neurophysiology, 84, 401-414
+Published-Year: 2000
+Pkg-Description: spike sorting tool
+ A program for unsupervised classification of multidimensional
+ continuous data. It arose from a specific need - automatic sorting of neuronal
+ action potential waveforms.
