@@ -83,7 +83,7 @@ Suggests: scilab-sivp
 
 Depends: ape
 Homepage: http://www.tddft.org/programs/APE/
-Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
 License: GPL
 WNPP: 602092
 Published-Title: Generating relativistic pseudo-potentials with explicit incorporation of semi-core states using APE, the Atomic Pseudo-potentials Engine
@@ -182,7 +182,7 @@ Pkg-Description: All-electron full-potential electronic-structure code
 
 Depends: octopus
 Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Main_Page
-Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
+Responsible: Miguel Marques <miguel.marques@tddft.org>
 License: LGPL
 WNPP: 602111
 Published-Title: octopus: a tool for the application of time-dependent density functional theory

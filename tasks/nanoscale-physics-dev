@@ -84,7 +84,7 @@ Pkg-Description: Non-Blocking MPI Collective Operations
 
 Depends: libxc
 Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
-Responsible: Micael Oliveira <micael@teor.fis.uc.pt>
+Responsible: Damien Caliste <damien.caliste@cea.fr>
 License: LGPL
 WNPP: 602110
 Pkg-Description: Library of DFT exchange-correlation functionals
