@@ -63,6 +63,7 @@ Pkg-Description: simulator-independent specification of neuronal network models
 Depends: moose
 Homepage: http://moose.sourceforge.net
 Language: C++, Python
+License: LGPL
 Pkg-Description: multiscale simulation environment for neuroscience
  MOOSE is the Multiscale Object-Oriented Simulation Environment. It is the base
  and numerical core for large, detailed simulations including Computational
