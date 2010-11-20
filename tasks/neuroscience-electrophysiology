@@ -56,3 +56,19 @@ Pkg-Description: spike sorting tool
 
 
 Suggests: science-neuroscience-modeling
+
+ ; Added by blends-inject 0.0.2. [Please note here if modified manually]
+Depends: libgdf-dev
+Homepage: http://sourceforge.net/projects/libgdf
+Language: C++, Octave/Matlab
+WNPP: 601707
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+License: LGPL-3
+Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/libgdf.git
+Vcs-Git: git://git.debian.org/git/pkg-exppsy/libgdf.git
+Pkg-URL: http://neuro.debian.net/pkgs/libgdf-dev.html
+Pkg-Description: IO library for the GDF -- development library
+ GDF (General Dataformat for Biosignals) is intended to provide a generic
+ storage for biosignals, such as EEG, ECG, MEG etc.
+ .
+ This package provides the header files and static library.
