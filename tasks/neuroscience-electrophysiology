@@ -4,7 +4,7 @@ Description: Debian Science packages for Electrophysiology
  scientists doing electrophysiology-based neuroscience research.
  .
  The selection of packages is targeting the application of analysis
- and simulation techniques. Methods developers are referred to the
+ techniques. Methods developers are referred to the
  science-statistics, science-imageanalysis, science-numericalcomputation,
  med-imaging, and med-imaging-dev metapackages for a variety of additional
  software that might be useful for electrophysiology research.
@@ -53,3 +53,6 @@ Pkg-Description: spike sorting tool
  A program for unsupervised classification of multidimensional
  continuous data. It arose from a specific need - automatic sorting of neuronal
  action potential waveforms.
+
+
+Suggests: science-neuroscience-modeling

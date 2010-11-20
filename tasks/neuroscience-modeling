@@ -1,0 +1,14 @@
+Task: Modeling of neural systems
+Description: Debian Science packages for modeling of neural systems
+ This metapackage will install Debian packages which might be useful for
+ scientists interested in modeling of real neural systems at different
+ levels (from single neuron to complex networks).
+ .
+ The selection of packages is targeting the application of simulation
+ techniques. Methods developers are referred to the
+ science-statistics, science-imageanalysis,
+ science-numericalcomputation, med-imaging, and med-imaging-dev
+ metapackages for a variety of additional software that might be
+ useful for neuroscience research.
+
+
