@@ -26,22 +26,21 @@ Pkg-Description: data analysis framework for intra- and extra-cellular recording
  data. The data handling and storage uses a MySQL-server. The package is written
  in pure Python.
 
-
-Depends: spike
-Language: C++, Octave/Matlab
-License: Academic Free License
-Responsible: NeuroDebian Team <team@neuro.debian.net>
+ ; Added by blends-inject 0.0.3. [Please note here if modified manually]
+Suggests: spike
 Homepage: http://neuroanalysis.org
-Published-Title: Spike Train Analysis Toolkit: Enabling Wider Application of Information-Theoretic Techniques to Neurophysiology
-Published-Authors: David H. Goldberg, Jonathan D. Victor, Esther P. Gardner, and Daniel Gardner
-Published-In: Neuroinformatics, 7, 165–178
-Published-Year: 2009
-Published-DOI: 10.1007/s12021-009-9049-y
+Language: C++, Octave/Matlab
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+License: BSD-3 and Academic Free License
 Pkg-Description: spike train analysis toolbox
  This toolbox implements several information-theoretic spike train analysis
  techniques. This implementation behaves like a typical MATLAB toolbox, but
  the underlying computations are coded in C and optimized for efficiency.
-
+Published-Authors: David H. Goldberg, Jonathan D. Victor, Esther P. Gardner, and Daniel Gardner
+Published-DOI: 10.1007/s12021-009-9049-y
+Published-In: Neuroinformatics, 7, 165–178
+Published-Title: Spike Train Analysis Toolkit: Enabling Wider Application of Information-Theoretic Techniques to Neurophysiology
+Published-Year: 2009
 
 Depends: klustakwik
 Homepage: http://klustakwik.sourceforge.net
@@ -72,3 +71,52 @@ Pkg-Description: IO library for the GDF -- development library
  storage for biosignals, such as EEG, ECG, MEG etc.
  .
  This package provides the header files and static library.
+
+ ; Added by blends-inject 0.0.3. [Please note here if modified manually]
+Suggests: neurodata
+Homepage: http://sourceforge.net/projects/neurodata/
+Language: C++, Octave/Matlab, Perl
+License: GPL-2+
+Pkg-Description: suite to analyze data acquired from electrophysiology experiments
+ Currently, neurodata has an Octave/MATLAB program to analyze
+ electroneurogram traces of coupled oscillators, and a Perl library
+ for the analysis of voltage trace data.
+
+ ; Added by blends-inject 0.0.3. [Please note here if modified manually]
+Suggests: qrtailab
+Why: Useful and used in acquisition/analysis setups
+Homepage: http://qrtailab.sourceforge.net/
+License: LGPL-2
+Pkg-Description: Qt-GUI for RTAI
+ QRtaiLab is a QT-based port of the software scope xrtailab of the
+ RTAI project. It can be used as virtual oscilloscope and monitoring
+ application for interacting with the real-time external.
+
+ ; Added by blends-inject 0.0.3. [Please note here if modified manually]
+Suggests: stimfit
+Homepage: http://code.google.com/p/stimfit/
+License: GPL-2
+Pkg-Description: viewing and analyzing of electrophysiological data
+ Stimfit is a free, fast and simple program for viewing and analyzing
+ electrophysiological data.  It features an embedded Python shell that
+ allows you to extend the program functionality by using numerical
+ libraries such as NumPy and SciPy.
+ .
+ It includes stfio module which supports some electrophysiological
+ file formats:
+  - Read/write: CFS binary data, HDF5 files, Axon text files,
+    ASCII files
+  - Read-only: Axon binary files (*.abf), Axograph files (*.axgd,
+    *.axgx), HEKA files (*.dat, from version 0.10)
+    * Write-only: Igor binary waves (*.ibw)
+
+ ; Added by blends-inject 0.0.3. [Please note here if modified manually]
+Suggests: trellis-neuro
+Homepage: http://sourceforge.net/projects/trellis-neuro/
+Language: C, C++
+License: GPL-3+ and LGPL-3+
+Pkg-Description: interface to neurophysiology data acquisition and stimulation instruments
+ Trellis-Neuro is an Open Source, multi-platform application suite for
+ interfacing with neurophysiology data acquisition and stimulation
+ instruments. It is based on the eXtensible Instrument Processing
+ Protocol (XIPP), QT 4, and C/C++.
