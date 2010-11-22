@@ -47,8 +47,8 @@ Published-In: Front. Neuroinform
 Published-Title: Brian: a simulator for spiking neural networks in Python
 Published-Year: 2008
 
- ; Added by blends-inject 0.0.2. [Please note here if modified manually]
-Ignore: PyNN
+ ; Added by blends-inject 0.0.3. [Please note here if modified manually]
+Suggests: PyNN
 Homepage: http://neuralensemble.org/trac/PyNN
 Language: Python
 Responsible: NeuroDebian Team <team@neuro.debian.net>
