@@ -201,16 +201,6 @@ Pkg-Description: Real-space TDDFT-based electronic-structure code
  approximation.
 
 Depends: pymca
-Homepage: http://pymca.sourceforge.net/
-Responsible: Teemu Ikonen <tpikonen@gmail.com>
-License: GPL-2+
-WNPP: 514903
-Vcs-Git: git://git.debian.org/?p=debian-science/packages/pymca.git
-Pkg-Description:  Python toolkit and application for X-ray fluorescence analysis
- PyMCA is an application and Python toolkit for analysis of X-ray
- fluorescence spectra.
- .
- It can read data files in the SPEC and ESRF data file (EDF) formats.
 
 Depends: python-ase
 Homepage: https://wiki.fysik.dtu.dk/ase/

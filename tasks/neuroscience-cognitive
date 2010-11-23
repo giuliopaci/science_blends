@@ -286,19 +286,6 @@ Pkg-Description: fitting and testing hypotheses about psychometric functions
 
 
 Depends: python-pyoptical
-Homepage: http://github.com/esc/pyoptical
-License: MIT
-Language: Python
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-WNPP: 580662
-Pkg-URL: http://neuro.debian.net/pkgs/python-pyoptical.html
-Pkg-Description: python interface to the CRS 'OptiCAL' photometer
- The 'OptiCAL' is a photometer that is produced by Cambridge Research Systems
- (CRS).  This device is a standard tool for gamma-calibration of display devices
- in vision research. This package provides a free-software replacement for the
- Windows-software distributed by the manufacturer that allows querying an
- OptiCAL via a serial connection. pyoptical can be used as a library for
- third-party applications or as a standalone command line tool.
 
 
 Depends: python-scikits-statsmodels
@@ -358,13 +345,3 @@ Published-DOI: 10.1007/s12021-010-9069-7
 
 
 Depends: mriconvert
-Homepage: http://lcni.uoregon.edu/~jolinda/MRIConvert/
-License: GPL
-Responsible: Steve M. Robbins <smr@debian.org>
-WNPP: 599880
-Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/mriconvert/trunk/?rev=0&sc=0
-Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/mriconvert/trunk/
-Pkg-Description: converts DICOM files to other formats
- MRIConvert is a medical image file conversion utility that converts
- DICOM files to NIfTI 1.1, Analyze 7.5 , SPM99/Analyze, BrainVoyager,
- and MetaImage volume formats.
