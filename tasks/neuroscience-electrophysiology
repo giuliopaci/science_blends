@@ -218,3 +218,15 @@ Pkg-Description: GUI viewer for biosignals such as EEG, EMG, and ECG
  .
  Besides displaying biosignals, SigViewer supports creating
  annotations to select artifacts or specific events.
+
+ ; Added by blends-inject 0.0.5. [Please note here if modified manually]
+Suggests: nspike
+Homepage: http://nspike.sourceforge.net
+Language: C++
+License: GPL-2+
+Pkg-Description: electrophysiological and behavioral data collection
+ This project is a electrophysiological and behavioral data collection
+ program that can distribute data collection tasks across multiple
+ machines. It is designed to interface with the NSpike hardware
+ system.
+Remark: Last vital signs from 2 years ago
