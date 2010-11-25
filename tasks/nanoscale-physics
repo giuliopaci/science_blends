@@ -55,19 +55,26 @@ Depends: openmpi-doc|mpich2-doc|mpi-doc
 Depends: science-numericalcomputation
 Why: numerical programming environments similar to Matlab/IDL
 
-Depends: v-sim
+Depends: avogadro, garlic, gdis, ghemical, v-sim
 
 Recommends: axiom, maxima
 Why: Symbolic maths
 
 Recommends: cadabra
 
+Recommends: extrema, ggobi, mayavi2, udav
+Why: Data analysis
+
+Recommends: graphviz
+
 Recommends: libblacs-mpi1
 
 Recommends: libscalapack-mpi1
 
-Recommends: python-scipy, python-scitools, python-sympy
+Recommends: python-scientific, python-scipy, python-scitools, python-sympy
 Why: ODE solvers, optimization algorithms, symbolic maths
+
+Suggests: dx, dx-doc
 
 Suggests: gpiv, gpivtools
 

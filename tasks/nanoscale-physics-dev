@@ -37,6 +37,8 @@ Recommends: libblacs-mpi-dev, blacs-doc
 
 Recommends: libscalapack-mpi-dev, scalapack-doc
 
+Recommends: python-elemental
+
 Recommends: science-mathematics-dev
 
 Suggests: liblife-dev
