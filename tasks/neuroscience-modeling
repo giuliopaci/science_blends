@@ -60,7 +60,8 @@ Pkg-Description: simulator-independent specification of neuronal network models
  and Brian).  PyNN translates standard cell-model names and parameter
  names into simulator-specific names.
 
-Depends: moose
+ ; Added by blends-inject 0.0.5. [Please note here if modified manually]
+Suggests: moose
 Homepage: http://moose.sourceforge.net
 Language: C++, Python
 License: LGPL
