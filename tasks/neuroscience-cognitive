@@ -351,6 +351,7 @@ Depends: mriconvert
 Suggests: fieldtrip
 Homepage: http://fieldtrip.fcdonders.nl
 Language: Matlab/Octave
+WNPP: 605492
 License: GPL-2+
 Pkg-Description: toolbox for MEG and EEG analysis
  The software includes algorithms for simple and advanced analysis of MEG and
