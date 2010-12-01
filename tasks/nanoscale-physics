@@ -193,6 +193,22 @@ Pkg-Description: All-electron full-potential electronic-structure code
  of time-dependent DFT (TDDFT) as well as within many-body perturbation
  theory (MBPT).
 
+Depends: gpaw
+Homepage: https://wiki.fysik.dtu.dk/gpaw/
+Responsible: Ask Hjorth Larsen <askhl@fysik.dtu.dk>
+License: GPL
+WNPP: 602748
+Published-Title: Real-space grid implementation of the projector augmented wave method
+Published-Authors: J. J. Mortensen, L. B. Hansen, K. W. Jacobsen
+Published-Year: 2005
+Published-In: Physical Review B, 71:035109
+Published-URL: http://prb.aps.org/abstract/PRB/v71/i3/e035109
+Published-DOI: 10.1103/PhysRevB.71.035109
+Pkg-Description: Real-space PAW-based electronic structure code
+ GPAW is a density-functional theory (DFT) Python code based on the 
+ projector-augmented wave (PAW) method. It uses real-space uniform grids 
+ and multigrid methods or atom-centered basis-functions.
+
 Depends: octopus
 Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Main_Page
 Responsible: Miguel Marques <miguel.marques@tddft.org>
