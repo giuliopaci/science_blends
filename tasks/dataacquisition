@@ -20,6 +20,28 @@ Suggests: comedi-source
 
 Suggests: rtai
 
+Suggests: xenomai-runtime
+
+Suggests: linux-image-2.6-rt
+Responsible: kernel@pengutronix.de
+Homepage: http://www.pengutronix.de/software/linux-rt/debian_en.html
+License: GPL
+Pkg-URL: http://debian.pengutronix.de
+Pkg-Description: Stock Linux kernel with RT-Preempt patch
+ The RT-Preempt (http://rt.wiki.kernel.org) project provides patches
+ to make Linux kernel capable of fulfilling hard realtime
+ requirements. The aim is to eliminate all preemptivity and reactivity
+ problems in the kernel over the time. The -rt patches are constantly
+ being worked on for mainline by the community.
+ .
+ Pengutronix's Realtime Linux for Debian project provides builds of
+ the stock (without Debian patches) Linux kernel with RT-Preempt patch
+ applied.
+Remark: Resultant image includes non-DFSG-free elements thus available
+ from non-free component only
+
+Suggests: rt-tests
+
 Suggests: gpsd
 
 Depends: jaaa
