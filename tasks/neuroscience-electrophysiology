@@ -9,6 +9,9 @@ Description: Debian Science packages for Electrophysiology
  med-imaging, and med-imaging-dev metapackages for a variety of additional
  software that might be useful for electrophysiology research.
 
+Suggests: science-neuroscience-modeling
+Suggests: science-dataacquisition
+
 
 Depends: openelectrophy
 Homepage: http://packages.python.org/OpenElectrophy
@@ -42,19 +45,17 @@ Published-In: Neuroinformatics, 7, 165–178
 Published-Title: Spike Train Analysis Toolkit: Enabling Wider Application of Information-Theoretic Techniques to Neurophysiology
 Published-Year: 2009
 
-Depends: klustakwik
+ ; Added by blends-inject 0.0.5. [Please note here if modified manually]
+Suggests: klustakwik
 Homepage: http://klustakwik.sourceforge.net
-Published-Title: Accuracy of Tetrode Spike Separation as Determined by Simultaneous Intracellular and Extracellular Measurements
-Published-Authors: Kenneth D. Harris, Darrell A. Henze, Jozsef Csicsvari, Hajime Hirase, and György Buzsáki
-Published-In: Journal of Neurophysiology, 84, 401-414
-Published-Year: 2000
 Pkg-Description: spike sorting tool
  A program for unsupervised classification of multidimensional
  continuous data. It arose from a specific need - automatic sorting of neuronal
  action potential waveforms.
-
-
-Suggests: science-neuroscience-modeling
+Published-Authors: Kenneth D. Harris, Darrell A. Henze, Jozsef Csicsvari, Hajime Hirase, and György Buzsáki
+Published-In: Journal of Neurophysiology, 84, 401-414
+Published-Title: Accuracy of Tetrode Spike Separation as Determined by Simultaneous Intracellular and Extracellular Measurements
+Published-Year: 2000
 
  ; Added by blends-inject 0.0.2. [Please note here if modified manually]
 Depends: libgdf-dev
