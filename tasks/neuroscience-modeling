@@ -101,8 +101,8 @@ Remark: last release is more than 1 year ago, but there is development in newbui
 Suggests: nest
 Responsible: Yury V. Zaytsev <yury@shurup.com>
 License: non-FOSS
-Vcs-Browser: http://svn.debian.org/wsvn/blends/projects/med/trunk/debian-med/?rev=0&sc=0
-Vcs-Svn: svn://svn.debian.org/svn/blends/projects/med/trunk/debian-med/
+Vcs-Browser: http://git.zaytsev.net/?p=nest-packaging.git;a=summary
+Vcs-Git: git://git.zaytsev.net/nest-packaging.git
 Pkg-URL: http://git.zaytsev.net/?p=nest-packaging.git;a=summary
 Pkg-Description: A simulator for networks of spiking neurons
  NEST is a simulation system for large networks of biologically realistic
@@ -112,5 +112,4 @@ Published-In: Scholarpedia 2(4):1430
 Published-Title: NEST (Neural Simulation Tool)
 Published-Year: 2007
 Registration: http://www.nest-initiative.org/download/Software:Download.php
-Remark: Mentioned packaging is not providing NEST itself but rather
- only packaging materials so you could build package yourself.
+Remark: Mentioned packaging is not providing NEST itself but rather only packaging materials so you could build package yourself.
