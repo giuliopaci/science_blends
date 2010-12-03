@@ -367,3 +367,22 @@ Remark: The NIMH distributes a "port" of fieldtrip to Octave (at
  whether this port can be incorporated into the official version, and to what
  degree it is complete. Packaging fieldtrip is required to complete the
  packaging of SPM8.
+
+ ; Added by blends-inject 0.0.5. [Please note here if modified manually]
+Suggests: eeglab
+Homepage: http://sccn.ucsd.edu/eeglab
+Language: C, Matlab/Octave
+WNPP: 605739
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+License: GPL-2+
+Pkg-Description: toolbox for processing and visualization of electrophysiological data
+ EEGLAB is an interactive Matlab toolbox for processing continuous and
+ event-related EEG, MEG and other electrophysiological data
+ incorporating independent component analysis (ICA), time/frequency
+ analysis, artifact rejection, event-related statistics, and several
+ useful modes of visualization of the averaged and single-trial data.
+Published-Authors: Delorme A and Makeig S
+Published-In: Journal of Neuroscience Methods 134:9-21
+Published-Title: EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics
+Published-Year: 2004
+Registration: http://sccn.ucsd.edu/eeglab/install.html
