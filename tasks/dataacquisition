@@ -31,14 +31,15 @@ Pkg-Description: Stock Linux kernel with RT-Preempt patch
  The RT-Preempt (http://rt.wiki.kernel.org) project provides patches
  to make Linux kernel capable of fulfilling hard realtime
  requirements. The aim is to eliminate all preemptivity and reactivity
- problems in the kernel over the time. The -rt patches are constantly
- being worked on for mainline by the community.
+ problems in the kernel over the time by adding deterministic
+ preemption points.  The -rt patches are constantly being worked on
+ for mainline by the community.
  .
  Pengutronix's Realtime Linux for Debian project provides builds of
- the stock (without Debian patches) Linux kernel with RT-Preempt patch
- applied.
-Remark: Resultant image includes non-DFSG-free elements thus available
- from non-free component only
+ the stock Linux kernel with the RT-Preempt patch (but without Debian
+ patches).
+Remark: The upstream kernel sources are not considered DFSG-free, so
+ the packages are available from the non-free area only.
 
 Suggests: rt-tests
 
