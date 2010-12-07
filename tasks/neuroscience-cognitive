@@ -228,14 +228,24 @@ Published-Year: 2001
 Published-URL: http://www.medicalimagingandgraphics.com/article/S0895-6111(01)00008-8
 Published-DOI: 10.1016/S0895-6111(01)00008-8
 
-
+ ; Added by blends-inject 0.0.5. [Please note here if modified manually]
 Depends: openmeeg-tools
-License: CeCILL-B
-Published-Title: OpenMEEG: opensource software for quasistatic bioelectromagnetics
+Pkg-Description: library for solving EEG and MEG forward and inverse problems
+ OpenMEEG consists of state-of-the art solvers for forward problems in
+ the field of MEG and EEG.
+ .
+ Solvers are based on the symmetric Boundary Element method [Kybic et
+ al, 2005], providing excellent accuracy, particularly for superficial
+ cortical sources. OpenMEEG can compute four types of lead fields
+ (EEG, MEG, Internal Potential and Electrical Impedence Tomography).
+ .
+ It can be used from the command line, from Python and from Matlab via
+ Fieldtrip.
 Published-Authors: Alexandre Gramfort, Théodore Papadopoulo, Emmanuel Olivi, Maureen Clerc
-Published-In: Preprint
-Published-URL: http://hal.archives-ouvertes.fr/inria-00467061/en/
-
+Published-In: BioMedical Engineering OnLine 45:9
+Published-Title: OpenMEEG: opensource software for quasistatic bioelectromagnetics
+Published-URL: http://www.biomedical-engineering-online.com/content/9/1/45
+Published-Year: 2010
 
 Depends: visionegg
 Homepage: http://www.visionegg.org
