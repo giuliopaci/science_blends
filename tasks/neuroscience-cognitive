@@ -16,6 +16,9 @@ Description: Debian Science packages for Cognitive Neuroscience
 Suggests: science-typesetting
 Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/typesetting
 
+Suggests: science-psychophysics
+Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/psychophysics
+
 
 Depends: psignifit
 Why: Psychometric function fitting.
@@ -106,15 +109,6 @@ Published-URL: http://www.slicer.org/publications/item/view/91
 
 Depends: dicom3tools
 Why: Supports conversion from proprietary formats, such as GE into DICOM.
-
-
-Depends: psychopy
-Published-Title: PsychoPy - Psychophysics software in Python
-Published-Authors: J. W. Peirce
-Published-In: Journal of Neuroscience Methods, 162:8-13
-Published-Year: 2007
-Published-DOI: 10.1016/j.jneumeth.2006.11.017
-
 
 Depends: voxbo
 Registration: http://voxbo.org/usage.html
@@ -247,21 +241,6 @@ Published-Title: OpenMEEG: opensource software for quasistatic bioelectromagneti
 Published-URL: http://www.biomedical-engineering-online.com/content/9/1/45
 Published-Year: 2010
 
-Depends: visionegg
-Homepage: http://www.visionegg.org
-License: LGPL
-WNPP: 365856
-Pkg-Description: Python library for 2D/3D visual stimulus generation
- The Vision Egg is a programming library that uses standard, inexpensive
- computer graphics cards to produce visual stimuli for vision research
- experiments.
-Published-Title: Vision Egg: An Open-Source Library for Realtime Visual Stimulus Generation
-Published-Authors: Andrew Straw
-Published-In: Frontiers in Neuroinformatics
-Published-Year: 2008
-Published-URL: http://frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/004.2008/
-Published-DOI: 10.3389/neuro.11.004.2008
-
 
 Depends: mricron
 Published-Title: Improving lesion-symptom mapping
@@ -293,9 +272,6 @@ Pkg-Description: fitting and testing hypotheses about psychometric functions
  This is the successor of 'psignifit' a commandline-based toolbox. The new
  version is primarily a python module, but other bindings will be added
  eventually.
-
-
-Depends: python-pyoptical
 
 
 Depends: python-scikits-statsmodels

@@ -1,0 +1,47 @@
+Task: Psychophysics
+Description: Debian Science packages for Psychophysics
+ This metapackage will install Debian packages which might be useful for
+ carrying out any experiment relating physical stimuli and their
+ psychological effects.
+ .
+ The selection of packages is targeting software for stimuli delivery.
+ For additional software related to the analysis of the acquired data
+ refer to science-neuroscience-cognitive, med-imaging depending on the
+ domain of application.  Additionally look into
+ science-neuroscience-bci since those often provide a complete loop
+ frameworks including stimuli delivery.
+
+
+
+Suggests: science-neuroscience-cognitive
+Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/neuroscience-cognitive
+
+Suggests: science-neuroscience-bci
+Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/neuroscience-bci
+
+
+Depends: psychopy
+Published-Title: PsychoPy - Psychophysics software in Python
+Published-Authors: J. W. Peirce
+Published-In: Journal of Neuroscience Methods, 162:8-13
+Published-Year: 2007
+Published-DOI: 10.1016/j.jneumeth.2006.11.017
+
+
+Depends: visionegg
+Homepage: http://www.visionegg.org
+License: LGPL
+WNPP: 365856
+Pkg-Description: Python library for 2D/3D visual stimulus generation
+ The Vision Egg is a programming library that uses standard, inexpensive
+ computer graphics cards to produce visual stimuli for vision research
+ experiments.
+Published-Title: Vision Egg: An Open-Source Library for Realtime Visual Stimulus Generation
+Published-Authors: Andrew Straw
+Published-In: Frontiers in Neuroinformatics
+Published-Year: 2008
+Published-URL: http://frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/004.2008/
+Published-DOI: 10.3389/neuro.11.004.2008
+
+Depends: python-pyoptical
+
