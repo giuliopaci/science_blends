@@ -10,6 +10,7 @@ Description: Debian Science packages for Electrophysiology
  software that might be useful for electrophysiology research.
 
 Suggests: science-neuroscience-modeling
+
 Suggests: science-dataacquisition
 
 
