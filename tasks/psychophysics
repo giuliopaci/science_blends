@@ -8,7 +8,7 @@ Description: Debian Science packages for Psychophysics
  For additional software related to the analysis of the acquired data
  refer to science-neuroscience-cognitive, med-imaging depending on the
  domain of application.  Additionally look into
- science-neuroscience-bci since those often provide a complete loop
+ science-bci since those often provide a complete loop
  frameworks including stimuli delivery.
 
 
@@ -16,8 +16,8 @@ Description: Debian Science packages for Psychophysics
 Suggests: science-neuroscience-cognitive
 Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/neuroscience-cognitive
 
-Suggests: science-neuroscience-bci
-Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/neuroscience-bci
+Suggests: science-bci
+Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/bci
 
 
 Depends: psychopy
