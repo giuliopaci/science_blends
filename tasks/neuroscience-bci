@@ -59,3 +59,52 @@ Pkg-Description: Brain Computer Interface module for Brain Vision Recorder
  in realtime with other powerful Python packages, for example using
  PyMVPA.
 Remark: No activity since Sep 2009
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: bcpy2000
+Homepage: http://bci2000.org/downloads/BCPy2000/BCPy2000.html
+Language: Python, C++
+License: LGPL-3+ and GPL-3+ and non-free (BCI2000)
+Pkg-Description: platform for brain-computer interface systems
+ BCPy2000 provides a platform for rapid, flexible development of
+ experimental brain-computer interface systems. It is based on, and
+ hosted by, the BCI2000 project. From the developer's point of view,
+ the implementation is carried out in Python, taking advantage of
+ various high-level packages: VisionEgg for stimulus presentation,
+ NumPy and SciPy for signal processing and classification, and IPython
+ for interactive debugging.
+ .
+ Being a BCI2000 system, it is modular, consisting of an Application
+ module (the stimulus presentation part), a Signal Processing module
+ (the machine-learning part), and a Signal Source module (the toy data
+ generation part). You can choose to use Python to implement one, two,
+ or all three of these modules, and use other pre-existing BCI2000
+ modules for the remainder of the system (for example, for the Signal
+ Source, you can choose from BCI2000's comprehensive range of EEG
+ acquisition modules). The modules communicate over TCP/IP, so they
+ can run on different machines (and possibly different operating
+ systems) if necessary.
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: bci2000
+Homepage: http://bci2000.org
+Language: C++
+License: non-free (non-commercial applications)
+Pkg-Description: platform for brain-computer interface systems
+ BCI2000 supports a variety of data acquisition systems, brain
+ signals, and study/feedback paradigms. During operation, BCI2000
+ stores data in a common format (BCI2000 native or GDF), along with
+ all relevant event markers and information about system
+ configuration. BCI2000 also includes several tools for data
+ import/conversion (e.g., a routine to load BCI2000 data files
+ directly into Matlab) and export facilities into ASCII.
+ .
+ BCI2000 also facilitates interactions with other software.  For
+ example, Matlab scripts can be executed in real-time from within
+ BCI2000, or BCI2000 filters can be compiled to execute as stand-alone
+ programs.  Furthermore, a simple network-based interface allows for
+ interactions with external programs written in any programming
+ language.  For example, a robotic arm application that is external to
+ BCI2000 may be controlled in real time based on brain signals
+ processed by BCI2000, or BCI2000 may use and store along with brain
+ signals behavioral-based inputs such as eye-tracker coordinates.
