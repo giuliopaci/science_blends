@@ -19,29 +19,30 @@ Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science
 Suggests: science-bci
 Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science/tasks/bci
 
-
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
 Depends: psychopy
-Published-Title: PsychoPy - Psychophysics software in Python
+Pkg-URL: http://neuro.debian.net/pkgs/psychopy.html
 Published-Authors: J. W. Peirce
-Published-In: Journal of Neuroscience Methods, 162:8-13
-Published-Year: 2007
 Published-DOI: 10.1016/j.jneumeth.2006.11.017
+Published-In: Journal of Neuroscience Methods, 162:8-13
+Published-Title: PsychoPy - Psychophysics software in Python
+Published-Year: 2007
 
-
-Depends: visionegg
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: visionegg
 Homepage: http://www.visionegg.org
-License: LGPL
 WNPP: 365856
+License: LGPL
 Pkg-Description: Python library for 2D/3D visual stimulus generation
  The Vision Egg is a programming library that uses standard, inexpensive
  computer graphics cards to produce visual stimuli for vision research
  experiments.
-Published-Title: Vision Egg: An Open-Source Library for Realtime Visual Stimulus Generation
 Published-Authors: Andrew Straw
-Published-In: Frontiers in Neuroinformatics
-Published-Year: 2008
-Published-URL: http://frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/004.2008/
 Published-DOI: 10.3389/neuro.11.004.2008
+Published-In: Frontiers in Neuroinformatics
+Published-Title: Vision Egg: An Open-Source Library for Realtime Visual Stimulus Generation
+Published-URL: http://frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/004.2008/
+Published-Year: 2008
 
 Depends: python-pyoptical
 
