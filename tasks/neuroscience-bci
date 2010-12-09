@@ -108,3 +108,13 @@ Pkg-Description: platform for brain-computer interface systems
  BCI2000 may be controlled in real time based on brain signals
  processed by BCI2000, or BCI2000 may use and store along with brain
  signals behavioral-based inputs such as eye-tracker coordinates.
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: emokit
+Homepage: https://github.com/daeken/Emokit
+Language: Python, C
+License: BSD-3
+Vcs-Browser: https://github.com/daeken/Emokit
+Vcs-Git: git://github.com/daeken/Emokit.git
+Pkg-Description: Emotiv EPOC headset Python interface
+ Emotive is an interface to a budget Emotiv EPOC EEG headset.
