@@ -12,4 +12,29 @@ Description: Debian Science packages for the design and use of
  found in science-neuroscience-cognitive, science-dataacquisition,
  data-machine-learning metapackages.
 
-
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: pyff
+Homepage: http://bbci.de/pyff/
+Language: Python
+License: GPL-2+
+Vcs-Browser: https://github.com/venthur/pyff
+Vcs-Git: git://github.com/venthur/pyff.git
+Pkg-Description: Brain Computer Interface (BCI) framework
+ Pyff is a Pythonic Feedback Framework which provides a platform
+ independent framework to develop BCI feedback applications in
+ Python. It was designed to make the development of feedback
+ applications as easy as possible.  Pyff framework moves feedback
+ implementations to a general purpose, and easy to learn language like
+ Python. Python provides many so called bindings to other libraries,
+ which allow it to develop high quality multimedia feedback
+ applications, with little effort.
+ .
+ The framework communicates with the rest of the BCI system via a
+ standardized communication protocol using UDP and XML and is
+ therefore suitable to be used with any BCI system that may be adapted
+ to send its control signal via UDP in the specified format.
+Published-Authors: Bastian Venthur, Simon Scholler, John Williamson, Sven Dähne, Matthias S Treder, Maria T Kramarek, Klaus-Robert Müller and Benjamin Blankertz
+Published-DOI: 10.3389/fnins.2010.00179
+Published-In: Frontiers in Neuroscience
+Published-Title: Pyff --- A Pythonic Framework for Feedback Applications and Stimulus Presentation in Neuroscience
+Published-Year: 2010
