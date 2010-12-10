@@ -46,3 +46,4 @@ Published-Year: 2008
 
 Depends: python-pyoptical
 
+Depends: python-pyepl
