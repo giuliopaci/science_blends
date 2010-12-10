@@ -47,3 +47,25 @@ Published-Year: 2008
 Depends: python-pyoptical
 
 Depends: python-pyepl
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: psychtoolbox-3
+Homepage: http://psychtoolbox.org
+Language: Matlab/Octave, C
+WNPP: 606557
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+License: GPL-2+
+Pkg-Description: Matlab and GNU/Octave functions for vision research
+ Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
+ GNU/Octave functions for vision research. It makes it easy to
+ synthesize and show accurately controlled visual and auditory stimuli
+ and interact with the observer.
+ .
+ The Psychophysics Toolbox interfaces between Matlab or Octave and the
+ computer hardware. The Psychtoolbox's core routines provide access to
+ the display frame buffer and color lookup table, allow
+ synchronization with the vertical retrace, support millisecond
+ timing, allow access to OpenGL commands, and facilitate the
+ collection of observer responses. Ancillary routines support common
+ needs like color space transformations and the QUEST threshold
+ seeking algorithm.
