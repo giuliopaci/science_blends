@@ -89,7 +89,7 @@ Pkg-Description: platform for brain-computer interface systems
 Suggests: bci2000
 Homepage: http://bci2000.org
 Language: C++
-License: non-free (non-commercial applications)
+License: non-free (non-redistributable, non-commercial)
 Pkg-Description: platform for brain-computer interface systems
  BCI2000 supports a variety of data acquisition systems, brain
  signals, and study/feedback paradigms. During operation, BCI2000
@@ -108,6 +108,11 @@ Pkg-Description: platform for brain-computer interface systems
  BCI2000 may be controlled in real time based on brain signals
  processed by BCI2000, or BCI2000 may use and store along with brain
  signals behavioral-based inputs such as eye-tracker coordinates.
+Registration: http://www.bci2000.org/MTA
+Remark: Besides non-commercial restriction, it is required that
+ "ACADEMIC USER must be an investigator / lab director (and not a
+ post-doc or student)". Re-distribution (to third-party) is also
+ forbidden.
 
  ; Added by blends-inject 0.0.6. [Please note here if modified manually]
 Suggests: emokit
