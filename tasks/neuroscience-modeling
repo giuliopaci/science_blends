@@ -113,3 +113,27 @@ Published-Title: NEST (Neural Simulation Tool)
 Published-Year: 2007
 Registration: http://www.nest-initiative.org/download/Software:Download.php
 Remark: Mentioned packaging is not providing NEST itself but rather only packaging materials so you could build package yourself.
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: invt
+Homepage: http://ilab.usc.edu/toolkit/
+Language: C++ + Perl, Tcl, Matlab
+License: GPL-2+
+Pkg-Description: iLab Neuromorphic Vision C++ Toolkit
+ The iLab Neuromorphic Vision C++ Toolkit (iNVT, pronounced
+ ``invent'') is a comprehensive set of C++ classes for the development
+ of neuromorphic models of vision. Neuromorphic models are
+ computational neuroscience algorithms whose architecture and function
+ is closely inspired from biological brains. The iLab Neuromorphic
+ Vision C++ Toolkit comprises not only base classes for images,
+ neurons, and brain areas, but also fully-developed models such as our
+ model of bottom-up visual attention and of Bayesian surprise.
+ .
+ Features at a glance:
+  * Low-level neural network simulation classes.
+  * High-level neuromorphic classes.
+  * Neuromorphic models of visual attention.
+  * Hardware interfacing
+  * Parallel processing classes for the simulation of complex models.
+  * Neuromorphic modeling environment.
+Registration: http://ilab.usc.edu/cgi-bin/yabb/YaBB.pl?board=;action=register
