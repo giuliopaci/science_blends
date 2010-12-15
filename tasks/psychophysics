@@ -69,3 +69,18 @@ Pkg-Description: Matlab and GNU/Octave functions for vision research
  collection of observer responses. Ancillary routines support common
  needs like color space transformations and the QUEST threshold
  seeking algorithm.
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: pyxid
+Homepage: https://github.com/cedrus-opensource/pyxid
+Language: Python
+WNPP: 607213
+License: BSD-3
+Pkg-Description: interfacing with Cedrus XID and StimTracker devices
+ pyxid is a Python library for interfacing with Cedrus XID (eXperiment
+ Interface Device) and StimTracker devices. XID devices are used in
+ software such as SuperLab, Presentation, and ePrime for receiving
+ input as part of stimulus/response testing experiments.
+ .
+ pyxid handles all of the low level device handling for XID devices in
+ python projects.
