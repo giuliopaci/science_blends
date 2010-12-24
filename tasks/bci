@@ -123,3 +123,15 @@ Vcs-Browser: https://github.com/daeken/Emokit
 Vcs-Git: git://github.com/daeken/Emokit.git
 Pkg-Description: Emotiv EPOC headset Python interface
  Emotive is an interface to a budget Emotiv EPOC EEG headset.
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: openvibe
+Homepage: http://openvibe.inria.fr
+Language: C++
+WNPP: 580247
+License: LGPL
+Pkg-Description: platform for the design, test and use of BCI
+ OpenViBE enables to design, test and use Brain-Computer Interfaces (BCI).
+ OpenViBE is a software for real-time neurosciences (that is, for
+ real-time processing of brain signals). It can be used to acquire, filter,
+ process, classify and visualize brain signals in real time.
