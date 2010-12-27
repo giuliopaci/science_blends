@@ -126,3 +126,13 @@ Pkg-Description: digitize scanned plots of functional data
  an automatic digitization feature that can automatically digitize many
  types of functional data.
 
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Suggests: hart
+Homepage: http://hart.sourceforge.net/
+Language: C
+License: GPL
+Pkg-Description: toolbox to generate DAQ Scicos-blocks for hardware
+  The HART (Hardware Access in Real-Time) Toolbox can be used to
+  generate Scicos-blocks for hardware that have a C/C++ interface. The
+  blocks can be used under Linux for soft and hard real time tasks
+  (RTAI). Blocks are provided for DAQ (COMEDI)
