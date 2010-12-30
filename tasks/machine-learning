@@ -87,10 +87,15 @@ Pkg-Description: A matlab-like environment for state-of-the-art machine learning
  implementation, thanks to an easy and fast scripting language (Lua) and
  a underlying C implementation.
 
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
 Depends: lush
 Why: LUSH is a generic Lisp environment for numeric computation, but
  because ML is of primary interest of the authors, thus lush contains
  quite a few ML libraries (ANN, SVM, etc).
+Published-Authors: Leon Bottou and Yann LeCun
+Published-Title: The Lush manual
+Published-URL: http://lush.sf.net
+Published-Year: 2002
 
 Depends: libcv-dev, python-opencv
 Why: OpenCV provides a set of ML methods for pattern recognition
