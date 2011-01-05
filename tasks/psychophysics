@@ -48,14 +48,17 @@ Depends: python-pyoptical
 
 Depends: python-pyepl
 
- ; Added by blends-inject 0.0.6. [Please note here if modified manually]
-Suggests: psychtoolbox-3
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Recommends: octave-psychtoolbox-3
 Homepage: http://psychtoolbox.org
 Language: Matlab/Octave, C
 WNPP: 606557
 Responsible: NeuroDebian Team <team@neuro.debian.net>
 License: GPL-2+
-Pkg-Description: Matlab and GNU/Octave functions for vision research
+Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/psychtoolbox-3.git
+Vcs-Git: git://git.debian.org/git/pkg-exppsy/psychtoolbox-3.git
+Pkg-URL: http://neuro.debian.net/pkgs/octave-psychtoolbox-3.html
+Pkg-Description: toolbox for vision research -- Octave bindings
  Psychophysics Toolbox Version 3 (PTB-3) is a free set of Matlab and
  GNU/Octave functions for vision research. It makes it easy to
  synthesize and show accurately controlled visual and auditory stimuli
@@ -69,6 +72,8 @@ Pkg-Description: Matlab and GNU/Octave functions for vision research
  collection of observer responses. Ancillary routines support common
  needs like color space transformations and the QUEST threshold
  seeking algorithm.
+ .
+ This package contains bindings for Octave.
 
  ; Added by blends-inject 0.0.6. [Please note here if modified manually]
 Suggests: pyxid
