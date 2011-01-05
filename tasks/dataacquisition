@@ -136,3 +136,18 @@ Pkg-Description: toolbox to generate DAQ Scicos-blocks for hardware
   generate Scicos-blocks for hardware that have a C/C++ interface. The
   blocks can be used under Linux for soft and hard real time tasks
   (RTAI). Blocks are provided for DAQ (COMEDI)
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Depends: libfreenect-dev
+Homepage: http://openkinect.org/
+WNPP: 606831
+Responsible: Arne Bernin <arne@alamut.de>
+Vcs-Browser: https://github.com/arnebe/libfreenect
+Vcs-Git: git://github.com/arnebe/libfreenect.git
+Pkg-URL: http://neuro.debian.net/pkgs/libfreenect-dev.html
+Pkg-Description: library for accessing Kinect USB camera -- development files
+ libfreenect is the core library for accessing the Microsoft Kinect
+ USB camera.
+ .
+ This is the development package containing the libraries and header for
+ software development with libfreenect.

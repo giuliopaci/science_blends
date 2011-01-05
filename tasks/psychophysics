@@ -84,3 +84,18 @@ Pkg-Description: interfacing with Cedrus XID and StimTracker devices
  .
  pyxid handles all of the low level device handling for XID devices in
  python projects.
+
+ ; Added by blends-inject 0.0.6. [Please note here if modified manually]
+Depends: libfreenect-dev
+Homepage: http://openkinect.org/
+WNPP: 606831
+Responsible: Arne Bernin <arne@alamut.de>
+Vcs-Browser: https://github.com/arnebe/libfreenect
+Vcs-Git: git://github.com/arnebe/libfreenect.git
+Pkg-URL: http://neuro.debian.net/pkgs/libfreenect-dev.html
+Pkg-Description: library for accessing Kinect USB camera -- development files
+ libfreenect is the core library for accessing the Microsoft Kinect
+ USB camera.
+ .
+ This is the development package containing the libraries and header for
+ software development with libfreenect.
