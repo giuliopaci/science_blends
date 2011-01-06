@@ -1,0 +1,24 @@
+Task: Distributed Computing
+Description: Debian Science Distributed Computing packages
+ This metapackage will install Debian Science packages useful for
+ various types of distributed computing, such as grid-, cloud-, cluster-
+ and parallel-computing.
+
+
+Depends: ipython
+Why: Provides ipcluster/ipcontroller/ipengine for Python-based distributed
+     computing
+
+Depends: torque-common, torque-server
+
+Depends: nordugrid-arc-nox
+
+Depends: gridengine-client, gridengine-exec, gridengine-master, gridengine-qmon
+
+Depends: globus-core
+
+Depends: openmpi-bin, mpich2
+
+Depends: mpichpython, python-mpi, lampython
+
+Suggests: hpcc
