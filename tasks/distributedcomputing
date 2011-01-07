@@ -22,3 +22,29 @@ Depends: openmpi-bin, mpich2
 Depends: mpichpython, python-mpi, lampython
 
 Suggests: hpcc
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: condor
+Homepage: http://www.cs.wisc.edu/condor
+Language: C++, Perl
+WNPP: 233482
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+License: Apache-2.0
+Pkg-Description: workload management system
+ Like other full-featured batch systems, Condor provides a job queueing
+ mechanism, scheduling policy, priority scheme, resource monitoring, and
+ resource management. Users submit their serial or parallel jobs to Condor,
+ Condor places them into a queue. It chooses when and where to run the jobs
+ based upon a policy, carefully monitors their progress, and ultimately
+ informs the user upon completion.
+ .
+ Unlike more traditional batch queueing system, Condor can also effectively
+ harness wasted CPU power from otherwise idle desktop workstations. Condor
+ does not require a shared file system across machines - if no shared file
+ system is available, Condor can transfer the job's data files on behalf of
+ the user.
+Published-Authors: Michael Litzkow, Miron Livny, and Matt Mutka
+Published-In: Proceedings of the 8th International Conference of Distributed Computing Systems, pp. 104-111
+Published-Title: Condor - A Hunter of Idle Workstations
+Published-Year: 1988
+Registration: http://www.cs.wisc.edu/condor/downloads-v2/
