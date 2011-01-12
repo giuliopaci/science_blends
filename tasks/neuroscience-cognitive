@@ -372,3 +372,22 @@ Published-In: Journal of Neuroscience Methods 134:9-21
 Published-Title: EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics
 Published-Year: 2004
 Registration: http://sccn.ucsd.edu/eeglab/install.html
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: pyxnat
+Homepage: http://packages.python.org/pyxnat
+Language: Python
+WNPP: 609820
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+License: BSD
+Pkg-Description: interface to access neuroimaging data on XNAT servers
+ XNAT is an extensible database for neuroimaging data.  pyxnat is a
+ Python library that relies on the REST API provided by the XNAT
+ platform since its 1.4 version. The main objective of pyxnat is to
+ ease communications with an XNAT server to plug-in external tools or
+ python scripts to process the data. pyxnet features:
+ .
+  - resources browsing capabilities
+  - read and write access to resources
+  - complex searches
+  - disk-caching of requested files and resources
