@@ -97,8 +97,9 @@ Published-Title: PCSIM: a parallel simulation environment for neural circuits fu
 Published-Year: 2009
 Remark: last release is more than 1 year ago, but there is development in newbuild branch
 
- ; Added by blends-inject 0.0.5. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: nest
+Homepage: http://www.nest-initiative.org/index.php/Software:About_NEST
 Responsible: Yury V. Zaytsev <yury@shurup.com>
 License: non-FOSS
 Vcs-Browser: http://git.zaytsev.net/?p=nest-packaging.git;a=summary
