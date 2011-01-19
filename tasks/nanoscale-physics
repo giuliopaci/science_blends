@@ -77,6 +77,9 @@ Recommends: libscalapack-mpi1
 Recommends: python-scientific, python-scipy, python-scitools, python-sympy
 Why: ODE solvers, optimization algorithms, symbolic maths
 
+Recommends: pyxplot
+Why: publication-quality figures
+
 Suggests: dx, dx-doc
 
 Suggests: gmsh
