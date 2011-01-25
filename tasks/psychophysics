@@ -104,3 +104,18 @@ Pkg-Description: library for accessing Kinect USB camera -- development files
  .
  This is the development package containing the libraries and header for
  software development with libfreenect.
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: tscope
+Homepage: http://users.ugent.be/~masteven/tscope
+Language: C
+License: GPL
+Pkg-Description: C/C++ experiment programming library for cognitive scientists
+ Tscope is a C/C++ experiment programming library for cognitive
+ scientists. It provides functions for graphics,
+ sound, timing, randomization and response registration.
+Published-Authors: Stevens, M., Lammertyn, J., Verbruggen, F., & Vandierendonk, A.
+Published-In: Behavior Research Methods, 38, 280-286.
+Published-Title: Tscope: A C library for programming cognitive experiments on the MS Windows platform
+Published-Year: 2006
+Remark: Primarily targeting Windows platform, provides some functionality on Linux
