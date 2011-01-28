@@ -1,10 +1,7 @@
 Task: Engineering-dev
 Description: Debian Science Engineering-dev packages
  This metapackage will install Debian Science packages which might be
- helpful for development of applications for Engineering. Please note
- that packages listed as "recommended" may not be installed by
- default, and that packages listed as "suggested" will not be
- installed unless the user asks for them to be installed.
+ helpful for development of applications for Engineering.
  .
  You might also be interested in the science-engineering metapackage.
 
