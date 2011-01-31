@@ -119,3 +119,22 @@ Published-In: Behavior Research Methods, 38, 280-286.
 Published-Title: Tscope: A C library for programming cognitive experiments on the MS Windows platform
 Published-Year: 2006
 Remark: Primarily targeting Windows platform, provides some functionality on Linux
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: opensesame
+Homepage: http://www.cogsci.nl/software/opensesame
+WNPP: 611640
+Responsible: Sebastiaan Mathôt <s.mathot@psy.vu.nl>
+License: GPL-3
+Pkg-URL: http://files.cogsci.nl/software/opensesame/
+Pkg-Description: graphical experiment builder for the social sciences
+ OpenSesame is a graphical experiment builder. OpenSesame provides an
+ easy to use, point-and-click interface for creating psychological
+ experiments. In addition to a powerful sketchpad for creating visual
+ stimuli, OpenSesame features a sampler and synthesizer for sound
+ playback. For more complex tasks, OpenSesame supports Python
+ scripting using the built-in editor with syntax highlighting.
+Published-Authors: Mathôt, S., & Theeuwes, J.
+Published-In: http://www.cogsci.nl/software/opensesame
+Published-Title: OpenSesame (Version 0.22) [Computer software and manual]
+Published-Year: Retrieved December 18, 2010
