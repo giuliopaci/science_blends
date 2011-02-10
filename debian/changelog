@@ -1,3 +1,9 @@
+debian-science (0.13) UNRELEASED; urgency=low
+
+  * libmatheval1-dev => libmatheval-dev (Closes: #612758)
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 10 Feb 2011 14:11:09 +0100
+
 debian-science (0.12) unstable; urgency=low
 
   * tasks/statistics: Fix typo in package description

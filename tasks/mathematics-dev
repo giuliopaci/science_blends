@@ -28,7 +28,7 @@ Why: linear programming
 Depends: libcgal-dev
 Why: computational geometry
 
-Depends: libmatheval1-dev
+Depends: libmatheval-dev
 
 Depends: python-scikits-openopt
 
