@@ -30,6 +30,7 @@ Language: C++, Perl
 WNPP: 233482
 Responsible: NeuroDebian Team <team@neuro.debian.net>
 License: Apache-2.0
+Pkg-URL: http://neuro.debian.net/pkgs/condor.html
 Pkg-Description: workload management system
  Like other full-featured batch systems, Condor provides a job queueing
  mechanism, scheduling policy, priority scheme, resource monitoring, and
