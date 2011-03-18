@@ -66,6 +66,8 @@ Depends: udav
 
 Depends: python-viper
 
+Suggests: python-matplotlib
+
 Depends: cassandra
 Homepage: http://dev.artenum.com/projects/cassandra
 License: QPL
