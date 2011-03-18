@@ -80,3 +80,8 @@ Pkg-Description: cooperative computing tools
           users to combine the ease of shell scripting, the power of distributed
           programming, and the precision of compiled languages. Basically,
           parallel programming and exception handling for scripts.
+Published-Authors: Douglas Thain, Christopher Moretti, and Jeffrey Hemmes
+Published-DOI: 10.1007/s10723-008-9100-5
+Published-In: Journal of Grid Computing, 7, 51-72
+Published-Title: Chirp: A Practical Global Filesystem for Cluster and Grid Computing
+Published-Year: 2009
