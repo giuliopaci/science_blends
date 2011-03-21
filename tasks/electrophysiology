@@ -176,7 +176,7 @@ Pkg-Description: platform for analysis of neural signals
 Registration: http://www.chronux.org/register/
 Remark: last release more than 2 years ago, and no major vital signs since then
 
- ; Added by blends-inject 0.0.4. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: libbiosig0
 Homepage: http://biosig.sf.net/
 Language: C++
@@ -191,17 +191,17 @@ Pkg-Description: I/O library for biomedical data - dynamic library
  (including EDF, BDF, GDF, BrainVision, BCI2000, CFWB, HL7aECG,
  SCP_ECG (EN1064), MFER, ACQ, CNT(Neuroscan), DEMG, EGI, EEG1100,
  FAMOS, SigmaPLpro, TMS32).  The complete list of supported file
- formats is available at http://hci.tugraz.at/schloegl/biosig/TESTED .
+ formats is available at http://pub.ist.ac.at/~schloegl/biosig/TESTED .
  .
  This package provides dynamic library.
-Published-Authors: 10.1109/MC.2008.407
-Published-DOI: 10.3389/neuro.11.003.2009
+Published-Authors: Alois Schlögl, Clemens Brunner
+Published-DOI: 10.1109/MC.2008.407
 Published-In: Computer, 41(10): 44-50
 Published-Title: BioSig: A Free and Open Source Software Library for BCI Research
-Published-URL: http://hci.tugraz.at/~schloegl/publications/Schloegl2007_BCI_Software.pdf
+Published-URL: http://pub.ist.ac.at/~schloegl/publications/Schloegl2007_BCI_Software.pdf
 Published-Year: 2008
 
- ; Added by blends-inject 0.0.4. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Depends: sigviewer
 Homepage: http://sigviewer.sourceforge.net
 Language: C++
@@ -218,7 +218,7 @@ Pkg-Description: GUI viewer for biosignals such as EEG, EMG, and ECG
  HL7aECG, SCP_ECG (EN1064), MFER, ACQ, CNT(Neuroscan), DEMG, EGI,
  EEG1100, FAMOS, SigmaPLpro, TMS32). The complete list of supported
  file formats is available at
- http://hci.tugraz.at/schloegl/biosig/TESTED .
+ http://pub.ist.ac.at/~schloegl/biosig/TESTED .
  .
  Besides displaying biosignals, SigViewer supports creating
  annotations to select artifacts or specific events.
