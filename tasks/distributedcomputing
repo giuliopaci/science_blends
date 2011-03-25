@@ -57,6 +57,7 @@ Language: C, Python
 WNPP: 618774
 Responsible: NeuroDebian Team <team@neuro.debian.net>
 License: GPL-2
+Pkg-URL: http://neuro.debian.net/pkgs/cctools.html
 Pkg-Description: cooperative computing tools
  This is a collection of software that help users to share resources in a
  complex, heterogeneous, and unreliable computing environment. This includes:
