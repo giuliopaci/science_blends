@@ -7,7 +7,7 @@ Description: Debian Science Engineering packages
  which depends from packages which are useful to develop engineering
  related software.
 
-Depends: qcad
+Depends: librecad
 
 Depends: sailcut
 Why: CAD software for design of sails
