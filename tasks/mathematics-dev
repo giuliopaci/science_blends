@@ -99,3 +99,5 @@ Depends: libsuitesparse-dev
 Depends: ufc, python-ufc, python-ffc
 
 Depends: python-ufl
+
+Depends: libscythestat-dev
