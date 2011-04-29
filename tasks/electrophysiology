@@ -94,25 +94,8 @@ Pkg-Description: Qt-GUI for RTAI
  RTAI project. It can be used as virtual oscilloscope and monitoring
  application for interacting with the real-time external.
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [now official package]
 Suggests: stimfit
-Homepage: http://code.google.com/p/stimfit/
-Language: C, Python
-WNPP: 612375
-License: GPL-2
-Pkg-Description: view and analyze electrophysiological data
- Stimfit is a free, fast and simple program for viewing and analyzing
- electrophysiological data.  It features an embedded Python shell that
- allows you to extend the program functionality by using numerical
- libraries such as NumPy and SciPy.
- .
- It includes stfio module which supports some electrophysiological
- file formats:
-  - Read/write: CFS binary data, HDF5 files, Axon text files,
-    ASCII files
-  - Read-only: Axon binary files (*.abf), Axograph files (*.axgd,
-    *.axgx), HEKA files (*.dat, from version 0.10)
-    * Write-only: Igor binary waves (*.ibw)
 
  ; Added by blends-inject 0.0.3. [Please note here if modified manually]
 Suggests: trellis-neuro

@@ -13,34 +13,8 @@ Description: Debian Science packages for modeling of neural systems
 
 
 
- ; Added by blends-inject 0.0.2. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.2. [now official package]
 Depends: python-brian
-Homepage: http://www.briansimulator.org/
-Language: Python, C
-WNPP: 602246
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-License: CeCILL-2
-Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/brian.git
-Vcs-Git: git://git.debian.org/git/pkg-exppsy/brian.git
-Pkg-URL: http://neuro.debian.net/pkgs/python-brian.html
-Pkg-Description: simulator for spiking neural networks
- Brian is a clock-driven simulator for spiking neural networks. It is
- designed with an emphasis on flexibility and extensibility, for rapid
- development and refinement of neural models. Neuron models are
- specified by sets of user-specified differential equations, threshold
- conditions and reset conditions (given as strings). The focus is
- primarily on networks of single compartment neuron models (e.g. leaky
- integrate-and-fire or Hodgkin-Huxley type neurons). Features include:
-  - a system for specifying quantities with physical dimensions
-  - exact numerical integration for linear differential equations
-  - Euler, Runge-Kutta and exponential Euler integration for nonlinear
-    differential equations
-  - synaptic connections with delays
-  - short-term and long-term plasticity (spike-timing dependent plasticity)
-  - a library of standard model components, including integrate-and-fire
-    equations, synapses and ionic currents
-  - a toolbox for automatically fitting spiking neuron models to
-    electrophysiological recordings
 Published-Authors: Goodman D.F. and Brette R.
 Published-DOI: 10.3389/neuro.11.005.2008
 Published-In: Front. Neuroinform
