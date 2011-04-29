@@ -75,15 +75,6 @@ Suggests: liblife-dev
 Why: Partial differential equations library, FEA, CFD
 
 Depends: visolate
-WNPP: 597641
-Homepage: http://www.mit.edu/~vona/Visolate/
-License: GNU GPL
-Responsible: chrysn <chrysn@fsfe.org>
-Pkg-Description: tool for engraving PCBs using CNCs
- Visolate reads the gerber files describing printed circuit boards and converts
- them into the g-code needed to engrave they layout into a board using a CNC
- machine. Precise renditions of the original layout can be created as well as
- voronoi fillings of the original layout, shortening the toolpath.
 
 Depends: fritzing
 WNPP: 601230

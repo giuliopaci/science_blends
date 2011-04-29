@@ -157,26 +157,6 @@ Pkg-Description: Software Tools for Molecular Design
  range electrostatics, and more....
 
 Depends: jmol
-Homepage: http://jmol.sourceforge.net/index.en.html
-Responsible: Daniel Leidert <daniel.leidert.spam@gmx.net>
-License: LGPL
-Pkg-URL: http://debian.wgdd.de/temp/jmol/
-Pkg-Description: viewer for chemical structures in 3D
- Jmol is a Java molecular viewer for three-dimensional chemical structures.
- Features include reading a variety of file types and output from quantum
- chemistry programs, and animation of multi-frame files and computed normal
- modes from quantum programs.  It includes with features for chemicals,
- crystals, materials and biomolecules.
- .
-  * The JmolApplet is a web browser applet that can be integrated into
-    web pages.
-  * The Jmol application is a standalone Java application that runs on
-    the desktop.
-  * The JmolViewer is a development tool kit that can be integrated into
-    other Java applications.
- .
- For more detailed information about packaging status please see
- http://lists.debian.org/debian-med/2008/03/msg00097.html
 
 Depends: qutemol
 Homepage: http://qutemol.sourceforge.net/
@@ -214,23 +194,6 @@ Pkg-Description: CP2K is a program to perform atomistic and molecular
  waves approach (GPW), and classical pair and many-body potentials.
 
 Depends: pdb2pqr
-Homepage: http://pdb2pqr.sourceforge.net/
-Responsible: Manuel Prinz <debian@pinguinkiste.de>
-License: GPL
-WNPP: 416269
-Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/pdb2pqr/trunk/
-Pkg-Description: Converts Protein Data Bank (PDB) files to PQR
- From the PDB2PQR hompage: "PDB2PQR is a Python software package that
- automates many of the common tasks of preparing structures for
- continuum electrostatics calculations. This includes adding a limited
- number of missing heavy atoms to biomolecular structures, optimizing
- the protein for favorable hydrogen bonding, determining side-chain
- pKas, and assigning charge and radius parameters from a variety of
- force fields, ultimately yielding a final PQR file."
- .
- PDB2PQR is a tool often used in conjunction with APBS, which is in
- Debian already. I have had good contact with both upstream authors in
- the past.
 
 Depends: openchrom
 Homepage: http://www.openchrom.net/
