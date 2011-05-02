@@ -76,7 +76,7 @@ Pkg-Description: VTK/Java based 3D Scientific Data Viewer
  provides a dynamic interaction with the VTK pipeline and enables to load
  plugins dynamically in order to perform specific tasks in data manipulation
  and visualisation.
-
+ .
  Cassandra is developed by Artenum in the frame of its internal Research and
  Development program and illustrates its skills in scientific visualisation
  and VTK technology. Cassandra has already been used for many applications in
