@@ -1,6 +1,9 @@
 debian-science (0.13) unstable; urgency=low
 
+  [ Sylvestre Ledru ]
   * libmatheval1-dev => libmatheval-dev (Closes: #612758)
+
+  [ Andreas Tille ]
   * Standards-Version: 3.9.2 (no changes needed)
   * New metapackages:
     - science-bci                   brain-computer interface
@@ -16,7 +19,7 @@ debian-science (0.13) unstable; urgency=low
                                     psychophysics
   * Several new dependencies auto generated via Blends tools
 
- -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 10 Feb 2011 14:11:09 +0100
+ -- Andreas Tille <tille@debian.org>  Wed, 04 May 2011 11:34:38 +0200
 
 debian-science (0.12) unstable; urgency=low
 
