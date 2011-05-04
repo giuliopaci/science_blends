@@ -10,9 +10,12 @@ Description: Debian Science Project config package
   * science-astronomy       packages related to astronomy
   * science-astronomy-dev   packages related to development of
                             astronomical applications
+  * science-bci             packages related to brain-computer interface
   * science-biology         packages related to biology
   * science-chemistry       packages related to chemistry
   * science-dataacquisition packages related to data acquisition
+  * science-distributedcomputing  distributed computing packages
+  * science-electrophysiology  packages related to electrophysiology
   * science-electronics     packages related to electronics
   * science-engineering     packages related to engineering
   * science-engineering-dev packages related to development of
@@ -26,9 +29,16 @@ Description: Debian Science Project config package
   * science-meteorology     packages related to meteorology and climate
   * science-meteorology-dev packages related to the development of
                             meteorology and climate applications
+  * science-nanoscale-physics  packages related to nanoscale physics
+  * science-nanoscale-physics-dev packages useful for developing nanoscale
+                            physics applications
   * science-neuroscience-cognitive   packages related to cognitive
                             neuroscience
+  * science-neuroscience-datasets    packages for Neuroscience Datasets
+  * science-neuroscience-modeling    packages for modeling of neural
+                            systems
   * science-physics         packages related to physics
+  * science-psychophysics   packages related to packages for psychophysics
   * science-robotics        packages related to robotics
  .
  This are metapackages for common utilities for all sciences:

@@ -1,6 +1,20 @@
-debian-science (0.13) UNRELEASED; urgency=low
+debian-science (0.13) unstable; urgency=low
 
   * libmatheval1-dev => libmatheval-dev (Closes: #612758)
+  * Standards-Version: 3.9.2 (no changes needed)
+  * New metapackages:
+    - science-bci                   brain-computer interface
+    - science-distributedcomputing  distributed computing packages
+    - science-electrophysiology     packages related to electrophysiology
+    - science-nanoscale-physics     packages related to nanoscale physics
+    - science-nanoscale-physics-dev packages useful for developing nanoscale
+                                    physics applications
+    - science-neuroscience-datasets packages for Neuroscience Datasets
+    - science-neuroscience-modeling packages for modeling of neural
+                                    systems
+    - science-psychophysics         packages related to packages for
+                                    psychophysics
+  * Several new dependencies auto generated via Blends tools
 
  -- Sylvestre Ledru <sylvestre@debian.org>  Thu, 10 Feb 2011 14:11:09 +0100
 
