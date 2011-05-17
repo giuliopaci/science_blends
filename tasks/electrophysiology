@@ -282,3 +282,16 @@ Published-Title: MEABench: A Toolset for Multi-electrode Data Acquisition and On
 Published-URL: http://www.its.caltech.edu/~daw/abstracts/05-WDP.html
 Published-Year: 2005
 Remark: 64-bit port is not yet fully tested/supported
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: mclust
+Homepage: http://redishlab.neuroscience.umn.edu/MClust/MClust.html
+Language: C/C++, Matlab
+License: non-DFSG (restrictions: modifications, attribution)
+Pkg-Description: Matlab toolbox for clustering of electrophysiologic recordings
+  MClust is a toolbox which enables a user to perform automated and
+  manual clustering on single-electrode, stereotrode, and tetrode
+  recordings. It allows manual corrections to automated clustering
+  results. It outputs t-files, which contain (after a header) a list
+  of timestamps in binary format. Timestamps are 32-bit longs at a
+  resolution of 10 timestamps/ms.
