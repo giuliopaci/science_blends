@@ -46,13 +46,8 @@ Published-In: Neuroinformatics, 7, 165–178
 Published-Title: Spike Train Analysis Toolkit: Enabling Wider Application of Information-Theoretic Techniques to Neurophysiology
 Published-Year: 2009
 
- ; Added by blends-inject 0.0.5. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: klustakwik
-Homepage: http://klustakwik.sourceforge.net
-Pkg-Description: spike sorting tool
- A program for unsupervised classification of multidimensional
- continuous data. It arose from a specific need - automatic sorting of neuronal
- action potential waveforms.
 Published-Authors: Kenneth D. Harris, Darrell A. Henze, Jozsef Csicsvari, Hajime Hirase, and György Buzsáki
 Published-In: Journal of Neurophysiology, 84, 401-414
 Published-Title: Accuracy of Tetrode Spike Separation as Determined by Simultaneous Intracellular and Extracellular Measurements
