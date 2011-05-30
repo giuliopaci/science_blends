@@ -75,20 +75,8 @@ Pkg-Description: toolbox for vision research -- Octave bindings
  .
  This package contains bindings for Octave.
 
- ; Added by blends-inject 0.0.6. [Please note here if modified manually]
-Suggests: pyxid
-Homepage: https://github.com/cedrus-opensource/pyxid
-Language: Python
-WNPP: 607213
-License: BSD-3
-Pkg-Description: interfacing with Cedrus XID and StimTracker devices
- pyxid is a Python library for interfacing with Cedrus XID (eXperiment
- Interface Device) and StimTracker devices. XID devices are used in
- software such as SuperLab, Presentation, and ePrime for receiving
- input as part of stimulus/response testing experiments.
- .
- pyxid handles all of the low level device handling for XID devices in
- python projects.
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: python-pyxid
 
  ; Added by blends-inject 0.0.6. [now official package]
 Depends: libfreenect-dev
