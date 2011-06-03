@@ -432,3 +432,23 @@ Published-In: see http://surfer.nmr.mgh.harvard.edu/fswiki/Articles
 Registration: http://surfer.nmr.mgh.harvard.edu/fswiki/Registration
 Remark: The 'tktools' (tkmedit, tksurfer and tkregister2)  under the
   CorTechs license are not readily redistributable thus excluded.
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: xnat
+Homepage: http://www.xnat.org
+Language: java
+WNPP: 629143
+License: XNAT SLA
+Pkg-Description: platform for data management and productivity tasks in neuroimaging
+ The primary functionality of XNAT is to provide a place to store and
+ control access to neuroimaging data. This includes sophisticated user
+ control, search and retrieval, and archiving capabilities. As
+ open-source software, XNAT also supports a wide variety of
+ research-based processing pipelines, and is able to link up with
+ supercomputer processing power to dramatically shorten image
+ processing time.
+Published-Authors: Marcus, D.S., Olsen T., Ramaratnam M., and Buckner, R.L.
+Published-In: Neuroinformatics 5(1): 11-34
+Published-Title: The Extensible Neuroimaging Archive Toolkit (XNAT): An informatics platform for managing, exploring, and sharing neuroimaging data.
+Published-Year: 2007
+Registration: http://www.xnat.org/download-xnat.html
