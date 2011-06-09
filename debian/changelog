@@ -1,3 +1,11 @@
+debian-science (0.14) UNRELEASED; urgency=low
+
+  * tasks/engineering-dev: Deleted libqwt5-qt3-dev which will be removed
+    from Debian
+    Closes: #629869
+
+ -- Andreas Tille <tille@debian.org>  Thu, 09 Jun 2011 08:50:10 +0200
+
 debian-science (0.13) unstable; urgency=low
 
   [ Sylvestre Ledru ]
