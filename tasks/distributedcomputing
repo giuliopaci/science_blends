@@ -89,3 +89,10 @@ Published-Year: 2009
 
  ; Added by blends-inject 0.0.7. [now official package]
 Suggests: python-mpi4py
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Depends: dmtcp
+Published-Authors: Jason Ansel, Kapil Arya, and Gene Cooperman
+Published-In: 23rd IEEE International Parallel and Distributed Processing Symposium (IPDPS'09).
+Published-Title: DMTCP: Transparent Checkpointing for Cluster Computations and the Desktop
+Published-Year: 2009
