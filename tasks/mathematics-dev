@@ -30,7 +30,7 @@ Why: computational geometry
 
 Depends: libmatheval-dev
 
-Depends: python-scikits-openopt
+Depends: python-openopt
 
 Depends: libmatio-dev
 
