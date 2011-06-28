@@ -174,4 +174,11 @@ Homepage: http://nrec.neurologie.uni-tuebingen.de/nrec
 License: GPL
 Language: C++
 Pkg-Description: neurological stimulation, data acquisition and experiment control
- Nrec is a software package for stimulation, data acquisition and experiment control.
+ Nrec , developed by Friedemann Bunjes and Jan Gukelberger at the
+ Neurology of Tübingen University, is a package for stimulation, data
+ acquisition and experiment control in the flavour of cognitive fMRI
+ research, which has been expanded to include flexible biosignal
+ acquisition and sensory stimulation. It produces Matlab-readable files
+ and generally puts an emphasis on standards like using the comedi Linux
+ data acquisition library, OpenGL, XML parameter file format and hdf5
+ data storage files format.
