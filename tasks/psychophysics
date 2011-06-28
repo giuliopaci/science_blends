@@ -168,3 +168,10 @@ Published-DOI: 10.1016/j.neuroimage.2011.02.005
 Published-In: NeuroImage 56: 1293-1300
 Published-Title: de Bruijn cycles for neural decoding
 Published-Year: 2011
+
+Depends: nrec
+Homepage: http://nrec.neurologie.uni-tuebingen.de/nrec
+License: GPL
+Language: C++
+Pkg-Description: neurological stimulation, data acquisition and experiment control
+ Nrec is a software package for stimulation, data acquisition and experiment control.
