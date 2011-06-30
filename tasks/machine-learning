@@ -142,7 +142,7 @@ Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science
  ; Added by blends-inject 0.0.7. [now official package]
 Depends: python-pebl
 
-Depends: orange
+Depends: python-orange
 License: GPLv3
 Homepage: http://orange.biolab.si/
 Pkg-URL: http://orange.biolab.si/debian/
