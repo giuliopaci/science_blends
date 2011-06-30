@@ -141,3 +141,14 @@ Meta-Suggests: svn://svn.debian.org/blends/projects/science/trunk/debian-science
 
  ; Added by blends-inject 0.0.7. [now official package]
 Depends: python-pebl
+
+Depends: orange
+License: GPLv3
+Homepage: http://orange.biolab.si/
+Pkg-URL: http://orange.biolab.si/debian/
+Responsible: Mitar <mmitar@gmail.com>
+Pkg-Description: Data mining framework
+ Orange is a component-based data mining software. It includes a range
+ of data visualization, exploration, preprocessing and modeling
+ techniques. It can be used through a nice and intuitive user interface
+ or, for more advanced users, as a module for Python programming language.
