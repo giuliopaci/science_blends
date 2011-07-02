@@ -21,6 +21,9 @@ Depends: fityk
 
 Depends: gnuplot, grace, gri, labplot, graphviz, pyxplot, plotdrop, qtiplot
 
+Depends: python-guiqwt
+Why: collection of widgets based on QWT5 for data visualisation.
+
 Depends: imview
 
 Depends: mayavi2

@@ -13,7 +13,7 @@ Why: numerical programming environment similar to Matlab
 Suggests: octaviz
 Why: 3D visualisaion system for Octave
 
-Depends: python-matplotlib, python-scipy, ipython, python-numpy
+Depends: python-matplotlib, python-scipy, ipython, python-numpy, spyder, python-guiqwt
 Why: Python based numerical programming environment similar to Matlab
 
 Depends: pdl
