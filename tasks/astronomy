@@ -18,15 +18,23 @@ Depends: sextractor
 
 Depends: worldwind
 
-Depends: gpredict, stellarium, ssystem, xplanet,
+Depends: gpredict, predict, seesat5
+
+Depends: qfits-tools, yorick-cubeview
+
+Depends: savi
+
+Depends: stellarium, ssystem, xplanet,
          xplanet-images, celestia, kstars, starplot
+
+Depends: lynkeos.app
 
 Suggests: sunclock, xtide, xtide-data, stars
 Why: Took this over from education-astronomy
 
 Depends: stardata-common, gliese, yale
 
-Depends: boinc-app-milkyway
+Depends: boinc-app-milkyway, boinc-app-seti
 
 Suggests: scilab-celestlab, scilab-overload, scilab-scimysql
 X-Comment: It is not really astronomy, do we need another category or
