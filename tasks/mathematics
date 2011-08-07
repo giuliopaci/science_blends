@@ -80,6 +80,8 @@ Depends: rheolef-runtime
 
 Depends: scotch
 
+Depends: singular
+
 Depends: isabelle
 Homepage: http://isabelle.in.tum.de/
 WNPP: 494491
