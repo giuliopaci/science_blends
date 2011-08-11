@@ -7,6 +7,8 @@ Description: Debian Science Physics packages
 Depends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
+Depends: clhep
+
 Depends: abinit | mpqc | openmx | psi3
 Why: Abinitio Quantum mechanics (As psi3 doesn't do DFT, maybe it should be excluded)
 
@@ -88,18 +90,6 @@ Pkg-Description: library for solving large sparse eigenproblems
  Documentation: user's guide, technical report and comprehensive bibliography.
  .
  Install this package if you need to compile or link against BLZPACK.
-
-Depends: clhep
-Homepage: http://wwwasd.web.cern.ch/wwwasd/lhc++/clhep/
-License: non-DFSG
-Responsible: Dr James Ferrando <ferrando@mail.desy.de>
-Pkg-URL: http://www-pnp.physics.ox.ac.uk/~ferrando/debian/pool/hep/clhep/
-Pkg-Description: CLHEP - A Class Library for High Energy Physics
- The CLHEP project was proposed by Leif Lönnblad at CHEP 92. It is intended to
- be a set of HEP-specific foundation and utility classes such as random
- generators, physics vectors, geometry and linear algebra. CLHEP is structured
- in a set of packages independent of any external package (interdependencies
- within CLHEP are allowed under certain conditions).
 
 Depends: gate
 Homepage: http://opengatecollaboration.healthgrid.org/
