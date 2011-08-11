@@ -89,7 +89,7 @@ Pkg-Description: library for solving large sparse eigenproblems
  .
  Install this package if you need to compile or link against BLZPACK.
 
-Depends: clhep2
+Depends: clhep
 Homepage: http://wwwasd.web.cern.ch/wwwasd/lhc++/clhep/
 License: non-DFSG
 Responsible: Dr James Ferrando <ferrando@mail.desy.de>
