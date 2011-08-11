@@ -1,0 +1,153 @@
+Task: High Energy Physics
+Description: Debian Science High Energy Physics packages
+ This metapackage will install Debian Science packages related to High Energy
+ Physics, which is a branch of physics that studies the elementary subatomic
+ constituents of matter and radiation, and their interactions.  The field is
+ also called Particle Physics.
+ .
+ You might also be interested in the debtag field::physics and, depending on
+ your focus, in the physics and education-physics metapackages.
+
+Depends: cernlib
+
+Depends: paw
+
+Depends: mclibs
+
+Depends: geant321
+
+Depends: feynmf
+
+Depends: root-system
+
+Depends: clhep
+Homepage: http://proj-clhep.web.cern.ch/proj-clhep/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636972
+License: GPL-3, LGPL-3
+Pkg-Description: Class Library for High Energy Physics
+ The CLHEP package is a set of High Energy Physics specific
+ foundation and utility classes such as random generators, physics
+ vectors, geometry and linear algebra.
+
+Depends: hepmc
+Homepage: https://savannah.cern.ch/projects/hepmc/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636976
+License: GPL-2
+Pkg-Description: C++ Event Record for Monte Carlo Generators
+ The HepMC package is an object oriented event record written in C++
+ for High Energy Physics Monte Carlo Generators.
+ .
+ Many extensions from HEPEVT, the Fortran HEP standard, are
+ supported: the number of entries is unlimited, spin density matrices
+ can be stored with each vertex, flow patterns (such as color) can be
+ stored and traced, integers representing random number generator
+ states can be stored, and an arbitrary number of event weights can
+ be included. Particles and vertices are kept separate in a graph
+ structure, physically similar to a physics event.
+ .
+ The added information supports the modularisation of event
+ generators.  Event information is accessed by means of iterators
+ supplied with the package.
+
+Depends: lhapdf
+Homepage: http://projects.hepforge.org/lhapdf/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636978
+License: GPL-2
+Pkg-Description: Les Houches Accord Parton Density Function interface
+ LHAPDF provides a unified and easy to use interface to modern PDF
+ sets. It is designed to work not only with individual PDF sets but
+ also with the more recent multiple "error" sets. It can be viewed as
+ the successor to PDFLIB, incorporating many of the older sets found
+ in the latter, including pion and photon PDFs. In LHAPDF the
+ computer code and input parameters/grids are separated thus allowing
+ more easy updating and no limit to the expansion possibilities.
+
+Depends: fastjet2
+Homepage: http://www.lpthe.jussieu.fr/~salam/fastjet/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636979
+License: GPL-2
+Pkg-Description: Fast C++ code for the kt and other jet algorithms
+ The FastJet package provides a fast implementation of several
+ longitudinally invariant sequential recombination jet algorithms, in
+ particular the longitudinally invariant kt jet algorithm, the
+ inclusive longitudinally invariant version of the Cambridge/Aachen
+ jet-algorithm, and the inclusive anti-kt algorithm.
+
+Depends: siscone
+Homepage: http://projects.hepforge.org/siscone/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636980
+License: GPL-2
+Pkg-Description: Seedless Infrared Safe Cone Jet Finder
+ SISCone implements a seedless infrared (IR) safe cone jet algorithm,
+ it takes N^2*ln(N) time to find jets among N particles, comparing to
+ N*2^N time of other algorithms.
+
+Depends: pythia8
+Homepage: http://home.thep.lu.se/~torbjorn/Pythia.html
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636981
+License: GPL-2
+Pkg-Description: Events Generator of High Energy Physics
+ PYTHIA is a program for the generation of high-energy physics
+ events, i.e. for the description of collisions at high energies
+ between elementary particles such as e+, e-, p and pbar in various
+ combinations. It contains theory and models for a number of physics
+ aspects, including hard and soft interactions, parton distributions,
+ initial- and final-state parton showers, multiple interactions,
+ fragmentation and decay.
+
+Depends: rivet
+Homepage: http://projects.hepforge.org/rivet/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636983
+License: GPL-2
+Pkg-Description: Robust Independent Validation of Experiment and Theory
+ Rivet is a toolkit for validation of Monte Carlo event
+ generators. Using a computationally efficient model for observable
+ computations, Rivet provides a set of experimental analyses useful
+ for generator sanity checks, as well as a convenient infrastructure
+ for adding your own analysis.
+
+Depends: thepeg
+Homepage: http://projects.hepforge.org/thepeg/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636986
+License: GPL-2
+Pkg-Description: Toolkit for High Energy Physics Event Generation
+ ThePEG is a general toolkit for implementing physics models of event
+ generation in high energy particle collisions. It defines a general
+ structure of event generation in terms of abstract base classes for
+ e.g. hard partonic matrix elements, parton showers and the decay of
+ unstable particles. Different models are then implemented by
+ creating classes which inherits from these base classes and
+ implements sets of pre-defined virtual functions.
+
+Depends: looptools
+Homepage: http://www.feynarts.de/looptools/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636987
+License: LGPL-3
+Pkg-Description: Integral Evaluator of One-loop Feynman Diagram
+ LoopTools is a package for evaluation of scalar and tensor one-loop
+ integrals based on the FF package by G.J. van Oldenborgh. It
+ features an easy Fortran, C++, and Mathematica interface to the
+ scalar one-loop functions of FF and in addition provides the 2-, 3-,
+ and 4-point tensor coefficient functions.
+
+Depends: herwig++
+Homepage: http://projects.hepforge.org/herwig/
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+WNPP: 636988
+License: GPL-2
+Pkg-Description: Multi-purpose event generator for high energy physics
+ Herwig++ is a completely new event generator, written in C++. It is
+ built on the experience gained with the well-known event generator
+ HERWIG. The aim is to provide a multi purpose event generator with
+ similar or improved capabilities (like angular ordered parton
+ evolution and the cluster hadronization model).
+
