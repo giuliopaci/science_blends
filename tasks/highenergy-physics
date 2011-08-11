@@ -155,8 +155,8 @@ Depends: geant4
 Homepage: http://geant4.cern.ch/
 WNPP: 325305
 License: non-DFSG
-Responsible: Kevin B. McCarty <kmccarty@princeton.edu>
-Pkg-URL: http://borex.princeton.edu/~kmccarty/dists/sid/
+Responsible: Yngve Inntjore Levinsen <yngve.inntjore.levinsen@cern.ch>
+Pkg-URL: http://lcg-heppkg.web.cern.ch/lcg-heppkg/debian/pool/hep/g/geant4/
 Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
  GEANT4 is a toolkit for the simulation of the passage of particles through
  matter.   Its application areas include high energy physics and nuclear
