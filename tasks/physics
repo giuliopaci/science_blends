@@ -9,6 +9,8 @@ Suggests: paw-demos
 
 Depends: clhep
 
+Depends: geant4
+
 Depends: abinit | mpqc | openmx | psi3
 Why: Abinitio Quantum mechanics (As psi3 doesn't do DFT, maybe it should be excluded)
 
@@ -106,24 +108,6 @@ Pkg-Description: Geant4 Application for Emission Tomography
  components allows a coherent description of the acquisition process. It
  makes it possible to perform realistic simulations of data acquisitions
  in time.
-
-Depends: geant4
-Homepage: http://geant4.cern.ch/
-WNPP: 325305
-License: non-DFSG
-Responsible: Kevin B. McCarty <kmccarty@princeton.edu>
-Pkg-URL: http://borex.princeton.edu/~kmccarty/dists/sid/
-Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
- GEANT4 is a toolkit for the simulation of the passage of particles through
- matter.   Its application areas include high energy physics and nuclear
- experiments, medical, accelerator and space physics studies.  The GEANT4
- software consists of an extensive set of libraries, fundamentally
- object-oriented and based in modern C++.  It may be used to develop programs
- with command-line, Xaw-based, or Motif-based interfaces.
- .
- This package is a metapackage that depends upon all components of a
- GEANT4 environment.  Unless you know exactly what parts of GEANT4
- you want, it is best to install this package.
 
 Depends: openfoam
 License: GPL
