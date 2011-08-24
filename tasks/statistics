@@ -50,12 +50,12 @@ Suggests: r-cran-spc
 
 Depends: r-cran-vcd
 
-Depends: python-scikits-statsmodels
+Depends: python-scikits.statsmodels
 Homepage: http://statsmodels.sourceforge.net/
 Language: Python
 License: BSD
 Responsible: Yaroslav Halchenko <debian@onerussian.com>
-Pkg-URL: http://neuro.debian.net/pkgs/python-scikits-statsmodels.html
+Pkg-URL: http://neuro.debian.net/pkgs/python-scikits.statsmodels.html
 WNPP: 570604
 Pkg-Description: classes and functions for the estimation of statistical models
  scikits.statsmodels is a pure Python package that provides classes

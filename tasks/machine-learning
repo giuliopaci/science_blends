@@ -36,12 +36,12 @@ Published-URL: http://www.frontiersin.org/neuroinformatics/paper/10.3389/neuro.1
 Published-DOI: 10.3389/neuro.11.003.2009
 
 
-Depends: python-scikits-statsmodels
+Depends: python-scikits.statsmodels
 Homepage: http://statsmodels.sourceforge.net/
 Language: Python
 License: BSD
 Responsible: Yaroslav Halchenko <debian@onerussian.com>
-Pkg-URL: http://neuro.debian.net/pkgs/python-scikits-statsmodels.html
+Pkg-URL: http://neuro.debian.net/pkgs/python-scikits.statsmodels.html
 WNPP: 570604
 Why: Statistical models
 Pkg-Description: classes and functions for the estimation of statistical models

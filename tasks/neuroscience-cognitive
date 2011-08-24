@@ -263,12 +263,12 @@ Pkg-Description: fitting and testing hypotheses about psychometric functions
  eventually.
 
 
-Depends: python-scikits-statsmodels
+Depends: python-scikits.statsmodels
 Homepage: http://statsmodels.sourceforge.net/
 Language: Python
 License: BSD
 Responsible: Yaroslav Halchenko <debian@onerussian.com>
-Pkg-URL: http://neuro.debian.net/pkgs/python-scikits-statsmodels.html
+Pkg-URL: http://neuro.debian.net/pkgs/python-scikits.statsmodels.html
 WNPP: 570604
 Why: Provides methodology used by 99.99% of cognitive neuroscientists
 Pkg-Description: classes and functions for the estimation of statistical models
