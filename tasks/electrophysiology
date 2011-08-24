@@ -156,22 +156,6 @@ Remark: last release more than 2 years ago, and no major vital signs since then
 
  ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: libbiosig0
-Homepage: http://biosig.sf.net/
-Language: C++
-WNPP: 585533
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-License: GPL-3+
-Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/biosig4c++.git;a=summary
-Vcs-Git: git://git.debian.org/pkg-exppsy/biosig4c++.git
-Pkg-URL: http://neuro.debian.net/pkgs/libbiosig0.html
-Pkg-Description: I/O library for biomedical data - dynamic library
- BioSig is a library for accessing files in several biomedical data formats
- (including EDF, BDF, GDF, BrainVision, BCI2000, CFWB, HL7aECG,
- SCP_ECG (EN1064), MFER, ACQ, CNT(Neuroscan), DEMG, EGI, EEG1100,
- FAMOS, SigmaPLpro, TMS32).  The complete list of supported file
- formats is available at http://pub.ist.ac.at/~schloegl/biosig/TESTED .
- .
- This package provides dynamic library.
 Published-Authors: Alois Schlögl, Clemens Brunner
 Published-DOI: 10.1109/MC.2008.407
 Published-In: Computer, 41(10): 44-50
