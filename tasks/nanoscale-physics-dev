@@ -78,6 +78,17 @@ Pkg-Description: Non-Blocking MPI Collective Operations
  collective operations. Based on ANSI C and MPI-1, it supports all MPI-1
  collective operations in a nonblocking manner. 
 
+Depends: libpspio
+Homepage: http://www.tddft.org/trac/libpspio/
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: LGPL
+WNPP: 640664
+Pkg-Description: Library to read and write pseudopotentials
+ Pseudopotentials consist in atomic data used for atomic-scale electronic
+ structure calculations. Libpspio is a library to read and write
+ pseudopotentials in various formats, allowing as well for conversion in
+ some cases.
+
 Depends: libxc
 Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
 Responsible: Damien Caliste <damien.caliste@cea.fr>
