@@ -182,3 +182,17 @@ Pkg-Description: neurological stimulation, data acquisition and experiment contr
  and generally puts an emphasis on standards like using the comedi Linux
  data acquisition library, OpenGL, XML parameter file format and hdf5
  data storage files format.
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: psychlops
+Homepage: http://psychlops.sourceforge.jp
+Language: C++
+License: GPL
+Pkg-Description:
+ Psychlops is a free C++ library to offer the easy way to develop a
+ demonstration of various types of visual stimulus used in the Vision
+ science.
+ .
+ Binary builds are available only for OS X and Windows.  Sources
+ available from sf's SVN:
+ http://sourceforge.jp/projects/psychlops/svn/view/cpp/
