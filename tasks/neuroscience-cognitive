@@ -436,3 +436,20 @@ Published-In: Neuroinformatics 5(1): 11-34
 Published-Title: The Extensible Neuroimaging Archive Toolkit (XNAT): An informatics platform for managing, exploring, and sharing neuroimaging data.
 Published-Year: 2007
 Registration: http://www.xnat.org/download-xnat.html
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: pysurfer
+Homepage: http://pysurfer.github.com/
+Language: Python
+WNPP: 641345
+Responsible: NeuroDebian Team <team@neuro.debian.net>
+License: BSD-3
+Pkg-Description: visualize Freesurfer's data in Python
+ This is a Python package for visualization and interaction with cortical
+ surface representations of neuroimaging data from Freesurfer. It
+ extends Mayavi’s powerful visualization engine with a high-level interface for
+ working with MRI and MEG data.
+ .
+ PySurfer offers both a command-line interface designed to broadly replicate
+ Freesurfer’s Tksurfer program as well as a Python library for writing scripts
+ to efficiently explore complex datasets.
