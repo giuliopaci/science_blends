@@ -10,7 +10,7 @@ Description: Debian Science Nanoscale Physics development packages
 Depends: abinit-dev, abinit-doc
 Why: Abinit input parser and symmetry finder
 
-Depends: liblas-dev, libblas-doc, liblapack-dev, liblapack-doc
+Depends: libblas-dev, libblas-doc, liblapack-dev, liblapack-doc
 
 Depends: libetsf-io-dev, etsf-io-doc
 
