@@ -18,7 +18,7 @@ Description: Debian Science Nanoscale Physics packages
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
 
-Depends: abinit, mpqc, openmx, psi3
+Depends: abinit, mpqc, openmx, psi3, quantum-espresso
 
 Depends: drawxtl
 
@@ -249,14 +249,6 @@ Pkg-Description: Atomic Simulation Environment
  .
  It currently supports ABINIT, ASAP, DFTB, ELK, EXCITING, EMT, FHI-AIMS,
  FLEUR, GPAW, HOTBIT, JACAPO, SIESTA, and TURBOMOLE.
-
-Depends: quantumespresso
-Homepage:  http://www.quantum-espresso.org/
-License: GPL
-Pkg-Description: Electronic structure calculations
- Integrated suite of computer codes for electronic-structure calculations and
- materials modeling at the nanoscale. It is based on density-functional theory,
- plane waves, and pseudopotentials (both norm-conserving and ultrasoft).
 
 Depends: wannier90
 Homepage: http://www.wannier.org/
