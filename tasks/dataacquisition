@@ -16,6 +16,8 @@ Suggests: libgpib-bin
 
 Depends: ktimetrace
 
+Depends: netcdf-bin
+
 Suggests: comedi-source
 
 Suggests: rtai

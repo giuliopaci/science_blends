@@ -45,3 +45,8 @@ Depends: libelmer-dev
 Depends: libbft-dev
 
 Depends: libmed-dev, libmedc-dev, libmedimport-dev
+
+Depends: libnetcdf-dev, python-netcdf
+
+Depends: libnetcdf-java
+WNPP: 641447
