@@ -119,3 +119,6 @@ Pkg-Description: toolbox to generate DAQ Scicos-blocks for hardware
 
  ; Added by blends-inject 0.0.6. [Now official package]
 Depends: libfreenect-dev
+
+Depends: opendap
+WNPP: 641315
