@@ -21,3 +21,6 @@ Depends: libteem1
 Suggests: cimg-dev
 
 Suggests: libsimage-dev
+
+Suggests: libvisad-java
+WNPP: 641399
