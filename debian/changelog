@@ -1,3 +1,10 @@
+debian-science (0.15) UNRELEASED; urgency=low
+
+  * config/control: Mention new metapackage science-highenergy-physics
+    (which was lacking in last changelog)
+
+ -- Andreas Tille <tille@debian.org>  Fri, 28 Oct 2011 14:41:04 +0200
+
 debian-science (0.14) unstable; urgency=low
 
   * tasks/engineering-dev: Deleted libqwt5-qt3-dev which will be removed
