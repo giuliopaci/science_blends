@@ -72,6 +72,8 @@ Depends: etsf-io
 
 Depends: pymca
 
+Depends: quantum-espresso
+
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
@@ -149,13 +151,6 @@ Pkg-Description: Extensible Simulation Package for Research on Soft matter
  models as they are used in soft matter research, with emphasis on
  charged systems.
 
-Depends: quantumespresso
-Homepage:  http://www.quantum-espresso.org/
-License: GPL
-Pkg-Description: Electronic structure calculations
- Integrated suite of computer codes for electronic-structure calculations and
- materials modeling at the nanoscale. It is based on density-functional theory,
- plane waves, and pseudopotentials (both norm-conserving and ultrasoft).
 
 Depends: cp2k
 Homepage: http://cp2k.berlios.de/
