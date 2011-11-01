@@ -239,9 +239,10 @@ Published-DOI: 10.1016/j.neuroimage.2009.01.045
 
 
 Depends: mclaren-rhesus-macaque-atlas
-License: custom, non-free
+License: GPL-3
 Responsible: NeuroDebian team <team@neuro.debian.net>
-Remark: Redistributability of this data needs to be clarified.
+Remark: Upstream agreed to change the license to GPL-3 (might not yet be
+ reflected on the webpage yet)
 Pkg-Description: MRI-based brain atlas of the rhesus macaque monkey
  A population-average MRI-based atlas collection for the rhesus macaque (Macaca
  mulatta) that can be used with common brain mapping packages such as SPM or
