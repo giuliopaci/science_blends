@@ -307,3 +307,87 @@ Pkg-Description: suite for analysis of magnetoencephalography (MEG) data
 Remark: Needs DFSG-ification.
         According to the author is not yet ready for the use by
         mortals -- wasn't released yet.
+
+Depends: libdrawtk-dev
+Homepage: http://cnbi.epfl.ch/software/drawtk.html
+Language: C
+WNPP: 646948
+Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+License: LGPL-3
+Vcs-Browser: http://cnbisrv02.epfl.ch/cgit/pkg-drawtk.git
+Vcs-Git: git://cnbisrv02.epfl.ch:443/pkg-drawtk.git
+Pkg-Description: Library to design easily visual feedback of BCI
+ This package provides an C library to perform efficient 2D drawings. The
+ drawing is done by OpenGL which allow us fast and nice rendering of basic
+ shapes, text, images and video. It should among other provides all the
+ necessary building blocks to create quickly stimuli for an experiment in
+ psychophysics or to design visual feedback for BCI.
+
+Suggests: libxdffileio-dev
+Homepage: http://cnbi.epfl.ch/software/xdffileio.html
+Language: C
+WNPP: 646954
+Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+License: LGPL-3
+Vcs-Browser: http://cnbisrv02.epfl.ch/cgit/pkg-xdffileio.git
+Vcs-Git: git://cnbisrv02.epfl.ch:443/pkg-xdffileio.git
+Pkg-Description: Library to read/write EEG data file formats
+ xdffileio provides a unified interface to read/write EEG file format
+ in realtime (streaming data). It has been designed to provide a
+ consistent and common interface to all supported file formats
+ while minimizing the CPU cost on the main processing loop.
+ It has been particularly designed to be used in a Brain Computer
+ Interface (BCI).
+ .
+ It currently supports the following file formats: EDF, BDF, GDF 1.X, GDF 2.X
+
+Suggests: librtfilter-dev
+Homepage: http://cnbi.epfl.ch/software/rtfilter.html
+Language: C
+WNPP: 646956
+Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+License: LGPL-3
+Vcs-Browser: http://cnbisrv02.epfl.ch/cgit/pkg-rtfilter.git
+Vcs-Git: git://cnbisrv02.epfl.ch:443/pkg-rtfilter.git
+Pkg-Description: Multichannel realtime filtering library
+ rtfilter provides a library written in C implementing realtime digital
+ filtering functions optimized for multichannel signals (i.e. filtering 
+ multiple signals with the same filter). The core of the library implements
+ FIR and IIR filtering for float and double data type (complex or real
+ data). Additional functions are also provided to design few usual filters:
+ Butterworth, Chebyshev, windowed sinc, analytical filter...
+
+Suggests: libeegdev-dev
+Homepage: http://cnbi.epfl.ch/software/eegdev.html
+Language: C
+Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+License: LGPL-3
+Pkg-Description: Library to acquire data from various EEG recording devices
+ eegdev is a library that provides a unified and efficient interface for
+ accessing an EEG recording system (the development targets mainly Biosemi
+ and g.Tec system) and can be used as well to playback data in the software
+ stack. It has been designed especially for being integrated in a BCI.
+ .
+ In addition, it helps the implemention of new drivers/backends by sharing
+ part of code common to all of them such as type casting, scaling, exposing  
+ capabilities, channels selection, error reporting...
+
+Suggests: libmcpanel-dev
+Homepage: http://cnbi.epfl.ch/software/mcpanel.html
+Language: C
+Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+License: GPL-3
+Pkg-Description: Library providing a scope for multichannel signals
+ mcpanel is a library that provides a scope interface for displaying
+ multichannel signal based on Gtk+. It has been designed to implement easily
+ a realtime display of signal and can be easily integrated in other projects.
+
+Suggests: eegview
+Homepage: http://cnbi.epfl.ch/software/eegview.html
+Language: C
+Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
+License: GPL-3
+Pkg-Description: Software to display/record EEG signals
+ eegview is a small software to display/record EEG signals. It is 
+ particularly useful when used as the acquisition part of a offline protocol 
+ or for checking that electrodes are correctly placed...
