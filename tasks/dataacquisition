@@ -51,6 +51,8 @@ Depends: jaaa
 
 Depends: ghkl
 
+Depends: narval-utils
+
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
 License: MIT
