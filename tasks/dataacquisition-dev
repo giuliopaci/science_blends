@@ -1,0 +1,9 @@
+Task: Data acquisition development
+Description: Debian Science data acquisition development packages
+ This metapackage will install Debian Science packages which are helpful
+ to develop applications related to data  acquisition.  This might be
+ used in several sciences.
+
+Depends: libnarval1-dev
+
+Depends: libtango7-dev, liblog4tango4-dev
