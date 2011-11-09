@@ -247,7 +247,7 @@ Published-Year: 2006
 Published-DOI: 10.1016/j.neuroimage.2006.01.015
 
 
-Depends: psignifit3
+Depends: python-pypsignifit
 Homepage: http://psignifit.sourceforge.net/
 License: MIT
 Language: C++, Python
