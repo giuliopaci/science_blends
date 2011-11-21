@@ -40,4 +40,7 @@ Why: environment for prototyping large numeric computations in Lisp
 Depends: yade
 Why: platform for discrete element modeling
 
+Depends: liggghts
+Why: open source discrete element method particle simulation code
+
 Suggests: hpcc
