@@ -13,7 +13,7 @@ Why: R utilities or frontends
 Depends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
             r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, \
             r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, \
-            r-cran-dbi, r-cran-design, r-cran-eco, \
+            r-cran-dbi, r-cran-rms, r-cran-eco, \
             r-cran-effects, r-cran-fbasics, r-cran-fcalendar, \
             r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, \
             r-cran-fmultivar, r-cran-foptions, r-cran-foreign, \

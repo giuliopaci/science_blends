@@ -4,8 +4,10 @@ debian-science (0.15) UNRELEASED; urgency=low
     (which was lacking in last changelog)
   * tasks/dataacquisition-dev: New metapackage to develop data aquisition
     applications
+  * tasks/statistics: s/r-cran-design/r-cran-rms/
+    Closes: #649446
 
- -- Andreas Tille <tille@debian.org>  Fri, 04 Nov 2011 10:01:21 +0100
+ -- Andreas Tille <tille@debian.org>  Mon, 21 Nov 2011 16:03:42 +0100
 
 debian-science (0.14) unstable; urgency=low
 
