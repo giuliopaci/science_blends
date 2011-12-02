@@ -196,3 +196,20 @@ Pkg-Description:
  Binary builds are available only for OS X and Windows.  Sources
  available from sf's SVN:
  http://sourceforge.jp/projects/psychlops/svn/view/cpp/
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: pebl
+Homepage: http://pebl.sourceforge.net
+Language: C++
+WNPP: 650775
+License: GPL
+Pkg-Description: platform for psychology experiments
+ PEBL (Psychology Experiment Building Language) is a system designed
+ for creating psychology and neuroscience experiments and tests.  It
+ offers a simple programming language tailor-made for creating and
+ conducting many standard experiments.
+Published-Authors: Mueller, S. T.
+Published-ISBN: 978-0-557-65817-6
+Published-In: Lulu press
+Published-Title: The PEBL Manual
+Published-Year: 2011
