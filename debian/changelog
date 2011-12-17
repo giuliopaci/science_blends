@@ -6,8 +6,12 @@ debian-science (0.15) UNRELEASED; urgency=low
     applications
   * tasks/statistics: s/r-cran-design/r-cran-rms/
     Closes: #649446
+  * tasks/distributedcomputing:
+    - s/mpichpython/openmpipython/
+    - s/lampython/mpich2python/
+    Closes: #646417
 
- -- Andreas Tille <tille@debian.org>  Mon, 21 Nov 2011 16:03:42 +0100
+ -- Andreas Tille <tille@debian.org>  Sat, 17 Dec 2011 23:56:58 +0100
 
 debian-science (0.14) unstable; urgency=low
 

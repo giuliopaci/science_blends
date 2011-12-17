@@ -19,7 +19,7 @@ Depends: globus-core
 
 Depends: openmpi-bin, mpich2
 
-Depends: mpichpython, python-mpi, lampython
+Depends: openmpipython, mpich2python, python-mpi
 
 Suggests: hpcc
 
