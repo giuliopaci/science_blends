@@ -54,6 +54,11 @@ Description: Debian Science packages for the design and use of
  at assisting, augmenting or repairing human cognitive or
  sensory-motor functions.
  .
+ The selection of packages is targeting the complete frameworks for
+ the design of BCI systems.  Often such systems rely on external
+ presentation, data collection and analysis software which could be
+ found in science-neuroscience-cognitive, science-dataacquisition,
+ data-machine-learning metapackages.
 Relevance: 10
 Key: 
  science-bci
