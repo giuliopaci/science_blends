@@ -42,8 +42,6 @@ Why: Generalized and standard eigenvalue solver framework, applications to modal
 
 Depends: libelmer-dev
 
-Depends: libbft-dev
-
 Depends: libmed-dev, libmedc-dev, libmedimport-dev
 
 Depends: libnetcdf-dev, python-netcdf
