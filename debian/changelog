@@ -1,4 +1,4 @@
-debian-science (0.15) UNRELEASED; urgency=low
+debian-science (0.15) unstable; urgency=low
 
   * config/control: Mention new metapackage science-highenergy-physics
     (which was lacking in last changelog)
