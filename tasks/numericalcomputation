@@ -43,4 +43,7 @@ Why: platform for discrete element modeling
 Depends: liggghts
 Why: open source discrete element method particle simulation code
 
+Depends: esys-particle
+Why: Open Source software for particle-based numerical modelling. The software implements the Discrete Element Method (DEM).
+
 Suggests: hpcc
