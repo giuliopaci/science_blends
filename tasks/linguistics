@@ -9,6 +9,21 @@ Depends: apertium, link-grammar
 
 Depends: artha
 
+Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
+Homepage: http://ilk.uvt.nl/
+Why: Software (co)developed and used by Tilburg Universities' ILK research
+ group, in cooperation with the Language Technology Research group of CLiPS
+ of the University of Antwerp, Belgium. ILK develops and employs inductive
+ learning algorithms in solving natural language problems, useful in the
+ areas of Language Engineering as well as Linguistic and Cognitive Modelling.
+
+Suggests: libtimbl3-dev, libtimblserver2-dev, libmbt0-dev, libucto1-dev, libfolia1-dev
+Homepage: http://ilk.uvt.nl/
+Why: Software (co)developed and used by Tilburg Universities' ILK research
+ group, in cooperation with the Language Technology Research group of CLiPS,
+ Antwerp.  These packages are useful for software developers when developing or
+ extending ILK's Natural Language Processing tools.
+
 Suggests: wnsqlbuilder
 Homepage: http://wnsqlbuilder.sf.net
 License: GPL
