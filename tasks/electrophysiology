@@ -391,3 +391,6 @@ Pkg-Description: Software to display/record EEG signals
  eegview is a small software to display/record EEG signals. It is 
  particularly useful when used as the acquisition part of a offline protocol 
  or for checking that electrodes are correctly placed...
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: aghermann
