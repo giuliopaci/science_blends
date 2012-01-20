@@ -362,6 +362,7 @@ Homepage: http://cnbi.epfl.ch/software/eegdev.html
 Language: C
 Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
 License: LGPL-3
+WNPP: 656469
 Pkg-Description: Library to acquire data from various EEG recording devices
  eegdev is a library that provides a unified and efficient interface for
  accessing an EEG recording system (the development targets mainly Biosemi
