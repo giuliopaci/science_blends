@@ -343,13 +343,14 @@ Remark: The NIMH distributes a "port" of fieldtrip to Octave (at
  degree it is complete. Packaging fieldtrip is required to complete the
  packaging of SPM8.
 
- ; Added by blends-inject 0.0.5. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: eeglab
 Homepage: http://sccn.ucsd.edu/eeglab
 Language: C, Matlab/Octave
 WNPP: 605739
 Responsible: NeuroDebian Team <team@neuro.debian.net>
 License: GPL-2+
+Pkg-URL: http://neuro.debian.net
 Pkg-Description: toolbox for processing and visualization of electrophysiological data
  EEGLAB is an interactive Matlab toolbox for processing continuous and
  event-related EEG, MEG and other electrophysiological data
