@@ -454,3 +454,11 @@ Pkg-Description: visualize Freesurfer's data in Python
  PySurfer offers both a command-line interface designed to broadly replicate
  Freesurfer’s Tksurfer program as well as a Python library for writing scripts
  to efficiently explore complex datasets.
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: connectomeviewer
+Published-Authors: Gerhard S, Daducci A, Lemkaddem A, Meuli R, Thiran J-P and Hagmann P
+Published-DOI: 10.3389/fninf.2011.00003
+Published-In: Front. Neuroinform. 5:3
+Published-Title: The Connectome Viewer Toolkit: An open source framework to manage, analyze, and visualize connectomes
+Published-Year: 2011
