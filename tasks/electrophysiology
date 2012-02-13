@@ -279,6 +279,7 @@ Pkg-Description: Matlab toolbox for clustering of electrophysiologic recordings
 Suggests: neo
 Homepage: http://neuralensemble.org/trac/neo
 Language: Python
+WNPP: 659691
 License: BSD
 Vcs-SVN: https://neuralensemble.org/svn/neo/
 Pkg-Description: IO library for electrophysiological data formats in Python
