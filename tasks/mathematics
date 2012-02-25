@@ -33,8 +33,6 @@ Depends: geomview
 
 Depends: octave | octave3.2
 
-Depends: octaviz
-
 Depends: xmds
 
 Depends: freemat
@@ -107,3 +105,19 @@ Why: Partial differential equation library, FEA, CFD
 
 Depends: python-openturns
 Why: Uncertainty quantification in numerical simulation
+
+Depends: octaviz
+Pkg-URL: http://snapshot.debian.org/package/octaviz/
+Homepage: http://octaviz.sourceforge.net/
+Description: 3D visualization system for Octave
+ Octaviz is a visualization system for Octave. It is a wrapper that
+ makes all VTK classes accessible from within Octave using the same
+ object-oriented syntax as in C++ or Python. Octaviz also provides
+ high-level functions for 2D and 3D visualization. Using those
+ functions, most common visualization tasks (3D surface plots, contour
+ plots etc) can be accomplished without any knowledge about VTK.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/535537
