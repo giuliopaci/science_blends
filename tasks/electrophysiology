@@ -163,27 +163,8 @@ Published-Title: BioSig: A Free and Open Source Software Library for BCI Researc
 Published-URL: http://pub.ist.ac.at/~schloegl/publications/Schloegl2007_BCI_Software.pdf
 Published-Year: 2008
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [Package available in Debian - extra information removed]
 Depends: sigviewer
-Homepage: http://sigviewer.sourceforge.net
-Language: C++
-WNPP: 585535
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-License: GPL-3+
-Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/sigviewer.git;a=summary
-Vcs-Git: git://git.debian.org/pkg-exppsy/sigviewer.git
-Pkg-URL: http://neuro.debian.net/pkgs/sigviewer.html
-Pkg-Description: GUI viewer for biosignals such as EEG, EMG, and ECG
- SigViewer is a viewing and scoring software for biomedical signal
- data.  It relies on biosig4c++ library which supports a number of
- data formats (including EDF, BDF, GDF, BrainVision, BCI2000, CFWB,
- HL7aECG, SCP_ECG (EN1064), MFER, ACQ, CNT(Neuroscan), DEMG, EGI,
- EEG1100, FAMOS, SigmaPLpro, TMS32). The complete list of supported
- file formats is available at
- http://pub.ist.ac.at/~schloegl/biosig/TESTED .
- .
- Besides displaying biosignals, SigViewer supports creating
- annotations to select artifacts or specific events.
 
  ; Added by blends-inject 0.0.5. [Please note here if modified manually]
 Suggests: nspike
@@ -343,36 +324,8 @@ Pkg-Description: Library to read/write EEG data file formats
  It currently supports the following file formats: EDF, BDF, GDF 1.X, GDF 2.X
 
 Suggests: librtfilter-dev
-Homepage: http://cnbi.epfl.ch/software/rtfilter.html
-Language: C
-WNPP: 646956
-Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
-License: LGPL-3
-Vcs-Browser: http://cnbisrv02.epfl.ch/cgit/pkg-rtfilter.git
-Vcs-Git: git://cnbisrv02.epfl.ch:443/pkg-rtfilter.git
-Pkg-Description: Multichannel realtime filtering library
- rtfilter provides a library written in C implementing realtime digital
- filtering functions optimized for multichannel signals (i.e. filtering 
- multiple signals with the same filter). The core of the library implements
- FIR and IIR filtering for float and double data type (complex or real
- data). Additional functions are also provided to design few usual filters:
- Butterworth, Chebyshev, windowed sinc, analytical filter...
 
 Suggests: libeegdev-dev
-Homepage: http://cnbi.epfl.ch/software/eegdev.html
-Language: C
-Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
-License: LGPL-3
-WNPP: 656469
-Pkg-Description: Library to acquire data from various EEG recording devices
- eegdev is a library that provides a unified and efficient interface for
- accessing an EEG recording system (the development targets mainly Biosemi
- and g.Tec system) and can be used as well to playback data in the software
- stack. It has been designed especially for being integrated in a BCI.
- .
- In addition, it helps the implemention of new drivers/backends by sharing
- part of code common to all of them such as type casting, scaling, exposing  
- capabilities, channels selection, error reporting...
 
 Suggests: libmcpanel-dev
 Homepage: http://cnbi.epfl.ch/software/mcpanel.html

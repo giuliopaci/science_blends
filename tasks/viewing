@@ -69,7 +69,7 @@ Depends: udav
 
 Depends: python-viper
 
-Suggests: python-matplotlib
+Suggests: python-matplotlib, python-scitools
 
 Depends: cassandra
 Homepage: http://dev.artenum.com/projects/cassandra

@@ -48,3 +48,5 @@ Depends: libnetcdf-dev, python-netcdf
 
 Depends: libnetcdf-java
 WNPP: 641447
+
+Depends: syfi-dev
