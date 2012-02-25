@@ -38,7 +38,7 @@ Recommends: science-mathematics-dev
 Suggests: liblife-dev
 Why: Partial differential equation library, FEA, CFD
 
-Suggests: opencascade-tools
+Suggests: opencascade-draw
 
 Suggests: python-netcdf
 

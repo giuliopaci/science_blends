@@ -12,7 +12,7 @@ Depends: librecad
 Depends: sailcut
 Why: CAD software for design of sails
 
-Depends: opencascade-tools
+Depends: opencascade-draw
 
 Depends: gerris
 

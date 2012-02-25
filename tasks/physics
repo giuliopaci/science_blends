@@ -30,7 +30,7 @@ Depends: science-numericalcomputation
 Why: numerical programming environments similar to Matlab/IDL
 
 
-Depends: opencascade-tools
+Depends: opencascade-draw
 
 Depends: science-electronics
 
