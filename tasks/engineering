@@ -20,19 +20,13 @@ Depends: gmsh
 
 Depends: libmesh0.6.2-dev | libmesh-dev
 
-Depends: tochnog
-
 Depends: netgen
-
-Depends: varkon
 
 Depends: pythoncad
 
 Depends: z88
 
 Depends: freecad
-
-Depends: salome
 
 Depends: life-apps
 
@@ -90,3 +84,54 @@ Pkg-Description: Package is a Python binding to the CGNS library
  The package contains a wrapper on top of the ADF and MLL APIs, some tools,
  demos, tests, and examples taken from the CGNS tutorial. 
 
+Depends: varkon
+Homepage: http://varkon.sourceforge.net
+Pkg-URL: http://snapshot.debian.org/package/varkon/
+Pkg-Description: A CAD-system with parametric modelling
+ VARKON is a high level development tool for applications in the
+ area of Engineering, Computer Aided Design and Product Modelling.
+ .
+ VARKON can be used as a traditional CAD-system with drafting,
+ modelling and visualisation if you want to but the real power of
+ VARKON is in parametric modelling and CAD applications development.
+ VARKON includes interactive parametric modelling in 2D or 3D but also
+ the unique MBS programming language integrated in the graphical
+ environment.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+
+Depends: tochnog
+Homepage: http://tochnog.sourceforge.net/
+Pkg-URL: http://snapshot.debian.org/package/tochnog/
+Pkg-Description: A free implicit/explicit finite element analysis program
+ Tochnog is a program for finite element analysis.
+ Multithreading and multiprocessor systems are supported.
+ Here is a partial list of models supported:
+  * Differential equations (materials).
+  * Convection-diffusion equations,
+  * Stokes and Navier-Stokes,
+  * Elasticity (isotropy and transverse isotropy),
+  * Plasticity (Von-Mises, Mohr-Coulomb, Gurson, etc.;
+    plasticity surfaces can be arbitrarily combined).
+ .
+ Residues in equations and error estimates for all data
+ can be printed/plotted.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+
+Depends: salome
+Homepage: http://www.salome-platform.org/
+Pkg-URL: http://snapshot.debian.org/package/salome/
+Pkg-Description: Numerical simulation pre- and post-processor
+ Salomé is a pre- and post-processor for numerical simulations.  It can import
+ CAD files in IGES and STEP formats, facilitates component integration in
+ heterogeneous systems, and has a user-friendly GUI as well as a Python console
+ with all of the platform functionality.
+ .
+ This package contains the Salomé core runtime binaries, private libraries, and
+ python files comprising a basic Salomé installation.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
