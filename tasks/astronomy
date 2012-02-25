@@ -4,10 +4,8 @@ Description: Debian Science Astronomy packages
  Astronomy.  You might also be interested in field::astronomy debtag
  and, depending on your focus, in the education-astronomy metapackage.
 
-Depends: libcfitsio3, fv, gcx, slang-cfitsio
+Depends: libcfitsio3, gcx, slang-cfitsio
 Why: FITS format file
-
-Depends: saods9
 
 Depends: xorsa
 Why: Celestial Mechanics computations
@@ -24,7 +22,7 @@ Depends: qfits-tools, yorick-cubeview
 
 Depends: savi
 
-Depends: stellarium, ssystem, xplanet,
+Depends: stellarium, xplanet,
          xplanet-images, celestia, kstars, starplot
 
 Depends: lynkeos.app
@@ -156,3 +154,75 @@ Pkg-Description: the European Southern Observatory Munich Image Data Analysis Sy
  available under the GNU General Public License (GPL), and can be
  implemented on OpenVMS and UNIX (Linux) systems.
 
+Depends: fv
+Homepage: ftp://heasarc.gsfc.nasa.gov/software/lheasoft/fv/
+Pkg-URL: http://snapshot.debian.org/package/fv/
+Pkg-Description: a tool for viewing and editing FITS format files
+ Fv provides a graphical user interface to data stored in FITS
+ (Flexible Image Transport System) files.  Local files can be created,
+ viewed and edited, files on the internet can be opened read-only
+ through the http and ftp protocols.  Through the POWplot program,
+ FITS data can be visualized in a large variety of styles.  An
+ interface to the SkyView online database allows for searching,
+ downloading, and plotting of images and object lists for a region of
+ the sky.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+
+Depends: saods9
+Pkg-URL: http://snapshot.debian.org/package/saods9/
+Homepage: http://hea-www.harvard.edu/RD/ds9/
+Pkg-Description: image display tool for astronomy
+ DS9 is an application for astronomical imaging and data
+ visualization.
+ .
+ DS9 is the modern imtool used by astronomers.  It is most
+ distinguished by its support for displaying images of high dynamic
+ range (such as 16 bit greyscale FITS files).  Whereas many other
+ tools will only read an approximation to such files, DS9 works in
+ full precision, and uses various display parameters to map input data
+ into 8 bit data which can be displayed on the screen.
+ .
+ Available parameters for the mapping include: brightness, contrast,
+ false color, and nonlinear input mapping (such as logarithm, square
+ root, square, etc.)
+ .
+ Although it may be useful in other fields, DS9 includes a fair number
+ of features specific to astronomy.  There is an astronomical "name
+ resolver" which allows a lookup of an arbitrary named object to its
+ coordinates.  Given the coordinates of a field, online archive
+ servers may be queried, and an image retrieved.  DS9 thusly
+ implements a preliminary "Virtual Observatory".
+ .
+ DS9 is entirely controllable from external programs ("XPA"), which
+ simplifies complex tasks such as data acquisition, realtime display,
+ and batch analysis.
+ .
+ If images include WCS (World Coordinate System) keywords, then they
+ may be "blinked" to search for moving or changing objects.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/628485
+
+Depends: ssystem
+Pkg-URL: http://snapshot.debian.org/package/ssystem/
+Homepage: http://www1.las.es/~amil/ssystem
+Description: 3D solar system simulator
+ An OpenGL Solar System simulator which includes the sun, the nine
+ planets, a few major satellites, and background stars.
+ .
+ This package has since been rewritten and repackaged as Celestia,
+ but since that package has significantly higher hardware requirements
+ than ssystem does, this package is being kept around.  Celestia
+ has a better looking solar system, more options, and unlike ssystem,
+ is actually still being worked on, so you probably only want to use
+ this if you have older hardware that cannot run Celestia at a
+ reasonable speed.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/352709

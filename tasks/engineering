@@ -67,7 +67,7 @@ Depends: avl
 Homepage: http://web.mit.edu/drela/Public/web/avl/
 WNPP: 513608
 License: GPL
-Responsible: "Lo?c Fejoz" <loic@fejoz.net>
+Responsible: "Loïc Fejoz" <loic@fejoz.net>
 Pkg-Description: Analyser for the aerodynamic and flight-dynamic of rigid aircraft.
  AVL is a program for the aerodynamic and
  flight-dynamic analysis of rigid aircraft of arbitrary
@@ -102,6 +102,8 @@ Pkg-Description: A CAD-system with parametric modelling
 Remark: Removed from Debian
  This package was removed from Debian but some versions are available
  from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/596115
 
 Depends: tochnog
 Homepage: http://tochnog.sourceforge.net/
@@ -122,6 +124,8 @@ Pkg-Description: A free implicit/explicit finite element analysis program
 Remark: Removed from Debian
  This package was removed from Debian but some versions are available
  from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/503504
 
 Depends: salome
 Homepage: http://www.salome-platform.org/
@@ -137,3 +141,5 @@ Pkg-Description: Numerical simulation pre- and post-processor
 Remark: Removed from Debian
  This package was removed from Debian but some versions are available
  from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/657433
