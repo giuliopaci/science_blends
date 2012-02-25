@@ -154,14 +154,6 @@ Pkg-Description: Wavelet-based electronic-structure calculations
  The Poisson solver is also integrated in ABINIT, OCTOPUS and CP2K.
 
 Depends: cp2k
-Homepage: http://cp2k.berlios.de/
-License: GPL
-WNPP: 518984
-Pkg-Description: CP2K is a program to perform atomistic and molecular
- simulations of solid state, liquid, molecular and biological
- systems. It provides a general framework for different methods such as
- e.g. density functional theory (DFT) using a mixed Gaussian and plane
- waves approach (GPW), and classical pair and many-body potentials.
 
 Depends: espresso++
 Homepage: http://espresso.scai.fraunhofer.de/
