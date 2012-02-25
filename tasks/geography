@@ -9,26 +9,9 @@ Depends: gis-workstation
 Why: handled by Debian GIS. The Depends: will be replaced by an other special \
      tag (its name to be decided).
 
-Depends:     grass,
+Depends: grass
 
 Depends: qgis
-X-Homepage: http://www.qgis.org/
-X-License: GPL
-X-Responsible: Steve Halasz <debian@adkgis.org>
-X-Pkg-URL: http://packages.debian.org/etch/qgis
-X-Pkg-Description: Geographic Information System (GIS)
- A Geographic Information System (GIS) manages, analyzes, and displays
- databases of geographic information. Quantum GIS (QGIS) supports shapefile
- viewing and editing, spatial data storage with PostgreSQL/PostGIS, projection
- on-the-fly, map composition, and a number of other features via a plugin
- interface. QGIS also supports display of various georeferenced raster and
- Digital Elevation Model (DEM) formats including GeoTIFF, Arc/Info ASCII Grid,
- and USGS ASCII DEM.
-X-Comment: This project used to be an official Debian in Etch but vanished later
- from the Debian pool of packaged software because it had a lot of
- bugs. The reaons are given here: http://bugs.debian.org/474604. Perhaps
- later upstream version might qualify for inclusion again. The URL of the
- "unofficial" package points to the location of the package in Etch.
 
 Depends: qgis-plugin-grass
 
@@ -41,12 +24,10 @@ Depends:     mapserver-bin, \
              gpsd, \
              gpsdrive, \
              gpsman, \
-             openjump, \
              earth3d, \
              openscenegraph, \
              thuban, \
              drawmap, \
-             grace6, \
              gpstrans, \
              geoip-bin, \
              gpsd-clients, \
@@ -72,7 +53,6 @@ Suggests:    googleearth-package
 Depends:     josm, \
              josm-plugins, \
              merkaartor, \
-             renderathome, \
              gosmore, \
              osm-tools, \
              python-mapnik, \
@@ -86,3 +66,44 @@ Why: Hmmm, was there any package?  I just can find
 Depends: r-cran-sp, r-cran-maptools, r-cran-mapdata, r-cran-mapproj, r-cran-maps
 
 Depends: pgadmin3
+
+Depends: openjump
+Pkg-URL: http://snapshot.debian.org/package/openjump/
+Homepage: http://jump-pilot.sourceforge.net/
+Pkg-Description: Open Java Unified Mapping Platform JUMP
+ The Open Java Unified Mapping Platform (JUMP) is a GUI-based application
+ for viewing and processing spatial data.  It includes many common spatial
+ and GIS functions.
+ .
+ OpenJUMP has the following features:
+  * provides viewing, editing, and processing spatial datasets
+  * provides an API giving full programmatic access
+  * loading map data using WMS
+  * is highly modular and extensible
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/626716
+
+Suggests: grace6
+Pkg-URL: http://snapshot.debian.org/package/grace6/
+Homepage: http://plasma-gate.weizmann.ac.il/Grace/
+Description: An XY plotting tool
+ Grace is a point-and-click tool that allows the user to draw X-Y plots.
+ This is the program formerly known as Xmgr.
+ .
+ A few of its features are: User defined scaling, tick marks, labels,
+ symbols, line styles, colors. Polynomial regression, splines, running
+ averages, DFT/FFT, cross/auto-correlation. Batch mode for unattended
+ plotting. Hardcopy support for PostScript, FrameMaker and several image
+ formats.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/459484
+
+X-Depends: renderathome
+X-Comment: This package never existed and its totally inclear what was meant
+ Any information about this?
