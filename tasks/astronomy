@@ -191,7 +191,7 @@ Remark: Removed from Debian
 Depends: ssystem
 Pkg-URL: http://snapshot.debian.org/package/ssystem/
 Homepage: http://www1.las.es/~amil/ssystem
-Description: 3D solar system simulator
+Pkg-Description: 3D solar system simulator
  An OpenGL Solar System simulator which includes the sun, the nine
  planets, a few major satellites, and background stars.
  .

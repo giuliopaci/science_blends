@@ -124,3 +124,16 @@ Depends: libfreenect-dev
 
 Depends: opendap
 WNPP: 641315
+Responsible: Mathieu Malaterre <mathieu.malaterre@gmail.com>
+Homepage: http://www.opendap.org
+License: LGPL
+Language: Java
+Pkg-Description: Java Network Data Access Protocol
+ OPeNDAP is a framework that simplifies all aspects of scientific data
+ networking.
+ .
+ OPeNDAP provides software which makes local data accessible to remote
+ locations regardless of local storage format.
+ .
+ OPeNDAP also provides tools for transforming existing applications into
+ OPeNDAP clients (i.e., enabling them to remotely access OPeNDAP served data).

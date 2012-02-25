@@ -18,10 +18,10 @@ Depends: kicad
 Suggests: kicad-doc-de, kicad-doc-en, kicad-doc-es, kicad-doc-fr, \
           kicad-doc-it, kicad-doc-pt, kicad-doc-ru
 
-Depends: freehdl, ghdl, vbpp, vbs, iverilog, verilator, gplcver
+Depends: freehdl, ghdl, iverilog, verilator, gplcver
 Why: VHDL
 
-Depends: klogic, ksimus
+Depends: klogic
 
 Depends: gputils, simulpic
 Why: PIC
@@ -77,13 +77,49 @@ Why: Partial differential equations library, FEA, CFD
 Depends: visolate
 
 Depends: fritzing
-WNPP: 601230
-Homepage: http://www.fritzing.org/
-License: GNU GPL
-Responsible: Enrique Hernández Bello <ehbello@gmail.com>
-Pkg-Description: Easy-to-use electronic design software
- Fritzing is an open source project designed to help one transition from a
- prototype to a finished project. Aimed at users who want to produce or
- document circuits and experiments, one starts by building a physical
- prototype, then recreating it with Fritzing’s graphical editor. From there one
- can generate a schematic, PCB artwork, and PCB production files.
+
+Depends: vbpp
+Pkg-URL: http://snapshot.debian.org/package/vbpp/
+Homepage: http://www.flex.com/~jching/
+Pkg-Description: Verilog preprocessor
+ VBPP is a Verilog preprocessor. It has support for most Verilog
+ preprocessing directives and additional directives such as:
+ .
+  * Statement generator ('generate' command in VHDL).
+  * Expression evaluation.
+  * Mathematical functions: log2, ceil, floor, round, abs, etc.
+  * Conditionals: if, switch, etc.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/324765
+
+Depends: vbs
+Pkg-URL: http://snapshot.debian.org/package/vbs/
+Homepage: http://www.flex.com/~jching/
+Pkg-Description: Verilog Behavioral Simulation
+ Verilog is a Hardware Description Language used mostly for digital
+ circuit design and simulation. This program is a simple
+ implementation of a Verilog simulator. VBS tries to implement all of
+ the Verilog behavioral constructs that are synthesizable, but still
+ allow complex test vectors for simulation.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/303625
+
+Depends: ksimus
+Pkg-URL: http://snapshot.debian.org/package/ksimus/
+Homepage: http://ksimus.berlios.de
+Pkg-Description: KDE tool for simulating electrical circuits
+ KSimus is an application for simulating networks with boolean and floating
+ point data type. Some more data types are planned. Currently there exists
+ only a few components, but because of the modular character of KSimus
+ extensions are easy to develop.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/589400
