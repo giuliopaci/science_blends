@@ -7,12 +7,12 @@ Description: Debian Science Nanoscale Physics development packages
  on your focus, in the nanoscale-physics, physics and education-physics
  metapackages.
 
-Depends: abinit-dev, abinit-doc
+Depends: abinit-doc
 Why: Abinit input parser and symmetry finder
 
 Depends: libblas-dev, libblas-doc, liblapack-dev, liblapack-doc
 
-Depends: libetsf-io-dev, etsf-io-doc
+Depends: libetsf-io-dev, libetsf-io-doc
 
 Depends: libfftw3-dev, libfftw3-doc
 
@@ -24,6 +24,28 @@ Depends: libtrilinos-dev, libtrilinos-doc
 Why: High-performance computing
 
 Depends: libxc-dev
+WNPP: 602110
+Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: LGPL
+Language: C, Fortran 90
+Pkg-Description     : Library of DFT exchange-correlation functionals
+ Libxc is a library of exchange-correlation functionals. The aim is to 
+ provide a portable, well tested and reliable set of exchange and
+ correlation functionals that can be used by all the ETSF codes and also
+ other codes.
+ .
+ In libxc you can find different types of functionals: LDA, GGA,
+ hybrids, mGGA (experimental) and LCA (not working). This functionals
+ depend on local information, in the sense that the value of the
+ potential at a given point depends only on the values of the density -
+ and the gradient of the density and the kinetic energy density, for the
+ GGA and mGGA cases, or the vorticity for LCA - at a given point.
+ .
+ As of today, more than 100 functionals are available for various kinds
+ of electronic-structure calculations.
+Remark: Library will probably be released with different name
+ because the name is just taken (see WNPP bug)
 
 Depends: wannier90-dev
 

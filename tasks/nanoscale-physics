@@ -38,7 +38,7 @@ Depends: libfftw3-3
 
 Depends: libgsl0ldbl, gsl-bin
 
-Depends: libnetcdf4, netcdf-bin, netcdf-doc, nco, ncview
+Depends: netcdf-bin, netcdf-doc, nco, ncview
 
 Depends: libopenmpi1.3|libmpich2-1.2|libmpich1.0gf
 
