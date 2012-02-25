@@ -24,8 +24,6 @@ Depends: horae, ifeffit, sixpack
 
 Depends: tessa | tessa-mpi
 
-Depends: octaviz
-
 Depends: science-numericalcomputation
 Why: numerical programming environments similar to Matlab/IDL
 
@@ -151,7 +149,6 @@ Pkg-Description: Extensible Simulation Package for Research on Soft matter
  models as they are used in soft matter research, with emphasis on
  charged systems.
 
-
 Depends: cp2k
 Homepage: http://cp2k.berlios.de/
 License: GPL
@@ -163,3 +160,20 @@ Pkg-Description: CP2K is a program to perform atomistic and molecular
  waves approach (GPW), and classical pair and many-body potentials.
 
 
+X-Removed: Packages removed from Debian
+
+Depends: octaviz
+Pkg-URL: http://snapshot.debian.org/package/octaviz/
+Homepage: http://octaviz.sourceforge.net/
+Pkg-Description: 3D visualization system for Octave
+ Octaviz is a visualization system for Octave. It is a wrapper that
+ makes all VTK classes accessible from within Octave using the same
+ object-oriented syntax as in C++ or Python. Octaviz also provides
+ high-level functions for 2D and 3D visualization. Using those
+ functions, most common visualization tasks (3D surface plots, contour
+ plots etc) can be accomplished without any knowledge about VTK.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/535537

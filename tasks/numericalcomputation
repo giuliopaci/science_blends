@@ -10,9 +10,6 @@ Description: Debian Science Numerical Computation packages
 Depends: octave | octave3.0 | octave3.2
 Why: numerical programming environment similar to Matlab
 
-Suggests: octaviz
-Why: 3D visualisaion system for Octave
-
 Depends: python-matplotlib, python-scipy, ipython, python-numpy, spyder, python-guiqwt
 Why: Python based numerical programming environment similar to Matlab
 
