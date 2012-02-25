@@ -12,7 +12,7 @@ Depends: libcv-dev
 Depends: libcomedi0
 Comment: Debian version is quite old - needs update
 
-Depends: octave | octave3.0 | octave3.2, gnuplot
+Depends: octave, gnuplot
 
 Depends: libcoin40-runtime, libvtk5.4, libboost-dev
 
