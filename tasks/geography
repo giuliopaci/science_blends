@@ -90,7 +90,7 @@ Remark: Removed from Debian
 Suggests: grace6
 Pkg-URL: http://snapshot.debian.org/package/grace6/
 Homepage: http://plasma-gate.weizmann.ac.il/Grace/
-Description: An XY plotting tool
+Pkg-Description: An XY plotting tool
  Grace is a point-and-click tool that allows the user to draw X-Y plots.
  This is the program formerly known as Xmgr.
  .

@@ -56,7 +56,7 @@ Depends: libnetcdf-dev, python-netcdf
 Depends: libnetcdf-java
 WNPP: 641447
 Responsible: Mathieu Malaterre <mathieu.malaterre@gmail.com>
-Hopepage: http://www.unidata.ucar.edu/software/netcdf-java/
+Homepage: http://www.unidata.ucar.edu/software/netcdf-java/
 License: LGPL
 Language: Java
 Pkg-Description: Java interface to NetCDF files
