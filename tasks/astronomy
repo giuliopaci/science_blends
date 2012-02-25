@@ -27,7 +27,7 @@ Depends: stellarium, xplanet,
 
 Depends: lynkeos.app
 
-Suggests: sunclock, xtide, xtide-data, stars
+Suggests: sunclock, xtide, xtide-data
 Why: Took this over from education-astronomy
 
 Depends: stardata-common, gliese, yale
@@ -37,25 +37,6 @@ Depends: boinc-app-milkyway, boinc-app-seti
 Suggests: scilab-celestlab, scilab-overload, scilab-scimysql
 X-Comment: It is not really astronomy, do we need another category or
            should we put space flight related packages into this task?
-
-Depends: spacechart
-X-Homepage: http://www.gnu.org/software/spacechart/
-X-License: GPL
-X-Responsible: Francisco Garcia <franciscomanuel.garcia@hispalinux.es>
-X-Pkg-URL: http://packages.debian.org/en/etch/spacechart
-X-Pkg-Description: Star map viewer and navigator
- SpaceChart is a program to display 3d maps of stars and move freely
- around it. It is capable of showing only a subset of the stars in a
- given data file, and only those within a given distance of the center
- of the display. Also, it shows lines between stars that are closer than
- a given distance.
- .
- This project used to be an official Debian in Etch but vanished later
- from the Debian pool of packaged software - for reasons that should be
- clarified.  One reason might be that the development of this softare
- is stalled since the beginning of 2002. The URL of the "unofficial"
- package points to the location of the package in Etch.
-X-Comment: Use information for tasks pages out of Etch but keep it here as well.
 
 Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/
@@ -226,3 +207,30 @@ Remark: Removed from Debian
  from http://snapshot.debian.org/
  .
  Reasons are given here: http://bugs.debian.org/352709
+
+Suggests: stars
+Pkg-URL: http://snapshot.debian.org/package/stars/
+Homepage: http://www.aoc.nrao.edu/~wbrisken/src/
+Pkg-Description: star map program that draws the night sky
+ Stars is an astronomy program that lets you view the sky from
+ your computer.
+ .
+ Except for generating a small rotation matrix and some parameters,
+ all math is integer based, allowing very fast display. At 16 bytes
+ of memory per object, many objects can be loaded at once. Most
+ graphics are antialiased.
+
+Depends: spacechart
+Homepage: http://www.gnu.org/software/spacechart/
+Pkg-URL: http://snapshot.debian.org/package/spacechart/
+Pkg-Description: Star map viewer and navigator
+ SpaceChart is a program to display 3d maps of stars and move freely
+ around it. It is capable of showing only a subset of the stars in a
+ given data file, and only those within a given distance of the center
+ of the display. Also, it shows lines between stars that are closer than
+ a given distance.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/460795
