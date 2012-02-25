@@ -12,7 +12,7 @@ Depends: cernlib
 
 Depends: paw
 
-Depends: mclibs
+Depends: cernlib-montecarlo
 
 Depends: geant321
 

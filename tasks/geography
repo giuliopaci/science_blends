@@ -44,7 +44,7 @@ Depends:     mapserver-bin, \
 Comment:  kflog was removed from Debian in Lenny and is not really a good candidate
  for Debian Science so it makes no sense to add it as prospective package here.
 
-Depends:     postgis, postgresql-8.4-postgis
+Depends:     postgis, postgresql-9.1-postgis
 
 Depends:     osm2pgsql
 
@@ -54,11 +54,12 @@ Depends:     josm, \
              josm-plugins, \
              merkaartor, \
              gosmore, \
-             osm-tools, \
              python-mapnik, \
-             mapnik-utils
+             mapnik-utils, \
+             osmpbf-bin, \
+             imposm
 
-Depends: osmarender
+X-Depends: osmarender
 Why: Hmmm, was there any package?  I just can find
   http://wiki.openstreetmap.org/index.php/Osmarender
   but no download information etc.
@@ -104,6 +105,6 @@ Remark: Removed from Debian
  .
  Reasons are given here: http://bugs.debian.org/459484
 
-X-Depends: renderathome
-X-Comment: This package never existed and its totally inclear what was meant
+X-Depends: renderathome, osm-tools
+X-Comment: These packages never existed and its totally inclear what was meant
  Any information about this?
