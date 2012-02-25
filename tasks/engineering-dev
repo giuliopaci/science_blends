@@ -30,6 +30,8 @@ Pkg-Description: Package is a Python binding to the CGNS library
 
 Suggests: libqwt-dev | libqwt5-qt4-dev
 
+Depends: libopencascade-dev
+
 Depends: libdeal.ii-dev
 
 Depends: liblife-dev

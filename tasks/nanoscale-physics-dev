@@ -40,6 +40,8 @@ Why: Partial differential equation library, FEA, CFD
 
 Suggests: opencascade-draw
 
+Depends: libopencascade-dev
+
 Suggests: python-netcdf
 
 Suggests: root-system, root-plugin-fftw3, libroot-mathmore5.18
