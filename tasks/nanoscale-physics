@@ -267,7 +267,7 @@ Pkg-Description: Maximally Localized Wannier Functions
 Depends: octaviz
 Pkg-URL: http://snapshot.debian.org/package/octaviz/
 Homepage: http://octaviz.sourceforge.net/
-Description: 3D visualization system for Octave
+Pkg-Description: 3D visualization system for Octave
  Octaviz is a visualization system for Octave. It is a wrapper that
  makes all VTK classes accessible from within Octave using the same
  object-oriented syntax as in C++ or Python. Octaviz also provides
