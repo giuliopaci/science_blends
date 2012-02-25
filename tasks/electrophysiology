@@ -256,13 +256,13 @@ Pkg-Description: Matlab toolbox for clustering of electrophysiologic recordings
   of timestamps in binary format. Timestamps are 32-bit longs at a
   resolution of 10 timestamps/ms.
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [s/Vcs-SVN/Vcs-Svn]
 Suggests: neo
 Homepage: http://neuralensemble.org/trac/neo
 Language: Python
 WNPP: 659691
 License: BSD
-Vcs-SVN: https://neuralensemble.org/svn/neo/
+Vcs-Svn: https://neuralensemble.org/svn/neo/
 Pkg-Description: IO library for electrophysiological data formats in Python
  NEO stands for Neural Ensemble Objects and is a project to provide common
  class names and concepts for dealing with electro-physiological (in vivo
