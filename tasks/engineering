@@ -77,6 +77,8 @@ Pkg-Description: Analyser for the aerodynamic and flight-dynamic of rigid aircra
  dynamic analysis combines a full linearization of the aerodynamic
  model about any flight state, together with specified mass properties.
 
+Depends: cgns-convert
+
 Depends: pycgns
 Homepage: http://elsa.onera.fr/CGNS/releases/
 License: GPL-2

@@ -22,6 +22,11 @@ Depends: libgetfem++-dev
 Depends: libhdf5-serial-dev, libjhdf5-java, libjhdf4-java
 
 Depends: pycgns
+Homepage: http://elsa.onera.fr/CGNS/releases/
+License: GPL-2
+Pkg-Description: Package is a Python binding to the CGNS library
+ The package contains a wrapper on top of the ADF and MLL APIs, some tools,
+ demos, tests, and examples taken from the CGNS tutorial..
 
 Suggests: libqwt-dev | libqwt5-qt4-dev
 
