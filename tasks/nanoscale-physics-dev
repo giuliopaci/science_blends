@@ -48,10 +48,22 @@ Remark: Library will probably be released with different name
  because the name is just taken (see WNPP bug)
 
 Depends: wannier90-dev
+WNPP: 578829
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+Homepage: http://www.wannier.org/
+License: GPL
+Language: Fortran 90
+Pkg-Description: Maximally Localized Wannier Functions - Development files
+ Wannier90 is an electronic-structure software computing
+ maximally-localized Wannier functions (MLWF). It works on top of other
+ electronic-structure software, such as Abinit, FLEUR, and PwSCF.
+ .
+ This package contains the development files needed to interface other
+ software with Wannier90.
 
 Recommends: gsl-doc-pdf
 
-Recommends: libblacs-mpi-dev, blacs-doc
+Recommends: libblacs-mpi-dev
 
 Recommends: libscalapack-mpi-dev, scalapack-doc
 
@@ -66,7 +78,7 @@ Depends: libopencascade-dev
 
 Suggests: python-netcdf
 
-Suggests: root-system, root-plugin-fftw3, libroot-mathmore5.18
+Suggests: root-plugin-fftw3, libroot-mathmore5.18
 
 Depends: libfox95
 Homepage: http://www1.gly.bris.ac.uk/~walker/FoX/
@@ -144,3 +156,22 @@ Pkg-Description: Crystal symmetry finder library
  operations, space groups, ..., can be obtained using this symmetry
  finder.
 
+Depends: root-system
+WNPP: 636974
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+Homepage: http://root.cern.ch
+License: LGPL-2.1, GPL-3
+Language: C++
+Pkg-Description: CERN's ROOT Data Analysis Framework
+ ROOT is an object-oriented program and library developed by CERN. It
+ was originally designed for particle physics data analysis and
+ contains several features specific to this field, but it is also used
+ in other applications such as astronomy and data mining.
+Remark: Previous version available at snapshot.debian.org
+ There used to be a previous version inside Debian but it was
+ unmaintained and RC buggy.  Feel free to have a look at
+ http://snapshot.debian.org/package/root-system/
+X-Depends: libroot-tmva-dev, libroot-montecarlo-vmc-dev, libroot-math-mlp-dev
+X-Comment: Somebody injected the libraries from the ROOT system explicitely
+ here for machine-learning - so these should be included once root-system
+ is packaged again
