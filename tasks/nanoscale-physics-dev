@@ -29,7 +29,7 @@ Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
 Responsible: Yann Pouillon <yann.pouillon@gmail.com>
 License: LGPL
 Language: C, Fortran 90
-Pkg-Description     : Library of DFT exchange-correlation functionals
+Pkg-Description: Library of DFT exchange-correlation functionals
  Libxc is a library of exchange-correlation functionals. The aim is to 
  provide a portable, well tested and reliable set of exchange and
  correlation functionals that can be used by all the ETSF codes and also
