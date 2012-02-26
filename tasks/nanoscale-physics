@@ -256,6 +256,8 @@ Pkg-Description: Maximally Localized Wannier Functions
  maximally-localized Wannier functions (MLWF). It works on top of other
  electronic-structure software, such as Abinit, FLEUR, and PwSCF.
 
+Depends: qtoctave
+
 Depends: octaviz
 Pkg-URL: http://snapshot.debian.org/package/octaviz/
 Homepage: http://octaviz.sourceforge.net/

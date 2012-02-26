@@ -102,6 +102,7 @@ Why: Partial differential equation library, FEA, CFD
 Depends: python-openturns
 Why: Uncertainty quantification in numerical simulation
 
+Depends: qtoctave
 
 X-Removed: Packages removed from Debian
 

@@ -78,7 +78,6 @@ Depends: libopencascade-dev
 
 Suggests: python-netcdf
 
-Suggests: root-plugin-fftw3, libroot-mathmore5.18
 
 Depends: libfox95
 Homepage: http://www1.gly.bris.ac.uk/~walker/FoX/
@@ -175,3 +174,6 @@ X-Depends: libroot-tmva-dev, libroot-montecarlo-vmc-dev, libroot-math-mlp-dev
 X-Comment: Somebody injected the libraries from the ROOT system explicitely
  here for machine-learning - so these should be included once root-system
  is packaged again
+X-Suggests: root-plugin-fftw3, libroot-mathmore5.18
+ In case these packages will be created in root-system these need to be
+ added here as well.
