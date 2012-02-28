@@ -8,6 +8,15 @@ Depends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
 Depends: clhep
+WNPP: 636972
+Responsible: Lifeng Sun <lifongsun@gmail.com>
+Homepage: http://proj-clhep.web.cern.ch/proj-clhep/
+License: GPL-3, LGPL-3
+Language: C++
+Pkg-Description: Class Library for High Energy Physics
+ The CLHEP package is a set of High Energy Physics specific foundation
+ and utility classes such as random generators, physics vectors,
+ geometry and linear algebra.
 
 Depends: geant4
 
