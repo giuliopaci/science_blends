@@ -19,6 +19,15 @@ Pkg-Description: Class Library for High Energy Physics
  geometry and linear algebra.
 
 Depends: geant4
+Homepage: http://geant4.cern.ch/
+License: GPL
+Pkg-URL: http://lcg-heppkg.web.cern.ch/lcg-heppkg/debian
+Pkg-Description: toolkit for the simulation of the passage of particles through matter
+ Geant4 is a toolkit for the simulation of the passage of particles
+ through matter. Its application areas include high energy physics and
+ nuclear experiments, medical, accelerator and space physics studies. The
+ Geant4 software consists of an extensive set of libraries, fundamentally
+ object-oriented and based in modern C++. 
 
 Depends: abinit | mpqc | openmx | psi3
 Why: Abinitio Quantum mechanics (As psi3 doesn't do DFT, maybe it should be excluded)
