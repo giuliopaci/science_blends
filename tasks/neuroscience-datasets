@@ -240,6 +240,8 @@ Published-DOI: 10.1016/j.neuroimage.2009.01.045
 
 Depends: mclaren-rhesus-macaque-atlas
 License: GPL-3
+Homepage: http://brainmap.wisc.edu/pages/2-Rhesus-Macaque-Atlases-for-functional-and
+Pkg-URL: http://neuro.debian.net/debian/pool/main/m/mclaren-rhesus-macaque-atlas/
 Responsible: NeuroDebian team <team@neuro.debian.net>
 Remark: Upstream agreed to change the license to GPL-3 (might not yet be
  reflected on the webpage yet)
