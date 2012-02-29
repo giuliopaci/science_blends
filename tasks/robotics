@@ -14,7 +14,7 @@ Comment: Debian version is quite old - needs update
 
 Depends: octave, gnuplot
 
-Depends: libcoin40-runtime, libvtk5.4, libboost-dev
+Depends: libcoin60-runtime, libvtk5.4, libboost-dev
 
 Depends: libopenigtlink1
 

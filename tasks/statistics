@@ -10,7 +10,7 @@ Description: Debian Science Statistics packages
 Depends: ess, littler, r-recommended, rkward
 Why: R utilities or frontends
 
-Depends: r-cran-mapproj, r-cran-abind, r-cran-acepack, r-cran-bayesm, \
+Depends: r-cran-mapproj, r-cran-abind, r-cran-bayesm, \
             r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, \
             r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, \
             r-cran-dbi, r-cran-rms, r-cran-eco, \
@@ -81,3 +81,17 @@ Pkg-Description: data structures for "relational" or "labeled" data
   - Any other form of observational / statistical data sets. The data
     actually need not be labeled at all to be placed into a pandas
     data structure
+
+X-Removed: Packages removed from Debian
+
+Depends: r-cran-acepack
+Pkg-URL: http://snapshot.debian.org/binary/r-cran-acepack/
+Homepage: http://cran.us.r-project.org/src/contrib/
+Pkg-Description: GNU R package for regression transformations
+ This package provides the functions ace() and avas() for GNU R which
+ can be used to select regression tranformations. 
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/554512
