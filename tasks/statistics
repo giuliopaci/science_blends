@@ -14,7 +14,7 @@ Depends: r-cran-mapproj, r-cran-abind, r-cran-bayesm, \
             r-cran-boot, r-cran-cairodevice, r-cran-car, r-cran-chron, \
             r-cran-cluster, r-cran-coda, r-cran-codetools, r-cran-date, \
             r-cran-dbi, r-cran-rms, r-cran-eco, \
-            r-cran-effects, r-cran-fbasics, r-cran-fcalendar, \
+            r-cran-effects, r-cran-fbasics, \
             r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, \
             r-cran-fmultivar, r-cran-foptions, r-cran-foreign, \
             r-cran-fportfolio, r-cran-fseries, r-cran-gdata, r-cran-gmodels, \
@@ -95,3 +95,20 @@ Remark: Removed from Debian
  from http://snapshot.debian.org/
  .
  Reasons are given here: http://bugs.debian.org/554512
+
+Depends: r-cran-fcalendar
+Pkg-URL: http://snapshot.debian.org/binary/r-cran-fcalendar/
+Homepage: http://www.Rmetrics.org
+Pkg-Description: GNU R package for financial engineering -- fCalendar
+ This package of functions for financial engineering and computational
+ finance is part of Rmetrics, a collection of packages written and
+ compiled by Diethelm Wuertz.
+ .
+ fCalendar provides basic time and date manipulations, holiday
+ calculators and other tools. Its code was previously provided within
+ the fBasics package from which it has been split off.
+Remark: Removed from Debian
+ This package was removed from Debian but some versions are available
+ from http://snapshot.debian.org/
+ .
+ Reasons are given here: http://bugs.debian.org/554513
