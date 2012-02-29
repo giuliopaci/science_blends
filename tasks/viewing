@@ -52,8 +52,19 @@ Why: non-free
 Suggests: r-cran-plotrix, r-cran-colorspace
 
 Suggests: r-cran-aplpack
-Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/R/r-cran-aplpack/trunk/?rev=0&sc=0
-Vcs-Svn: svn://svn.debian.org/svn/debian-med/trunk/packages/R/r-cran-aplpack/trunk/
+WNPP: 588924
+Vcs-Browser: http://svn.debian.org/wsvn/debian-med/trunk/packages/R/r-cran-aplpack/trunk
+Vcs-Svn: svn://svn.debian.org/debian-med/trunk/packages/R/r-cran-aplpack/trunk/
+Responsible: Steffen Moeller <steffen_moeller@gmx.de>
+Homepage: http://cran.r-project.org/web/packages/aplpack
+License: GPL-2+
+Language: R
+Pkg-Description: Another Plot PACKage for GNU R
+ The package offers a set of functions for drawing special plots.
+ This comprises stem.leaf which plots a stem and leaf plot, the bagplot 
+ to plot a 2D variant of boxplots, faces plots chernoff faces,
+ spin3R supports the inspection of a 3D point cloud and there are
+ slider functions for interactive graphics.
 
 Suggests: findimagedupes, libpuzzle-bin
 Why: Those two packages are not necessarily needed for scientific work but a hint for
