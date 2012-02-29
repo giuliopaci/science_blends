@@ -21,6 +21,25 @@ Depends: libopenigtlink1
 Depends: libode-dev
 
 Depends: solid
+WNPP: 500616
+Homepage: http://www.dtecta.com
+License: GPL, QPL
+Language: C++
+Pkg-Description: Software library for collision detection of geometric objects in 3D space.
+ Collision detection is the process of detecting pairs of objects that
+ are intersecting or are within a given proximity of each other. SOLID
+ contains operations for performing intersection tests and proximity
+ queries on a wide variety of shape types, including: deformable triangle
+ meshes, boxes, ellipsoids, and convex polyhedra.
+ .
+ Since it exploits temporal coherence in a number of ways, SOLID is
+ especially useful for detecting collisions between objects that move
+ smoothly over time. The motions of objects are controlled by the client
+ application, and are not determined or affected by SOLID.
+ .
+ Although it can be used for physics-based simulations, SOLID is not a
+ physics engine by itself. SOLID leaves it up to the application
+ programmer how the laws of physics are implemented.
 
 Depends: robot-player
 
