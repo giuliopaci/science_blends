@@ -100,12 +100,3 @@ Pkg-Description: TeX package to draw normal and/or logarithmic plots directly in
  especially for use in scientific contexts (logplots).
 
 Suggests: circos
-Language: Perl
-Homepage: http://circos.ca/
-WNPP: 632174
-Responsible: Olivier Sallou <olivier.sallou@irisa.fr>
-License: GPL2+
-Pkg-Description: visualizing data in circular layout
- Circos is a software package for visualizing data and information. It 
- visualizes data in a circular layout -- this makes Circos ideal for 
- exploring relationships between objects or positions.
