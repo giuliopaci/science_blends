@@ -43,8 +43,6 @@ Pkg-Description: Software library for collision detection of geometric objects i
 
 Depends: robot-player
 
-Depends: mrtp
-
 Depends: d-collide
 Homepage: http://d-collide.ematia.de/
 License: BSD
