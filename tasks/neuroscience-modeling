@@ -116,13 +116,13 @@ Pkg-Description: iLab Neuromorphic Vision C++ Toolkit
   * Neuromorphic modeling environment.
 Registration: http://ilab.usc.edu/cgi-bin/yabb/YaBB.pl?board=;action=register
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [s/Vcs-browser/Vcs-Browser/ - fields are currently implemented case sensitive]
 Suggests: xppaut
 Homepage: http://www.math.pitt.edu/~bard/xpp/xpp.html
 Responsible: Jakub Nowacki <j.s.nowacki@gmail.com>
 License: GPL-2+
 Vcs-Git: git://github.com/neurodebian/pkg-xppaut.git
-Vcs-browser: https://github.com/neurodebian/pkg-xppaut
+Vcs-Browser: https://github.com/neurodebian/pkg-xppaut
 Pkg-URL: http://neuro.debian.net/pkgs/xppaut.html
 Pkg-Description: Phase Plane Plus Auto: Solves many kinds of equations
  XPPAUT is a tool for solving
