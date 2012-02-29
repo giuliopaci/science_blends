@@ -41,15 +41,13 @@ Depends: mlpost
 
 Depends: latexdiff
 
-Depends: jeuclid
-
 Depends: libjlatexmath-java
 
 Depends: cb2bib
 
 Suggests: libgtkmathview-bin
 
-Suggests: jeuclid-mathviewer
+Depends: jeuclid-mathviewer
 
 Depends: sketch
 
