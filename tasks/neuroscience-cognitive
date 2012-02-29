@@ -445,3 +445,23 @@ Published-DOI: 10.3389/fninf.2011.00003
 Published-In: Front. Neuroinform. 5:3
 Published-Title: The Connectome Viewer Toolkit: An open source framework to manage, analyze, and visualize connectomes
 Published-Year: 2011
+
+ ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+Suggests: hid
+Homepage: http://www.nitrc.org/projects/hid
+Language: java
+License: BSD, BIRN
+Pkg-Description: database management system for clinical imaging
+ The Human Imaging Database (HID) is an extensible database management
+ system developed to handle the increasingly large and diverse
+ datasets collected as part of the MBIRN and FBIRN collaboratories and
+ throughout clinical imaging communities at large.
+Published-Authors: Keator, D.B.; Grethe, J.S.; Marcus, D.; Ozyurt, B.;
+ Gadde, S.; Murphy, S.; Pieper, S.; Greve, D.;Notestine, R.; Bockholt,
+ H.J.; Papadopoulos, P.
+Published-In: IEEE Transactions on Information Technology in
+ Biomedicine, 12 (2)
+Published-Title: A National Human Neuroimaging Collaboratory Enabled
+ By The Biomedical Informatics Research Network (BIRN)
+Published-Year: 2008
+Registration: http://www.nitrc.org/account/register.php
