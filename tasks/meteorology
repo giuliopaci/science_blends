@@ -92,3 +92,4 @@ Suggests: gerris
 Suggests: python-openturns
 Why: Uncertainty quantification in numerical simulation
 
+Depends: aweather
