@@ -62,3 +62,12 @@ Remark: Removed from Debian
  Reasons are given here: http://bugs.debian.org/534362
  .
  It seems that qtoctave might be considered as replacemenet.
+
+Depends: lammps
+Why: LAMMPS is a classical molecular dynamics code, and an acronym for 
+ Large-scale Atomic/Molecular Massively Parallel Simulator. LAMMPS has 
+ potentials for soft materials (biomolecules, polymers) and solid-state 
+ materials (metals, semiconductors) and coarse-grained or mesoscopic systems. 
+ It can be used to model atoms or, more generically, as a parallel particle 
+ simulator at the atomic, meso, or continuum scale.
+
