@@ -3,6 +3,10 @@ debian-science (0.16) UNRELEASED; urgency=low
   [ Joost van Baal-Ilić ]
   * tasks/linguistics: add some more dependencies.
 
+  [ Andreas Tille ]
+  * debian/control(.stub)
+    Standards-Version: 3.9.3 (no changes needed)
+
  -- Andreas Tille <tille@debian.org>  Fri, 30 Dec 2011 08:45:03 +0100
 
 debian-science (0.15) unstable; urgency=low
