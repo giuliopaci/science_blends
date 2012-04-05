@@ -169,7 +169,7 @@ Package: science-distributedcomputing
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: dmtcp, globus-core, gridengine-client, gridengine-exec, gridengine-master, gridengine-qmon, ipython, mpich2, mpich2python, openmpi-bin, openmpipython, python-mpi, torque-common, torque-server
-Suggests: cctools, condor, hpcc, nordugrid-arc-nox, python-mpi4py
+Suggests: condor, coop-computing-tools, hpcc, nordugrid-arc-nox, psom, python-mpi4py
 Description: Debian Science Distributed Computing packages
  This metapackage will install Debian Science packages useful for
  various types of distributed computing, such as grid-, cloud-, cluster-
@@ -190,7 +190,7 @@ Package: science-electrophysiology
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
 Recommends: libdrawtk-dev, libgdf-dev, sigviewer
-Suggests: aghermann, bluespike, chronus, eeglab, eegview, klustakwik, libbiosig0, libeegdev-dev, libmcpanel-dev, librtfilter-dev, libxdffileio-dev, mclust, meabench, neo, neurodata, nspike, openelectrophy, pymeg, qrtailab, relacs, rtxi, science-dataacquisition, science-neuroscience-modeling, spike, stimfit, trellis-neuro
+Suggests: aghermann, bluespike, chronus, eeglab, eegview, klustakwik, libbiosig0, libeegdev-dev, libmcpanel-dev, librtfilter-dev, libxdffileio-dev, mclust, meabench, neo, neurodata, nspike, openelectrophy, pymeg, python-neuroshare, qrtailab, relacs, rtxi, science-dataacquisition, science-neuroscience-modeling, spike, stimfit, trellis-neuro
 Description: Debian Science packages for Electrophysiology
  This metapackage will install Debian packages which might be useful for
  scientists doing electrophysiology-based neuroscience research.
@@ -398,7 +398,7 @@ Description: Debian Science packages for modeling of neural systems
 Package: science-numericalcomputation
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: esys-particle, freemat, ipython, liggghts, lush, python-guiqwt, python-matplotlib, python-numpy, python-scipy, python-scitools, qtoctave, r-base, scilab, scilab-ann, scilab-scimax, spyder, yade, yorick
+Recommends: esys-particle, freemat, ipython, lammps, liggghts, lush, python-guiqwt, python-matplotlib, python-numpy, python-scipy, python-scitools, qtoctave, r-base, scilab, scilab-ann, scilab-scimax, spyder, yade, yorick
 Suggests: gnudatalanguage, hpcc, octave, octavede, pdl, scilab-sivp, scilab-swt
 Description: Debian Science Numerical Computation packages
  This metapackage will install Debian Science packages useful for

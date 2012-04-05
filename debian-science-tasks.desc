@@ -781,6 +781,7 @@ Packages: list
  liggghts
  esys-particle
  python-scitools
+ lammps
  avogadro
  garlic
  gdis
@@ -959,6 +960,7 @@ Packages: list
  liggghts
  esys-particle
  python-scitools
+ lammps
 
 Task: science-physics
 Section: debian-science
@@ -998,6 +1000,7 @@ Packages: list
  liggghts
  esys-particle
  python-scitools
+ lammps
  opencascade-draw
  science-electronics
  avrdude
