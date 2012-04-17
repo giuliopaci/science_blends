@@ -13,6 +13,8 @@ Depends: libcgns-dev
 
 Depends: libitpp-dev
 
+Depends: libexodusii-dev
+
 Suggests: libgtkdatabox-0.9.1-1-dev
 Comment: We have to find a way to make sure that version number changes in the
          library will be regarded effectively in the metapackages.
