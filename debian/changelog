@@ -1,4 +1,4 @@
-debian-science (0.16) UNRELEASED; urgency=low
+debian-science (0.16) unstable; urgency=low
 
   [ Joost van Baal-Ilić ]
   * tasks/linguistics: add some more dependencies.

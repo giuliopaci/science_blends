@@ -284,8 +284,8 @@ Description: Debian Science Machine Learning packages
 Package: science-mathematics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: axiom, bliss, coq, dolfin-bin, fenics, freefem, freemat, gap, geogebra, geomview, gerris, ginac-tools, kseg, libmatheval1, lp-solve, lrslib, magnus, mathomatic, mumps-test, netgen, pari-extra, pari-gp, polylib-utils, proofgeneral, python-ffc, python-openturns, qtoctave, regina-normal, rheolef, science-statistics, scilab, scilab-ann, scilab-scimax, scotch, snappea, wxmaxima, xmaxima, xmds
-Suggests: eprover, gmsh, isabelle, life-apps, nauty, netgen-doc, octave, octaviz, proofgeneral-coq, r-cran-evd, sagemath, scilab-sivp, scilab-swt, singular
+Recommends: axiom, bliss, coq, dolfin-bin, fenics, freefem, freemat, gap, geogebra, geomview, gerris, ginac-tools, kseg, libmatheval1, lp-solve, lrslib, mathomatic, mumps-test, netgen, octave, pari-extra, pari-gp, polylib-utils, proofgeneral, python-ffc, python-openturns, qtoctave, regina-normal, rheolef, science-statistics, scilab, scilab-ann, scilab-scimax, scotch, snappea, wxmaxima, xmaxima, xmds
+Suggests: eprover, gmsh, isabelle, life-apps, magnus, nauty, netgen-doc, octaviz, proofgeneral-coq, r-cran-evd, sagemath, scilab-sivp, scilab-swt, singular
 Description: Debian Science Mathematics packages
  This metapackage will install Debian Science packages related to
  Mathematics.  You might also be interested in the field::mathematics
@@ -363,8 +363,8 @@ Description: Debian Science Nanoscale Physics development packages
 Package: science-neuroscience-cognitive
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: amide, caret, dicom3tools, dicomnifti, medcon, minc-tools, mriconvert, mricron, nifti-bin, openmeeg-tools, praat, psignifit, python-mvpa, python-nifti, python-pyepl, python-pyxnat, python-scikits.statsmodels, voxbo, xmedcon
-Suggests: afni, bioimagesuite, brainvisa, connectomeviewer, debruijn, eeglab, fieldtrip, freesurfer, fsl, fslview, hid, iqr, itksnap, lipsia, mni-autoreg, mni-n3, pysurfer, python-pypsignifit, science-psychophysics, science-typesetting, slicer, spm8, xnat
+Recommends: amide, caret, dicom3tools, dicomnifti, itksnap, medcon, minc-tools, mriconvert, mricron, nifti-bin, openmeeg-tools, praat, psignifit, python-mvpa, python-nifti, python-pyepl, python-pyxnat, python-scikits.statsmodels, voxbo, xmedcon
+Suggests: afni, bioimagesuite, brainvisa, connectomeviewer, debruijn, eeglab, fieldtrip, freesurfer, fsl, fslview, hid, iqr, lipsia, mni-autoreg, mni-n3, pysurfer, python-pypsignifit, science-psychophysics, science-typesetting, slicer, spm8, xnat
 Description: Debian Science packages for Cognitive Neuroscience
  This metapackage will install Debian packages which might be useful for
  scientists doing cognitive neuroscience research. This comprises the full
@@ -398,8 +398,8 @@ Description: Debian Science packages for modeling of neural systems
 Package: science-numericalcomputation
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: esys-particle, freemat, ipython, lammps, liggghts, lush, python-guiqwt, python-matplotlib, python-numpy, python-scipy, python-scitools, qtoctave, r-base, scilab, scilab-ann, scilab-scimax, spyder, yade, yorick
-Suggests: gnudatalanguage, hpcc, octave, octavede, pdl, scilab-sivp, scilab-swt
+Recommends: esys-particle, freemat, ipython, lammps, liggghts, lush, octave, pdl, python-guiqwt, python-matplotlib, python-numpy, python-scipy, python-scitools, qtoctave, r-base, scilab, scilab-ann, scilab-scimax, spyder, yade, yorick
+Suggests: gnudatalanguage, hpcc, octavede, scilab-sivp, scilab-swt
 Description: Debian Science Numerical Computation packages
  This metapackage will install Debian Science packages useful for
  numerical computation. The packages provide an array oriented
@@ -420,8 +420,8 @@ Description: Debian Science Physics packages
 Package: science-psychophysics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: libfreenect-dev, psychopy, python-pyepl, python-pyoptical
-Suggests: debruijn, nrec, octave-psychtoolbox-3, opensesame, pebl, psychlops, psytoolkit, python-pyxid, science-bci, science-neuroscience-cognitive, tscope, visionegg
+Recommends: libfreenect-dev, octave-psychtoolbox-3, psychopy, python-pyepl, python-pyoptical
+Suggests: debruijn, nrec, opensesame, pebl, psychlops, psytoolkit, python-pyxid, science-bci, science-neuroscience-cognitive, tscope, visionegg
 Description: Debian Science packages for Psychophysics
  This metapackage will install Debian packages which might be useful for
  carrying out any experiment relating physical stimuli and their
@@ -437,8 +437,8 @@ Description: Debian Science packages for Psychophysics
 Package: science-robotics
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: gnuplot, libboost-dev, libcoin60-runtime, libcv-dev, libode-dev, robot-player, rtai, xenomai-runtime
-Suggests: d-collide, libcomedi0, libopenigtlink1, libvtk5.4, octave, orca, orocos-bfl, orocos-kdl, orocos-ocl, orocos-rtt, roboop, rtnet, solid
+Recommends: gnuplot, libboost-dev, libcoin60-runtime, libcv-dev, libode-dev, octave, robot-player, rtai, xenomai-runtime
+Suggests: d-collide, libcomedi0, libopenigtlink1, libvtk5.4, orca, orocos-bfl, orocos-kdl, orocos-ocl, orocos-rtt, roboop, rtnet, solid
 Description: Debian Robotics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Robotics.
@@ -471,8 +471,8 @@ Description: Debian Science typesetting packages
 Package: science-viewing
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: 3depict, fityk, g3data, gle-graphics, gnuplot, grace, graphviz, gri, gwyddion, ifrit, imview, kst, lybniz, mathgl, mayavi2, paraview, plotdrop, python-guiqwt, python-scientific, python-viper, pyxplot, qtiplot, udav, yorick
-Suggests: cassandra, circos, findimagedupes, gmsh, gnudatalanguage, jeuclid-mathviewer, labplot, libgtkmathview-bin, libpuzzle-bin, med-imaging, pdl, pgfplots, pgplot5, python-matplotlib, python-scitools, r-cran-aplpack, r-cran-colorspace, r-cran-plotrix, texlive-pictures
+Recommends: 3depict, fityk, g3data, gle-graphics, gnuplot, grace, graphviz, gri, gwyddion, ifrit, imview, kst, lybniz, mathgl, mayavi2, paraview, pdl, plotdrop, python-guiqwt, python-scientific, python-viper, pyxplot, qtiplot, udav, yorick
+Suggests: cassandra, circos, findimagedupes, gmsh, gnudatalanguage, jeuclid-mathviewer, labplot, libgtkmathview-bin, libpuzzle-bin, med-imaging, pgfplots, pgplot5, python-matplotlib, python-scitools, r-cran-aplpack, r-cran-colorspace, r-cran-plotrix, texlive-pictures
 Description: Debian Science data visualisation packages
  This metapackage will install Debian Science packages related to data
  visualization. You might also be interested in the use::viewing

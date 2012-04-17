@@ -496,7 +496,6 @@ Packages: list
  pari-gp
  pari-extra
  gap
- magnus
  gerris
  freefem
  netgen
@@ -591,6 +590,7 @@ Packages: list
  python-scikits.statsmodels
  python-openturns
  geomview
+ octave
  xmds
  freemat
  mathomatic
@@ -763,12 +763,14 @@ Packages: list
  openmpi-bin
  openmpi-doc
  science-numericalcomputation
+ octave
  python-matplotlib
  python-scipy
  ipython
  python-numpy
  spyder
  python-guiqwt
+ pdl
  scilab
  scilab-scimax
  scilab-ann
@@ -907,6 +909,7 @@ Packages: list
  voxbo
  openmeeg-tools
  mricron
+ itksnap
  python-scikits.statsmodels
  mriconvert
  python-pyxnat
@@ -942,12 +945,14 @@ Relevance: 10
 Key: 
  science-numericalcomputation
 Packages: list
+ octave
  python-matplotlib
  python-scipy
  ipython
  python-numpy
  spyder
  python-guiqwt
+ pdl
  scilab
  scilab-scimax
  scilab-ann
@@ -982,12 +987,14 @@ Packages: list
  fityk
  tessa
  science-numericalcomputation
+ octave
  python-matplotlib
  python-scipy
  ipython
  python-numpy
  spyder
  python-guiqwt
+ pdl
  scilab
  scilab-scimax
  scilab-ann
@@ -1084,6 +1091,7 @@ Packages: list
  rtai
  xenomai-runtime
  libcv-dev
+ octave
  gnuplot
  libcoin60-runtime
  libboost-dev
@@ -1239,6 +1247,7 @@ Relevance: 10
 Key: 
  science-viewing
 Packages: list
+ pdl
  kst
  ifrit
  yorick
