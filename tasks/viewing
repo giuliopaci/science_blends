@@ -4,6 +4,9 @@ Description: Debian Science data visualisation packages
  visualization. You might also be interested in the use::viewing
  debtag.
 
+Depends: vistrails
+Pkg-Description: Scientific visualisation workflow tool
+
 Depends: pdl, gnudatalanguage
 Why: IDL-like
 
@@ -30,11 +33,25 @@ Depends: mayavi2
 
 Depends: g3data
 
+Depends: grits
+Pkg-Description: Grits is a Virtual Globe library
+ Grits is a "Virtual Globe" library which uses OpenGL to render an image of
+ the earth using satellite and terrain data from publicly accessible servers.
+ This is similar in concept to Google Earth and NASA World Wind, except
+ implemented as a library.
+
 Suggests: med-imaging
 
 Depends: gwyddion
 
 Depends: paraview
+
+Depends: visit
+Homepage: http://www.llnl.gov/visit/
+WNPP: 395573
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Pkg-Description: Interactive parallel visualization and graphical analysis tool
+Why: Used for 3-D visualisation of netCDF datasets.
 
 Depends: gle-graphics
 
