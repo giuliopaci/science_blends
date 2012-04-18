@@ -8,6 +8,20 @@ Description: Debian Science Meteorology-dev packages
 Depends: libemos-dev
 Why: standard library for BUFR formats
 
+Depends: libgadap-dev
+Pkg-Description: Development files for DAP station data library
+
+Depends: libcmor-dev
+Pkg-Descriptionn: Development files for Climate Model Output Rewriter
+ The "Climate Model Output Rewriter" (CMOR, pronounced "Seymour")
+ comprises a set of C-based functions, with bindings to both python
+ and FORTRAN 90, that can be used to produce CF-compliant netCDF files
+ that fulfill the requirements of many of the climate community's
+ standard model experiments. These experiments are collectively
+ referred to as MIP's and include, for example, AMIP, CMIP, CFMIP,
+ PMIP, APE, and IPCC scenario runs. The output resulting from CMOR
+ is "self-describing" and facilitates analysis of results across models.
+
 Depends: libgrib-api-dev, libgrib-api-tools
 Why: grib-api is the standard library for GRIB2 file management.
 
@@ -18,8 +32,6 @@ Depends: libhe5-hdfeos-dev
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 
 Depends: libhe4-hdfeos-dev
-WNPP: 531558
-Responsible: Alastair McKinstry <mckinstry@debian.org>
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
  HDF-EOS is a software library that is an extension of National Center
@@ -33,6 +45,8 @@ Why: Needed for many cartographic tasks (eg coastlines on maps)
 
 Depends: libgctp-dev
 
+Depends: libdap-dev
+
 Depends: libnetcdf-dev, netcdf-bin
 
 Depends: liblapack-dev, libblas-dev, libfftw3-dev
@@ -41,6 +55,10 @@ Why: Most forecasting codes use BLAS and LAPACK
 Depends: libblas-doc, liblapack-doc, libfftw3-doc
 
 Depends: liblas-dev
+
+Depends: libspherepack-dev
+
+Depends: libterralib-dev
 
 Suggests: gfortran
 Why: Much meteorological code is developed in Fortran.
@@ -52,12 +70,10 @@ Suggests: pkg-config
 Why: Simplifies the scripting of builds. 
 
 Depends: liboasis3-dev
+Why: Coupler used by many climate models. Needed by some NWP models to compile.
+ (or stubs for the same routines)
 
-Depends: libudunits-dev
-WNPP: 532430
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Homepage: http://www.unidata.ucar.edu/software/udunits/
-Language: C
+Depends: libudunits2-dev
 Why: widely used in climate models.
 Pkg-Description: Library for the programatic handling of units of physical quantities
  The UDUNITS package supports units of physical quantities (e.g., meters, seconds).
@@ -68,18 +84,20 @@ Pkg-Description: Library for the programatic handling of units of physical quant
 Depends: libdap-dev
 Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
 
-Depends: libnc-dap-dev
-WNPP: 537111
-Homepage:  http://opendap.org/download/nc-dods.html
-Responsible: Youhei SASAKI <uwabami@gfd-dennou.org>
-Pkg-Description: The netCDF Client Library is an alternative implementation of Unidata's netCDF 3.6 API.
- The netCDF Client Library is an alternative implementation of Unidata's   netCDF 3.6 API.
- Our version adds the capability to dereference OPeNDAP URLs. You can substitute our version 
- of the library when linking your application and then simply pass an OPeNDAP URL 
- in where you would normally use a file name.
-
 Depends: python-openturns, libopenturns-dev, openturns-wrapper
 Why: Uncertainty quantification in numerical simulation
 
 Suggests: liblife-dev
 Why: Partial differential equations library, FEA, CFD
+
+Depends: wcslib-dev, wcslib-doc
+Why: Co-ordinates system for geographical data in FITS files
+
+Depends: librsl-dev
+Pkg-Description: Development files for RSL
+ RSL is a library produced by the NASA TRMM Satellite Validation Office and
+ used to access several radar file formats. It can generated images directly
+ or be used to load data files for other programs.
+ .
+ It can read the following file formats: WSR88D/NEXRAD, Lassen, Sigmet,
+ McGill, UF, HDF, RAPIC, RADTEC and the native RSL file format.

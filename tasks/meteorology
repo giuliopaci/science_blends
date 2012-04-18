@@ -6,6 +6,9 @@ Description: Debian Science Meteorology packages
 Depends: cdo
 Why: Widely-used File format manipulation utility
 
+Depends: nco
+Pkg-Description: Network Climate Operators
+
 Depends: dballe
 
 Depends: zygrib
@@ -16,6 +19,9 @@ Depends: ncview
 Depends: grads
 Why: Used as default tool for viewing BUFR files.
 
+Depends: ferret-vis
+Description: Analysis and Visualisation tool for meteorologists
+
 Depends: magics++
 
 Depends: visit
@@ -25,28 +31,34 @@ Responsible: Alastair McKinstry <mckinstry@debian.org>
 Pkg-Description: Interactive parallel visualization and graphical analysis tool
 Why: Used for 3-D visualisation of netCDF datasets.
 
+Suggests: paraview
+Why: 3-D visualisation of climate (netCDF) files
+
 Depends: libgrib-api-tools
 Responsible: Enrico Zini <enrico@debian.org>
 
 Depends: hdf-eos4
-Homepage: http://hdfeos.net/software.php#HDF-EOS2
-WNPP: 531558
-License: BSD
-Responsible: Alastair McKinstry <mckinstry@debian.org>
 Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
  HDF-EOS is a software library that is an extension of National Center
  for Supercomputing Applications (NCSA) HDF. The library supports the
  construction of new data structures: Grid, Point and Swath.
 
 Depends: hdf-eos5
-Homepage: http://hdfeos.net/software.php#HDF-EO5
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-WNPP: 530247
-License: BSD
 Pkg-Description: Extension to HDF5 to support Earth Observing System datatypes
  HDF-EOS is a software library that is an extension of National Center
  for Supercomputing Applications (NCSA) HDF. The library supports the
  construction of new data structures: Grid, Point and Swath.
+
+Depends: ecaccess
+Pkg-Description: clients to access ECMWF facilities
+ ecaccess is a suite of client tools to enable access to the computing
+ and data archive facilities of the European Centre for Medium-Range
+ Forecasts (ECMWF).
+ .
+ Strict authentication is performed in a uniform way using SecurID cards
+ and standard (X509) certificates. 
+ SSL is used to guarantee the integrity of the application data, 
+ the transferred jobs and the monitoring information.
 
 Depends: geonetwork
 Homepage: http://geonetwork-opensource.org
@@ -60,18 +72,9 @@ Pkg-Description: Catalog application to manage spatially referenced resources th
  an embedded interactive web map viewer. This website contains information
  related to the use of the software.
 
-Depends: vis5d+
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-WNPP: 532858
-License: GPL
-Homepage: http://vis5d.sourceforge.net
-Pkg-Description: Vis5d, a free OpenGL-based volumetric visualization program for scientific datasets in 3+ dimensions
-Why: vis5d is used by other tools such as NCL, so many have experience in using it.
-
 Depends: ncl
 WNPP: 531982
 License: BSD
-Responsible:  Alastair McKinstry <mckinstry@debian.org>
 Homepage:  http://www.ncl.ucar.edu/overview.shtml
 Pkg-Description: NCAR Command Language and NCAR Graphics package
  The NCAR Command Language (NCL) is a free interpreted language designed
@@ -80,6 +83,46 @@ Pkg-Description: NCAR Command Language and NCAR Graphics package
  of version 4.3.1), HDF4, binary, and ASCII data, and read HDF-EOS2, GRIB1 and
  GRIB2 (as of version 4.3.0). The graphics are world class and highly
  customizable.
+
+Depends: python-netcdf4
+
+Depends: python-grib
+WNPP: 669260
+License: BSD
+Homepage:  https://pygrib.googlecode.com/svn/trunk/docs/index.html
+Responsible: Alastair McKinstry <mckinstry@debian.org>
+Description: python library for reading/writing GRIB files
+ Python module for reading and writing GRIB (editions 1 and 2) files.
+ GRIB is the World Meterological Organization standard for
+ distributing gridded data. The module is a python interface
+ to the GRIB API C library from the 
+ European Centre for Medium-Range Weather Forecasts (ECMWF).
+
+Depends: python-drslib
+Pkg-Description: Library for processing the CMIP5 Data Reference Syntax
+ CMIP5 is the Climate Model Intercomparison Project 5.  This library supports
+ the generation of paths and filenames corresponding to version 0.28 of thei
+ CMIP Data Reference Syntax. It includes tools for converting from previous
+ CMIP3 forms.
+
+Depends: python-cmor
+Pkg-Description: python interface to CMOR
+ This is a python interface to CMOR, the Climate Model Output Rewriter.
+ CMOR is a tool for rewriting netCDF files to the CMOR conventions
+ for the CMIP Climate Model Intercomparison Project(s).
+
+Depends: python-spherepack
+Description: Python interface to the spherepack scientific library.
+ This is a python interface to spherepack, a library for calculations on 
+ spheres (geophysical).
+
+Depends: cmip5-cmor-tables
+Pkg-Description: CMIP5 tables for the Climate Model Output Rewriter library
+ This package contains tables for use with CMOR that describe the variables
+ and format of data needed for the CMIP5 "Coupled Model Intercomparisoni
+ Project".
+ .
+ CMOR software uses these tables to verify that output is valid.
 
 Suggests: gnudatalanguage, r-base
 Why: Used for data manipiulation
@@ -93,3 +136,20 @@ Suggests: python-openturns
 Why: Uncertainty quantification in numerical simulation
 
 Depends: aweather
+
+Depends: libdap-bin, libdap-doc
+
+Suggests: pydap
+WNPP: 640037
+License: MIT
+Responsible: Sandro Tosi <morph@debian.org>
+Pkg-Description: DAP (Data Access Protocol) client and server
+ This is a Python implementation of the Data Access Protocol, a scientific
+ protocol for data access developed by the OPeNDAP team
+ (http://opendap.org). This implementation is developed from scratch, following
+ the latest specification of the protocol (DAP 2.0 Draft Community Standard
+ 2005/04/27) and based on my experience with OPeNDAP servers on the wild.
+
+Depends: vistrails
+Why: Used by CDAT, vistrails is a workflow tool used to track changes made
+ when investigating climate data.
