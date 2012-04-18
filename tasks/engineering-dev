@@ -14,6 +14,9 @@ Depends: libcgns-dev
 Depends: libitpp-dev
 
 Depends: libexodusii-dev
+Depends: libadios-dev, libbox-dev, libsilo-dev, libxdmf-dev
+Why: I/O format libraries used by various codes. Write in these formats for visualizartion
+ systems such as VisIt, Paraview to work.
 
 Suggests: libgtkdatabox-0.9.1-1-dev
 Comment: We have to find a way to make sure that version number changes in the
@@ -74,3 +77,4 @@ Pkg-Description: Java interface to NetCDF files
 Depends: syfi-dev
 
 Depends: libmesh-dev
+
