@@ -20,6 +20,9 @@ Depends: libopenigtlink1
 
 Depends: libode-dev
 
+Depends: morse-simulator
+WNPP: 670577
+
 Depends: solid
 WNPP: 500616
 Homepage: http://www.dtecta.com
@@ -134,3 +137,4 @@ Pkg-Description: framework for inference in Dynamic Bayesian Networks
  Monte Carlo methods), etc. These algorithms can, for example, be run on top
  of the Realtime Services, or be used for estimation in Kinematics & Dynamics
  applications.
+
