@@ -43,6 +43,7 @@ Description: Debian Science Project config package
   * science-physics         packages related to physics
   * science-psychophysics   packages related to packages for psychophysics
   * science-robotics        packages related to robotics
+  * science-simulation      packages to do simulations
  .
  This are metapackages for common utilities for all sciences:
  .

@@ -7,7 +7,10 @@ debian-science (1.0) UNRELEASED; urgency=low
   [ Sylvestre Ledru ]
   * tasks/robotics: add some more dependencies.
 
- -- Andreas Tille <tille@debian.org>  Tue, 17 Apr 2012 11:19:50 +0200
+  [ Andreas Tille ]
+  * debian/tasks/simulation: Add new task for simulations
+
+ -- Andreas Tille <tille@debian.org>  Mon, 14 May 2012 09:51:07 +0200
 
 debian-science (0.16) unstable; urgency=low
 

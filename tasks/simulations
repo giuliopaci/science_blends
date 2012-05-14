@@ -1,0 +1,8 @@
+Task: Simulations
+Description: Debian Science Simulation packages
+ This metapackage will install Debian Science packages that are
+ used to do simulations in different fields of science.
+
+Depends: sumo
+
+Depends: esys-particle, lammps, liggghts, yade

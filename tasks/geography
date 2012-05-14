@@ -59,6 +59,8 @@ Depends:     josm, \
              osmpbf-bin, \
              imposm
 
+Suggests: sumo
+
 X-Depends: osmarender
 Why: Hmmm, was there any package?  I just can find
   http://wiki.openstreetmap.org/index.php/Osmarender
