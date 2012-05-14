@@ -23,9 +23,16 @@ Why: FEA
 Depends: netgen, gmsh
 Why: FEA, mesh generator
 
+X-Begin-Category: proof assistants
+X-Comment: According to Hendrik Tews <tews@os.inf.tu-dresden.de> these might end up
+           in a separate metapackage "theorem-proving" or "formal-methods"
+           see http://lists.debian.org/debian-science/2012/05/msg00077.html
 
 Depends: coq, proofgeneral, proofgeneral-coq
-Why: Proof assistant
+
+Depends: matita, agda, prover9, hol-light, minisat
+
+X-End-Category: proof assistants
 
 Depends: science-statistics
 
