@@ -207,7 +207,7 @@ Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version
 Recommends: cba, cgns-convert, code-aster-gui, code-saturne, freecad, gerris, hdfview, librecad, netgen, opencascade-draw, python-fiat, python-openturns, pythoncad, sailcut, syrthes, z88
 Suggests: avl, brlcad, ecs, gmsh, life-apps, pycgns, r-cran-spc, salome, syfi-bin, tochnog, varkon
 Description: Debian Science Engineering packages
- This metapackage is part od the Debian Pure Blend "Debian Science"
+ This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Engineering.
  .
  Please not that there is an additional package engineering-dev
