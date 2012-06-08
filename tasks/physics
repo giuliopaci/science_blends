@@ -36,6 +36,8 @@ Depends: gerris
 
 Depends: feynmf
 
+Depends: freefoam
+
 Depends: fityk
 
 Depends: horae, ifeffit, sixpack
@@ -133,7 +135,6 @@ Pkg-Description: Computational fluid dynamics application
  simulate anything from complex fluid flows involving chemical
  reactions, turbulence and heat transfer, to solid dynamics,
  electromagnetics and the pricing of financial options.
-
 
 Depends: jfreemesh
 Homepage: http://dev.artenum.com/projects/JFreeMesh
