@@ -152,41 +152,6 @@ Remark: Removed from Debian
  from http://snapshot.debian.org/
 
 Depends: saods9
-Pkg-URL: http://snapshot.debian.org/package/saods9/
-Homepage: http://hea-www.harvard.edu/RD/ds9/
-Pkg-Description: image display tool for astronomy
- DS9 is an application for astronomical imaging and data
- visualization.
- .
- DS9 is the modern imtool used by astronomers.  It is most
- distinguished by its support for displaying images of high dynamic
- range (such as 16 bit greyscale FITS files).  Whereas many other
- tools will only read an approximation to such files, DS9 works in
- full precision, and uses various display parameters to map input data
- into 8 bit data which can be displayed on the screen.
- .
- Available parameters for the mapping include: brightness, contrast,
- false color, and nonlinear input mapping (such as logarithm, square
- root, square, etc.)
- .
- Although it may be useful in other fields, DS9 includes a fair number
- of features specific to astronomy.  There is an astronomical "name
- resolver" which allows a lookup of an arbitrary named object to its
- coordinates.  Given the coordinates of a field, online archive
- servers may be queried, and an image retrieved.  DS9 thusly
- implements a preliminary "Virtual Observatory".
- .
- DS9 is entirely controllable from external programs ("XPA"), which
- simplifies complex tasks such as data acquisition, realtime display,
- and batch analysis.
- .
- If images include WCS (World Coordinate System) keywords, then they
- may be "blinked" to search for moving or changing objects.
-Remark: Removed from Debian
- This package was removed from Debian but some versions are available
- from http://snapshot.debian.org/
- .
- Reasons are given here: http://bugs.debian.org/628485
 
 Depends: ssystem
 Pkg-URL: http://snapshot.debian.org/package/ssystem/
