@@ -51,6 +51,8 @@ Why: Numerical programming environments similar to Matlab/IDL
 
 Depends: avogadro, garlic, gdis, ghemical, v-sim
 
+Depends: gwyddion
+
 Recommends: axiom, maxima
 Why: Symbolic maths
 

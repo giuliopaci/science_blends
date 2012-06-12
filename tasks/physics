@@ -90,6 +90,8 @@ Depends: pymca
 
 Depends: quantum-espresso
 
+Depends: gwyddion
+
 Depends: blzpack
 Homepage: http://crd.lbl.gov/~osni/#Software
 WNPP: 435394
