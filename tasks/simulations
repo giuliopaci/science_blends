@@ -6,3 +6,5 @@ Description: Debian Science Simulation packages
 Depends: sumo
 
 Depends: esys-particle, lammps, liggghts, yade
+
+Depends: python-deap

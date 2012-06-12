@@ -79,6 +79,8 @@ Depends: opticalraytracer
 
 Depends: ghkl
 
+Depends: python-deap
+
 Suggests: life-apps, liblife-dev
 Why: Partial differential equation library, FEA, CFD
 

@@ -111,6 +111,8 @@ Why: Uncertainty quantification in numerical simulation
 
 Depends: qtoctave
 
+Depends: python-deap
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz

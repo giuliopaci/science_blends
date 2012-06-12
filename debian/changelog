@@ -11,7 +11,9 @@ debian-science (1.0) UNRELEASED; urgency=low
   * debian/tasks/simulation: Add new task for simulations
 
   [ Picca Frédéric-Emmanuel ]
-  * debian/tasks/dataacquisition: Add python-taurus
+  * tasks/dataacquisition: Add python-taurus
+  * tasks/{mathematics, numericalcomputation, physics, simulation}:
+    Add python-deap
 
  -- Andreas Tille <tille@debian.org>  Mon, 14 May 2012 09:51:07 +0200
 
