@@ -11,4 +11,6 @@ Depends: libworldwind-java
 
 Depends: libccfits-dev, libcfitsio3-dev, python-pyfits, libqfits-dev, slang-cfitsio, libastro-fits-cfitsio-perl
 
-Depends: libsofa-c-dev, libstarlink-pal-dev, libstarlink-ast-dev, libwcstools-dev, wcslib-dev, libfuntools-dev, libcpl-dev
+Depends: libsofa-c-dev, libstarlink-pal-dev, libstarlink-ast-dev, libwcstools-dev, wcslib-dev, libcpl-dev
+
+Depends: python-pywcs, python-cpl
