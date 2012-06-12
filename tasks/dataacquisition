@@ -69,9 +69,7 @@ Pkg-Description: control measurement devices and test equipment via GPIB, RS232,
   * Writing a graphical application for scientific programming using
     TraitsUI
 
-Suggests: tango-db, tango-starter, tango-accesscontrol, python-pytango
-
-Depends: python-taurus
+Suggests: tango-db, tango-starter, tango-accesscontrol, python-pytango, python-taurus
 
 Depends: mx-dataacquisition
 Homepage: http://mx.iit.edu/
