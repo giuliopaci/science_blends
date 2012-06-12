@@ -16,6 +16,8 @@ Depends: sextractor
 
 Depends: worldwind
 
+Depends: wcstools, wcslib-tools, python-pywcs, funtools, esorex
+
 Depends: gpredict, predict, seesat5
 
 Depends: qfits-tools, yorick-cubeview
