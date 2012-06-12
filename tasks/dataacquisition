@@ -71,6 +71,8 @@ Pkg-Description: control measurement devices and test equipment via GPIB, RS232,
 
 Suggests: tango-db, tango-starter, tango-accesscontrol, python-pytango
 
+Depends: python-taurus
+
 Depends: mx-dataacquisition
 Homepage: http://mx.iit.edu/
 License: MIT
