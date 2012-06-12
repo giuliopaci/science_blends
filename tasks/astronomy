@@ -20,7 +20,11 @@ Depends: wcstools, wcslib-tools, funtools, esorex
 
 Depends: gpredict, predict, seesat5
 
-Depends: qfits-tools, yorick-cubeview
+Depends: qfits-tools
+
+Depends: yorick-cubeview, yorick-mira, yorick-spydr, yorick-yao
+
+Suggests: yorick
 
 Depends: savi
 
@@ -75,7 +79,7 @@ Pkg-Description: a gtk front-end for the starchart program
  "unofficial" package points to the location
  where the old package could be found on http://snapshot.debian.net.
 
-Suggests: pdl, pgplot5, python-scientific, yorick
+Suggests: pdl, pgplot5, python-scientific
 Why: Already in science-viewing
 
 Depends: orbfit
