@@ -47,6 +47,8 @@ Depends: drawxtl
 
 Depends: chemical-structures
 
+Depends: freefoam
+
 Depends: libegad
 Homepage: http://egad.ucsd.edu/egad/
 WNPP: 429693

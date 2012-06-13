@@ -8,3 +8,5 @@ Depends: sumo
 Depends: esys-particle, lammps, liggghts, yade
 
 Depends: python-deap
+
+Depends: freefoam

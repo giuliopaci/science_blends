@@ -93,6 +93,8 @@ Why: Partial differential equations library, FEA, CFD
 Depends: wcslib-dev, wcslib-doc
 Why: Co-ordinates system for geographical data in FITS files
 
+Depends: freefoam-dev
+
 Depends: librsl-dev
 Pkg-Description: Development files for RSL
  RSL is a library produced by the NASA TRMM Satellite Validation Office and

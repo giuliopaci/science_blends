@@ -13,6 +13,8 @@ Depends: libcgns-dev
 
 Depends: libitpp-dev
 
+Depends: freefoam-dev
+
 Depends: libexodusii-dev
 Depends: libadios-dev, libbox-dev, libsilo-dev, libxdmf-dev
 Why: I/O format libraries used by various codes. Write in these formats for visualizartion

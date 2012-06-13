@@ -48,6 +48,8 @@ Suggests: r-cran-spc
 
 Depends: syrthes
 
+Depends: freefoam
+
 Depends: brlcad
 Homepage: http://my.brlcad.org/
 WNPP: 289632

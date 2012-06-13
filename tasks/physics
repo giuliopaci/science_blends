@@ -139,6 +139,10 @@ Pkg-Description: Computational fluid dynamics application
  simulate anything from complex fluid flows involving chemical
  reactions, turbulence and heat transfer, to solid dynamics,
  electromagnetics and the pricing of financial options.
+Remark: will probably never enter Debian
+ According to https://lists.debian.org/debian-science/2012/06/msg00049.html
+ packaging would be really complex and it contains some non-free components.
+ Freefoam (see above) is some kind of  plugin replacement.
 
 Depends: jfreemesh
 Homepage: http://dev.artenum.com/projects/JFreeMesh
