@@ -83,6 +83,8 @@ Depends: scotch
 
 Depends: singular
 
+Depends: freefem++
+
 Depends: isabelle
 Homepage: http://isabelle.in.tum.de/
 WNPP: 494491
