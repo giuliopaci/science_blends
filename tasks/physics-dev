@@ -1,0 +1,8 @@
+Task: Physics-dev
+Description: Debian Science Physics-dev packages
+ This metapackage will install Debian Science packages which might be
+ helpful for development of applications for Mathematics.
+ .
+ You might also be interested in the science-physics metapackage.
+
+Depends: freefoam-dev
