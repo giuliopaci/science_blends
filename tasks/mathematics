@@ -16,7 +16,10 @@ Why: Group theory
 Depends: gerris
 Why: CFD
 
-Depends: freefem
+Depends: freefem, freefem3d
+
+Depends: freefem++
+
 Suggests: netgen-doc
 Why: FEA
 
@@ -82,8 +85,6 @@ Depends: rheolef
 Depends: scotch
 
 Depends: singular
-
-Depends: freefem++
 
 Depends: isabelle
 Remark: upstream prefers Isabelle not being packaged

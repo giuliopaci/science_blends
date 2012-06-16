@@ -103,4 +103,4 @@ Depends: python-ufl
 
 Depends: libscythestat-dev
 
-Depends: libfreefem++-dev
+Depends: libfreefem++-dev, libfreefem-dev
