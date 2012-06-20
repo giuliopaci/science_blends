@@ -4,8 +4,7 @@ Description: Debian Science Astronomy packages
  Astronomy.  You might also be interested in field::astronomy debtag
  and, depending on your focus, in the education-astronomy metapackage.
 
-Depends: libcfitsio3, gcx, slang-cfitsio
-Why: FITS format file
+Depends: gcx
 
 Depends: xorsa
 Why: Celestial Mechanics computations
