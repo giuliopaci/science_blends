@@ -24,7 +24,7 @@ Suggests: rtai
 
 Suggests: xenomai-runtime
 
-Depends: sardena
+Depends: python-sardana
 
 Suggests: linux-image-2.6-rt
 Responsible: kernel@pengutronix.de
