@@ -23,6 +23,8 @@ Depends: qfits-tools
 
 Depends: yorick-cubeview, yorick-mira, yorick-spydr, yorick-yao
 
+Depends: yorick-gyoto
+
 Suggests: yorick
 
 Depends: savi
