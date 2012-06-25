@@ -24,6 +24,8 @@ Suggests: rtai
 
 Suggests: xenomai-runtime
 
+Depends: sardena
+
 Suggests: linux-image-2.6-rt
 Responsible: kernel@pengutronix.de
 Homepage: http://www.pengutronix.de/software/linux-rt/debian_en.html
