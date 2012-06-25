@@ -43,6 +43,8 @@ Suggests: scilab-celestlab, scilab-overload, scilab-scimysql
 X-Comment: It is not really astronomy, do we need another category or
            should we put space flight related packages into this task?
 
+Depends: gyoto
+
 Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/
 License: Non-free
