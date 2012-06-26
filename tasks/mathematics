@@ -23,8 +23,18 @@ Depends: freefem++
 Suggests: netgen-doc
 Why: FEA
 
-Depends: netgen, gmsh
+Depends: netgen
 Why: FEA, mesh generator
+
+Depends: gmsh
+Why: FEA, mesh generator
+Published-Title: Gmsh: a three-dimensional nite element mesh generator with built-in pre- and post-processing facilities
+Published-Authors: Christophe Geuzaine and Jean-Francois Remacle
+Published-In: INTERNATIONAL JOURNAL FOR NUMERICAL METHODS IN ENGINEERING
+Published-Year: 2009
+
+Depends: getdp
+Why: FEA
 
 X-Begin-Category: proof assistants
 X-Comment: According to Hendrik Tews <tews@os.inf.tu-dresden.de> these might end up
