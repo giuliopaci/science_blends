@@ -21,11 +21,10 @@ Depends: gpredict, predict, seesat5
 
 Depends: qfits-tools
 
-Depends: yorick-cubeview, yorick-mira, yorick-spydr, yorick-yao
+Depends: yorick-full
 
-Depends: yorick-gyoto
-
-Suggests: yorick
+Suggests: yorick-cubeview, yorick-mira, yorick-spydr, yorick-yao,
+	  yorick-svipc, yorick-gyoto
 
 Depends: savi
 
