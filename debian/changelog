@@ -16,6 +16,8 @@ debian-science (1.0) UNRELEASED; urgency=low
   * tasks/dataacquisition: Add python-taurus
   * tasks/{mathematics, numericalcomputation, physics, simulation}:
     Add python-deap
+  * tasks/{chemistry, nanoscale-physics, physics, simulations}:
+    Add fdmnes
 
  -- Andreas Tille <tille@debian.org>  Wed, 13 Jun 2012 13:30:07 +0200
 

@@ -187,3 +187,5 @@ Pkg-Description: process chromatographic and mass spectrometric data
  shall be an efficiently system to process chromatographic and mass
  spectrometric data using an extensible and flexible plugin approach.
 
+Depends: fdmnes
+Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/

@@ -275,3 +275,6 @@ Remark: Removed from Debian
  from http://snapshot.debian.org/
  .
  Reasons are given here: http://bugs.debian.org/535537
+
+Depends: fdmnes
+Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
