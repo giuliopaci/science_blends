@@ -8,18 +8,119 @@ Description: Debian Science High Energy Physics development packages
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
 
+Depends: cernlib-base-dev
+Depends: cernlib-core-dev
+Depends: libgraflib1-dev
+Depends: libgrafx11-1-dev
+Depends: libkernlib1-dev
+Depends: libmathlib2-dev
+Depends: libpacklib-lesstif1-dev
+Depends: libpacklib1-dev
+
+Depends: libpawlib-lesstif3-dev
+Depends: libpawlib2-dev
+
+Depends: libcojets2-dev
+Depends: libeurodec1-dev
+Depends: libherwig59-2-dev
+Depends: libisajet758-3-dev
+Depends: libpdflib804-2-dev
+Depends: libphotos202-dev
+Depends: libphtools2-dev
+
+Depends: libgeant321-2-dev
+
+Depends: fcc
+Depends: libooptools-dev
+
 Depends: libclhep-dev
+Suggests: clhep-doc
 
 Depends: libhepmc-dev
-
+Depends: libhepmcfio-dev
 Suggests: hepmc-examples
+Suggests: hepmc-user-manual
+Suggests: hepmc-reference-manual
 
 Depends: liblhapdf-dev
-
-Depends: libfastjet-dev
+Suggests: lhapdf-pdfsets-minimal
+Suggests: lhapdf-ccwrap-doc
 
 Depends: libsiscone-dev
+Depends: libsiscone-spherical-dev
+Suggests: siscone-examples
+Suggests: siscone-doc-html
+Suggests: siscone-doc-pdf
+
+Depends: libfastjet-dev
+Depends: libfastjettools-dev
+Depends: libfastjet-fortran-dev
+Depends: libfastjetplugins-dev
+Suggests: fastjet-doc
+Suggests: fastjet-examples
+Suggests: root-macro-fastjet
 
 Depends: libpythia8-dev
+Depends: libhepmcinterface8-dev
+Depends: pythia8-root-interface
+Suggests: pythia8-examples
+Suggests: pythia8-doc-html
+Suggests: pythia8-doc-worksheet
 
-Depends: libherwig59-2-dev
+Depends: libroot-bindings-python-dev
+Depends: libroot-bindings-ruby-dev
+Depends: libroot-graf3d-gl-dev
+Depends: libroot-io-xmlparser-dev
+Depends: libroot-math-mathmore-dev
+Depends: libroot-math-unuran-dev
+Depends: libroot-misc-memstat-dev
+Depends: libroot-misc-table-dev
+Depends: libroot-net-bonjour-dev
+Depends: libroot-net-ldap-dev
+Depends: libroot-proof-clarens-dev
+Depends: libroot-roofit-dev
+Depends: libroot-geom-dev
+Depends: libroot-graf2d-gpad-dev
+Depends: libroot-graf2d-graf-dev
+Depends: libroot-graf2d-postscript-dev
+Depends: libroot-graf3d-eve-dev
+Depends: libroot-graf3d-g3d-dev
+Depends: libroot-gui-dev
+Depends: libroot-gui-ged-dev
+Depends: libroot-hist-dev
+Depends: libroot-hist-spectrum-dev
+Depends: libroot-html-dev
+Depends: libroot-io-dev
+Depends: libroot-math-foam-dev
+Depends: libroot-math-genvector-dev
+Depends: libroot-math-mathcore-dev
+Depends: libroot-math-matrix-dev
+Depends: libroot-math-minuit-dev
+Depends: libroot-math-mlp-dev
+Depends: libroot-math-physics-dev
+Depends: libroot-math-quadp-dev
+Depends: libroot-math-smatrix-dev
+Depends: libroot-math-splot-dev
+Depends: libroot-misc-minicern-dev
+Depends: libroot-montecarlo-eg-dev
+Depends: libroot-montecarlo-vmc-dev
+Depends: libroot-net-dev
+Depends: libroot-net-auth-dev
+Depends: libroot-proof-dev
+Depends: libroot-proof-proofplayer-dev
+Depends: libroot-tmva-dev
+Depends: libroot-tree-dev
+Depends: libroot-tree-treeplayer-dev
+Depends: libroot-core-dev
+Depends: libroot-static
+
+Depends: librivet-dev
+Suggests: rivet-user-manual
+Suggests: rivet-reference
+Depends: rivet-plugins-dev
+Suggests: rivet-plugins-doc
+
+Depends: libthepeg-dev
+Suggests: thepeg-reference
+
+Depends: herwig++-dev
