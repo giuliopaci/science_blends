@@ -21,3 +21,5 @@ Depends: libfastjet-dev
 Depends: libsiscone-dev
 
 Depends: libpythia8-dev
+
+Depends: libherwig59-2-dev

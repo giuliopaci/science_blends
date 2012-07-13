@@ -32,68 +32,14 @@ Depends: libsiscone0
 
 Depends: libpythia8
 
+Depends: libhepmcfio4
+
 Depends: rivet
-Homepage: http://projects.hepforge.org/rivet/
-Responsible: Lifeng Sun <lifongsun@gmail.com>
-License: GPL-2
-Pkg-Description: Robust Independent Validation of Experiment and Theory
- Rivet is a toolkit for validation of Monte Carlo event
- generators. Using a computationally efficient model for observable
- computations, Rivet provides a set of experimental analyses useful
- for generator sanity checks, as well as a convenient infrastructure
- for adding your own analysis.
 
 Depends: thepeg
-Homepage: http://projects.hepforge.org/thepeg/
-Responsible: Lifeng Sun <lifongsun@gmail.com>
-License: GPL-2
-Pkg-Description: Toolkit for High Energy Physics Event Generation
- ThePEG is a general toolkit for implementing physics models of event
- generation in high energy particle collisions. It defines a general
- structure of event generation in terms of abstract base classes for
- e.g. hard partonic matrix elements, parton showers and the decay of
- unstable particles. Different models are then implemented by
- creating classes which inherits from these base classes and
- implements sets of pre-defined virtual functions.
 
 Depends: looptools
-Homepage: http://www.feynarts.de/looptools/
-Responsible: Lifeng Sun <lifongsun@gmail.com>
-License: LGPL-3
-Pkg-Description: Integral Evaluator of One-loop Feynman Diagram
- LoopTools is a package for evaluation of scalar and tensor one-loop
- integrals based on the FF package by G.J. van Oldenborgh. It
- features an easy Fortran, C++, and Mathematica interface to the
- scalar one-loop functions of FF and in addition provides the 2-, 3-,
- and 4-point tensor coefficient functions.
 
 Depends: herwig++
-Homepage: http://projects.hepforge.org/herwig/
-Responsible: Lifeng Sun <lifongsun@gmail.com>
-WNPP: 636988
-License: GPL-2
-Pkg-Description: Multi-purpose event generator for high energy physics
- Herwig++ is a completely new event generator, written in C++. It is
- built on the experience gained with the well-known event generator
- HERWIG. The aim is to provide a multi purpose event generator with
- similar or improved capabilities (like angular ordered parton
- evolution and the cluster hadronization model).
 
 Depends: geant4
-Homepage: http://geant4.cern.ch/
-WNPP: 325305
-License: non-DFSG
-Responsible: Yngve Inntjore Levinsen <yngve.inntjore.levinsen@cern.ch>
-Pkg-URL: http://lcg-heppkg.web.cern.ch/lcg-heppkg/debian/pool/hep/g/geant4/
-Pkg-Description: toolkit for simulation of particle/nuclear physics in detectors
- GEANT4 is a toolkit for the simulation of the passage of particles through
- matter.   Its application areas include high energy physics and nuclear
- experiments, medical, accelerator and space physics studies.  The GEANT4
- software consists of an extensive set of libraries, fundamentally
- object-oriented and based in modern C++.  It may be used to develop programs
- with command-line, Xaw-based, or Motif-based interfaces.
- .
- This package is a metapackage that depends upon all components of a
- GEANT4 environment.  Unless you know exactly what parts of GEANT4
- you want, it is best to install this package.
-
