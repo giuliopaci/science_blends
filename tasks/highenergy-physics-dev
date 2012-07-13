@@ -1,0 +1,23 @@
+Task: High Energy Physics (devel)
+Description: Debian Science High Energy Physics development packages
+ This metapackage will install Debian Science packages related to development
+ of High Energy Physics applications, which is a branch of physics that studies
+ the elementary subatomic constituents of matter and radiation, and their
+ interactions.  The field is also called Particle Physics.
+ .
+ You might also be interested in the debtag field::physics and, depending on
+ your focus, in the physics and education-physics metapackages.
+
+Depends: libclhep-dev
+
+Depends: libhepmc-dev
+
+Suggests: hepmc-examples
+
+Depends: liblhapdf-dev
+
+Depends: libfastjet-dev
+
+Depends: libsiscone-dev
+
+Depends: libpythia8-dev

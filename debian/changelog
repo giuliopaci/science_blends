@@ -19,7 +19,11 @@ debian-science (1.0) UNRELEASED; urgency=low
   * tasks/{chemistry, nanoscale-physics, physics, simulations}:
     Add fdmnes
 
- -- Andreas Tille <tille@debian.org>  Wed, 13 Jun 2012 13:30:07 +0200
+  [ Andreas Tille ]
+  * tasks/highenergy-physics-dev: Create metapackage targeting at
+    development of high energy physics applications
+
+ -- Andreas Tille <tille@debian.org>  Fri, 13 Jul 2012 13:46:31 +0200
 
 debian-science (0.16) unstable; urgency=low
 
