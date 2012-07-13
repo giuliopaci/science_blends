@@ -109,3 +109,7 @@ Depends: libgivaro-dev
 
 Suggests: givaro-dev-doc, givaro-users-doc
 
+Depends: fflas-ffpack
+
+Suggests: fflas-ffpack-dev-doc, fflas-ffpack-user-doc
+
