@@ -104,3 +104,8 @@ Depends: python-ufl
 Depends: libscythestat-dev
 
 Depends: libfreefem++-dev, libfreefem-dev
+
+Depends: libgivaro-dev
+
+Suggests: givaro-dev-doc, givaro-users-doc
+

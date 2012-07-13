@@ -96,6 +96,8 @@ Depends: scotch
 
 Depends: singular
 
+Depends: libgivaro0
+
 Depends: isabelle
 Remark: upstream prefers Isabelle not being packaged
  There is an alternative software coq which is packaged in
