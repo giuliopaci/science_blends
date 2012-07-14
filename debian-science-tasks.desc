@@ -21,17 +21,12 @@ Packages: list
  predict
  seesat5
  qfits-tools
- yorick-cubeview
- yorick-mira
- yorick-spydr
- yorick-yao
  savi
  stellarium
  xplanet
  lynkeos.app
  stardata-common
- boinc-app-milkyway
- boinc-app-seti
+ gyoto
  saods9
 
 Task: science-astronomy-dev
@@ -60,6 +55,7 @@ Packages: list
  libcpl-dev
  python-pywcs
  python-cpl
+ libgyoto0-dev
 
 Task: science-bci
 Section: debian-science
@@ -153,6 +149,7 @@ Packages: list
  massxpert
  drawxtl
  chemical-structures
+ freefoam
  jmol
  qutemol
  cp2k
@@ -292,8 +289,7 @@ Packages: list
  opencascade-draw
  python-silo
  libsilo-bin
- gerris
- gmsh
+ getdp
  netgen
  pythoncad
  z88
@@ -305,6 +301,7 @@ Packages: list
  cba
  python-fiat
  syrthes
+ freefoam
  cgns-convert
 
 Task: science-engineering-dev
@@ -331,8 +328,6 @@ Packages: list
  libjhdf5-java
  libjhdf4-java
  libopencascade-dev
- libdeal.ii-dev
- libluminate-dev
  libopenturns-dev
  libmadlib-dev
  libelmer-dev
@@ -342,7 +337,6 @@ Packages: list
  libnetcdf-dev
  python-netcdf
  syfi-dev
- libmesh-dev
 
 Task: science-geography
 Section: debian-science
@@ -365,7 +359,6 @@ Packages: list
  gpsbabel
  gpx2shp
  gpsd
- gpsdrive
  gpsman
  openscenegraph
  thuban
@@ -413,13 +406,239 @@ Key:
  science-highenergy-physics
 Packages: list
  cernlib
+ cernlib-base
+ cernlib-core
+ cernlib-extras
+ dzedit
+ kuipc
+ kxterm
+ libgraflib1-gfortran
+ libgrafx11-1-gfortran
+ libkernlib1-gfortran
+ libmathlib2-gfortran
+ libpacklib-lesstif1-gfortran
+ libpacklib1-gfortran
+ nypatchy
+ pawserv
+ zftp
  paw
+ paw++
+ paw-common
+ libpawlib-lesstif3-gfortran
+ libpawlib2-gfortran
  cernlib-montecarlo
+ montecarlo-base
+ montecarlo-data
+ libcojets2-gfortran
+ libeurodec1-gfortran
+ libherwig59-2-gfortran
+ libisajet758-3-gfortran
+ libpdflib804-2-gfortran
+ libphotos202-1-gfortran
+ libphtools2-gfortran
  geant321
+ geant321-data
+ libgeant321-2-gfortran
  feynmf
+ looptools
+ libclhep2.1
+ libhepmc4
+ libhepmcfio4
+ liblhapdf0
+ python-lhapdf
+ octave-lhapdf
+ libsiscone0
+ libsiscone-spherical0
+ libfastjet0
+ libfastjettools0
+ libfastjet-fortran0
+ libfastjetplugins0
+ libpythia8
+ libhepmcinterface8
+ pythia8-data
+ libroot-bindings-python5.34
+ libroot-bindings-ruby5.34
+ libroot-graf3d-gl5.34
+ libroot-io-xmlparser5.34
+ libroot-math-mathmore5.34
+ libroot-math-unuran5.34
+ libroot-misc-memstat5.34
+ libroot-misc-table5.34
+ libroot-net-bonjour5.34
+ libroot-net-ldap5.34
+ libroot-proof-clarens5.34
+ libroot-roofit5.34
+ libroot-geom5.34
+ libroot-graf2d-gpad5.34
+ libroot-graf2d-graf5.34
+ libroot-graf2d-postscript5.34
+ libroot-graf3d-eve5.34
+ libroot-graf3d-g3d5.34
+ libroot-gui5.34
+ libroot-gui-ged5.34
+ libroot-hist5.34
+ libroot-hist-spectrum5.34
+ libroot-html5.34
+ libroot-io5.34
+ libroot-math-foam5.34
+ libroot-math-genvector5.34
+ libroot-math-mathcore5.34
+ libroot-math-matrix5.34
+ libroot-math-minuit5.34
+ libroot-math-mlp5.34
+ libroot-math-physics5.34
+ libroot-math-quadp5.34
+ libroot-math-smatrix5.34
+ libroot-math-splot5.34
+ libroot-misc-minicern5.34
+ libroot-montecarlo-eg5.34
+ libroot-montecarlo-vmc5.34
+ libroot-net5.34
+ libroot-net-auth5.34
+ libroot-proof5.34
+ libroot-proof-proofplayer5.34
+ libroot-tmva5.34
+ libroot-tree5.34
+ libroot-tree-treeplayer5.34
+ libroot-core5.34
+ root-plugin-graf2d-asimage
+ root-plugin-geom-gdml
+ root-plugin-gui-qt
+ root-plugin-graf2d-qt
+ root-plugin-math-fftw3
+ root-plugin-math-minuit2
+ root-plugin-montecarlo-pythia8
+ root-plugin-net-globus
+ root-plugin-net-krb5
+ root-plugin-proof-peac
+ root-plugin-sql-mysql
+ root-plugin-sql-odbc
+ root-plugin-sql-pgsql
+ root-plugin-geom-geombuilder
+ root-plugin-geom-geompainter
+ root-plugin-graf2d-x11
+ root-plugin-graf3d-x3d
+ root-plugin-gui-fitpanel
+ root-plugin-gui-guibuilder
+ root-plugin-gui-sessionviewer
+ root-plugin-hist-hbook
+ root-plugin-hist-histpainter
+ root-plugin-hist-spectrumpainter
+ root-plugin-io-sql
+ root-plugin-io-xml
+ root-plugin-math-fumili
+ root-plugin-tree-treeviewer
+ root-system-proofd
+ root-system-rootd
+ root-system-bin
+ root-system-common
  root-system
  rivet
- looptools
+ librivet11
+ rivet-plugins
+ python-rivet
+ rivet-plugins-data
+ rivet-root-converter
+ thepeg
+ thepeg-gui
+ libthepeg15
+
+Task: science-highenergy-physics-dev
+Section: debian-science
+Description: Debian Science High Energy Physics development packages
+ This metapackage will install Debian Science packages related to development
+ of High Energy Physics applications, which is a branch of physics that studies
+ the elementary subatomic constituents of matter and radiation, and their
+ interactions.  The field is also called Particle Physics.
+ .
+ You might also be interested in the debtag field::physics and, depending on
+ your focus, in the physics and education-physics metapackages.
+Relevance: 10
+Key: 
+ science-highenergy-physics-dev
+Packages: list
+ cernlib-base-dev
+ cernlib-core-dev
+ libgraflib1-dev
+ libgrafx11-1-dev
+ libkernlib1-dev
+ libmathlib2-dev
+ libpacklib-lesstif1-dev
+ libpacklib1-dev
+ libpawlib-lesstif3-dev
+ libpawlib2-dev
+ libcojets2-dev
+ libeurodec1-dev
+ libherwig59-2-dev
+ libisajet758-3-dev
+ libpdflib804-2-dev
+ libphotos202-dev
+ libphtools2-dev
+ libgeant321-2-dev
+ fcc
+ libooptools-dev
+ libclhep-dev
+ libhepmc-dev
+ libhepmcfio-dev
+ liblhapdf-dev
+ libsiscone-dev
+ libsiscone-spherical-dev
+ libfastjet-dev
+ libfastjettools-dev
+ libfastjet-fortran-dev
+ libfastjetplugins-dev
+ libpythia8-dev
+ libhepmcinterface8-dev
+ pythia8-root-interface
+ libroot-bindings-python-dev
+ libroot-bindings-ruby-dev
+ libroot-graf3d-gl-dev
+ libroot-io-xmlparser-dev
+ libroot-math-mathmore-dev
+ libroot-math-unuran-dev
+ libroot-misc-memstat-dev
+ libroot-misc-table-dev
+ libroot-net-bonjour-dev
+ libroot-net-ldap-dev
+ libroot-proof-clarens-dev
+ libroot-roofit-dev
+ libroot-geom-dev
+ libroot-graf2d-gpad-dev
+ libroot-graf2d-graf-dev
+ libroot-graf2d-postscript-dev
+ libroot-graf3d-eve-dev
+ libroot-graf3d-g3d-dev
+ libroot-gui-dev
+ libroot-gui-ged-dev
+ libroot-hist-dev
+ libroot-hist-spectrum-dev
+ libroot-html-dev
+ libroot-io-dev
+ libroot-math-foam-dev
+ libroot-math-genvector-dev
+ libroot-math-mathcore-dev
+ libroot-math-matrix-dev
+ libroot-math-minuit-dev
+ libroot-math-mlp-dev
+ libroot-math-physics-dev
+ libroot-math-quadp-dev
+ libroot-math-smatrix-dev
+ libroot-math-splot-dev
+ libroot-misc-minicern-dev
+ libroot-montecarlo-eg-dev
+ libroot-montecarlo-vmc-dev
+ libroot-net-dev
+ libroot-net-auth-dev
+ libroot-proof-dev
+ libroot-proof-proofplayer-dev
+ libroot-tmva-dev
+ libroot-tree-dev
+ libroot-tree-treeplayer-dev
+ libroot-core-dev
+ libroot-static
+ librivet-dev
+ rivet-plugins-dev
+ libthepeg-dev
 
 Task: science-imageanalysis
 Section: debian-science
@@ -473,7 +692,6 @@ Packages: list
  gprolog
  yap
  libtorch3-dev
- libshogun-dev
  libfann-dev
  libsvm-dev
  liblinear-dev
@@ -528,12 +746,11 @@ Packages: list
  pari-gp
  pari-extra
  gap
- gerris
  freefem
  freefem3d
  freefem++
  netgen
- gmsh
+ getdp
  coq
  proofgeneral
  matita
@@ -563,7 +780,6 @@ Packages: list
  r-cran-effects
  r-cran-fbasics
  r-cran-fcopulae
- r-cran-fecofin
  r-cran-fextremes
  r-cran-fmultivar
  r-cran-foptions
@@ -602,11 +818,9 @@ Packages: list
  r-cran-rggobi
  r-cran-rgl
  r-cran-rgtk2
- r-cran-rmpi
  r-cran-rmysql
  r-cran-rodbc
  r-cran-rpart
- r-cran-rpvm
  r-cran-rquantlib
  r-cran-rserve
  r-cran-rsprng
@@ -635,9 +849,7 @@ Packages: list
  freemat
  mathomatic
  scilab
- scilab-sivp
  scilab-scimax
- scilab-swt
  scilab-ann
  regina-normal
  snappea
@@ -652,7 +864,7 @@ Packages: list
  polylib-utils
  rheolef
  scotch
- singular
+ libgivaro0
  bliss
  qtoctave
  python-deap
@@ -668,7 +880,6 @@ Relevance: 10
 Key: 
  science-mathematics-dev
 Packages: list
- libmesh-dev
  libnglib-dev
  python-numpy
  libgsl0-dev
@@ -709,6 +920,8 @@ Packages: list
  libscythestat-dev
  libfreefem++-dev
  libfreefem-dev
+ libgivaro-dev
+ fflas-ffpack
 
 Task: science-meteorology
 Section: debian-science
@@ -727,6 +940,7 @@ Packages: list
  grads
  ferret-vis
  magics++
+ freefoam
  libgrib-api-tools
  ecaccess
  python-grib
@@ -835,9 +1049,7 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-sivp
  scilab-scimax
- scilab-swt
  scilab-ann
  freemat
  yorick
@@ -908,7 +1120,6 @@ Packages: list
  libscalapack-mpi-dev
  scalapack-doc
  science-mathematics-dev
- libmesh-dev
  libnglib-dev
  python-numpy
  libatlas-base-dev
@@ -946,6 +1157,8 @@ Packages: list
  libscythestat-dev
  libfreefem++-dev
  libfreefem-dev
+ libgivaro-dev
+ fflas-ffpack
 
 Task: science-neuroscience-cognitive
 Section: debian-science
@@ -977,10 +1190,8 @@ Packages: list
  caret
  python-pyepl
  praat
- slicer
  dicom3tools
  voxbo
- openmeeg-tools
  mricron
  itksnap
  python-pypsignifit
@@ -1029,9 +1240,7 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-sivp
  scilab-scimax
- scilab-swt
  scilab-ann
  freemat
  yorick
@@ -1060,8 +1269,8 @@ Packages: list
  paw++
  paw
  abinit
- gerris
  feynmf
+ freefoam
  fityk
  tessa
  science-numericalcomputation
@@ -1075,9 +1284,7 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-sivp
  scilab-scimax
- scilab-swt
  scilab-ann
  freemat
  yorick
@@ -1154,8 +1361,8 @@ Packages: list
  paw++
  paw
  abinit
- gerris
  feynmf
+ freefoam
  fityk
  tessa
  science-numericalcomputation
@@ -1169,9 +1376,7 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-sivp
  scilab-scimax
- scilab-swt
  scilab-ann
  freemat
  yorick
@@ -1294,6 +1499,8 @@ Packages: list
  liggghts
  yade
  python-deap
+ freefoam
+ getdp
 
 Task: science-statistics
 Section: debian-science
@@ -1329,7 +1536,6 @@ Packages: list
  r-cran-effects
  r-cran-fbasics
  r-cran-fcopulae
- r-cran-fecofin
  r-cran-fextremes
  r-cran-fmultivar
  r-cran-foptions
@@ -1368,11 +1574,9 @@ Packages: list
  r-cran-rggobi
  r-cran-rgl
  r-cran-rgtk2
- r-cran-rmpi
  r-cran-rmysql
  r-cran-rodbc
  r-cran-rpart
- r-cran-rpvm
  r-cran-rquantlib
  r-cran-rserve
  r-cran-rsprng
@@ -1460,13 +1664,11 @@ Packages: list
  plotdrop
  qtiplot
  python-guiqwt
- imview
  mayavi2
  g3data
  gwyddion
  paraview
  gle-graphics
- gmsh
  lybniz
  3depict
  mathgl
