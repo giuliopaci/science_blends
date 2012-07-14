@@ -9,7 +9,6 @@ Depends: libemos-dev
 Why: standard library for BUFR formats
 
 Depends: libgadap-dev
-Pkg-Description: Development files for DAP station data library
 
 Depends: libcmor-dev
 Pkg-Description: Development files for Climate Model Output Rewriter
@@ -75,11 +74,6 @@ Why: Coupler used by many climate models. Needed by some NWP models to compile.
 
 Depends: libudunits2-dev
 Why: widely used in climate models.
-Pkg-Description: Library for the programatic handling of units of physical quantities
- The UDUNITS package supports units of physical quantities (e.g., meters, seconds).
- Specifically, it supports conversion between string and binary representations 
- of units, arithmetic manipulation of units, and conversion of numeric values between
- compatible units.
 
 Depends: libdap-dev
 Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
@@ -96,10 +90,3 @@ Why: Co-ordinates system for geographical data in FITS files
 Depends: freefoam-dev
 
 Depends: librsl-dev
-Pkg-Description: Development files for RSL
- RSL is a library produced by the NASA TRMM Satellite Validation Office and
- used to access several radar file formats. It can generated images directly
- or be used to load data files for other programs.
- .
- It can read the following file formats: WSR88D/NEXRAD, Lassen, Sigmet,
- McGill, UF, HDF, RAPIC, RADTEC and the native RSL file format.

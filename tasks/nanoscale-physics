@@ -223,24 +223,12 @@ Pkg-Description: Real-space TDDFT-based electronic-structure code
 Depends: pymca
 
 Depends: python-ase
-Homepage: https://wiki.fysik.dtu.dk/ase/
-Responsible: Ask Hjorth Larsen <askhl@fysik.dtu.dk>
-License: GPL, LGPL
-WNPP: 602126
 Published-Title: An object-oriented scripting interface to a legacy electronic structure code
 Published-Author: S. R. Bahn and K. W. Jacobsen
 Published-Year: 2002
 Published-In: Computing in Science and Engineering, 4:56-66
 Published-URL: http://dx.doi.org/10.1109/5992.998641
 Published-DOI: 10.1109/5992.998641
-Pkg-Description: Atomic Simulation Environment
- The Atomic Simulation Environment (ASE) is the common part of the
- simulation tools developed at CAMd. ASE provides Python modules for
- manipulating atoms, analyzing simulations, visualization, and wrapping
- electronic-structure codes.
- .
- It currently supports ABINIT, ASAP, DFTB, ELK, EXCITING, EMT, FHI-AIMS,
- FLEUR, GPAW, HOTBIT, JACAPO, SIESTA, and TURBOMOLE.
 
 Depends: wannier90
 Homepage: http://www.wannier.org/
