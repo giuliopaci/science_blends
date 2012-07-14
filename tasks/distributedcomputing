@@ -23,27 +23,8 @@ Depends: openmpipython, mpich2python, python-mpi
 
 Suggests: hpcc
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [now official package]
 Suggests: condor
-Homepage: http://www.cs.wisc.edu/condor
-Language: C++, Perl
-WNPP: 233482
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-License: Apache-2.0
-Pkg-URL: http://neuro.debian.net/pkgs/condor.html
-Pkg-Description: workload management system
- Like other full-featured batch systems, Condor provides a job queueing
- mechanism, scheduling policy, priority scheme, resource monitoring, and
- resource management. Users submit their serial or parallel jobs to Condor,
- Condor places them into a queue. It chooses when and where to run the jobs
- based upon a policy, carefully monitors their progress, and ultimately
- informs the user upon completion.
- .
- Unlike more traditional batch queueing system, Condor can also effectively
- harness wasted CPU power from otherwise idle desktop workstations. Condor
- does not require a shared file system across machines - if no shared file
- system is available, Condor can transfer the job's data files on behalf of
- the user.
 Published-Authors: Michael Litzkow, Miron Livny, and Matt Mutka
 Published-In: Proceedings of the 8th International Conference of Distributed Computing Systems, pp. 104-111
 Published-Title: Condor - A Hunter of Idle Workstations
@@ -91,19 +72,3 @@ Pkg-Description: pipeline system for Octave and Matlab
     figure out what to reprocess.
 
 Depends: environment-modules
-WNPP: 583484
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-License: GPL
-Pkg-Description: provides for the dynamic modification of a user's environment
- The Environment Modules package provides for the dynamic modification 
- of a user's environment via modulefiles.
- .
- Each modulefile contains the information needed to configure the shell 
- for an application. Once the Modules package is initialized, the 
- environment can be modified on a per-module basis using the module 
- command which interprets modulefiles. Typically modulefiles instruct 
- the module command to alter or set shell environment variables such as 
- PATH, MANPATH, etc. modulefiles may be shared by many users on a system 
- and users may have their own collection to supplement or replace the 
- shared modulefiles.
-

@@ -7,7 +7,6 @@ Depends: cdo
 Why: Widely-used File format manipulation utility
 
 Depends: nco
-Pkg-Description: Network Climate Operators
 
 Depends: dballe
 
@@ -52,15 +51,6 @@ Pkg-Description: Extension to HDF5 to support Earth Observing System datatypes
  construction of new data structures: Grid, Point and Swath.
 
 Depends: ecaccess
-Pkg-Description: clients to access ECMWF facilities
- ecaccess is a suite of client tools to enable access to the computing
- and data archive facilities of the European Centre for Medium-Range
- Forecasts (ECMWF).
- .
- Strict authentication is performed in a uniform way using SecurID cards
- and standard (X509) certificates. 
- SSL is used to guarantee the integrity of the application data, 
- the transferred jobs and the monitoring information.
 
 Depends: geonetwork
 Homepage: http://geonetwork-opensource.org
@@ -101,17 +91,8 @@ Description: python library for reading/writing GRIB files
  European Centre for Medium-Range Weather Forecasts (ECMWF).
 
 Depends: python-drslib
-Pkg-Description: Library for processing the CMIP5 Data Reference Syntax
- CMIP5 is the Climate Model Intercomparison Project 5.  This library supports
- the generation of paths and filenames corresponding to version 0.28 of thei
- CMIP Data Reference Syntax. It includes tools for converting from previous
- CMIP3 forms.
 
 Depends: python-cmor
-Pkg-Description: python interface to CMOR
- This is a python interface to CMOR, the Climate Model Output Rewriter.
- CMOR is a tool for rewriting netCDF files to the CMOR conventions
- for the CMIP Climate Model Intercomparison Project(s).
 
 Depends: python-spherepack
 Description: Python interface to the spherepack scientific library.
@@ -119,12 +100,6 @@ Description: Python interface to the spherepack scientific library.
  spheres (geophysical).
 
 Depends: cmip5-cmor-tables
-Pkg-Description: CMIP5 tables for the Climate Model Output Rewriter library
- This package contains tables for use with CMOR that describe the variables
- and format of data needed for the CMIP5 "Coupled Model Intercomparisoni
- Project".
- .
- CMOR software uses these tables to verify that output is valid.
 
 Suggests: gnudatalanguage, r-base
 Why: Used for data manipiulation
