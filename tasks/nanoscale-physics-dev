@@ -156,24 +156,10 @@ Pkg-Description: Crystal symmetry finder library
  finder.
 
 Depends: root-system
-WNPP: 636974
-Responsible: Lifeng Sun <lifongsun@gmail.com>
-Homepage: http://root.cern.ch
-License: LGPL-2.1, GPL-3
-Language: C++
-Pkg-Description: CERN's ROOT Data Analysis Framework
- ROOT is an object-oriented program and library developed by CERN. It
- was originally designed for particle physics data analysis and
- contains several features specific to this field, but it is also used
- in other applications such as astronomy and data mining.
-Remark: Previous version available at snapshot.debian.org
- There used to be a previous version inside Debian but it was
- unmaintained and RC buggy.  Feel free to have a look at
- http://snapshot.debian.org/package/root-system/
-X-Depends: libroot-tmva-dev, libroot-montecarlo-vmc-dev, libroot-math-mlp-dev
+
+Depends: libroot-tmva-dev, libroot-montecarlo-vmc-dev, libroot-math-mlp-dev
 X-Comment: Somebody injected the libraries from the ROOT system explicitely
- here for machine-learning - so these should be included once root-system
- is packaged again
+ here - so these are included since root-system is packaged again
 X-Suggests: root-plugin-fftw3, libroot-mathmore5.18
  In case these packages will be created in root-system these need to be
  added here as well.

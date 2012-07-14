@@ -5,7 +5,6 @@ Description: Debian Science data visualisation packages
  debtag.
 
 Depends: vistrails
-Pkg-Description: Scientific visualisation workflow tool
 
 Depends: pdl, gnudatalanguage
 Why: IDL-like
