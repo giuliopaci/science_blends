@@ -12,7 +12,7 @@ Depends: libgadap-dev
 Pkg-Description: Development files for DAP station data library
 
 Depends: libcmor-dev
-Pkg-Descriptionn: Development files for Climate Model Output Rewriter
+Pkg-Description: Development files for Climate Model Output Rewriter
  The "Climate Model Output Rewriter" (CMOR, pronounced "Seymour")
  comprises a set of C-based functions, with bindings to both python
  and FORTRAN 90, that can be used to produce CF-compliant netCDF files

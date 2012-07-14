@@ -329,24 +329,5 @@ Published-Title: EEGLAB: an open source toolbox for analysis of single-trial EEG
 Published-Year: 2004
 Registration: http://sccn.ucsd.edu/eeglab/install.html
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
+ ; Added by blends-inject 0.0.7. [Removed extra information about now official package]
 Suggests: python-neuroshare
-Homepage: https://github.com/G-Node/python-neuroshare
-Language: Python
-WNPP: 663116
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-License: LGPL-2.1
-Vcs-Git: https://github.com/G-Node/python-neuroshare
-Pkg-Description: Python interface and tools for Neuroshare
- The Neuroshare API is an interface for accessing electrophysiology data
- from files in proprietary formats. To do so it uses vendor-provided
- shared libraries that can be downloaded free of charge.
- .
- This package provides a high-level Python interface to the Neuroshare
- API that focuses on convenience for the user and enables access to
- all available metadata and data. The data is returned in NumPy arrays,
- which provides a quick route to further examination and analysis.
- .
- In addition, this package contains the ns2hdf converter tool that
- converts neuroshare-compatible files into the HDF5 (Hierarchical Data
- Format, version 5) file format.
