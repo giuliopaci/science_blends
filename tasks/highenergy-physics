@@ -8,44 +8,36 @@ Description: Debian Science High Energy Physics packages
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
 
-Depends: cernlib
-Depends: cernlib-base
-Depends: cernlib-core
-Depends: cernlib-extras
+Depends: cernlib, cernlib-base, cernlib-core, cernlib-extras
+
 Depends: dzedit
+
 Depends: kuipc
+
 Depends: kxterm
-Depends: libgraflib1-gfortran
-Depends: libgrafx11-1-gfortran
-Depends: libkernlib1-gfortran
-Depends: libmathlib2-gfortran
-Depends: libpacklib-lesstif1-gfortran
-Depends: libpacklib1-gfortran
+
+Depends: libgraflib1-gfortran, libgrafx11-1-gfortran, libkernlib1-gfortran, libmathlib2-gfortran, libpacklib-lesstif1-gfortran, libpacklib1-gfortran
+
 Depends: nypatchy
+
 Depends: pawserv
+
 Depends: zftp
 
-Depends: paw
-Depends: paw++
-Depends: paw-common
+Depends: paw, paw++, paw-common
+
 Suggests: paw-demos
-Depends: libpawlib-lesstif3-gfortran
-Depends: libpawlib2-gfortran
 
-Depends: cernlib-montecarlo
-Depends: montecarlo-base
-Depends: montecarlo-data
-Depends: libcojets2-gfortran
-Depends: libeurodec1-gfortran
-Depends: libherwig59-2-gfortran
-Depends: libisajet758-3-gfortran
-Depends: libpdflib804-2-gfortran
-Depends: libphotos202-1-gfortran
-Depends: libphtools2-gfortran
+Depends: libpawlib-lesstif3-gfortran, libpawlib2-gfortran
 
-Depends: geant321
-Depends: geant321-data
+Depends: cernlib-montecarlo, montecarlo-base, montecarlo-data
+
+Depends: libcojets2-gfortran, libeurodec1-gfortran, libherwig59-2-gfortran, libisajet758-3-gfortran, libpdflib804-2-gfortran, libphotos202-1-gfortran, libphtools2-gfortran
+
+Depends: geant321, geant321-data
+
 Suggests: geant321-doc
+
 Depends: libgeant321-2-gfortran
 
 Depends: feynmf
@@ -54,116 +46,43 @@ Depends: looptools
 
 Depends: libclhep2.1
 
-Depends: libhepmc4
-Depends: libhepmcfio4
+Depends: libhepmc4, libhepmcfio4
 
-Depends: liblhapdf0
-Depends: python-lhapdf
-Depends: octave-lhapdf
+Depends: liblhapdf0, python-lhapdf, octave-lhapdf
 
-Depends: libsiscone0
-Depends: libsiscone-spherical0
+Depends: libsiscone0, libsiscone-spherical0
 
-Depends: libfastjet0
-Depends: libfastjettools0
-Depends: libfastjet-fortran0
-Depends: libfastjetplugins0
+Depends: libfastjet0, libfastjettools0, libfastjet-fortran0, libfastjetplugins0
 
-Depends: libpythia8
-Depends: libhepmcinterface8
-Depends: pythia8-data
+Depends: libpythia8, libhepmcinterface8, pythia8-data
 
-Depends: libroot-bindings-python5.34
-Depends: libroot-bindings-ruby5.34
-Depends: libroot-graf3d-gl5.34
-Depends: libroot-io-xmlparser5.34
-Depends: libroot-math-mathmore5.34
-Depends: libroot-math-unuran5.34
-Depends: libroot-misc-memstat5.34
-Depends: libroot-misc-table5.34
-Depends: libroot-net-bonjour5.34
-Depends: libroot-net-ldap5.34
-Depends: libroot-proof-clarens5.34
-Depends: libroot-roofit5.34
-Depends: libroot-geom5.34
-Depends: libroot-graf2d-gpad5.34
-Depends: libroot-graf2d-graf5.34
-Depends: libroot-graf2d-postscript5.34
-Depends: libroot-graf3d-eve5.34
-Depends: libroot-graf3d-g3d5.34
-Depends: libroot-gui5.34
-Depends: libroot-gui-ged5.34
-Depends: libroot-hist5.34
-Depends: libroot-hist-spectrum5.34
-Depends: libroot-html5.34
-Depends: libroot-io5.34
-Depends: libroot-math-foam5.34
-Depends: libroot-math-genvector5.34
-Depends: libroot-math-mathcore5.34
-Depends: libroot-math-matrix5.34
-Depends: libroot-math-minuit5.34
-Depends: libroot-math-mlp5.34
-Depends: libroot-math-physics5.34
-Depends: libroot-math-quadp5.34
-Depends: libroot-math-smatrix5.34
-Depends: libroot-math-splot5.34
-Depends: libroot-misc-minicern5.34
-Depends: libroot-montecarlo-eg5.34
-Depends: libroot-montecarlo-vmc5.34
-Depends: libroot-net5.34
-Depends: libroot-net-auth5.34
-Depends: libroot-proof5.34
-Depends: libroot-proof-proofplayer5.34
-Depends: libroot-tmva5.34
-Depends: libroot-tree5.34
-Depends: libroot-tree-treeplayer5.34
-Depends: libroot-core5.34
-Depends: root-plugin-graf2d-asimage
-Depends: root-plugin-geom-gdml
-Depends: root-plugin-gui-qt
-Depends: root-plugin-graf2d-qt
-Depends: root-plugin-math-fftw3
-Depends: root-plugin-math-minuit2
-Depends: root-plugin-montecarlo-pythia8
-Depends: root-plugin-net-globus
-Depends: root-plugin-net-krb5
-Depends: root-plugin-proof-peac
-Depends: root-plugin-sql-mysql
-Depends: root-plugin-sql-odbc
-Depends: root-plugin-sql-pgsql
-Depends: root-plugin-geom-geombuilder
-Depends: root-plugin-geom-geompainter
-Depends: root-plugin-graf2d-x11
-Depends: root-plugin-graf3d-x3d
-Depends: root-plugin-gui-fitpanel
-Depends: root-plugin-gui-guibuilder
-Depends: root-plugin-gui-sessionviewer
-Depends: root-plugin-hist-hbook
-Depends: root-plugin-hist-histpainter
-Depends: root-plugin-hist-spectrumpainter
-Depends: root-plugin-io-sql
-Depends: root-plugin-io-xml
-Depends: root-plugin-math-fumili
-Depends: root-plugin-tree-treeviewer
-Depends: root-system-proofd
-Depends: root-system-rootd
-Depends: root-system-bin
-Depends: root-system-common
-Depends: root-system
+Depends: libroot-bindings-python5.34, libroot-bindings-ruby5.34, libroot-graf3d-gl5.34, libroot-io-xmlparser5.34, \
+         libroot-math-mathmore5.34, libroot-math-unuran5.34, libroot-misc-memstat5.34, libroot-misc-table5.34, \
+         libroot-net-bonjour5.34, libroot-net-ldap5.34, libroot-proof-clarens5.34, libroot-roofit5.34, libroot-geom5.34, \
+         libroot-graf2d-gpad5.34, libroot-graf2d-graf5.34, libroot-graf2d-postscript5.34, libroot-graf3d-eve5.34, \
+         libroot-graf3d-g3d5.34, libroot-gui5.34, libroot-gui-ged5.34, libroot-hist5.34, libroot-hist-spectrum5.34, \
+         libroot-html5.34, libroot-io5.34, libroot-math-foam5.34, libroot-math-genvector5.34, libroot-math-mathcore5.34, \
+         libroot-math-matrix5.34, libroot-math-minuit5.34, libroot-math-mlp5.34, libroot-math-physics5.34, \
+         libroot-math-quadp5.34, libroot-math-smatrix5.34, libroot-math-splot5.34, libroot-misc-minicern5.34, \
+         libroot-montecarlo-eg5.34, libroot-montecarlo-vmc5.34, libroot-net5.34, libroot-net-auth5.34, libroot-proof5.34, \
+         libroot-proof-proofplayer5.34, libroot-tmva5.34, libroot-tree5.34, libroot-tree-treeplayer5.34, \
+         libroot-core5.34
+         
+Depends: root-plugin-graf2d-asimage, root-plugin-geom-gdml, root-plugin-gui-qt, root-plugin-graf2d-qt, \
+         root-plugin-math-fftw3, root-plugin-math-minuit2, root-plugin-montecarlo-pythia8, root-plugin-net-globus, \
+         root-plugin-net-krb5, root-plugin-proof-peac, root-plugin-sql-mysql, root-plugin-sql-odbc, \
+         root-plugin-sql-pgsql, root-plugin-geom-geombuilder, root-plugin-geom-geompainter, root-plugin-graf2d-x11, \
+         root-plugin-graf3d-x3d, root-plugin-gui-fitpanel, root-plugin-gui-guibuilder, root-plugin-gui-sessionviewer, \
+         root-plugin-hist-hbook, root-plugin-hist-histpainter, root-plugin-hist-spectrumpainter, root-plugin-io-sql, \
+         root-plugin-io-xml, root-plugin-math-fumili, root-plugin-tree-treeviewer, root-system-proofd, \
+         root-system-rootd, root-system-bin, root-system-common, root-system
+
 Suggests: root-system-doc
 
-Depends: rivet            
-Depends: librivet11
-Depends: rivet-plugins
-Depends: python-rivet
-Depends: rivet-plugins-data  
-Depends: rivet-root-converter
+Depends: rivet, librivet11, rivet-plugins, python-rivet, rivet-plugins-data, rivet-root-converter
 
-Depends: thepeg
-Depends: thepeg-gui
-Depends: libthepeg15
+Depends: thepeg, thepeg-gui, libthepeg15
 
-Depends: herwig++
-Depends: herwig++-data
+Depends: herwig++, herwig++-data
 
 Depends: geant4
