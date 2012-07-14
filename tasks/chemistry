@@ -21,10 +21,6 @@ Why: from the DebianScience/Chemistry wiki page
 
 Depends: rasmol
 Registration: http://www.rasmol.org/register.shtml
-Published-Title: RasMol: Biomolecular graphics for all
-Published-Authors: Roger Sayle and E. James Milner-White
-Published-In: Trends in Biochemical Sciences (TIBS)
-Published-Year: 1995
 
 Depends: adun.app
 Why: 3D viewer and calculation output visualisation
