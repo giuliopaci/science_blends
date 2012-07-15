@@ -10,16 +10,6 @@ Description: Debian Science High Energy Physics development packages
 
 Depends: cernlib-base-dev, cernlib-core-dev
 
-Depends: libgraflib1-dev, libgrafx11-1-dev, libkernlib1-dev, libmathlib2-dev, libpacklib-lesstif1-dev, libpacklib1-dev
-
-Depends: libpawlib-lesstif3-dev, libpawlib2-dev
-
-Depends: libcojets2-dev, libeurodec1-dev, libherwig59-2-dev, libisajet758-3-dev, libpdflib804-2-dev, libphotos202-dev, libphtools2-dev
-
-Depends: libgeant321-2-dev
-
-Depends: fcc, libooptools-dev
-
 Depends: libclhep-dev
 
 Suggests: clhep-doc
@@ -30,7 +20,7 @@ Suggests: hepmc-examples, hepmc-user-manual, hepmc-reference-manual
 
 Depends: liblhapdf-dev
 
-Suggests: lhapdf-pdfsets-minimal, lhapdf-ccwrap-doc
+Suggests: lhapdf-ccwrap-doc
 
 Depends: libsiscone-dev, libsiscone-spherical-dev
 
@@ -38,11 +28,13 @@ Suggests: siscone-examples, siscone-doc-html, siscone-doc-pdf
 
 Depends: libfastjet-dev, libfastjettools-dev, libfastjet-fortran-dev, libfastjetplugins-dev
 
-Suggests: fastjet-doc, fastjet-examples, root-macro-fastjet
+Suggests: fastjet-doc, fastjet-examples
 
-Depends: libpythia8-dev, libhepmcinterface8-dev, pythia8-root-interface
+Depends: libpythia8-dev, libhepmcinterface-dev
 
 Suggests: pythia8-examples, pythia8-doc-html, pythia8-doc-worksheet
+
+Depends: fcc, libooptools-dev
 
 Depends: libroot-bindings-python-dev, libroot-bindings-ruby-dev, libroot-graf3d-gl-dev, libroot-io-xmlparser-dev, \
          libroot-math-mathmore-dev, libroot-math-unuran-dev, libroot-misc-memstat-dev, libroot-misc-table-dev, \
