@@ -118,3 +118,5 @@ Registration: http://ilab.usc.edu/cgi-bin/yabb/YaBB.pl?board=;action=register
 
  ; Added by blends-inject 0.0.7. [now official package - information obtained from package pool]
 Suggests: xppaut
+
+Depends: cnrun
