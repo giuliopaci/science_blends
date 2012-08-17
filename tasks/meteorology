@@ -19,7 +19,7 @@ Depends: grads
 Why: Used as default tool for viewing BUFR files.
 
 Depends: ferret-vis
-Description: Analysis and Visualisation tool for meteorologists
+Pkg-Description: Analysis and Visualisation tool for meteorologists
 
 Depends: magics++
 
@@ -83,7 +83,7 @@ WNPP: 669260
 License: BSD
 Homepage:  https://pygrib.googlecode.com/svn/trunk/docs/index.html
 Responsible: Alastair McKinstry <mckinstry@debian.org>
-Description: python library for reading/writing GRIB files
+Pkg-Description: python library for reading/writing GRIB files
  Python module for reading and writing GRIB (editions 1 and 2) files.
  GRIB is the World Meterological Organization standard for
  distributing gridded data. The module is a python interface
@@ -95,7 +95,7 @@ Depends: python-drslib
 Depends: python-cmor
 
 Depends: python-spherepack
-Description: Python interface to the spherepack scientific library.
+Pkg-Description: Python interface to the spherepack scientific library.
  This is a python interface to spherepack, a library for calculations on 
  spheres (geophysical).
 
