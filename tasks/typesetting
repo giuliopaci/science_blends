@@ -5,7 +5,7 @@ Description: Debian Science typesetting packages
  debtag.
 
 Depends: referencer, kbibtex, impose+, pybliographer, texlive-bibtex-extra, \
-         jabref, bibutils
+         jabref, bibutils, biber
 Why: BibTeX and bibliography
 
 Depends: feynmf, texlive, texlive-science, texlive-publishers, \
