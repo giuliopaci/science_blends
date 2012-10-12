@@ -46,8 +46,9 @@ X-Comment: It is not really astronomy, do we need another category or
 
 Depends: gyoto
 
+Depends: ftools-fv
+
 Depends: casacore-tools
-X-FIXME: Should be fetched by machine readable gatherer but is not completely
 
 Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/

@@ -20,4 +20,3 @@ Depends: python-astropy
 Depends: libgyoto0-dev
 
 Depends: casacore-dev
-X-FIXME: Should be fetched by machine readable gatherer but is not completely
