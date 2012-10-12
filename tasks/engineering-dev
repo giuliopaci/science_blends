@@ -24,6 +24,8 @@ Suggests: libgtkdatabox-0.9.1-1-dev
 Comment: We have to find a way to make sure that version number changes in the
          library will be regarded effectively in the metapackages.
 
+Suggests: libgtkdataboxmm-dev
+
 Depends: libgetfem++-dev
 
 Depends: libhdf5-serial-dev, libjhdf5-java, libjhdf4-java
