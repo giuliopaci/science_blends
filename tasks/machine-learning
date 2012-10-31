@@ -141,3 +141,5 @@ Pkg-Description: Data mining framework
  of data visualization, exploration, preprocessing and modeling
  techniques. It can be used through a nice and intuitive user interface
  or, for more advanced users, as a module for Python programming language.
+
+Depends: python-pymc
