@@ -265,6 +265,8 @@ Pkg-Description: IO library for electrophysiological data formats in Python
   * a set of examples like a format convertor
 Remark: Upstream says not worth packaging before v0.2 is released.
 
+Suggests: python-spykeutils
+
  ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: pymeg
 Homepage: https://github.com/badbytes/pymeg/wiki
