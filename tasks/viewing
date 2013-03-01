@@ -98,6 +98,8 @@ Depends: python-viper
 
 Suggests: python-matplotlib, python-scitools
 
+Depends: matlab2tikz
+
 Depends: cassandra
 Homepage: http://dev.artenum.com/projects/cassandra
 License: QPL
