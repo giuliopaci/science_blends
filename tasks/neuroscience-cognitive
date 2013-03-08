@@ -262,7 +262,7 @@ Pkg-Description: fitting and testing hypotheses about psychometric functions
  version is primarily a python module, but other bindings will be added
  eventually.
 
-Depends: python-scikits.statsmodels
+Depends: python-statsmodels
 
 Depends: spm8
 Registration: http://www.fil.ion.ucl.ac.uk/spm/software/download.html

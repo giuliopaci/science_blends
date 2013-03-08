@@ -35,7 +35,7 @@ Published-Year: 2009
 Published-URL: http://www.frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/003.2009/
 Published-DOI: 10.3389/neuro.11.003.2009
 
-Depends: python-scikits.statsmodels
+Depends: python-statsmodels
 Why: Statistical models
 
 Depends: root-system

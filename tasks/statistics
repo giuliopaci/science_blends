@@ -50,7 +50,7 @@ Suggests: r-cran-spc
 
 Depends: r-cran-vcd
 
-Depends: python-scikits.statsmodels
+Depends: python-statsmodels
 
 Suggests: science-mathematics
 
