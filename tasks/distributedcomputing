@@ -24,7 +24,8 @@ Depends: openmpipython, mpich2python, python-mpi
 Suggests: hpcc
 
  ; Added by blends-inject 0.0.7. [now official package]
-Suggests: condor
+ ; yoh: manually adjusted to Depends:
+Depends: condor
 Published-Authors: Michael Litzkow, Miron Livny, and Matt Mutka
 Published-In: Proceedings of the 8th International Conference of Distributed Computing Systems, pp. 104-111
 Published-Title: Condor - A Hunter of Idle Workstations
