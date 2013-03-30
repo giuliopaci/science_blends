@@ -44,8 +44,6 @@ Why: Needed for many cartographic tasks (eg coastlines on maps)
 
 Depends: libgctp-dev
 
-Depends: libdap-dev
-
 Depends: libnetcdf-dev, netcdf-bin
 
 Depends: liblapack-dev, libblas-dev, libfftw3-dev
