@@ -114,3 +114,5 @@ Depends: fflas-ffpack
 Suggests: fflas-ffpack-dev-doc, fflas-ffpack-user-doc
 
 Depends: liblevmar-dev
+
+Depends: libpolybori-dev, libpolybori-groebner-dev, python-polybori

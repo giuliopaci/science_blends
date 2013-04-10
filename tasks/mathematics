@@ -117,6 +117,8 @@ Depends: python-deap
 
 Depends: mcl
 
+Depends: polybori-gui, polybori
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz
