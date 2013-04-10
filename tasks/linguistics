@@ -24,6 +24,8 @@ Why: Software (co)developed and used by Tilburg Universities' ILK research
  Antwerp.  These packages are useful for software developers when developing or
  extending ILK's Natural Language Processing tools.
 
+Suggests: python-timbl
+
 Suggests: wnsqlbuilder
 Homepage: http://wnsqlbuilder.sf.net
 License: GPL
