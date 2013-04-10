@@ -15,7 +15,7 @@ Depends: libsofa-c-dev, libstarlink-pal-dev, libstarlink-ast-dev, libwcstools-de
 
 Depends: python-pywcs, python-cpl
 
-Depends: python-astropy
+Depends: python-astropy-legacy
 
 Depends: libgyoto0-dev
 
