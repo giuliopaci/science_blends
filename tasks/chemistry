@@ -45,6 +45,8 @@ Depends: chemical-structures
 
 Depends: freefoam
 
+Depends: pyfai
+
 Depends: libegad
 Homepage: http://egad.ucsd.edu/egad/
 WNPP: 429693

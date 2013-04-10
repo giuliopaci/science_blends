@@ -6,3 +6,5 @@ Description: Debian Science Physics-dev packages
  You might also be interested in the science-physics metapackage.
 
 Depends: freefoam-dev
+
+Depends: pyfai
