@@ -115,6 +115,8 @@ Depends: qtoctave
 
 Depends: python-deap
 
+Depends: mcl
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz
