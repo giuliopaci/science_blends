@@ -162,6 +162,14 @@ Depends: cp2k
 
 Depends: pdb2pqr
 
+Depends: mmass, mmass-modules
+
+Depends: python-mzml
+
+Suggests: python-mzml-doc
+
+Depends: tandem-mass
+
 Depends: openchrom
 Homepage: http://www.openchrom.net/
 License: EPL
