@@ -79,7 +79,6 @@ Pkg-Description: NCAR Command Language and NCAR Graphics package
 Depends: python-netcdf4
 
 Depends: python-grib
-WNPP: 669260
 License: BSD
 Homepage:  https://pygrib.googlecode.com/svn/trunk/docs/index.html
 Responsible: Alastair McKinstry <mckinstry@debian.org>
