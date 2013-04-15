@@ -10,7 +10,6 @@ Description: Debian Science Project config package
   * science-astronomy       packages related to astronomy
   * science-astronomy-dev   packages related to development of
                             astronomical applications
-  * science-bci             packages related to brain-computer interface
   * science-biology         packages related to biology
   * science-chemistry       packages related to chemistry
   * science-dataacquisition packages related to data acquisition
