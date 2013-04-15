@@ -72,8 +72,6 @@ Description: Debian Science packages for the design and use of
  found in science-neuroscience-cognitive, science-dataacquisition,
  data-machine-learning metapackages.
 Relevance: 10
-Key: 
- science-bci
 Packages: list
 
 Task: science-biology

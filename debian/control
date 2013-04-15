@@ -107,22 +107,6 @@ Description: Debian Science Astronomy-dev packages
  .
  You might also be interested in the science-astronomy metapackage.
 
-Package: science-bci
-Architecture: all
-Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Suggests: bci2000, bcpy2000, emokit, openvibe, pybci, pyff
-Description: Debian Science packages for the design and use of
- brain-computer interface (BCI) -- direct communication pathway
- between a brain and an external device. BCIs are often aimed
- at assisting, augmenting or repairing human cognitive or
- sensory-motor functions.
- .
- The selection of packages is targeting the complete frameworks for
- the design of BCI systems.  Often such systems rely on external
- presentation, data collection and analysis software which could be
- found in science-neuroscience-cognitive, science-dataacquisition,
- data-machine-learning metapackages.
-
 Package: science-biology
 Architecture: all
 Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
