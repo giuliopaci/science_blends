@@ -21,6 +21,7 @@ Packages: list
  predict
  seesat5
  qfits-tools
+ yorick-full
  savi
  stellarium
  xplanet
@@ -149,11 +150,13 @@ Packages: list
  massxpert
  drawxtl
  chemical-structures
- freefoam
+ pyfai
  jmol
  qutemol
  cp2k
  pdb2pqr
+ mmass
+ mmass-modules
 
 Task: science-dataacquisition
 Section: debian-science
@@ -208,6 +211,7 @@ Packages: list
  openmpipython
  mpich2python
  python-mpi
+ condor
  dmtcp
  environment-modules
 
@@ -230,7 +234,6 @@ Packages: list
  geda
  kicad
  freehdl
- ghdl
  iverilog
  verilator
  gplcver
@@ -243,7 +246,6 @@ Packages: list
  linsmith
  xsmc-calc
  confluence
- gspiceui
  gnucap
  qelectrotech
  covered
@@ -286,22 +288,16 @@ Key:
 Packages: list
  librecad
  sailcut
- opencascade-draw
  python-silo
  libsilo-bin
- getdp
- netgen
  pythoncad
  z88
- freecad
  python-openturns
- code-aster-gui
  code-saturne
  hdfview
  cba
  python-fiat
  syrthes
- freefoam
  cgns-convert
 
 Task: science-engineering-dev
@@ -327,7 +323,6 @@ Packages: list
  libhdf5-serial-dev
  libjhdf5-java
  libjhdf4-java
- libopencascade-dev
  libopenturns-dev
  libmadlib-dev
  libelmer-dev
@@ -412,50 +407,19 @@ Packages: list
  dzedit
  kuipc
  kxterm
- libgraflib1-gfortran
- libgrafx11-1-gfortran
- libkernlib1-gfortran
- libmathlib2-gfortran
- libpacklib-lesstif1-gfortran
- libpacklib1-gfortran
  nypatchy
  pawserv
  zftp
  paw
  paw++
- paw-common
- libpawlib-lesstif3-gfortran
- libpawlib2-gfortran
  cernlib-montecarlo
- montecarlo-base
- montecarlo-data
- libcojets2-gfortran
- libeurodec1-gfortran
- libherwig59-2-gfortran
- libisajet758-3-gfortran
- libpdflib804-2-gfortran
- libphotos202-1-gfortran
- libphtools2-gfortran
  geant321
- geant321-data
- libgeant321-2-gfortran
  feynmf
  looptools
- libclhep2.1
- libhepmc4
- libhepmcfio4
- liblhapdf0
  python-lhapdf
  octave-lhapdf
- libsiscone0
- libsiscone-spherical0
- libfastjet0
- libfastjettools0
- libfastjet-fortran0
- libfastjetplugins0
- libpythia8
- libhepmcinterface8
- pythia8-data
+ root-macro-fastjet
+ pythia8-root-interface
  libroot-bindings-python5.34
  libroot-bindings-ruby5.34
  libroot-graf3d-gl5.34
@@ -534,14 +498,11 @@ Packages: list
  root-system-common
  root-system
  rivet
- librivet11
  rivet-plugins
  python-rivet
- rivet-plugins-data
  rivet-root-converter
  thepeg
  thepeg-gui
- libthepeg15
 
 Task: science-highenergy-physics-dev
 Section: debian-science
@@ -559,24 +520,6 @@ Key:
 Packages: list
  cernlib-base-dev
  cernlib-core-dev
- libgraflib1-dev
- libgrafx11-1-dev
- libkernlib1-dev
- libmathlib2-dev
- libpacklib-lesstif1-dev
- libpacklib1-dev
- libpawlib-lesstif3-dev
- libpawlib2-dev
- libcojets2-dev
- libeurodec1-dev
- libherwig59-2-dev
- libisajet758-3-dev
- libpdflib804-2-dev
- libphotos202-dev
- libphtools2-dev
- libgeant321-2-dev
- fcc
- libooptools-dev
  libclhep-dev
  libhepmc-dev
  libhepmcfio-dev
@@ -588,8 +531,8 @@ Packages: list
  libfastjet-fortran-dev
  libfastjetplugins-dev
  libpythia8-dev
- libhepmcinterface8-dev
- pythia8-root-interface
+ fcc
+ libooptools-dev
  libroot-bindings-python-dev
  libroot-bindings-ruby-dev
  libroot-graf3d-gl-dev
@@ -710,8 +653,11 @@ Packages: list
  r-cran-mnp
  r-cran-amore
  python-mvpa
- python-scikits.statsmodels
+ python-statsmodels
  root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
  autoclass
  mcl
  scilab-ann
@@ -749,8 +695,6 @@ Packages: list
  freefem
  freefem3d
  freefem++
- netgen
- getdp
  coq
  proofgeneral
  matita
@@ -818,6 +762,7 @@ Packages: list
  r-cran-rggobi
  r-cran-rgl
  r-cran-rgtk2
+ r-cran-rmpi
  r-cran-rmysql
  r-cran-rodbc
  r-cran-rpart
@@ -841,7 +786,7 @@ Packages: list
  psignifit
  python-scipy
  r-cran-vcd
- python-scikits.statsmodels
+ python-statsmodels
  python-openturns
  geomview
  octave
@@ -849,7 +794,6 @@ Packages: list
  freemat
  mathomatic
  scilab
- scilab-scimax
  scilab-ann
  regina-normal
  snappea
@@ -864,10 +808,10 @@ Packages: list
  polylib-utils
  rheolef
  scotch
- libgivaro0
  bliss
  qtoctave
  python-deap
+ mcl
 
 Task: science-mathematics-dev
 Section: debian-science
@@ -880,7 +824,6 @@ Relevance: 10
 Key: 
  science-mathematics-dev
 Packages: list
- libnglib-dev
  python-numpy
  libgsl0-dev
  liblapack-dev
@@ -920,14 +863,14 @@ Packages: list
  libscythestat-dev
  libfreefem++-dev
  libfreefem-dev
- libgivaro-dev
- fflas-ffpack
+ libpolybori-dev
+ python-polybori
 
 Task: science-meteorology
 Section: debian-science
-Description: Python interface to the spherepack scientific library.
- This is a python interface to spherepack, a library for calculations on 
- spheres (geophysical).
+Description: Debian Science Meteorology packages
+ This metapackage is part of the Debian Pure Blend "Debian Science"
+ and installs packages related to Meteorology and Climate.
 Relevance: 10
 Key: 
  science-meteorology
@@ -935,12 +878,9 @@ Packages: list
  cdo
  nco
  dballe
- zygrib
  ncview
  grads
- ferret-vis
  magics++
- freefoam
  libgrib-api-tools
  ecaccess
  python-grib
@@ -972,7 +912,6 @@ Packages: list
  libhe5-hdfeos-dev
  libproj-dev
  libgctp-dev
- libdap-dev
  libnetcdf-dev
  netcdf-bin
  liblapack-dev
@@ -985,6 +924,7 @@ Packages: list
  libterralib-dev
  liboasis3-dev
  libudunits2-dev
+ libdap-dev
  python-openturns
  libopenturns-dev
  wcslib-dev
@@ -1049,7 +989,6 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-scimax
  scilab-ann
  freemat
  yorick
@@ -1113,14 +1052,15 @@ Packages: list
  gsl-bin
  libnetcdf-dev
  netcdf-doc
- libopencascade-dev
  root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
  gsl-doc-pdf
  libblacs-mpi-dev
  libscalapack-mpi-dev
  scalapack-doc
  science-mathematics-dev
- libnglib-dev
  python-numpy
  libatlas-base-dev
  libsuperlu3-dev
@@ -1157,8 +1097,8 @@ Packages: list
  libscythestat-dev
  libfreefem++-dev
  libfreefem-dev
- libgivaro-dev
- fflas-ffpack
+ libpolybori-dev
+ python-polybori
 
 Task: science-neuroscience-cognitive
 Section: debian-science
@@ -1192,10 +1132,11 @@ Packages: list
  praat
  dicom3tools
  voxbo
+ openmeeg-tools
  mricron
  itksnap
  python-pypsignifit
- python-scikits.statsmodels
+ python-statsmodels
  mriconvert
  python-pyxnat
 
@@ -1240,7 +1181,6 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-scimax
  scilab-ann
  freemat
  yorick
@@ -1270,7 +1210,6 @@ Packages: list
  paw
  abinit
  feynmf
- freefoam
  fityk
  tessa
  science-numericalcomputation
@@ -1284,7 +1223,6 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-scimax
  scilab-ann
  freemat
  yorick
@@ -1297,7 +1235,6 @@ Packages: list
  python-scitools
  python-deap
  lammps
- opencascade-draw
  science-electronics
  avrdude
  gcc-avr
@@ -1307,7 +1244,6 @@ Packages: list
  geda
  kicad
  freehdl
- ghdl
  iverilog
  verilator
  gplcver
@@ -1320,7 +1256,6 @@ Packages: list
  linsmith
  xsmc-calc
  confluence
- gspiceui
  gnucap
  qelectrotech
  covered
@@ -1345,98 +1280,22 @@ Packages: list
  gwyddion
  cp2k
  root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
 
-Task: science-physics_
+Task: science-physics-dev
 Section: debian-science
-Description: Debian Science Physics packages
- This metapackage will install Debian Science packages related to Physics.
- You might also be interested in the debtag field::physics and, depending on
- your focus, in education-physics metapackage.
+Description: Debian Science Physics-dev packages
+ This metapackage will install Debian Science packages which might be
+ helpful for development of applications for Mathematics.
+ .
+ You might also be interested in the science-physics metapackage.
 Relevance: 10
 Key: 
- science-physics_
+ science-physics-dev
 Packages: list
- cernlib
- geant321
- paw++
- paw
- abinit
- feynmf
- freefoam
- fityk
- tessa
- science-numericalcomputation
- octave
- python-matplotlib
- python-scipy
- ipython
- python-numpy
- spyder
- python-guiqwt
- pdl
- gnudatalanguage
- scilab
- scilab-scimax
- scilab-ann
- freemat
- yorick
- r-base
- qtoctave
- lush
- yade
- liggghts
- esys-particle
- python-scitools
- python-deap
- lammps
- opencascade-draw
- science-electronics
- avrdude
- gcc-avr
- gerbv
- uisp
- electric
- geda
- kicad
- freehdl
- ghdl
- iverilog
- verilator
- gplcver
- gputils
- simulpic
- pcb
- oregano
- tkgate
- texlive-latex-extra
- linsmith
- xsmc-calc
- confluence
- gspiceui
- gnucap
- qelectrotech
- covered
- arduino
- arduino-core
- visolate
- fritzing
- v-sim
- gpiv
- gpivtools
- maxima
- python-sympy
- axiom
- meshlab
- cadabra
- drawxtl
- opticalraytracer
- ghkl
- etsf-io
- pymca
- quantum-espresso
- gwyddion
- cp2k
- root-system
+ pyfai
 
 Task: science-psychophysics
 Section: debian-science
@@ -1499,8 +1358,6 @@ Packages: list
  liggghts
  yade
  python-deap
- freefoam
- getdp
 
 Task: science-statistics
 Section: debian-science
@@ -1574,6 +1431,7 @@ Packages: list
  r-cran-rggobi
  r-cran-rgl
  r-cran-rgtk2
+ r-cran-rmpi
  r-cran-rmysql
  r-cran-rodbc
  r-cran-rpart
@@ -1597,7 +1455,7 @@ Packages: list
  psignifit
  python-scipy
  r-cran-vcd
- python-scikits.statsmodels
+ python-statsmodels
  python-openturns
 
 Task: science-typesetting
@@ -1617,6 +1475,7 @@ Packages: list
  texlive-bibtex-extra
  jabref
  bibutils
+ biber
  feynmf
  texlive
  texlive-science

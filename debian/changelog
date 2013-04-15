@@ -1,6 +1,7 @@
-debian-science (1.0) UNRELEASED; urgency=low
+debian-science (1.0) unstable; urgency=low
 
-  * debian/control:
+  * Update metapackages for Wheezy
+  * debian/control, debian-gis-tasks.desc:
     Usual changes of dependency based on the resolving of new packages
     in Debian as specified in the tasks files
 
@@ -23,7 +24,7 @@ debian-science (1.0) UNRELEASED; urgency=low
   * tasks/highenergy-physics-dev: Create metapackage targeting at
     development of high energy physics applications
 
- -- Andreas Tille <tille@debian.org>  Fri, 13 Jul 2012 13:46:31 +0200
+ -- Andreas Tille <tille@debian.org>  Mon, 15 Apr 2013 10:39:06 +0200
 
 debian-science (0.16) unstable; urgency=low
 
