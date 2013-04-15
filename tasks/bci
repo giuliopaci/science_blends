@@ -1,4 +1,5 @@
 Task: Brain-computer interface
+Metapackage: false
 Description: Debian Science packages for the design and use of
  brain-computer interface (BCI) -- direct communication pathway
  between a brain and an external device. BCIs are often aimed
