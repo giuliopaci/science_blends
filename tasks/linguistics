@@ -9,6 +9,8 @@ Depends: apertium, link-grammar
 
 Depends: artha
 
+Depends: sequitur-g2p
+
 Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
 Homepage: http://ilk.uvt.nl/
 Why: Software (co)developed and used by Tilburg Universities' ILK research
