@@ -119,6 +119,8 @@ Depends: mcl
 
 Depends: polybori-gui, polybori
 
+Depends: palp
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz
