@@ -54,6 +54,8 @@ Depends: python-statsmodels
 
 Suggests: science-mathematics
 
+Depends: r-cran-spam
+
 Depends: python-openturns
 Why: Uncertainty quantification in numerical simulation
 
