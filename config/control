@@ -42,10 +42,12 @@ Description: Debian Science Project config package
   * science-neuroscience-modeling    packages for modeling of neural
                             systems
   * science-physics         packages related to physics
-  * science-physics-dev     packages related to physics development of
-                            physical applications
+  * science-physics-dev     packages related to development of physical
+                            applications
   * science-psychophysics   packages related to packages for psychophysics
   * science-robotics        packages related to robotics
+  * science-robotics-dev    packages related to development of robotics
+                            applications
   * science-simulation      packages to do simulations
  .
  This are metapackages for common utilities for all sciences:
