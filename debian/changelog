@@ -4,7 +4,8 @@ debian-science (1.1) UNRELEASED; urgency=low
   * tasks/robotics-dev: Development of robotics applications
 
   [ Sébastien Villemot ]
-  * tasks/{mathematics, numericalcomputation}: Add julia
+  * tasks/{mathematics, numericalcomputation}: Add julia, suggest
+    matlab-support
 
  -- Andreas Tille <tille@debian.org>  Mon, 20 May 2013 10:54:41 +0200
 

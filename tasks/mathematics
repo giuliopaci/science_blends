@@ -123,6 +123,8 @@ Depends: palp
 
 Depends: julia
 
+Suggests: matlab-support
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz

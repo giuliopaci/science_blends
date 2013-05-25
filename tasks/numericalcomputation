@@ -74,3 +74,5 @@ Why: LAMMPS is a classical molecular dynamics code, and an acronym for
  simulator at the atomic, meso, or continuum scale.
 
 Depends: julia
+
+Suggests: matlab-support
