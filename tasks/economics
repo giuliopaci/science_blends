@@ -85,6 +85,29 @@ Depends: python-scitools
 
 Depends: python-statsmodels
 
+Depends: dolo
+Homepage: https://github.com/albop/dolo
+License: BSD
+Pkg-Description: Economic modelling in Python
+ Dolo is a tool to assist researchers in solving several types of Dynamic
+ Stochastic General Equilibrium (DSGE) models, using either local of global
+ approximation methods.
+ .
+ Users are can separate the definition of their models from the solution
+ algorithm. A simple syntax is provided in YAML files to define variables and
+ equations of several types. This syntax integrates the specification of
+ occasionally binding constraints (a.k.a. complementarity conditions)
+ .
+ The user can then implement his own preferred solution method using one of the
+ provided tools (various types of interpolation, solvers, ...) or use one of
+ the already implemented procedures.
+ .
+ Dolo is written in Python and so are his solution routines. If you prefer or
+ need to use another language for the solution, you can always use dolo as a
+ preprocessor. In that case, dolo will just translate the model file into a
+ numerical file usable by your software. Currently, Octave/MATLAB and Julia are
+ supported.
+
 Suggests: ess
 
 Suggests: dynare-matlab
