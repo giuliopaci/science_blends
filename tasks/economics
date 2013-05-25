@@ -1,0 +1,102 @@
+Task: Economics
+Description: Debian Science Economics packages
+ This metapackage will install Debian Science packages useful for economics and
+ econometrics. It includes user-friendly programs for simulating and estimating
+ macro-economic and micro-economic models. It also provides computing
+ environments which can solve a wide range of problems typically encountered in
+ economic research. These environments provide functionalities similar to those
+ of popular non-free systems (such as MATLAB, Mathematica, Stata or SAS).
+
+Depends: dynare
+
+Depends: gretl
+
+Depends: octave
+
+Depends: octave-econometrics
+
+Depends: octave-statistics
+
+Depends: octave-gsl
+
+Depends: octave-optim
+
+Depends: octave-linear-algebra
+
+Depends: octave-io
+
+Depends: octave-symbolic
+
+Depends: qtoctave
+
+Depends: r-base
+
+Depends: r-cran-urca
+
+Depends: r-cran-bayesm
+
+Depends: r-cran-coda
+
+Depends: r-cran-boot
+
+Depends: r-cran-foreign
+
+Depends: r-cran-kernsmooth
+
+Depends: r-cran-matrix
+
+Depends: r-cran-nlme
+
+Depends: r-cran-hmisc
+
+Depends: r-cran-tseries
+
+Depends: r-cran-lme4
+
+Depends: r-cran-mcmcpack
+
+Depends: r-cran-quadprog
+
+Depends: r-cran-fbonds
+
+Depends: r-cran-fimport
+
+Depends: r-cran-fnonlinear
+
+Depends: r-cran-funitroots
+
+Depends: rkward
+
+Depends: julia
+
+Depends: maxima
+
+Depends: wxmaxima
+
+Depends: ipython
+
+Depends: python-matplotlib
+
+Depends: python-numpy
+
+Depends: python-scipy
+
+Depends: python-scitools
+
+Depends: python-statsmodels
+
+Suggests: ess
+
+Suggests: dynare-matlab
+
+Suggests: matlab-support
+
+Suggests: science-typesetting
+
+Suggests: science-viewing
+
+Suggests: science-mathematics
+
+Suggests: science-numericalcomputation
+
+Suggests: science-statistics

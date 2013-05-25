@@ -4,6 +4,7 @@ debian-science (1.1) UNRELEASED; urgency=low
   * tasks/robotics-dev: Development of robotics applications
 
   [ Sébastien Villemot ]
+  * tasks/economics: Add new task for economics
   * tasks/{mathematics, numericalcomputation}: Add julia, suggest
     matlab-support
   * tasks/distributedcomputing: Suggest octave-openmpi-ext

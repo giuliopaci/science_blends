@@ -16,6 +16,7 @@ Description: Debian Science Project config package
   * science-dataacquisition-dev packages related to data acquisition
                             development
   * science-distributedcomputing  distributed computing packages
+  * science-economics       packages related to economics
   * science-electrophysiology  packages related to electrophysiology
   * science-electronics     packages related to electronics
   * science-engineering     packages related to engineering
