@@ -72,4 +72,6 @@ Pkg-Description: pipeline system for Octave and Matlab
   * Handle updates of the pipeline: change options or add jobs and let PSOM
     figure out what to reprocess.
 
+Suggests: octave-openmpi-ext
+
 Depends: environment-modules
