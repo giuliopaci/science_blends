@@ -1,4 +1,4 @@
-Task: Robotics
+Task: Robotics-dev
 Description: Debian Robotics development packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages that are relevant to develop applications
