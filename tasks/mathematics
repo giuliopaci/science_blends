@@ -121,6 +121,8 @@ Depends: polybori-gui, polybori
 
 Depends: palp
 
+Depends: julia
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz

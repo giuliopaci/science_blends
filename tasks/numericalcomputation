@@ -73,3 +73,4 @@ Why: LAMMPS is a classical molecular dynamics code, and an acronym for
  It can be used to model atoms or, more generically, as a parallel particle 
  simulator at the atomic, meso, or continuum scale.
 
+Depends: julia
