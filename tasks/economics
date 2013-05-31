@@ -27,6 +27,8 @@ Depends: octave-io
 
 Depends: octave-symbolic
 
+Depends: octave-dataframe
+
 Depends: qtoctave
 
 Depends: r-base
@@ -85,6 +87,10 @@ Depends: python-scitools
 
 Depends: python-statsmodels
 
+Depends: python-pandas
+
+Depends: python-simpy
+
 Depends: dolo
 Homepage: https://github.com/albop/dolo
 License: BSD
@@ -107,6 +113,15 @@ Pkg-Description: Economic modelling in Python
  preprocessor. In that case, dolo will just translate the model file into a
  numerical file usable by your software. Currently, Octave/MATLAB and Julia are
  supported.
+
+Depends: python-econpy
+Homepage: https://code.google.com/p/econpy/
+License: MIT
+Pkg-Description: collection of Python packages for economics related research
+ Packages will include the following fields:
+ - econometrics
+ - agent-based simulation
+ - utilities 
 
 Suggests: ess
 
