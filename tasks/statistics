@@ -61,30 +61,7 @@ Depends: r-cran-spatstat, r-cran-deldir
 Depends: python-openturns
 Why: Uncertainty quantification in numerical simulation
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
-Suggests: pandas
-Homepage: http://pandas.sourceforge.net
-Language: Python, Cython
-WNPP: 641464
-License: BSD-3
-Pkg-URL: http://neuro.debian.net/pkgs/cctools.html
-Pkg-Description: data structures for "relational" or "labeled" data
- pandas is a Python package providing fast, flexible, and expressive
- data structures designed to make working with "relational" or
- "labeled" data both easy and intuitive. It aims to be the fundamental
- high-level building block for doing practical, real world data
- analysis in Python. pandas is well suited for many different kinds of
- data:
- .
-  - Tabular data with heterogeneously-typed columns, as in an SQL
-    table or Excel spreadsheet
-  - Ordered and unordered (not necessarily fixed-frequency) time
-    series data.
-  - Arbitrary matrix data (homogeneously typed or heterogeneous) with
-    row and column labels
-  - Any other form of observational / statistical data sets. The data
-    actually need not be labeled at all to be placed into a pandas
-    data structure
+Depends: python-pandas
 
 X-Removed: Packages removed from Debian
 
