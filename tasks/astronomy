@@ -49,6 +49,47 @@ Depends: ftools-fv, fitsverify, fitscheck
 Depends: casacore-tools
 
 Depends: iraf
+WNPP: 690351
+Homepage: http://iraf.noao.edu
+License: mainly MIT, with no-ad clause
+Responsible: Ole Streicher <debian@liska.ath.cx>
+Pkg-Description: Image Reduction and Analysis Facility.
+ IRAF is the "Image Reduction and Analysis Facility". The main
+ IRAF distribution includes a good selection of programs for
+ general image processing and graphics, plus a large number of
+ programs for the reduction and analysis of optical and IR
+ astronomy data. Other external or layered packages are available for
+ applications such as data acquisition or handling data from other
+ observatories and wavelength regimes such as the Hubble Space
+ Telescope (optical), EUVE (extreme ultra-violet), or ROSAT and
+ AXAF (X-ray). These external packages are distributed separately
+ from the main IRAF distribution but can be easily installed.
+ The IRAF system also includes a complete programming environment
+ for scientific applications, which includes a programmable Command
+ Language scripting facility, the IMFORT Fortran/C
+ programming interface, and the full SPP/VOS programming
+ environment in which the portable IRAF system and all
+ applications are written.
+
+Depends: x11iraf
+WNPP: 711036
+Homepage: http://iraf.noao.edu
+License: MIT, with no-ad clause
+Pkg-Description: Graphical tools to work with IRAF
+ x11iraf provides graphical tools to work with IRAF, notably xgterm and
+ XImtool. IRAF (Image Reduction and Analysis Facility) is a general purpose
+ software system for the reduction and analysis of astronomical data.
+
+Depends: pyraf
+WNPP: 711038
+Homepage: http://www.stsci.edu/institute/software_hardware/pyraf
+License: BSD-3-Clause
+Pkg-Description: Python interface for IRAF.
+ PyRAF is a command language for running IRAF tasks that is based on the
+ Python scripting language. It gives users the ability to run IRAF tasks in an
+ environment that has all the power and flexibility of Python. PyRAF can be
+ installed along with an existing IRAF installation; users can then choose to
+ run either PyRAF or the IRAF CL.
 
 Depends: saods9, xpa-tools
 
