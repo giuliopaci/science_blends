@@ -15,11 +15,9 @@ Depends: sextractor
 
 Depends: worldwind
 
-Depends: wcstools, wcslib-tools, funtools, esorex
+Depends: wcstools, wcslib-tools, funtools, qfits-tools
 
 Depends: gpredict, predict, seesat5
-
-Depends: qfits-tools
 
 Depends: yorick-full
 
@@ -46,9 +44,22 @@ X-Comment: It is not really astronomy, do we need another category or
 
 Depends: gyoto
 
-Depends: ftools-fv
+Depends: ftools-fv, fitsverify, fitscheck
 
 Depends: casacore-tools
+
+Depends: iraf
+
+Depends: saods9, xpa-tools
+
+Depends: python-pywcs, python-astropy, python-pyfits, python3-pyfits, 
+         python-pyds9
+Why: Generic Python packages for astronomy
+
+Depends: esorex, python-cpl
+Suggests: cpl-plugin-amber, cpl-plugin-fors, cpl-plugin-giraf,
+	  cpl-plugin-hawki, cpl-plugin-sinfo
+Why: Data reduction suite for data taken with ESO instruments
 
 Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/
@@ -146,10 +157,6 @@ Pkg-Description: the European Southern Observatory Munich Image Data Analysis Sy
  The official name, ESO-MIDAS, is a registered trademark. ESO-MIDAS is
  available under the GNU General Public License (GPL), and can be
  implemented on OpenVMS and UNIX (Linux) systems.
-
-Depends: heasoft-fv
-
-Depends: saods9
 
 Depends: ssystem
 Pkg-URL: http://snapshot.debian.org/package/ssystem/
