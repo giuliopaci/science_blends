@@ -80,7 +80,7 @@ Pkg-Description: Graphical tools to work with IRAF
  XImtool. IRAF (Image Reduction and Analysis Facility) is a general purpose
  software system for the reduction and analysis of astronomical data.
 
-Depends: pyraf
+Depends: python-pyraf
 WNPP: 711038
 Homepage: http://www.stsci.edu/institute/software_hardware/pyraf
 License: BSD-3-Clause
