@@ -48,7 +48,7 @@ Depends: science-numericalcomputation
 Why: numerical programming environments similar to Matlab/IDL
 
 
-Depends: opencascade-draw
+Depends: oce-draw
 
 Depends: science-electronics
 

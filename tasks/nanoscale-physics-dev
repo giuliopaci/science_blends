@@ -72,9 +72,9 @@ Recommends: science-mathematics-dev
 Suggests: liblife-dev
 Why: Partial differential equation library, FEA, CFD
 
-Suggests: opencascade-draw
+Suggests: oce-draw
 
-Depends: libopencascade-dev
+Depends: liboce-visualization-dev, liboce-ocaf-dev
 
 Suggests: python-netcdf
 
