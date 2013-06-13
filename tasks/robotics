@@ -23,6 +23,8 @@ Depends: libode-dev
 Depends: morse-simulator
 WNPP: 670577
 
+Depends: choreonoid
+
 Depends: solid
 WNPP: 500616
 Homepage: http://www.dtecta.com

@@ -5,3 +5,7 @@ Description: Debian Robotics development packages
  for robotics.
 
 Depends: libroboptim-core-dev 
+
+Depends: libvisp-dev
+
+Depends: libcnoid-dev
