@@ -26,7 +26,7 @@ Depends: r-cran-mapproj, r-cran-abind, r-cran-bayesm, \
             r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, r-cran-psy, \
             r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, \
             r-cran-relimp, r-cran-rggobi, r-cran-rgl, r-cran-rgtk2, \
-            r-cran-rmetrics, r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, \
+            r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, \
             r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, \
             r-cran-rsprng, r-cran-sandwich, r-cran-sm, r-cran-snow, \
             r-cran-strucchange, r-cran-survival, r-cran-tkrplot, \
