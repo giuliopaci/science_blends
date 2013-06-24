@@ -2,6 +2,7 @@ debian-science (1.1) UNRELEASED; urgency=low
 
   [ Andreas Tille ]
   * tasks/robotics-dev: Development of robotics applications
+  * tasks/financial: Packages for financial engineering
 
   [ Sébastien Villemot ]
   * tasks/economics: Add new task for economics

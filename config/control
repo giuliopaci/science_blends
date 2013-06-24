@@ -22,6 +22,7 @@ Description: Debian Science Project config package
   * science-engineering     packages related to engineering
   * science-engineering-dev packages related to development of
                             engineering applications
+  * science-financial       packages related to financial engineering
   * science-geography       packages related to geography
   * science-highenergy-physics packages related to high energy physics
   * science-highenergy-physics-dev packages related to development of

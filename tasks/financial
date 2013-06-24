@@ -1,0 +1,41 @@
+Task: Financial engineering
+Description: Debian Science financial engineering and computational finance
+ This metapackage will install Debian Science packages for financial
+ engineering and computational finance.
+
+Depends: r-cran-fasianoptions
+
+Depends: r-cran-fassets
+
+Depends: r-cran-fbasics
+
+Depends: r-cran-fbonds
+
+Depends: r-cran-fcopulae
+
+Depends: r-cran-fexoticoptions
+
+Depends: r-cran-fextremes
+
+Depends: r-cran-fgarch
+
+Depends: r-cran-fimport
+
+Depends: r-cran-fmultivar
+
+Depends: r-cran-fnonlinear
+
+Depends: r-cran-foptions
+
+Depends: r-cran-fregression
+
+Depends: r-cran-ftrading
+
+Depends: r-cran-funitroots
+
+Depends: r-cran-timedate
+
+Depends: r-cran-timeseries
+
+Depends: r-cran-fportfolio
+
