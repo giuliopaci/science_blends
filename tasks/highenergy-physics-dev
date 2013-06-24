@@ -30,7 +30,7 @@ Depends: libfastjet-dev, libfastjettools-dev, libfastjet-fortran-dev, libfastjet
 
 Suggests: fastjet-doc, fastjet-examples
 
-Depends: libpythia8-dev, libhepmcinterface-dev
+Depends: libpythia8-dev, libhepmcinterface8-dev
 
 Suggests: pythia8-examples, pythia8-doc-html, pythia8-doc-worksheet
 
