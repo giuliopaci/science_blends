@@ -30,7 +30,7 @@ Why: API for reading GRIB2 files
 Depends: libhe5-hdfeos-dev
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 
-Depends: libhe4-hdfeos-dev
+Depends: libhdfeos-dev
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 
 Depends: libproj-dev
