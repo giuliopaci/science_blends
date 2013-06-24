@@ -32,12 +32,6 @@ Why: EOS extensions to the HDF library, for Earth Observation datatypes.
 
 Depends: libhe4-hdfeos-dev
 Why: EOS extensions to the HDF library, for Earth Observation datatypes.
-Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
- HDF-EOS is a software library that is an extension of National Center
- for Supercomputing Applications (NCSA) HDF. The library supports the
- construction of new data structures: Grid, Point and Swath.
- .
- This version is built against the HDF4
 
 Depends: libproj-dev
 Why: Needed for many cartographic tasks (eg coastlines on maps)

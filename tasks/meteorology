@@ -38,18 +38,6 @@ Why: 3-D visualisation of climate (netCDF) files
 Depends: libgrib-api-tools
 Responsible: Enrico Zini <enrico@debian.org>
 
-Depends: hdf-eos4
-Pkg-Description: Extension to HDF4 to support Earth Observing System datatypes
- HDF-EOS is a software library that is an extension of National Center
- for Supercomputing Applications (NCSA) HDF. The library supports the
- construction of new data structures: Grid, Point and Swath.
-
-Depends: hdf-eos5
-Pkg-Description: Extension to HDF5 to support Earth Observing System datatypes
- HDF-EOS is a software library that is an extension of National Center
- for Supercomputing Applications (NCSA) HDF. The library supports the
- construction of new data structures: Grid, Point and Swath.
-
 Depends: ecaccess
 
 Depends: geonetwork
