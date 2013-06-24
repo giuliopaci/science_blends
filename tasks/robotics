@@ -7,21 +7,12 @@ Description: Debian Robotics packages
 
 Depends: rtai, xenomai-runtime
 
-Depends: libcv-dev
-
 Depends: libcomedi0
 Comment: Debian version is quite old - needs update
 
-Depends: octave, gnuplot
-
-Depends: libcoin60-runtime, libvtk5.4, libboost-dev
-
 Depends: libopenigtlink1
 
-Depends: libode-dev
-
 Depends: morse-simulator
-WNPP: 670577
 
 Depends: choreonoid
 
@@ -140,3 +131,88 @@ Pkg-Description: framework for inference in Dynamic Bayesian Networks
  of the Realtime Services, or be used for estimation in Kinematics & Dynamics
  applications.
 
+
+Depends: ros
+WNPP: 519143
+Homepage: http://www.ros.org/
+License: BSD for the core packages
+Pkg-Description: ROS middleware
+ ROS is a robot operating system. It provides the services you
+ would expect from an operating system, including hardware abstraction,
+ low-level device control, implementation of commonly-used functionality,
+ message-passing between processes, and package management.
+
+Depends: openrtm
+Homepage: http://www.openrtm.org/
+Responsible: Thomas Moulard <thomas.moulard@gmail.com>
+WNPP: 695240
+License: LGPL-3
+Pkg-Description: OpenRTM robotics middleware
+ OpenRTM is a robotics middleware. It provides C++, Python, Java
+ libraries to enable robotics component development and also
+ integrates with Eclipse.  This middleware is OMG RTC standard
+ compliant and is used by the robotics community.
+
+Depends: openhrp
+Homepage: http://www.openrtp.jp/openhrp3/
+Responsible: Thomas Moulard <thomas.moulard@gmail.com>
+WNPP: 695656
+License: EPL (Eclipse Public License)
+Pkg-Description: OpenHRP robotics simulator
+ OpenHRP3 (Open Architecture Human-centered Robotics Platform version
+ 3) is an integrated software platform for robot simulations and
+ software developments. It allows the users to inspect an original
+ robot model and control program by dynamics simulation. In addition,
+ OpenHRP3 provides various software components and calculation
+ libraries that can be used for robotics related software
+ developments.
+
+Depends: pcl
+Homepage: http://pointclouds.org/
+Responsible: Paride Legovini <pl@ninthfloor.org>
+WNPP: 703579
+License: BSD-3-clause
+Pkg-Description: Point Cloud Library
+ PCL (Point Cloud Library) is a standalone open-source framework
+ including numerous state-of-the art algorithms for n-dimensional
+ point clouds and 3D geometry processing. The library contains
+ algorithms for filtering, feature estimation, surface reconstruction,
+ registration, model fitting, and segmentation. PCL is developed by a
+ large consortium of researchers and engineers around the world. It is
+ written in C++ and released under the BSD license.
+
+Depends: gazebo
+Homepage: http://gazebosim.org/
+Responsible: Thomas Moulard <thomas.moulard@gmail.com>
+WNPP: 705440
+License: Apache
+Pkg-Description: Gazebo multi-robot simulator
+ Gazebo is a multi-robot simulator for outdoor environments. Like
+ Stage (part of the Player project), it is capable of simulating a
+ population of robots, sensors and objects, but does so in a
+ three-dimensional world. It generates both realistic sensor feedback
+ and physically plausible interactions between objects (it includes an
+ accurate simulation of rigid-body physics).
+
+
+
+Depends: openrave
+Homepage: http://openrave.org/
+License: LGPL-3
+Pkg-Description: OpenRAVE robotics platform
+ OpenRAVE provides an environment for testing, developing, and
+ deploying motion planning algorithms in real-world robotics
+ applications. The main focus is on simulation and analysis of
+ kinematic and geometric information related to motion
+ planning. OpenRAVE's stand-alone nature allows is to be easily
+ integrated into existing robotics systems.
+ .
+ It provides many command line tools to work with robots and planners,
+ and the run-time core is small enough to be used inside controllers
+ and bigger frameworks. An important target application is industrial
+ robotics automation.
+
+
+Suggests: libcoin60-runtime, libvtk5.4
+
+Suggests: octave, gnuplot

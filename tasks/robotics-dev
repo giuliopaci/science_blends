@@ -4,8 +4,12 @@ Description: Debian Robotics development packages
  and installs packages that are relevant to develop applications
  for robotics.
 
+Depends: libcv-dev
+
 Depends: libroboptim-core-dev 
 
 Depends: libvisp-dev
 
 Depends: libcnoid-dev
+
+Depends: libode-dev
