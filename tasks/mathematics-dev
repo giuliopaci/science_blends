@@ -107,7 +107,7 @@ Depends: libfreefem++-dev, libfreefem-dev
 
 Depends: libgivaro-dev
 
-Suggests: givaro-dev-doc, givaro-users-doc
+Suggests: givaro-dev-doc, givaro-user-doc
 
 Depends: fflas-ffpack
 
