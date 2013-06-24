@@ -85,6 +85,6 @@ Why: Partial differential equations library, FEA, CFD
 Depends: wcslib-dev, wcslib-doc
 Why: Co-ordinates system for geographical data in FITS files
 
-Depends: freefoam-dev
+Depends: libfreefoam-dev
 
 Depends: librsl-dev

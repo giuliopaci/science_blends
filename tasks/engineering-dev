@@ -13,7 +13,7 @@ Depends: libcgns-dev
 
 Depends: libitpp-dev
 
-Depends: freefoam-dev
+Depends: libfreefoam-dev
 
 Depends: libexodusii-dev
 Depends: libadios-dev, libbox-dev, libsilo-dev, libxdmf-dev
