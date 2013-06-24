@@ -37,8 +37,6 @@ Why: R CRAN
 Comment: r-cran-rcompgen, r-cran-e1071
          These packages formerly mentioned above do not seem to exist.
 
-Depends: r-other-gking-matchit
-
 Depends: r-cran-msm, r-cran-amore, r-cran-teachingdemos
 
 Depends: psignifit, python-stats
