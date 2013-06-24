@@ -32,12 +32,7 @@ Depends: mayavi2
 
 Depends: g3data
 
-Depends: grits
-Pkg-Description: Grits is a Virtual Globe library
- Grits is a "Virtual Globe" library which uses OpenGL to render an image of
- the earth using satellite and terrain data from publicly accessible servers.
- This is similar in concept to Google Earth and NASA World Wind, except
- implemented as a library.
+suggests: libgrits-dev, worldwind
 
 Suggests: med-imaging
 
