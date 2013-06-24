@@ -81,10 +81,7 @@ Depends: python-drslib
 
 Depends: python-cmor
 
-Depends: python-spherepack
-Pkg-Description: Python interface to the spherepack scientific library.
- This is a python interface to spherepack, a library for calculations on 
- spheres (geophysical).
+Depends: python-sphere
 
 Depends: cmip5-cmor-tables
 

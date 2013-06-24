@@ -47,7 +47,7 @@ Depends: libblas-doc, liblapack-doc, libfftw3-doc
 
 Depends: liblas-dev
 
-Depends: libspherepack-dev
+Depends: libsphere-dev
 
 Depends: libterralib-dev
 
