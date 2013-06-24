@@ -141,14 +141,7 @@ Pkg-Description: platform for analysis of neural signals
 Registration: http://www.chronux.org/register/
 Remark: last release more than 2 years ago, and no major vital signs since then
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
-Suggests: libbiosig0
-Published-Authors: Alois Schlögl, Clemens Brunner
-Published-DOI: 10.1109/MC.2008.407
-Published-In: Computer, 41(10): 44-50
-Published-Title: BioSig: A Free and Open Source Software Library for BCI Research
-Published-URL: http://pub.ist.ac.at/~schloegl/publications/Schloegl2007_BCI_Software.pdf
-Published-Year: 2008
+Suggests: libbiosig-dev
 
  ; Added by blends-inject 0.0.7. [Package available in Debian - extra information removed]
 Depends: sigviewer
