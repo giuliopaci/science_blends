@@ -64,7 +64,7 @@ Pkg-Description: NCAR Command Language and NCAR Graphics package
  GRIB2 (as of version 4.3.0). The graphics are world class and highly
  customizable.
 
-Depends: python-netcdf4
+Depends: python-netcdf
 
 Depends: python-grib
 License: BSD
