@@ -67,6 +67,19 @@ Depends: r-cran-fnonlinear
 
 Depends: r-cran-funitroots
 
+Depends: r-cran-wdi
+WNPP: 714629
+Homepage: https://www.github.com/vincentarelbundock/WDI
+Responsible: Sébastien Villemot <sebastien@debian.org>
+License: GPL-3
+Pkg-Description: GNU R package for accessing the World Development Indicators
+ This package gives access to the World Development Indicators (WDI), a database
+ of various development indicators, compiled by the World Bank from
+ officially-recognized international sources.
+ .
+ Note that the package does not contain the data. Instead, it provides a set of
+ user-friendly functions to download the data from the World Bank's website.
+
 Depends: rkward
 
 Depends: julia
