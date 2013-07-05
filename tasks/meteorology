@@ -100,16 +100,7 @@ Depends: aweather
 
 Depends: libdap-bin, libdap-doc
 
-Suggests: pydap
-WNPP: 640037
-License: MIT
-Responsible: Sandro Tosi <morph@debian.org>
-Pkg-Description: DAP (Data Access Protocol) client and server
- This is a Python implementation of the Data Access Protocol, a scientific
- protocol for data access developed by the OPeNDAP team
- (http://opendap.org). This implementation is developed from scratch, following
- the latest specification of the protocol (DAP 2.0 Draft Community Standard
- 2005/04/27) and based on my experience with OPeNDAP servers on the wild.
+Suggests: python-dap
 
 Depends: vistrails
 Why: Used by CDAT, vistrails is a workflow tool used to track changes made
