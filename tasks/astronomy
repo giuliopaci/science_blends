@@ -93,6 +93,9 @@ Pkg-Description: Python interface for IRAF.
 
 Depends: saods9, xpa-tools
 
+Depends: skycat
+WNPP: 719116
+
 Depends: python-pywcs, python-astropy, python-pyfits, python3-pyfits, 
          python-pyds9
 Why: Generic Python packages for astronomy
