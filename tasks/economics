@@ -68,32 +68,8 @@ Depends: r-cran-fnonlinear
 Depends: r-cran-funitroots
 
 Depends: r-cran-wdi
-WNPP: 714629
-Homepage: https://www.github.com/vincentarelbundock/WDI
-Responsible: Sébastien Villemot <sebastien@debian.org>
-License: GPL-3
-Pkg-Description: GNU R package for accessing the World Development Indicators
- This package gives access to the World Development Indicators (WDI), a database
- of various development indicators, compiled by the World Bank from
- officially-recognized international sources.
- .
- Note that the package does not contain the data. Instead, it provides a set of
- user-friendly functions to download the data from the World Bank's website.
 
 Depends: r-cran-pwt
-WNPP: 714640
-Homepage: http://cran.r-project.org/web/packages/pwt/index.html
-Responsible: Sébastien Villemot <sebastien@debian.org>
-License: GPL-2, permissive
-Pkg-Description: GNU R package for the Penn World Tables
- This package contains the Penn World Tables (PWT), which provide purchasing
- power parity (PPP) and national income accounts converted to international
- prices for most countries since 1950. The data are developed and maintained by
- scholars at the Center for International Comparisons of Production, Income and
- Prices (CIC) from the University of Pennsylvania.
- .
- The package contains several releases of the PWT, which vary in country
- coverage, time span and reference year for prices.
 
 Depends: rkward
 
