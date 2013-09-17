@@ -44,6 +44,8 @@ X-Comment: It is not really astronomy, do we need another category or
 
 Depends: gyoto
 
+Depends: skycat, erfa
+
 Depends: ftools-fv, fitsverify, fitscheck
 
 Depends: casacore-tools
