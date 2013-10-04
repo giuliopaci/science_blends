@@ -53,6 +53,8 @@ Depends: r-cran-hmisc
 
 Depends: r-cran-tseries
 
+Depends: r-cran-mfilter
+
 Depends: r-cran-lme4
 
 Depends: r-cran-mcmcpack
