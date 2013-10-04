@@ -163,10 +163,11 @@ Pkg-Description: Mathematics software written in Python
  web-based notebook interface which can run locally or connect to a
  remote Sage server over the network.
 Remark: Removed from Debian
- This package was removed from Debian but some versions are available
- from http://snapshot.debian.org/
+ This package was removed from Debian for the reasons given here:
+ http://bugs.debian.org/573538
  .
- Reasons are given here: http://bugs.debian.org/573538
+ We are working on including Sage in Debian once again and looking for
+ help, see https://wiki.debian.org/DebianScience/Sage
 
 Depends: eprover
 Pkg-URL: http://snapshot.debian.org/package/eprover/1.0.004-1/
