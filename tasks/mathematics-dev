@@ -118,3 +118,20 @@ Depends: liblevmar-dev
 Depends: libpolybori-dev, libpolybori-groebner-dev, python-polybori
 
 Depends: libquadrule-dev
+
+Depends: libcdd-dev,
+         libec-dev,
+         libgf2x-dev,
+         libiml-dev,
+         liblfunction-dev,
+         libfplll-dev,
+         liblinbox-dev,
+         liblrcalc-dev,
+         libm4ri-dev,
+         libm4rie-dev,
+         libpolybori-dev,
+         libratpoints-dev,
+         libsymmetrica-dev,
+         libtachyon-dev,
+         libzn-poly-dev
+Why: Sage dependencies

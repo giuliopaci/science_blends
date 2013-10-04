@@ -94,8 +94,6 @@ Depends: rheolef
 
 Depends: scotch
 
-Depends: singular
-
 Depends: isabelle
 Remark: upstream prefers Isabelle not being packaged
  There is an alternative software coq which is packaged in
@@ -116,8 +114,17 @@ Depends: python-deap
 Depends: mcl
 
 Depends: polybori-gui, polybori
+Why: Sage dependency
 
-Depends: palp
+Depends: eclib-tools,
+         gfan,
+         lcalc,
+         fplll-tools,
+         lrcalc,
+         palp,
+         sympow,
+         tachyon
+Why: Sage dependencies
 
 Depends: julia
 
