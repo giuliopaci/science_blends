@@ -13,6 +13,10 @@ Depends: pari-gp, pari-extra
 Depends: gap, magnus
 Why: Group theory
 
+Depends: gap-small-groups-extra, gap-trans-groups, gap-prim-groups, gap-small-groups, gap-table-of-marks, gap-guava, gap-character-tables
+
+Suggests: gap-online-help, gap-gapdoc
+
 Depends: gerris
 Why: CFD
 
