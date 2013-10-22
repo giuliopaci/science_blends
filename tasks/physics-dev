@@ -8,3 +8,5 @@ Description: Debian Science Physics-dev packages
 Depends: libfreefoam-dev
 
 Depends: pyfai
+
+Depends: libnfft3-dev

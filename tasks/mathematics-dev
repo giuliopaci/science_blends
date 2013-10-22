@@ -137,3 +137,5 @@ Depends: libcdd-dev,
 Why: Sage dependencies
 
 Depends: gap-dev
+
+Depends: libnfft3-dev
