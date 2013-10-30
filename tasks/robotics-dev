@@ -13,3 +13,15 @@ Depends: libvisp-dev
 Depends: libcnoid-dev
 
 Depends: libode-dev
+
+Package: libompl-dev
+Homepage: http://ompl.kavrakilab.org
+License: BSD-3-clause
+Responsible: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+WNPP: 706133
+Pkg-Description: Sampling-based motion planning library development files
+ Consists of a set of sampling-based motion planning
+ algorithms. The content of the library is limited to these algorithms,
+ which means there is no environment specification, no collision 
+ detection or visualization. The library is designed so it can be easily
+ integrated into systems that provide the additional needed components.
