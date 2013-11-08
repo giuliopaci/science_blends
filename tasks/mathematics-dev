@@ -139,3 +139,5 @@ Why: Sage dependencies
 Depends: gap-dev
 
 Depends: libnfft3-dev
+
+Depends: python-fftw3

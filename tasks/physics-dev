@@ -10,3 +10,5 @@ Depends: libfreefoam-dev
 Depends: pyfai
 
 Depends: libnfft3-dev
+
+Depends: python-fftw3

@@ -71,3 +71,5 @@ Depends: libmesh-dev
 Depends: libnfft3-dev
 
 Depends: libnlopt-dev
+
+Depends: python-fftw3
