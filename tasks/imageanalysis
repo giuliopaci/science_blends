@@ -22,6 +22,8 @@ Suggests: cimg-dev
 
 Suggests: libsimage-dev
 
+Suggests: libvlfeat-dev
+
 Suggests: libvisad-java
 WNPP: 641399
 Responsible: Mathieu Malaterre <mathieu.malaterre@gmail.com>
