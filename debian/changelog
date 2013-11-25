@@ -10,12 +10,14 @@ debian-science (1.1) UNRELEASED; urgency=low
     matlab-support
   * tasks/distributedcomputing: Suggest octave-openmpi-ext
   * tasks/statistics: Rename pandas to python-pandas (now in Debian)
+  * tasks/enineering: Fix typo
+    Closes: #730282
 
   [ Denis Barbier ]
   * tasks/{engineering,engineering-dev,nanoscale-physics-dev,physics}:
     opencascade had been superseded by oce
 
- -- Denis Barbier <barbier@debian.org>  Fri, 07 Jun 2013 23:44:38 +0200
+ -- Andreas Tille <tille@debian.org>  Mon, 25 Nov 2013 14:31:30 +0100
 
 debian-science (1.0) unstable; urgency=low
 
