@@ -216,19 +216,6 @@ Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/17583985
 Depends: itksnap
 
 Depends: python-pypsignifit
-Homepage: http://psignifit.sourceforge.net/
-License: MIT
-Language: C++, Python
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-WNPP: 580499
-Pkg-Description: fitting and testing hypotheses about psychometric functions
- This package allows fitting of psychometric functions to datasets while
- maintaining full control over a large number of parameters. Psignifit performs
- the calculation of confidence intervals as well as goodness-of-fit tests.
- .
- This is the successor of 'psignifit' a commandline-based toolbox. The new
- version is primarily a python module, but other bindings will be added
- eventually.
 
 Depends: python-statsmodels
 
