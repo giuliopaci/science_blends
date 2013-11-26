@@ -109,31 +109,9 @@ Suggests: pdl, pgplot5, python-scientific
 Why: Already in science-viewing
 
 Depends: orbfit
-Homepage: http://newton.dm.unipi.it/orbfit/
-WNPP: 459154
-License: GPL
-Responsible: Steffen Moeller <steffen_moeller@gmx.de>
-Pkg-Description: computation of asteroidal orbits
- OrbFit is a software system allowing one to compute the orbits
- of asteroids (soon also comets) starting from the observations,
- to propagate these orbits, and to compute predictions on the future
- (and past) position on the celestial sphere. It is a tool to be used
- to find a well known asteroid, to recover a lost one, to attribute a
- small group of observations, to identify two orbits with each other,
- to study the future (and/or past) close approaches to Earth, thus to
- assess the risk of an impact, and more.
- .
- OrbFit has been developed by a team of professional scientists, working
- in the field of asteroid and comet dynamics, orbit determination,
- nonlinear and chaotic dynamics, and astrometry. The composition of the
- OrbFit consortium, and the motivations for this work, are described
- below.
- .
- Status of packaging:
- .
+Remark: Status of packaging
  A rudimentary package was prepared, upstream was contacted with a very
- positive reply. The packaging bits will be injected to pkg-scicomp
- in near future.
+ positive reply.
 
 Depends: linoccult
 Homepage: http://linoccult.sourceforge.net/
