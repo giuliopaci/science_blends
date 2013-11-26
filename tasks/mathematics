@@ -150,25 +150,6 @@ Remark: Removed from Debian
 
 Depends: sagemath
 Pkg-URL: http://snapshot.debian.org/package/sagemath/
-Homepage: http://sagemath.org/
-Pkg-Description: Mathematics software written in Python
- Sage is a mathematical software package with support for a wide range
- of mathematics, including algebra, calculus, elementary to very
- advanced number theory, cryptography, numerical computation,
- commutative algebra, group theory, combinatorics, graph theory, and
- exact linear algebra.
- .
- Sage integrates several dozen mathematical software packages, making
- it possible to combine the best algorithms from several different
- packages together in a single Sage program.
- .
- Much of the Sage core and the Sage interfaces are implemented in
- Cython, helping Sage avoid the usual performance problems associated
- with Python.
- .
- Sage has a friendly command-line interface based on iPython and a
- web-based notebook interface which can run locally or connect to a
- remote Sage server over the network.
 Remark: Removed from Debian
  This package was removed from Debian for the reasons given here:
  http://bugs.debian.org/573538
