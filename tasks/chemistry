@@ -117,11 +117,6 @@ Pkg-Description: processing program of molecular and electronic structure
  one.
 
 Depends: molekel
-Homepage: http://bioinformatics.org/molekel/
-License: GPL-2+
-Responsible: Michael Banck <mbanck@debian.org>
-Pkg-URL: http://svn.debian.org/wsvn/debichem/wnpp/molekel/?rev=0&sc=1
-Pkg-Description: Advanced Interactive 3D-Graphics for Molecular Sciences
 
 Depends: tinker
 Homepage: http://dasher.wustl.edu/tinker/
