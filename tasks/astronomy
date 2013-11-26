@@ -74,13 +74,6 @@ Pkg-Description: Image Reduction and Analysis Facility.
  applications are written.
 
 Depends: x11iraf
-WNPP: 711036
-Homepage: http://iraf.noao.edu
-License: MIT, with no-ad clause
-Pkg-Description: Graphical tools to work with IRAF
- x11iraf provides graphical tools to work with IRAF, notably xgterm and
- XImtool. IRAF (Image Reduction and Analysis Facility) is a general purpose
- software system for the reduction and analysis of astronomical data.
 
 Depends: python-pyraf
 
