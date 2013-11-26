@@ -95,25 +95,9 @@ Remark: How to work together with upstream
  compiling it from source and packaging issues at
  http://research.yale.edu/bioimagesuite/forum/index.php?board=12.0
 
-
 Depends: afni
-Homepage: http://afni.nimh.nih.gov/
 WNPP: 409849
-Responsible: Michael Hanke <michael.hanke@gmail.com>
-License: GPL
 Pkg-URL: http://neuro.debian.net/pkgs/afni.html
-Pkg-Description: environment for processing and displaying functional MRI data
- AFNI is an environment for processing and displaying functional
- MRI data. It provides a complete analysis toolchain, including
- 3D cortical surface models, and mapping of volumetric data (SUMA).
- In addition to its own format AFNI understands the NIfTI format and is
- therefore easily usable in combination with FSL and Freesurfer.
-Published-Title: AFNI: Software for analysis and visualization of functional magnetic resonance neuroimages
-Published-Authors: Robert W. Cox
-Published-In: Computers and Biomedical Research, 29:162-173
-Published-Year: 1996
-Published-URL: http://afni.nimh.nih.gov/pub/dist/doc/papers/afni_paper1.pdf
-
 
 Depends: mni-autoreg
 Homepage: http://www.bic.mni.mcgill.ca/software/mni_autoreg/
