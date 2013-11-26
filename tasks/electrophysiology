@@ -284,16 +284,7 @@ Suggests: libeegdev-dev
 Suggests: libmcpanel-dev
 
 Suggests: eegview
-Homepage: http://cnbi.epfl.ch/software/eegview.html
-Language: C
-Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
-License: GPL-3
-Pkg-Description: Software to display/record EEG signals
- eegview is a small software to display/record EEG signals. It is 
- particularly useful when used as the acquisition part of a offline protocol 
- or for checking that electrodes are correctly placed...
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: aghermann
 
  ; Added by blends-inject 0.0.7. [Please note here if modified manually]
