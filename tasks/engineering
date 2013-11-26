@@ -57,19 +57,6 @@ Depends: syrthes
 Depends: freefoam
 
 Depends: brlcad
-Homepage: http://my.brlcad.org/
-WNPP: 289632
-License: GPL
-Responsible: none
-Pkg-Description: A Combinatorial/Constructive Solid Geometry, solid modeling system
- BRL-CAD is a powerful Combinatorial/Constructive Solid Geometry (CSG)
- solid modeling system that includes an interactive geometry editor,
- ray-tracing support for rendering and geometric analysis,
- network-distributed framebuffer support, image and signal-processing
- tools, and an embedded scripting language. It has been developed over
- a 20 year period and is now a stable mature product. This is the
- first GPL'ed release of the package. It is being maintained by the
- US Army Research laboratory (ARL).
 
 Depends: avl
 Homepage: http://web.mit.edu/drela/Public/web/avl/
