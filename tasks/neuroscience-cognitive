@@ -225,14 +225,7 @@ Published-In: Journal of Cognitive Neuroscience, 19: 1081-1088
 Published-Year: 2007
 Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/17583985
 
-
 Depends: itksnap
-Published-Title: User-guided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability
-Published-Authors: Paul A. Yushkevich, Joseph Piven, Heather Cody Hazlett, Rachel Gimpel Smith, Sean Ho, James C. Gee, and Guido Gerig
-Published-In: Neuroimage, 31: 1116-1128
-Published-Year: 2006
-Published-DOI: 10.1016/j.neuroimage.2006.01.015
-
 
 Depends: python-pypsignifit
 Homepage: http://psignifit.sourceforge.net/
