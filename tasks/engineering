@@ -126,18 +126,9 @@ Remark: Removed from Debian
  Reasons are given here: http://bugs.debian.org/503504
 
 Depends: salome
-Homepage: http://www.salome-platform.org/
-Pkg-URL: http://snapshot.debian.org/package/salome/
-Pkg-Description: Numerical simulation pre- and post-processor
- Salomé is a pre- and post-processor for numerical simulations.  It can import
- CAD files in IGES and STEP formats, facilitates component integration in
- heterogeneous systems, and has a user-friendly GUI as well as a Python console
- with all of the platform functionality.
- .
- This package contains the Salomé core runtime binaries, private libraries, and
- python files comprising a basic Salomé installation.
+Pkg-URL: http://snapshots.debian.org/package/salome/
 Remark: Removed from Debian
  This package was removed from Debian but some versions are available
- from http://snapshot.debian.org/
+ from http://snapshots.debian.org/
  .
  Reasons are given here: http://bugs.debian.org/657433
