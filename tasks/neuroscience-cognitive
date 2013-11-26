@@ -26,13 +26,6 @@ Why: Psychometric function fitting.
 
 Depends: amide
 Why: Flexible volume slicing and rendering.
-Published-Title: AMIDE: A Free Software Tool for Multimodality Medical Image Analysis
-Published-Authors: Andreas M. Loening, Sanjiv S. Gambhir
-Published-In: Molecular Imaging, 2: 131-137
-Published-Year: 2003
-Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/14649056
-Published-DOI:
-
 
 Depends: dicomnifti
 Why: Fully automated DICOM-to-NIfTI converter.
