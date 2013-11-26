@@ -72,17 +72,6 @@ Depends: pgadmin3
 
 Depends: openjump
 Pkg-URL: http://snapshot.debian.org/package/openjump/
-Homepage: http://jump-pilot.sourceforge.net/
-Pkg-Description: Open Java Unified Mapping Platform JUMP
- The Open Java Unified Mapping Platform (JUMP) is a GUI-based application
- for viewing and processing spatial data.  It includes many common spatial
- and GIS functions.
- .
- OpenJUMP has the following features:
-  * provides viewing, editing, and processing spatial datasets
-  * provides an API giving full programmatic access
-  * loading map data using WMS
-  * is highly modular and extensible
 Remark: Removed from Debian
  This package was removed from Debian but some versions are available
  from http://snapshot.debian.org/
