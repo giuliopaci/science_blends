@@ -56,64 +56,30 @@ Depends: fsl-harvard-oxford-atlases
 License: custom, non-commerical
 Remark: This package is waiting for the Debian data package archive to become available.
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-harvard-oxford-atlases.html
-Published-Authors: Rahul S Desikan and Florent Segonne and Bruce Fischl and Brian T Quinn and Bradford C Dickerson and Deborah Blacker and Randy L Buckner and Anders M Dale and R Paul Maguire and Bradley T Hyman and Marilyn S Albert and Ronald J Killiany
-Published-Title: An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest.
-Published-In: Neuroimage, 31: 968–980
-Published-Year: 2006
-Published-DOI: 10.1016/j.neuroimage.2006.01.021
 
 Depends: fsl-juelich-histological-atlas
 Remark: This package is waiting for the Debian data package archive to become available.
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-juelich-histological-atlas.html
-Published-Authors: Simon B Eickhoff, Klaas E Stephan, Hartmut Mohlberg, Christian Grefkes, Gereon R Fink, Katrin Amunts, Karl Zilles
-Published-Title: A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data.
-Published-In: Neuroimage, 25: 1325–1335
-Published-Year: 2005
-Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/15850749
 
 Depends: fsl-jhu-dti-whitematter-atlas
 Remark: This package is waiting for the Debian data package archive to become available.
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-jhu-dti-whitematter-atlas.html
-Published-Authors: Kegang Hua, Jiangyang Zhang, Setsu Wakana, Hangyi Jiang, Xin Li, Daniel S Reich, Peter A Calabresi, James J Pekar, Peter C M van Zijl, Susumu Mori
-Published-Title: Tract probability maps in stereotaxic spaces: analyses of white matter anatomy and tract-specific quantification.
-Published-In: Neuroimage, 39: 336–347
-Published-Year: 2008
-Published-DOI: 10.1016/j.neuroimage.2007.07.053
 
 Depends: fsl-mni-structural-atlas
 Remark: This package is waiting for the Debian data package archive to become available.
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-mni-structural-atlas.html
-Published-Authors: J. Mazziotta, A. Toga, A. Evans, P. Fox, J. Lancaster, K. Zilles, R. Woods, T. Paus, G. Simpson, B. Pike and others
-Published-Title: A probabilistic atlas and reference system for the human brain: International Consortium for Brain Mapping (ICBM)
-Published-In: The Royal Society Philosophical Transactions B, 356: 1293–1322
-Published-Year: 2001
 
 Depends: fsl-talairach-daemon-atlas
 Remark: This package is waiting for the Debian data package archive to become available.
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-talairach-daemon-atlas.html
-Published-Authors: J L Lancaster, M G Woldorff, L M Parsons, M Liotti, C S Freitas, L Rainey, P V Kochunov, D Nickerson, S A Mikiten, P T Fox
-Published-Title: Automated Talairach atlas labels for functional brain mapping.
-Published-In: Human Brain Mapping, 10: 120–131
-Published-Year: 2000
-Published-URL: http://www.ncbi.nlm.nih.gov/pubmed/10912591
 
 Depends: fsl-oxford-thalamic-connectivity-atlas
 Remark: This package is waiting for the Debian data package archive to become available.
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-oxford-thalamic-connectivity-atlas.html
-Published-Authors: TEJ Behrens, H. Johansen-Berg, MW Woolrich, SM Smith, CAM Wheeler-Kingshott, PA Boulby, GJ Barker, EL Sillery, K. Sheehan, O. Ciccarelli and others
-Published-Title: Non-invasive mapping of connections between human thalamus and cortex using diffusion imaging.
-Published-In: Nature Neuroscience, 6: 750–757
-Published-Year: 2003
 
 Depends: fsl-bangor-cerebellar-atlas
 Remark: This package is waiting for the Debian data package archive to become available.
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-bangor-cerebellar-atlas.html
-Published-Authors: Jörn Diedrichsen, Joshua H Balsters, Jonathan Flavell, Emma Cussans, Narender Ramnani
-Published-Title: A probabilistic MR atlas of the human cerebellum.
-Published-In: Neuroimage, 46: 39–46
-Published-Year: 2009
-Published-DOI: 10.1016/j.neuroimage.2009.01.045
-
 
 Depends: mclaren-rhesus-macaque-atlas
 License: GPL-3
