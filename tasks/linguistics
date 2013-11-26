@@ -16,6 +16,7 @@ Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
 Suggests: libtimbl3-dev, libtimbl4-dev, libtimblserver2-dev, libmbt0-dev, libucto1-dev, libfolia1-dev
 
 Suggests: python-timbl
+WNPP: 705129
 
 Suggests: wnsqlbuilder
 Homepage: http://wnsqlbuilder.sf.net
