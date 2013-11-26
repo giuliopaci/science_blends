@@ -30,19 +30,15 @@ Why: Flexible volume slicing and rendering.
 Depends: dicomnifti
 Why: Fully automated DICOM-to-NIfTI converter.
 
-
 Depends: minc-tools, medcon, xmedcon, nifti-bin
 Why: Misc. image handling tools
-
 
 Depends: python-nifti
 Why: Python IO library for the NIfTI format.
 
-
 Depends: fsl
 Why: Comprehensive MRI analysis suite.
 Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
-
 
 Depends: fslview
 Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
@@ -53,16 +49,8 @@ Published-Year: 2004
 Published-URL: http://dx.doi.org/10.1016/j.neuroimage.2004.07.051
 Published-DOI: 10.1016/j.neuroimage.2004.07.051
 
-
 Depends: python-mvpa
 Why: Framework for multivariate pattern analysis of neuroimaging datasets.
-Published-Title: PyMVPA: a unifying approach to the analysis of neuroscientific data
-Published-Authors: Michael Hanke, Yaroslav O. Halchenko, Per B. Sederberg, Emanuele Olivetti, Ingo Fründ, Jochem W. Rieger, Christoph S. Herrmann, James V. Haxby, Stephen José Hanson, Stefan Pollmann
-Published-In: Frontiers in Neuroinformatics, 3:3
-Published-Year: 2009
-Published-URL: http://www.frontiersin.org/neuroinformatics/paper/10.3389/neuro.11/003.2009/
-Published-DOI: 10.3389/neuro.11.003.2009
-
 
 Depends: caret
 Why: Cortical reconstruction and volume-to-surface mapping.
