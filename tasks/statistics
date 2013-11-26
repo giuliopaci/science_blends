@@ -17,7 +17,7 @@ Depends: r-cran-mapproj, r-cran-abind, r-cran-bayesm, \
             r-cran-effects, r-cran-fbasics, \
             r-cran-fcopulae, r-cran-fecofin, r-cran-fextremes, \
             r-cran-fmultivar, r-cran-foptions, r-cran-foreign, \
-            r-cran-fportfolio, r-cran-fseries, r-cran-gdata, r-cran-gmodels, \
+            r-cran-fportfolio, r-cran-timedate, r-cran-gdata, r-cran-gmodels, \
             r-cran-gplots, r-cran-gregmisc, r-cran-gtools, r-cran-hdf5, \
             r-cran-hmisc, r-cran-its, r-cran-kernsmooth, r-cran-lattice, \
             r-cran-latticeextra, r-cran-lme4, r-cran-lmtest, r-cran-mapdata, \
