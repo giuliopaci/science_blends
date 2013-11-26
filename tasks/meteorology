@@ -19,7 +19,6 @@ Depends: grads
 Why: Used as default tool for viewing BUFR files.
 
 Depends: ferret-vis
-Pkg-Description: Analysis and Visualisation tool for meteorologists
 
 Depends: magics++
 
@@ -67,15 +66,6 @@ Pkg-Description: NCAR Command Language and NCAR Graphics package
 Depends: python-netcdf
 
 Depends: python-grib
-License: BSD
-Homepage:  https://pygrib.googlecode.com/svn/trunk/docs/index.html
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: python library for reading/writing GRIB files
- Python module for reading and writing GRIB (editions 1 and 2) files.
- GRIB is the World Meterological Organization standard for
- distributing gridded data. The module is a python interface
- to the GRIB API C library from the 
- European Centre for Medium-Range Weather Forecasts (ECMWF).
 
 Depends: python-drslib
 

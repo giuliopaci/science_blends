@@ -11,15 +11,6 @@ Why: standard library for BUFR formats
 Depends: libgadap-dev
 
 Depends: libcmor-dev
-Pkg-Description: Development files for Climate Model Output Rewriter
- The "Climate Model Output Rewriter" (CMOR, pronounced "Seymour")
- comprises a set of C-based functions, with bindings to both python
- and FORTRAN 90, that can be used to produce CF-compliant netCDF files
- that fulfill the requirements of many of the climate community's
- standard model experiments. These experiments are collectively
- referred to as MIP's and include, for example, AMIP, CMIP, CFMIP,
- PMIP, APE, and IPCC scenario runs. The output resulting from CMOR
- is "self-describing" and facilitates analysis of results across models.
 
 Depends: libgrib-api-dev, libgrib-api-tools
 Why: grib-api is the standard library for GRIB2 file management.
