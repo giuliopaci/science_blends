@@ -282,14 +282,6 @@ Suggests: librtfilter-dev
 Suggests: libeegdev-dev
 
 Suggests: libmcpanel-dev
-Homepage: http://cnbi.epfl.ch/software/mcpanel.html
-Language: C
-Responsible: Nicolas Bourdaud <nicolas.bourdaud@gmail.com>
-License: GPL-3
-Pkg-Description: Library providing a scope for multichannel signals
- mcpanel is a library that provides a scope interface for displaying
- multichannel signal based on Gtk+. It has been designed to implement easily
- a realtime display of signal and can be easily integrated in other projects.
 
 Suggests: eegview
 Homepage: http://cnbi.epfl.ch/software/eegview.html
