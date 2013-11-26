@@ -126,9 +126,9 @@ Remark: Removed from Debian
  Reasons are given here: http://bugs.debian.org/503504
 
 Depends: salome
-Pkg-URL: http://snapshots.debian.org/package/salome/
+Pkg-URL: http://snapshot.debian.org/package/salome/
 Remark: Removed from Debian
  This package was removed from Debian but some versions are available
- from http://snapshots.debian.org/
+ from http://snapshot.debian.org/
  .
  Reasons are given here: http://bugs.debian.org/657433
