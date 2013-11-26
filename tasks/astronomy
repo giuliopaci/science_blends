@@ -83,15 +83,6 @@ Pkg-Description: Graphical tools to work with IRAF
  software system for the reduction and analysis of astronomical data.
 
 Depends: python-pyraf
-WNPP: 711038
-Homepage: http://www.stsci.edu/institute/software_hardware/pyraf
-License: BSD-3-Clause
-Pkg-Description: Python interface for IRAF.
- PyRAF is a command language for running IRAF tasks that is based on the
- Python scripting language. It gives users the ability to run IRAF tasks in an
- environment that has all the power and flexibility of Python. PyRAF can be
- installed along with an existing IRAF installation; users can then choose to
- run either PyRAF or the IRAF CL.
 
 Depends: saods9, xpa-tools
 
