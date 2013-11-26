@@ -6,4 +6,4 @@ Description: Debian Science data acquisition development packages
 
 Depends: libnarval1-dev
 
-Depends: libtango8-dev, liblog4tango4-dev
+Depends: libtango8-dev, liblog4tango5-dev
