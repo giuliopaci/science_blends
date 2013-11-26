@@ -9,8 +9,8 @@ Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
 Build-Depends-Indep: blends-dev (>= 0.6.15)
 Standards-Version: 3.9.3
 Homepage: http://wiki.debian.org/DebianScience/
-Vcs-Browser: http://svn.debian.org/wsvn/blends/projects/science/trunk/debian-science/
-Vcs-Svn: svn://svn.debian.org/blends/projects/science/trunk/debian-science/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=blends/projects/science.git
+Vcs-Git: git://anonscm.debian.org/blends/projects/science.git
 
 Package: science-tasks
 Architecture: all

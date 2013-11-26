@@ -3,6 +3,9 @@ debian-science (1.1) UNRELEASED; urgency=low
   [ Andreas Tille ]
   * tasks/robotics-dev: Development of robotics applications
   * tasks/financial: Packages for financial engineering
+  * tasks/enineering: Fix typo
+    Closes: #730282
+  * Moved Vcs to Git
 
   [ Sébastien Villemot ]
   * tasks/economics: Add new task for economics
@@ -10,8 +13,6 @@ debian-science (1.1) UNRELEASED; urgency=low
     matlab-support
   * tasks/distributedcomputing: Suggest octave-openmpi-ext
   * tasks/statistics: Rename pandas to python-pandas (now in Debian)
-  * tasks/enineering: Fix typo
-    Closes: #730282
 
   [ Denis Barbier ]
   * tasks/{engineering,engineering-dev,nanoscale-physics-dev,physics}:
