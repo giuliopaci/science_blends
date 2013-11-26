@@ -12,7 +12,9 @@ Depends: qtdmm
 
 Depends: g3data
 
-Suggests: libgpib-bin
+X-Suggests: libgpib-bin
+Comment: Removed from Debian see
+ http://snapshot.debian.org/package/gpib/3.2.11-2.1/
 
 Depends: ktimetrace
 
