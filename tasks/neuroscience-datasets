@@ -47,28 +47,10 @@ Published-In: J Comput Assist Tomogr, 22: 324-333
 Published-Year: 1998
 Remark: This package is waiting for the Debian data package archive to become available.
 
-
 Depends: haxby2001-faceobject
-Homepage: http://data.pymvpa.org/datasets/haxby2001
-License: CC-BY-SA
-Responsible: NeuroDebian team <team@neuro.debian.net>
 Pkg-URL: http://neuro.debian.net/pkgs/haxby2001-faceobject.html
-Pkg-Description: face and object processing in ventral temporal cortex (fMRI)
- This is data from a block-design fMRI study on face and object representation
- in human ventral temporal cortex.  The full datasets consists of 6 subjects
- with 12 runs per subject. In each run, the subjects passively viewed grey scale
- images of eight object categories, grouped in 24s blocks separated by rest
- periods. Each image was shown for 500ms and was followed by a 1500ms
- inter-stimulus interval.  Full-brain fMRI data were recorded with a volume
- repetition time of 2.5s.
-Published-Authors: James V. Haxby, M. I. Gobbini, M. L. Furey, A. Ishai, J. L. Schouten, P. Pietrini
-Published-Title: Distributed and overlapping representations of faces and objects in ventral temporal cortex.
-Published-In: Science, 293: 2425-2430
-Published-Year: 2001
-Published-DOI: 10.1126/science.1063736
 Remark: This package is waiting for the Debian data package archive to become
  available.
-
 
 Depends: fsl-harvard-oxford-atlases
 License: custom, non-commerical
