@@ -19,10 +19,6 @@ Depends: python-silo, libsilo-bin
 Depends: gerris
 
 Depends: gmsh
-Published-Title: Gmsh: a three-dimensional nite element mesh generator with built-in pre- and post-processing facilities
-Published-Authors: Christophe Geuzaine and Jean-Francois Remacle
-Published-In: INTERNATIONAL JOURNAL FOR NUMERICAL METHODS IN ENGINEERING
-Published-Year: 2009
 
 Depends: getdp
 Published-Authors: P. Dular and C. Geuzaine and A. Genon and W. Legros
