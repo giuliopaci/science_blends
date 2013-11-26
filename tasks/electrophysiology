@@ -13,22 +13,7 @@ Suggests: science-neuroscience-modeling
 
 Suggests: science-dataacquisition
 
-
 Depends: openelectrophy
-Homepage: http://packages.python.org/OpenElectrophy
-License: Cecill v2 (GPL-compatible)
-Language: Python
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-WNPP: 556552
-Published-Title: OpenElectrophy: an electrophysiological data- and analysis-sharing framework
-Published-Authors: Samuel Garcia* and Nicolas Fourcaud-Trocmé
-Published-In: Frontiers in Neuroinformatics, 3:14
-Published-Year: 2009
-Published-DOI: 10.3389/neuro.11.014.2009
-Pkg-Description: data analysis framework for intra- and extra-cellular recordings
- This package provide a library und GUI for analyzing electrophysiological
- data. The data handling and storage uses a MySQL-server. The package is written
- in pure Python.
 
  ; Added by blends-inject 0.0.3. [Please note here if modified manually]
 Suggests: spike
