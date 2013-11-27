@@ -13,21 +13,7 @@ Description: Debian Science packages for modeling of neural systems
 
 Depends: python-brian
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
-Suggests: pynn
-Homepage: http://neuralensemble.org/trac/PyNN
-Language: Python
-WNPP: 604159
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-License: CeCILL-2
-Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/pynn.git
-Vcs-Git: git://git.debian.org/git/pkg-exppsy/pynn.git
-Pkg-URL: http://neuro.debian.net/pkgs/pynn.html
-Pkg-Description: simulator-independent specification of neuronal network models
- PyNN allows to code for a model once and run it without modification
- on any simulator that PyNN supports (currently NEURON, NEST, PCSIM
- and Brian).  PyNN translates standard cell-model names and parameter
- names into simulator-specific names.
+Suggests: python-pynn
 
  ; Added by blends-inject 0.0.5. [Please note here if modified manually]
 Suggests: moose
