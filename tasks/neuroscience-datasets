@@ -68,26 +68,9 @@ Remark: This package is waiting for the Debian data package archive to become av
 Pkg-URL: http://neuro.debian.net/pkgs/fsl-bangor-cerebellar-atlas.html
 
 Depends: mclaren-rhesus-macaque-atlas
-License: GPL-3
-Homepage: http://brainmap.wisc.edu/pages/2-Rhesus-Macaque-Atlases-for-functional-and
 Pkg-URL: http://neuro.debian.net/debian/pool/main/m/mclaren-rhesus-macaque-atlas/
-Responsible: NeuroDebian team <team@neuro.debian.net>
 Remark: Upstream agreed to change the license to GPL-3 (might not yet be
  reflected on the webpage yet)
-Pkg-Description: MRI-based brain atlas of the rhesus macaque monkey
- A population-average MRI-based atlas collection for the rhesus macaque (Macaca
- mulatta) that can be used with common brain mapping packages such as SPM or
- FSL. In addition to T1-weighted atlas data, probabilistic tissue classification
- maps and T2-weighted atlases were also created. Theses atlases are aligned to
- the MRI volume from the Saleem, K.S. and Logothetis, N.K. (2006) atlas
- providing an explicit link to histological sections. Additionally, there is
- a transform to integrate these atlases with the F99 surface-based atlas in
- CARET.
-Published-Authors: McLaren DG, Kostmatka KJ, Oakes TR, Kroenke CD, Kohama SG, Matochik JA, Ingram DK, and Johnson SC.
-Published-Title: A Population-Average MRI-Based Atlas Collection of the Rhesus Macaque.
-Published-In: Neuroimage, 45: 52-9
-Published-Year: 2009
-Published-DOI: 10.1016/j.neuroimage.2008.10.058
 
 Depends: sri24-atlas
 License: CC-BY-SA-3.0
