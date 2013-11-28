@@ -182,19 +182,6 @@ Pkg-Description: Point Cloud Library
  written in C++ and released under the BSD license.
 
 Depends: gazebo
-Homepage: http://gazebosim.org/
-Responsible: Thomas Moulard <thomas.moulard@gmail.com>
-WNPP: 705440
-License: Apache
-Pkg-Description: Gazebo multi-robot simulator
- Gazebo is a multi-robot simulator for outdoor environments. Like
- Stage (part of the Player project), it is capable of simulating a
- population of robots, sensors and objects, but does so in a
- three-dimensional world. It generates both realistic sensor feedback
- and physically plausible interactions between objects (it includes an
- accurate simulation of rigid-body physics).
-
-
 
 Depends: openrave
 Homepage: http://openrave.org/
