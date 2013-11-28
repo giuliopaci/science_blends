@@ -106,29 +106,7 @@ Pkg-Description: programming and running psychological experiments
   * Online Documentation.
 Remark: Depends on libhid removed from Debian due to needed TLC
 
- ; Added by blends-inject 0.0.7. [Please note here if modified manually]
 Suggests: debruijn
-Homepage: http://www.cfn.upenn.edu/aguirre/wiki/public:de_bruijn_software
-Language: C++
-Responsible: NeuroDebian Team <team@neuro.debian.net>
-License: BSD (4-clause)
-Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/debruijn.git
-Vcs-Git: git://git.debian.org/git/pkg-exppsy/debruijn.git
-Pkg-URL: http://neuro.debian.net/pkgs/debruijn.html
-Pkg-Description: De Bruijn cycle generator
- Continuous carry-over, fMRI experiments present stimuli in a counter-balanced
- sequence, meaning every stimulus precedes and follows every other. Higher
- level counterbalancing is useful to guard against some modeling assumptions
- of the approach and to test for the effects of stimulus history and context.
- Sequences that efficiently provide this control of stimulus order are called
- de Bruijn cycles.
- .
- This package provides a commandline tool to generate de Bruijn cycles.
-Published-Authors: GK Aguirre, MG Mattar, L Magis-Weinberg
-Published-DOI: 10.1016/j.neuroimage.2011.02.005
-Published-In: NeuroImage 56: 1293-1300
-Published-Title: de Bruijn cycles for neural decoding
-Published-Year: 2011
 
 Depends: nrec
 Homepage: http://nrec.neurologie.uni-tuebingen.de/nrec
