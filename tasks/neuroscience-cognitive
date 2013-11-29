@@ -42,12 +42,6 @@ Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
 
 Depends: fslview
 Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
-Published-Title: Advances in functional and structural MR image analysis and implementation as FSL
-Published-Authors: S.M. Smith, M. Jenkinson, M.W. Woolrich, C.F. Beckmann, T.E.J. Behrens, H. Johansen-Berg, P.R. Bannister, M. De Luca, I. Drobnjak, D.E. Flitney, R. Niazy, J. Saunders, J. Vickers, Y. Zhang, N. De Stefano, J.M. Brady, P.M. Matthews
-Published-In: NeuroImage, 23:208-219
-Published-Year: 2004
-Published-URL: http://dx.doi.org/10.1016/j.neuroimage.2004.07.051
-Published-DOI: 10.1016/j.neuroimage.2004.07.051
 
 Depends: python-mvpa
 Why: Framework for multivariate pattern analysis of neuroimaging datasets.
