@@ -59,7 +59,6 @@ Depends: python-pyraf
 Depends: saods9, xpa-tools
 
 Depends: skycat
-WNPP: 719116
 
 Depends: python-pywcs, python-astropy, python-pyfits, python3-pyfits, 
          python-pyds9
