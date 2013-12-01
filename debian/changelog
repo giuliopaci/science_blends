@@ -11,7 +11,7 @@ debian-science (1.1) UNRELEASED; urgency=low
   * tasks/economics: Add new task for economics
   * tasks/{mathematics, numericalcomputation}: Add julia, suggest
     matlab-support
-  * tasks/distributedcomputing: Suggest octave-openmpi-ext
+  * tasks/distributedcomputing: Suggest octave-mpi
   * tasks/statistics: Rename pandas to python-pandas (now in Debian)
 
   [ Denis Barbier ]
