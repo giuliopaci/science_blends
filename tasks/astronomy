@@ -60,7 +60,7 @@ Depends: saods9, xpa-tools
 
 Depends: skycat
 
-Depends: python-pywcs, python-astropy, python-pyfits, python3-pyfits, 
+Depends: python-pywcs, python-astropy, python-pyfits, python3-pyfits,
          python-pyds9
 Why: Generic Python packages for astronomy
 
