@@ -168,9 +168,9 @@ Language: C
 WNPP: 611211
 License: GPL-2+
 Pkg-Description: Data Acquisition and Neural Spike Processing Software
- BlueSpike is an electrophysiology tool to perform real-time data 
- acquisition, visualization and sorting of neuronal spikes. It 
- continuously acquires data every 1 ms and realizes digital signal 
+ BlueSpike is an electrophysiology tool to perform real-time data
+ acquisition, visualization and sorting of neuronal spikes. It
+ continuously acquires data every 1 ms and realizes digital signal
  processing on retrieved data. Contains four components:
  .
  - KernelSpike: a kernel module.
