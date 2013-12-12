@@ -96,7 +96,7 @@ License: BSD
 Pkg-Description:  Modular Machine Learning Library
  PyBrain is a modular machine learning library for Python. Its goal is to offer
  flexible, easy-to-use yet still powerful algorithms for Machine Learning Tasks
- and a variety of predefined environments to test and compare your algorithms. 
+ and a variety of predefined environments to test and compare your algorithms.
  .
  PyBrain currently features algorithms for Supervised Learning, Unsupervised
  Learning, Reinforcment Learning and Black-box Optimization.
