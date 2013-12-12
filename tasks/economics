@@ -127,7 +127,7 @@ Pkg-Description: collection of Python packages for economics related research
  Packages will include the following fields:
  - econometrics
  - agent-based simulation
- - utilities 
+ - utilities
 
 Suggests: ess
 
