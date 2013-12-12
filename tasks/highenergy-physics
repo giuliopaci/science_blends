@@ -55,7 +55,7 @@ Depends: libroot-bindings-python5.34, libroot-bindings-ruby5.34, libroot-graf3d-
          libroot-montecarlo-eg5.34, libroot-montecarlo-vmc5.34, libroot-net5.34, libroot-net-auth5.34, libroot-proof5.34, \
          libroot-proof-proofplayer5.34, libroot-tmva5.34, libroot-tree5.34, libroot-tree-treeplayer5.34, \
          libroot-core5.34
-         
+
 Depends: root-plugin-graf2d-asimage, root-plugin-geom-gdml, root-plugin-gui-qt, root-plugin-graf2d-qt, \
          root-plugin-math-fftw3, root-plugin-math-minuit2, root-plugin-montecarlo-pythia8, root-plugin-net-globus, \
          root-plugin-net-krb5, root-plugin-proof-peac, root-plugin-sql-mysql, root-plugin-sql-odbc, \
