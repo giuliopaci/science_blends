@@ -20,11 +20,11 @@ Depends: r-cran-mapproj, r-cran-abind, r-cran-bayesm, \
             r-cran-fportfolio, r-cran-timedate, r-cran-gdata, r-cran-gmodels, \
             r-cran-gplots, r-cran-gregmisc, r-cran-gtools, r-cran-hdf5, \
             r-cran-hmisc, r-cran-its, r-cran-kernsmooth, r-cran-lattice, \
-            r-cran-latticeextra, r-cran-lme4, r-cran-lmtest, r-cran-mapdata, \
-            r-cran-maps, r-cran-matchit, r-cran-matrix, r-cran-mcmcpack, \
-            r-cran-mgcv, r-cran-misc3d, r-cran-mnp, r-cran-multcomp, \
-            r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, r-cran-psy, \
-            r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, \
+            r-cran-latticeextra, r-cran-lhs, r-cran-lme4, r-cran-lmtest, \
+            r-cran-mapdata, r-cran-maps, r-cran-matchit, r-cran-matrix, \
+            r-cran-mcmcpack, r-cran-mgcv, r-cran-misc3d, r-cran-mnp, \
+            r-cran-multcomp, r-cran-mvtnorm, r-cran-nlme, r-cran-pscl, \
+            r-cran-psy, r-cran-qtl, r-cran-quadprog, r-cran-rcmdr, \
             r-cran-relimp, r-cran-rggobi, r-cran-rgl, r-cran-rgtk2, \
             r-cran-rmpi, r-cran-rmysql, r-cran-rodbc, \
             r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, \
