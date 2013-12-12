@@ -19,7 +19,7 @@ Why: Perl based numerical programming environment similar to Matlab
 Depends: gnudatalanguage
 Why: numerical programming environment compatible with IDL
 
-Depends: scilab, scilab-sivp, scilab-scimax, scilab-swt, scilab-ann, 
+Depends: scilab, scilab-sivp, scilab-scimax, scilab-swt, scilab-ann,
  scilab-plotlib
 
 Depends: freemat
@@ -66,11 +66,11 @@ Remark: Removed from Debian
  It seems that qtoctave might be considered as replacemenet.
 
 Depends: lammps
-Why: LAMMPS is a classical molecular dynamics code, and an acronym for 
- Large-scale Atomic/Molecular Massively Parallel Simulator. LAMMPS has 
- potentials for soft materials (biomolecules, polymers) and solid-state 
- materials (metals, semiconductors) and coarse-grained or mesoscopic systems. 
- It can be used to model atoms or, more generically, as a parallel particle 
+Why: LAMMPS is a classical molecular dynamics code, and an acronym for
+ Large-scale Atomic/Molecular Massively Parallel Simulator. LAMMPS has
+ potentials for soft materials (biomolecules, polymers) and solid-state
+ materials (metals, semiconductors) and coarse-grained or mesoscopic systems.
+ It can be used to model atoms or, more generically, as a parallel particle
  simulator at the atomic, meso, or continuum scale.
 
 Depends: julia

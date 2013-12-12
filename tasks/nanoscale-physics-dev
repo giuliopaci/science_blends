@@ -89,7 +89,7 @@ Published-DOI: 10.1145/1362622.1362692
 Pkg-Description: Non-Blocking MPI Collective Operations
  LibNBC is a prototypic implementation of a nonblocking interface for MPI
  collective operations. Based on ANSI C and MPI-1, it supports all MPI-1
- collective operations in a nonblocking manner. 
+ collective operations in a nonblocking manner.
 
 Depends: libpspio
 Homepage: http://www.tddft.org/trac/libpspio/

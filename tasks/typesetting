@@ -110,14 +110,14 @@ Pkg-Description: reference manager software
   * Integration with WordPress and other blogging software
   * Remote library backup
   * Advanced search and data mining tools
-  * Wide variety of import/export 
+  * Wide variety of import/export
 
 Suggests: pymarc
 WNPP: 585583
-Homepage: http://github.com/edsu/pymarc                                                                                                                              
+Homepage: http://github.com/edsu/pymarc
 License: BSD
 Responsible: Edward Betts <edward@debian.org>
 Pkg-URL: http://edwardbetts.com/debian
-Pkg-Description: read, write and modify MARC bibliographic data                                                                                                             
+Pkg-Description: read, write and modify MARC bibliographic data
  pymarc is a Python library for working with MARC21 bibliographic data
  loosely based on the MARC/Perl suite of modules (http://marcpm.sf.net).

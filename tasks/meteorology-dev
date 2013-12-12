@@ -49,7 +49,7 @@ Suggests: ksh
 Why: Many Meteorology codes use ksh as their scripting shells.
 
 Suggests: pkg-config
-Why: Simplifies the scripting of builds. 
+Why: Simplifies the scripting of builds.
 
 Depends: liboasis3-dev
 Why: Coupler used by many climate models. Needed by some NWP models to compile.

@@ -6,7 +6,7 @@ Description: Debian Robotics development packages
 
 Depends: libcv-dev
 
-Depends: libroboptim-core-dev 
+Depends: libroboptim-core-dev
 
 Depends: libvisp-dev
 

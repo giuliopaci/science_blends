@@ -196,8 +196,8 @@ Published-In: Physical Review B, 71:035109
 Published-URL: http://prb.aps.org/abstract/PRB/v71/i3/e035109
 Published-DOI: 10.1103/PhysRevB.71.035109
 Pkg-Description: Real-space PAW-based electronic structure code
- GPAW is a density-functional theory (DFT) Python code based on the 
- projector-augmented wave (PAW) method. It uses real-space uniform grids 
+ GPAW is a density-functional theory (DFT) Python code based on the
+ projector-augmented wave (PAW) method. It uses real-space uniform grids
  and multigrid methods or atom-centered basis-functions.
 
 Depends: octopus

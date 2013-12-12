@@ -8,7 +8,7 @@ Description: Debian Science Mathematics-dev packages
 Depends: libmesh-dev
 Why: FEA
 
-Depends: libnglib-dev 
+Depends: libnglib-dev
 Why: FEA, mesh generator
 
 Suggests: libtet1.4.2-dev
