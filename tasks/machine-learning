@@ -23,7 +23,8 @@ Depends: weka
 Depends: vowpal-wabbit
 
 Depends: r-cran-mass, r-cran-bayesm, r-cran-class, r-cran-cluster, \
-            r-cran-msm, r-cran-mcmcpack, r-cran-mnp, r-cran-amore
+            r-cran-msm, r-cran-mcmcpack, r-cran-mnp, r-cran-amore, \
+            r-cran-gbm, r-cran-tgp
 Comment: R packages
 
 Depends: python-mvpa
@@ -137,3 +138,5 @@ Pkg-Description: Data mining framework
  or, for more advanced users, as a module for Python programming language.
 
 Depends: python-pymc
+
+Suggests: ask
