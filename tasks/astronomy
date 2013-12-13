@@ -66,7 +66,8 @@ Why: Generic Python packages for astronomy
 
 Depends: esorex, python-cpl
 Suggests: cpl-plugin-amber, cpl-plugin-fors, cpl-plugin-giraf,
-	  cpl-plugin-hawki, cpl-plugin-sinfo
+	  cpl-plugin-hawki, cpl-plugin-sinfo, cpl-plugin-kmos,
+	  cpl-plugin-vimos, cpl-plugin-uves, cpl-plugin-xsh
 Why: Data reduction suite for data taken with ESO instruments
 
 Depends: xephem
