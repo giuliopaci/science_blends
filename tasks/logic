@@ -1,0 +1,16 @@
+Task: Logic
+Description: Debian Science Logic packages
+ This metapackage is part of the Debian Pure Blend "Debian Science"
+ and installs packages related to Logic.
+
+Depends: alt-ergo
+
+Depends: cvc3
+
+Depends: coinor-cbc
+
+Depends: boolector
+
+Depends: picosat
+
+Depends: minisat2
