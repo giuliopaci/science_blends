@@ -111,3 +111,5 @@ Pkg-Description: TeX package to draw normal and/or logarithmic plots directly in
  especially for use in scientific contexts (logplots).
 
 Suggests: circos
+
+Depends: feedgnuplot

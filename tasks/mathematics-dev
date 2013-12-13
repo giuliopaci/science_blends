@@ -142,3 +142,9 @@ Depends: gap-dev
 Depends: libnfft3-dev
 
 Depends: python-fftw3
+
+Depends: liblbfgs-dev
+Why: solver
+
+Depends: libdogleg-dev
+Why: solver
