@@ -75,4 +75,13 @@ Why: LAMMPS is a classical molecular dynamics code, and an acronym for
 
 Depends: julia
 
+Depends: admesh
+
+Depends: metis
+
+Depends: pygts
+
+Depends: python-demgengeo
+
+Suggests: libcneartree-dev
 Suggests: matlab-support

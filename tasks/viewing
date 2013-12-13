@@ -113,3 +113,11 @@ Pkg-Description: TeX package to draw normal and/or logarithmic plots directly in
 Suggests: circos, circos-tools
 
 Depends: feedgnuplot
+
+Depends: gnuplot-iostream
+
+Depends: libqglviewer
+
+Depends: python-gnuplot
+
+Depends: coin3

@@ -152,4 +152,14 @@ Why: solver
 
 Depends: libigraph0-dev
 
+Depends: alglib
+
+Depends: eigen3
+
+Depends: gnuplot-iostream
+
+Depends: qcustomplot
+
+Depends: quadrule
+
 Suggests: libcneartree-dev

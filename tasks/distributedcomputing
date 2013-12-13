@@ -17,7 +17,7 @@ Depends: gridengine-client, gridengine-exec, gridengine-master, gridengine-qmon
 
 Depends: globus-core
 
-Depends: openmpi-bin, mpich2
+Depends: openmpi-bin, mpich2, mpich
 
 Depends: openmpipython, mpich2python, python-mpi
 
