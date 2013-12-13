@@ -148,3 +148,5 @@ Why: solver
 
 Depends: libdogleg-dev
 Why: solver
+
+Depends: libigraph0-dev
