@@ -11,7 +11,9 @@ Depends: artha
 
 Depends: sequitur-g2p
 
-Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog, ticcutils
+Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
+
+Suggests: libticcutils2-dev
 
 Suggests: frogdata
 
