@@ -116,6 +116,11 @@ Depends: mcl
 Depends: polybori-gui, polybori
 Why: Sage dependency
 
+Depends: sagemath-database-conway-polynomials,
+         sagemath-database-elliptic-curves,
+         sagemath-database-graphs,
+         sagemath-database-polytopes
+
 Depends: eclib-tools,
          gfan,
          lcalc,
