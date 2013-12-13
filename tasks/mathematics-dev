@@ -20,6 +20,8 @@ Depends: libgsl0-dev
 
 Depends: liblapack-dev, libatlas-base-dev, libblas-dev
 
+Suggests: libjlapack-java
+
 Depends: libsuperlu3-dev
 Why: solver
 
