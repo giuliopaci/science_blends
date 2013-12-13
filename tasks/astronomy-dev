@@ -22,3 +22,7 @@ Depends: libgyoto0-dev
 Depends: casacore-dev
 
 Depends: liberfa-dev
+
+Depends: libfits-java
+
+Depends: tcl-fitstcl
