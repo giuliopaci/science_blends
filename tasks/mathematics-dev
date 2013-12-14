@@ -163,3 +163,7 @@ Depends: qcustomplot
 Depends: quadrule
 
 Suggests: libcneartree-dev
+
+Depends: mpfrc++
+
+Depends: libscscp1-dev
