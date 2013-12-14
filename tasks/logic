@@ -1,7 +1,9 @@
 Task: Logic
 Description: Debian Science Logic packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
- and installs packages related to Logic.
+ and installs packages related to Computational Logic.  It contains
+ formula transformation tools, solvers for formulas specified in
+ various logics, interactive proof systems, etc.
 
 Depends: alt-ergo
 
@@ -14,3 +16,25 @@ Depends: boolector
 Depends: picosat
 
 Depends: minisat2
+
+Depends: clasp
+
+Depends: coala
+
+Depends: gringo
+
+Depends: depqbf
+
+Depends: lbt
+
+Depends: maria
+
+Depends: minisat+
+
+Depends: mona
+
+Depends: sat4j
+
+Depends: coq
+
+Depends: matita
