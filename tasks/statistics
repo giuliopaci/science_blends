@@ -48,6 +48,8 @@ Suggests: r-cran-spc
 
 Depends: r-cran-vcd
 
+Depends: r-cran-permute
+
 Depends: python-statsmodels
 
 Suggests: science-mathematics
