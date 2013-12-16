@@ -16,6 +16,8 @@ Why: non-free
 
 Depends: python-numpy
 
+Depends: python-numexpr | python3-numexpr
+
 Depends: libgsl0-dev
 
 Depends: liblapack-dev, libatlas-base-dev, libblas-dev
