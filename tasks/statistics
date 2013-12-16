@@ -58,6 +58,8 @@ Depends: r-cran-spam
 
 Depends: r-cran-spatstat, r-cran-deldir
 
+Depends: r-cran-fastcluster
+
 Depends: python-openturns
 Why: Uncertainty quantification in numerical simulation
 
