@@ -47,6 +47,8 @@ Depends: freefoam
 
 Depends: pyfai
 
+Depends: python-mmtk
+
 Depends: libegad
 Homepage: http://egad.ucsd.edu/egad/
 WNPP: 429693
