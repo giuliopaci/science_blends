@@ -49,6 +49,8 @@ Depends: python-scitools
 
 Depends: python-deap
 
+Depends: python-tables | python3-tables
+
 Depends: octavede
 Homepage: http://octavede.sourceforge.net/
 Pkg-URL: http://snapshot.debian.org/package/octavede/0.3-1/
