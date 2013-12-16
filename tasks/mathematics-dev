@@ -33,6 +33,8 @@ Why: linear programming
 Depends: libcgal-dev
 Why: computational geometry
 
+Depends: libqhull-dev
+
 Depends: libmatheval-dev
 
 Depends: python-openopt

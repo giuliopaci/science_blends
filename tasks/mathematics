@@ -135,6 +135,8 @@ Depends: julia
 
 Suggests: matlab-support
 
+Depends: qhull-bin
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz
