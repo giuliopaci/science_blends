@@ -7,48 +7,66 @@ Description: Debian Science Logic packages
 
 X-Begin-Category: proof assistants
 Depends: agda
+
 Depends: coq
+
 Depends: hol-light
+
 Depends: hol88
+
 Depends: matita
+
 Depends: proofgeneral
 X-End-Category: proof assistants
 
 X-Begin-Category: SAT and QBF solvers
 Depends: depqbf
+
 Depends: picosat
+
 Depends: sat4j
 X-End-Category: SAT and QBF solvers
 
 X-Begin-Category: SMT solvers
 Depends: alt-ergo
+
 Depends: boolector
+
 Depends: cvc3
 X-End-Category: SMT solvers
 
 X-Begin-Category: first-order and equational solvers
-Recommands: otter
+Recommends: otter
+
 Depends: prover9
 X-comment: prover9 supersedes otter ?
+
 Depends: mace2
+
 Depends: maude
+
 Depends: spass
 X-End-Category: first-order and equational solvers
 
 X-Begin-Category: integer programming solvers
 Depends: coinor-cbc
+
 Depends: minisat+
 X-Comment: minisat2 is only a transitional package
 X-End-Category: integer programming solvers
 
 X-Begin-Category: answer set programming
 Depends: clasp
+
 Depends: coala
+
 Depends: gringo
 X-End-Category:
 
 X-Begin-Category: reasoning about automata
 Depends: lbt
+
 Depends: maria
+
 Depends: mona
 X-End-Category: reasoning about automata
