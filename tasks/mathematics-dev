@@ -162,12 +162,12 @@ Depends: libeigen3-dev
 
 Depends: libgnuplot-iostream-dev
 
-Depends: qcustomplot
+Depends: libqcustomplot-dev
 
-Depends: quadrule
+Depends: libquadrule-dev
 
 Suggests: libcneartree-dev
 
-Depends: mpfrc++
+Depends: libmpfrc++-dev
 
 Depends: libscscp1-dev
