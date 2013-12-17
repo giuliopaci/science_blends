@@ -172,4 +172,4 @@ Remark: Removed from Debian
  .
  Reasons are given here: http://bugs.debian.org/651971
 
-Depends: minieigen
+Depends: python-minieigen
