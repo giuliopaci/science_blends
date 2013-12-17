@@ -7,6 +7,8 @@ debian-science (1.1) UNRELEASED; urgency=low
     Closes: #730282
   * Moved Vcs to Git
   * new task: logic
+  * tasks/geography: s/postgresql-9.1-postgis/postgresql-9.3-postgis/
+    Closes: #732414
 
   [ Sébastien Villemot ]
   * tasks/economics: Add new task for economics
@@ -19,7 +21,7 @@ debian-science (1.1) UNRELEASED; urgency=low
   * tasks/{engineering,engineering-dev,nanoscale-physics-dev,physics}:
     opencascade had been superseded by oce
 
- -- Andreas Tille <tille@debian.org>  Mon, 25 Nov 2013 14:31:30 +0100
+ -- Andreas Tille <tille@debian.org>  Tue, 17 Dec 2013 22:02:11 +0100
 
 debian-science (1.0) unstable; urgency=low
 
