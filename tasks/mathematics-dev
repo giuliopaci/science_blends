@@ -156,11 +156,11 @@ Why: solver
 
 Depends: libigraph0-dev
 
-Depends: alglib
+Depends: libalglib-dev
 
-Depends: eigen3
+Depends: libeigen3-dev
 
-Depends: gnuplot-iostream
+Depends: libgnuplot-iostream-dev
 
 Depends: qcustomplot
 
