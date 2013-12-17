@@ -5,36 +5,50 @@ Description: Debian Science Logic packages
  formula transformation tools, solvers for formulas specified in
  various logics, interactive proof systems, etc.
 
-Depends: alt-ergo
-
-Depends: cvc3
-
-Depends: coinor-cbc
-
-Depends: boolector
-
-Depends: picosat
-
-Depends: minisat2
-
-Depends: clasp
-
-Depends: coala
-
-Depends: gringo
-
-Depends: depqbf
-
-Depends: lbt
-
-Depends: maria
-
-Depends: minisat+
-
-Depends: mona
-
-Depends: sat4j
-
+X-Begin-Category: proof assistants
+Depends: agda
 Depends: coq
-
+Depends: hol-light
+Depends: hol88
 Depends: matita
+Depends: proofgeneral
+X-End-Category: proof assistants
+
+X-Begin-Category: SAT and QBF solvers
+Depends: depqbf
+Depends: picosat
+Depends: sat4j
+X-End-Category: SAT and QBF solvers
+
+X-Begin-Category: SMT solvers
+Depends: alt-ergo
+Depends: boolector
+Depends: cvc3
+X-End-Category: SMT solvers
+
+X-Begin-Category: first-order and equational solvers
+Recommands: otter
+Depends: prover9
+X-comment: prover9 supersedes otter ?
+Depends: mace2
+Depends: maude
+Depends: spass
+X-End-Category: first-order and equational solvers
+
+X-Begin-Category: integer programming solvers
+Depends: coinor-cbc
+Depends: minisat+
+X-Comment: minisat2 is only a transitional package
+X-End-Category: integer programming solvers
+
+X-Begin-Category: answer set programming
+Depends: clasp
+Depends: coala
+Depends: gringo
+X-End-Category:
+
+X-Begin-Category: reasoning about automata
+Depends: lbt
+Depends: maria
+Depends: mona
+X-End-Category: reasoning about automata
