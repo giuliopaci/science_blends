@@ -83,7 +83,7 @@ Depends: admesh
 
 Depends: metis
 
-Depends: pygts
+Depends: python-gts
 
 Depends: python-demgengeo
 

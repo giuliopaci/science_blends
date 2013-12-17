@@ -114,10 +114,12 @@ Suggests: circos, circos-tools
 
 Depends: feedgnuplot
 
-Depends: gnuplot-iostream
+Depends: libgnuplot-iostream-dev
 
-Depends: libqglviewer
+Depends: libqglviewer2
+
+Suggests: libqglviewer-dev
 
 Depends: python-gnuplot
 
-Depends: coin3
+Suggests: libcoin80-dev
