@@ -16,3 +16,5 @@ Depends: libode-dev
 
 Depends: libompl-dev
 WNPP: 706133
+
+Depends: libopenigtlink-dev

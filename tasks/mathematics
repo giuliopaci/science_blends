@@ -173,3 +173,6 @@ Remark: Removed from Debian
  Reasons are given here: http://bugs.debian.org/651971
 
 Depends: python-minieigen
+
+Depends: coinor-symphony
+

@@ -92,3 +92,6 @@ Suggests: libcneartree-dev
 Suggests: matlab-support
 
 Suggests: libsundials-serial-dev, octave-sundials
+
+Depends: coinor-symphony
+
