@@ -88,4 +88,7 @@ Depends: python-gts
 Depends: python-demgengeo
 
 Suggests: libcneartree-dev
+
 Suggests: matlab-support
+
+Suggests: libsundials-serial-dev, octave-sundials

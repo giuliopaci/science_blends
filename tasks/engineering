@@ -38,7 +38,7 @@ Depends: life-apps
 
 Depends: python-openturns
 
-Depends: code-aster-gui
+Depends: code-aster-gui, code-aster
 
 Depends: code-saturne, ecs
 
@@ -57,6 +57,10 @@ Depends: syrthes
 Depends: freefoam
 
 Depends: brlcad
+
+Depends: diet-agent
+
+Suggests: logcentral, logcentral-tools
 
 Depends: avl
 Homepage: http://web.mit.edu/drela/Public/web/avl/

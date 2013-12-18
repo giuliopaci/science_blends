@@ -75,3 +75,5 @@ Depends: libnlopt-dev
 Depends: python-fftw3
 
 Depends: libcoin80-dev
+
+Suggests: libdiet-sed2.8-dev, libdiet-client2.8-dev, libdiet-dagda2.8-dev, libdiet-admin2.8-dev
