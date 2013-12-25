@@ -48,3 +48,5 @@ Pkg-Description: SQL version of WordNet 3.0
     - XWordNet 2.0-1.1
     - British National Corpus statistical data (for commonly used-words)
 
+Depends: travatar
+
