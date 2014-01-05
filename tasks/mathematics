@@ -53,7 +53,7 @@ Depends: geomview
 
 Depends: octave
 
-Depends: xmds
+Depends: xmds, xmds2
 
 Depends: freemat
 
