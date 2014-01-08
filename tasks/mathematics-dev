@@ -173,3 +173,5 @@ Depends: libmpfrc++-dev
 Depends: libscscp1-dev
 
 Depends: python-linop | python3-linop
+
+Depends: libcminpack-dev
