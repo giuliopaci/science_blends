@@ -51,7 +51,7 @@ Depends: jeuclid-mathviewer
 
 Depends: sketch
 
-Depends: ipe
+Depends: ipe, ipe5toxml
 
 Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
