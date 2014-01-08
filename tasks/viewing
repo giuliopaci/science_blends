@@ -125,3 +125,5 @@ Depends: python-gnuplot
 Suggests: libcoin80-dev
 
 Suggests: libvtk5-dev, libvtk5-qt4-dev, tcl-vtk, python-vtk, libvtk-java, vtk-examples
+
+Suggests: python-pivy
