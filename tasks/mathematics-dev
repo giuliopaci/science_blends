@@ -46,7 +46,7 @@ Depends: libblitz0-dev
 Depends: libjama-dev, libtnt-dev, liblip-dev, libranlip-dev
 Why: Requested by Aníbal Monsalve Salazar
 
-Depends: libarpack2-dev
+Depends: libarpack2-dev, libarpack++2-dev
 
 Depends: libmei-dev
 
