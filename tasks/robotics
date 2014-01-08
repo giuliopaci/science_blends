@@ -16,6 +16,8 @@ Depends: morse-simulator
 
 Depends: choreonoid
 
+Suggests: arduino-mk
+
 Depends: solid
 WNPP: 500616
 Homepage: http://www.dtecta.com
