@@ -1,5 +1,7 @@
 debian-science (1.1) UNRELEASED; urgency=low
 
+  TODO: visualisation-dev (python-pivy, ???)
+
   [ Andreas Tille ]
   * tasks/robotics-dev: Development of robotics applications
   * tasks/financial: Packages for financial engineering
