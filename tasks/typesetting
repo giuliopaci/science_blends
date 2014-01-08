@@ -51,6 +51,8 @@ Depends: jeuclid-mathviewer
 
 Depends: sketch
 
+Depends: ipe
+
 Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
 WNPP: 324422
