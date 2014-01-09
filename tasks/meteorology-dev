@@ -31,8 +31,10 @@ Depends: libgctp-dev
 
 Depends: libnetcdf-dev, netcdf-bin
 
-Depends: liblapack-dev, libblas-dev, libfftw3-dev
+Depends: liblapack-dev, libblas-dev
 Why: Most forecasting codes use BLAS and LAPACK
+
+Depends: libfftw3-dev, fftw-dev, sfftw-dev
 
 Depends: libblas-doc, liblapack-doc, libfftw3-doc
 

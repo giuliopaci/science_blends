@@ -148,6 +148,8 @@ Depends: libnfft3-dev
 
 Depends: python-fftw3
 
+Depends: libfftw3-dev, fftw-dev, sfftw-dev
+
 Depends: liblbfgs-dev
 Why: solver
 

@@ -14,7 +14,9 @@ Depends: libblas-dev, libblas-doc, liblapack-dev, liblapack-doc
 
 Depends: libetsf-io-dev, libetsf-io-doc
 
-Depends: libfftw3-dev, libfftw3-doc
+Suggests: libfftw3-doc
+
+Depends: libfftw3-dev, fftw-dev, sfftw-dev
 
 Depends: libgsl0-dev, gsl-bin, gsl-doc-info, gsl-ref-html|gsl-ref-psdoc
 
