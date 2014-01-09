@@ -20,3 +20,5 @@ Depends: libompl-dev
 WNPP: 706133
 
 Depends: libopenigtlink-dev
+
+Depends: liburdfdom-dev
