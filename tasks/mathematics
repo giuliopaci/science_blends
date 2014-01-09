@@ -85,7 +85,7 @@ Suggests: r-cran-evd
 
 Depends: dolfin-bin
 
-Depends: fenics
+Depends: fenics, sfc
 
 Depends: python-ffc
 
