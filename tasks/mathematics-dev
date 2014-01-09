@@ -65,7 +65,7 @@ Depends: libnewmat10-dev
 Depends: libmadlib-dev
 Why: Mesh adaptation
 
-Depends: dolfin-dev
+Depends: dolfin-dev, python-dolfin
 
 Depends: libslepc3.0.0-dev
 Why: Generalized and standard eigenvalue solver framework
