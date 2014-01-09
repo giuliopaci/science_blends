@@ -98,3 +98,6 @@ Suggests: libsundials-serial-dev, octave-sundials
 Depends: coinor-symphony
 
 Depends: coinor-clp
+
+Suggests: libquantum-dev
+
