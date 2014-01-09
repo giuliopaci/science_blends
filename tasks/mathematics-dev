@@ -160,6 +160,8 @@ Depends: libalglib-dev
 
 Depends: libeigen3-dev
 
+Depends: libviennacl-dev
+
 Depends: libgnuplot-iostream-dev
 
 Depends: libqcustomplot-dev
