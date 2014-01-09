@@ -40,6 +40,8 @@ Depends: python-openturns
 
 Depends: code-aster-gui, code-aster
 
+Depends: metis-edf
+
 Depends: eficas
 
 Depends: code-saturne, ecs

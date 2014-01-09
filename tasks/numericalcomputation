@@ -101,3 +101,5 @@ Depends: coinor-clp
 
 Suggests: libquantum-dev
 
+Depends: metis-edf
+
