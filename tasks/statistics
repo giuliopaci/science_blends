@@ -65,6 +65,8 @@ Why: Uncertainty quantification in numerical simulation
 
 Depends: python-pandas
 
+Suggests: libtamuanova-dev
+
 X-Removed: Packages removed from Debian
 
 Depends: r-cran-acepack
