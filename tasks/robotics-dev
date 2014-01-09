@@ -10,6 +10,8 @@ Depends: libroboptim-core-dev
 
 Depends: libvisp-dev
 
+Suggests: visp-images-data
+
 Depends: libcnoid-dev
 
 Depends: libode-dev
