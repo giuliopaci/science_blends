@@ -146,3 +146,4 @@ X-Suggests: root-plugin-fftw3, libroot-mathmore5.18
 
 Depends: python-fabio, libcbf-dev
 
+Depends: pyfai
