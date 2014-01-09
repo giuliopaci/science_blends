@@ -53,6 +53,8 @@ Depends: sketch
 
 Depends: ipe, ipe5toxml
 
+Suggests: svgtoipe
+
 Depends: quaneko
 Homepage: http://quaneko.sourceforge.net/
 WNPP: 324422
