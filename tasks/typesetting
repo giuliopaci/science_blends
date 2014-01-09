@@ -123,3 +123,6 @@ Pkg-URL: http://edwardbetts.com/debian
 Pkg-Description: read, write and modify MARC bibliographic data
  pymarc is a Python library for working with MARC21 bibliographic data
  loosely based on the MARC/Perl suite of modules (http://marcpm.sf.net).
+
+Suggests: luasseq
+
