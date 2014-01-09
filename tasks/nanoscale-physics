@@ -266,3 +266,6 @@ Remark: Removed from Debian
 
 Depends: fdmnes
 Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
+
+Depends: cbflib-bin
+
