@@ -62,7 +62,7 @@ Depends: libstxxl-dev
 
 Depends: libnewmat10-dev
 
-Depends: libmadlib-dev
+Depends: libmadlib-dev, libtet1.4-dev
 Why: Mesh adaptation
 
 Depends: dolfin-dev, python-dolfin

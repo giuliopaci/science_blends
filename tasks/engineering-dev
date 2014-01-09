@@ -50,7 +50,7 @@ Depends: libluminate-dev
 
 Depends: libopenturns-dev
 
-Depends: libmadlib-dev
+Depends: libmadlib-dev, libtet1.4-dev
 Why: Mesh adaptation
 
 Depends: libslepc3.0.0-dev

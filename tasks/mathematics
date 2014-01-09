@@ -179,3 +179,5 @@ Depends: python-minieigen
 
 Depends: coinor-symphony
 
+Depends: tetgen
+

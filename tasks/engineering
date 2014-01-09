@@ -64,6 +64,8 @@ Depends: brlcad
 
 Depends: diet-agent
 
+Depends: tetgen
+
 Suggests: logcentral, logcentral-tools
 
 Depends: avl
