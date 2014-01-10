@@ -15,3 +15,5 @@ Depends: python-fftw3
 
 Depends: libfftw3-dev, fftw-dev, sfftw-dev
 
+Depends: libopenctm-dev, python-openctm
+

@@ -62,6 +62,8 @@ Suggests: scilab-sivp
 
 Depends: meshlab
 
+Suggests: openctm-tools
+
 Depends: cadabra
 
 Depends: drawxtl
