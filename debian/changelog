@@ -1,7 +1,5 @@
 debian-science (1.1) UNRELEASED; urgency=low
 
-  TODO: visualisation-dev (python-pivy, ???)
-
   [ Andreas Tille ]
   * tasks/robotics-dev: Development of robotics applications
   * tasks/financial: Packages for financial engineering
@@ -11,6 +9,8 @@ debian-science (1.1) UNRELEASED; urgency=low
   * new task: logic
   * tasks/geography: s/postgresql-9.1-postgis/postgresql-9.3-postgis-2.1/
     Closes: #732414
+  * task/viewing-dev: development of visualisation applications
+
 
   [ Sébastien Villemot ]
   * tasks/economics: Add new task for economics

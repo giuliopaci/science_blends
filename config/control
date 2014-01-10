@@ -60,6 +60,9 @@ Description: Debian Science Project config package
   * science-statistics      packages related to statistics
   * science-typesetting     packages related to typesetting
   * science-viewing         packages related to viewing
+  * science-viewing         packages related to viewing
+  * science-viewing-dev     packages related to development of viewing
+                            applications
  .
  Note: All these packages are so called metapackages. This means they are not
  executable programs, but only links to other packages. This way you will

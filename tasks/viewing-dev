@@ -1,0 +1,29 @@
+Task: Viewing-dev
+Description: Debian Science development of visualisation applications
+ This metapackage will install Debian Science packages related to the
+ development of applications to visualise scientific data.
+
+Depends: pdl, gnudatalanguage
+Why: IDL-like
+
+Depends: python-scientific
+Why: Maybe should go in some other metapackage (mathematics?)
+
+Depends: libgrits-dev
+
+Depends: python-matplotlib, python-scitools
+
+Depends: libgnuplot-iostream-dev
+
+Depends: libqglviewer-dev
+
+Depends: python-gnuplot
+
+Depends: libcoin80-dev, libsoqt4-dev
+
+Depends: libvtk5-dev, libvtk5-qt4-dev, tcl-vtk, python-vtk, libvtk-java, vtk-examples
+
+Depends: python-pivy
+
+Depends: libgtkdataboxmm-dev, libgtkdatabox-0.9.2-0-dev
+
