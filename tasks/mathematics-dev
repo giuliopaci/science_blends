@@ -101,7 +101,7 @@ Depends: libsparskit-dev
 
 Depends: libspooles-dev
 
-Depends: libsuitesparse-dev
+Depends: libsuitesparse-dev, libsuitesparse-metis-dev
 
 Depends: ufc, python-ufc, python-ffc
 
