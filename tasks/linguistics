@@ -17,7 +17,7 @@ Suggests: libticcutils2-dev
 
 Suggests: frogdata
 
-Suggests: libtimbl3-dev, libtimbl4-dev, libtimblserver2-dev, libmbt0-dev, libucto1-dev, libfolia1-dev
+Suggests: libtimbl3-dev, libtimbl4-dev, libtimblserver2-dev, libmbt0-dev, libucto1-dev, libfolia-dev
 
 Suggests: python-timbl
 WNPP: 705129
