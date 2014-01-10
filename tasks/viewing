@@ -127,3 +127,5 @@ Suggests: libcoin80-dev, libsoqt4-dev
 Suggests: libvtk5-dev, libvtk5-qt4-dev, tcl-vtk, python-vtk, libvtk-java, vtk-examples
 
 Suggests: python-pivy
+
+Depends: ovito
