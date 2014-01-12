@@ -181,3 +181,6 @@ Depends: python-linop | python3-linop
 Depends: libcminpack-dev
 
 Depends: libeinspline-dev
+
+# Sage dependencies should be moved later to sage dependencies
+Suggests: libcliquer-dev, libntl-dev
