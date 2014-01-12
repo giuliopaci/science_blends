@@ -59,6 +59,8 @@ Depends:     josm, \
              osmpbf-bin, \
              imposm
 
+Depends: hyantesite
+
 Suggests: sumo
 
 X-Depends: osmarender
