@@ -13,6 +13,7 @@ debian-science (1.1) UNRELEASED; urgency=low
   * task/geometry: new task
   * task/social: new task
   * task/tools: new task
+  * task/presentation: new task
 
   [ Sébastien Villemot ]
   * tasks/economics: Add new task for economics

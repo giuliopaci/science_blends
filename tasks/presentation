@@ -1,0 +1,9 @@
+Task: Presentation
+Description: Debian Science generic tools for presentations
+ This metapackage will install Debian Science some packages which are
+ useful for doing presentations for instance on scientific conferences.
+
+Depends: latex-beamer
+
+Depends: pdf-presenter-console, zathura
+

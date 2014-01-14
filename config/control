@@ -59,6 +59,7 @@ Description: Debian Science Project config package
   * science-imageanalysis   packages related to image analysis
   * science-numericalcomputation   packages related to numerical
                             computation
+  * science-presentation    packages related to presentation
   * science-statistics      packages related to statistics
   * science-tools           packages providing generic tools
   * science-typesetting     packages related to typesetting
