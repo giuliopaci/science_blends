@@ -12,10 +12,6 @@ Depends: python-deap
 Depends: freefoam
 
 Depends: getdp
-Published-Authors: P. Dular and C. Geuzaine and A. Genon and W. Legros
-Published-Title: An evolutive software environment for teaching finite element methods in electromagnetism
-Published-In: IEEE Transactions on Magnetics
-Published-Year: 1999
 
 Depends: fdmnes
 Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
