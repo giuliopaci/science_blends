@@ -52,6 +52,7 @@ Description: Debian Science Project config package
   * science-robotics-dev    packages related to development of robotics
                             applications
   * science-simulation      packages to do simulations
+  * science-social          packages related to social sciences
  .
  This are metapackages for common utilities for all sciences:
  .
