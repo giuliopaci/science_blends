@@ -20,3 +20,5 @@ Published-Year: 1999
 Depends: fdmnes
 Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
 
+Depends: radiance
+
