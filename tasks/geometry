@@ -1,0 +1,23 @@
+Task: Geometry
+Description: Debian Science geometry packages
+ This metapackage will install Debian Science packages related to
+ geometry.  You might also be interested in the field::mathematics
+ debtag and, depending on your focus, in the education-mathematics
+ metapackage.
+
+Depends: carmetal
+
+Depends: salome-geom
+
+Depends: drgeo
+
+Depends: geogebra-kde
+
+Suggests: libcgal-dev
+
+Suggests: libgeometry-primitive-perl
+
+Suggests: libmath-geometry-voronoi-perl
+
+Suggests: octave-geometry
+
