@@ -1,0 +1,8 @@
+Task: Tools
+Description: Debian Science generic tools for scientific work
+ This metapackage will install Debian Science some packages which are
+ providing some generic tools for sciences and to enhance scientific
+ work.
+
+Depends: pegasus-wms
+

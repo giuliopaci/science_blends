@@ -12,6 +12,7 @@ debian-science (1.1) UNRELEASED; urgency=low
   * task/viewing-dev: development of visualisation applications
   * task/geometry: new task
   * task/social: new task
+  * task/tools: new task
 
   [ Sébastien Villemot ]
   * tasks/economics: Add new task for economics
