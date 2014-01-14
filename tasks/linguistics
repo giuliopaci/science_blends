@@ -19,6 +19,8 @@ Suggests: frogdata
 
 Suggests: libtimbl3-dev, libtimbl4-dev, libtimblserver2-dev, libmbt0-dev, libucto1-dev, libfolia-dev
 
+Depends: collatinus
+
 Suggests: python-timbl
 WNPP: 705129
 
