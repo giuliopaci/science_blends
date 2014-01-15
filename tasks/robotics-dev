@@ -24,3 +24,6 @@ Depends: libopenigtlink-dev
 Depends: liburdfdom-dev
 
 Depends: libslicot-dev
+
+Depends: libsdformat-dev
+
