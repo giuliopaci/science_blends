@@ -27,3 +27,4 @@ Depends: libslicot-dev
 
 Depends: libsdformat-dev
 
+Depends: libconsole-bridge-dev
