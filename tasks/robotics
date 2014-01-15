@@ -207,3 +207,13 @@ WNPP: 706133
 Suggests: libcoin60-runtime, libvtk5.4
 
 Suggests: octave, gnuplot
+
+Depends: console-bridge
+Homepage: https://github.com/ros/console_bridge
+Responsible: Jose Luis Rivero <jrivero@osrfoundation.org>
+License: BSD-3-clause
+Pkg-Description: Console Bridge Library
+ ROS-independent, pure CMake (i.e. non-catkin and non-rosbuild
+ package) that provides logging calls that mirror those found in
+ rosconsole, but for applications that are not necessarily using ROS.
+
