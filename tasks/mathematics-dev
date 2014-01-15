@@ -184,3 +184,5 @@ Depends: libeinspline-dev
 
 # Sage dependencies should be moved later to sage dependencies
 Suggests: libcliquer-dev, libntl-dev
+
+Depends: libdune-grid-dev

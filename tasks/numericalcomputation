@@ -104,3 +104,5 @@ Suggests: libquantum-dev
 Depends: metis-edf
 
 Depends: libsuitesparse-dev, libsuitesparse-metis-dev
+
+Depends: libdune-grid-dev
