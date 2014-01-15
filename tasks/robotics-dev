@@ -21,7 +21,7 @@ WNPP: 706133
 
 Depends: libopenigtlink-dev
 
-Depends: liburdfdom-dev
+Depends: liburdfdom-dev, liburdfdom-headers-dev
 
 Depends: libslicot-dev
 

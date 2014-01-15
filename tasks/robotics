@@ -18,6 +18,8 @@ Depends: choreonoid
 
 Suggests: arduino-mk
 
+Depends: liburdfdom-tools
+
 Depends: solid
 WNPP: 500616
 Homepage: http://www.dtecta.com
