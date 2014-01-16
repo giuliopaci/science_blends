@@ -13,3 +13,5 @@ Suggests: libmrmpi-dev, python-mrjob
 
 Depends: openstereogram
 
+Depends: xoscope
+
