@@ -10,7 +10,7 @@ Description: Debian Science specific devices support
 
 Depends: expeyes
 
-Depends: tiemu, tilem, tilp2
+Depends: gfm, tiemu, tilem, tilp2
 
 Suggests: libticables-dev, libticalcs-dev, libticonv-dev, libtifiles-dev
 
