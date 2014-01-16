@@ -44,7 +44,7 @@ Depends: libopenmpi1.3|libmpich2-1.2|libmpich1.0gf
 
 Depends: openmpi-bin|mpich2|mpich-bin
 
-Depends: openmpi-doc|mpich2-doc|mpi-doc
+Suggests: openmpi-doc|mpich2-doc|lam-mpidoc
 
 Depends: science-numericalcomputation
 Why: Numerical programming environments similar to Matlab/IDL
