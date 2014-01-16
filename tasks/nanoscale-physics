@@ -40,9 +40,7 @@ Depends: libgsl0ldbl, gsl-bin
 
 Depends: netcdf-bin, netcdf-doc, nco, ncview
 
-Depends: libopenmpi1.3|libmpich2-1.2|libmpich1.0gf
-
-Depends: openmpi-bin|mpich2|mpich-bin
+Depends: openmpi-bin|mpich2|mpich
 
 Suggests: openmpi-doc|mpich2-doc|lam-mpidoc
 

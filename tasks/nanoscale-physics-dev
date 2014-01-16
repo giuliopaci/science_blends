@@ -27,6 +27,8 @@ Why: High-performance computing
 
 Depends: libxc-dev
 
+Depends: libopenmpi-dev | libmpich-dev
+
 Depends: wannier90-dev
 WNPP: 578829
 Responsible: Yann Pouillon <yann.pouillon@gmail.com>
