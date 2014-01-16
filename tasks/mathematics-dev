@@ -103,6 +103,8 @@ Depends: libspooles-dev
 
 Depends: libsuitesparse-dev, libsuitesparse-metis-dev
 
+Depends: libparmetis-dev
+
 Depends: ufc, python-ufc, python-ffc
 
 Depends: python-ufl
