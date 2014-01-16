@@ -188,3 +188,5 @@ Suggests: libcliquer-dev, libntl-dev
 Depends: libdune-grid-dev
 
 Depends: libann-dev
+
+Depends: libdouble-conversion-dev
