@@ -20,3 +20,5 @@ Depends: libopenctm-dev, python-openctm
 Suggests: libtriangle-dev
 Comment: Source triangle seems to be unmaintained - it might make sense to team-highjack this package
 
+Depends: python-quantities
+
