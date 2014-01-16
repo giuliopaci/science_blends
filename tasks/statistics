@@ -30,7 +30,7 @@ Depends: r-cran-mapproj, r-cran-abind, r-cran-bayesm, \
             r-cran-rpart, r-cran-rpvm, r-cran-rquantlib, r-cran-rserve, \
             r-cran-rsprng, r-cran-sandwich, r-cran-sm, r-cran-snow, \
             r-cran-strucchange, r-cran-survival, r-cran-tkrplot, \
-            r-cran-tseries, r-cran-vgam, r-cran-vr, r-cran-xml, \
+            r-cran-tseries, r-cran-vgam, r-cran-mass, r-cran-xml, \
             r-cran-zelig, r-cran-zoo
 Why: R CRAN
 

@@ -40,9 +40,9 @@ Depends: libgsl0ldbl, gsl-bin
 
 Depends: netcdf-bin, netcdf-doc, nco, ncview
 
-Depends: openmpi-bin|mpich2|mpich
+Depends: openmpi-bin|mpich
 
-Suggests: openmpi-doc|mpich2-doc|lam-mpidoc
+Suggests: openmpi-doc|mpich-doc|lam-mpidoc
 
 Depends: science-numericalcomputation
 Why: Numerical programming environments similar to Matlab/IDL

@@ -13,7 +13,7 @@ Depends: apbs, bkchem, bodr, libcdk-java, chemeq, \
          chemical-mime-data, chemtool, easychem, gabedit, galculator, \
          garlic, gausssum, gchempaint, gdis, ghemical, gcrystal, gcu-bin, \
          gcu-plugin, gperiodic, \
-         gromacs | gromacs-lam | gromacs-mpich | gromacs-openmpi, \
+         gromacs | gromacs-mpich | gromacs-openmpi, \
          kalzium, katomic, mopac7-bin, mpqc, mpqc-support, \
          openbabel, python-openbabel, psi3, pymol, \
          viewmol, xdrawchem, xmakemol-gl | xmakemol, v-sim

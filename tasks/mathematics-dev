@@ -48,7 +48,7 @@ Why: Requested by Aníbal Monsalve Salazar
 
 Depends: libarpack2-dev, libarpack++2-dev
 
-Depends: libmei-dev
+Depends: code-saturne-bin, code-saturne-include
 
 Depends: libarmadillo-dev
 
@@ -77,8 +77,10 @@ Suggests: libqrupdate-dev
 Depends: liblife-dev
 Why: Partial differential equations library, FEA, CFD
 
-Suggests: python-openturns, libopenturns-dev, openturns-wrapper
+Depends: python-openturns, libopenturns-dev
 Why: Uncertainty quantification in numerical simulation
+
+Suggests: openturns-examples
 
 Depends: libqd-dev
 Why: double-double and quad-double precision C++ datatypes
@@ -94,8 +96,6 @@ Depends: libhypre-dev
 Depends: libitsol-dev
 
 Depends: libmuparser-dev
-
-Depends: libcneartree3-dev
 
 Depends: libsparskit-dev
 
@@ -172,7 +172,7 @@ Depends: libqcustomplot-dev
 
 Depends: libquadrule-dev
 
-Suggests: libcneartree-dev
+Depends: libcneartree-dev
 
 Depends: libmpfrc++-dev
 

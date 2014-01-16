@@ -7,7 +7,7 @@ Description: Debian Science Engineering-dev packages
 
 Depends: libalberta2-dev
 
-Depends: libfvm-dev
+Depends: code-saturne-bin, code-saturne-include
 
 Depends: libcgns-dev
 
@@ -49,6 +49,8 @@ Why: Partial differential equations library, FEA, CFD
 Depends: libluminate-dev
 
 Depends: libopenturns-dev
+
+Suggests: openturns-examples
 
 Depends: libmadlib-dev, libtet1.4-dev
 Why: Mesh adaptation

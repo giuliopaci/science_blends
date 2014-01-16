@@ -63,8 +63,10 @@ Why: widely used in climate models.
 Depends: libdap-dev
 Why: used by GrADS, NCL , etc. to retrieve netcdf and other large data files.
 
-Depends: python-openturns, libopenturns-dev, openturns-wrapper
+Depends: python-openturns, libopenturns-dev
 Why: Uncertainty quantification in numerical simulation
+
+Suggests: openturns-examples
 
 Suggests: liblife-dev
 Why: Partial differential equations library, FEA, CFD

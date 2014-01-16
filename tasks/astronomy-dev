@@ -17,7 +17,7 @@ Depends: python-pywcs, python-cpl
 
 Depends: python-astropy-legacy
 
-Depends: libgyoto0-dev
+Depends: libgyoto1-dev
 
 Depends: casacore-dev
 
