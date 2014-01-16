@@ -1,0 +1,16 @@
+Task: Devices
+Metapackage: false
+Description: Debian Science specific devices support
+ This task lists Debian Science packages which are dedicated to specific
+ devices that are typically used in sciences.  This might reach from
+ scientific calculators or specific measurement devices.
+ .
+ Note that there is no according metapackage created since the packages
+ might be to different to make sense to install all on one machine.
+
+Depends: expeyes
+
+Depends: tiemu, tilem, tilp2
+
+Suggests: libticables-dev, libticalcs-dev, libticonv-dev, libtifiles-dev
+
