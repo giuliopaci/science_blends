@@ -129,3 +129,6 @@ Suggests: libvtk5-dev, libvtk5-qt4-dev, tcl-vtk, python-vtk, libvtk-java, vtk-ex
 Suggests: python-pivy
 
 Depends: ovito
+
+Depends: scidavis
+
