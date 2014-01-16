@@ -14,3 +14,5 @@ Depends: gfm, tiemu, tilem, tilp2
 
 Suggests: libticables-dev, libticalcs-dev, libticonv-dev, libtifiles-dev
 
+Depends: bossa, bossa-cli
+
