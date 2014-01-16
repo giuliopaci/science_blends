@@ -1,9 +1,15 @@
 Task: Tools
+Metapackage: false
 Description: Debian Science generic tools for scientific work
- This metapackage will install Debian Science some packages which are
- providing some generic tools for sciences and to enhance scientific
- work.
+ This task lists  Debian Science some packages which are  providing some
+ generic tools for sciences and to enhance scientific work.
+ .
+ Note that there is no according metapackage created since the packages
+ might be to different to make sense to install all on one machine.
 
 Depends: pegasus-wms
 
 Suggests: libmrmpi-dev, python-mrjob
+
+Depends: openstereogram
+
