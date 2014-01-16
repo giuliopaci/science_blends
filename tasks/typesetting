@@ -128,3 +128,5 @@ Pkg-Description: read, write and modify MARC bibliographic data
 
 Suggests: luasseq
 
+Suggests: libqtexengine-dev
+
