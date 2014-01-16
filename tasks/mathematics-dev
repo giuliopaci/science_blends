@@ -192,7 +192,7 @@ Comment: libdune-common-dev and libdune-geometry-dev are dependencies
 
 Suggests: libdune-istl-dev, libdune-localfunctions-dev
 
-Depends: libann-dev
+Depends: libann-dev, libflann-dev
 
 Depends: libdouble-conversion-dev
 

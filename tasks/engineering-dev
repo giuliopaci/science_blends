@@ -84,6 +84,6 @@ Depends: libslicot-dev
 
 Depends: python-collada
 
-Depends: libann-dev
+Depends: libann-dev, libflann-dev
 
 Depends: libdime-dev, libdxflib-dev
