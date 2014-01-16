@@ -53,7 +53,7 @@ Depends: libopenturns-dev
 Depends: libmadlib-dev, libtet1.4-dev
 Why: Mesh adaptation
 
-Depends: libslepc3.0.0-dev
+Depends: libslepc3.4.2-dev
 Why: Generalized and standard eigenvalue solver framework, applications to modal analysis
 
 Depends: libelmer-dev
