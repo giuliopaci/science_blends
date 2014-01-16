@@ -39,7 +39,7 @@ debian-science (1.1) UNRELEASED; urgency=low
       Suggests:  python-dap
    -science-robotics
     added:
-      Depends:  libboost-dev, gnuplot, libcv-dev, octave, libode-dev, libvtk5.4, libcoin60-runtime
+      Depends:  libboost-dev, gnuplot, libcomedi0, libopenigtlink1, libcv-dev, octave, libode-dev, libvtk5.4, libcoin60-runtime
     removed:
       Depends:  openhrp, choreonoid, openrtm, liburdfdom-tools, openrave, pcl, ros, gazebo
       Suggests:  gnuplot, ompl-demos, octave, libvtk5.4, libcoin60-runtime, arduino-mk
@@ -71,10 +71,10 @@ debian-science (1.1) UNRELEASED; urgency=low
       Suggests:  libgpib-bin
    -science-statistics
     added:
-      Depends:  r-cran-rmetrics, r-other-gking-matchit, r-cran-fseries
+      Depends:  r-cran-rmetrics, r-other-gking-matchit, r-cran-fseries, r-cran-vr
       Suggests:  pandas
     removed:
-      Depends:  r-cran-deldir, r-cran-fastcluster, r-cran-spatstat, r-cran-timedate, python-pandas, r-cran-spam, r-cran-statmod, r-cran-permute, r-cran-lhs
+      Depends:  r-cran-deldir, r-cran-fastcluster, r-cran-spatstat, r-cran-timedate, python-pandas, r-cran-spam, r-cran-statmod, r-cran-mass, r-cran-permute, r-cran-lhs
       Suggests:  libtamuanova-dev
    -science-imageanalysis
     added:
@@ -88,11 +88,11 @@ debian-science (1.1) UNRELEASED; urgency=low
       Suggests:  ask
    -science-mathematics-dev
     added:
-      Depends:  libslepc3.0.0-dev
-      Suggests:  givaro-users-doc
+      Depends:  libmei-dev, libcneartree3-dev, libslepc3.0.0-dev
+      Suggests:  givaro-users-doc, libopenturns-dev, python-openturns, openturns-wrapper
     removed:
-      Depends:  libann-dev, libfftw3-dev, libarpack++2-dev, libdouble-conversion-dev, libscscp1-dev, libzn-poly-dev, python-dolfin, libfeel++-dev, liblfunction-dev, libtachyon-dev, libeigen3-dev, liblbfgs-dev, libmpfrc++-dev, libsymmetrica-dev, libalglib-dev, fftw-dev, libpynac-dev, libeinspline-dev, libnfft3-dev, minpack-dev, libec-dev, libsuitesparse-metis-dev, sfftw-dev, libslepc3.4.2-dev, libgnuplot-iostream-dev, libparmetis-dev, libtet1.4-dev, libqcustomplot-dev, libfplll-dev, libratpoints-dev, libviennacl-dev, python-numexpr | python3-numexpr, libflann-dev, libcdd-dev, liblinbox-dev, libquadrule-dev, libm4ri-dev, libdune-grid-dev, libgf2x-dev, libopenblas-dev, libigraph0-dev, libiml-dev, python-linop | python3-linop, python-ferari, libm4rie-dev, libqhull-dev, libcminpack-dev, libdogleg-dev, liblrcalc-dev, gap-dev, python-glpk, python-fftw3, libglpk-java
-      Suggests:  libdune-localfunctions-dev, givaro-user-doc, libcliquer-dev, libjlapack-java, libcneartree-dev, libntl-dev, libmtj-java, libnetlib-java, libdune-istl-dev
+      Depends:  libann-dev, libfftw3-dev, libarpack++2-dev, libdouble-conversion-dev, libscscp1-dev, libzn-poly-dev, python-dolfin, libfeel++-dev, liblfunction-dev, libtachyon-dev, libeigen3-dev, liblbfgs-dev, code-saturne-bin, libmpfrc++-dev, libsymmetrica-dev, libalglib-dev, libdogleg-dev, fftw-dev, libpynac-dev, libeinspline-dev, libnfft3-dev, minpack-dev, libec-dev, libsuitesparse-metis-dev, sfftw-dev, libslepc3.4.2-dev, libigraph0-dev, libparmetis-dev, libtet1.4-dev, libqcustomplot-dev, libfplll-dev, code-saturne-include, libratpoints-dev, libviennacl-dev, python-numexpr | python3-numexpr, libflann-dev, libcdd-dev, liblinbox-dev, libquadrule-dev, libm4ri-dev, libdune-grid-dev, libgf2x-dev, libopenturns-dev, libopenblas-dev, libgnuplot-iostream-dev, libiml-dev, python-linop | python3-linop, python-ferari, python-openturns, libm4rie-dev, libqhull-dev, libcminpack-dev, libcneartree-dev, liblrcalc-dev, gap-dev, python-glpk, python-fftw3, libglpk-java
+      Suggests:  openturns-examples, givaro-user-doc, libdune-localfunctions-dev, libcliquer-dev, libjlapack-java, libntl-dev, libmtj-java, libnetlib-java, libdune-istl-dev
    -science-highenergy-physics-dev
     added:
       Depends:  libhepmcinterface-dev
@@ -114,11 +114,11 @@ debian-science (1.1) UNRELEASED; urgency=low
       Suggests:  libqtexengine-dev, luasseq, svgtoipe
    -science-engineering-dev
     added:
-      Depends:  libopencascade-dev, libslepc3.0.0-dev, freefoam-dev
+      Depends:  libopencascade-dev, libfvm-dev, libslepc3.0.0-dev, freefoam-dev
       Suggests:  libgtkdatabox-0.9.1-1-dev
     removed:
-      Depends:  libnlopt-dev, libfreefoam-dev, libann-dev, python-fftw3, libflann-dev, libnfft3-dev, libcoin80-dev, python-collada, libslicot-dev, salome-kernel-dev, libtet1.4-dev, liboce-visualization-dev, liboce-ocaf-dev, libslepc3.4.2-dev, libdime-dev, libdxflib-dev, libmetis-edf-dev
-      Suggests:  libdiet-client2.8-dev, libdiet-admin2.8-dev, libgtkdatabox-0.9.2-0-dev, libdiet-sed2.8-dev, libdiet-dagda2.8-dev
+      Depends:  libnlopt-dev, libfreefoam-dev, libann-dev, python-fftw3, libflann-dev, libnfft3-dev, libcoin80-dev, python-collada, libslicot-dev, libdxflib-dev, salome-kernel-dev, libtet1.4-dev, liboce-visualization-dev, code-saturne-bin, liboce-ocaf-dev, libslepc3.4.2-dev, libdime-dev, code-saturne-include, libmetis-edf-dev
+      Suggests:  libdiet-client2.8-dev, openturns-examples, libgtkdatabox-0.9.2-0-dev, libdiet-dagda2.8-dev, libdiet-admin2.8-dev, libdiet-sed2.8-dev
    -science-viewing
     added:
       Depends:  grits
@@ -131,8 +131,10 @@ debian-science (1.1) UNRELEASED; urgency=low
     removed:
       Suggests:  python-pynn
    -science-astronomy-dev
+    added:
+      Depends:  libgyoto0-dev
     removed:
-      Depends:  tcl-fitstcl, libivoafits-java, libfits-java, liberfa-dev
+      Depends:  tcl-fitstcl, libivoafits-java, libgyoto1-dev, libfits-java, liberfa-dev
    -science-astronomy
     added:
       Depends:  heasoft-fv
@@ -146,6 +148,8 @@ debian-science (1.1) UNRELEASED; urgency=low
       Depends:  libfreefoam-dev, fftw-dev, libnfft3-dev, python-openctm, sfftw-dev, libfftw3-dev, libopenctm-dev, python-fftw3, python-quantities
       Suggests:  libtriangle-dev
    -science-distributedcomputing
+    added:
+      Depends:  mpich2
     removed:
       Depends:  mpich
       Suggests:  octave-mpi
@@ -159,7 +163,7 @@ debian-science (1.1) UNRELEASED; urgency=low
       Depends:  libfftw3-doc, libopencascade-dev
       Suggests:  opencascade-draw
     removed:
-      Depends:  fftw-dev, python-fabio, pyfai, sfftw-dev, liboce-visualization-dev, liboce-ocaf-dev, libcbf-dev
+      Depends:  fftw-dev, python-fabio, pyfai, sfftw-dev, liboce-visualization-dev, liboce-ocaf-dev, libopenmpi-dev | libmpich-dev, libcbf-dev
       Suggests:  libfftw3-doc, oce-draw
    -science-electrophysiology
     added:
@@ -167,11 +171,16 @@ debian-science (1.1) UNRELEASED; urgency=low
     removed:
       Suggests:  python-neo, libbiosig-dev
    -science-nanoscale-physics
+    added:
+      Depends:  openmpi-doc | mpich2-doc | mpi-doc, libopenmpi1.3 | libmpich2-1.2 | libmpich1.0gf, openmpi-bin | mpich2 | mpich-bin
     removed:
-      Depends:  cbflib-bin
+      Depends:  cbflib-bin, openmpi-bin | mpich
+      Suggests:  openmpi-doc | mpich-doc | lam-mpidoc
    -science-chemistry
+    added:
+      Depends:  gromacs | gromacs-lam | gromacs-mpich | gromacs-openmpi
     removed:
-      Depends:  python-mmtk
+      Depends:  python-mmtk, gromacs | gromacs-mpich | gromacs-openmpi
    -science-physics
     added:
       Depends:  opencascade-draw
@@ -180,9 +189,10 @@ debian-science (1.1) UNRELEASED; urgency=low
       Suggests:  openctm-tools
    -science-meteorology-dev
     added:
-      Depends:  libspherepack-dev, libhe4-hdfeos-dev, freefoam-dev
+      Depends:  libspherepack-dev, libhe4-hdfeos-dev, openturns-wrapper, freefoam-dev
     removed:
       Depends:  libfreefoam-dev, sfftw-dev, libhdfeos-dev, fftw-dev, libsphere-dev
+      Suggests:  openturns-examples
   * Removed metapackages:
    -science-viewing-dev
    -science-geometry
