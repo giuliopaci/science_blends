@@ -87,3 +87,6 @@ Depends: python-collada
 Depends: libann-dev, libflann-dev
 
 Depends: libdime-dev, libdxflib-dev
+
+Depends: salome-kernel-dev
+
