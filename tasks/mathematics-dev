@@ -195,3 +195,8 @@ Suggests: libdune-istl-dev, libdune-localfunctions-dev
 Depends: libann-dev
 
 Depends: libdouble-conversion-dev
+
+Depends: libfeel++-dev
+
+Depends: python-ferari
+

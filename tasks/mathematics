@@ -185,3 +185,6 @@ Depends: tetgen
 Suggests: cliquer
 
 Suggests: ann-tools
+
+Depends: feel++-apps
+
