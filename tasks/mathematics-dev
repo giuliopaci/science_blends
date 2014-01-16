@@ -178,7 +178,7 @@ Depends: libscscp1-dev
 
 Depends: python-linop | python3-linop
 
-Depends: libcminpack-dev
+Depends: libcminpack-dev, minpack-dev
 
 Depends: libeinspline-dev
 
