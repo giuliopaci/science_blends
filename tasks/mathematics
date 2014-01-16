@@ -183,3 +183,5 @@ Depends: tetgen
 
 # Sage dependencies should be moved later to sage dependencies
 Suggests: cliquer
+
+Suggests: ann-tools

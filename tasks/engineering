@@ -68,6 +68,8 @@ Depends: tetgen
 
 Suggests: logcentral, logcentral-tools
 
+Suggests: ann-tools
+
 Depends: avl
 Homepage: http://web.mit.edu/drela/Public/web/avl/
 WNPP: 513608
