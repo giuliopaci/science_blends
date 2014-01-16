@@ -7,11 +7,6 @@ Description: Debian Robotics packages
 
 Depends: rtai, xenomai-runtime
 
-Depends: libcomedi0
-Comment: Debian version is quite old - needs update
-
-Depends: libopenigtlink1
-
 Depends: morse-simulator
 
 Depends: choreonoid
