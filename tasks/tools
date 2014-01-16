@@ -6,3 +6,4 @@ Description: Debian Science generic tools for scientific work
 
 Depends: pegasus-wms
 
+Suggests: libmrmpi-dev, python-mrjob
