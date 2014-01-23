@@ -5,46 +5,41 @@ Description: Debian Science Astronomy packages
  Astronomy.  You might also be interested in field::astronomy debtag
  and, depending on your focus, in the education-astronomy metapackage.
 Relevance: 10
-Key:
+Key: 
  science-astronomy
 Packages: list
- astronomical-almanac 
- boinc-app-milkyway 
- boinc-app-seti 
- celestia
- esorex 
- fitscheck
- fitsverify 
+ gcx
+ astronomical-almanac
+ lightspeed
+ openuniverse
+ sextractor
+ wcstools
+ wcslib-tools
+ funtools
+ qfits-tools
+ gpredict
+ predict
+ yorick-full
+ savi
+ stellarium
+ xplanet
+ lynkeos.app
+ stardata-common
+ boinc-app-milkyway
+ boinc-app-seti
+ gyoto
+ skycat
  ftools-fv
- funtools 
- gcx 
- gpredict 
- gyoto 
- kstars 
- lightspeed 
- lynkeos.app 
- openuniverse 
- predict 
- python-astropy 
- python-cpl 
- python-pyds9
- python-pyfits 
- python-pywcs 
- python3-pyfits 
- qfits-tools 
- saods9 
- savi 
- sextractor 
- skycat 
- stardata-common 
- starplot 
- stellarium 
- wcslib-tools 
- wcstools 
- xpa-tools 
- xplanet 
- xplanet-images
- yorick-full 
+ fitsverify
+ fitscheck
+ saods9
+ xpa-tools
+ python-pywcs
+ python-astropy
+ python-pyfits
+ python3-pyfits
+ esorex
+ python-cpl
 
 Task: science-astronomy-dev
 Section: debian-science
@@ -54,28 +49,44 @@ Description: Debian Science Astronomy-dev packages
  .
  You might also be interested in the science-astronomy metapackage.
 Relevance: 10
-Key:
+Key: 
  science-astronomy-dev
 Packages: list
- libastro-fits-cfitsio-perl 
- libccfits-dev 
- libcfitsio3-dev 
- libcpl-dev 
- liberfa-dev 
+ libnova-dev
+ libccfits-dev
+ libcfitsio3-dev
+ python-pyfits
+ libqfits-dev
+ slang-cfitsio
+ libastro-fits-cfitsio-perl
+ libsofa-c-dev
+ libstarlink-pal-dev
+ libstarlink-ast-dev
+ libwcstools-dev
+ wcslib-dev
+ libcpl-dev
+ python-pywcs
+ python-cpl
+ libgyoto1-dev
+ liberfa-dev
  libfits-java
- libgyoto1-dev 
- libnova-dev 
- libqfits-dev 
- libsofa-c-dev 
- libstarlink-ast-dev 
- libstarlink-pal-dev 
- libwcstools-dev 
- python-cpl 
- python-pyfits 
- python-pywcs 
- slang-cfitsio 
- tcl-fitstcl 
- wcslib-dev 
+ tcl-fitstcl
+
+Task: science-bci
+Section: debian-science
+Description: Debian Science packages for the design and use of
+ brain-computer interface (BCI) -- direct communication pathway
+ between a brain and an external device. BCIs are often aimed
+ at assisting, augmenting or repairing human cognitive or
+ sensory-motor functions.
+ .
+ The selection of packages is targeting the complete frameworks for
+ the design of BCI systems.  Often such systems rely on external
+ presentation, data collection and analysis software which could be
+ found in science-neuroscience-cognitive, science-dataacquisition,
+ data-machine-learning metapackages.
+Relevance: 10
+Packages: list
 
 Task: science-biology
 Section: debian-science
@@ -90,12 +101,12 @@ Description: Debian Science Biology packages
  deals with biology and medicine in much more detail then the more
  general Debian Science.
 Relevance: 10
-Key:
+Key: 
  science-biology
 Packages: list
- bauble
- critterding 
  med-bio
+ bauble
+ critterding
 
 Task: science-chemistry
 Section: debian-science
@@ -105,61 +116,61 @@ Description: Debian Science Chemistry packages
  debtag and, depending on your focus, in the education-chemistry
  metapackage.
 Relevance: 10
-Key:
+Key: 
  science-chemistry
 Packages: list
- adun.app 
- apbs 
- avogadro 
+ apbs
  bkchem
  bodr
- chemeq 
- chemical-mime-data
- chemical-structures
- chemtool 
- cp2k 
- drawxtl 
- easychem 
- gabedit 
- galculator 
- gamgi 
- garlic 
- gausssum
- gchempaint 
- gcrystal 
- gcu-bin 
- gcu-plugin 
- gdis 
- gdpc 
- gelemental 
- gperiodic 
- gromacs  
- jmol
- kalzium 
- katomic 
  libcdk-java
- massxpert 
+ chemeq
+ chemical-mime-data
+ chemtool
+ easychem
+ gabedit
+ galculator
+ garlic
+ gausssum
+ gchempaint
+ gdis
+ gcrystal
+ gcu-bin
+ gcu-plugin
+ gperiodic
+ gromacs
+ kalzium
+ katomic
+ mopac7-bin
+ mpqc
+ mpqc-support
+ openbabel
+ python-openbabel
+ psi3
+ pymol
+ viewmol
+ xdrawchem
+ xmakemol-gl
+ v-sim
+ rasmol
+ adun.app
+ gdpc
+ xbs
+ gelemental
+ avogadro
+ gamgi
+ massxpert
+ drawxtl
+ chemical-structures
+ pyfai
+ python-mmtk
+ jmol
+ qutemol
+ cp2k
+ pdb2pqr
  mmass
- mmass-modules 
- mopac7-bin 
- mpqc 
- mpqc-support 
- openbabel 
- pdb2pqr 
- psi3 
- pyfai 
- pymol 
- python-mmtk 
+ mmass-modules
  python-mzml
- python-openbabel 
- qutemol 
- rasmol 
- tandem-mass 
- v-sim 
- viewmol 
- xbs 
- xdrawchem 
- xmakemol-gl  
+ tandem-mass
 
 Task: science-dataacquisition
 Section: debian-science
@@ -168,16 +179,16 @@ Description: Debian Science data acquisition packages
  acquisition.  This might be used in several sciences (as for instance
  science-viewing and science-typesetting).
 Relevance: 10
-Key:
+Key: 
  science-dataacquisition
 Packages: list
- engauge-digitizer 
- g3data 
- ghkl 
- jaaa 
- libfreenect-dev 
- netcdf-bin 
+ engauge-digitizer
+ g3data
+ netcdf-bin
  python-sardana
+ jaaa
+ ghkl
+ libfreenect-dev
 
 Task: science-dataacquisition-dev
 Section: debian-science
@@ -186,11 +197,11 @@ Description: Debian Science data acquisition development packages
  to develop applications related to data  acquisition.  This might be
  used in several sciences.
 Relevance: 10
-Key:
+Key: 
  science-dataacquisition-dev
 Packages: list
- liblog4tango5-dev 
- libtango8-dev 
+ libtango8-dev
+ liblog4tango5-dev
 
 Task: science-devices
 Section: debian-science
@@ -203,13 +214,13 @@ Description: Debian Science specific devices support
  might be to different to make sense to install all on one machine.
 Relevance: 10
 Packages: list
- bossa 
- bossa-cli 
  expeyes
- gfm 
- tiemu 
- tilem 
- tilp2 
+ gfm
+ tiemu
+ tilem
+ tilp2
+ bossa
+ bossa-cli
 
 Task: science-distributedcomputing
 Section: debian-science
@@ -218,24 +229,24 @@ Description: Debian Science Distributed Computing packages
  various types of distributed computing, such as grid-, cloud-, cluster-
  and parallel-computing.
 Relevance: 10
-Key:
+Key: 
  science-distributedcomputing
 Packages: list
- condor 
- environment-modules 
- globus-core 
- gridengine-client 
- gridengine-exec 
- gridengine-master 
- gridengine-qmon 
  ipython
- mpich 
- mpich2python 
- openmpi-bin 
- openmpipython 
+ torque-common
+ torque-server
+ gridengine-client
+ gridengine-exec
+ gridengine-master
+ gridengine-qmon
+ globus-core
+ openmpi-bin
+ mpich
+ openmpipython
+ mpich2python
  python-mpi
- torque-common 
- torque-server 
+ condor
+ environment-modules
 
 Task: science-economics
 Section: debian-science
@@ -247,54 +258,54 @@ Description: Debian Science Economics packages
  economic research. These environments provide functionalities similar to those
  of popular non-free systems (such as MATLAB, Mathematica, Stata or SAS).
 Relevance: 10
-Key:
+Key: 
  science-economics
 Packages: list
- dynare 
- gretl 
- ipython
- julia 
- maxima 
- octave 
- octave-dataframe
- octave-econometrics 
- octave-gsl 
- octave-io 
- octave-linear-algebra 
- octave-optim 
+ dynare
+ gretl
+ octave
+ octave-econometrics
  octave-statistics
- octave-symbolic 
- python-matplotlib 
- python-numpy 
- python-pandas
- python-scipy 
- python-scitools
- python-simpy
- python-statsmodels
- qtoctave 
+ octave-gsl
+ octave-optim
+ octave-linear-algebra
+ octave-io
+ octave-symbolic
+ octave-dataframe
+ qtoctave
  r-base
- r-cran-bayesm 
- r-cran-boot
+ r-cran-urca
+ r-cran-bayesm
  r-cran-coda
- r-cran-fbonds 
- r-cran-fimport
- r-cran-fnonlinear 
- r-cran-foreign 
- r-cran-funitroots 
- r-cran-hmisc 
- r-cran-kernsmooth 
- r-cran-lme4 
- r-cran-matrix 
- r-cran-mcmcpack 
+ r-cran-boot
+ r-cran-foreign
+ r-cran-kernsmooth
+ r-cran-matrix
+ r-cran-nlme
+ r-cran-hmisc
+ r-cran-tseries
  r-cran-mfilter
- r-cran-nlme 
- r-cran-pwt
- r-cran-quadprog 
- r-cran-tseries 
- r-cran-urca 
+ r-cran-lme4
+ r-cran-mcmcpack
+ r-cran-quadprog
+ r-cran-fbonds
+ r-cran-fimport
+ r-cran-fnonlinear
+ r-cran-funitroots
  r-cran-wdi
- rkward 
- wxmaxima 
+ r-cran-pwt
+ rkward
+ julia
+ maxima
+ wxmaxima
+ ipython
+ python-matplotlib
+ python-numpy
+ python-scipy
+ python-scitools
+ python-statsmodels
+ python-pandas
+ python-simpy
 
 Task: science-electronics
 Section: debian-science
@@ -304,35 +315,35 @@ Description: Debian Science Electronics packages
  debtag and, depending on your focus, in the education-electronics
  metapackage.
 Relevance: 10
-Key:
+Key: 
  science-electronics
 Packages: list
+ avrdude
+ gcc-avr
+ gerbv
+ uisp
+ electric
+ geda
+ kicad
+ iverilog
+ verilator
+ gplcver
+ gputils
+ simulpic
+ pcb
+ oregano
+ tkgate
+ texlive-latex-extra
+ linsmith
+ xsmc-calc
+ confluence
+ gnucap
+ qelectrotech
+ covered
  arduino
  arduino-core
- avrdude 
- confluence 
- covered 
- electric
- fritzing 
- gcc-avr 
- geda
- gerbv 
- gnucap 
- gplcver 
- gputils 
- iverilog 
- kicad 
- linsmith 
- oregano 
- pcb
- qelectrotech 
- simulpic 
- texlive-latex-extra
- tkgate 
- uisp 
- verilator 
  visolate
- xsmc-calc 
+ fritzing
 
 Task: science-electrophysiology
 Section: debian-science
@@ -346,12 +357,12 @@ Description: Debian Science packages for Electrophysiology
  med-imaging, and med-imaging-dev metapackages for a variety of additional
  software that might be useful for electrophysiology research.
 Relevance: 10
-Key:
+Key: 
  science-electrophysiology
 Packages: list
- libdrawtk-dev 
- libgdf-dev 
- sigviewer 
+ libgdf-dev
+ sigviewer
+ libdrawtk-dev
 
 Task: science-engineering
 Section: debian-science
@@ -363,30 +374,30 @@ Description: Debian Science Engineering packages
  which depends from packages which are useful to develop engineering
  related software.
 Relevance: 10
-Key:
+Key: 
  science-engineering
 Packages: list
- cba 
- cgns-convert 
- code-aster-gui
- code-saturne 
- diet-agent 
- dime 
- freecad 
- getdp 
- gmsh 
- hdfview 
- librecad 
- libsilo-bin 
- netgen 
- oce-draw 
- python-fiat
- python-openturns 
- python-silo 
+ librecad
+ sailcut
+ oce-draw
+ python-silo
+ libsilo-bin
+ gmsh
+ getdp
+ netgen
  pythoncad
- sailcut 
- syrthes 
- z88 
+ z88
+ freecad
+ python-openturns
+ code-aster-gui
+ code-saturne
+ hdfview
+ cba
+ python-fiat
+ syrthes
+ diet-agent
+ dime
+ cgns-convert
 
 Task: science-engineering-dev
 Section: debian-science
@@ -396,43 +407,44 @@ Description: Debian Science Engineering-dev packages
  .
  You might also be interested in the science-engineering metapackage.
 Relevance: 10
-Key:
+Key: 
  science-engineering-dev
 Packages: list
- code-saturne-bin 
- code-saturne-include 
- libadios-dev 
- libalberta2-dev 
- libann-dev 
- libbox-dev 
- libcgns-dev 
- libcoin80-dev 
- libdime-dev
- libdxflib-dev 
- libflann-dev 
- libgetfem++-dev 
- libhdf5-serial-dev 
- libitpp-dev 
- libjhdf4-java 
- libjhdf5-java 
- libmadlib-dev 
- libmed-dev 
- libmedc-dev 
- libmedimport-dev 
- libnetcdf-dev 
- libnfft3-dev 
- libnlopt-dev 
- liboce-ocaf-dev 
- liboce-visualization-dev 
- libopenturns-dev 
- libsilo-dev 
- libslepc3.4.2-dev 
- libslicot-dev 
- libxdmf-dev 
- python-collada
- python-netcdf 
- salome-kernel-dev 
+ libalberta2-dev
+ code-saturne-bin
+ code-saturne-include
+ libcgns-dev
+ libitpp-dev
+ libexodusii-dev
+ libadios-dev
+ libbox-dev
+ libsilo-dev
+ libxdmf-dev
+ libgetfem++-dev
+ libhdf5-serial-dev
+ libjhdf5-java
+ libjhdf4-java
+ liboce-visualization-dev
+ liboce-ocaf-dev
+ libopenturns-dev
+ libmadlib-dev
+ libslepc3.4.2-dev
+ libmed-dev
+ libmedc-dev
+ libmedimport-dev
+ libnetcdf-dev
+ python-netcdf
  syfi-dev
+ libnfft3-dev
+ libnlopt-dev
+ libcoin80-dev
+ libslicot-dev
+ python-collada
+ libann-dev
+ libflann-dev
+ libdime-dev
+ libdxflib-dev
+ salome-kernel-dev
 
 Task: science-financial
 Section: debian-science
@@ -440,27 +452,27 @@ Description: Debian Science financial engineering and computational finance
  This metapackage will install Debian Science packages for financial
  engineering and computational finance.
 Relevance: 10
-Key:
+Key: 
  science-financial
 Packages: list
- r-cran-fasianoptions 
- r-cran-fassets 
- r-cran-fbasics 
- r-cran-fbonds 
- r-cran-fcopulae 
+ r-cran-fasianoptions
+ r-cran-fassets
+ r-cran-fbasics
+ r-cran-fbonds
+ r-cran-fcopulae
  r-cran-fexoticoptions
  r-cran-fextremes
- r-cran-fgarch 
+ r-cran-fgarch
  r-cran-fimport
  r-cran-fmultivar
- r-cran-fnonlinear 
- r-cran-foptions 
- r-cran-fportfolio 
- r-cran-fregression 
+ r-cran-fnonlinear
+ r-cran-foptions
+ r-cran-fregression
  r-cran-ftrading
- r-cran-funitroots 
- r-cran-timedate 
- r-cran-timeseries 
+ r-cran-funitroots
+ r-cran-timedate
+ r-cran-timeseries
+ r-cran-fportfolio
 
 Task: science-geography
 Section: debian-science
@@ -470,48 +482,48 @@ Description: Debian Science Geography packages
  debtag and, depending on your focus, in the education-geography
  metapackage.
 Relevance: 10
-Key:
+Key: 
  science-geography
 Packages: list
- avce00 
- drawmap 
- e00compr 
- gdal-bin 
- geoip-bin 
  gis-workstation
- gmt 
- gosmore 
- gpsbabel 
- gpsd 
- gpsd-clients 
- gpsman
- gpsmanshp 
- gpstrans 
- gpx2shp 
  grass
+ proj-bin
+ mapserver-bin
+ gmt
+ gpsbabel
+ gpx2shp
+ gpsd
+ gpsman
+ thuban
+ drawmap
+ gpstrans
+ geoip-bin
+ gpsd-clients
  grass-doc
- hyantesite 
- imposm
+ php5-mapscript
+ phppgadmin
+ gpsmanshp
+ viking
+ avce00
+ e00compr
+ gdal-bin
+ ogdi-bin
+ postgis
+ osm2pgsql
  josm
  josm-plugins
- mapnik-utils 
- mapserver-bin 
- merkaartor 
- ogdi-bin 
- osm2pgsql 
- osmpbf-bin 
- pgadmin3 
- php5-mapscript 
- phppgadmin
- postgis 
- proj-bin 
- python-mapnik 
- r-cran-mapdata 
- r-cran-mapproj 
- r-cran-maps 
- r-cran-sp 
- thuban 
- viking 
+ merkaartor
+ gosmore
+ python-mapnik
+ mapnik-utils
+ osmpbf-bin
+ imposm
+ hyantesite
+ r-cran-sp
+ r-cran-mapdata
+ r-cran-mapproj
+ r-cran-maps
+ pgadmin3
 
 Task: science-geometry
 Section: debian-science
@@ -521,11 +533,11 @@ Description: Debian Science geometry packages
  debtag and, depending on your focus, in the education-mathematics
  metapackage.
 Relevance: 10
-Key:
+Key: 
  science-geometry
 Packages: list
  carmetal
- geogebra-kde 
+ geogebra-kde
 
 Task: science-highenergy-physics
 Section: debian-science
@@ -538,111 +550,111 @@ Description: Debian Science High Energy Physics packages
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
 Relevance: 10
-Key:
+Key: 
  science-highenergy-physics
 Packages: list
  cernlib
  cernlib-base
  cernlib-core
  cernlib-extras
+ dzedit
+ kuipc
+ kxterm
+ nypatchy
+ pawserv
+ zftp
+ paw
+ paw++
  cernlib-montecarlo
- dzedit 
- feynmf
  geant321
- herwig++ 
- kuipc 
- kxterm 
- libroot-bindings-python5.34 
- libroot-bindings-ruby5.34 
- libroot-core5.34 
- libroot-geom5.34 
- libroot-graf2d-gpad5.34 
- libroot-graf2d-graf5.34 
- libroot-graf2d-postscript5.34 
- libroot-graf3d-eve5.34 
- libroot-graf3d-g3d5.34 
- libroot-graf3d-gl5.34 
- libroot-gui-ged5.34 
- libroot-gui5.34 
- libroot-hist-spectrum5.34 
- libroot-hist5.34 
- libroot-html5.34 
- libroot-io-xmlparser5.34 
- libroot-io5.34 
- libroot-math-foam5.34 
- libroot-math-genvector5.34 
- libroot-math-mathcore5.34 
- libroot-math-mathmore5.34 
- libroot-math-matrix5.34 
- libroot-math-minuit5.34 
- libroot-math-mlp5.34 
- libroot-math-physics5.34 
- libroot-math-quadp5.34 
- libroot-math-smatrix5.34 
- libroot-math-splot5.34 
- libroot-math-unuran5.34 
- libroot-misc-memstat5.34 
- libroot-misc-minicern5.34 
- libroot-misc-table5.34 
- libroot-montecarlo-eg5.34 
- libroot-montecarlo-vmc5.34 
- libroot-net-auth5.34 
- libroot-net-bonjour5.34 
- libroot-net-ldap5.34 
- libroot-net5.34 
- libroot-proof-proofplayer5.34 
- libroot-proof5.34 
- libroot-roofit5.34 
- libroot-tmva5.34 
- libroot-tree-treeplayer5.34 
- libroot-tree5.34 
- looptools 
- nypatchy 
- octave-lhapdf 
- paw 
- paw++ 
- pawserv 
- pythia8-root-interface
- python-lhapdf 
- python-rivet 
- rivet
- rivet-plugins 
- rivet-root-converter
+ feynmf
+ looptools
+ python-lhapdf
+ octave-lhapdf
  root-macro-fastjet
- root-plugin-geom-gdml 
- root-plugin-geom-geombuilder 
- root-plugin-geom-geompainter 
- root-plugin-graf2d-asimage 
- root-plugin-graf2d-qt 
- root-plugin-graf2d-x11 
- root-plugin-graf3d-x3d 
- root-plugin-gui-fitpanel 
- root-plugin-gui-guibuilder 
- root-plugin-gui-qt 
- root-plugin-gui-sessionviewer 
- root-plugin-hist-hbook 
- root-plugin-hist-histpainter 
- root-plugin-hist-spectrumpainter 
- root-plugin-io-sql 
- root-plugin-io-xml 
- root-plugin-math-fftw3 
- root-plugin-math-fumili 
- root-plugin-math-minuit2 
- root-plugin-montecarlo-pythia8 
- root-plugin-net-globus 
- root-plugin-net-krb5 
- root-plugin-sql-mysql 
- root-plugin-sql-odbc 
- root-plugin-sql-pgsql 
- root-plugin-tree-treeviewer 
- root-system
- root-system-bin 
+ pythia8-root-interface
+ libroot-bindings-python5.34
+ libroot-bindings-ruby5.34
+ libroot-graf3d-gl5.34
+ libroot-io-xmlparser5.34
+ libroot-math-mathmore5.34
+ libroot-math-unuran5.34
+ libroot-misc-memstat5.34
+ libroot-misc-table5.34
+ libroot-net-bonjour5.34
+ libroot-net-ldap5.34
+ libroot-roofit5.34
+ libroot-geom5.34
+ libroot-graf2d-gpad5.34
+ libroot-graf2d-graf5.34
+ libroot-graf2d-postscript5.34
+ libroot-graf3d-eve5.34
+ libroot-graf3d-g3d5.34
+ libroot-gui5.34
+ libroot-gui-ged5.34
+ libroot-hist5.34
+ libroot-hist-spectrum5.34
+ libroot-html5.34
+ libroot-io5.34
+ libroot-math-foam5.34
+ libroot-math-genvector5.34
+ libroot-math-mathcore5.34
+ libroot-math-matrix5.34
+ libroot-math-minuit5.34
+ libroot-math-mlp5.34
+ libroot-math-physics5.34
+ libroot-math-quadp5.34
+ libroot-math-smatrix5.34
+ libroot-math-splot5.34
+ libroot-misc-minicern5.34
+ libroot-montecarlo-eg5.34
+ libroot-montecarlo-vmc5.34
+ libroot-net5.34
+ libroot-net-auth5.34
+ libroot-proof5.34
+ libroot-proof-proofplayer5.34
+ libroot-tmva5.34
+ libroot-tree5.34
+ libroot-tree-treeplayer5.34
+ libroot-core5.34
+ root-plugin-graf2d-asimage
+ root-plugin-geom-gdml
+ root-plugin-gui-qt
+ root-plugin-graf2d-qt
+ root-plugin-math-fftw3
+ root-plugin-math-minuit2
+ root-plugin-montecarlo-pythia8
+ root-plugin-net-globus
+ root-plugin-net-krb5
+ root-plugin-sql-mysql
+ root-plugin-sql-odbc
+ root-plugin-sql-pgsql
+ root-plugin-geom-geombuilder
+ root-plugin-geom-geompainter
+ root-plugin-graf2d-x11
+ root-plugin-graf3d-x3d
+ root-plugin-gui-fitpanel
+ root-plugin-gui-guibuilder
+ root-plugin-gui-sessionviewer
+ root-plugin-hist-hbook
+ root-plugin-hist-histpainter
+ root-plugin-hist-spectrumpainter
+ root-plugin-io-sql
+ root-plugin-io-xml
+ root-plugin-math-fumili
+ root-plugin-tree-treeviewer
+ root-system-proofd
+ root-system-rootd
+ root-system-bin
  root-system-common
- root-system-proofd 
- root-system-rootd 
- thepeg 
+ root-system
+ rivet
+ rivet-plugins
+ python-rivet
+ rivet-root-converter
+ thepeg
  thepeg-gui
- zftp 
+ herwig++
 
 Task: science-highenergy-physics-dev
 Section: debian-science
@@ -655,74 +667,74 @@ Description: Debian Science High Energy Physics development packages
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
 Relevance: 10
-Key:
+Key: 
  science-highenergy-physics-dev
 Packages: list
  cernlib-base-dev
  cernlib-core-dev
- fcc 
- herwig++-dev 
- libclhep-dev 
- libfastjet-dev 
- libfastjet-fortran-dev 
- libfastjetplugins-dev 
- libfastjettools-dev 
- libhepmc-dev 
- libhepmcfio-dev 
- libhepmcinterface8-dev 
- liblhapdf-dev 
- libooptools-dev 
- libpythia8-dev 
- librivet-dev 
- libroot-bindings-python-dev 
- libroot-bindings-ruby-dev 
- libroot-core-dev 
- libroot-geom-dev 
- libroot-graf2d-gpad-dev 
- libroot-graf2d-graf-dev 
- libroot-graf2d-postscript-dev 
- libroot-graf3d-eve-dev 
- libroot-graf3d-g3d-dev 
- libroot-graf3d-gl-dev 
- libroot-gui-dev 
- libroot-gui-ged-dev 
- libroot-hist-dev 
- libroot-hist-spectrum-dev 
- libroot-html-dev 
- libroot-io-dev 
- libroot-io-xmlparser-dev 
- libroot-math-foam-dev 
- libroot-math-genvector-dev 
- libroot-math-mathcore-dev 
- libroot-math-mathmore-dev 
- libroot-math-matrix-dev 
- libroot-math-minuit-dev 
- libroot-math-mlp-dev 
- libroot-math-physics-dev 
- libroot-math-quadp-dev 
- libroot-math-smatrix-dev 
- libroot-math-splot-dev 
- libroot-math-unuran-dev 
- libroot-misc-memstat-dev 
- libroot-misc-minicern-dev 
- libroot-misc-table-dev 
- libroot-montecarlo-eg-dev 
- libroot-montecarlo-vmc-dev 
- libroot-net-auth-dev 
- libroot-net-bonjour-dev 
- libroot-net-dev 
- libroot-net-ldap-dev 
- libroot-proof-dev 
- libroot-proof-proofplayer-dev 
- libroot-roofit-dev 
- libroot-static 
- libroot-tmva-dev 
- libroot-tree-dev 
- libroot-tree-treeplayer-dev 
- libsiscone-dev 
- libsiscone-spherical-dev 
- libthepeg-dev 
+ libclhep-dev
+ libhepmc-dev
+ libhepmcfio-dev
+ liblhapdf-dev
+ libsiscone-dev
+ libsiscone-spherical-dev
+ libfastjet-dev
+ libfastjettools-dev
+ libfastjet-fortran-dev
+ libfastjetplugins-dev
+ libpythia8-dev
+ libhepmcinterface8-dev
+ fcc
+ libooptools-dev
+ libroot-bindings-python-dev
+ libroot-bindings-ruby-dev
+ libroot-graf3d-gl-dev
+ libroot-io-xmlparser-dev
+ libroot-math-mathmore-dev
+ libroot-math-unuran-dev
+ libroot-misc-memstat-dev
+ libroot-misc-table-dev
+ libroot-net-bonjour-dev
+ libroot-net-ldap-dev
+ libroot-roofit-dev
+ libroot-geom-dev
+ libroot-graf2d-gpad-dev
+ libroot-graf2d-graf-dev
+ libroot-graf2d-postscript-dev
+ libroot-graf3d-eve-dev
+ libroot-graf3d-g3d-dev
+ libroot-gui-dev
+ libroot-gui-ged-dev
+ libroot-hist-dev
+ libroot-hist-spectrum-dev
+ libroot-html-dev
+ libroot-io-dev
+ libroot-math-foam-dev
+ libroot-math-genvector-dev
+ libroot-math-mathcore-dev
+ libroot-math-matrix-dev
+ libroot-math-minuit-dev
+ libroot-math-mlp-dev
+ libroot-math-physics-dev
+ libroot-math-quadp-dev
+ libroot-math-smatrix-dev
+ libroot-math-splot-dev
+ libroot-misc-minicern-dev
+ libroot-montecarlo-eg-dev
+ libroot-montecarlo-vmc-dev
+ libroot-net-dev
+ libroot-net-auth-dev
+ libroot-proof-dev
+ libroot-proof-proofplayer-dev
+ libroot-tmva-dev
+ libroot-tree-dev
+ libroot-tree-treeplayer-dev
+ libroot-core-dev
+ libroot-static
+ librivet-dev
  rivet-plugins-dev
+ libthepeg-dev
+ herwig++-dev
 
 Task: science-imageanalysis
 Section: debian-science
@@ -732,14 +744,14 @@ Description: Debian Science image analysis packages
  sciences (as for instance science-dataacquisition, science-viewing
  and science-typesetting).
 Relevance: 10
-Key:
+Key: 
  science-imageanalysis
 Packages: list
- gpiv 
- gpivtools 
- gwyddion 
- libcv-dev 
- teem-apps 
+ gpivtools
+ gpiv
+ libcv-dev
+ gwyddion
+ teem-apps
 
 Task: science-linguistics
 Section: debian-science
@@ -747,21 +759,21 @@ Description: Debian Science Linguistics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Linguistics.
 Relevance: 10
-Key:
+Key: 
  science-linguistics
 Packages: list
- apertium 
- artha 
- collatinus 
- dimbl 
- frog 
- link-grammar 
- mbt 
- mbtserver 
- timbl 
- timblserver 
- ucto 
- wordnet 
+ wordnet
+ apertium
+ link-grammar
+ artha
+ timbl
+ timblserver
+ mbt
+ mbtserver
+ ucto
+ dimbl
+ frog
+ collatinus
 
 Task: science-logic
 Section: debian-science
@@ -771,34 +783,34 @@ Description: Debian Science Logic packages
  formula transformation tools, solvers for formulas specified in
  various logics, interactive proof systems, etc.
 Relevance: 10
-Key:
+Key: 
  science-logic
 Packages: list
  agda
- alt-ergo 
- boolector 
- clasp 
- coala 
- coinor-cbc 
- coq 
- cvc3 
- depqbf 
- gringo 
- hol-light 
- hol88 
- lbt 
- mace2 
- maria 
- matita 
- maude 
- minisat+ 
- mona 
- otter 
- picosat 
+ coq
+ hol-light
+ hol88
+ matita
  proofgeneral
- prover9 
+ depqbf
+ picosat
  sat4j
- spass 
+ alt-ergo
+ boolector
+ cvc3
+ prover9
+ mace2
+ maude
+ spass
+ coinor-cbc
+ minisat+
+ clasp
+ coala
+ gringo
+ lbt
+ maria
+ mona
+ otter
 
 Task: science-machine-learning
 Section: debian-science
@@ -808,54 +820,54 @@ Description: Debian Science Machine Learning packages
  from knowledge-based (expert) inference systems to software
  implementing dominant nowadays statistical methods.
 Relevance: 10
-Key:
+Key: 
  science-machine-learning
 Packages: list
- autoclass 
- gprolog 
- libcv-dev 
- libevocosm-dev 
- libfann-dev 
- libga-dev 
- liblinear-dev 
- libocas-dev 
- libroot-math-mlp-dev 
- libroot-montecarlo-vmc-dev 
- libroot-tmva-dev 
- libshogun-dev 
- libsvm-dev 
- libtorch3-dev 
- libvigraimpex-dev 
- lush 
- mcl 
- octave-ga
- pgapack 
- python-genetic
- python-mlpy
- python-mvpa
- python-opencv 
- python-pebl 
- python-pyevolve
  python-pyke
- python-pymc 
+ gprolog
+ yap
+ libtorch3-dev
+ libshogun-dev
+ libfann-dev
+ libsvm-dev
+ liblinear-dev
+ libocas-dev
  python-scikits-learn
- python-statsmodels
- python-vigra 
- r-cran-amore 
- r-cran-bayesm 
- r-cran-class 
- r-cran-cluster 
- r-cran-gbm 
- r-cran-mass 
- r-cran-mcmcpack 
- r-cran-mnp 
- r-cran-msm 
- r-cran-tgp 
- root-system
- scilab-ann
- vowpal-wabbit 
+ python-mlpy
  weka
- yap 
+ vowpal-wabbit
+ r-cran-mass
+ r-cran-bayesm
+ r-cran-class
+ r-cran-cluster
+ r-cran-msm
+ r-cran-mcmcpack
+ r-cran-mnp
+ r-cran-amore
+ r-cran-gbm
+ r-cran-tgp
+ python-mvpa
+ python-statsmodels
+ root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
+ autoclass
+ mcl
+ scilab-ann
+ libga-dev
+ libevocosm-dev
+ pgapack
+ python-genetic
+ octave-ga
+ python-pyevolve
+ lush
+ libcv-dev
+ python-opencv
+ libvigraimpex-dev
+ python-vigra
+ python-pebl
+ python-pymc
 
 Task: science-mathematics
 Section: debian-science
@@ -865,78 +877,159 @@ Description: Debian Science Mathematics packages
  debtag and, depending on your focus, in the education-mathematics
  metapackage.
 Relevance: 10
-Key:
+Key: 
  science-mathematics
 Packages: list
- agda
- axiom 
- bliss 
- coinor-symphony 
- coq 
- eclib-tools 
- fplll-tools 
- freefem++ 
- freefem3d 
- freemat 
+ axiom
+ ginac-tools
+ xmaxima
+ wxmaxima
+ pari-gp
+ pari-extra
  gap
- gap-character-tables
- gap-guava 
+ gap-small-groups-extra
+ gap-trans-groups
  gap-prim-groups
  gap-small-groups
- gap-small-groups-extra
  gap-table-of-marks
- gap-trans-groups
- geogebra
- geomview 
- getdp 
- gfan 
- ginac-tools 
- gmsh 
- hol-light 
- julia 
- lcalc 
- lp-solve 
- lrcalc 
- lrslib 
- mathomatic 
- matita 
- mcl 
- minisat 
- mumps-test 
- netgen 
- octave 
- palp 
- pari-extra
- pari-gp 
- polybori 
- polybori-gui 
- polylib-utils 
+ gap-guava
+ gap-character-tables
+ freefem3d
+ freefem++
+ netgen
+ gmsh
+ getdp
+ coq
  proofgeneral
- prover9 
- python-deap
- python-ffc 
- python-minieigen 
- python-openturns 
- qhull-bin 
- qtoctave 
- regina-normal 
- rheolef 
- sagemath-database-conway-polynomials
- sagemath-database-elliptic-curves
- sagemath-database-graphs
- sagemath-database-polytopes
+ matita
+ agda
+ prover9
+ hol-light
+ minisat
  science-statistics
+ ess
+ littler
+ r-recommended
+ rkward
+ r-cran-mapproj
+ r-cran-abind
+ r-cran-bayesm
+ r-cran-boot
+ r-cran-cairodevice
+ r-cran-car
+ r-cran-chron
+ r-cran-cluster
+ r-cran-coda
+ r-cran-codetools
+ r-cran-date
+ r-cran-dbi
+ r-cran-rms
+ r-cran-eco
+ r-cran-effects
+ r-cran-fbasics
+ r-cran-fcopulae
+ r-cran-fextremes
+ r-cran-fmultivar
+ r-cran-foptions
+ r-cran-foreign
+ r-cran-fportfolio
+ r-cran-timedate
+ r-cran-gdata
+ r-cran-gmodels
+ r-cran-gplots
+ r-cran-gregmisc
+ r-cran-gtools
+ r-cran-hdf5
+ r-cran-hmisc
+ r-cran-its
+ r-cran-kernsmooth
+ r-cran-lattice
+ r-cran-latticeextra
+ r-cran-lhs
+ r-cran-lme4
+ r-cran-lmtest
+ r-cran-mapdata
+ r-cran-maps
+ r-cran-matchit
+ r-cran-matrix
+ r-cran-mcmcpack
+ r-cran-mgcv
+ r-cran-misc3d
+ r-cran-mnp
+ r-cran-multcomp
+ r-cran-mvtnorm
+ r-cran-nlme
+ r-cran-pscl
+ r-cran-psy
+ r-cran-qtl
+ r-cran-quadprog
+ r-cran-rcmdr
+ r-cran-relimp
+ r-cran-rggobi
+ r-cran-rgl
+ r-cran-rgtk2
+ r-cran-rmpi
+ r-cran-rmysql
+ r-cran-rodbc
+ r-cran-rpart
+ r-cran-rquantlib
+ r-cran-rserve
+ r-cran-rsprng
+ r-cran-sandwich
+ r-cran-sm
+ r-cran-snow
+ r-cran-strucchange
+ r-cran-survival
+ r-cran-tkrplot
+ r-cran-tseries
+ r-cran-vgam
+ r-cran-mass
+ r-cran-xml
+ r-cran-zelig
+ r-cran-zoo
+ r-cran-msm
+ r-cran-amore
+ r-cran-teachingdemos
+ psignifit
+ python-scipy
+ r-cran-vcd
+ r-cran-permute
+ python-statsmodels
+ r-cran-deldir
+ r-cran-fastcluster
+ r-cran-statmod
+ python-openturns
+ python-pandas
+ geomview
+ octave
+ xmds
+ freemat
+ mathomatic
  scilab
  scilab-ann
- scilab-plotlib
- scotch 
+ regina-normal
+ snappea
+ lp-solve
+ mumps-test
+ geogebra
+ lrslib
  sfc
- snappea 
- sympow 
- tachyon 
- wxmaxima 
- xmaxima 
- xmds 
+ python-ffc
+ polylib-utils
+ rheolef
+ scotch
+ bliss
+ qtoctave
+ python-deap
+ mcl
+ polybori-gui
+ polybori
+ sagemath-database-conway-polynomials
+ eclib-tools
+ julia
+ qhull-bin
+ python-minieigen
+ coinor-symphony
 
 Task: science-mathematics-dev
 Section: debian-science
@@ -946,98 +1039,86 @@ Description: Debian Science Mathematics-dev packages
  .
  You might also be interested in the science-mathematics metapackage.
 Relevance: 10
-Key:
+Key: 
  science-mathematics-dev
 Packages: list
- code-saturne-bin 
- code-saturne-include 
- fflas-ffpack 
- fftw-dev 
- gap-dev 
- libalglib-dev 
- libann-dev 
- libarmadillo-dev 
- libarpack2-dev 
- libatlas-base-dev 
- libblas-dev 
- libblitz0-dev 
- libcdd-dev 
- libcgal-dev 
- libcminpack-dev 
- libcneartree-dev 
- libcqrlib2-dev 
- libcvector2-dev 
- libdogleg-dev 
- libdouble-conversion-dev 
- libdune-grid-dev 
- libec-dev 
- libeigen3-dev
- libeinspline-dev 
- libfftw3-dev 
- libflann-dev 
- libfplll-dev 
- libfreefem++-dev 
- libgf2x-dev 
- libgivaro-dev 
- libglpk-dev 
- libglpk-java 
- libgnuplot-iostream-dev
- libgsl0-dev 
- libhypre-dev
- libigraph0-dev 
- libiml-dev 
- libitsol-dev 
- libjama-dev
- liblapack-dev 
- liblbfgs-dev 
- liblfunction-dev 
- liblip-dev 
- liblrcalc-dev 
- libm4ri-dev 
- libm4rie-dev 
- libmadlib-dev 
- libmatio-dev 
- libmpfrc++-dev
- libmuparser-dev 
- libnewmat10-dev 
- libnfft3-dev 
- libnglib-dev 
- libopenblas-dev 
- libopenturns-dev 
- libpolybori-dev 
- libpolybori-groebner-dev 
- libqcustomplot-dev 
- libqd-dev 
- libqhull-dev 
- libquadrule-dev 
- libranlip-dev 
- libratpoints-dev 
- libscscp1-dev 
- libscythestat-dev
- libslepc3.4.2-dev 
- libsparskit-dev 
- libspooles-dev 
- libstxxl-dev 
- libsuitesparse-dev 
- libsuperlu3-dev 
- libsymmetrica-dev 
- libtachyon-dev 
- libtnt-dev
- libzn-poly-dev 
- minpack-dev 
- petsc-dev
- python-ferari
- python-ffc 
- python-glpk 
- python-numexpr  
- python-numpy 
+ libnglib-dev
+ python-numpy
+ python-numexpr
+ libgsl0-dev
+ liblapack-dev
+ libatlas-base-dev
+ libblas-dev
+ libopenblas-dev
+ libsuperlu3-dev
+ libglpk-dev
+ python-glpk
+ libglpk-java
+ libcgal-dev
+ libqhull-dev
  python-openopt
- python-openturns 
- python-polybori 
- python-ufc 
+ libmatio-dev
+ libblitz0-dev
+ libjama-dev
+ libtnt-dev
+ liblip-dev
+ libranlip-dev
+ libarpack2-dev
+ code-saturne-bin
+ code-saturne-include
+ libarmadillo-dev
+ libstxxl-dev
+ libnewmat10-dev
+ libmadlib-dev
+ libslepc3.4.2-dev
+ petsc-dev
+ python-openturns
+ libopenturns-dev
+ libqd-dev
+ libcqrlib2-dev
+ libcvector2-dev
+ libhypre-dev
+ libitsol-dev
+ libmuparser-dev
+ libsparskit-dev
+ libspooles-dev
+ libsuitesparse-dev
+ ufc
+ python-ufc
+ python-ffc
  python-ufl
- sfftw-dev 
- ufc 
+ libscythestat-dev
+ libfreefem++-dev
+ libgivaro-dev
+ fflas-ffpack
+ libpolybori-dev
+ libpolybori-groebner-dev
+ python-polybori
+ libquadrule-dev
+ libcdd-dev
+ gap-dev
+ libnfft3-dev
+ libfftw3-dev
+ fftw-dev
+ sfftw-dev
+ liblbfgs-dev
+ libdogleg-dev
+ libigraph0-dev
+ libalglib-dev
+ libeigen3-dev
+ libgnuplot-iostream-dev
+ libqcustomplot-dev
+ libcneartree-dev
+ libmpfrc++-dev
+ libscscp1-dev
+ libcminpack-dev
+ minpack-dev
+ libeinspline-dev
+ libdune-grid-dev
+ libann-dev
+ libflann-dev
+ libdouble-conversion-dev
+ python-ferari
 
 Task: science-meteorology
 Section: debian-science
@@ -1045,29 +1126,29 @@ Description: Debian Science Meteorology packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Meteorology and Climate.
 Relevance: 10
-Key:
+Key: 
  science-meteorology
 Packages: list
- aweather 
- cdo 
- cmip5-cmor-tables
- dballe 
+ cdo
+ nco
+ dballe
+ zygrib
+ ncview
+ grads
+ ferret-vis
+ magics++
+ libgrib-api-tools
  ecaccess
- ferret-vis 
- grads 
- libdap-bin 
- libdap-doc
- libgrib-api-tools 
- magics++ 
- nco 
- ncview 
- python-cmor 
+ python-netcdf
+ python-grib
  python-drslib
- python-grib 
- python-netcdf 
- python-sphere 
+ python-cmor
+ python-sphere
+ cmip5-cmor-tables
+ aweather
+ libdap-bin
+ libdap-doc
  vistrails
- zygrib 
 
 Task: science-meteorology-dev
 Section: debian-science
@@ -1077,40 +1158,40 @@ Description: Debian Science Meteorology-dev packages
  .
  You might also be interested in the science-meteorology metapackage.
 Relevance: 10
-Key:
+Key: 
  science-meteorology-dev
 Packages: list
- fftw-dev 
- libblas-dev 
+ libemos-dev
+ libgadap-dev
+ libcmor-dev
+ libgrib-api-dev
+ libgrib-api-tools
+ libgrib2c-dev
+ libhe5-hdfeos-dev
+ libhdfeos-dev
+ libproj-dev
+ libgctp-dev
+ libnetcdf-dev
+ netcdf-bin
+ liblapack-dev
+ libblas-dev
+ libfftw3-dev
+ fftw-dev
+ sfftw-dev
  libblas-doc
- libcmor-dev 
- libdap-dev 
- libemos-dev 
- libfftw3-dev 
- libfftw3-doc
- libgadap-dev 
- libgctp-dev 
- libgrib-api-dev 
- libgrib-api-tools 
- libgrib2c-dev 
- libhdfeos-dev 
- libhe5-hdfeos-dev 
- liblapack-dev 
  liblapack-doc
- liblas-dev 
- libnetcdf-dev 
- liboasis3-dev 
- libopenturns-dev 
- libproj-dev 
- librsl-dev 
- libsphere-dev 
- libterralib-dev 
- libudunits2-dev 
- netcdf-bin 
- python-openturns 
- sfftw-dev 
- wcslib-dev 
+ libfftw3-doc
+ liblas-dev
+ libsphere-dev
+ libterralib-dev
+ liboasis3-dev
+ libudunits2-dev
+ libdap-dev
+ python-openturns
+ libopenturns-dev
+ wcslib-dev
  wcslib-doc
+ librsl-dev
 
 Task: science-nanoscale-physics
 Section: debian-science
@@ -1133,54 +1214,83 @@ Description: Debian Science Nanoscale Physics packages
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
 Relevance: 10
-Key:
+Key: 
  science-nanoscale-physics
 Packages: list
- abinit 
- avogadro 
- axiom 
- cadabra 
- cbflib-bin 
- cp2k 
- drawxtl 
- extrema 
+ abinit
+ mpqc
+ openmx
+ psi3
+ quantum-espresso
+ drawxtl
  feynmf
- fityk 
- garlic 
- gdis 
- ggobi 
+ fityk
  gnuplot
- gperiodic 
- grace 
- graphviz 
- gsl-bin 
- gwyddion 
- libblacs-mpi1 
+ grace
  libblas3gf
- libfftw3-3 
- libgsl0ldbl 
  liblapack3gf
- libscalapack-mpi1 
- maxima 
- mayavi2 
- mpqc 
- nco 
- ncview 
- netcdf-bin 
+ libfftw3-3
+ libgsl0ldbl
+ gsl-bin
+ netcdf-bin
  netcdf-doc
- openmpi-bin  
- openmx 
- psi3 
- pymca 
- python-scientific 
- python-scipy 
- python-scitools
- python-sympy
- pyxplot 
- qtoctave 
- quantum-espresso 
+ nco
+ ncview
+ openmpi-bin
  science-numericalcomputation
- v-sim 
+ octave
+ python-matplotlib
+ python-scipy
+ ipython
+ python-numpy
+ spyder
+ python-guiqwt
+ scilab
+ scilab-ann
+ freemat
+ yorick
+ r-base
+ qtoctave
+ lush
+ liggghts
+ esys-particle
+ python-scitools
+ python-deap
+ python-tables
+ vitables
+ lammps
+ julia
+ admesh
+ metis
+ python-gts
+ python-demgengeo
+ coinor-symphony
+ coinor-clp
+ libsuitesparse-dev
+ libdune-grid-dev
+ avogadro
+ garlic
+ gdis
+ v-sim
+ gwyddion
+ cp2k
+ pymca
+ cbflib-bin
+ axiom
+ maxima
+ cadabra
+ extrema
+ ggobi
+ mayavi2
+ udav
+ gperiodic
+ python-elemental
+ graphviz
+ libblacs-mpi1
+ libscalapack-mpi1
+ python-scientific
+ python-sympy
+ pyxplot
 
 Task: science-nanoscale-physics-dev
 Section: debian-science
@@ -1192,36 +1302,108 @@ Description: Debian Science Nanoscale Physics development packages
  on your focus, in the nanoscale-physics, physics and education-physics
  metapackages.
 Relevance: 10
-Key:
+Key: 
  science-nanoscale-physics-dev
 Packages: list
  abinit-doc
- fftw-dev 
- gsl-bin 
- libblacs-mpi-dev 
- libblas-dev 
+ libblas-dev
  libblas-doc
- libcbf-dev 
- libfftw3-dev 
- libgsl0-dev 
- liblapack-dev 
+ liblapack-dev
  liblapack-doc
- libnetcdf-dev 
- liboce-ocaf-dev 
- liboce-visualization-dev 
- libopenmpi-dev  
- libroot-math-mlp-dev 
- libroot-montecarlo-vmc-dev 
- libroot-tmva-dev 
- libscalapack-mpi-dev 
- libxc-dev 
+ libfftw3-dev
+ fftw-dev
+ sfftw-dev
+ libgsl0-dev
+ gsl-bin
+ libnetcdf-dev
  netcdf-doc
- pyfai 
- python-fabio 
+ libxc-dev
+ libopenmpi-dev
+ liboce-visualization-dev
+ liboce-ocaf-dev
  root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
+ python-fabio
+ libcbf-dev
+ pyfai
+ gsl-doc-pdf
+ libblacs-mpi-dev
+ libscalapack-mpi-dev
  scalapack-doc
  science-mathematics-dev
- sfftw-dev 
+ libnglib-dev
+ python-numpy
+ python-numexpr
+ libatlas-base-dev
+ libopenblas-dev
+ libsuperlu3-dev
+ libglpk-dev
+ python-glpk
+ libglpk-java
+ libcgal-dev
+ libqhull-dev
+ python-openopt
+ libmatio-dev
+ libblitz0-dev
+ libjama-dev
+ libtnt-dev
+ liblip-dev
+ libranlip-dev
+ libarpack2-dev
+ code-saturne-bin
+ code-saturne-include
+ libarmadillo-dev
+ libstxxl-dev
+ libnewmat10-dev
+ libmadlib-dev
+ libslepc3.4.2-dev
+ petsc-dev
+ python-openturns
+ libopenturns-dev
+ libqd-dev
+ libcqrlib2-dev
+ libcvector2-dev
+ libhypre-dev
+ libitsol-dev
+ libmuparser-dev
+ libsparskit-dev
+ libspooles-dev
+ libsuitesparse-dev
+ ufc
+ python-ufc
+ python-ffc
+ python-ufl
+ libscythestat-dev
+ libfreefem++-dev
+ libgivaro-dev
+ fflas-ffpack
+ libpolybori-dev
+ libpolybori-groebner-dev
+ python-polybori
+ libquadrule-dev
+ libcdd-dev
+ gap-dev
+ libnfft3-dev
+ liblbfgs-dev
+ libdogleg-dev
+ libigraph0-dev
+ libalglib-dev
+ libeigen3-dev
+ libgnuplot-iostream-dev
+ libqcustomplot-dev
+ libcneartree-dev
+ libmpfrc++-dev
+ libscscp1-dev
+ libcminpack-dev
+ minpack-dev
+ libeinspline-dev
+ libdune-grid-dev
+ libann-dev
+ libflann-dev
+ libdouble-conversion-dev
+ python-ferari
 
 Task: science-neuroscience-cognitive
 Section: debian-science
@@ -1238,39 +1420,27 @@ Description: Debian Science packages for Cognitive Neuroscience
  med-imaging-dev metapackages for a variety of additional software that
  might be useful in the context of cognitive neuroscience.
 Relevance: 10
-Key:
+Key: 
  science-neuroscience-cognitive
 Packages: list
- amide 
- caret 
- dicom3tools 
- dicomnifti 
- itksnap 
- medcon 
- minc-tools 
- mriconvert 
- nifti-bin 
- praat 
- psignifit 
+ psignifit
+ amide
+ dicomnifti
+ minc-tools
+ medcon
+ xmedcon
+ nifti-bin
+ python-nifti
  python-mvpa
- python-nifti 
- python-pyepl 
- python-pypsignifit 
- python-pyxnat
+ caret
+ python-pyepl
+ praat
+ dicom3tools
+ itksnap
+ python-pypsignifit
  python-statsmodels
- xmedcon 
-
-Task: science-neuroscience-datasets
-Section: debian-science
-Description: Debian Science packages for Neuroscience Datasets
- This metapackage will install Debian packages that provide neuroscientific
- datasets. These datasets can be useful as common data files for applications
- (e.g. stereotaxic atlases), as example data for online tutorials or teaching,
- and as input data for analysis algorithms in demonstrations or test suites.
-Relevance: 10
-Key:
- science-neuroscience-datasets
-Packages: list
+ mriconvert
+ python-pyxnat
 
 Task: science-neuroscience-modeling
 Section: debian-science
@@ -1286,11 +1456,11 @@ Description: Debian Science packages for modeling of neural systems
  metapackages for a variety of additional software that might be
  useful for neuroscience research.
 Relevance: 10
-Key:
+Key: 
  science-neuroscience-modeling
 Packages: list
- cnrun 
  python-brian
+ cnrun
 
 Task: science-numericalcomputation
 Section: debian-science
@@ -1301,40 +1471,39 @@ Description: Debian Science Numerical Computation packages
  data analysis. These packages are similar to commercial systems such
  as Matlab and IDL.
 Relevance: 10
-Key:
+Key: 
  science-numericalcomputation
 Packages: list
- admesh 
- coinor-clp 
- coinor-symphony 
- esys-particle 
- freemat 
+ octave
+ python-matplotlib
+ python-scipy
  ipython
- julia 
- lammps 
- libdune-grid-dev 
- libsuitesparse-dev 
- liggghts 
- lush 
- metis 
- octave 
- python-deap
- python-demgengeo 
- python-gts 
- python-guiqwt 
- python-matplotlib 
- python-numpy 
- python-scipy 
- python-scitools
- python-tables 
- qtoctave 
- r-base
+ python-numpy
+ spyder
+ python-guiqwt
  scilab
  scilab-ann
- scilab-plotlib
- spyder
+ freemat
+ yorick
+ r-base
+ qtoctave
+ lush
+ liggghts
+ esys-particle
+ python-scitools
+ python-deap
+ python-tables
  vitables
- yorick 
+ lammps
+ julia
+ admesh
+ metis
+ python-gts
+ python-demgengeo
+ coinor-symphony
+ coinor-clp
+ libsuitesparse-dev
+ libdune-grid-dev
 
 Task: science-physics
 Section: debian-science
@@ -1343,39 +1512,94 @@ Description: Debian Science Physics packages
  You might also be interested in the debtag field::physics and, depending on
  your focus, in education-physics metapackage.
 Relevance: 10
-Key:
+Key: 
  science-physics
 Packages: list
- abinit  
- axiom 
- cadabra 
  cernlib
- cp2k 
- drawxtl 
- feynmf
- fityk 
  geant321
- ghkl 
- gpiv 
- gpivtools 
- gwyddion 
- libroot-math-mlp-dev 
- libroot-montecarlo-vmc-dev 
- libroot-tmva-dev 
- maxima 
- meshlab 
- oce-draw 
- opticalraytracer
- paw 
- paw++ 
- pymca 
- python-deap
- python-sympy
- quantum-espresso 
- root-system
- science-electronics
+ paw++
+ paw
+ abinit
+ feynmf
+ fityk
  science-numericalcomputation
- v-sim 
+ octave
+ python-matplotlib
+ python-scipy
+ ipython
+ python-numpy
+ spyder
+ python-guiqwt
+ scilab
+ scilab-ann
+ freemat
+ yorick
+ r-base
+ qtoctave
+ lush
+ liggghts
+ esys-particle
+ python-scitools
+ python-deap
+ python-tables
+ vitables
+ lammps
+ julia
+ admesh
+ metis
+ python-gts
+ python-demgengeo
+ coinor-symphony
+ coinor-clp
+ libsuitesparse-dev
+ libdune-grid-dev
+ oce-draw
+ science-electronics
+ avrdude
+ gcc-avr
+ gerbv
+ uisp
+ electric
+ geda
+ kicad
+ iverilog
+ verilator
+ gplcver
+ gputils
+ simulpic
+ pcb
+ oregano
+ tkgate
+ texlive-latex-extra
+ linsmith
+ xsmc-calc
+ confluence
+ gnucap
+ qelectrotech
+ covered
+ arduino
+ arduino-core
+ visolate
+ fritzing
+ v-sim
+ gpiv
+ gpivtools
+ maxima
+ python-sympy
+ axiom
+ meshlab
+ cadabra
+ drawxtl
+ opticalraytracer
+ ghkl
+ pymca
+ quantum-espresso
+ gwyddion
+ cp2k
+ root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
 
 Task: science-physics-dev
 Section: debian-science
@@ -1385,17 +1609,17 @@ Description: Debian Science Physics-dev packages
  .
  You might also be interested in the science-physics metapackage.
 Relevance: 10
-Key:
+Key: 
  science-physics-dev
 Packages: list
- fftw-dev 
- libfftw3-dev 
- libnfft3-dev 
- libopenctm-dev 
- pyfai 
+ pyfai
+ libnfft3-dev
+ libfftw3-dev
+ fftw-dev
+ sfftw-dev
+ libopenctm-dev
  python-openctm
  python-quantities
- sfftw-dev 
 
 Task: science-presentation
 Section: debian-science
@@ -1403,12 +1627,12 @@ Description: Debian Science generic tools for presentations
  This metapackage will install Debian Science some packages which are
  useful for doing presentations for instance on scientific conferences.
 Relevance: 10
-Key:
+Key: 
  science-presentation
 Packages: list
  latex-beamer
- pdf-presenter-console 
- zathura 
+ pdf-presenter-console
+ zathura
 
 Task: science-psychophysics
 Section: debian-science
@@ -1424,12 +1648,13 @@ Description: Debian Science packages for Psychophysics
  science-bci since those often provide a complete loop
  frameworks including stimuli delivery.
 Relevance: 10
-Key:
+Key: 
  science-psychophysics
 Packages: list
- libfreenect-dev 
- python-pyepl 
  python-pyoptical
+ python-pyepl
+ libfreenect-dev
+ octave-psychtoolbox-3
 
 Task: science-robotics
 Section: debian-science
@@ -1439,11 +1664,11 @@ Description: Debian Robotics packages
  .
  You might also be interested in the science-engineering metapackage.
 Relevance: 10
-Key:
+Key: 
  science-robotics
 Packages: list
- morse-simulator 
- xenomai-runtime 
+ xenomai-runtime
+ morse-simulator
 
 Task: science-robotics-dev
 Section: debian-science
@@ -1452,17 +1677,17 @@ Description: Debian Robotics development packages
  and installs packages that are relevant to develop applications
  for robotics.
 Relevance: 10
-Key:
+Key: 
  science-robotics-dev
 Packages: list
- libcomedi-dev 
- libcv-dev 
- libode-dev 
- libompl-dev 
- libopenigtlink-dev 
- libroboptim-core-dev 
- libslicot-dev 
- python-comedilib 
+ libcv-dev
+ libroboptim-core-dev
+ libode-dev
+ libompl-dev
+ libopenigtlink-dev
+ libslicot-dev
+ libcomedi-dev
+ python-comedilib
 
 Task: science-simulations
 Section: debian-science
@@ -1470,16 +1695,16 @@ Description: Debian Science Simulation packages
  This metapackage will install Debian Science packages that are
  used to do simulations in different fields of science.
 Relevance: 10
-Key:
+Key: 
  science-simulations
 Packages: list
- esys-particle 
- getdp 
- lammps 
- liggghts 
+ sumo
+ esys-particle
+ lammps
+ liggghts
  python-deap
- radiance 
- sumo 
+ getdp
+ radiance
 
 Task: science-social
 Section: debian-science
@@ -1487,7 +1712,7 @@ Description: Debian Science social sciences packages
  This metapackage will install Debian Science packages useful for social
  sciences.
 Relevance: 10
-Key:
+Key: 
  science-social
 Packages: list
  opensesame
@@ -1502,102 +1727,102 @@ Description: Debian Science Statistics packages
  do statistics.  Moreover the Science Mathematics task is suggested
  to optionally install all mathematics related software.
 Relevance: 10
-Key:
+Key: 
  science-statistics
 Packages: list
  ess
- littler 
- psignifit 
- python-openturns 
- python-pandas
- python-scipy 
- python-statsmodels
+ littler
+ r-recommended
+ rkward
+ r-cran-mapproj
  r-cran-abind
- r-cran-amore 
- r-cran-bayesm 
+ r-cran-bayesm
  r-cran-boot
- r-cran-cairodevice 
+ r-cran-cairodevice
  r-cran-car
- r-cran-chron 
- r-cran-cluster 
+ r-cran-chron
+ r-cran-cluster
  r-cran-coda
  r-cran-codetools
- r-cran-date 
- r-cran-dbi 
- r-cran-deldir 
- r-cran-eco 
+ r-cran-date
+ r-cran-dbi
+ r-cran-rms
+ r-cran-eco
  r-cran-effects
- r-cran-fastcluster 
- r-cran-fbasics 
- r-cran-fcopulae 
+ r-cran-fbasics
+ r-cran-fcopulae
  r-cran-fextremes
  r-cran-fmultivar
- r-cran-foptions 
- r-cran-foreign 
- r-cran-fportfolio 
+ r-cran-foptions
+ r-cran-foreign
+ r-cran-fportfolio
+ r-cran-timedate
  r-cran-gdata
  r-cran-gmodels
  r-cran-gplots
  r-cran-gregmisc
- r-cran-gtools 
- r-cran-hdf5 
- r-cran-hmisc 
+ r-cran-gtools
+ r-cran-hdf5
+ r-cran-hmisc
  r-cran-its
- r-cran-kernsmooth 
- r-cran-lattice 
- r-cran-latticeextra 
- r-cran-lhs 
- r-cran-lme4 
- r-cran-lmtest 
- r-cran-mapdata 
- r-cran-mapproj 
- r-cran-maps 
- r-cran-mass 
+ r-cran-kernsmooth
+ r-cran-lattice
+ r-cran-latticeextra
+ r-cran-lhs
+ r-cran-lme4
+ r-cran-lmtest
+ r-cran-mapdata
+ r-cran-maps
  r-cran-matchit
- r-cran-matrix 
- r-cran-mcmcpack 
- r-cran-mgcv 
+ r-cran-matrix
+ r-cran-mcmcpack
+ r-cran-mgcv
  r-cran-misc3d
- r-cran-mnp 
- r-cran-msm 
+ r-cran-mnp
  r-cran-multcomp
- r-cran-mvtnorm 
- r-cran-nlme 
- r-cran-permute
- r-cran-pscl 
+ r-cran-mvtnorm
+ r-cran-nlme
+ r-cran-pscl
  r-cran-psy
- r-cran-qtl 
- r-cran-quadprog 
- r-cran-rcmdr 
+ r-cran-qtl
+ r-cran-quadprog
+ r-cran-rcmdr
  r-cran-relimp
- r-cran-rggobi 
- r-cran-rgl 
- r-cran-rgtk2 
- r-cran-rmpi 
- r-cran-rms 
- r-cran-rmysql 
- r-cran-rodbc 
- r-cran-rpart 
- r-cran-rquantlib 
- r-cran-rserve 
- r-cran-rsprng 
+ r-cran-rggobi
+ r-cran-rgl
+ r-cran-rgtk2
+ r-cran-rmpi
+ r-cran-rmysql
+ r-cran-rodbc
+ r-cran-rpart
+ r-cran-rquantlib
+ r-cran-rserve
+ r-cran-rsprng
  r-cran-sandwich
- r-cran-sm 
+ r-cran-sm
  r-cran-snow
- r-cran-statmod 
  r-cran-strucchange
- r-cran-survival 
- r-cran-teachingdemos
- r-cran-timedate 
- r-cran-tkrplot 
- r-cran-tseries 
- r-cran-vcd
- r-cran-vgam 
- r-cran-xml 
+ r-cran-survival
+ r-cran-tkrplot
+ r-cran-tseries
+ r-cran-vgam
+ r-cran-mass
+ r-cran-xml
  r-cran-zelig
- r-cran-zoo 
- r-recommended
- rkward 
+ r-cran-zoo
+ r-cran-msm
+ r-cran-amore
+ r-cran-teachingdemos
+ psignifit
+ python-scipy
+ r-cran-vcd
+ r-cran-permute
+ python-statsmodels
+ r-cran-deldir
+ r-cran-fastcluster
+ r-cran-statmod
+ python-openturns
+ python-pandas
 
 Task: science-tools
 Section: debian-science
@@ -1609,9 +1834,9 @@ Description: Debian Science generic tools for scientific work
  might be to different to make sense to install all on one machine.
 Relevance: 10
 Packages: list
+ pegasus-wms
  openstereogram
- pegasus-wms 
- xoscope 
+ xoscope
 
 Task: science-typesetting
 Section: debian-science
@@ -1620,38 +1845,38 @@ Description: Debian Science typesetting packages
  typesetting.  You might also be interested in the use::typesetting
  debtag.
 Relevance: 10
-Key:
+Key: 
  science-typesetting
 Packages: list
- auctex
- biber
- bibus
- bibutils 
- cb2bib 
- dia 
- diploma
- feynmf
+ referencer
+ kbibtex
  impose+
- ipe 
- ipe5toxml 
+ pybliographer
+ texlive-bibtex-extra
  jabref
- jeuclid-mathviewer
- kbibtex 
+ bibutils
+ biber
+ feynmf
+ texlive
+ texlive-science
+ texlive-publishers
+ texlive-math-extra
+ diploma
+ lyx
+ texmacs-extra-fonts
+ auctex
+ xfig
+ transfig
+ dia
+ bibus
+ mlpost
  latexdiff
  libjlatexmath-java
- lyx 
- mlpost 
- pybliographer
- referencer 
- sketch 
- texlive
- texlive-bibtex-extra
- texlive-math-extra
- texlive-publishers
- texlive-science
- texmacs-extra-fonts
- transfig 
- xfig 
+ cb2bib
+ jeuclid-mathviewer
+ sketch
+ ipe
+ ipe5toxml
 
 Task: science-viewing
 Section: debian-science
@@ -1660,38 +1885,38 @@ Description: Debian Science data visualisation packages
  visualization. You might also be interested in the use::viewing
  debtag.
 Relevance: 10
-Key:
+Key: 
  science-viewing
 Packages: list
- feedgnuplot
- fityk 
- g3data 
- gle-graphics 
- gmsh 
- gnuplot
- grace 
- graphviz 
- gri 
- gwyddion 
- ifrit 
- imview 
- kst 
- libgnuplot-iostream-dev
- libqglviewer2 
- lybniz
- matlab2tikz
- mayavi2 
- paraview 
- plotdrop 
- python-gnuplot
- python-guiqwt 
- python-scientific 
- python-viper
- pyxplot 
- qtiplot 
- scidavis 
  vistrails
- yorick 
+ kst
+ ifrit
+ yorick
+ python-scientific
+ fityk
+ gnuplot
+ grace
+ gri
+ graphviz
+ pyxplot
+ plotdrop
+ qtiplot
+ python-guiqwt
+ imview
+ mayavi2
+ g3data
+ gwyddion
+ paraview
+ gle-graphics
+ gmsh
+ lybniz
+ python-viper
+ matlab2tikz
+ feedgnuplot
+ libgnuplot-iostream-dev
+ libqglviewer2
+ python-gnuplot
+ scidavis
 
 Task: science-viewing-dev
 Section: debian-science
@@ -1699,30 +1924,30 @@ Description: Debian Science development of visualisation applications
  This metapackage will install Debian Science packages related to the
  development of applications to visualise scientific data.
 Relevance: 10
-Key:
+Key: 
  science-viewing-dev
 Packages: list
- inventor-dev 
- libcoin80-dev 
- libeinspline-dev 
- libgnuplot-iostream-dev
- libgrits-dev 
- libgtkdatabox-0.9.2-0-dev 
- libgtkdataboxmm-dev 
- libqglviewer-dev 
- libqtexengine-dev 
- libqwtplot3d-qt4-dev 
- libsoqt4-dev 
- libvtk-java 
- libvtk5-dev 
- libvtk5-qt4-dev 
- python-gnuplot
- python-matplotlib 
- python-pivy 
- python-qwt3d-qt4 
- python-scientific 
+ python-scientific
+ libgrits-dev
+ python-matplotlib
  python-scitools
- python-vtk 
- tcl-vtk 
+ libgnuplot-iostream-dev
+ libqglviewer-dev
+ python-gnuplot
+ libcoin80-dev
+ libsoqt4-dev
+ libvtk5-dev
+ libvtk5-qt4-dev
+ tcl-vtk
+ python-vtk
+ libvtk-java
  vtk-examples
+ python-pivy
+ libgtkdataboxmm-dev
+ libgtkdatabox-0.9.2-0-dev
+ libeinspline-dev
+ inventor-dev
+ libqtexengine-dev
+ libqwtplot3d-qt4-dev
+ python-qwt3d-qt4
 
