@@ -3,11 +3,11 @@ Source: debian-science
 Section: science
 Priority: extra
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
-DM-Upload-Allowed: yes
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
- Andreas Tille <tille@debian.org>, Sylvestre Ledru <sylvestre@debian.org> 
+           Andreas Tille <tille@debian.org>,
+           Sylvestre Ledru <sylvestre@debian.org> 
 Build-Depends-Indep: blends-dev (>= 0.6.15)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://wiki.debian.org/DebianScience/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=blends/projects/science.git
 Vcs-Git: git://anonscm.debian.org/blends/projects/science.git
