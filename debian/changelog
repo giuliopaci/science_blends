@@ -1,3 +1,9 @@
+debian-science (1.2) UNRELEASED; urgency=medium
+
+  * d/copyright: DEP5
+
+ -- Andreas Tille <tille@debian.org>  Fri, 24 Jan 2014 13:52:31 +0100
+
 debian-science (1.1) unstable; urgency=low
 
   [ Andreas Tille ]
