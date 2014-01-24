@@ -61,6 +61,14 @@ Depends: visolate
 
 Depends: fritzing
 
+Depends: drawtiming
+
+Depends: geda-gaf, geda-xgsch2pcb
+
+Depends: gnusim8085
+
+Depends: gtkwave, gwave
+
 Depends: vbpp
 Pkg-URL: http://snapshot.debian.org/package/vbpp/
 Homepage: http://www.flex.com/~jching/
