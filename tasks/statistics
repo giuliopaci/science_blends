@@ -99,3 +99,6 @@ Remark: Removed from Debian
  from http://snapshot.debian.org/
  .
  Reasons are given here: http://bugs.debian.org/554513
+
+Depends: rstudio
+
