@@ -148,7 +148,7 @@ Depends: gap-dev
 
 Depends: libnfft3-dev
 
-Depends: python-fftw3
+Depends: python-fftw3 | python3-fftw3
 
 Depends: libfftw3-dev, fftw-dev, sfftw-dev
 
