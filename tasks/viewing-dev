@@ -35,3 +35,4 @@ Depends: libqtexengine-dev
 
 Depends: libqwtplot3d-qt4-dev, python-qwt3d-qt4
 
+Depends: libchealpix-dev

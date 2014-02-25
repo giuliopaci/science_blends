@@ -28,3 +28,5 @@ Depends: libfits-java
 Depends: libivoafits-java
 
 Depends: tcl-fitstcl
+
+Depends: libchealpix-dev
