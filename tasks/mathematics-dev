@@ -24,7 +24,7 @@ Depends: liblapack-dev, libatlas-base-dev, libblas-dev, libopenblas-dev
 
 Suggests: libjlapack-java, libmtj-java, libnetlib-java
 
-Depends: libsuperlu3-dev
+Depends: libsuperlu-dev
 Why: solver
 
 Depends: libglpk-dev, python-glpk, libglpk-java
