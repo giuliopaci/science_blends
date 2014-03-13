@@ -128,6 +128,8 @@ Pkg-Description: predicts occultations of stars by minor planets
 
 Depends: eso-midas
 
+Depends: wxastrocapture
+
 Depends: ssystem
 Pkg-URL: http://snapshot.debian.org/package/ssystem/
 Homepage: http://www1.las.es/~amil/ssystem
