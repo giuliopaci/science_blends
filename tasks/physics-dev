@@ -22,3 +22,5 @@ Comment: Source triangle seems to be unmaintained - it might make sense to team-
 
 Depends: python-quantities
 
+Depends: libismrmrd-dev
+
