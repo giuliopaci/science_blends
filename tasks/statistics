@@ -67,6 +67,8 @@ Why: Uncertainty quantification in numerical simulation
 
 Depends: python-pandas
 
+Depends: r-cran-ecodist, r-cran-energy, r-cran-mvnormtest
+
 Suggests: libtamuanova-dev
 
 X-Removed: Packages removed from Debian
