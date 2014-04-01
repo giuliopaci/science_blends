@@ -30,3 +30,5 @@ Depends: libsdformat-dev
 Depends: libconsole-bridge-dev
 
 Depends: libcomedi-dev, python-comedilib
+
+Depends: libccd-dev

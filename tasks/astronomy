@@ -126,22 +126,9 @@ Pkg-Description: predicts occultations of stars by minor planets
  Some initial packaging has been performed and will be submitted to
  pkg-scicomp.alioth.debian.org.
 
-Depends: midas
-Homepage: http://www.eso.org/sci/data-processing/software/esomidas/
-WNPP: 412488
-License: GPL
-Responsible: Alastair McKinstry <mckinstry@debian.org>
-Pkg-Description: the European Southern Observatory Munich Image Data Analysis System
- The ESO-MIDAS system provides general tools for image processing and
- data reduction with emphasis on astronomical applications including
- imaging and special reduction packages for ESO instrumentation at La
- Silla and the VLT at Paranal. In addition it contains applications
- packages for stellar and surface photometry, image sharpening and
- decomposition, statistics and various others.
- .
- The official name, ESO-MIDAS, is a registered trademark. ESO-MIDAS is
- available under the GNU General Public License (GPL), and can be
- implemented on OpenVMS and UNIX (Linux) systems.
+Depends: eso-midas
+
+Depends: wxastrocapture
 
 Depends: ssystem
 Pkg-URL: http://snapshot.debian.org/package/ssystem/
