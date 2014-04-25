@@ -132,6 +132,8 @@ Depends: ovito
 
 Depends: scidavis
 
+Depends: veusz
+
 Depends: python-seaborn
 Homepage: https://github.com/mwaskom/seaborn
 WNPP: 742573
