@@ -176,3 +176,5 @@ Remark: Removed from Debian
  from http://snapshot.debian.org/
  .
  Reasons are given here: http://bugs.debian.org/460795
+
+Depends: audela
