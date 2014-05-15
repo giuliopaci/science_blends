@@ -69,6 +69,8 @@ Depends: gnusim8085
 
 Depends: gtkwave, gwave
 
+Depends: qsapecng
+
 Depends: vbpp
 Pkg-URL: http://snapshot.debian.org/package/vbpp/
 Homepage: http://www.flex.com/~jching/
