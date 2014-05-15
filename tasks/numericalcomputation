@@ -108,3 +108,5 @@ Depends: libsuitesparse-dev, libsuitesparse-metis-dev
 Depends: libdune-grid-dev
 
 Depends: libcolpack-dev, libadolc-dev
+
+Depends: python-csa
