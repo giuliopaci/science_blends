@@ -178,3 +178,5 @@ Remark: Removed from Debian
  Reasons are given here: http://bugs.debian.org/460795
 
 Depends: audela
+
+Suggests: python-healpy
