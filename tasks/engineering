@@ -143,3 +143,4 @@ Depends: salome-gui, salome-jobmanager, salome-med, salome-paravis, salome-smesh
 
 Suggests: salome-kernel
 
+Depends: libadios-bin
