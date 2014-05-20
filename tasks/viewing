@@ -134,6 +134,8 @@ Depends: scidavis
 
 Depends: veusz
 
+Depends: ctioga2
+
 Depends: python-seaborn
 Homepage: https://github.com/mwaskom/seaborn
 WNPP: 742573
