@@ -77,3 +77,5 @@ Why: Co-ordinates system for geographical data in FITS files
 Depends: libfreefoam-dev
 
 Depends: librsl-dev
+
+Depends: libwreport-dev
