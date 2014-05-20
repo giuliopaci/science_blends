@@ -59,6 +59,8 @@ Depends: narval-utils
 
 Depends: xyscan
 
+Depends: filo
+
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
 License: MIT
