@@ -57,6 +57,8 @@ Depends: ghkl
 
 Depends: narval-utils
 
+Depends: xyscan
+
 Depends: python-visa
 Homepage: http://pyvisa.sourceforge.net/
 License: MIT
