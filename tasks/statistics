@@ -39,6 +39,8 @@ Comment: r-cran-rcompgen, r-cran-e1071
 
 Depends: r-cran-msm, r-cran-amore, r-cran-teachingdemos
 
+Depends: r-cran-expm
+
 Depends: psignifit, python-stats
 
 Depends: python-scipy
