@@ -19,6 +19,9 @@ Depends: libode-dev
 Depends: libompl-dev
 WNPP: 706133
 
+Depends: liboctomap-dev
+WNPP: 742709
+
 Depends: libopenigtlink-dev
 
 Depends: liburdfdom-dev, liburdfdom-headers-dev
