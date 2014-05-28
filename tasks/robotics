@@ -207,3 +207,6 @@ Suggests: octave, gnuplot
 
 Suggests: octovis
 WNPP: 742709
+
+Depends: octomap-tools
+
