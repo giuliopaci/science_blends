@@ -25,3 +25,5 @@ Depends: python-quantities
 Depends: libismrmrd-dev
 
 Depends: python-multipletau | python3-multipletau
+
+Depends: python-pynfft | python3-pynfft
