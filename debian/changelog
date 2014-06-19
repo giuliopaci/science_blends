@@ -12,6 +12,108 @@ debian-science (1.2) UNRELEASED; urgency=medium
     replacement, liberfa-dev, is already in astronomy-dev.
     Closes: #751487
 
+  * start of automatic changelog entry * 
+  
+  * Changes in metapackage dependencies
+   -science-economics
+    added:
+      Depends:  r-cran-pwt8
+   -science-viewing-dev
+    added:
+      Depends:  libchealpix-dev
+   -science-robotics
+    added:
+      Depends:  octovis, octomap-tools
+      Suggests:  octovis
+   -science-robotics-dev
+    added:
+      Depends:  libccd-dev, liboctomap-dev
+   -science-simulations
+    added:
+      Depends:  music-bin
+   -science-dataacquisition
+    added:
+      Depends:  xyscan, filo
+   -science-statistics
+    added:
+      Depends:  r-cran-energy, rstudio, r-cran-mvnormtest, r-cran-expm, r-cran-ecodist
+   -science-imageanalysis
+    added:
+      Suggests:  python-vigra, libvigraimpex-dev
+   -science-mathematics-dev
+    added:
+      Depends:  python-pynfft | python3-pynfft, libsuperlu-dev, python-fftw3 | python3-fftw3
+    removed:
+      Depends:  libsuperlu3-dev, liblife-dev, python-fftw3
+   -science-mathematics
+    removed:
+      Depends:  life-apps
+   -science-electronics
+    added:
+      Depends:  geda-gaf, geda-xgsch2pcb, drawtiming, gwave, qsapecng, gtkwave, gnusim8085
+      Suggests:  libfeel++-dev
+    removed:
+      Suggests:  liblife-dev
+   -science-numericalcomputation
+    added:
+      Depends:  python-csa, algotutor, libadolc-dev, libcolpack-dev
+   -science-typesetting
+    added:
+      Depends:  zotero-standalone
+      Suggests:  xul-ext-zotero
+    removed:
+      Depends:  zotero
+   -science-engineering-dev
+    added:
+      Depends:  python-nfft3 | python3-nfft3, libfeel++-dev, python-fftw3 | python3-fftw3
+    removed:
+      Depends:  python-fftw3, liblife-dev
+   -science-viewing
+    added:
+      Depends:  ctioga2, veusz, python-seaborn
+   -science-astronomy-dev
+    added:
+      Depends:  libhealipx-cxx-dev, libchealpix-dev, python-healpy
+    removed:
+      Depends:  libsofa-c-dev
+   -science-astronomy
+    added:
+      Depends:  wxastrocapture, audela, eso-midas
+      Suggests:  python-healpy
+    removed:
+      Depends:  midas
+   -science-engineering
+    added:
+      Depends:  libadios-bin, feel++-apps, sfc
+    removed:
+      Depends:  life-apps, syfi-bin
+   -science-physics-dev
+    added:
+      Depends:  python-fftw3 | python3-fftw3, python-pynfft | python3-pynfft, libfeel++-dev, libismrmrd-dev, python-multipletau | python3-multipletau
+    removed:
+      Depends:  python-fftw3
+   -science-nanoscale-physics-dev
+    added:
+      Suggests:  libfeel++-dev
+    removed:
+      Suggests:  liblife-dev
+   -science-nanoscale-physics
+    added:
+      Suggests:  feel++-apps
+    removed:
+      Suggests:  life-apps
+   -science-physics
+    added:
+      Suggests:  feel++-apps
+    removed:
+      Suggests:  liblife-dev, life-apps
+   -science-meteorology-dev
+    added:
+      Depends:  libwreport-dev
+      Suggests:  libfeel++-dev
+    removed:
+      Suggests:  liblife-dev
+
  -- Andreas Tille <tille@debian.org>  Thu, 19 Jun 2014 10:20:04 +0200
 
 debian-science (1.1) unstable; urgency=low
