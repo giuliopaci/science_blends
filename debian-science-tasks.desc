@@ -25,6 +25,8 @@ Packages: list
  xplanet
  lynkeos.app
  stardata-common
+ gliese
+ yale
  boinc-app-milkyway
  boinc-app-seti
  gyoto
@@ -72,6 +74,7 @@ Packages: list
  libfits-java
  tcl-fitstcl
  libchealpix-dev
+ python-healpy
 
 Task: science-bci
 Section: debian-science
@@ -134,6 +137,7 @@ Packages: list
  gausssum
  gchempaint
  gdis
+ ghemical
  gcrystal
  gcu-bin
  gcu-plugin
@@ -162,6 +166,7 @@ Packages: list
  massxpert
  drawxtl
  chemical-structures
+ freefoam
  pyfai
  python-mmtk
  jmol
@@ -248,6 +253,7 @@ Packages: list
  openmpipython
  mpich2python
  python-mpi
+ dmtcp
  environment-modules
 
 Task: science-economics
@@ -329,6 +335,7 @@ Packages: list
  geda
  kicad
  freehdl
+ ghdl
  iverilog
  verilator
  gplcver
@@ -340,6 +347,9 @@ Packages: list
  texlive-latex-extra
  linsmith
  confluence
+ ngspice
+ gspiceui
+ easyspice
  gnucap
  qelectrotech
  covered
@@ -351,6 +361,7 @@ Packages: list
  geda-xgsch2pcb
  gnusim8085
  gtkwave
+ gwave
  qsapecng
 
 Task: science-electrophysiology
@@ -392,13 +403,16 @@ Packages: list
  libsilo-bin
  gerris
  gmsh
+ getdp
  netgen
  pythoncad
  z88
  freecad
+ feel++-apps
  python-openturns
  code-aster-gui
  code-aster
+ metis-edf
  eficas
  code-saturne
  hdfview
@@ -406,10 +420,17 @@ Packages: list
  cba
  python-fiat
  syrthes
+ freefoam
  diet-agent
  tetgen
  dime
  cgns-convert
+ salome-gui
+ salome-jobmanager
+ salome-med
+ salome-paravis
+ salome-smesh
+ salome-yacs
  libadios-bin
 
 Task: science-engineering-dev
@@ -428,6 +449,7 @@ Packages: list
  code-saturne-include
  libcgns-dev
  libitpp-dev
+ libfreefoam-dev
  libexodusii-dev
  libadios-dev
  libbox-dev
@@ -440,8 +462,11 @@ Packages: list
  liboce-visualization-dev
  liboce-ocaf-dev
  libdeal.ii-dev
+ libfeel++-dev
  libopenturns-dev
  libmadlib-dev
+ libslepc3.4.2-dev
+ libelmer-dev
  libmed-dev
  libmedc-dev
  libmedimport-dev
@@ -452,6 +477,7 @@ Packages: list
  libnlopt-dev
  python-fftw3
  libcoin80-dev
+ libmetis-edf-dev
  libslicot-dev
  python-collada
  libann-dev
@@ -509,6 +535,7 @@ Packages: list
  gpsbabel
  gpx2shp
  gpsd
+ gpsdrive
  gpsman
  openscenegraph
  thuban
@@ -537,6 +564,7 @@ Packages: list
  imposm
  hyantesite
  r-cran-sp
+ r-cran-maptools
  r-cran-mapdata
  r-cran-mapproj
  r-cran-maps
@@ -554,6 +582,7 @@ Key:
  science-geometry
 Packages: list
  carmetal
+ salome-geom
  drgeo
  geogebra-kde
 
@@ -589,6 +618,90 @@ Packages: list
  looptools
  python-lhapdf
  octave-lhapdf
+ root-macro-fastjet
+ pythia8-root-interface
+ libroot-bindings-python5.34
+ libroot-bindings-ruby5.34
+ libroot-graf3d-gl5.34
+ libroot-io-xmlparser5.34
+ libroot-math-mathmore5.34
+ libroot-math-unuran5.34
+ libroot-misc-memstat5.34
+ libroot-misc-table5.34
+ libroot-net-bonjour5.34
+ libroot-net-ldap5.34
+ libroot-roofit5.34
+ libroot-geom5.34
+ libroot-graf2d-gpad5.34
+ libroot-graf2d-graf5.34
+ libroot-graf2d-postscript5.34
+ libroot-graf3d-eve5.34
+ libroot-graf3d-g3d5.34
+ libroot-gui5.34
+ libroot-gui-ged5.34
+ libroot-hist5.34
+ libroot-hist-spectrum5.34
+ libroot-html5.34
+ libroot-io5.34
+ libroot-math-foam5.34
+ libroot-math-genvector5.34
+ libroot-math-mathcore5.34
+ libroot-math-matrix5.34
+ libroot-math-minuit5.34
+ libroot-math-mlp5.34
+ libroot-math-physics5.34
+ libroot-math-quadp5.34
+ libroot-math-smatrix5.34
+ libroot-math-splot5.34
+ libroot-misc-minicern5.34
+ libroot-montecarlo-eg5.34
+ libroot-montecarlo-vmc5.34
+ libroot-net5.34
+ libroot-net-auth5.34
+ libroot-proof5.34
+ libroot-proof-proofplayer5.34
+ libroot-tmva5.34
+ libroot-tree5.34
+ libroot-tree-treeplayer5.34
+ libroot-core5.34
+ root-plugin-graf2d-asimage
+ root-plugin-geom-gdml
+ root-plugin-gui-qt
+ root-plugin-graf2d-qt
+ root-plugin-math-fftw3
+ root-plugin-math-minuit2
+ root-plugin-montecarlo-pythia8
+ root-plugin-net-globus
+ root-plugin-net-krb5
+ root-plugin-sql-mysql
+ root-plugin-sql-odbc
+ root-plugin-sql-pgsql
+ root-plugin-geom-geombuilder
+ root-plugin-geom-geompainter
+ root-plugin-graf2d-x11
+ root-plugin-graf3d-x3d
+ root-plugin-gui-fitpanel
+ root-plugin-gui-guibuilder
+ root-plugin-gui-sessionviewer
+ root-plugin-hist-hbook
+ root-plugin-hist-histpainter
+ root-plugin-hist-spectrumpainter
+ root-plugin-io-sql
+ root-plugin-io-xml
+ root-plugin-math-fumili
+ root-plugin-tree-treeviewer
+ root-system-proofd
+ root-system-rootd
+ root-system-bin
+ root-system-common
+ root-system
+ rivet
+ rivet-plugins
+ python-rivet
+ rivet-root-converter
+ thepeg
+ thepeg-gui
+ herwig++
 
 Task: science-highenergy-physics-dev
 Section: debian-science
@@ -607,11 +720,68 @@ Packages: list
  cernlib-base-dev
  cernlib-core-dev
  libclhep-dev
+ libhepmc-dev
+ libhepmcfio-dev
  liblhapdf-dev
  libsiscone-dev
  libsiscone-spherical-dev
+ libfastjet-dev
+ libfastjettools-dev
+ libfastjet-fortran-dev
+ libfastjetplugins-dev
+ libpythia8-dev
+ libhepmcinterface8-dev
  fcc
  libooptools-dev
+ libroot-bindings-python-dev
+ libroot-bindings-ruby-dev
+ libroot-graf3d-gl-dev
+ libroot-io-xmlparser-dev
+ libroot-math-mathmore-dev
+ libroot-math-unuran-dev
+ libroot-misc-memstat-dev
+ libroot-misc-table-dev
+ libroot-net-bonjour-dev
+ libroot-net-ldap-dev
+ libroot-roofit-dev
+ libroot-geom-dev
+ libroot-graf2d-gpad-dev
+ libroot-graf2d-graf-dev
+ libroot-graf2d-postscript-dev
+ libroot-graf3d-eve-dev
+ libroot-graf3d-g3d-dev
+ libroot-gui-dev
+ libroot-gui-ged-dev
+ libroot-hist-dev
+ libroot-hist-spectrum-dev
+ libroot-html-dev
+ libroot-io-dev
+ libroot-math-foam-dev
+ libroot-math-genvector-dev
+ libroot-math-mathcore-dev
+ libroot-math-matrix-dev
+ libroot-math-minuit-dev
+ libroot-math-mlp-dev
+ libroot-math-physics-dev
+ libroot-math-quadp-dev
+ libroot-math-smatrix-dev
+ libroot-math-splot-dev
+ libroot-misc-minicern-dev
+ libroot-montecarlo-eg-dev
+ libroot-montecarlo-vmc-dev
+ libroot-net-dev
+ libroot-net-auth-dev
+ libroot-proof-dev
+ libroot-proof-proofplayer-dev
+ libroot-tmva-dev
+ libroot-tree-dev
+ libroot-tree-treeplayer-dev
+ libroot-core-dev
+ libroot-static
+ librivet-dev
+ rivet-plugins-dev
+ libthepeg-dev
+ herwig++-dev
 
 Task: science-imageanalysis
 Section: debian-science
@@ -643,6 +813,7 @@ Packages: list
  apertium
  link-grammar
  artha
+ sequitur-g2p
  timbl
  timblserver
  mbt
@@ -710,6 +881,7 @@ Packages: list
  liblinear-dev
  libocas-dev
  python-scikits-learn
+ python-mdp
  python-mlpy
  weka
  vowpal-wabbit
@@ -725,6 +897,10 @@ Packages: list
  r-cran-tgp
  python-mvpa
  python-statsmodels
+ root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
  autoclass
  mcl
  scilab-ann
@@ -768,10 +944,12 @@ Packages: list
  gap-guava
  gap-character-tables
  gerris
+ freefem
  freefem3d
  freefem++
  netgen
  gmsh
+ getdp
  coq
  proofgeneral
  matita
@@ -884,14 +1062,18 @@ Packages: list
  freemat
  mathomatic
  scilab
+ scilab-sivp
  scilab-ann
  regina-normal
  snappea
  lp-solve
  libmatheval1
  mumps-test
+ nauty
  geogebra
  lrslib
+ dolfin-bin
+ fenics
  sfc
  python-ffc
  polylib-utils
@@ -910,6 +1092,7 @@ Packages: list
  python-minieigen
  coinor-symphony
  tetgen
+ feel++-apps
 
 Task: science-mathematics-dev
 Section: debian-science
@@ -945,12 +1128,16 @@ Packages: list
  liblip-dev
  libranlip-dev
  libarpack2-dev
+ libarpack++2-dev
  code-saturne-bin
  code-saturne-include
  libarmadillo-dev
  libstxxl-dev
  libnewmat10-dev
  libmadlib-dev
+ dolfin-dev
+ python-dolfin
+ libslepc3.4.2-dev
  petsc-dev
  python-openturns
  libopenturns-dev
@@ -963,12 +1150,15 @@ Packages: list
  libsparskit-dev
  libspooles-dev
  libsuitesparse-dev
+ libsuitesparse-metis-dev
+ libparmetis-dev
  ufc
  python-ufc
  python-ffc
  python-ufl
  libscythestat-dev
  libfreefem++-dev
+ libfreefem-dev
  libgivaro-dev
  fflas-ffpack
  libpolybori-dev
@@ -1001,6 +1191,7 @@ Packages: list
  libann-dev
  libflann-dev
  libdouble-conversion-dev
+ libfeel++-dev
  python-ferari
 
 Task: science-meteorology
@@ -1020,6 +1211,7 @@ Packages: list
  grads
  ferret-vis
  magics++
+ freefoam
  libgrib-api-tools
  ecaccess
  python-netcdf
@@ -1074,6 +1266,7 @@ Packages: list
  libopenturns-dev
  wcslib-dev
  wcslib-doc
+ libfreefoam-dev
  librsl-dev
  libwreport-dev
 
@@ -1107,10 +1300,14 @@ Packages: list
  psi3
  quantum-espresso
  drawxtl
+ etsf-io
  feynmf
  fityk
  gnuplot
  grace
+ horae
+ ifeffit
+ sixpack
  libblas3gf
  liblapack3gf
  libfftw3-3
@@ -1129,7 +1326,10 @@ Packages: list
  python-numpy
  spyder
  python-guiqwt
+ pdl
+ gnudatalanguage
  scilab
+ scilab-sivp
  scilab-ann
  freemat
  yorick
@@ -1151,7 +1351,9 @@ Packages: list
  python-demgengeo
  coinor-symphony
  coinor-clp
+ metis-edf
  libsuitesparse-dev
+ libsuitesparse-metis-dev
  libdune-grid-dev
  libcolpack-dev
  libadolc-dev
@@ -1160,10 +1362,12 @@ Packages: list
  avogadro
  garlic
  gdis
+ ghemical
  v-sim
  gwyddion
  cp2k
  pymca
+ python-ase
  cbflib-bin
  axiom
  maxima
@@ -1199,17 +1403,25 @@ Packages: list
  libblas-doc
  liblapack-dev
  liblapack-doc
+ libetsf-io-dev
+ libetsf-io-doc
  libfftw3-dev
  fftw-dev
  sfftw-dev
  libgsl0-dev
  gsl-bin
+ gsl-doc-info
+ gsl-ref-html
  libnetcdf-dev
  netcdf-doc
  libxc-dev
  libopenmpi-dev
  liboce-visualization-dev
  liboce-ocaf-dev
+ root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
  python-fabio
  libcbf-dev
  pyfai
@@ -1238,12 +1450,16 @@ Packages: list
  liblip-dev
  libranlip-dev
  libarpack2-dev
+ libarpack++2-dev
  code-saturne-bin
  code-saturne-include
  libarmadillo-dev
  libstxxl-dev
  libnewmat10-dev
  libmadlib-dev
+ dolfin-dev
+ python-dolfin
+ libslepc3.4.2-dev
  petsc-dev
  python-openturns
  libopenturns-dev
@@ -1256,12 +1472,15 @@ Packages: list
  libsparskit-dev
  libspooles-dev
  libsuitesparse-dev
+ libsuitesparse-metis-dev
+ libparmetis-dev
  ufc
  python-ufc
  python-ffc
  python-ufl
  libscythestat-dev
  libfreefem++-dev
+ libfreefem-dev
  libgivaro-dev
  fflas-ffpack
  libpolybori-dev
@@ -1291,6 +1510,7 @@ Packages: list
  libann-dev
  libflann-dev
  libdouble-conversion-dev
+ libfeel++-dev
  python-ferari
 
 Task: science-neuroscience-cognitive
@@ -1319,12 +1539,16 @@ Packages: list
  xmedcon
  nifti-bin
  python-nifti
+ fsl
  fslview
  python-mvpa
  caret
  python-pyepl
  praat
  dicom3tools
+ voxbo
+ openmeeg-tools
+ mricron
  itksnap
  python-pypsignifit
  python-statsmodels
@@ -1370,7 +1594,10 @@ Packages: list
  python-numpy
  spyder
  python-guiqwt
+ pdl
+ gnudatalanguage
  scilab
+ scilab-sivp
  scilab-ann
  freemat
  yorick
@@ -1392,7 +1619,9 @@ Packages: list
  python-demgengeo
  coinor-symphony
  coinor-clp
+ metis-edf
  libsuitesparse-dev
+ libsuitesparse-metis-dev
  libdune-grid-dev
  libcolpack-dev
  libadolc-dev
@@ -1416,7 +1645,12 @@ Packages: list
  abinit
  gerris
  feynmf
+ freefoam
  fityk
+ horae
+ ifeffit
+ sixpack
+ tessa
  science-numericalcomputation
  octave
  python-matplotlib
@@ -1425,7 +1659,10 @@ Packages: list
  python-numpy
  spyder
  python-guiqwt
+ pdl
+ gnudatalanguage
  scilab
+ scilab-sivp
  scilab-ann
  freemat
  yorick
@@ -1447,7 +1684,9 @@ Packages: list
  python-demgengeo
  coinor-symphony
  coinor-clp
+ metis-edf
  libsuitesparse-dev
+ libsuitesparse-metis-dev
  libdune-grid-dev
  libcolpack-dev
  libadolc-dev
@@ -1463,6 +1702,7 @@ Packages: list
  geda
  kicad
  freehdl
+ ghdl
  iverilog
  verilator
  gplcver
@@ -1474,6 +1714,9 @@ Packages: list
  texlive-latex-extra
  linsmith
  confluence
+ ngspice
+ gspiceui
+ easyspice
  gnucap
  qelectrotech
  covered
@@ -1485,6 +1728,7 @@ Packages: list
  geda-xgsch2pcb
  gnusim8085
  gtkwave
+ gwave
  qsapecng
  v-sim
  gpiv
@@ -1493,13 +1737,19 @@ Packages: list
  python-sympy
  axiom
  meshlab
+ cadabra
  drawxtl
  opticalraytracer
  ghkl
+ etsf-io
  pymca
  quantum-espresso
  gwyddion
  cp2k
+ root-system
+ libroot-tmva-dev
+ libroot-montecarlo-vmc-dev
+ libroot-math-mlp-dev
 
 Task: science-physics-dev
 Section: debian-science
@@ -1512,6 +1762,7 @@ Relevance: 10
 Key: 
  science-physics-dev
 Packages: list
+ libfreefoam-dev
  pyfai
  libnfft3-dev
  python-fftw3
@@ -1522,6 +1773,7 @@ Packages: list
  python-openctm
  python-quantities
  python-multipletau
+ libfeel++-dev
 
 Task: science-presentation
 Section: debian-science
@@ -1553,6 +1805,7 @@ Relevance: 10
 Key: 
  science-psychophysics
 Packages: list
+ psychopy
  python-pyoptical
  python-pyepl
  libfreenect-dev
@@ -1569,10 +1822,12 @@ Relevance: 10
 Key: 
  science-robotics
 Packages: list
+ rtai
  xenomai-runtime
  morse-simulator
  choreonoid
  liburdfdom-tools
+ robot-player
 
 Task: science-robotics-dev
 Section: debian-science
@@ -1615,6 +1870,8 @@ Packages: list
  liggghts
  yade
  python-deap
+ freefoam
+ getdp
  radiance
  music-bin
 
@@ -1751,6 +2008,7 @@ Description: Debian Science generic tools for scientific work
 Relevance: 10
 Packages: list
  pegasus-wms
+ openstereogram
  xoscope
 
 Task: science-typesetting
@@ -1778,7 +2036,7 @@ Packages: list
  texlive-math-extra
  diploma
  lyx
- texmacs-extra-fonts
+ texmacs
  auctex
  xfig
  transfig
@@ -1805,6 +2063,8 @@ Key:
  science-viewing
 Packages: list
  vistrails
+ pdl
+ gnudatalanguage
  kst
  ifrit
  yorick
@@ -1840,6 +2100,7 @@ Packages: list
  veusz
  ctioga2
  python-seaborn
+ trend
 
 Task: science-viewing-dev
 Section: debian-science
@@ -1850,6 +2111,8 @@ Relevance: 10
 Key: 
  science-viewing-dev
 Packages: list
+ pdl
+ gnudatalanguage
  python-scientific
  libgrits-dev
  python-matplotlib

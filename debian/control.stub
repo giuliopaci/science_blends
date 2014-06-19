@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
            Andreas Tille <tille@debian.org>,
-           Sylvestre Ledru <sylvestre@debian.org> 
+           Sylvestre Ledru <sylvestre@debian.org>
 Build-Depends-Indep: blends-dev (>= 0.6.15)
 Standards-Version: 3.9.5
 Homepage: http://wiki.debian.org/DebianScience/
