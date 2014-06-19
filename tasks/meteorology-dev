@@ -68,7 +68,7 @@ Why: Uncertainty quantification in numerical simulation
 
 Suggests: openturns-examples
 
-Suggests: liblife-dev
+Suggests: libfeel++-dev
 Why: Partial differential equations library, FEA, CFD
 
 Depends: wcslib-dev, wcslib-doc

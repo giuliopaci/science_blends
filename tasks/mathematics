@@ -104,9 +104,6 @@ Remark: upstream prefers Isabelle not being packaged
 
 Depends: bliss
 
-Depends: life-apps
-Why: Partial differential equation library, FEA, CFD
-
 Depends: python-openturns
 Why: Uncertainty quantification in numerical simulation
 

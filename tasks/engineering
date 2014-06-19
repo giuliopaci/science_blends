@@ -34,7 +34,7 @@ Depends: z88
 
 Depends: freecad
 
-Depends: life-apps
+Depends: feel++-apps
 
 Depends: python-openturns
 
@@ -48,7 +48,7 @@ Depends: code-saturne, ecs
 
 Depends: hdfview
 
-Depends: syfi-bin
+Depends: sfc
 
 Depends: cba
 

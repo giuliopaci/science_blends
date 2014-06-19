@@ -51,7 +51,7 @@ Recommends: libscalapack-mpi-dev, scalapack-doc
 
 Recommends: science-mathematics-dev
 
-Suggests: liblife-dev
+Suggests: libfeel++-dev
 Why: Partial differential equation library, FEA, CFD
 
 Suggests: oce-draw

@@ -43,7 +43,7 @@ Depends: liboce-visualization-dev, liboce-ocaf-dev
 
 Depends: libdeal.ii-dev
 
-Depends: liblife-dev
+Depends: libfeel++-dev
 Why: Partial differential equations library, FEA, CFD
 
 Depends: libluminate-dev

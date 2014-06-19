@@ -81,7 +81,7 @@ Why: Support ongoing finite-element projects
 
 Suggests: gpiv, gpivtools
 
-Suggests: life-apps
+Suggests: feel++-apps
 Why: Partial differential equation library, FEA, CFD
 
 Suggests: qtiplot, scidavis

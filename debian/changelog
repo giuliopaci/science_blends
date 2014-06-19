@@ -2,13 +2,17 @@ debian-science (1.2) UNRELEASED; urgency=medium
 
   [ Andreas Tille ]
   * d/copyright: DEP5
+  * some changed package names reflected in tasks files:
+    - "syfi-bin" has been replaced with "sfc"
+    - "life-apps" has been replaced with "feel++-apps"
+    - "liblife-dev" has been replaced with "libfeel++-dev"
 
   [ Ole Streicher ]
   * tasks/astronomy-dev: Remove non-free libsofa-c-dev. The
     replacement, liberfa-dev, is already in astronomy-dev.
     Closes: #751487
 
- -- Andreas Tille <tille@debian.org>  Fri, 24 Jan 2014 13:52:31 +0100
+ -- Andreas Tille <tille@debian.org>  Thu, 19 Jun 2014 10:20:04 +0200
 
 debian-science (1.1) unstable; urgency=low
 

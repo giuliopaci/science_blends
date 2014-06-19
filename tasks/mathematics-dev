@@ -74,9 +74,6 @@ Depends:  petsc-dev, libtrilinos-dev
 
 Suggests: libqrupdate-dev
 
-Depends: liblife-dev
-Why: Partial differential equations library, FEA, CFD
-
 Depends: python-openturns, libopenturns-dev
 Why: Uncertainty quantification in numerical simulation
 
