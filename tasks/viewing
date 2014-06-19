@@ -137,3 +137,5 @@ Depends: veusz
 Depends: ctioga2
 
 Depends: python-seaborn
+
+Depends: trend
