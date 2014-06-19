@@ -36,13 +36,15 @@ debian-science (1.2) UNRELEASED; urgency=medium
       Depends:  xyscan, filo
    -science-statistics
     added:
-      Depends:  r-cran-energy, rstudio, r-cran-mvnormtest, r-cran-expm, r-cran-ecodist
+      Depends:  r-cran-energy, rstudio, r-cran-mvnormtest, r-cran-expm,
+                r-cran-ecodist
    -science-imageanalysis
     added:
       Suggests:  python-vigra, libvigraimpex-dev
    -science-mathematics-dev
     added:
-      Depends:  python-pynfft | python3-pynfft, libsuperlu-dev, python-fftw3 | python3-fftw3
+      Depends:  python-pynfft | python3-pynfft, libsuperlu-dev, python-fftw3 |
+                python3-fftw3
     removed:
       Depends:  libsuperlu3-dev, liblife-dev, python-fftw3
    -science-mathematics
@@ -50,7 +52,8 @@ debian-science (1.2) UNRELEASED; urgency=medium
       Depends:  life-apps
    -science-electronics
     added:
-      Depends:  geda-gaf, geda-xgsch2pcb, drawtiming, gwave, qsapecng, gtkwave, gnusim8085
+      Depends:  geda-gaf, geda-xgsch2pcb, drawtiming, gwave, qsapecng, gtkwave,
+                gnusim8085
       Suggests:  libfeel++-dev
     removed:
       Suggests:  liblife-dev
@@ -65,7 +68,8 @@ debian-science (1.2) UNRELEASED; urgency=medium
       Depends:  zotero
    -science-engineering-dev
     added:
-      Depends:  python-nfft3 | python3-nfft3, libfeel++-dev, python-fftw3 | python3-fftw3
+      Depends:  python-nfft3 | python3-nfft3, libfeel++-dev, python-fftw3 |
+                python3-fftw3
     removed:
       Depends:  python-fftw3, liblife-dev
    -science-viewing
@@ -89,7 +93,9 @@ debian-science (1.2) UNRELEASED; urgency=medium
       Depends:  life-apps, syfi-bin
    -science-physics-dev
     added:
-      Depends:  python-fftw3 | python3-fftw3, python-pynfft | python3-pynfft, libfeel++-dev, libismrmrd-dev, python-multipletau | python3-multipletau
+      Depends:  python-fftw3 | python3-fftw3, python-pynfft | python3-pynfft,
+                libfeel++-dev, libismrmrd-dev, python-multipletau |
+                python3-multipletau
     removed:
       Depends:  python-fftw3
    -science-nanoscale-physics-dev
