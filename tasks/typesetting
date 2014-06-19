@@ -15,7 +15,7 @@ Why: TeX
 Depends: lyx
 Why: LyX
 
-Depends: texmacs, texmacs-extra-fonts
+Depends: texmacs
 Why: TeXmacs
 
 Depends: auctex

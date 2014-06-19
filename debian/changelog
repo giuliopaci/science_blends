@@ -8,6 +8,8 @@ debian-science (1.2) UNRELEASED; urgency=medium
     - "liblife-dev" has been replaced with "libfeel++-dev"
   * tasks/viewing: Add trend
     Closes: #739635
+  * tasks/typesetting: Remove texmacs-extra-fonts
+    Closes: #683587
 
   [ Ole Streicher ]
   * tasks/astronomy-dev: Remove non-free libsofa-c-dev. The
