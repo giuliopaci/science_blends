@@ -139,3 +139,7 @@ Depends: ctioga2
 Depends: python-seaborn
 
 Depends: trend
+
+Depends: python-pyqtgraph
+WNPP: 753590
+
