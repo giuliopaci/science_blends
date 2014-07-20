@@ -29,3 +29,5 @@ Depends: python-multipletau | python3-multipletau
 Depends: python-pynfft | python3-pynfft
 
 Depends: libfeel++-dev
+
+Depends: python-xrayutilities
