@@ -74,6 +74,8 @@ Why: ODE solvers, optimization algorithms, symbolic maths
 Recommends: pyxplot
 Why: publication-quality figures
 
+Depends: crystfel
+
 Suggests: dx, dx-doc
 
 Suggests: gmsh

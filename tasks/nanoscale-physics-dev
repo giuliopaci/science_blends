@@ -151,3 +151,5 @@ Depends: python-fabio, libcbf-dev, libcbf-dev
 Depends: pyfai
 
 Depends: python-xrayutilities
+
+Depends: crystfel-dev
