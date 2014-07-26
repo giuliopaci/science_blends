@@ -269,3 +269,4 @@ Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
 
 Depends: cbflib-bin
 
+Depends: python-lmfit | python3-lmfit

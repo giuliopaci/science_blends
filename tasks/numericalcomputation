@@ -51,6 +51,8 @@ Depends: python-scitools
 
 Depends: python-deap
 
+Depends: python-lmfit | python3-lmfit
+
 Depends: python-tables | python3-tables
 
 Depends: vitables
