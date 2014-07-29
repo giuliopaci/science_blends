@@ -52,3 +52,4 @@ Pkg-Description: SQL version of WordNet 3.0
 
 Depends: travatar
 
+Suggests: python-nltk, python3-nltk
