@@ -160,14 +160,7 @@ Published-Year: 2001
 Published-URL: http://www.medicalimagingandgraphics.com/article/S0895-6111(01)00008-8
 Published-DOI: 10.1016/S0895-6111(01)00008-8
 
- ; Added by blends-inject 0.0.5. [now official package]
 Depends: openmeeg-tools
-Published-Authors: Alexandre Gramfort, Théodore Papadopoulo, Emmanuel Olivi, Maureen Clerc
-Published-In: BioMedical Engineering OnLine 45:9
-Published-Title: OpenMEEG: opensource software for quasistatic bioelectromagnetics
-Published-URL: http://www.biomedical-engineering-online.com/content/9/1/45
-Published-Year: 2010
-
 
 Depends: mricron
 Published-Title: Improving lesion-symptom mapping
