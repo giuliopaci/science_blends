@@ -62,6 +62,9 @@ Depends: python-pywcs, python-astropy, python-pyfits, python3-pyfits,
          python-pyds9
 Why: Generic Python packages for astronomy
 
+Depends: astroml, astroquery
+Why: Astropy affiliated packages
+
 Depends: esorex, python-cpl
 Suggests: cpl-plugin-amber, cpl-plugin-fors, cpl-plugin-giraf,
 	  cpl-plugin-hawki, cpl-plugin-sinfo, cpl-plugin-kmos,
