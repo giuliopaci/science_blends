@@ -58,11 +58,11 @@ Depends: python-pyraf
 
 Depends: saods9, xpa-tools
 
-Depends: python-pywcs, python-astropy, python-pyfits, python3-pyfits,
-         python-pyds9
+Depends: python-pywcs, python-astropy, python3-astropy, python-pyfits,
+         python3-pyfits, python-pyds9
 Why: Generic Python packages for astronomy
 
-Depends: astroml, astroquery
+Depends: astroml, astroquery, sncosmo
 Why: Astropy affiliated packages
 
 Depends: esorex, python-cpl
