@@ -183,3 +183,6 @@ Remark: Removed from Debian
 Depends: audela
 
 Suggests: python-healpy
+
+Depends: splash
+WNPP: 649603
