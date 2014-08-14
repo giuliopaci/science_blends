@@ -27,7 +27,7 @@ Depends: r-cran-mass, r-cran-bayesm, r-cran-class, r-cran-cluster, \
             r-cran-gbm, r-cran-tgp
 Comment: R packages
 
-Depends: python-mvpa
+Depends: python-mvpa2
 Why: Framework for statistical learning analysis of large datasets.
 
 Depends: python-statsmodels

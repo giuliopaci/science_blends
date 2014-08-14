@@ -33,8 +33,8 @@ Why: Fully automated DICOM-to-NIfTI converter.
 Depends: minc-tools, medcon, xmedcon, nifti-bin
 Why: Misc. image handling tools
 
-Depends: python-nifti
-Why: Python IO library for the NIfTI format.
+Depends: python-nibabel, python-dicom
+Why: Python IO libraries for the NIfTI format.
 
 Depends: fsl
 Why: Comprehensive MRI analysis suite.
@@ -43,8 +43,14 @@ Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
 Depends: fslview
 Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
 
-Depends: python-mvpa
+Depends: python-mvpa2
 Why: Framework for multivariate pattern analysis of neuroimaging datasets.
+
+Depends: python-nipy, python-nipype, python-nitime, python-dipy
+Why: Python frameworks for analysis in neuroimaging
+
+Depends: openwalnut-qt4
+Why: Frameworks for visualization and analysis in neuroimaging
 
 Depends: caret
 Why: Cortical reconstruction and volume-to-surface mapping.
