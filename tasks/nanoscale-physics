@@ -32,7 +32,7 @@ Depends: gnuplot, grace
 
 Depends: horae, ifeffit, sixpack
 
-Depends: libblas3gf, liblapack3gf
+Depends: libblas3, liblapack3
 
 Depends: libfftw3-3
 

@@ -895,7 +895,7 @@ Packages: list
  r-cran-amore
  r-cran-gbm
  r-cran-tgp
- python-mvpa
+ python-mvpa2
  python-statsmodels
  root-system
  libroot-tmva-dev
@@ -1538,10 +1538,10 @@ Packages: list
  medcon
  xmedcon
  nifti-bin
- python-nifti
+ python-nibabel
  fsl
  fslview
- python-mvpa
+ python-mvpa2
  caret
  python-pyepl
  praat

@@ -23,7 +23,7 @@ Depends: openmpipython, mpich2python, python-mpi
 
 Suggests: hpcc
 
-Depends: condor
+Depends: htcondor
 Registration: http://www.cs.wisc.edu/condor/downloads-v2/
 
 Suggests: coop-computing-tools
@@ -33,7 +33,6 @@ Published-In: Journal of Grid Computing, 7, 51-72
 Published-Title: Chirp: A Practical Global Filesystem for Cluster and Grid Computing
 Published-Year: 2009
 
- ; Added by blends-inject 0.0.7. [now official package]
 Suggests: python-mpi4py
 
  ; Added by blends-inject 0.0.7. [Please note here if modified manually]
