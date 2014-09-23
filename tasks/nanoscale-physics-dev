@@ -153,3 +153,5 @@ Depends: pyfai
 Depends: python-xrayutilities
 
 Depends: crystfel-dev
+
+Depends: libssm-dev
