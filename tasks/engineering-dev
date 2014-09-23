@@ -60,6 +60,8 @@ Why: Generalized and standard eigenvalue solver framework, applications to modal
 
 Depends: libelmer-dev
 
+Depends: libug-dev
+
 Depends: libmed-dev, libmedc-dev, libmedimport-dev
 
 Depends: libnetcdf-dev, python-netcdf, r-cran-rnetcdf
