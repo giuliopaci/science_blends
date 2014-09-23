@@ -29,7 +29,7 @@ Why: Needed for many cartographic tasks (eg coastlines on maps)
 
 Depends: libgctp-dev
 
-Depends: libnetcdf-dev, netcdf-bin
+Depends: libnetcdf-dev, netcdf-bin, r-cran-rnetcdf
 
 Depends: liblapack-dev, libblas-dev
 Why: Most forecasting codes use BLAS and LAPACK

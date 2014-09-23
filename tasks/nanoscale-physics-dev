@@ -20,7 +20,7 @@ Depends: libfftw3-dev, fftw-dev, sfftw-dev
 
 Depends: libgsl0-dev, gsl-bin, gsl-doc-info, gsl-ref-html|gsl-ref-psdoc
 
-Depends: libnetcdf-dev, netcdf-doc
+Depends: libnetcdf-dev, netcdf-doc, r-cran-rnetcdf
 
 Depends: libtrilinos-dev, libtrilinos-doc
 Why: High-performance computing

@@ -62,7 +62,7 @@ Depends: libelmer-dev
 
 Depends: libmed-dev, libmedc-dev, libmedimport-dev
 
-Depends: libnetcdf-dev, python-netcdf
+Depends: libnetcdf-dev, python-netcdf, r-cran-rnetcdf
 
 Depends: libnetcdf-java
 
