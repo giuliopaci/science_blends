@@ -161,7 +161,7 @@ Depends: libalglib-dev
 
 Depends: libeigen3-dev
 
-Depends: libviennacl-dev
+Depends: libviennacl-dev, python-pyviennacl, python3-pyviennacl
 
 Depends: libgnuplot-iostream-dev
 
