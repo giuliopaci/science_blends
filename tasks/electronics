@@ -71,7 +71,7 @@ Depends: gtkwave, gwave
 
 Depends: qsapecng
 
-Depends: berkeley-abc, qrouter, magic
+Depends: berkeley-abc, qrouter, magic, yosys, qflow
 
 Depends: vbpp
 Pkg-URL: http://snapshot.debian.org/package/vbpp/
