@@ -71,6 +71,8 @@ Depends: gtkwave, gwave
 
 Depends: qsapecng
 
+Depends: berkeley-abc, qrouter, magic
+
 Depends: vbpp
 Pkg-URL: http://snapshot.debian.org/package/vbpp/
 Homepage: http://www.flex.com/~jching/
