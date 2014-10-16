@@ -202,3 +202,5 @@ Depends: python-ferari
 Depends: python-pynfft | python3-pynfft
 
 Depends: libug-dev
+
+Depends: python-pyoperators | python3-pyoperators
