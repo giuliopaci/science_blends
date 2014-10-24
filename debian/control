@@ -778,7 +778,6 @@ Suggests: drawmap,
  googleearth-package,
  grace6,
  openjump,
- postgresql-9.3-postgis-2.1,
  sumo
 Description: Debian Science Geography packages
  This metapackage will install Debian Science packages related to
