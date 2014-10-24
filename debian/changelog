@@ -1,10 +1,77 @@
-debian-science (1.3) UNRELEASED; urgency=medium
+debian-science (1.3) unstable; urgency=medium
 
   [ Andreas Tille ]
   * d/source/format: 3.0 (native)
 
   [ Ole Streicher ]
   * add astropy affiliated packages
+
+  * start of automatic changelog entry * 
+  
+  * Changes in metapackage dependencies
+   -science-neuroscience-cognitive
+    added:
+      Depends:  python-nipype, python-mvpa2, python-nitime, python-dipy,
+                python-nibabel, openwalnut-qt4, python-dicom, python-nipy
+    removed:
+      Depends:  python-mvpa, python-nifti
+   -science-viewing-dev
+    added:
+      Depends:  python3-skimage, python-vtk6, python-plplot-qt, libvtk6-java,
+                libplplot-dev, libvtk6-dev, python3-skimage-lib
+   -science-linguistics
+    added:
+      Suggests:  python-nltk, python3-nltk
+   -science-machine-learning
+    added:
+      Depends:  python-mvpa2
+    removed:
+      Depends:  python-mvpa
+   -science-mathematics-dev
+    added:
+      Depends:  libug-dev, python-pyoperators | python3-pyoperators,
+                python-pyviennacl, python3-pyviennacl
+   -science-electronics
+    added:
+      Depends:  qflow, magic, yosys, berkeley-abc, qrouter
+   -science-numericalcomputation
+    added:
+      Depends:  python-lmfit | python3-lmfit
+   -science-typesetting
+    removed:
+      Depends:  texmacs-extra-fonts
+   -science-engineering-dev
+    added:
+      Depends:  libug-dev, r-cran-rnetcdf
+   -science-astronomy
+    added:
+      Depends:  splash, sncosmo, astroml, astroquery, python3-astropy
+   -science-physics-dev
+    added:
+      Depends:  python-xrayutilities
+   -science-distributedcomputing
+    added:
+      Depends:  htcondor
+    removed:
+      Depends:  condor
+   -science-dataacquisition-dev
+    added:
+      Depends:  python-xrayutilities
+   -science-nanoscale-physics-dev
+    added:
+      Depends:  crystfel-dev, libssm-dev, r-cran-rnetcdf, python-xrayutilities
+   -science-viewing
+    added:
+      Depends:  trend, python-pyqtgraph
+      Suggests:  r-cran-scatterplot3d
+   -science-nanoscale-physics
+    added:
+      Depends:  liblapack3, libblas3, python-lmfit | python3-lmfit, crystfel
+    removed:
+      Depends:  liblapack3gf, libblas3gf
+   -science-meteorology-dev
+    added:
+      Depends:  r-cran-rnetcdf
 
  -- Andreas Tille <tille@debian.org>  Thu, 19 Jun 2014 21:56:24 +0200
 
