@@ -73,7 +73,7 @@ debian-science (1.3) unstable; urgency=medium
     added:
       Depends:  r-cran-rnetcdf
 
- -- Andreas Tille <tille@debian.org>  Thu, 19 Jun 2014 21:56:24 +0200
+ -- Andreas Tille <tille@debian.org>  Fri, 24 Oct 2014 11:24:40 +0200
 
 debian-science (1.2) unstable; urgency=medium
 
