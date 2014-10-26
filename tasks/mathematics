@@ -185,3 +185,4 @@ Suggests: ann-tools
 
 Depends: feel++-apps
 
+Depends: auto-07p
