@@ -68,3 +68,5 @@ Pkg-Description: pipeline system for Octave and Matlab
 Suggests: octave-mpi
 
 Depends: environment-modules
+
+Depends: python-scoop
