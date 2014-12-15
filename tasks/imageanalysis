@@ -27,3 +27,5 @@ Suggests: libvlfeat-dev
 Suggests: libvisad-java
 
 Suggests: libvigraimpex-dev, python-vigra
+
+Depends: python-imageio
