@@ -1,6 +1,10 @@
 debian-science (1.4) UNRELEASED; urgency=medium
 
+  [ Andreas Tille ]
   * ...
+
+  [ Ole Streicher ]
+  * add psfex
 
  -- Andreas Tille <tille@debian.org>  Fri, 24 Oct 2014 11:52:38 +0200
 

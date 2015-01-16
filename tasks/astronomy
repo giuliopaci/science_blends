@@ -185,4 +185,6 @@ Depends: audela
 Suggests: python-healpy
 
 Depends: splash
-WNPP: 649603
+
+depends: psfex
+WNPP: 775497
