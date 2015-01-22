@@ -11,7 +11,7 @@ Why: Celestial Mechanics computations
 
 Depends: astronomical-almanac, lightspeed, openuniverse
 
-Depends: sextractor
+Depends: sextractor, swarp
 
 Depends: worldwind
 
