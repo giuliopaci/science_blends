@@ -114,3 +114,5 @@ Depends: libcolpack-dev, libadolc-dev
 Depends: python-csa
 
 Depends: algotutor
+
+Depends: iep
