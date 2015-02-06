@@ -131,6 +131,94 @@ Pkg-Description: collection of Python packages for economics related research
  - agent-based simulation
  - utilities
 
+Depends: recs
+Homepage: http://www.recs-solver.org/
+License: Expat (mostly)
+Pkg-Description: MATLAB solver for DSGE models
+ RECS is a MATLAB solver for dynamic, stochastic, rational expectations
+ equilibrium models. RECS stands for "Rational Expectations Complementarity
+ Solver". This name emphasizes that RECS has been developed specifically to
+ solve models that include complementarity equations, also known as models with
+ occasionally binding constraints.
+ .
+ RECS is designed to solve small-scale nonlinear and complementarity models,
+ but not large-scale models. For solving large-scale problems, but without
+ complementarity equations, see Dynare or similar toolboxes.
+
+Depends: python-quantecon
+Homepage: http://quantecon.org/
+License: BSD-3-clause
+Pkg-Description: community based Python library for quantitative economics
+
+Depends: r-cran-ecdat
+Homepage: http://cran.r-project.org/web/packages/Ecdat/
+License: GPL-2+
+Pkg-Description: R data sets for econometrics
+ Contains data sets that can be used to replicate a large set of published
+ papers.
+
+Depends: x13-arima-seats
+Homepage: https://www.census.gov/srd/www/x13as/
+License: public-domain
+Pkg-Description: time series seasonal adjustment software
+ Features include:
+ .
+ * Extensive time series modeling and model selection capabilities for linear
+   regression models with ARIMA errors (regARIMA models);
+ .
+ * The capability to generate ARIMA model-based seasonal adjustment using a
+   version of the SEATS procedure originally developed by Victor Gómez and
+   Agustín Maravall at the Bank of Spain as well as nonparametric adjustments
+   from the X-11 procedure;
+ .
+ * Diagnostics of the quality and stability of the adjustments achieved under
+   the options selected;
+ .
+ * The ability to efficiently process many series at once.
+Remark: gretl could take advantage of this package
+
+Depends: r-other-bmr
+Homepage: http://bayes.squarespace.com/bmr/
+License: GPL-3
+Pkg-Description: bayesian Macroeconometrics in R
+ BMR (Bayesian Macroeconometrics in R) is a collection of R and C++ routines
+ for estimating Bayesian Vector Autoregressive (BVAR) and Dynamic Stochastic
+ General Equilibrium (DSGE) models in the R statistical environment. For the
+ former, BMR includes the the well-known Minnesota and normal-inverse-Wishart
+ priors, along with Mattias Villani's steady-state prior, and allows for
+ estimation of BVARs with time-varying parameters.
+
+Depends: minsky
+Homepage: http://sourceforge.net/p/minsky/wiki/Home/
+License: GPL-3
+Pkg-Description: system dynamics program with additional features for economics
+ Minsky is one of a family of ``system dynamics'' computer programs. These
+ programs allow a dynamic model to be constructed, not by writing mathematical
+ equations or numerous lines of computer code, but by laying out a model of a
+ system in a flowchart, which can then simulate the system. These programs are
+ now the main tool used by engineers to design complex products, ranging from
+ small electrical components right up to passenger jets.
+ .
+ What does Minsky provide that other system dynamics programs don't boils down
+ to one feature: The Godley Table that enables a dynamic model of financial
+ flows to be derived from a table that is very similar to the accountant's
+ double-entry bookkeeping table. Hence Minsky is very well suited for simulating
+ Stock-Flow Consistent (SFC) models.
+
+Depends: r-cran-vars
+Homepage: http://cran.r-project.org/web/packages/vars/index.html
+License: GPL-2+
+Pkg-Description: VAR, SVAR and SVEC Models in R
+ This packages implementats vector autoregressive-, structural vector
+ autoregressive- and structural vector error correction models in R. In
+ addition to the three cornerstone functions VAR(), SVAR() and SVEC() for
+ estimating such models, functions for diagnostic testing, estimation of a
+ restricted models, prediction, causality analysis, impulse response analysis
+ and forecast error variance decomposition are provided too. It is further
+ possible to convert vector error correction models into their level VAR
+ representation.
+Comment:
+
 Suggests: ess
 
 Suggests: dynare-matlab
@@ -146,3 +234,5 @@ Suggests: science-mathematics
 Suggests: science-numericalcomputation
 
 Suggests: science-statistics
+
+Suggests: science-social
