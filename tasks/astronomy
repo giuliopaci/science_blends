@@ -82,12 +82,7 @@ Pkg-Description: An interactive astronomical ephemeris for X.
  quantitative heliocentric, geocentric and topocentric information for
  Earth satellites, solar system and celestial objects.
  .
- This project used to be an official Debian package in 2002 but vanished
- from the Debian pool of packaged software (for reasons that should be
- clarified).  The URL of the "unofficial" package points to the location
- where the old package could be found on http://snapshot.debian.net.
- .
- There are later upstream versions than this Debian package available.
+Remark: Removed from Debian due to licensing issues.
 
 Ignore: gstar
 Homepage: http://www.ecn.wfu.edu/~cottrell/gstar/
@@ -100,11 +95,7 @@ Pkg-Description: a gtk front-end for the starchart program
  postscript charts of any chosen region of the sky. It also prints the current
  Julian date and gives positions of the planets.
  .
- This project used to be an official Debian package in 2002 but vanished
- from the Debian pool of packaged software - perhaps because it is outdated
- and only reasonable in combination with spacechart.  The URL of the
- "unofficial" package points to the location
- where the old package could be found on http://snapshot.debian.net.
+Remark: Removed from Debian due to licensing issues.
 
 Suggests: pdl, pgplot5, python-scientific
 Why: Already in science-viewing
@@ -186,5 +177,8 @@ Suggests: python-healpy
 
 Depends: splash
 
-depends: psfex
+Depends: psfex
 WNPP: 775497
+
+Depends: fitscut
+WNPP: 776944
