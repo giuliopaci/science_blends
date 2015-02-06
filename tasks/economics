@@ -217,7 +217,6 @@ Pkg-Description: VAR, SVAR and SVEC Models in R
  and forecast error variance decomposition are provided too. It is further
  possible to convert vector error correction models into their level VAR
  representation.
-Comment:
 
 Suggests: ess
 
