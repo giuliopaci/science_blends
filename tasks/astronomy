@@ -100,26 +100,6 @@ Remark: Removed from Debian due to licensing issues.
 Suggests: pdl, pgplot5, python-scientific
 Why: Already in science-viewing
 
-Depends: orbfit
-Remark: Status of packaging
- A rudimentary package was prepared, upstream was contacted with a very
- positive reply.
-
-Depends: linoccult
-Homepage: http://linoccult.sourceforge.net/
-WNPP: 459358
-License: GPL
-Responsible: Steffen Moeller <steffen_moeller@gmx.de>
-Pkg-Description: predicts occultations of stars by minor planets
- LinOccult uses the DE405 precomputed major planets ephemeris (position
- of astronomical object in the sky at a given time) that are provided by
- the Jet Propulsion Laboratory (JPL) for a precise numerical integration
- of asteroidal orbits. The user can select asteroids to process by
- changing several parameters in a configuration file.
- .
- Some initial packaging has been performed and will be submitted to
- pkg-scicomp.alioth.debian.org.
-
 Depends: eso-midas
 
 Depends: wxastrocapture

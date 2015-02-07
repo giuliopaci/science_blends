@@ -4,8 +4,8 @@ debian-science (1.4) UNRELEASED; urgency=medium
   * ...
 
   [ Ole Streicher ]
-  * add psfex, swarp, fitscut
-  * cleanup astronomy a bit
+  * add psfex, swarp, fitscut to astronomy
+  * removed orbfit and linoccult from astronomy
 
  -- Andreas Tille <tille@debian.org>  Fri, 24 Oct 2014 11:52:38 +0200
 
