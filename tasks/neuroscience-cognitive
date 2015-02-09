@@ -52,6 +52,9 @@ Why: Python frameworks for analysis in neuroimaging
 Depends: openwalnut-qt4
 Why: Frameworks for visualization and analysis in neuroimaging
 
+Depends: nifti2dicom, qnifti2dicom
+Why: Requested by Daniele E. Domenichelli <daniele.domenichelli@gmail.com>
+
 Depends: caret
 Why: Cortical reconstruction and volume-to-surface mapping.
 Published-Title: An Integrated Software Suite for Surface-based Analyses of Cerebral Cortex
