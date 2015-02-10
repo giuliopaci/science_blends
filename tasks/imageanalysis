@@ -29,3 +29,6 @@ Suggests: libvisad-java
 Suggests: libvigraimpex-dev, python-vigra
 
 Depends: python-imageio
+
+Suggests: limereg-dev
+WNPP: 777000
