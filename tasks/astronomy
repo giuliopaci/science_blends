@@ -46,7 +46,7 @@ Depends: gyoto
 
 Depends: skycat
 
-Depends: ftools-fv, fitsverify, fitscheck
+Depends: ftools-fv, fitsverify, fitscheck, fitscut
 
 Depends: casacore-tools
 
@@ -160,5 +160,8 @@ Depends: splash
 Depends: psfex
 WNPP: 775497
 
-Depends: fitscut
-WNPP: 776944
+Depends: stiff
+WNPP: 777599
+
+Depends: astlib
+WNPP: 777600
