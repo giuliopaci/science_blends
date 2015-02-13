@@ -165,3 +165,6 @@ WNPP: 777599
 
 Depends: astlib
 WNPP: 777600
+
+Depends: missfits
+WNPP: 778236
