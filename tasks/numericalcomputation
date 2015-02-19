@@ -116,3 +116,5 @@ Depends: python-csa
 Depends: algotutor
 
 Depends: iep
+
+Depends: calculix-ccx

@@ -19,3 +19,5 @@ Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
 Depends: radiance
 
 Depends: music-bin
+
+Depends: calculix-ccx
