@@ -22,8 +22,6 @@ Comment: Source triangle seems to be unmaintained - it might make sense to team-
 
 Depends: python-quantities
 
-Depends: libismrmrd-dev
-
 Depends: python-multipletau | python3-multipletau
 
 Depends: python-pynfft | python3-pynfft
