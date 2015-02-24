@@ -71,6 +71,8 @@ Depends: python-pandas
 
 Depends: r-cran-ecodist, r-cran-energy, r-cran-mvnormtest
 
+Depends: r-cran-rsdmx
+
 Suggests: libtamuanova-dev
 
 X-Removed: Packages removed from Debian

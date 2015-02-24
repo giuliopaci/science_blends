@@ -75,6 +75,8 @@ Depends: r-cran-pwt
 
 Depends: r-cran-pwt8
 
+Depends: r-cran-rsdmx
+
 Depends: rkward
 
 Depends: julia
