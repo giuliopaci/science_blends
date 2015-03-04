@@ -16,7 +16,6 @@ Why: Group theory
 Depends: gap-small-groups-extra, gap-trans-groups, gap-prim-groups, gap-small-groups, gap-table-of-marks, gap-guava, gap-character-tables
 
 Depends: gap-float
-WNPP: 734316
 
 Suggests: gap-online-help, gap-gapdoc
 
