@@ -131,6 +131,16 @@ Depends: eclib-tools,
          tachyon
 Why: Sage dependencies
 
+Depends: 4ti2,
+         normaliz,
+         surf-alggeo,
+         python-polybori
+         graphviz
+Why: Singular dependencies
+
+Depends: singular
+Why: Symbolic computations, Sage dependencies
+
 Depends: julia
 
 Suggests: matlab-support
