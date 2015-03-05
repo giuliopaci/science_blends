@@ -138,7 +138,8 @@ Depends: libcdd-dev,
          libsymmetrica-dev,
          libtachyon-dev,
          libzn-poly-dev,
-         libpynac-dev
+         libpynac-dev,
+         libsymmetrica2-dev
 Why: Sage dependencies
 
 Depends: gap-dev

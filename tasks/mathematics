@@ -126,7 +126,6 @@ Depends: eclib-tools,
          fplll-tools,
          lrcalc,
          palp,
-          symmetrica,
          sympow,
          tachyon
 Why: Sage dependencies
