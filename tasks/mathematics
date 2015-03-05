@@ -133,7 +133,6 @@ Why: Sage dependencies
 Depends: 4ti2,
          normaliz,
          surf-alggeo,
-         python-polybori
          graphviz
 Why: Singular dependencies
 

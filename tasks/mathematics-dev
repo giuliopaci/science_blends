@@ -139,7 +139,8 @@ Depends: libcdd-dev,
          libtachyon-dev,
          libzn-poly-dev,
          libpynac-dev,
-         libsymmetrica2-dev
+         libsymmetrica2-dev,
+         python-polybori
 Why: Sage dependencies
 
 Depends: gap-dev
