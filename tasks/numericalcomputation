@@ -118,3 +118,5 @@ Depends: algotutor
 Depends: iep
 
 Depends: calculix-ccx
+
+Depends: python-sfepy

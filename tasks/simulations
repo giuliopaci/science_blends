@@ -21,3 +21,5 @@ Depends: radiance
 Depends: music-bin
 
 Depends: calculix-ccx
+
+Depends: python-sfepy
