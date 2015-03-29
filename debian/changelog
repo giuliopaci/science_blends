@@ -1,13 +1,16 @@
-debian-science (1.4) UNRELEASED; urgency=medium
-
-  [ Andreas Tille ]
-  * ...
+debian-science (1.5) UNRELEASED; urgency=medium
 
   [ Ole Streicher ]
   * add psfex, swarp, stiff, missfits, fitscut, astlib to astronomy
   * removed orbfit and linoccult from astronomy
 
- -- Andreas Tille <tille@debian.org>  Fri, 24 Oct 2014 11:52:38 +0200
+ -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 21:41:40 +0200
+
+debian-science (1.4) unstable; urgency=medium
+
+  * Rerender Debian Science metapackages to reflect Jessie package pool.
+
+ -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 20:53:40 +0200
 
 debian-science (1.3) unstable; urgency=medium
 
