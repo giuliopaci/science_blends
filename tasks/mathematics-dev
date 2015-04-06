@@ -210,3 +210,7 @@ Depends: python-pyoperators | python3-pyoperators
 Depends: libplb-dev
 
 Depends: libmathicgb-dev
+
+Depends: libfrobby-dev
+
+Depends: libmathic-dev
