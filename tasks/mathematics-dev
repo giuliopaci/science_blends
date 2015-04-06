@@ -208,3 +208,5 @@ Depends: libug-dev
 Depends: python-pyoperators | python3-pyoperators
 
 Depends: libplb-dev
+
+Depends: libmathicgb-dev
