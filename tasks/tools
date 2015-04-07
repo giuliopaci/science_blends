@@ -15,4 +15,4 @@ Depends: openstereogram
 
 Depends: xoscope
 
-Depends: libmemtailor-dev
+Suggests: libmemtailor-dev
