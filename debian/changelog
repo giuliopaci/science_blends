@@ -4,6 +4,9 @@ debian-science (1.5) UNRELEASED; urgency=medium
   * add psfex, swarp, stiff, missfits, fitscut, astlib to astronomy
   * removed orbfit and linoccult from astronomy
 
+  [ Andreas Tille ]
+  * Add new task imageanalysis-dev
+
  -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 21:41:40 +0200
 
 debian-science (1.4) unstable; urgency=medium

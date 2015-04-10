@@ -1,0 +1,21 @@
+Task: Image analysis development
+Description: Debian Science development of image analysis applications
+ This metapackage will install Debian Science development libraries to
+ develop scientific image analysis applications acquisitions.
+
+Depends: libcv-dev
+
+Depends: cimg-dev
+
+Depends: libsimage-dev
+
+Depends: libvlfeat-dev
+
+Depends: libvisad-java
+
+Depends: libvigraimpex-dev, python-vigra
+
+Depends: python-imageio
+
+Depends: liblimereg-dev
+WNPP: 777000
