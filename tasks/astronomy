@@ -77,6 +77,8 @@ WNPP: 762265
 Depends: astroml, astroquery, sncosmo
 Why: Astropy affiliated packages
 
+Depends: pyavm
+
 Depends: python-astlib, python3-astlib
 WNPP: 777600
 
@@ -84,7 +86,7 @@ Depends: esorex, python-cpl
 Suggests: cpl-plugin-amber, cpl-plugin-fors, cpl-plugin-giraf,
 	  cpl-plugin-hawki, cpl-plugin-sinfo, cpl-plugin-kmos,
 	  cpl-plugin-vimos, cpl-plugin-uves, cpl-plugin-xsh,
-	  cpl-plugin-naco, cpl-plugin-visir
+	  cpl-plugin-naco, cpl-plugin-visir, cpl-plugin-muse
 Why: Data reduction suite for data taken with ESO instruments
 
 Depends: xephem
@@ -172,3 +174,5 @@ Depends: audela
 Suggests: python-healpy
 
 Depends: splash
+
+Depends: siril

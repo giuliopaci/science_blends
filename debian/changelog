@@ -2,7 +2,8 @@ debian-science (1.5) UNRELEASED; urgency=medium
 
   [ Ole Streicher ]
   * Add psfex, swarp, stiff, missfits, fitscut, astlib, glueviz, 
-    cpl-plugin-naco, cpl-plugin-visir to astronomy
+    cpl-plugin-muse, cpl-plugin-naco, cpl-plugin-visir, pyavm, siril
+    to astronomy 
   * removed orbfit and linoccult from astronomy
 
   [ Andreas Tille ]
