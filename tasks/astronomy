@@ -176,3 +176,5 @@ Suggests: python-healpy
 Depends: splash
 
 Depends: siril
+
+Depends: gnudatalanguage
