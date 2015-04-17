@@ -57,6 +57,8 @@ Description: Debian Science Project config package
  This are metapackages for common utilities for all sciences:
  .
   * science-imageanalysis   packages related to image analysis
+  * science-imageanalysis-dev packages related to image analysis
+                            development
   * science-numericalcomputation   packages related to numerical
                             computation
   * science-presentation    packages related to presentation

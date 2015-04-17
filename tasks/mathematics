@@ -145,6 +145,10 @@ Suggests: matlab-support
 
 Depends: qhull-bin
 
+Depends: mathicgb
+
+Depends: frobby
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz

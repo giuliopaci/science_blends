@@ -13,6 +13,15 @@ Depends: astronomical-almanac, lightspeed, openuniverse
 
 Depends: sextractor, swarp
 
+Depends: psfex
+WNPP: 775497
+
+Depends: stiff
+WNPP: 777599
+
+Depends: missfits
+WNPP: 778236
+
 Depends: worldwind
 
 Depends: wcstools, wcslib-tools, funtools, qfits-tools
@@ -62,13 +71,22 @@ Depends: python-pywcs, python-astropy, python3-astropy, python-pyfits,
          python3-pyfits, python-pyds9
 Why: Generic Python packages for astronomy
 
+Depends: glueviz
+WNPP: 762265
+
 Depends: astroml, astroquery, sncosmo
 Why: Astropy affiliated packages
+
+Depends: pyavm
+
+Depends: python-astlib, python3-astlib
+WNPP: 777600
 
 Depends: esorex, python-cpl
 Suggests: cpl-plugin-amber, cpl-plugin-fors, cpl-plugin-giraf,
 	  cpl-plugin-hawki, cpl-plugin-sinfo, cpl-plugin-kmos,
-	  cpl-plugin-vimos, cpl-plugin-uves, cpl-plugin-xsh
+	  cpl-plugin-vimos, cpl-plugin-uves, cpl-plugin-xshoo,
+	  cpl-plugin-naco, cpl-plugin-visir, cpl-plugin-muse
 Why: Data reduction suite for data taken with ESO instruments
 
 Depends: xephem
@@ -157,14 +175,6 @@ Suggests: python-healpy
 
 Depends: splash
 
-Depends: psfex
-WNPP: 775497
+Depends: siril
 
-Depends: stiff
-WNPP: 777599
-
-Depends: astlib
-WNPP: 777600
-
-Depends: missfits
-WNPP: 778236
+Depends: gnudatalanguage

@@ -8,9 +8,6 @@ Description: Debian Science image analysis packages
 Depends: gpivtools, gpiv
 Why: Particle image velocitometry
 
-Depends: libcv-dev
-Why: Computer vision library
-
 Depends: gwyddion
 Why: Scanning Probe Microscopy (SPM) data visualization and analysis
 
@@ -18,17 +15,7 @@ Suggests: scilab-sivp
 
 Depends: teem-apps
 
-Suggests: cimg-dev
-
-Suggests: libsimage-dev
-
-Suggests: libvlfeat-dev
-
-Suggests: libvisad-java
-
-Suggests: libvigraimpex-dev, python-vigra
-
 Depends: python-imageio
 
-Suggests: limereg-dev
+Depends: limereg
 WNPP: 777000

@@ -25,9 +25,6 @@ Packages: list
  xplanet
  lynkeos.app
  stardata-common
- gliese
- yale
- boinc-app-milkyway
  boinc-app-seti
  gyoto
  skycat
@@ -75,7 +72,6 @@ Packages: list
  libfits-java
  tcl-fitstcl
  libchealpix-dev
- python-healpy
 
 Task: science-bci
 Section: debian-science
@@ -138,7 +134,6 @@ Packages: list
  gausssum
  gchempaint
  gdis
- ghemical
  gcrystal
  gcu-bin
  gcu-plugin
@@ -156,7 +151,6 @@ Packages: list
  viewmol
  xdrawchem
  xmakemol-gl
- v-sim
  rasmol
  adun.app
  gdpc
@@ -242,12 +236,6 @@ Key:
  science-distributedcomputing
 Packages: list
  ipython
- torque-common
- torque-server
- gridengine-client
- gridengine-exec
- gridengine-master
- gridengine-qmon
  globus-core
  openmpi-bin
  mpich
@@ -300,7 +288,6 @@ Packages: list
  r-cran-quadprog
  r-cran-fbonds
  r-cran-fimport
- r-cran-fnonlinear
  r-cran-funitroots
  r-cran-wdi
  r-cran-pwt
@@ -337,7 +324,6 @@ Packages: list
  geda
  kicad
  freehdl
- ghdl
  iverilog
  verilator
  gplcver
@@ -349,9 +335,6 @@ Packages: list
  texlive-latex-extra
  linsmith
  confluence
- ngspice
- gspiceui
- easyspice
  gnucap
  qelectrotech
  covered
@@ -363,7 +346,6 @@ Packages: list
  geda-xgsch2pcb
  gnusim8085
  gtkwave
- gwave
  qsapecng
  berkeley-abc
  qrouter
@@ -408,8 +390,6 @@ Packages: list
  libsilo-bin
  gerris
  gmsh
- getdp
- netgen
  pythoncad
  z88
  freecad
@@ -417,7 +397,6 @@ Packages: list
  python-openturns
  code-aster-gui
  code-aster
- metis-edf
  eficas
  code-saturne
  hdfview
@@ -426,16 +405,9 @@ Packages: list
  python-fiat
  syrthes
  freefoam
- diet-agent
  tetgen
  dime
  cgns-convert
- salome-gui
- salome-jobmanager
- salome-med
- salome-paravis
- salome-smesh
- salome-yacs
  libadios-bin
 
 Task: science-engineering-dev
@@ -471,7 +443,6 @@ Packages: list
  libopenturns-dev
  libmadlib-dev
  libslepc3.4.2-dev
- libelmer-dev
  libug-dev
  libmed-dev
  libmedc-dev
@@ -483,14 +454,12 @@ Packages: list
  libnfft3-dev
  libnlopt-dev
  libcoin80-dev
- libmetis-edf-dev
  libslicot-dev
  python-collada
  libann-dev
  libflann-dev
  libdime-dev
  libdxflib-dev
- salome-kernel-dev
 
 Task: science-financial
 Section: debian-science
@@ -511,7 +480,6 @@ Packages: list
  r-cran-fgarch
  r-cran-fimport
  r-cran-fmultivar
- r-cran-fnonlinear
  r-cran-foptions
  r-cran-fregression
  r-cran-ftrading
@@ -541,7 +509,6 @@ Packages: list
  gpsbabel
  gpx2shp
  gpsd
- gpsdrive
  gpsman
  openscenegraph
  thuban
@@ -587,8 +554,6 @@ Key:
  science-geometry
 Packages: list
  carmetal
- salome-geom
- drgeo
  geogebra-kde
 
 Task: science-highenergy-physics
@@ -818,7 +783,6 @@ Packages: list
  apertium
  link-grammar
  artha
- sequitur-g2p
  timbl
  timblserver
  mbt
@@ -952,9 +916,7 @@ Packages: list
  freefem
  freefem3d
  freefem++
- netgen
  gmsh
- getdp
  coq
  proofgeneral
  matita
@@ -1021,7 +983,6 @@ Packages: list
  r-cran-quadprog
  r-cran-rcmdr
  r-cran-relimp
- r-cran-rggobi
  r-cran-rgl
  r-cran-rgtk2
  r-cran-rmpi
@@ -1052,7 +1013,6 @@ Packages: list
  r-cran-vcd
  r-cran-permute
  python-statsmodels
- r-cran-spam
  r-cran-spatstat
  r-cran-deldir
  r-cran-fastcluster
@@ -1070,14 +1030,12 @@ Packages: list
  freemat
  mathomatic
  scilab
- scilab-sivp
  scilab-ann
  regina-normal
  snappea
  lp-solve
  libmatheval1
  mumps-test
- nauty
  geogebra
  lrslib
  dolfin-bin
@@ -1113,7 +1071,6 @@ Relevance: 10
 Key: 
  science-mathematics-dev
 Packages: list
- libnglib-dev
  python-numpy
  python-numexpr
  libgsl0-dev
@@ -1123,7 +1080,6 @@ Packages: list
  libopenblas-dev
  libsuperlu-dev
  libglpk-dev
- python-glpk
  libglpk-java
  libcgal-dev
  libqhull-dev
@@ -1157,8 +1113,6 @@ Packages: list
  libsparskit-dev
  libspooles-dev
  libsuitesparse-dev
- libsuitesparse-metis-dev
- libparmetis-dev
  ufc
  python-ufc
  python-ffc
@@ -1201,9 +1155,7 @@ Packages: list
  libdouble-conversion-dev
  libfeel++-dev
  python-ferari
- python-pynfft
  libug-dev
- python-pyoperators
 
 Task: science-meteorology
 Section: debian-science
@@ -1317,9 +1269,6 @@ Packages: list
  fityk
  gnuplot
  grace
- horae
- ifeffit
- sixpack
  libblas3
  liblapack3
  libfftw3-3
@@ -1341,7 +1290,6 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-sivp
  scilab-ann
  freemat
  yorick
@@ -1364,9 +1312,7 @@ Packages: list
  python-demgengeo
  coinor-symphony
  coinor-clp
- metis-edf
  libsuitesparse-dev
- libsuitesparse-metis-dev
  libdune-grid-dev
  libcolpack-dev
  libadolc-dev
@@ -1375,12 +1321,9 @@ Packages: list
  avogadro
  garlic
  gdis
- ghemical
- v-sim
  gwyddion
  cp2k
  pymca
- python-ase
  cbflib-bin
  axiom
  maxima
@@ -1423,8 +1366,6 @@ Packages: list
  sfftw-dev
  libgsl0-dev
  gsl-bin
- gsl-doc-info
- gsl-ref-html
  libnetcdf-dev
  netcdf-doc
  r-cran-rnetcdf
@@ -1445,14 +1386,12 @@ Packages: list
  libscalapack-mpi-dev
  scalapack-doc
  science-mathematics-dev
- libnglib-dev
  python-numpy
  python-numexpr
  libatlas-base-dev
  libopenblas-dev
  libsuperlu-dev
  libglpk-dev
- python-glpk
  libglpk-java
  libcgal-dev
  libqhull-dev
@@ -1486,8 +1425,6 @@ Packages: list
  libsparskit-dev
  libspooles-dev
  libsuitesparse-dev
- libsuitesparse-metis-dev
- libparmetis-dev
  ufc
  python-ufc
  python-ffc
@@ -1527,9 +1464,7 @@ Packages: list
  libdouble-conversion-dev
  libfeel++-dev
  python-ferari
- python-pynfft
  libug-dev
- python-pyoperators
 
 Task: science-neuroscience-cognitive
 Section: debian-science
@@ -1558,20 +1493,15 @@ Packages: list
  nifti-bin
  python-nibabel
  python-dicom
- fsl
  fslview
  python-mvpa2
- python-nipy
- python-nipype
  python-nitime
  python-dipy
- openwalnut-qt4
  caret
  python-pyepl
  praat
  dicom3tools
  voxbo
- openmeeg-tools
  mricron
  itksnap
  python-pypsignifit
@@ -1621,7 +1551,6 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-sivp
  scilab-ann
  freemat
  yorick
@@ -1644,9 +1573,7 @@ Packages: list
  python-demgengeo
  coinor-symphony
  coinor-clp
- metis-edf
  libsuitesparse-dev
- libsuitesparse-metis-dev
  libdune-grid-dev
  libcolpack-dev
  libadolc-dev
@@ -1672,9 +1599,6 @@ Packages: list
  feynmf
  freefoam
  fityk
- horae
- ifeffit
- sixpack
  tessa
  science-numericalcomputation
  octave
@@ -1687,7 +1611,6 @@ Packages: list
  pdl
  gnudatalanguage
  scilab
- scilab-sivp
  scilab-ann
  freemat
  yorick
@@ -1710,9 +1633,7 @@ Packages: list
  python-demgengeo
  coinor-symphony
  coinor-clp
- metis-edf
  libsuitesparse-dev
- libsuitesparse-metis-dev
  libdune-grid-dev
  libcolpack-dev
  libadolc-dev
@@ -1728,7 +1649,6 @@ Packages: list
  geda
  kicad
  freehdl
- ghdl
  iverilog
  verilator
  gplcver
@@ -1740,9 +1660,6 @@ Packages: list
  texlive-latex-extra
  linsmith
  confluence
- ngspice
- gspiceui
- easyspice
  gnucap
  qelectrotech
  covered
@@ -1754,12 +1671,10 @@ Packages: list
  geda-xgsch2pcb
  gnusim8085
  gtkwave
- gwave
  qsapecng
  berkeley-abc
  qrouter
  magic
- v-sim
  gpiv
  gpivtools
  maxima
@@ -1801,7 +1716,6 @@ Packages: list
  python-openctm
  python-quantities
  python-multipletau
- python-pynfft
  libfeel++-dev
 
 Task: science-presentation
@@ -1834,7 +1748,6 @@ Relevance: 10
 Key: 
  science-psychophysics
 Packages: list
- psychopy
  python-pyoptical
  python-pyepl
  libfreenect-dev
@@ -1851,12 +1764,10 @@ Relevance: 10
 Key: 
  science-robotics
 Packages: list
- rtai
  xenomai-runtime
  morse-simulator
  choreonoid
  liburdfdom-tools
- robot-player
  octomap-tools
  octovis
 
@@ -1903,8 +1814,6 @@ Packages: list
  yade
  python-deap
  freefoam
- getdp
- radiance
  music-bin
 
 Task: science-social
@@ -1989,7 +1898,6 @@ Packages: list
  r-cran-quadprog
  r-cran-rcmdr
  r-cran-relimp
- r-cran-rggobi
  r-cran-rgl
  r-cran-rgtk2
  r-cran-rmpi
@@ -2020,7 +1928,6 @@ Packages: list
  r-cran-vcd
  r-cran-permute
  python-statsmodels
- r-cran-spam
  r-cran-spatstat
  r-cran-deldir
  r-cran-fastcluster
@@ -2043,7 +1950,6 @@ Description: Debian Science generic tools for scientific work
 Relevance: 10
 Packages: list
  pegasus-wms
- openstereogram
  xoscope
 
 Task: science-typesetting
@@ -2071,7 +1977,6 @@ Packages: list
  texlive-math-extra
  diploma
  lyx
- texmacs
  auctex
  xfig
  transfig
@@ -2131,7 +2036,6 @@ Packages: list
  libqglviewer2
  python-gnuplot
  ovito
- scidavis
  veusz
  ctioga2
  python-seaborn
@@ -2165,7 +2069,6 @@ Packages: list
  libvtk-java
  vtk-examples
  libvtk6-dev
- libvtk6-java
  python-vtk6
  python-pivy
  libgtkdataboxmm-dev
