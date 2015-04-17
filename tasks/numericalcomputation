@@ -120,3 +120,5 @@ Depends: iep
 Depends: calculix-ccx
 
 Depends: python-sfepy
+
+Depends: python-bitstring | python3-bitstring
