@@ -55,7 +55,7 @@ Depends: gyoto
 
 Depends: skycat
 
-Depends: ftools-fv, fitsverify, fitscheck, fitscut
+Depends: ftools-fv, fitsverify, fitscut, pyfits-utils
 
 Depends: casacore-tools
 
