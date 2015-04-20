@@ -74,10 +74,16 @@ Why: Generic Python packages for astronomy
 Depends: glueviz
 WNPP: 762265
 
-Depends: astroml, astroquery, sncosmo
+Depends: astroml
+WNPP: 756994
+
+Depends: sncosmo
+WNPP: 757096
+
+Depends: python-astroquery, python3-astroquery
 Why: Astropy affiliated packages
 
-Depends: pyavm
+Depends: python-pyavm, python3-pyavm
 
 Depends: python-astlib, python3-astlib
 WNPP: 777600
@@ -170,6 +176,7 @@ Remark: Removed from Debian
  Reasons are given here: http://bugs.debian.org/460795
 
 Depends: audela
+WNPP: 744236
 
 Suggests: python-healpy
 
