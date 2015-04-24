@@ -122,3 +122,6 @@ Depends: calculix-ccx
 Depends: python-sfepy
 
 Depends: python-bitstring | python3-bitstring
+
+Depends: easea
+WNPP: 783015
