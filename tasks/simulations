@@ -23,3 +23,5 @@ Depends: music-bin
 Depends: calculix-ccx
 
 Depends: python-sfepy
+
+Suggests: libopensurgsim-dev
