@@ -9,7 +9,7 @@ Depends: libnova-dev
 
 Depends: libworldwind-java
 
-Depends: libccfits-dev, libcfitsio3-dev, python-pyfits, libqfits-dev, slang-cfitsio, libastro-fits-cfitsio-perl
+Depends: libccfits-dev, libcfitsio-dev, python-pyfits, libqfits-dev, slang-cfitsio, libastro-fits-cfitsio-perl
 
 Depends: libstarlink-pal-dev, libstarlink-ast-dev, libwcstools-dev, wcslib-dev, libcpl-dev
 
