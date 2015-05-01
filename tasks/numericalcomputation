@@ -125,3 +125,6 @@ Depends: python-bitstring | python3-bitstring
 
 Depends: easea
 WNPP: 783015
+
+Depends: geneva
+WNPP: 783843
