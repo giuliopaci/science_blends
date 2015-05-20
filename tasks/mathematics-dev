@@ -177,6 +177,9 @@ Depends: libcneartree-dev
 
 Depends: libmpfrc++-dev
 
+Depends: libmpfi-dev
+Why: gap-float dependencies
+
 Depends: libscscp1-dev
 
 Depends: python-linop | python3-linop
