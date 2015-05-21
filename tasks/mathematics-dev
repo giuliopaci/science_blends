@@ -54,7 +54,7 @@ Depends: libarmadillo-dev
 
 Suggests: libitpp-dev
 
-Suggests: libnauty-dev
+Depends: libnauty2-dev
 
 Suggests: libtestu01-dev
 
