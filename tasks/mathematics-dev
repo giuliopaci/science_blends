@@ -56,7 +56,7 @@ Suggests: libitpp-dev
 
 Depends: libnauty2-dev
 
-Suggests: libtestu01-dev
+Suggests: libtestu01-0-dev
 
 Suggests: liblrs-dev
 
