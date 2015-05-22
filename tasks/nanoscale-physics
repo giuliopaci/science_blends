@@ -22,7 +22,7 @@ Depends: abinit, mpqc, openmx, psi3, quantum-espresso
 
 Depends: drawxtl
 
-Depends: etsf-io
+Depends: etsf-io, libxc
 
 Depends: feynmf
 
@@ -38,11 +38,15 @@ Depends: libfftw3-3
 
 Depends: libgsl0ldbl, gsl-bin
 
-Depends: netcdf-bin, netcdf-doc, nco, ncview
+Depends: netcdf-bin
+
+Recommends: nco, ncview
+
+Suggests: hdf5-helpers, hdf5-tools, netcdf-doc
 
 Depends: openmpi-bin|mpich
 
-Suggests: openmpi-doc|mpich-doc|lam-mpidoc
+Suggests: openmpi-doc|mpich-doc
 
 Depends: science-numericalcomputation
 Why: Numerical programming environments similar to Matlab/IDL
@@ -51,7 +55,7 @@ Depends: avogadro, garlic, gdis, ghemical, v-sim
 
 Depends: gwyddion
 
-Recommends: axiom, maxima
+Suggests: axiom, maxima
 Why: Symbolic maths
 
 Recommends: cadabra
@@ -64,6 +68,8 @@ Why: Periodic table data
 
 Recommends: graphviz
 
+Suggests: libgraphviz-perl, python-pygraphviz
+
 Recommends: libblacs-mpi1
 
 Recommends: libscalapack-mpi1
@@ -74,30 +80,29 @@ Why: ODE solvers, optimization algorithms, symbolic maths
 Recommends: pyxplot
 Why: publication-quality figures
 
-Depends: crystfel
-
-Suggests: dx, dx-doc
-
-Suggests: gmsh
-Why: Support ongoing finite-element projects
+Suggests: dx, dxsamples, dx-doc
 
 Suggests: gpiv, gpivtools
+Why: molecular dynamics
 
 Suggests: feel++-apps
 Why: Partial differential equation library, FEA, CFD
 
-Suggests: qtiplot, scidavis
+Suggests: pymca, qtiplot, scidavis
 Why: Handle file formats used by experimentalists
 
-Suggests: science-statistics, science-mathematics
+Depends: qtoctave, scilab, scilab-sivp
 
-Suggests: scilab-sivp
+Depends: cbflib-bin
+
+Depends: python-lmfit | python3-lmfit
+
+Suggests: science-statistics, science-mathematics
 
 Depends: ape
 Homepage: http://www.tddft.org/programs/APE/
 Responsible: Yann Pouillon <yann.pouillon@gmail.com>
 License: GPL
-WNPP: 602092
 Published-Title: Generating relativistic pseudo-potentials with explicit incorporation of semi-core states using APE, the Atomic Pseudo-potentials Engine
 Published-Authors: M. J. T. Oliveira, F. Nogueira
 Published-Year: 2008
@@ -114,7 +119,6 @@ Depends: atompaw
 Homepage: http://www.wfu.edu/~natalie/papers/pwpaw/man.html
 Responsible: Yann Pouillon <yann.pouillon@gmail.com>
 License: GPL
-WNPP: 602093
 Published-Title: A Projector Augmented Wave (PAW) code for electronic structure calculations, Part I: atompaw for generating atom-centered functions
 Published-Authors: N. A. W. Holzwarth, A. R. Tackett, G. E. Matthews
 Published-Year: 2001
@@ -135,7 +139,6 @@ Depends: bigdft
 Homepage: http://inac.cea.fr/L_Sim/BigDFT/
 Responsible: Damien Caliste <damien.caliste@cea.fr>
 License: GPL
-WNPP: 602096
 Published-Title: Daubechies wavelets as a basis set for density functional pseudopotential calculations
 Published-Authors: L. Genovese, A. Neelov, S. Goedecker, T. Deutsch, S. A. Ghasemi, A. Willand, D. Caliste, O. Zilberberg, M. Rayson, A. Bergman, R. Schneider
 Published-Year: 2008
@@ -157,15 +160,6 @@ Pkg-Description: Wavelet-based electronic-structure calculations
 
 Depends: cp2k
 
-Depends: espresso++
-Homepage: http://espresso.scai.fraunhofer.de/
-License: Not yet known (hopefully free)
-Pkg-Description: Extensible Simulation Package for Research on Soft matter
- ESPResSo is a highly versatile software package for the scientific
- simulation and analysis of coarse-grained atomistic or bead-spring
- models as they are used in soft matter research, with emphasis on
- charged systems.
-
 Depends: exciting
 Homepage: http://exciting-code.org/
 Responsible: Yann Pouillon <yann.pouillon@gmail.com>
@@ -186,7 +180,7 @@ Pkg-Description: All-electron full-potential electronic-structure code
 
 Depends: gpaw
 Homepage: https://wiki.fysik.dtu.dk/gpaw/
-Responsible: Ask Hjorth Larsen <askhl@fysik.dtu.dk>
+Responsible: Marcin Dulak <marcin.dulak@gmail.com>
 License: GPL
 WNPP: 602748
 Published-Title: Real-space grid implementation of the projector augmented wave method
@@ -195,6 +189,7 @@ Published-Year: 2005
 Published-In: Physical Review B, 71:035109
 Published-URL: http://prb.aps.org/abstract/PRB/v71/i3/e035109
 Published-DOI: 10.1103/PhysRevB.71.035109
+Pkg-URL: https://build.opensuse.org/package/show/home:dtufys/gpaw-0.10.0
 Pkg-Description: Real-space PAW-based electronic structure code
  GPAW is a density-functional theory (DFT) Python code based on the
  projector-augmented wave (PAW) method. It uses real-space uniform grids
@@ -204,7 +199,6 @@ Depends: octopus
 Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Main_Page
 Responsible: Miguel Marques <miguel.marques@tddft.org>
 License: LGPL
-WNPP: 602111
 Published-Title: octopus: a tool for the application of time-dependent density functional theory
 Published-Authors: A. Castro, H. Appel, M. Oliveira, C.A. Rozzi, X. Andrade, F. Lorenzen, M. A. L. Marques, E. K. U. Gross, A. Rubio
 Published-Year: 2006
@@ -220,8 +214,6 @@ Pkg-Description: Real-space TDDFT-based electronic-structure code
  Electron-nucleus interaction is described within the pseudopotential
  approximation.
 
-Depends: pymca
-
 Depends: python-ase
 Published-Title: An object-oriented scripting interface to a legacy electronic structure code
 Published-Author: S. R. Bahn and K. W. Jacobsen
@@ -230,11 +222,31 @@ Published-In: Computing in Science and Engineering, 4:56-66
 Published-URL: http://dx.doi.org/10.1109/5992.998641
 Published-DOI: 10.1109/5992.998641
 
-Depends: wannier90
-Homepage: http://www.wannier.org/
-Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+Depends: wannier90-1
+Why: several projects still depend on this version
+Homepage: http://wannier.org/code/wannier90-1.2.tar.gz
+Responsible: Arash Mostofi <a.mostofi@imperial.ac.uk>
 License: GPL
-WNPP: 578829
+Published-Title: A Tool for Obtaining Maximally-Localised Wannier Functions
+Published-Authors: A. A. Mostofi, J. R. Yates, Y.-S. Lee, I. Souza, D. Vanderbilt, N. Marzari
+Published-Year: 2008
+Published-In: Computer Physics Communications, 178:685-699
+Published-URL: http://dx.doi.org/10.1016/j.cpc.2007.11.016
+Published-DOI: 10.1016/j.cpc.2007.11.016
+Remark: packaging efforts can be found at https://launchpad.net/wannier90
+Pkg-Description: Maximally Localized Wannier Functions
+ Wannier90 is an electronic-structure software computing
+ maximally-localized Wannier functions (MLWF). It works on top of other
+ electronic-structure software, such as Abinit, FLEUR, and PwSCF.
+ .
+ This is an old version still used by several packages. A patched version
+ compatible with the ETSF Software Suite is available from
+ https://launchpad.net/wannier90.
+
+Depends: wannier90-2
+Homepage: http://www.wannier.org/
+Responsible: Arash Mostofi <a.mostofi@imperial.ac.uk>
+License: GPL
 Published-Title: A Tool for Obtaining Maximally-Localised Wannier Functions
 Published-Authors: A. A. Mostofi, J. R. Yates, Y.-S. Lee, I. Souza, D. Vanderbilt, N. Marzari
 Published-Year: 2008
@@ -245,8 +257,6 @@ Pkg-Description: Maximally Localized Wannier Functions
  Wannier90 is an electronic-structure software computing
  maximally-localized Wannier functions (MLWF). It works on top of other
  electronic-structure software, such as Abinit, FLEUR, and PwSCF.
-
-Depends: qtoctave
 
 Depends: octaviz
 Pkg-URL: http://snapshot.debian.org/package/octaviz/
@@ -265,8 +275,23 @@ Remark: Removed from Debian
  Reasons are given here: http://bugs.debian.org/535537
 
 Depends: fdmnes
+Why: X-ray spectroscopy
 Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
 
-Depends: cbflib-bin
+Depends: liblevmar-2-6
+Homepage: http://users.ics.forth.gr/~lourakis/levmar/
+Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+License: GPL
+Remark: packaging efforts can be found at https://launchpad.net/levmar
+Pkg-Description: Levenberg-Marquardt nonlinear least squares algorithms
+ The Levenberg-Marquardt (LM) algorithm is an iterative technique that finds
+ a local minimum of a function that is expressed as the sum of squares of
+ nonlinear functions. It has become a standard technique for nonlinear
+ least-squares problems and can be thought of as a combination of steepest
+ descent and the Gauss-Newton method.
+ .
+ This library provides native ANSI C implementations of the Levenberg-Marquardt
+ optimization algorithm, usable also from C++, Matlab, Perl, Python, Haskell
+ and Tcl. Both unconstrained and constrained (under linear equations,
+ inequality and box constraints) Levenberg-Marquardt variants are included.
 
-Depends: python-lmfit | python3-lmfit

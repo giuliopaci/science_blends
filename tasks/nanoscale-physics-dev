@@ -16,22 +16,20 @@ Depends: libetsf-io-dev, libetsf-io-doc
 
 Suggests: libfftw3-doc
 
-Depends: libfftw3-dev, fftw-dev, sfftw-dev
+Depends: libfftw3-dev
 
 Depends: libgsl0-dev, gsl-bin, gsl-doc-info, gsl-ref-html|gsl-ref-psdoc
 
 Depends: libnetcdf-dev, netcdf-doc, r-cran-rnetcdf
 
-Depends: libtrilinos-dev, libtrilinos-doc
-Why: High-performance computing
+Recommends: libhdf5-dev
 
 Depends: libxc-dev
 
 Depends: libopenmpi-dev | libmpich-dev
 
-Depends: wannier90-dev
-WNPP: 578829
-Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+Depends: wannier90-1-dev
+Responsible: Arash Mostofi <a.mostofi@imperial.ac.uk>
 Homepage: http://www.wannier.org/
 License: GPL
 Language: Fortran 90
@@ -58,78 +56,21 @@ Suggests: oce-draw
 
 Depends: liboce-visualization-dev, liboce-ocaf-dev
 
-Suggests: python-netcdf
+Suggests: python-netcdf, python-h5py
 
-
-Depends: libfox95
-Homepage: http://www1.gly.bris.ac.uk/~walker/FoX/
-Responsible: Yann Pouillon <yann.pouillon@gmail.com>
-License: BSD-like
-WNPP: 602100
-Pkg-Description: A Fortran library for XML
- FoX is an XML library written in Fortran 95. It allows software
- developers to read, write and modify XML documents from Fortran
- applications without the complications of dealing with multi-language
- development.
- .
- The developer is offered three principle APIs which are accessed as
- Fortran modules. FoX_wxml is an XML writer used to sequentially create
- arbitrary XML documents quickly with minimal memory requirements.
- FoX_sax is a streaming, validating parser based on java's Simple API
- for XML. The third module, FoX_dom, offers a full implementation of the
- W3C Document Object Model (DOM).
-
-Depends: libnbc
-Homepage: http://www.unixer.de/research/nbcoll/libnbc/
-Responsible: Yann Pouillon <yann.pouillon@gmail.com>
-License: BSD
-WNPP: 602104
-Published-Title: Implementation and Performance Analysis of Non-Blocking Collective Operations for MPI
-Published-Authors: T. Hoefler, A. Lumsdaine, W. Rehm
-Published-Year: 2007
-Published-In: Proceedings of the 2007 International Conference on High Performance Computing, Networking, Storage and Analysis, SC07
-Published-URL: http://www.unixer.de/publications/?pub=46
-Published-DOI: 10.1145/1362622.1362692
-Pkg-Description: Non-Blocking MPI Collective Operations
- LibNBC is a prototypic implementation of a nonblocking interface for MPI
- collective operations. Based on ANSI C and MPI-1, it supports all MPI-1
- collective operations in a nonblocking manner.
-
-Depends: libpspio
-Homepage: http://www.tddft.org/trac/libpspio/
+Depends: libpspio-dev
+Homepage: https://launchpad.net/libpspio
 Responsible: Yann Pouillon <yann.pouillon@gmail.com>
 License: LGPL
-WNPP: 640664
 Pkg-Description: Library to read and write pseudopotentials
  Pseudopotentials consist in atomic data used for atomic-scale electronic
  structure calculations. Libpspio is a library to read and write
  pseudopotentials in various formats, allowing as well for conversion in
  some cases.
 
-Depends: libxc
-Homepage: http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
-Responsible: Damien Caliste <damien.caliste@cea.fr>
-License: LGPL
-WNPP: 602110
-Pkg-Description: Library of DFT exchange-correlation functionals
- Libxc is a library of exchange-correlation functionals. The aim is to
- provide a portable, well tested and reliable set of exchange and
- correlation functionals that can be used by all the ETSF codes and also
- other codes.
- .
- In libxc you can find different types of functionals: LDA, GGA,
- hybrids, mGGA (experimental) and LCA (not working). This functionals
- depend on local information, in the sense that the value of the
- potential at a given point depends only on the values of the density -
- and the gradient of the density and the kinetic energy density, for the
- GGA and mGGA cases, or the vorticity for LCA - at a given point.
- .
- As of today, more than 100 functionals are available for various kinds
- of electronic-structure calculations.
-
 Depends: spglib
 Homepage: http://sourceforge.net/projects/spglib/
-Responsible: Yann Pouillon <yann.pouillon@gmail.com>
+Responsible: DebiChem Project <debichem-devel@lists.alioth.debian.org>
 License: BSD
 WNPP: 602113
 Pkg-Description: Crystal symmetry finder library
