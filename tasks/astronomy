@@ -94,6 +94,9 @@ Depends: python-pyavm, python3-pyavm
 Depends: python-astlib, python3-astlib
 WNPP: 777600
 
+Depends: eso-pipelines
+WNPP: 787058
+
 Depends: esorex, python-cpl
 Suggests: cpl-plugin-amber, cpl-plugin-fors, cpl-plugin-giraf,
 	  cpl-plugin-hawki, cpl-plugin-sinfo, cpl-plugin-kmos,
