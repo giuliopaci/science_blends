@@ -11,6 +11,9 @@ Why: Celestial Mechanics computations
 
 Depends: astronomical-almanac, lightspeed, openuniverse
 
+Depends: astromatic
+WNPP: 786894
+
 Depends: sextractor, swarp
 
 Depends: psfex
@@ -21,6 +24,9 @@ WNPP: 777599
 
 Depends: missfits
 WNPP: 778236
+
+Depends: scamp
+WNPP: 786901
 
 Depends: worldwind
 
@@ -118,7 +124,6 @@ Pkg-Description: a gtk front-end for the starchart program
  Paeth, updated in 1990 by Craig Counterman) which generates high-quality
  postscript charts of any chosen region of the sky. It also prints the current
  Julian date and gives positions of the planets.
- .
 Remark: Removed from Debian due to licensing issues.
 
 Suggests: pdl, pgplot5, python-scientific
