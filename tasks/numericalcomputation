@@ -132,3 +132,5 @@ WNPP: 783843
 Depends: libarrayfire-cpu-dev
 
 Depends: libclblas-dev
+
+Depends: libclfft-dev
