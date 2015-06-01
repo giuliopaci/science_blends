@@ -180,7 +180,7 @@ Pkg-Description: Point Cloud Library
  large consortium of researchers and engineers around the world. It is
  written in C++ and released under the BSD license.
 
-Depends: gazebo
+Depends: gazebo5
 
 Depends: openrave
 Homepage: http://openrave.org/

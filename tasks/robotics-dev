@@ -35,3 +35,11 @@ Depends: libconsole-bridge-dev
 Depends: libcomedi-dev, python-comedilib
 
 Depends: libccd-dev
+
+Depends: libgazebo5-dev
+
+Depends: libsimbody-dev
+
+Depends: libignition-transport-dev
+
+Depends: libignition-math2-dev
