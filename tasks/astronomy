@@ -28,6 +28,9 @@ WNPP: 778236
 Depends: scamp
 WNPP: 786901
 
+Depends: weightwatcher
+WNPP: 787412
+
 Depends: worldwind
 
 Depends: wcstools, wcslib-tools, funtools, qfits-tools
