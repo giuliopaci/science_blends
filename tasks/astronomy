@@ -14,22 +14,10 @@ Depends: astronomical-almanac, lightspeed, openuniverse
 Depends: astromatic
 WNPP: 786894
 
-Depends: sextractor, swarp
+Depends: sextractor, swarp, psfex, stiff, missfits, scamp, weightwatcher
 
-Depends: psfex
-WNPP: 775497
-
-Depends: stiff
-WNPP: 777599
-
-Depends: missfits
-WNPP: 778236
-
-Depends: scamp
-WNPP: 786901
-
-Depends: weightwatcher
-WNPP: 787412
+Depends: montage
+WNPP: 787706
 
 Depends: worldwind
 
