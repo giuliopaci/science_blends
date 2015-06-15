@@ -184,3 +184,7 @@ Depends: splash
 Depends: siril
 
 Depends: gnudatalanguage
+
+Depends: idlastro
+WNPP: 788826
+
