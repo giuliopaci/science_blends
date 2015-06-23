@@ -180,6 +180,9 @@ Remark: Removed from Debian
 Depends: audela
 WNPP: 744236
 
+Depends: pyregion
+WNPP: 789717
+
 Suggests: python-healpy
 
 Depends: splash
