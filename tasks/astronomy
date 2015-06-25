@@ -52,7 +52,7 @@ Depends: gyoto
 
 Depends: skycat
 
-Depends: ftools-fv, fitsverify, fitscut, pyfits-utils
+Depends: ftools-fv, fitsverify, fitscut, astropy-utils
 
 Depends: casacore-tools
 
