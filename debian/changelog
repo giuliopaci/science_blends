@@ -10,7 +10,8 @@ debian-science (1.5) UNRELEASED; urgency=medium
 
   [ Andreas Tille ]
   * Add new task imageanalysis-dev
-
+  * Fix package description in engineering
+    Closes: #730282
 
  -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 21:41:40 +0200
 
