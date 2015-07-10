@@ -194,3 +194,5 @@ Depends: gnudatalanguage
 Depends: idlastro
 WNPP: 788826
 
+Depends: yt
+WNPP: 789976
