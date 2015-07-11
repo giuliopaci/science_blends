@@ -149,6 +149,8 @@ Depends: mathicgb
 
 Depends: frobby
 
+Depends: geneagrapher
+
 X-Removed: Packages removed from Debian
 
 Depends: octaviz
