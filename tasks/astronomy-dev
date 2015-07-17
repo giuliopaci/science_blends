@@ -28,3 +28,5 @@ Depends: libivoafits-java
 Depends: tcl-fitstcl
 
 Depends: libchealpix-dev, libhealpix-cxx-dev, python-healpy
+
+Depends: libindi-dev

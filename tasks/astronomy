@@ -185,6 +185,8 @@ WNPP: 789717
 
 Suggests: python-healpy
 
+Depends: indi-bin
+
 Depends: splash
 
 Depends: siril
