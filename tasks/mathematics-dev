@@ -220,3 +220,5 @@ Depends: libmathicgb-dev
 Depends: libfrobby-dev
 
 Depends: libmathic-dev
+
+Depends: python-dtcwt | python3-dtcwt
