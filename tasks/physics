@@ -7,8 +7,7 @@ Description: Debian Science Physics packages
 Depends: cernlib, geant321, paw++, paw
 Suggests: paw-demos
 
-Depends: gpaw
-WNPP: 782543
+Depends: gpaw, gpaw-setups
 
 Depends: clhep
 WNPP: 636972
