@@ -196,5 +196,10 @@ Depends: gnudatalanguage
 Depends: idlastro
 WNPP: 788826
 
+Depends: gdl-mpfit, gdl-coyote
+
 Depends: yt
 WNPP: 789976
+
+Depends: astrometry.net
+WNPP: 793462
