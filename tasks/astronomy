@@ -68,18 +68,15 @@ Depends: python-pywcs, python-astropy, python3-astropy, python-pyfits,
          python3-pyfits, python-pyds9
 Why: Generic Python packages for astronomy
 
-Depends: glueviz
-WNPP: 762265
-
 Depends: astroml
 WNPP: 756994
 
 Depends: sncosmo
 WNPP: 757096
 
-Depends: wcsaxes
-WNPP: 785015
-
+Depends: python-pyregion, python3-pyregion
+Depends: python-wcsaxes, python3-wcsaxes
+Depends: glueviz, python-glue, python3-glue
 Depends: python-astroquery, python3-astroquery
 Why: Astropy affiliated packages
 
@@ -179,9 +176,6 @@ Remark: Removed from Debian
 
 Depends: audela
 WNPP: 744236
-
-Depends: pyregion
-WNPP: 789717
 
 Suggests: python-healpy
 
