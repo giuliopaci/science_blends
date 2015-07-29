@@ -11,13 +11,10 @@ Why: Celestial Mechanics computations
 
 Depends: astronomical-almanac, lightspeed, openuniverse
 
-Depends: astromatic
-WNPP: 786894
-
-Depends: sextractor, swarp, psfex, stiff, missfits, scamp, weightwatcher
+Depends: astromatic, sextractor, swarp, psfex, stiff, missfits, scamp,
+ weightwatcher
 
 Depends: montage
-WNPP: 787706
 
 Depends: worldwind
 
@@ -81,19 +78,17 @@ Depends: python-astroquery, python3-astroquery
 Why: Astropy affiliated packages
 
 Depends: python-pyavm, python3-pyavm
-
 Depends: python-astlib, python3-astlib
-WNPP: 777600
 
 Depends: eso-pipelines
-WNPP: 787058
-
 Depends: esorex, python-cpl
 Suggests: cpl-plugin-amber, cpl-plugin-fors, cpl-plugin-giraf,
 	  cpl-plugin-hawki, cpl-plugin-sinfo, cpl-plugin-kmos,
 	  cpl-plugin-vimos, cpl-plugin-uves, cpl-plugin-xshoo,
 	  cpl-plugin-naco, cpl-plugin-visir, cpl-plugin-muse
 Why: Data reduction suite for data taken with ESO instruments
+
+Depends: eso-midas
 
 Depends: xephem
 Homepage: http://www.clearskyinstitute.com/xephem/
@@ -122,8 +117,6 @@ Remark: Removed from Debian due to licensing issues.
 
 Suggests: pdl, pgplot5, python-scientific
 Why: Already in science-viewing
-
-Depends: eso-midas
 
 Depends: wxastrocapture
 
@@ -185,12 +178,7 @@ Depends: splash
 
 Depends: siril
 
-Depends: gnudatalanguage
-
-Depends: idlastro
-WNPP: 788826
-
-Depends: gdl-mpfit, gdl-coyote
+Depends: gnudatalanguage, gdl-astrolib, gdl-mpfit, gdl-coyote
 
 Depends: yt
 WNPP: 789976
