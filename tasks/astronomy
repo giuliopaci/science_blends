@@ -185,3 +185,6 @@ WNPP: 789976
 
 Depends: astrometry.net
 WNPP: 793462
+
+Depends: rawtran
+WNPP: 793963
