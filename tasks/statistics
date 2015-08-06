@@ -48,7 +48,7 @@ Why: Provides scipy.stats module
 
 Suggests: r-cran-spc
 
-Depends: r-cran-vcd
+Depends: r-cran-vcd, r-cran-vcdextra
 
 Depends: r-cran-permute
 
