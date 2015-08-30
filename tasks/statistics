@@ -50,6 +50,8 @@ Suggests: r-cran-spc
 
 Depends: r-cran-vcd, r-cran-vcdextra
 
+Depends: r-cran-estimability, r-cran-elliptic, r-cran-logspline, r-cran-lsmeans, r-cran-modeltools
+
 Depends: r-cran-permute
 
 Depends: python-statsmodels
