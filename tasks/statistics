@@ -52,6 +52,8 @@ Depends: r-cran-vcd, r-cran-vcdextra
 
 Depends: r-cran-estimability, r-cran-elliptic, r-cran-logspline, r-cran-lsmeans, r-cran-modeltools
 
+Depends: r-cran-rinside, r-cran-pbapply, r-cran-pbivnorm, r-cran-contfrac, r-cran-desolve, r-cran-hypergeo
+
 Depends: r-cran-permute
 
 Depends: python-statsmodels
