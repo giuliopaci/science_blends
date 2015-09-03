@@ -134,3 +134,7 @@ Depends: libarrayfire-cpu-dev
 Depends: libclblas-dev
 
 Depends: libclfft-dev
+
+Depends: pysph
+
+Depends: python3-woo | python-woo

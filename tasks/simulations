@@ -25,3 +25,7 @@ Depends: calculix-ccx
 Depends: python-sfepy
 
 Suggests: libopensurgsim-dev
+
+Depends: pysph
+
+Depends: python3-woo | python-woo
