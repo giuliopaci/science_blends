@@ -33,3 +33,5 @@ Depends: python-xrayutilities
 Depends: libplb-dev
 
 Depends: libasl-dev
+
+Depends: libplb-dev
