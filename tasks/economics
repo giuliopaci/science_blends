@@ -220,6 +220,16 @@ Pkg-Description: VAR, SVAR and SVEC Models in R
  possible to convert vector error correction models into their level VAR
  representation.
 
+Depends: r-other-gecon
+Homepage: http://gecon.r-forge.r-project.org/
+License: BSD
+Pkg-Description: solver for large scale dynamic general equilibrium models
+ gEcon allows users to describe their models in terms of optimisation problems
+ of agents. Given optimisation problems, constraints and identities, gEcon
+ derives the first order conditions, steady state equations, and linearisation
+ matrices automatically. Numerical solvers can be then employed to determine
+ the steady state and approximate equilibrium laws of motion around it.
+
 Suggests: ess
 
 Suggests: dynare-matlab
