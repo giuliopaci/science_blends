@@ -29,8 +29,6 @@ Depends: octave-symbolic
 
 Depends: octave-dataframe
 
-Depends: qtoctave
-
 Depends: r-base
 
 Depends: r-cran-urca
