@@ -222,3 +222,5 @@ Depends: libfrobby-dev
 Depends: libmathic-dev
 
 Depends: python-dtcwt | python3-dtcwt
+
+Suggest: jsurf-alggeo
