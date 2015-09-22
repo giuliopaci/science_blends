@@ -14,6 +14,8 @@ debian-science (1.5) UNRELEASED; urgency=medium
   * Add new task imageanalysis-dev
   * Fix package description in engineering
     Closes: #730282
+  * Remove python-pyke from machine-learning
+    Closes: #799284
 
  -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 21:41:40 +0200
 

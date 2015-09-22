@@ -5,7 +5,7 @@ Description: Debian Science Machine Learning packages
  from knowledge-based (expert) inference systems to software
  implementing dominant nowadays statistical methods.
 
-Depends: python-pyke, gprolog, yap
+Depends: gprolog, yap
 Comment: Prolog (and alike) systems for inductive reasoning
 
 Depends: libtorch3-dev
