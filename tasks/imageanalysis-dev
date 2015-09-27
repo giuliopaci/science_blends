@@ -19,3 +19,5 @@ Depends: python-imageio
 
 Depends: liblimereg-dev
 WNPP: 777000
+
+Suggests: libfreeimage-dev
