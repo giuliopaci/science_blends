@@ -16,8 +16,6 @@ Depends: astromatic, sextractor, swarp, psfex, stiff, missfits, scamp,
 
 Depends: montage
 
-Depends: worldwind
-
 Depends: wcstools, wcslib-tools, funtools, qfits-tools
 
 Depends: gpredict, predict, seesat5
