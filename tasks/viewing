@@ -143,3 +143,5 @@ Depends: trend
 Depends: python-pyqtgraph
 WNPP: 753590
 
+Depends: python-matplotlib-venn | python3-matplotlib-venn
+
