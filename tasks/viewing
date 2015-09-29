@@ -60,7 +60,7 @@ Suggests: texlive-pictures
 Suggests: pgplot5
 Why: non-free
 
-Suggests: r-cran-plotrix, r-cran-colorspace, r-cran-labeling, r-cran-scales, r-cran-ggplot2, r-cran-scatterplot3d
+Suggests: r-cran-plotrix, r-cran-colorspace, r-cran-labeling, r-cran-scales, r-cran-ggplot2, r-cran-scatterplot3d, r-cran-vioplot
 
 Suggests: r-cran-aplpack
 

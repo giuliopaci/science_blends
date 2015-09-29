@@ -112,3 +112,20 @@ Remark: Removed from Debian
 
 Depends: rstudio
 
+Suggests: r-cran-blockmodeling
+
+Suggests: r-cran-catools
+
+Suggests: r-cran-fastmatch
+
+Suggests: r-cran-futile.logger, r-cran-futile.options
+
+Suggests: r-cran-igraph
+
+Suggests: r-cran-lambda.r
+
+Suggests: r-cran-magrittr
+
+Suggests: r-cran-nnls
+
+Suggests: r-cran-r.oo, r-cran-r.utils
