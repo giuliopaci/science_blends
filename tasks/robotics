@@ -203,7 +203,7 @@ WNPP: 706133
 
 Suggests: libcoin60-runtime, libvtk5.4
 
-Suggests: octave, gnuplot
+Suggests: octave, gnuplot | gnuplot5
 
 Suggests: octovis
 WNPP: 742709

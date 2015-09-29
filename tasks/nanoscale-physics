@@ -28,7 +28,7 @@ Depends: feynmf
 
 Depends: fityk
 
-Depends: gnuplot, grace
+Depends: gnuplot | gnuplot5, grace
 
 Depends: horae, ifeffit, sixpack
 
