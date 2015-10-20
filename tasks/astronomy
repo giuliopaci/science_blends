@@ -69,6 +69,11 @@ WNPP: 756994
 Depends: sncosmo
 WNPP: 757096
 
+Depends: aplpy, python-aplpy, python3-aplpy
+WNPP: 802457
+Depends: spectral-cube, python-spectral-cube, python3-spectral-cube
+WNPP: 802468
+
 Depends: python-pyregion, python3-pyregion
 Depends: python-wcsaxes, python3-wcsaxes
 Depends: glueviz, python-glue, python3-glue
