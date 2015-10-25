@@ -146,6 +146,8 @@ Depends: libcdd-dev,
          python-polybori
 Why: Sage dependencies
 
+Depends: libprimesieve5-dev
+
 Depends: gap-dev
 
 Depends: libnfft3-dev

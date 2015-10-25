@@ -202,3 +202,5 @@ Depends: feel++-apps
 Depends: auto-07p
 
 Suggests: gmp-ecm
+
+Suggests: primesieve
