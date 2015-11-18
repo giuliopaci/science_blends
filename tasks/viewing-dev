@@ -19,6 +19,8 @@ Depends: libqglviewer-dev
 
 Depends: python-gnuplot
 
+Depends: python-gnuplotlib
+
 Depends: libcoin80-dev, libsoqt4-dev
 
 Depends: libvtk5-dev, libvtk5-qt4-dev, tcl-vtk, python-vtk, libvtk-java, vtk-examples
