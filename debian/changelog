@@ -18,6 +18,9 @@ debian-science (1.5) UNRELEASED; urgency=medium
   * Remove python-pyke from machine-learning
     Closes: #799284
 
+  [ Sylvestre Ledru ]
+  * Remove myself from the uploaders
+
  -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 21:41:40 +0200
 
 debian-science (1.4) unstable; urgency=medium
