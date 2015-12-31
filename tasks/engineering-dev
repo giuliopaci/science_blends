@@ -94,6 +94,6 @@ Depends: libdime-dev, libdxflib-dev
 
 Depends: salome-kernel-dev
 
-Depends: python-nfft3 | python3-nfft3
+Depends: python-pynfft | python3-pynfft
 
 Depends: libplb-dev
