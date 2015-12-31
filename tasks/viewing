@@ -32,7 +32,7 @@ Depends: mayavi2
 
 Depends: g3data
 
-suggests: libgrits-dev, worldwind
+Suggests: libgrits-dev, worldwind
 
 Suggests: med-imaging
 
