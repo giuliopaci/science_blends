@@ -205,8 +205,5 @@ Suggests: libcoin60-runtime, libvtk5.4
 
 Suggests: octave, gnuplot | gnuplot5
 
-Suggests: octovis
-WNPP: 742709
-
 Depends: octomap-tools, octovis
 

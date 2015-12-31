@@ -128,7 +128,7 @@ Depends: libquadrule-dev
 
 Depends: libcdd-dev,
          libec-dev,
-				 libecm0-dev,
+	 libecm0-dev,
          libgf2x-dev,
          libiml-dev,
          liblfunction-dev,
@@ -142,8 +142,7 @@ Depends: libcdd-dev,
          libtachyon-dev,
          libzn-poly-dev,
          libpynac-dev,
-         libsymmetrica2-dev,
-         python-polybori
+         libsymmetrica2-dev
 Why: Sage dependencies
 
 Depends: libprimesieve5-dev
@@ -173,8 +172,6 @@ Depends: libviennacl-dev, python-pyviennacl, python3-pyviennacl
 Depends: libgnuplot-iostream-dev
 
 Depends: libqcustomplot-dev
-
-Depends: libquadrule-dev
 
 Depends: libcneartree-dev
 
