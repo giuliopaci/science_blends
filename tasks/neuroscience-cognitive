@@ -38,10 +38,8 @@ Why: Python IO libraries for the NIfTI format.
 
 Depends: fsl
 Why: Comprehensive MRI analysis suite.
-Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
 
 Depends: fslview
-Registration: http://www.fmrib.ox.ac.uk/fsldownloads/
 
 Depends: python-mvpa2
 Why: Framework for multivariate pattern analysis of neuroimaging datasets.
@@ -84,13 +82,10 @@ Published-In: Proceedings of the 1st IEEE International Symposium on Biomedical 
 Published-Year: 2004
 Published-URL: http://www.slicer.org/publications/item/view/91
 
-
 Depends: dicom3tools
 Why: Supports conversion from proprietary formats, such as GE into DICOM.
 
 Depends: voxbo
-Registration: http://voxbo.org/usage.html
-
 
 Depends: bioimagesuite
 Remark: How to work together with upstream
@@ -273,7 +268,6 @@ Pkg-URL: http://neuro.debian.net/pkgs/debruijn.html
 
 Suggests: freesurfer
 Pkg-URL: http://neuro.debian.net/pkgs/freesurfer.html
-Registration: http://surfer.nmr.mgh.harvard.edu/fswiki/Registration
 Remark: The 'tktools' (tkmedit, tksurfer and tkregister2)  under the
   CorTechs license are not readily redistributable thus excluded.
 

@@ -24,7 +24,6 @@ Depends: openmpipython, mpich2python, python-mpi
 Suggests: hpcc
 
 Depends: htcondor
-Registration: http://www.cs.wisc.edu/condor/downloads-v2/
 
 Suggests: coop-computing-tools
 Published-Authors: Douglas Thain, Christopher Moretti, and Jeffrey Hemmes
