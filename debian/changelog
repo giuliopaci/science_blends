@@ -1,15 +1,8 @@
 debian-science (1.5) UNRELEASED; urgency=medium
 
   [ Ole Streicher ]
-  * Add psfex, swarp, stiff, missfits, fitscut, astlib, glueviz,
-    cpl-plugin-muse, cpl-plugin-naco, cpl-plugin-visir, pyavm, siril,
-    gnudatalanguage, scamp, astromatic, eso-pipelines, weightwatcher,
-    montage, idlastro, wcsaxes, pyregion, astropy-utils, yt, indi-bin,
-    gdl-coyote, gdl-mpfit, astrometry.net, rawtran, spectral-cube,
-    aplpy to astronomy
-  * Remove orbfit and linoccult from astronomy
-  * Add libindi-bin to astronomy-dev
-  * Replace libcfitsio3-dev with libcfitsio-dev in astronomy-dev
+  * Replace astronomy and astronomy-dev packages with the metapackages
+    from debian-astro
 
   [ Andreas Tille ]
   * Add new task imageanalysis-dev
