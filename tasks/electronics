@@ -73,6 +73,8 @@ Depends: qsapecng
 
 Depends: berkeley-abc, qrouter, magic, yosys, qflow, graywolf
 
+Depends: fpga-icestorm, arachne-pnr
+
 Depends: vbpp
 Pkg-URL: http://snapshot.debian.org/package/vbpp/
 Homepage: http://www.flex.com/~jching/
