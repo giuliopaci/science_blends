@@ -18,3 +18,5 @@ Depends: xoscope
 Suggests: libmemtailor-dev
 
 Depends: python-h5py | python3-h5py
+
+Depends: snakemake, cwl
