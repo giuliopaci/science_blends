@@ -27,7 +27,9 @@ Suggests: libjlapack-java, libmtj-java, libnetlib-java
 Depends: libsuperlu-dev
 Why: solver
 
-Depends: libglpk-dev, python-glpk, libglpk-java
+Depends: libglpk-dev, python-glpk, libglpk-java,
+	 python-cylp,
+	 libqsopt-ex-dev
 Why: linear programming
 
 Depends: libcgal-dev
