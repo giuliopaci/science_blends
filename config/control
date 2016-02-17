@@ -63,6 +63,7 @@ Description: Debian Science Project config package
                             computation
   * science-presentation    packages related to presentation
   * science-statistics      packages related to statistics
+  * science-tools           packages containing misc tools useful in science
   * science-typesetting     packages related to typesetting
   * science-viewing         packages related to viewing
   * science-viewing         packages related to viewing
