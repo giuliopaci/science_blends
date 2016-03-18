@@ -24,6 +24,8 @@ Depends: libnetcdf-dev, netcdf-doc, r-cran-rnetcdf
 
 Recommends: libhdf5-dev
 
+Depends: libsis-jhdf5-java
+
 Depends: libxc-dev
 
 Depends: libopenmpi-dev | libmpich-dev
