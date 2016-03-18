@@ -129,3 +129,7 @@ Suggests: r-cran-magrittr
 Suggests: r-cran-nnls
 
 Suggests: r-cran-r.oo, r-cran-r.utils
+
+Depends: apophenia-bin
+
+Suggests: libapophenia2-dev

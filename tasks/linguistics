@@ -5,7 +5,7 @@ Description: Debian Science Linguistics packages
 
 Depends: wordnet
 
-Depends: apertium, link-grammar
+Depends: apertium, apertium-lex-tools, link-grammar
 
 Depends: artha
 
@@ -53,3 +53,39 @@ Pkg-Description: SQL version of WordNet 3.0
 Depends: travatar
 
 Suggests: python-nltk, python3-nltk
+
+Suggests: apertium-af-nl,
+          apertium-apy,
+          apertium-br-fr,
+          apertium-cat,
+          apertium-cy-en,
+          apertium-dan,
+          apertium-dan-nor,
+          apertium-en-ca,
+          apertium-en-es,
+          apertium-eo-ca,
+          apertium-eo-es,
+          apertium-es-ca,
+          apertium-es-gl,
+          apertium-es-pt,
+          apertium-es-ro,
+          apertium-eu-es,
+          apertium-fra,
+          apertium-fra-cat,
+          apertium-fr-ca,
+          apertium-fr-es,
+          apertium-nno,
+          apertium-nno-nob,
+          apertium-nob,
+          apertium-oc-ca,
+          apertium-oc-es,
+          apertium-pt-ca,
+          apertium-pt-gl,
+          apertium-swe,
+          apertium-swe-dan
+
+Depends: cg3
+
+Suggests: libcg3-dev
+
+Depends: libcld2-dev

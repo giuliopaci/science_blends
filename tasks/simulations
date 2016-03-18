@@ -29,3 +29,7 @@ Suggests: libopensurgsim-dev
 Depends: pysph
 
 Depends: python3-woo | python-woo
+
+Depends: libceres-dev
+
+Suggests:  ceres-solver-doc

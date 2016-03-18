@@ -96,3 +96,5 @@ Depends: python-xrayutilities
 Depends: crystfel-dev
 
 Depends: libssm-dev
+
+Depends: libclipper-dev
