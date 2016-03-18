@@ -131,15 +131,7 @@ Pkg-Description: framework for inference in Dynamic Bayesian Networks
  applications.
 
 
-Depends: ros
-WNPP: 519143
-Homepage: http://www.ros.org/
-License: BSD for the core packages
-Pkg-Description: ROS middleware
- ROS is a robot operating system. It provides the services you
- would expect from an operating system, including hardware abstraction,
- low-level device control, implementation of commonly-used functionality,
- message-passing between processes, and package management.
+Depends: ros-mk, rosbuild, roslang, rosbash, python-rosclean, python-roscreate, python-rosmake, python-rosunit
 
 Depends: openrtm
 Homepage: http://www.openrtm.org/
