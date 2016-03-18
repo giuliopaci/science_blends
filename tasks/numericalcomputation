@@ -146,3 +146,5 @@ Depends: libcompute-dev
 Depends: libceres-dev
 
 Suggests: ceres-solver-doc
+
+Depends: qsopt-ex, libqsopt-ex-dev
