@@ -34,3 +34,4 @@ Depends: libplb-dev
 
 Depends: libasl-dev
 
+Depends: python-pyfftw | python3-pyfftw
