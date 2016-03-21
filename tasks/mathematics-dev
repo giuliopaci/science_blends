@@ -225,3 +225,5 @@ Depends: libmathic-dev
 Depends: python-dtcwt | python3-dtcwt
 
 Suggests: jsurf-alggeo
+
+Depends: python-pyfftw | python3-pyfftw
