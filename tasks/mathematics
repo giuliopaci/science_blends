@@ -18,7 +18,7 @@ Depends: gap-small-groups-extra, gap-trans-groups, gap-prim-groups, gap-small-gr
 Depends: gap-float
 
 Suggests: gap-online-help, gap-gapdoc, gap-io, gap-scscp
-Recommends: gap-openmath
+Recommends: gap-openmath, gap-grape
 
 Depends: gerris
 Why: CFD
