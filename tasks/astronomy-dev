@@ -5,6 +5,7 @@ Description: Debian Science Astronomy-dev transitional package
  install all development related tasks from Debian-Astro.
 
 Depends: astro-development,
+         astro-java,
          astro-python,
          astro-python3,
          astro-tcltk
