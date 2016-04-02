@@ -130,7 +130,7 @@ Depends: libquadrule-dev
 
 Depends: libcdd-dev,
          libec-dev,
-         libecm1-dev,
+         libecm-dev,
          libgf2x-dev,
          libiml-dev,
          liblfunction-dev,
