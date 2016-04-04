@@ -140,3 +140,5 @@ Pkg-Description: Data mining framework
 Depends: python-pymc
 
 Suggests: ask
+
+Suggests: libdlib-dev
