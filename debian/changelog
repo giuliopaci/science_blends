@@ -3,6 +3,7 @@ debian-science (1.5) UNRELEASED; urgency=medium
   [ Ole Streicher ]
   * Replace astronomy and astronomy-dev packages with the metapackages
     from debian-astro
+  * Recommend other science blends tasks in science-tasks
 
   [ Andreas Tille ]
   * Add new task imageanalysis-dev

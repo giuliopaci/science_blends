@@ -14,6 +14,9 @@ Homepage: http://wiki.debian.org/DebianScience/
 Package: science-tasks
 Architecture: all
 Depends: tasksel
+Recommends: astro-tasks,
+            debichem-tasks,
+            med-tasks
 Description: Debian Science tasks for tasksel
  This package is part of the Debian Pure Blend "Debian Science" and provides
  additional tasks for tasksel.  If this package will be installed all tasks
