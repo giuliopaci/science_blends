@@ -7,7 +7,8 @@ Description: Debian Science Pure Blend
 Task: science-bci
 Parent: debian-science
 Section: debian-science
-Description: Debian Science packages for the design and use of
+Description: Debian Science Brain-computer interface packages
+ Debian Science packages for the design and use of
  brain-computer interface (BCI) -- direct communication pathway
  between a brain and an external device. BCIs are often aimed
  at assisting, augmenting or repairing human cognitive or
