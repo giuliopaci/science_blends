@@ -4,7 +4,6 @@ debian-science (1.5) UNRELEASED; urgency=medium
   * Replace astronomy and astronomy-dev packages with the metapackages
     from debian-astro
   * Recommend other science blends tasks in science-tasks
-  * Change default Priority to optional
   * Push Standards-Version to 3.9.7 (No changes)
 
   [ Andreas Tille ]

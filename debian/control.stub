@@ -1,6 +1,6 @@
 Source: debian-science
 Section: science
-Priority: optional
+Priority: extra
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
            Andreas Tille <tille@debian.org>,
