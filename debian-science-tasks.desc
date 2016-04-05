@@ -1,79 +1,31 @@
-Task: science-astronomy
+Task: debian-science
+Relevance: 9
 Section: debian-science
-Description: Debian Science Astronomy packages
- This metapackage will install Debian Science packages related to
- Astronomy.  You might also be interested in field::astronomy debtag
- and, depending on your focus, in the education-astronomy metapackage.
-Relevance: 10
+Description: Debian Science Pure Blend
+ .
+
+Task: science-astronomy
+Parent: debian-science
+Section: debian-science
+Description: Debian Science Astronomy transitional package
+ Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
+ control on the topics to install. To ease the transition, this package will
+ install all user related tasks from Debian-Astro.
 Key: 
  science-astronomy
-Packages: list
- gcx
- astronomical-almanac
- lightspeed
- openuniverse
- sextractor
- wcstools
- wcslib-tools
- funtools
- qfits-tools
- gpredict
- predict
- yorick-full
- savi
- stellarium
- xplanet
- lynkeos.app
- stardata-common
- boinc-app-seti
- gyoto
- skycat
- ftools-fv
- fitsverify
- fitscheck
- saods9
- xpa-tools
- python-pywcs
- python-astropy
- python3-astropy
- python-pyfits
- esorex
- python-cpl
- eso-midas
- wxastrocapture
- splash
 
 Task: science-astronomy-dev
+Parent: debian-science
 Section: debian-science
-Description: Debian Science Astronomy-dev packages
- This metapackage will install Debian Science packages which might be
- helpful for development of applications for Astronomy.
- .
- You might also be interested in the science-astronomy metapackage.
-Relevance: 10
+Description: Debian Science Astronomy-dev transitional package
+ Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
+ control on the topics to install. To ease the transition, this package will
+ install all development related tasks from Debian-Astro.
 Key: 
  science-astronomy-dev
-Packages: list
- libnova-dev
- libccfits-dev
- libcfitsio3-dev
- python-pyfits
- libqfits-dev
- slang-cfitsio
- libastro-fits-cfitsio-perl
- libstarlink-pal-dev
- libstarlink-ast-dev
- libwcstools-dev
- wcslib-dev
- libcpl-dev
- python-pywcs
- python-cpl
- liberfa-dev
- libfits-java
- tcl-fitstcl
- libchealpix-dev
 
 Task: science-bci
+Parent: debian-science
 Section: debian-science
 Description: Debian Science packages for the design and use of
  brain-computer interface (BCI) -- direct communication pathway
@@ -86,10 +38,9 @@ Description: Debian Science packages for the design and use of
  presentation, data collection and analysis software which could be
  found in science-neuroscience-cognitive, science-dataacquisition,
  data-machine-learning metapackages.
-Relevance: 10
-Packages: list
 
 Task: science-biology
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Biology packages
  This metapackage will install Debian Science packages related to
@@ -101,112 +52,42 @@ Description: Debian Science Biology packages
  you are most probably interested in the Debian Med project which
  deals with biology and medicine in much more detail then the more
  general Debian Science.
-Relevance: 10
 Key: 
  science-biology
-Packages: list
- med-bio
- bauble
- critterding
 
 Task: science-chemistry
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Chemistry packages
  This metapackage will install Debian Science packages related to
  Chemistry.  You might also be interested in the field::chemistry
  debtag and, depending on your focus, in the education-chemistry
  metapackage.
-Relevance: 10
 Key: 
  science-chemistry
-Packages: list
- apbs
- bkchem
- bodr
- libcdk-java
- chemeq
- chemical-mime-data
- chemtool
- easychem
- gabedit
- galculator
- garlic
- gausssum
- gchempaint
- gdis
- gcrystal
- gcu-bin
- gcu-plugin
- gperiodic
- gromacs
- kalzium
- katomic
- mopac7-bin
- mpqc
- mpqc-support
- openbabel
- python-openbabel
- psi3
- pymol
- viewmol
- xdrawchem
- xmakemol-gl
- rasmol
- adun.app
- gdpc
- xbs
- gelemental
- avogadro
- gamgi
- massxpert
- drawxtl
- chemical-structures
- freefoam
- pyfai
- python-mmtk
- jmol
- qutemol
- cp2k
- pdb2pqr
- mmass
- mmass-modules
- python-mzml
- tandem-mass
 
 Task: science-dataacquisition
+Parent: debian-science
 Section: debian-science
 Description: Debian Science data acquisition packages
  This metapackage will install Debian Science packages related to data
  acquisition.  This might be used in several sciences (as for instance
  science-viewing and science-typesetting).
-Relevance: 10
 Key: 
  science-dataacquisition
-Packages: list
- engauge-digitizer
- g3data
- netcdf-bin
- python-sardana
- jaaa
- ghkl
- xyscan
- filo
- libfreenect-dev
 
 Task: science-dataacquisition-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science data acquisition development packages
  This metapackage will install Debian Science packages which are helpful
  to develop applications related to data  acquisition.  This might be
  used in several sciences.
-Relevance: 10
 Key: 
  science-dataacquisition-dev
-Packages: list
- libtango8-dev
- liblog4tango5-dev
 
 Task: science-devices
+Parent: debian-science
 Section: debian-science
 Description: Debian Science specific devices support
  This task lists Debian Science packages which are dedicated to specific
@@ -215,38 +96,19 @@ Description: Debian Science specific devices support
  .
  Note that there is no according metapackage created since the packages
  might be to different to make sense to install all on one machine.
-Relevance: 10
-Packages: list
- expeyes
- gfm
- tiemu
- tilem
- tilp2
- bossa
- bossa-cli
 
 Task: science-distributedcomputing
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Distributed Computing packages
  This metapackage will install Debian Science packages useful for
  various types of distributed computing, such as grid-, cloud-, cluster-
  and parallel-computing.
-Relevance: 10
 Key: 
  science-distributedcomputing
-Packages: list
- ipython
- globus-core
- openmpi-bin
- mpich
- openmpipython
- mpich2python
- python-mpi
- htcondor
- dmtcp
- environment-modules
 
 Task: science-economics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Economics packages
  This metapackage will install Debian Science packages useful for economics and
@@ -255,103 +117,22 @@ Description: Debian Science Economics packages
  environments which can solve a wide range of problems typically encountered in
  economic research. These environments provide functionalities similar to those
  of popular non-free systems (such as MATLAB, Mathematica, Stata or SAS).
-Relevance: 10
 Key: 
  science-economics
-Packages: list
- dynare
- gretl
- octave
- octave-econometrics
- octave-statistics
- octave-gsl
- octave-optim
- octave-linear-algebra
- octave-io
- octave-symbolic
- octave-dataframe
- qtoctave
- r-base
- r-cran-urca
- r-cran-bayesm
- r-cran-coda
- r-cran-boot
- r-cran-foreign
- r-cran-kernsmooth
- r-cran-matrix
- r-cran-nlme
- r-cran-hmisc
- r-cran-tseries
- r-cran-mfilter
- r-cran-lme4
- r-cran-mcmcpack
- r-cran-quadprog
- r-cran-fbonds
- r-cran-fimport
- r-cran-funitroots
- r-cran-wdi
- r-cran-pwt
- r-cran-pwt8
- rkward
- julia
- maxima
- wxmaxima
- ipython
- python-matplotlib
- python-numpy
- python-scipy
- python-scitools
- python-statsmodels
- python-pandas
- python-simpy
 
 Task: science-electronics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Electronics packages
  This metapackage will install Debian Science packages related to
  Electronics.  You might also be interested in the field::electronics
  debtag and, depending on your focus, in the education-electronics
  metapackage.
-Relevance: 10
 Key: 
  science-electronics
-Packages: list
- avrdude
- gcc-avr
- gerbv
- uisp
- electric
- geda
- kicad
- freehdl
- iverilog
- verilator
- gplcver
- gputils
- simulpic
- pcb
- oregano
- tkgate
- texlive-latex-extra
- linsmith
- confluence
- gnucap
- qelectrotech
- covered
- arduino
- arduino-core
- visolate
- fritzing
- drawtiming
- geda-xgsch2pcb
- gnusim8085
- gtkwave
- qsapecng
- berkeley-abc
- qrouter
- magic
 
 Task: science-electrophysiology
+Parent: debian-science
 Section: debian-science
 Description: Debian Science packages for Electrophysiology
  This metapackage will install Debian packages which might be useful for
@@ -362,201 +143,66 @@ Description: Debian Science packages for Electrophysiology
  science-statistics, science-imageanalysis, science-numericalcomputation,
  med-imaging, and med-imaging-dev metapackages for a variety of additional
  software that might be useful for electrophysiology research.
-Relevance: 10
 Key: 
  science-electrophysiology
-Packages: list
- libgdf-dev
- sigviewer
- libdrawtk-dev
 
 Task: science-engineering
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Engineering packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Engineering.
  .
- Please not that there is an additional package engineering-dev
+ Please note that there is an additional package engineering-dev
  which depends from packages which are useful to develop engineering
  related software.
-Relevance: 10
 Key: 
  science-engineering
-Packages: list
- librecad
- sailcut
- oce-draw
- python-silo
- libsilo-bin
- gerris
- gmsh
- pythoncad
- z88
- freecad
- feel++-apps
- python-openturns
- code-aster-gui
- code-aster
- eficas
- code-saturne
- hdfview
- sfc
- cba
- python-fiat
- syrthes
- freefoam
- tetgen
- dime
- cgns-convert
- libadios-bin
 
 Task: science-engineering-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Engineering-dev packages
  This metapackage will install Debian Science packages which might be
  helpful for development of applications for Engineering.
  .
  You might also be interested in the science-engineering metapackage.
-Relevance: 10
 Key: 
  science-engineering-dev
-Packages: list
- libalberta2-dev
- code-saturne-bin
- code-saturne-include
- libcgns-dev
- libitpp-dev
- libfreefoam-dev
- libexodusii-dev
- libadios-dev
- libbox-dev
- libsilo-dev
- libxdmf-dev
- libgetfem++-dev
- libhdf5-serial-dev
- libjhdf5-java
- libjhdf4-java
- liboce-visualization-dev
- liboce-ocaf-dev
- libdeal.ii-dev
- libfeel++-dev
- libopenturns-dev
- libmadlib-dev
- libslepc3.4.2-dev
- libug-dev
- libmed-dev
- libmedc-dev
- libmedimport-dev
- libnetcdf-dev
- python-netcdf
- r-cran-rnetcdf
- syfi-dev
- libnfft3-dev
- libnlopt-dev
- libcoin80-dev
- libslicot-dev
- python-collada
- libann-dev
- libflann-dev
- libdime-dev
- libdxflib-dev
 
 Task: science-financial
+Parent: debian-science
 Section: debian-science
 Description: Debian Science financial engineering and computational finance
  This metapackage will install Debian Science packages for financial
  engineering and computational finance.
-Relevance: 10
 Key: 
  science-financial
-Packages: list
- r-cran-fasianoptions
- r-cran-fassets
- r-cran-fbasics
- r-cran-fbonds
- r-cran-fcopulae
- r-cran-fexoticoptions
- r-cran-fextremes
- r-cran-fgarch
- r-cran-fimport
- r-cran-fmultivar
- r-cran-foptions
- r-cran-fregression
- r-cran-ftrading
- r-cran-funitroots
- r-cran-timedate
- r-cran-timeseries
- r-cran-fportfolio
 
 Task: science-geography
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Geography packages
  This metapackage will install Debian Science packages related to
  Geography.  You might also be interested in the field::geography
  debtag and, depending on your focus, in the education-geography
  metapackage.
-Relevance: 10
 Key: 
  science-geography
-Packages: list
- gis-workstation
- grass
- qgis
- qgis-plugin-grass
- proj-bin
- mapserver-bin
- gmt
- gpsbabel
- gpx2shp
- gpsd
- gpsman
- openscenegraph
- thuban
- gpstrans
- geoip-bin
- gpsd-clients
- grass-doc
- php5-mapscript
- phppgadmin
- gpsmanshp
- viking
- avce00
- e00compr
- gdal-bin
- ogdi-bin
- postgis
- osm2pgsql
- josm
- josm-plugins
- merkaartor
- gosmore
- python-mapnik
- mapnik-utils
- osmpbf-bin
- imposm
- hyantesite
- r-cran-sp
- r-cran-maptools
- r-cran-mapdata
- r-cran-mapproj
- r-cran-maps
- pgadmin3
 
 Task: science-geometry
+Parent: debian-science
 Section: debian-science
 Description: Debian Science geometry packages
  This metapackage will install Debian Science packages related to
  geometry.  You might also be interested in the field::mathematics
  debtag and, depending on your focus, in the education-mathematics
  metapackage.
-Relevance: 10
 Key: 
  science-geometry
-Packages: list
- carmetal
- geogebra-kde
 
 Task: science-highenergy-physics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science High Energy Physics packages
  This metapackage will install Debian Science packages related to High Energy
@@ -566,114 +212,11 @@ Description: Debian Science High Energy Physics packages
  .
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
-Relevance: 10
 Key: 
  science-highenergy-physics
-Packages: list
- cernlib
- cernlib-base
- cernlib-core
- cernlib-extras
- dzedit
- kuipc
- kxterm
- nypatchy
- pawserv
- zftp
- paw
- paw++
- cernlib-montecarlo
- geant321
- feynmf
- looptools
- python-lhapdf
- octave-lhapdf
- root-macro-fastjet
- pythia8-root-interface
- libroot-bindings-python5.34
- libroot-bindings-ruby5.34
- libroot-graf3d-gl5.34
- libroot-io-xmlparser5.34
- libroot-math-mathmore5.34
- libroot-math-unuran5.34
- libroot-misc-memstat5.34
- libroot-misc-table5.34
- libroot-net-bonjour5.34
- libroot-net-ldap5.34
- libroot-roofit5.34
- libroot-geom5.34
- libroot-graf2d-gpad5.34
- libroot-graf2d-graf5.34
- libroot-graf2d-postscript5.34
- libroot-graf3d-eve5.34
- libroot-graf3d-g3d5.34
- libroot-gui5.34
- libroot-gui-ged5.34
- libroot-hist5.34
- libroot-hist-spectrum5.34
- libroot-html5.34
- libroot-io5.34
- libroot-math-foam5.34
- libroot-math-genvector5.34
- libroot-math-mathcore5.34
- libroot-math-matrix5.34
- libroot-math-minuit5.34
- libroot-math-mlp5.34
- libroot-math-physics5.34
- libroot-math-quadp5.34
- libroot-math-smatrix5.34
- libroot-math-splot5.34
- libroot-misc-minicern5.34
- libroot-montecarlo-eg5.34
- libroot-montecarlo-vmc5.34
- libroot-net5.34
- libroot-net-auth5.34
- libroot-proof5.34
- libroot-proof-proofplayer5.34
- libroot-tmva5.34
- libroot-tree5.34
- libroot-tree-treeplayer5.34
- libroot-core5.34
- root-plugin-graf2d-asimage
- root-plugin-geom-gdml
- root-plugin-gui-qt
- root-plugin-graf2d-qt
- root-plugin-math-fftw3
- root-plugin-math-minuit2
- root-plugin-montecarlo-pythia8
- root-plugin-net-globus
- root-plugin-net-krb5
- root-plugin-sql-mysql
- root-plugin-sql-odbc
- root-plugin-sql-pgsql
- root-plugin-geom-geombuilder
- root-plugin-geom-geompainter
- root-plugin-graf2d-x11
- root-plugin-graf3d-x3d
- root-plugin-gui-fitpanel
- root-plugin-gui-guibuilder
- root-plugin-gui-sessionviewer
- root-plugin-hist-hbook
- root-plugin-hist-histpainter
- root-plugin-hist-spectrumpainter
- root-plugin-io-sql
- root-plugin-io-xml
- root-plugin-math-fumili
- root-plugin-tree-treeviewer
- root-system-proofd
- root-system-rootd
- root-system-bin
- root-system-common
- root-system
- rivet
- rivet-plugins
- python-rivet
- rivet-root-converter
- thepeg
- thepeg-gui
- herwig++
 
 Task: science-highenergy-physics-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science High Energy Physics development packages
  This metapackage will install Debian Science packages related to development
@@ -683,558 +226,104 @@ Description: Debian Science High Energy Physics development packages
  .
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
-Relevance: 10
 Key: 
  science-highenergy-physics-dev
-Packages: list
- cernlib-base-dev
- cernlib-core-dev
- libclhep-dev
- libhepmc-dev
- libhepmcfio-dev
- liblhapdf-dev
- libsiscone-dev
- libsiscone-spherical-dev
- libfastjet-dev
- libfastjettools-dev
- libfastjet-fortran-dev
- libfastjetplugins-dev
- libpythia8-dev
- libhepmcinterface8-dev
- fcc
- libooptools-dev
- libroot-bindings-python-dev
- libroot-bindings-ruby-dev
- libroot-graf3d-gl-dev
- libroot-io-xmlparser-dev
- libroot-math-mathmore-dev
- libroot-math-unuran-dev
- libroot-misc-memstat-dev
- libroot-misc-table-dev
- libroot-net-bonjour-dev
- libroot-net-ldap-dev
- libroot-roofit-dev
- libroot-geom-dev
- libroot-graf2d-gpad-dev
- libroot-graf2d-graf-dev
- libroot-graf2d-postscript-dev
- libroot-graf3d-eve-dev
- libroot-graf3d-g3d-dev
- libroot-gui-dev
- libroot-gui-ged-dev
- libroot-hist-dev
- libroot-hist-spectrum-dev
- libroot-html-dev
- libroot-io-dev
- libroot-math-foam-dev
- libroot-math-genvector-dev
- libroot-math-mathcore-dev
- libroot-math-matrix-dev
- libroot-math-minuit-dev
- libroot-math-mlp-dev
- libroot-math-physics-dev
- libroot-math-quadp-dev
- libroot-math-smatrix-dev
- libroot-math-splot-dev
- libroot-misc-minicern-dev
- libroot-montecarlo-eg-dev
- libroot-montecarlo-vmc-dev
- libroot-net-dev
- libroot-net-auth-dev
- libroot-proof-dev
- libroot-proof-proofplayer-dev
- libroot-tmva-dev
- libroot-tree-dev
- libroot-tree-treeplayer-dev
- libroot-core-dev
- libroot-static
- librivet-dev
- rivet-plugins-dev
- libthepeg-dev
- herwig++-dev
 
 Task: science-imageanalysis
+Parent: debian-science
 Section: debian-science
 Description: Debian Science image analysis packages
  This metapackage will install Debian Science packages related to
  scientific image acquisition.  This might be used in several
  sciences (as for instance science-dataacquisition, science-viewing
  and science-typesetting).
-Relevance: 10
 Key: 
  science-imageanalysis
-Packages: list
- gpivtools
- gpiv
- libcv-dev
- gwyddion
- teem-apps
+
+Task: science-imageanalysis-dev
+Parent: debian-science
+Section: debian-science
+Description: Debian Science development of image analysis applications
+ This metapackage will install Debian Science development libraries to
+ develop scientific image analysis applications acquisitions.
+Key: 
+ science-imageanalysis-dev
 
 Task: science-linguistics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Linguistics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Linguistics.
-Relevance: 10
 Key: 
  science-linguistics
-Packages: list
- wordnet
- apertium
- link-grammar
- artha
- timbl
- timblserver
- mbt
- mbtserver
- ucto
- dimbl
- frog
- collatinus
 
 Task: science-logic
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Logic packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Computational Logic.  It contains
  formula transformation tools, solvers for formulas specified in
  various logics, interactive proof systems, etc.
-Relevance: 10
 Key: 
  science-logic
-Packages: list
- agda
- coq
- hol-light
- hol88
- matita
- proofgeneral
- depqbf
- picosat
- sat4j
- alt-ergo
- boolector
- cvc3
- prover9
- mace2
- maude
- spass
- coinor-cbc
- minisat+
- clasp
- coala
- gringo
- lbt
- maria
- mona
- otter
 
 Task: science-machine-learning
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Machine Learning packages
  This metapackage will install Debian packages which might be useful for
  scientists interested in machine learning.  Included packages range
  from knowledge-based (expert) inference systems to software
  implementing dominant nowadays statistical methods.
-Relevance: 10
 Key: 
  science-machine-learning
-Packages: list
- python-pyke
- gprolog
- yap
- libtorch3-dev
- libshogun-dev
- libfann-dev
- libsvm-dev
- liblinear-dev
- libocas-dev
- python-scikits-learn
- python-mdp
- python-mlpy
- weka
- vowpal-wabbit
- r-cran-mass
- r-cran-bayesm
- r-cran-class
- r-cran-cluster
- r-cran-msm
- r-cran-mcmcpack
- r-cran-mnp
- r-cran-amore
- r-cran-gbm
- r-cran-tgp
- python-mvpa2
- python-statsmodels
- root-system
- libroot-tmva-dev
- libroot-montecarlo-vmc-dev
- libroot-math-mlp-dev
- autoclass
- mcl
- scilab-ann
- libga-dev
- libevocosm-dev
- pgapack
- python-genetic
- octave-ga
- python-pyevolve
- lush
- libcv-dev
- python-opencv
- libvigraimpex-dev
- python-vigra
- python-pebl
- python-pymc
 
 Task: science-mathematics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Mathematics packages
  This metapackage will install Debian Science packages related to
  Mathematics.  You might also be interested in the field::mathematics
  debtag and, depending on your focus, in the education-mathematics
  metapackage.
-Relevance: 10
 Key: 
  science-mathematics
-Packages: list
- axiom
- ginac-tools
- xmaxima
- wxmaxima
- pari-gp
- gap
- gap-small-groups-extra
- gap-trans-groups
- gap-prim-groups
- gap-small-groups
- gap-table-of-marks
- gap-guava
- gap-character-tables
- gap-float
- gerris
- freefem
- freefem3d
- freefem++
- gmsh
- coq
- proofgeneral
- matita
- agda
- prover9
- hol-light
- minisat
- science-statistics
- ess
- littler
- r-recommended
- rkward
- r-cran-mapproj
- r-cran-abind
- r-cran-bayesm
- r-cran-boot
- r-cran-cairodevice
- r-cran-car
- r-cran-chron
- r-cran-cluster
- r-cran-coda
- r-cran-codetools
- r-cran-date
- r-cran-dbi
- r-cran-rms
- r-cran-eco
- r-cran-effects
- r-cran-fbasics
- r-cran-fcopulae
- r-cran-fextremes
- r-cran-fmultivar
- r-cran-foptions
- r-cran-foreign
- r-cran-fportfolio
- r-cran-timedate
- r-cran-gdata
- r-cran-gmodels
- r-cran-gplots
- r-cran-gregmisc
- r-cran-gtools
- r-cran-hdf5
- r-cran-hmisc
- r-cran-its
- r-cran-kernsmooth
- r-cran-lattice
- r-cran-latticeextra
- r-cran-lhs
- r-cran-lme4
- r-cran-lmtest
- r-cran-mapdata
- r-cran-maps
- r-cran-matchit
- r-cran-matrix
- r-cran-mcmcpack
- r-cran-mgcv
- r-cran-misc3d
- r-cran-mnp
- r-cran-multcomp
- r-cran-mvtnorm
- r-cran-nlme
- r-cran-pscl
- r-cran-psy
- r-cran-qtl
- r-cran-quadprog
- r-cran-rcmdr
- r-cran-relimp
- r-cran-rgl
- r-cran-rgtk2
- r-cran-rmpi
- r-cran-rmysql
- r-cran-rodbc
- r-cran-rpart
- r-cran-rquantlib
- r-cran-rserve
- r-cran-rsprng
- r-cran-sandwich
- r-cran-sm
- r-cran-snow
- r-cran-strucchange
- r-cran-survival
- r-cran-tkrplot
- r-cran-tseries
- r-cran-vgam
- r-cran-mass
- r-cran-xml
- r-cran-zelig
- r-cran-zoo
- r-cran-msm
- r-cran-amore
- r-cran-teachingdemos
- r-cran-expm
- psignifit
- python-scipy
- r-cran-vcd
- r-cran-permute
- python-statsmodels
- r-cran-spatstat
- r-cran-deldir
- r-cran-fastcluster
- r-cran-statmod
- python-openturns
- python-pandas
- r-cran-ecodist
- r-cran-energy
- r-cran-mvnormtest
- r-cran-acepack
- geomview
- octave
- xmds
- xmds2
- freemat
- mathomatic
- scilab
- scilab-ann
- regina-normal
- snappea
- lp-solve
- libmatheval1
- mumps-test
- geogebra
- lrslib
- dolfin-bin
- fenics
- sfc
- python-ffc
- polylib-utils
- rheolef
- scotch
- bliss
- qtoctave
- python-deap
- mcl
- polybori-gui
- polybori
- sagemath-database-conway-polynomials
- eclib-tools
- julia
- qhull-bin
- python-minieigen
- coinor-symphony
- tetgen
- feel++-apps
 
 Task: science-mathematics-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Mathematics-dev packages
  This metapackage will install Debian Science packages which might be
  helpful for development of applications for Mathematics.
  .
  You might also be interested in the science-mathematics metapackage.
-Relevance: 10
 Key: 
  science-mathematics-dev
-Packages: list
- python-numpy
- python-numexpr
- libgsl0-dev
- liblapack-dev
- libatlas-base-dev
- libblas-dev
- libopenblas-dev
- libsuperlu-dev
- libglpk-dev
- libglpk-java
- libcgal-dev
- libqhull-dev
- libmatheval-dev
- python-openopt
- libmatio-dev
- libblitz0-dev
- libjama-dev
- libtnt-dev
- liblip-dev
- libranlip-dev
- libarpack2-dev
- libarpack++2-dev
- code-saturne-bin
- code-saturne-include
- libarmadillo-dev
- libstxxl-dev
- libnewmat10-dev
- libmadlib-dev
- python-dolfin
- libslepc3.4.2-dev
- petsc-dev
- python-openturns
- libopenturns-dev
- libqd-dev
- libcqrlib2-dev
- libcvector2-dev
- libhypre-dev
- libitsol-dev
- libmuparser-dev
- libsparskit-dev
- libspooles-dev
- libsuitesparse-dev
- ufc
- python-ufc
- python-ffc
- python-ufl
- libscythestat-dev
- libfreefem++-dev
- libfreefem-dev
- libgivaro-dev
- fflas-ffpack
- libpolybori-dev
- libpolybori-groebner-dev
- python-polybori
- libquadrule-dev
- libcdd-dev
- gap-dev
- libnfft3-dev
- libfftw3-dev
- fftw-dev
- sfftw-dev
- liblbfgs-dev
- libdogleg-dev
- libigraph0-dev
- libalglib-dev
- libeigen3-dev
- libviennacl-dev
- python-pyviennacl
- python3-pyviennacl
- libgnuplot-iostream-dev
- libqcustomplot-dev
- libcneartree-dev
- libmpfrc++-dev
- libscscp1-dev
- python-linop
- libcminpack-dev
- minpack-dev
- libeinspline-dev
- libdune-grid-dev
- libann-dev
- libflann-dev
- libdouble-conversion-dev
- libfeel++-dev
- python-ferari
- libug-dev
 
 Task: science-meteorology
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Meteorology packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Meteorology and Climate.
-Relevance: 10
 Key: 
  science-meteorology
-Packages: list
- cdo
- nco
- dballe
- zygrib
- ncview
- grads
- ferret-vis
- magics++
- freefoam
- libgrib-api-tools
- ecaccess
- python-netcdf
- python-grib
- python-drslib
- python-cmor
- python-sphere
- cmip5-cmor-tables
- aweather
- libdap-bin
- libdap-doc
- vistrails
 
 Task: science-meteorology-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Meteorology-dev packages
  This metapackage will install Debian Science packages which might be
  helpful for development of applications for Meteorology and Climate.
  .
  You might also be interested in the science-meteorology metapackage.
-Relevance: 10
 Key: 
  science-meteorology-dev
-Packages: list
- libemos-dev
- libgadap-dev
- libcmor-dev
- libgrib-api-dev
- libgrib-api-tools
- libgrib2c-dev
- libhe5-hdfeos-dev
- libhdfeos-dev
- libproj-dev
- libgctp-dev
- libnetcdf-dev
- netcdf-bin
- r-cran-rnetcdf
- liblapack-dev
- libblas-dev
- libfftw3-dev
- fftw-dev
- sfftw-dev
- libblas-doc
- liblapack-doc
- libfftw3-doc
- liblas-dev
- libsphere-dev
- libterralib-dev
- liboasis3-dev
- libudunits2-dev
- libdap-dev
- python-openturns
- libopenturns-dev
- wcslib-dev
- wcslib-doc
- libfreefoam-dev
- librsl-dev
- libwreport-dev
 
 Task: science-nanoscale-physics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Nanoscale Physics packages
  This metapackage will install Debian Science packages related to
@@ -1254,94 +343,11 @@ Description: Debian Science Nanoscale Physics packages
  .
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
-Relevance: 10
 Key: 
  science-nanoscale-physics
-Packages: list
- abinit
- mpqc
- openmx
- psi3
- quantum-espresso
- drawxtl
- etsf-io
- feynmf
- fityk
- gnuplot
- grace
- libblas3
- liblapack3
- libfftw3-3
- libgsl0ldbl
- gsl-bin
- netcdf-bin
- netcdf-doc
- nco
- ncview
- openmpi-bin
- science-numericalcomputation
- octave
- python-matplotlib
- python-scipy
- ipython
- python-numpy
- spyder
- python-guiqwt
- pdl
- gnudatalanguage
- scilab
- scilab-ann
- freemat
- yorick
- r-base
- qtoctave
- lush
- yade
- liggghts
- esys-particle
- python-scitools
- python-deap
- python-lmfit
- python-tables
- vitables
- lammps
- julia
- admesh
- metis
- python-gts
- python-demgengeo
- coinor-symphony
- coinor-clp
- libsuitesparse-dev
- libdune-grid-dev
- libcolpack-dev
- libadolc-dev
- python-csa
- algotutor
- avogadro
- garlic
- gdis
- gwyddion
- cp2k
- pymca
- cbflib-bin
- axiom
- maxima
- cadabra
- ggobi
- mayavi2
- udav
- extrema
- gperiodic
- python-elemental
- graphviz
- libblacs-mpi1
- libscalapack-mpi1
- python-scientific
- python-sympy
- pyxplot
 
 Task: science-nanoscale-physics-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Nanoscale Physics development packages
  This metapackage will install Debian Science packages which might be
@@ -1350,123 +356,11 @@ Description: Debian Science Nanoscale Physics development packages
  You might also be interested in the debtag field::physics and, depending
  on your focus, in the nanoscale-physics, physics and education-physics
  metapackages.
-Relevance: 10
 Key: 
  science-nanoscale-physics-dev
-Packages: list
- abinit-doc
- libblas-dev
- libblas-doc
- liblapack-dev
- liblapack-doc
- libetsf-io-dev
- libetsf-io-doc
- libfftw3-dev
- fftw-dev
- sfftw-dev
- libgsl0-dev
- gsl-bin
- libnetcdf-dev
- netcdf-doc
- r-cran-rnetcdf
- libxc-dev
- libopenmpi-dev
- liboce-visualization-dev
- liboce-ocaf-dev
- root-system
- libroot-tmva-dev
- libroot-montecarlo-vmc-dev
- libroot-math-mlp-dev
- python-fabio
- libcbf-dev
- pyfai
- libssm-dev
- gsl-doc-pdf
- libblacs-mpi-dev
- libscalapack-mpi-dev
- scalapack-doc
- science-mathematics-dev
- python-numpy
- python-numexpr
- libatlas-base-dev
- libopenblas-dev
- libsuperlu-dev
- libglpk-dev
- libglpk-java
- libcgal-dev
- libqhull-dev
- libmatheval-dev
- python-openopt
- libmatio-dev
- libblitz0-dev
- libjama-dev
- libtnt-dev
- liblip-dev
- libranlip-dev
- libarpack2-dev
- libarpack++2-dev
- code-saturne-bin
- code-saturne-include
- libarmadillo-dev
- libstxxl-dev
- libnewmat10-dev
- libmadlib-dev
- python-dolfin
- libslepc3.4.2-dev
- petsc-dev
- python-openturns
- libopenturns-dev
- libqd-dev
- libcqrlib2-dev
- libcvector2-dev
- libhypre-dev
- libitsol-dev
- libmuparser-dev
- libsparskit-dev
- libspooles-dev
- libsuitesparse-dev
- ufc
- python-ufc
- python-ffc
- python-ufl
- libscythestat-dev
- libfreefem++-dev
- libfreefem-dev
- libgivaro-dev
- fflas-ffpack
- libpolybori-dev
- libpolybori-groebner-dev
- python-polybori
- libquadrule-dev
- libcdd-dev
- gap-dev
- libnfft3-dev
- liblbfgs-dev
- libdogleg-dev
- libigraph0-dev
- libalglib-dev
- libeigen3-dev
- libviennacl-dev
- python-pyviennacl
- python3-pyviennacl
- libgnuplot-iostream-dev
- libqcustomplot-dev
- libcneartree-dev
- libmpfrc++-dev
- libscscp1-dev
- python-linop
- libcminpack-dev
- minpack-dev
- libeinspline-dev
- libdune-grid-dev
- libann-dev
- libflann-dev
- libdouble-conversion-dev
- libfeel++-dev
- python-ferari
- libug-dev
 
 Task: science-neuroscience-cognitive
+Parent: debian-science
 Section: debian-science
 Description: Debian Science packages for Cognitive Neuroscience
  This metapackage will install Debian packages which might be useful for
@@ -1480,36 +374,11 @@ Description: Debian Science packages for Cognitive Neuroscience
  science-imageanalysis, science-numericalcomputation, med-imaging, and
  med-imaging-dev metapackages for a variety of additional software that
  might be useful in the context of cognitive neuroscience.
-Relevance: 10
 Key: 
  science-neuroscience-cognitive
-Packages: list
- psignifit
- amide
- dicomnifti
- minc-tools
- medcon
- xmedcon
- nifti-bin
- python-nibabel
- python-dicom
- fslview
- python-mvpa2
- python-nitime
- python-dipy
- caret
- python-pyepl
- praat
- dicom3tools
- voxbo
- mricron
- itksnap
- python-pypsignifit
- python-statsmodels
- mriconvert
- python-pyxnat
 
 Task: science-neuroscience-modeling
+Parent: debian-science
 Section: debian-science
 Description: Debian Science packages for modeling of neural systems
  This metapackage will install Debian packages which might be useful for
@@ -1522,14 +391,11 @@ Description: Debian Science packages for modeling of neural systems
  science-numericalcomputation, med-imaging, and med-imaging-dev
  metapackages for a variety of additional software that might be
  useful for neuroscience research.
-Relevance: 10
 Key: 
  science-neuroscience-modeling
-Packages: list
- python-brian
- cnrun
 
 Task: science-numericalcomputation
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Numerical Computation packages
  This metapackage will install Debian Science packages useful for
@@ -1537,201 +403,41 @@ Description: Debian Science Numerical Computation packages
  calculation and visualisation system for scientific computing and
  data analysis. These packages are similar to commercial systems such
  as Matlab and IDL.
-Relevance: 10
 Key: 
  science-numericalcomputation
-Packages: list
- octave
- python-matplotlib
- python-scipy
- ipython
- python-numpy
- spyder
- python-guiqwt
- pdl
- gnudatalanguage
- scilab
- scilab-ann
- freemat
- yorick
- r-base
- qtoctave
- lush
- yade
- liggghts
- esys-particle
- python-scitools
- python-deap
- python-lmfit
- python-tables
- vitables
- lammps
- julia
- admesh
- metis
- python-gts
- python-demgengeo
- coinor-symphony
- coinor-clp
- libsuitesparse-dev
- libdune-grid-dev
- libcolpack-dev
- libadolc-dev
- python-csa
- algotutor
 
 Task: science-physics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Physics packages
  This metapackage will install Debian Science packages related to Physics.
  You might also be interested in the debtag field::physics and, depending on
  your focus, in education-physics metapackage.
-Relevance: 10
 Key: 
  science-physics
-Packages: list
- cernlib
- geant321
- paw++
- paw
- abinit
- gerris
- feynmf
- freefoam
- fityk
- tessa
- science-numericalcomputation
- octave
- python-matplotlib
- python-scipy
- ipython
- python-numpy
- spyder
- python-guiqwt
- pdl
- gnudatalanguage
- scilab
- scilab-ann
- freemat
- yorick
- r-base
- qtoctave
- lush
- yade
- liggghts
- esys-particle
- python-scitools
- python-deap
- python-lmfit
- python-tables
- vitables
- lammps
- julia
- admesh
- metis
- python-gts
- python-demgengeo
- coinor-symphony
- coinor-clp
- libsuitesparse-dev
- libdune-grid-dev
- libcolpack-dev
- libadolc-dev
- python-csa
- algotutor
- oce-draw
- science-electronics
- avrdude
- gcc-avr
- gerbv
- uisp
- electric
- geda
- kicad
- freehdl
- iverilog
- verilator
- gplcver
- gputils
- simulpic
- pcb
- oregano
- tkgate
- texlive-latex-extra
- linsmith
- confluence
- gnucap
- qelectrotech
- covered
- arduino
- arduino-core
- visolate
- fritzing
- drawtiming
- geda-xgsch2pcb
- gnusim8085
- gtkwave
- qsapecng
- berkeley-abc
- qrouter
- magic
- gpiv
- gpivtools
- maxima
- python-sympy
- axiom
- meshlab
- cadabra
- drawxtl
- opticalraytracer
- ghkl
- etsf-io
- pymca
- quantum-espresso
- gwyddion
- cp2k
- root-system
- libroot-tmva-dev
- libroot-montecarlo-vmc-dev
- libroot-math-mlp-dev
 
 Task: science-physics-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Physics-dev packages
  This metapackage will install Debian Science packages which might be
  helpful for development of applications for Mathematics.
  .
  You might also be interested in the science-physics metapackage.
-Relevance: 10
 Key: 
  science-physics-dev
-Packages: list
- libfreefoam-dev
- pyfai
- libnfft3-dev
- libfftw3-dev
- fftw-dev
- sfftw-dev
- libopenctm-dev
- python-openctm
- python-quantities
- python-multipletau
- libfeel++-dev
 
 Task: science-presentation
+Parent: debian-science
 Section: debian-science
 Description: Debian Science generic tools for presentations
  This metapackage will install Debian Science some packages which are
  useful for doing presentations for instance on scientific conferences.
-Relevance: 10
 Key: 
  science-presentation
-Packages: list
- latex-beamer
- pdf-presenter-console
- zathura
 
 Task: science-psychophysics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science packages for Psychophysics
  This metapackage will install Debian packages which might be useful for
@@ -1744,90 +450,50 @@ Description: Debian Science packages for Psychophysics
  domain of application.  Additionally look into
  science-bci since those often provide a complete loop
  frameworks including stimuli delivery.
-Relevance: 10
 Key: 
  science-psychophysics
-Packages: list
- python-pyoptical
- python-pyepl
- libfreenect-dev
- octave-psychtoolbox-3
 
 Task: science-robotics
+Parent: debian-science
 Section: debian-science
 Description: Debian Robotics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Robotics.
  .
  You might also be interested in the science-engineering metapackage.
-Relevance: 10
 Key: 
  science-robotics
-Packages: list
- xenomai-runtime
- morse-simulator
- choreonoid
- liburdfdom-tools
- octomap-tools
- octovis
 
 Task: science-robotics-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Robotics development packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages that are relevant to develop applications
  for robotics.
-Relevance: 10
 Key: 
  science-robotics-dev
-Packages: list
- libcv-dev
- libroboptim-core-dev
- libvisp-dev
- libcnoid-dev
- libode-dev
- libompl-dev
- liboctomap-dev
- libopenigtlink-dev
- liburdfdom-dev
- liburdfdom-headers-dev
- libslicot-dev
- libsdformat-dev
- libconsole-bridge-dev
- libcomedi-dev
- python-comedilib
- libccd-dev
 
 Task: science-simulations
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Simulation packages
  This metapackage will install Debian Science packages that are
  used to do simulations in different fields of science.
-Relevance: 10
 Key: 
  science-simulations
-Packages: list
- sumo
- esys-particle
- lammps
- liggghts
- yade
- python-deap
- freefoam
- music-bin
 
 Task: science-social
+Parent: debian-science
 Section: debian-science
 Description: Debian Science social sciences packages
  This metapackage will install Debian Science packages useful for social
  sciences.
-Relevance: 10
 Key: 
  science-social
-Packages: list
- opensesame
 
 Task: science-statistics
+Parent: debian-science
 Section: debian-science
 Description: Debian Science Statistics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
@@ -1836,110 +502,11 @@ Description: Debian Science Statistics packages
  a lot of R packages as well as from other tools which are useful to
  do statistics.  Moreover the Science Mathematics task is suggested
  to optionally install all mathematics related software.
-Relevance: 10
 Key: 
  science-statistics
-Packages: list
- ess
- littler
- r-recommended
- rkward
- r-cran-mapproj
- r-cran-abind
- r-cran-bayesm
- r-cran-boot
- r-cran-cairodevice
- r-cran-car
- r-cran-chron
- r-cran-cluster
- r-cran-coda
- r-cran-codetools
- r-cran-date
- r-cran-dbi
- r-cran-rms
- r-cran-eco
- r-cran-effects
- r-cran-fbasics
- r-cran-fcopulae
- r-cran-fextremes
- r-cran-fmultivar
- r-cran-foptions
- r-cran-foreign
- r-cran-fportfolio
- r-cran-timedate
- r-cran-gdata
- r-cran-gmodels
- r-cran-gplots
- r-cran-gregmisc
- r-cran-gtools
- r-cran-hdf5
- r-cran-hmisc
- r-cran-its
- r-cran-kernsmooth
- r-cran-lattice
- r-cran-latticeextra
- r-cran-lhs
- r-cran-lme4
- r-cran-lmtest
- r-cran-mapdata
- r-cran-maps
- r-cran-matchit
- r-cran-matrix
- r-cran-mcmcpack
- r-cran-mgcv
- r-cran-misc3d
- r-cran-mnp
- r-cran-multcomp
- r-cran-mvtnorm
- r-cran-nlme
- r-cran-pscl
- r-cran-psy
- r-cran-qtl
- r-cran-quadprog
- r-cran-rcmdr
- r-cran-relimp
- r-cran-rgl
- r-cran-rgtk2
- r-cran-rmpi
- r-cran-rmysql
- r-cran-rodbc
- r-cran-rpart
- r-cran-rquantlib
- r-cran-rserve
- r-cran-rsprng
- r-cran-sandwich
- r-cran-sm
- r-cran-snow
- r-cran-strucchange
- r-cran-survival
- r-cran-tkrplot
- r-cran-tseries
- r-cran-vgam
- r-cran-mass
- r-cran-xml
- r-cran-zelig
- r-cran-zoo
- r-cran-msm
- r-cran-amore
- r-cran-teachingdemos
- r-cran-expm
- psignifit
- python-scipy
- r-cran-vcd
- r-cran-permute
- python-statsmodels
- r-cran-spatstat
- r-cran-deldir
- r-cran-fastcluster
- r-cran-statmod
- python-openturns
- python-pandas
- r-cran-ecodist
- r-cran-energy
- r-cran-mvnormtest
- r-cran-acepack
 
 Task: science-tools
+Parent: debian-science
 Section: debian-science
 Description: Debian Science generic tools for scientific work
  This task lists  Debian Science some packages which are  providing some
@@ -1947,140 +514,33 @@ Description: Debian Science generic tools for scientific work
  .
  Note that there is no according metapackage created since the packages
  might be to different to make sense to install all on one machine.
-Relevance: 10
-Packages: list
- pegasus-wms
- xoscope
 
 Task: science-typesetting
+Parent: debian-science
 Section: debian-science
 Description: Debian Science typesetting packages
  This metapackage will install Debian Science packages related to
  typesetting.  You might also be interested in the use::typesetting
  debtag.
-Relevance: 10
 Key: 
  science-typesetting
-Packages: list
- referencer
- kbibtex
- impose+
- pybliographer
- texlive-bibtex-extra
- jabref
- bibutils
- biber
- feynmf
- texlive
- texlive-science
- texlive-publishers
- texlive-math-extra
- diploma
- lyx
- auctex
- xfig
- transfig
- dia
- bibus
- mlpost
- latexdiff
- libjlatexmath-java
- cb2bib
- jeuclid-mathviewer
- sketch
- ipe
- ipe5toxml
- zotero-standalone
 
 Task: science-viewing
+Parent: debian-science
 Section: debian-science
 Description: Debian Science data visualisation packages
  This metapackage will install Debian Science packages related to data
  visualization. You might also be interested in the use::viewing
  debtag.
-Relevance: 10
 Key: 
  science-viewing
-Packages: list
- vistrails
- pdl
- gnudatalanguage
- kst
- ifrit
- yorick
- python-scientific
- fityk
- gnuplot
- grace
- gri
- graphviz
- pyxplot
- plotdrop
- qtiplot
- python-guiqwt
- imview
- mayavi2
- g3data
- gwyddion
- paraview
- gle-graphics
- gmsh
- lybniz
- 3depict
- mathgl
- udav
- python-viper
- matlab2tikz
- feedgnuplot
- libgnuplot-iostream-dev
- libqglviewer2
- python-gnuplot
- ovito
- veusz
- ctioga2
- python-seaborn
- trend
- python-pyqtgraph
 
 Task: science-viewing-dev
+Parent: debian-science
 Section: debian-science
 Description: Debian Science development of visualisation applications
  This metapackage will install Debian Science packages related to the
  development of applications to visualise scientific data.
-Relevance: 10
 Key: 
  science-viewing-dev
-Packages: list
- pdl
- gnudatalanguage
- python-scientific
- libgrits-dev
- python-matplotlib
- python-scitools
- libgnuplot-iostream-dev
- libqglviewer-dev
- python-gnuplot
- libcoin80-dev
- libsoqt4-dev
- libvtk5-dev
- libvtk5-qt4-dev
- tcl-vtk
- python-vtk
- libvtk-java
- vtk-examples
- libvtk6-dev
- python-vtk6
- python-pivy
- libgtkdataboxmm-dev
- libgtkdatabox-0.9.2-0-dev
- libeinspline-dev
- inventor-dev
- libqtexengine-dev
- libqwtplot3d-qt4-dev
- python-qwt3d-qt4
- libchealpix-dev
- python3-skimage
- python3-skimage-lib
- libplplot-dev
- python-plplot-qt
 
