@@ -10,6 +10,7 @@ debian-science (1.5) UNRELEASED; urgency=medium
     Closes: #730282
   * Remove python-pyke from machine-learning
     Closes: #799284
+  * Use secure URI for Vcs-Git
 
   [ Sylvestre Ledru ]
   * Remove myself from the uploaders
