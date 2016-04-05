@@ -4,26 +4,6 @@ Section: debian-science
 Description: Debian Science Pure Blend
  .
 
-Task: science-astronomy
-Parent: debian-science
-Section: debian-science
-Description: Debian Science Astronomy transitional package
- Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
- control on the topics to install. To ease the transition, this package will
- install all user related tasks from Debian-Astro.
-Key: 
- science-astronomy
-
-Task: science-astronomy-dev
-Parent: debian-science
-Section: debian-science
-Description: Debian Science Astronomy-dev transitional package
- Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
- control on the topics to install. To ease the transition, this package will
- install all development related tasks from Debian-Astro.
-Key: 
- science-astronomy-dev
-
 Task: science-bci
 Parent: debian-science
 Section: debian-science

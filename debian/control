@@ -9,7 +9,7 @@ Uploaders: Frederic Daniel Luc Lehobey <Frederic@Lehobey.net>,
 Build-Depends-Indep: blends-dev (>= 0.6.15)
 Standards-Version: 3.9.6
 Vcs-Browser: https://anonscm.debian.org/cgit/blends/projects/science.git
-Vcs-Git: git://anonscm.debian.org/blends/projects/science.git
+Vcs-Git: https://anonscm.debian.org/git/blends/projects/science.git
 Homepage: http://wiki.debian.org/DebianScience/
 
 Package: science-tasks
@@ -19,6 +19,41 @@ Description: Debian Science tasks for tasksel
  This package is part of the Debian Pure Blend "Debian Science" and provides
  additional tasks for tasksel.  If this package will be installed all tasks
  which are provided by Debian Science will be added to the tasksel menu.
+
+Package: science-astronomy
+Priority: extra
+Section: oldlibs
+Architecture: all
+Depends: astro-catalogs,
+         astro-datareduction,
+         astro-education,
+         astro-frameworks,
+         astro-gdl,
+         astro-publication,
+         astro-python,
+         astro-python3,
+         astro-simulation,
+         astro-telescopecontrol,
+         astro-tools,
+         astro-viewers
+Description: Debian Science Astronomy transitional package
+ Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
+ control on the topics to install. To ease the transition, this package will
+ install all user related tasks from Debian-Astro.
+
+Package: science-astronomy-dev
+Priority: extra
+Section: oldlibs
+Architecture: all
+Depends: astro-development,
+         astro-java,
+         astro-python,
+         astro-python3,
+         astro-tcltk
+Description: Debian Science Astronomy-dev transitional package
+ Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
+ control on the topics to install. To ease the transition, this package will
+ install all development related tasks from Debian-Astro.
 
 Package: science-config
 Architecture: all
@@ -101,9 +136,7 @@ Description: Debian Science Project config package
 Package: science-all
 Section: metapackages
 Architecture: all
-Recommends: science-astronomy,
- science-astronomy-dev,
- science-biology,
+Recommends: science-biology,
  science-chemistry,
  science-dataacquisition,
  science-dataacquisition-dev,
@@ -147,26 +180,6 @@ Recommends: science-astronomy,
 Description: Default selection of tasks for Debian Science
  This package is part of the Debian Science Pure Blend and installs all
  tasks for a default installation of this blend.
-
-Package: science-astronomy
-Section: metapackages
-Architecture: all
-Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: astro-catalogs
-Description: Debian Science Astronomy transitional package
- Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
- control on the topics to install. To ease the transition, this package will
- install all user related tasks from Debian-Astro.
-
-Package: science-astronomy-dev
-Section: metapackages
-Architecture: all
-Depends: science-tasks (= ${binary:Version}), science-config (= ${binary:Version})
-Recommends: astro-development
-Description: Debian Science Astronomy-dev transitional package
- Debian-Astro is now a separate Debian Pure Blend and allows a fine-grained
- control on the topics to install. To ease the transition, this package will
- install all development related tasks from Debian-Astro.
 
 Package: science-biology
 Section: metapackages
