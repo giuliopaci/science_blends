@@ -67,9 +67,6 @@ Description: Debian Science Project config package
  .
  These are the science related metapackages in the Debian Science project:
  .
-  * science-astronomy       packages related to astronomy
-  * science-astronomy-dev   packages related to development of
-                            astronomical applications
   * science-biology         packages related to biology
   * science-chemistry       packages related to chemistry
   * science-dataacquisition packages related to data acquisition
@@ -125,7 +122,6 @@ Description: Debian Science Project config package
   * science-statistics      packages related to statistics
   * science-tools           packages containing misc tools useful in science
   * science-typesetting     packages related to typesetting
-  * science-viewing         packages related to viewing
   * science-viewing         packages related to viewing
   * science-viewing-dev     packages related to development of viewing
                             applications
