@@ -1,5 +1,5 @@
 Task: debian-science
-Relevance: 9
+Relevance: 7
 Section: debian-science
 Description: Debian Science Pure Blend
  .
@@ -19,6 +19,7 @@ Description: Debian Science Brain-computer interface packages
  presentation, data collection and analysis software which could be
  found in science-neuroscience-cognitive, science-dataacquisition,
  data-machine-learning metapackages.
+Test-new-install: mark show
 
 Task: science-biology
 Parent: debian-science
@@ -33,6 +34,7 @@ Description: Debian Science Biology packages
  you are most probably interested in the Debian Med project which
  deals with biology and medicine in much more detail then the more
  general Debian Science.
+Test-new-install: mark show
 Key: 
  science-biology
 
@@ -44,6 +46,7 @@ Description: Debian Science Chemistry packages
  Chemistry.  You might also be interested in the field::chemistry
  debtag and, depending on your focus, in the education-chemistry
  metapackage.
+Test-new-install: mark show
 Key: 
  science-chemistry
 
@@ -54,6 +57,7 @@ Description: Debian Science data acquisition packages
  This metapackage will install Debian Science packages related to data
  acquisition.  This might be used in several sciences (as for instance
  science-viewing and science-typesetting).
+Test-new-install: mark show
 Key: 
  science-dataacquisition
 
@@ -64,6 +68,7 @@ Description: Debian Science data acquisition development packages
  This metapackage will install Debian Science packages which are helpful
  to develop applications related to data  acquisition.  This might be
  used in several sciences.
+Test-new-install: mark show
 Key: 
  science-dataacquisition-dev
 
@@ -77,6 +82,7 @@ Description: Debian Science specific devices support
  .
  Note that there is no according metapackage created since the packages
  might be to different to make sense to install all on one machine.
+Test-new-install: mark show
 
 Task: science-distributedcomputing
 Parent: debian-science
@@ -85,6 +91,7 @@ Description: Debian Science Distributed Computing packages
  This metapackage will install Debian Science packages useful for
  various types of distributed computing, such as grid-, cloud-, cluster-
  and parallel-computing.
+Test-new-install: mark show
 Key: 
  science-distributedcomputing
 
@@ -98,6 +105,7 @@ Description: Debian Science Economics packages
  environments which can solve a wide range of problems typically encountered in
  economic research. These environments provide functionalities similar to those
  of popular non-free systems (such as MATLAB, Mathematica, Stata or SAS).
+Test-new-install: mark show
 Key: 
  science-economics
 
@@ -109,6 +117,7 @@ Description: Debian Science Electronics packages
  Electronics.  You might also be interested in the field::electronics
  debtag and, depending on your focus, in the education-electronics
  metapackage.
+Test-new-install: mark show
 Key: 
  science-electronics
 
@@ -124,6 +133,7 @@ Description: Debian Science packages for Electrophysiology
  science-statistics, science-imageanalysis, science-numericalcomputation,
  med-imaging, and med-imaging-dev metapackages for a variety of additional
  software that might be useful for electrophysiology research.
+Test-new-install: mark show
 Key: 
  science-electrophysiology
 
@@ -137,6 +147,7 @@ Description: Debian Science Engineering packages
  Please note that there is an additional package engineering-dev
  which depends from packages which are useful to develop engineering
  related software.
+Test-new-install: mark show
 Key: 
  science-engineering
 
@@ -148,6 +159,7 @@ Description: Debian Science Engineering-dev packages
  helpful for development of applications for Engineering.
  .
  You might also be interested in the science-engineering metapackage.
+Test-new-install: mark show
 Key: 
  science-engineering-dev
 
@@ -157,6 +169,7 @@ Section: debian-science
 Description: Debian Science financial engineering and computational finance
  This metapackage will install Debian Science packages for financial
  engineering and computational finance.
+Test-new-install: mark show
 Key: 
  science-financial
 
@@ -168,6 +181,7 @@ Description: Debian Science Geography packages
  Geography.  You might also be interested in the field::geography
  debtag and, depending on your focus, in the education-geography
  metapackage.
+Test-new-install: mark show
 Key: 
  science-geography
 
@@ -179,6 +193,7 @@ Description: Debian Science geometry packages
  geometry.  You might also be interested in the field::mathematics
  debtag and, depending on your focus, in the education-mathematics
  metapackage.
+Test-new-install: mark show
 Key: 
  science-geometry
 
@@ -193,6 +208,7 @@ Description: Debian Science High Energy Physics packages
  .
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
+Test-new-install: mark show
 Key: 
  science-highenergy-physics
 
@@ -207,6 +223,7 @@ Description: Debian Science High Energy Physics development packages
  .
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
+Test-new-install: mark show
 Key: 
  science-highenergy-physics-dev
 
@@ -218,6 +235,7 @@ Description: Debian Science image analysis packages
  scientific image acquisition.  This might be used in several
  sciences (as for instance science-dataacquisition, science-viewing
  and science-typesetting).
+Test-new-install: mark show
 Key: 
  science-imageanalysis
 
@@ -227,6 +245,7 @@ Section: debian-science
 Description: Debian Science development of image analysis applications
  This metapackage will install Debian Science development libraries to
  develop scientific image analysis applications acquisitions.
+Test-new-install: mark show
 Key: 
  science-imageanalysis-dev
 
@@ -236,6 +255,7 @@ Section: debian-science
 Description: Debian Science Linguistics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Linguistics.
+Test-new-install: mark show
 Key: 
  science-linguistics
 
@@ -247,6 +267,7 @@ Description: Debian Science Logic packages
  and installs packages related to Computational Logic.  It contains
  formula transformation tools, solvers for formulas specified in
  various logics, interactive proof systems, etc.
+Test-new-install: mark show
 Key: 
  science-logic
 
@@ -258,6 +279,7 @@ Description: Debian Science Machine Learning packages
  scientists interested in machine learning.  Included packages range
  from knowledge-based (expert) inference systems to software
  implementing dominant nowadays statistical methods.
+Test-new-install: mark show
 Key: 
  science-machine-learning
 
@@ -269,6 +291,7 @@ Description: Debian Science Mathematics packages
  Mathematics.  You might also be interested in the field::mathematics
  debtag and, depending on your focus, in the education-mathematics
  metapackage.
+Test-new-install: mark show
 Key: 
  science-mathematics
 
@@ -280,6 +303,7 @@ Description: Debian Science Mathematics-dev packages
  helpful for development of applications for Mathematics.
  .
  You might also be interested in the science-mathematics metapackage.
+Test-new-install: mark show
 Key: 
  science-mathematics-dev
 
@@ -289,6 +313,7 @@ Section: debian-science
 Description: Debian Science Meteorology packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Meteorology and Climate.
+Test-new-install: mark show
 Key: 
  science-meteorology
 
@@ -300,6 +325,7 @@ Description: Debian Science Meteorology-dev packages
  helpful for development of applications for Meteorology and Climate.
  .
  You might also be interested in the science-meteorology metapackage.
+Test-new-install: mark show
 Key: 
  science-meteorology-dev
 
@@ -324,6 +350,7 @@ Description: Debian Science Nanoscale Physics packages
  .
  You might also be interested in the debtag field::physics and, depending on
  your focus, in the physics and education-physics metapackages.
+Test-new-install: mark show
 Key: 
  science-nanoscale-physics
 
@@ -337,6 +364,7 @@ Description: Debian Science Nanoscale Physics development packages
  You might also be interested in the debtag field::physics and, depending
  on your focus, in the nanoscale-physics, physics and education-physics
  metapackages.
+Test-new-install: mark show
 Key: 
  science-nanoscale-physics-dev
 
@@ -355,6 +383,7 @@ Description: Debian Science packages for Cognitive Neuroscience
  science-imageanalysis, science-numericalcomputation, med-imaging, and
  med-imaging-dev metapackages for a variety of additional software that
  might be useful in the context of cognitive neuroscience.
+Test-new-install: mark show
 Key: 
  science-neuroscience-cognitive
 
@@ -372,6 +401,7 @@ Description: Debian Science packages for modeling of neural systems
  science-numericalcomputation, med-imaging, and med-imaging-dev
  metapackages for a variety of additional software that might be
  useful for neuroscience research.
+Test-new-install: mark show
 Key: 
  science-neuroscience-modeling
 
@@ -384,6 +414,7 @@ Description: Debian Science Numerical Computation packages
  calculation and visualisation system for scientific computing and
  data analysis. These packages are similar to commercial systems such
  as Matlab and IDL.
+Test-new-install: mark show
 Key: 
  science-numericalcomputation
 
@@ -394,6 +425,7 @@ Description: Debian Science Physics packages
  This metapackage will install Debian Science packages related to Physics.
  You might also be interested in the debtag field::physics and, depending on
  your focus, in education-physics metapackage.
+Test-new-install: mark show
 Key: 
  science-physics
 
@@ -405,6 +437,7 @@ Description: Debian Science Physics-dev packages
  helpful for development of applications for Mathematics.
  .
  You might also be interested in the science-physics metapackage.
+Test-new-install: mark show
 Key: 
  science-physics-dev
 
@@ -414,6 +447,7 @@ Section: debian-science
 Description: Debian Science generic tools for presentations
  This metapackage will install Debian Science some packages which are
  useful for doing presentations for instance on scientific conferences.
+Test-new-install: mark show
 Key: 
  science-presentation
 
@@ -431,6 +465,7 @@ Description: Debian Science packages for Psychophysics
  domain of application.  Additionally look into
  science-bci since those often provide a complete loop
  frameworks including stimuli delivery.
+Test-new-install: mark show
 Key: 
  science-psychophysics
 
@@ -442,6 +477,7 @@ Description: Debian Robotics packages
  and installs packages related to Robotics.
  .
  You might also be interested in the science-engineering metapackage.
+Test-new-install: mark show
 Key: 
  science-robotics
 
@@ -452,6 +488,7 @@ Description: Debian Robotics development packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages that are relevant to develop applications
  for robotics.
+Test-new-install: mark show
 Key: 
  science-robotics-dev
 
@@ -461,6 +498,7 @@ Section: debian-science
 Description: Debian Science Simulation packages
  This metapackage will install Debian Science packages that are
  used to do simulations in different fields of science.
+Test-new-install: mark show
 Key: 
  science-simulations
 
@@ -470,6 +508,7 @@ Section: debian-science
 Description: Debian Science social sciences packages
  This metapackage will install Debian Science packages useful for social
  sciences.
+Test-new-install: mark show
 Key: 
  science-social
 
@@ -483,6 +522,7 @@ Description: Debian Science Statistics packages
  a lot of R packages as well as from other tools which are useful to
  do statistics.  Moreover the Science Mathematics task is suggested
  to optionally install all mathematics related software.
+Test-new-install: mark show
 Key: 
  science-statistics
 
@@ -495,6 +535,7 @@ Description: Debian Science generic tools for scientific work
  .
  Note that there is no according metapackage created since the packages
  might be to different to make sense to install all on one machine.
+Test-new-install: mark show
 
 Task: science-typesetting
 Parent: debian-science
@@ -503,6 +544,7 @@ Description: Debian Science typesetting packages
  This metapackage will install Debian Science packages related to
  typesetting.  You might also be interested in the use::typesetting
  debtag.
+Test-new-install: mark show
 Key: 
  science-typesetting
 
@@ -513,6 +555,7 @@ Description: Debian Science data visualisation packages
  This metapackage will install Debian Science packages related to data
  visualization. You might also be interested in the use::viewing
  debtag.
+Test-new-install: mark show
 Key: 
  science-viewing
 
@@ -522,6 +565,7 @@ Section: debian-science
 Description: Debian Science development of visualisation applications
  This metapackage will install Debian Science packages related to the
  development of applications to visualise scientific data.
+Test-new-install: mark show
 Key: 
  science-viewing-dev
 

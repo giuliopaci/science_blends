@@ -1,4 +1,4 @@
-debian-science (1.5) UNRELEASED; urgency=medium
+debian-science (1.5) unstable; urgency=medium
 
   [ Ole Streicher ]
   * Replace astronomy and astronomy-dev packages with the metapackages
@@ -216,7 +216,7 @@ debian-science (1.5) UNRELEASED; urgency=medium
   * New metapackages:
    -science-imageanalysis-dev
 
- -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 21:41:40 +0200
+ -- Andreas Tille <tille@debian.org>  Sun, 10 Apr 2016 09:44:18 +0200
 
 debian-science (1.4) unstable; urgency=medium
 
