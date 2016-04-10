@@ -23,7 +23,6 @@ Description: Debian Science tasks for tasksel
  which are provided by Debian Science will be added to the tasksel menu.
 
 Package: science-astronomy
-Priority: extra
 Section: oldlibs
 Architecture: all
 Depends: astro-catalogs,
@@ -44,7 +43,6 @@ Description: Debian Science Astronomy transitional package
  install all user related tasks from Debian-Astro.
 
 Package: science-astronomy-dev
-Priority: extra
 Section: oldlibs
 Architecture: all
 Depends: astro-development,
