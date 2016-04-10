@@ -17,6 +17,141 @@ debian-science (1.5) UNRELEASED; urgency=medium
   [ Sylvestre Ledru ]
   * Remove myself from the uploaders
 
+  * start of automatic changelog entry * 
+  
+  * Changes in metapackage dependencies
+   -science-neuroscience-cognitive
+    added:
+      Depends:  nifti2dicom, qnifti2dicom
+   -science-economics
+    added:
+      Depends:  r-cran-ecdat, r-cran-rsdmx, python-quantecon, r-other-gecon, r-other-bmr, r-cran-vars, recs, x13-arima-seats, minsky
+      Suggests:  science-social
+    removed:
+      Depends:  qtoctave
+   -science-robotics
+    added:
+      Depends:  roslang, python-roscreate, python-rosunit, ros-mk, rosbuild, python-rosmake, python-rosclean, gazebo5, rosbash
+      Suggests:  gnuplot | gnuplot5
+    removed:
+      Depends:  ros, gazebo
+      Suggests:  octovis, gnuplot
+   -science-robotics-dev
+    added:
+      Depends:  libgazebo5-dev, libsimbody-dev, libignition-math2-dev, libignition-transport-dev
+   -science-simulations
+    added:
+      Depends:  python3-woo | python-woo, calculix-ccx, python-sfepy, pysph, libceres-dev
+      Suggests:  ceres-solver-doc, libopensurgsim-dev
+   -science-viewing-dev
+    added:
+      Depends:  python-gnuplotlib
+   -science-tools
+    added:
+      Depends:  cwltool, snakemake, python-h5py | python3-h5py, python-hdf5storage | python3-hdf5storage
+      Suggests:  libmemtailor-dev
+   -science-linguistics
+    added:
+      Depends:  apertium-lex-tools, cg3, libcld2-dev
+      Suggests:  apertium-en-ca, apertium-dan, apertium-es-pt, apertium-dan-nor, apertium-cat, apertium-fra, apertium-nno, apertium-fra-cat, apertium-br-fr, apertium-eu-es, apertium-fr-ca, apertium-en-es, apertium-oc-ca, apertium-pt-gl, apertium-swe-dan, apertium-af-nl, apertium-fr-es, apertium-apy, apertium-nob, apertium-eo-ca, apertium-pt-ca, apertium-nno-nob, apertium-es-gl, libcg3-dev, apertium-swe, apertium-es-ro, apertium-eo-es, apertium-oc-es, apertium-cy-en, apertium-es-ca
+   -science-statistics
+    added:
+      Depends:  apophenia-bin, r-cran-contfrac, r-cran-coin, r-cran-logspline, r-cran-hypergeo, r-cran-conting, r-cran-bayesfactor, r-cran-rsdmx, r-cran-modeltools, r-cran-vcdextra, r-cran-desolve, r-cran-elliptic, r-cran-rinside, r-cran-estimability, r-cran-afex, r-cran-bms, r-cran-pbivnorm, r-cran-lsmeans, r-cran-pbapply
+      Suggests:  r-cran-fastmatch, r-cran-r.utils, r-cran-blockmodeling, r-cran-futile.logger, r-cran-nnls, r-cran-catools, r-cran-lambda.r, libapophenia2-dev, r-cran-futile.options, r-cran-r.oo, r-cran-igraph, r-cran-magrittr
+   -science-imageanalysis
+    added:
+      Depends:  python-imageio, limereg
+    removed:
+      Depends:  libcv-dev
+      Suggests:  libsimage-dev, libvigraimpex-dev, python-vigra, libvlfeat-dev, cimg-dev, libvisad-java
+   -science-machine-learning
+    added:
+      Suggests:  libdlib-dev
+    removed:
+      Depends:  python-pyke
+   -science-mathematics-dev
+    added:
+      Depends:  libplb-dev, libmathic-dev, libfrobby-dev, libnauty2-dev, python-dtcwt | python3-dtcwt, python-cylp, libprimesieve5-dev, python-pyfftw | python3-pyfftw, libsymmetrica2-dev, libmpfi-dev, libecm-dev, libqsopt-ex-dev, libmathicgb-dev
+      Suggests:  libtestu01-0-dev, jsurf-alggeo
+    removed:
+      Suggests:  libnauty-dev, libntl-dev, libcliquer-dev
+   -science-highenergy-physics-dev
+    added:
+      Suggests:  ckon
+   -science-mathematics
+    added:
+      Depends:  mathicgb, singular, surf-alggeo, qsopt-ex, normaliz, graphviz, frobby, geneagrapher, auto-07p, 4ti2
+      Recommends:  gap-openmath, gap-grape
+      Suggests:  gap-io, gmp-ecm, gap-scscp, primesieve
+    removed:
+      Suggests:  cliquer
+   -science-electronics
+    added:
+      Depends:  fpga-icestorm, arachne-pnr, graywolf
+   -science-numericalcomputation
+    added:
+      Depends:  python3-woo | python-woo, python-sfepy, geneva, libopengm-dev, libceres-dev, iep, qsopt-ex, easea, libclblas-dev, calculix-ccx, libarrayfire-unified-dev, pysph, python-bitstring | python3-bitstring, python-arrayfire | python3-arrayfire, libcompute-dev, libqsopt-ex-dev, libclfft-dev
+      Suggests:  ceres-solver-doc
+   -science-typesetting
+    added:
+      Depends:  gummi
+   -science-engineering-dev
+    added:
+      Depends:  libplb-dev, python-pynfft | python3-pynfft, libsis-jhdf5-java, libceres-dev
+      Suggests:  ceres-solver-doc, calculix-ccx-test, calculix-ccx-doc
+    removed:
+      Depends:  python-nfft3 | python3-nfft3
+   -science-viewing
+    added:
+      Depends:  python-matplotlib-venn | python3-matplotlib-venn, gnuplot | gnuplot5
+      Suggests:  r-cran-vioplot
+    removed:
+      Depends:  gnuplot
+   -science-astronomy-dev
+    added:
+      Depends:  astro-java, astro-development, astro-python, astro-python3, astro-tcltk
+    removed:
+      Depends:  libnova-dev, python-pyfits, libgyoto1-dev, libstarlink-pal-dev, python-healpy, python-astropy-legacy, libcfitsio3-dev, libastro-fits-cfitsio-perl, libwcstools-dev, liberfa-dev, tcl-fitstcl, libcpl-dev, libivoafits-java, python-pywcs, libccfits-dev, slang-cfitsio, libfits-java, python-cpl, libchealpix-dev, libstarlink-ast-dev, libhealipx-cxx-dev, libworldwind-java, casacore-dev, libqfits-dev, wcslib-dev
+   -science-astronomy
+    added:
+      Depends:  astro-catalogs, astro-gdl, astro-viewers, astro-education, astro-tools, astro-python, astro-datareduction, astro-publication, astro-python3, astro-frameworks, astro-telescopecontrol, astro-simulation
+    removed:
+      Depends:  gpredict, predict, sncosmo, gliese, python-pyfits, astronomical-almanac, boinc-app-seti, seesat5, eso-midas, audela, x11iraf, yorick-full, boinc-app-milkyway, worldwind, python3-pyfits, celestia, xplanet-images, lightspeed, splash, xorsa, savi, wcslib-tools, gcx, orbfit, sextractor, ftools-fv, astroquery, linoccult, kstars, python3-astropy, xplanet, casacore-tools, python-pywcs, iraf, fitscheck, xephem, python-cpl, spacechart, openuniverse, fitsverify, ssystem, wxastrocapture, saods9, qfits-tools, python-astropy, wcstools, xpa-tools, astroml, starplot, lynkeos.app, skycat, stellarium, python-pyds9, yale, funtools, python-pyraf, esorex, stardata-common, gyoto
+      Suggests:  cpl-plugin-uves, yorick-cubeview, cpl-plugin-fors, pgplot5, cpl-plugin-xsh, cpl-plugin-giraf, yorick-spydr, xtide, xtide-data, cpl-plugin-hawki, python-scientific, yorick-yao, stars, sunclock, scilab-celestlab, cpl-plugin-amber, cpl-plugin-kmos, yorick-gyoto, cpl-plugin-vimos, cpl-plugin-sinfo, pdl, yorick-mira, scilab-scimysql, scilab-overload, yorick-svipc, python-healpy
+      Ignore:  gstar
+   -science-physics-dev
+    added:
+      Depends:  libplb-dev, libasl-dev, python-pyfftw | python3-pyfftw
+    removed:
+      Depends:  libismrmrd-dev
+   -science-distributedcomputing
+    added:
+      Depends:  python-scoop
+   -science-nanoscale-physics-dev
+    added:
+      Depends:  wannier90-1-dev, libpspio-dev, libclipper-dev, libsis-jhdf5-java
+      Recommends:  libhdf5-dev
+      Suggests:  python-h5py
+    removed:
+      Depends:  libfox95, libxc, fftw-dev, libnbc, libtrilinos-dev, libpspio, sfftw-dev, wannier90-dev, libtrilinos-doc
+   -science-physics
+    added:
+      Depends:  gpaw
+   -science-engineering
+    added:
+      Depends:  calculix-ccx
+   -science-nanoscale-physics
+    added:
+      Depends:  libxc, scilab-sivp, liblevmar-2-6, gnuplot | gnuplot5, scilab, wannier90-2, wannier90-1
+      Recommends:  ncview, nco
+      Suggests:  pymca, libgraphviz-perl, hdf5-helpers, python-pygraphviz, openmpi-doc | mpich-doc, netcdf-doc, maxima, dxsamples, axiom, hdf5-tools
+    removed:
+      Depends:  wannier90, gnuplot, pymca, crystfel, espresso++, nco, netcdf-doc, ncview
+      Recommends:  axiom, maxima
+      Suggests:  openmpi-doc | mpich-doc | lam-mpidoc, scilab-sivp, gmsh
+  * New metapackages:
+   -science-imageanalysis-dev
+
  -- Andreas Tille <tille@debian.org>  Sun, 29 Mar 2015 21:41:40 +0200
 
 debian-science (1.4) unstable; urgency=medium
