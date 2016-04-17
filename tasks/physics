@@ -199,3 +199,5 @@ X-Suggests: root-plugin-fftw3, libroot-mathmore5.18
 
 Depends: fdmnes
 Pkg-URL: http://people.debian.org/~tille/packages/fdmnes/
+
+Depends: pyfr
