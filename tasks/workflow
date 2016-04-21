@@ -1,0 +1,12 @@
+Task: Workflow
+Description: workflow management systems useful for scientific research
+ This task lists some packages providing workflow management
+ systems useful for scientific research.
+
+Depends: make
+
+Depends: pegasus-wms
+
+Depends: snakemake
+
+Depends: cwltool
