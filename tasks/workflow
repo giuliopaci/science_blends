@@ -10,3 +10,7 @@ Depends: pegasus-wms
 Depends: snakemake
 
 Depends: cwltool
+
+Depends: coop-computing-tools
+
+Depends: python-nipype
