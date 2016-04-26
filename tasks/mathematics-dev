@@ -106,7 +106,7 @@ Depends: libsuitesparse-dev, libsuitesparse-metis-dev
 
 Depends: libparmetis-dev
 
-Depends: ufc, python-ufc, python-ffc
+Depends: python-ffc
 
 Depends: python-ufl
 
@@ -205,8 +205,6 @@ Depends: libann-dev, libflann-dev
 Depends: libdouble-conversion-dev
 
 Depends: libfeel++-dev
-
-Depends: python-ferari
 
 Depends: python-pynfft | python3-pynfft
 

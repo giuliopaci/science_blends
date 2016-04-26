@@ -76,8 +76,6 @@ Depends: mathgl
 
 Depends: udav
 
-Depends: python-viper
-
 Suggests: python-matplotlib, python-scitools
 
 Depends: matlab2tikz

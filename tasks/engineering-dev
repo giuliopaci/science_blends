@@ -70,8 +70,6 @@ Depends: libnetcdf-dev, python-netcdf, r-cran-rnetcdf
 
 Depends: libnetcdf-java
 
-Depends: syfi-dev
-
 Depends: libmesh-dev
 
 Depends: libnfft3-dev
