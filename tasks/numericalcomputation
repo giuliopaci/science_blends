@@ -150,3 +150,5 @@ Depends: qsopt-ex, libqsopt-ex-dev
 Depends: libarrayfire-unified-dev
 
 Depends: python-arrayfire | python3-arrayfire
+
+Depends: pyzo
