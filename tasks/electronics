@@ -1,4 +1,5 @@
 Task: Electronics
+Install: false
 Description: Debian Science Electronics packages
  This metapackage will install Debian Science packages related to
  Electronics.  You might also be interested in the field::electronics

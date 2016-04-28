@@ -1,4 +1,5 @@
 Task: Chemistry
+Install: false
 Description: Debian Science Chemistry packages
  This metapackage will install Debian Science packages related to
  Chemistry.  You might also be interested in the field::chemistry

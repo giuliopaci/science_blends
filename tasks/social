@@ -1,4 +1,5 @@
 Task: Social
+Install: false
 Description: Debian Science social sciences packages
  This metapackage will install Debian Science packages useful for social
  sciences.

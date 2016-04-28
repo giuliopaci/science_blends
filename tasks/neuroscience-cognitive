@@ -1,4 +1,5 @@
 Task: Cognitive Neuroscience
+Install: false
 Description: Debian Science packages for Cognitive Neuroscience
  This metapackage will install Debian packages which might be useful for
  scientists doing cognitive neuroscience research. This comprises the full

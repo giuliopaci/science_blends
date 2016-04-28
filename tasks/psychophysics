@@ -1,4 +1,5 @@
 Task: Psychophysics
+Install: false
 Description: Debian Science packages for Psychophysics
  This metapackage will install Debian packages which might be useful for
  carrying out any experiment relating physical stimuli and their

@@ -1,4 +1,5 @@
 Task: Logic
+Install: false
 Description: Debian Science Logic packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Computational Logic.  It contains

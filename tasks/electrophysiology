@@ -1,4 +1,5 @@
 Task: Electrophysiology
+Install: false
 Description: Debian Science packages for Electrophysiology
  This metapackage will install Debian packages which might be useful for
  scientists doing electrophysiology-based neuroscience research.

@@ -1,4 +1,5 @@
 Task: Biology
+Install: false
 Description: Debian Science Biology packages
  This metapackage will install Debian Science packages related to
  Biology.  You might also be interested in the field::biology debtag.

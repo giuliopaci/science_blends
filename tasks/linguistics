@@ -1,4 +1,5 @@
 Task: Linguistics
+Install: false
 Description: Debian Science Linguistics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Linguistics.

@@ -1,4 +1,5 @@
 Task: Meteorology
+Install: false
 Description: Debian Science Meteorology packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Meteorology and Climate.

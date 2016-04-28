@@ -1,4 +1,5 @@
 Task: High Energy Physics (devel)
+Install: false
 Description: Debian Science High Energy Physics development packages
  This metapackage will install Debian Science packages related to development
  of High Energy Physics applications, which is a branch of physics that studies

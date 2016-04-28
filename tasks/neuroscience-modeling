@@ -1,4 +1,5 @@
 Task: Modeling of neural systems
+Install: false
 Description: Debian Science packages for modeling of neural systems
  This metapackage will install Debian packages which might be useful for
  scientists interested in modeling of real neural systems at different

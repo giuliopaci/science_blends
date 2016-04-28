@@ -1,4 +1,5 @@
 Task: Nanoscale Physics
+Install: false
 Description: Debian Science Nanoscale Physics packages
  This metapackage will install Debian Science packages related to
  Nanoscale Physics, which corresponds to the study of physical systems

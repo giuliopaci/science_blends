@@ -1,4 +1,5 @@
 Task: Robotics
+Install: false
 Description: Debian Robotics packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Robotics.

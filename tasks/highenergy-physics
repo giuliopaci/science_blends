@@ -1,4 +1,5 @@
 Task: High Energy Physics
+Install: false
 Description: Debian Science High Energy Physics packages
  This metapackage will install Debian Science packages related to High Energy
  Physics, which is a branch of physics that studies the elementary subatomic

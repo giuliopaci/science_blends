@@ -1,4 +1,5 @@
 Task: Financial engineering
+Install: false
 Description: Debian Science financial engineering and computational finance
  This metapackage will install Debian Science packages for financial
  engineering and computational finance.

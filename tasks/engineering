@@ -1,4 +1,5 @@
 Task: Engineering
+Install: false
 Description: Debian Science Engineering packages
  This metapackage is part of the Debian Pure Blend "Debian Science"
  and installs packages related to Engineering.

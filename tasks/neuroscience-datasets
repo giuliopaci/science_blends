@@ -1,4 +1,5 @@
 Task: Neuroscience Datasets
+Install: false
 Description: Debian Science packages for Neuroscience Datasets
  This metapackage will install Debian packages that provide neuroscientific
  datasets. These datasets can be useful as common data files for applications
