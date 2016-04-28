@@ -152,3 +152,5 @@ Depends: libarrayfire-unified-dev
 Depends: python-arrayfire | python3-arrayfire
 
 Depends: pyzo
+
+Depends: gnudatalanguage
