@@ -10,6 +10,8 @@ Depends: apertium, apertium-lex-tools, link-grammar
 
 Depends: artha
 
+Depends: irstlm
+
 Depends: sequitur-g2p
 
 Suggests: phonetisaurus
