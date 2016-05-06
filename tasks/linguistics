@@ -14,6 +14,8 @@ Depends: irstlm
 
 Suggests: mitlm
 
+Suggests: opengrm-ngram
+
 Depends: sequitur-g2p
 
 Suggests: phonetisaurus
