@@ -30,6 +30,8 @@ Suggests: praat
 
 Suggests: sctk
 
+Suggests: yamcha
+
 Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
 
 Suggests: libticcutils2-dev
