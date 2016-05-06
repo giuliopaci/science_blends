@@ -12,6 +12,8 @@ Depends: artha
 
 Depends: sequitur-g2p
 
+Suggests: phonetisaurus
+
 Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
 
 Suggests: libticcutils2-dev
