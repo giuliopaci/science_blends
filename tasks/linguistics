@@ -20,6 +20,8 @@ Suggests: transcriber
 
 Suggests: wavesurfer
 
+Suggests: praat
+
 Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
 
 Suggests: libticcutils2-dev
