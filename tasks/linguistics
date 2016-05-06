@@ -12,6 +12,8 @@ Depends: artha
 
 Depends: irstlm
 
+Suggests: mitlm
+
 Depends: sequitur-g2p
 
 Suggests: phonetisaurus
