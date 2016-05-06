@@ -28,6 +28,8 @@ Suggests: wavesurfer
 
 Suggests: praat
 
+Suggests: sctk
+
 Depends: timbl, timblserver, mbt, mbtserver, ucto, dimbl, frog
 
 Suggests: libticcutils2-dev
